@@ -7,8 +7,11 @@ and chart generation are future milestones. No music or model weights are includ
 ## Setup
 
 Python 3.11–3.12 and [uv](https://docs.astral.sh/uv/getting-started/installation/).
-Native Windows Python 3.12 is the validated bootstrap environment. WSL Ubuntu is
-an optional future ML environment; do not use docker-desktop as a development distro.
+Native Windows is the primary environment for development, tests and future chart
+generation in this stage. Python 3.12.0 is validated here. CPU is the minimum target;
+CUDA/GPU is optional acceleration. Linux/WSL may be supported later but is never
+required. This college PC cannot install WSL Ubuntu: do not use docker-desktop,
+Docker workarounds or administrative policy changes. See [environment](docs/environment.md).
 
 ```text
 uv --cache-dir .uv-cache sync --locked
@@ -22,7 +25,8 @@ use `.\.tools\bin\uv.exe` in place of `uv`. To reproduce that local tool install
 `py -3.12 -m pip install --target .tools uv==0.12.13`.
 The committed lock pins development dependencies; the core has no runtime packages.
 
-Doctor checks runtime, OS/WSL, CPU count, physical RAM, ffmpeg, PyTorch/CUDA,
+Doctor distinguishes Windows, native Linux and WSL; it reports CPU and CUDA as
+separate checks. Missing CUDA is not an error. It also checks RAM, ffmpeg, PyTorch,
 optional backend discovery and write access. Use `--write-dir PATH` to probe an
 existing output directory, and `--model-path PATH` for a local checkpoint presence
 check. No models are downloaded. Missing optional components produce warnings;

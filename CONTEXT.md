@@ -53,7 +53,7 @@ The canonical `DrumHit` model is the boundary between machine-learning/audio inf
 2. **CLI-first** to validate the pipeline before any GUI.
 3. **uv** preferred for reproducible Python project/dependency management.
 4. **No Rust initially**; optimize only after profiling.
-5. **No web API/database/Docker initially** without a demonstrated need.
+5. No web API/database initially; do not use Docker as an environment workaround.
 6. Preserve raw onset timestamps before optional quantization.
 7. Keep source-separation and transcription backends replaceable.
 8. Keep Clone Hero mapping isolated from ML/transcription internals.
@@ -97,6 +97,16 @@ Success means:
 
 ## Current phase
 
+Native Windows is the primary environment for this stage, including development,
+tests and future chart generation. CPU is the minimum supported execution target;
+CUDA/GPU is optional acceleration and its absence is not an error. Linux/WSL must
+remain supportable later, never required. Do not install WSL, use docker-desktop,
+introduce Docker workarounds or modify this college PC's administrative policies.
+
+Validated host: Windows 10, PowerShell 7.4.13, Python 3.12.0, uv 0.12.13, VS Code,
+4 logical CPUs, 15.9 GiB RAM, Intel HD Graphics 630, no NVIDIA/CUDA. WSL contains
+only docker-desktop and must not be used. See docs/environment.md.
+
 **Phase 0 — Research & Bootstrap completed (2026-09-10).**
 
 See `BACKLOG.md` for task status and `docs/phase-0-verification.md` for evidence.
@@ -112,10 +122,10 @@ CLI: drumforge. BACKLOG.md is canonical; docs/backlog.md is only a status summar
 
 ML remains optional and uninstalled. ADTOF code/checkpoint terms and exact backend
 compatibility are unresolved; a local research audit does not authorize redistribution.
-The next smallest milestone is an isolated CPU dependency/checkpoint readiness
-spike toward DCF-100 through DCF-122. Pin source and checkpoint identity, explicitly
-reject missing weights, disclose downloads, and establish a short reproducible
-test before processing Turn to Ashes. Do not jump to canonical/exporter phases.
+Before DCF-100 onward, perform a Windows/Python 3.12 CPU compatibility audit of
+dependencies and checkpoints. Do not implement Phase 1 in that audit. Distinguish
+wheel/source compatibility evidence from actual inference validation. Await the
+user's next instruction before starting implementation.
 
 ## Do not do yet
 

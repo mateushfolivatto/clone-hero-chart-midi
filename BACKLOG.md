@@ -82,6 +82,12 @@ Research completion records unresolved model licensing and runtime risks; it doe
 not imply model installation or redistribution clearance. Read `lessons.md` with
 this backlog. Phase 1 remains unstarted.
 
+Windows-primary follow-up: DCF-013–019 and DCF-037–042 revalidated with 15 tests.
+See `docs/environment.md` and `docs/phase-0-verification.md`. Windows/Python 3.12
+CPU is mandatory for this stage; WSL/Linux is optional, CUDA is optional, and
+Docker/administrative workarounds are prohibited. Perform only the compatibility
+investigation before DCF-100; implementation awaits the user's next instruction.
+
 ## Phase 1 — Audio → Drum MIDI Spike
 
 ### Audio handling

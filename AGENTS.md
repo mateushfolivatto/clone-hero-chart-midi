@@ -15,6 +15,11 @@ Use Python, uv, small modules and isolated audio/ML/export boundaries. Never
 download models implicitly, commit private audio, copy unreviewed upstream code,
 or equate wrapper and checkpoint licenses. CPU operation is required.
 
+Native Windows/Python 3.12 is primary for this stage: development, tests and future
+chart generation. Linux/WSL is optional future portability, never a prerequisite.
+Do not install WSL, use docker-desktop, introduce Docker workarounds or modify
+administrative policies. CUDA is optional acceleration; absence is not an error.
+
 Run the configured quality gates in docs/testing.md, inspect generated artifacts,
 update status and lessons, and provide a complete next-session prompt.
 Do not claim game compatibility until the user has actually scanned/played a chart.

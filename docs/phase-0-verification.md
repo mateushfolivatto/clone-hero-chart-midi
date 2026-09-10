@@ -37,3 +37,20 @@ No ML dependencies or checkpoints downloaded. No transcription, game scan,
 playability check or phase after Phase 0 claimed. The initial delivery was local
 and uncommitted. The subsequent user instruction requires closing Phase 0 through
 chore/phase-0-bootstrap, a commit and a merge into main; see Git history for hashes.
+
+## Windows-primary update — 2026-09-10
+
+Revalidated natively on the same Python 3.12 CPU host. Windows is now primary for
+the entire current stage; WSL/Linux remains optional future portability. The user
+prohibits WSL installation, Docker workarounds and administrative policy changes.
+See environment.md for the code/path/subprocess audit.
+
+Doctor now emits separate platform, CPU, PyTorch and CUDA checks. Windows, native
+Linux and WSL are distinguishable. Unavailable CUDA is an ok optional capability;
+a missing/broken torch probe explicitly leaves GPU hardware unverified.
+
+Updated gates: 15 pytest tests passed; Ruff lint/format and strict mypy passed;
+help and both doctor outputs ran; lock validation and build passed. Wheel/sdist
+inspection and git diff --check passed. The original optional-tool and cache-location
+warnings still apply; no ML runtime, weights, WSL or Docker installed or used.
+Branch: chore/phase-0-bootstrap. Commit and merge are recorded in Git history.

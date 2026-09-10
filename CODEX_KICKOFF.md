@@ -26,11 +26,8 @@ The first real end-to-end validation song is:
 
 The application should eventually support a command conceptually similar to:
 
-```bash
-drumforge generate "/path/to/song.mp3" \
-  --title "Turn to Ashes" \
-  --artist "Kevin Sherwood" \
-  --output "./out"
+```powershell
+drumforge generate '.\audio\song.mp3' --title 'Turn to Ashes' --artist 'Kevin Sherwood' --output '.\out'
 ```
 
 Expected result:
@@ -115,18 +112,23 @@ The milestone succeeds if:
 
 ## 4. Environment
 
-Primary development environment:
+Primary development environment (updated by the user's college-PC constraint):
 
-- Windows host
-- WSL Ubuntu
-- VS Code Remote / WSL
+- Native Windows 10, PowerShell 7.4.13
+- VS Code, Python 3.12.0, uv 0.12.13
+- CPU baseline: 4 logical CPUs, 15.9 GiB RAM, Intel HD Graphics 630
+- CUDA/GPU optional; no NVIDIA/CUDA on this host
 - Git + GitHub
 - Python
 - `uv` preferred for Python dependency/project management
 
 Prefer Python for the first implementation because the relevant MIR/audio/ML ecosystem is Python-centric.
 
-Do not introduce Rust, a web API, Docker, frontend frameworks, databases, or distributed infrastructure unless a demonstrated requirement appears later.
+Windows is primary for development, execution, testing and future chart generation.
+Linux/WSL must remain supportable later but is never required. Do not install WSL
+Ubuntu, use the existing docker-desktop distro, introduce Docker workarounds or
+modify administrative policies. Do not introduce Rust, a web API, frontend
+frameworks, databases or distributed infrastructure without a demonstrated need.
 
 CLI-first.
 
@@ -725,7 +727,7 @@ Do **not** attempt to fully transcribe Turn to Ashes during the bootstrap sessio
 - No premature GUI.
 - No web server.
 - No database.
-- No Docker unless an actual environment blocker justifies it.
+- No Docker workarounds; no WSL installation or administrative policy changes.
 - No Rust until profiling proves Python is a bottleneck.
 - No copyrighted audio in Git.
 - Never silently download very large models without explaining size/source.

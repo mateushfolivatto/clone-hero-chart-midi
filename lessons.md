@@ -40,3 +40,11 @@ finding. This file supplements the backlog; it does not redefine task completion
     Carry those existing changes onto a dedicated branch, and for future work
     create the branch first. Verify branch name before edits and commit/merge
     history plus working-tree status before reporting a phase as delivered.
+11. **Portability is not a WSL requirement.** The college PC cannot install WSL
+    Ubuntu; Windows/Python 3.12 CPU is primary for this stage. Remove stale WSL
+    fallback instructions from active documentation. Never propose Docker or policy
+    changes to hide a Windows dependency failure. Verify native gates and distinguish
+    wheel availability, source compatibility and actual inference results.
+12. **Missing CUDA is not a failed CPU environment.** Report platform, CPU,
+    PyTorch and CUDA separately. Missing/broken PyTorch leaves hardware unverified;
+    it does not prove that a GPU is absent. Test CPU-only and unavailable probes.

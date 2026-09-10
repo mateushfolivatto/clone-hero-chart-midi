@@ -26,8 +26,9 @@ is the initial project range. Upstream lower-bound declarations do not establish
 that every transitive dependency has Windows/3.12 wheels. Original ADTOF reports
 testing Python 3.10 on macOS. The integrated wrapper's Essentia and transitive
 audio stack require wheel/platform/license investigation before installation.
-Proposed fallback experiment: isolated Python 3.11 in WSL Ubuntu, if native
-Windows backend resolution fails. No Ubuntu installation is currently verified.
+The earlier WSL fallback proposal is superseded by the user's college-PC constraint.
+Use Windows/Python 3.12 CPU. Report incompatible backends explicitly; do not use
+Docker, install WSL Ubuntu or change administrative policies to hide incompatibility.
 
 ## Decisions
 
