@@ -30,6 +30,11 @@ def is_wsl() -> bool:
     )
 
 
+def environment_name() -> str:
+    """Distinguish WSL from native Linux without invoking wsl.exe."""
+    return "WSL (Linux on Windows)" if is_wsl() else platform.system()
+
+
 def total_ram_bytes() -> int | None:
     """Return physical memory without user, host, serial or network identifiers."""
     try:
@@ -81,12 +86,12 @@ def command_version(name: str) -> Check:
         return {"name": name, "status": "warning", "detail": type(exc).__name__}
 
 
-def torch_check() -> Check:
+def torch_checks() -> list[Check]:
     # A subprocess isolates broken native imports and applies a finite timeout.
     script = (
         "import json, torch; "
         "print(json.dumps({'version': str(torch.__version__), "
-        "'cpu': True, 'cuda_available': bool(torch.cuda.is_available())}))"
+        "'cuda_available': bool(torch.cuda.is_available())}))"
     )
     try:
         result = subprocess.run(
@@ -94,16 +99,32 @@ def torch_check() -> Check:
             capture_output=True,
             text=True,
             timeout=20,
+            errors="replace",
             check=False,
         )
         if result.returncode != 0:
-            detail = "PyTorch unavailable or import failed; CUDA unverified; CPU is supported"
-            return {"name": "torch", "status": "warning", "detail": detail}
-        data = json.loads(result.stdout.strip())
-        detail = f"{data['version']}; CPU available; CUDA available: {data['cuda_available']}"
-        return {"name": "torch", "status": "ok", "detail": detail}
+            detail = f"PyTorch missing or import failed (exit {result.returncode})"
+        else:
+            data = json.loads(result.stdout.strip())
+            if not isinstance(data["cuda_available"], bool):
+                raise ValueError("invalid CUDA probe result")
+            cuda = "available" if data["cuda_available"] else "unavailable"
+            return [
+                {"name": "torch", "status": "ok", "detail": f"{data['version']}; CPU backend"},
+                {"name": "cuda", "status": "ok", "detail": f"{cuda}; optional acceleration"},
+            ]
     except (OSError, subprocess.TimeoutExpired, ValueError, KeyError, TypeError) as exc:
-        return {"name": "torch", "status": "warning", "detail": type(exc).__name__}
+        detail = f"PyTorch probe failed: {type(exc).__name__}"
+    return [
+        {"name": "torch", "status": "warning", "detail": detail},
+        {
+            "name": "cuda",
+            "status": "ok",
+            "detail": (
+                "unavailable to this runtime; PyTorch probe failed; hardware unverified; optional"
+            ),
+        },
+    ]
 
 
 def write_check(directory: Path) -> Check:
@@ -120,15 +141,19 @@ def diagnose(directory: Path, model_path: Path | None = None) -> Report:
     ram = total_ram_bytes()
     checks: list[Check] = [
         {"name": "python", "status": "ok", "detail": platform.python_version()},
-        {"name": "platform", "status": "ok", "detail": f"{platform.system()}; WSL: {is_wsl()}"},
-        {"name": "cpu", "status": "ok", "detail": f"logical processors: {os.cpu_count()}"},
+        {"name": "platform", "status": "ok", "detail": environment_name()},
+        {
+            "name": "cpu",
+            "status": "ok",
+            "detail": f"available; minimum execution target; logical processors: {os.cpu_count()}",
+        },
         {
             "name": "ram",
             "status": "ok" if ram else "warning",
             "detail": f"physical GiB: {ram / 2**30:.1f}" if ram else "unavailable",
         },
         command_version("ffmpeg"),
-        torch_check(),
+        *torch_checks(),
         write_check(directory),
     ]
     for name in ("adtof_pytorch", "mdx23c"):

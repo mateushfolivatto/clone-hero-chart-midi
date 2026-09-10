@@ -7,9 +7,12 @@ doctor.py owns environment probes; cli/ only parses arguments and renders result
 pytest, Ruff, mypy and Hatchling are development/build tools, locked by uv.
 Only --help, --version and doctor are implemented. No fake generate command.
 
-Use the available native Windows Python 3.12 for bootstrap. The project targets
-Python 3.11–3.12 initially; only 3.12 is exercised here. WSL Ubuntu remains a
-candidate for the ML spike, not a prerequisite for the lightweight CLI.
+Use native Windows/Python 3.12 as the primary environment for the entire current
+stage: development, tests and future chart generation. The initial Python range
+is 3.11–3.12; only 3.12 has been exercised. CPU is the mandatory baseline; CUDA is
+optional acceleration. Preserve future Linux/WSL portability without requiring
+either. WSL Ubuntu cannot be installed here; docker-desktop must not be used.
+No Docker workaround or machine policy changes. See environment.md for the audit.
 
 ## ADR-002: replaceable inference
 
@@ -36,8 +39,6 @@ without claiming the song has constant musical tempo. Quantization stays off.
 
 ## Next experiment
 
-Verify Phase 0 gates first (see BACKLOG.md). Then, in a later
-session, audit a pinned ADTOF checkpoint and dependencies in an isolated CPU
-environment; disclose artifact size/source before download, measure a short legal
-audio segment and inspect raw MIDI event timestamps. Do not attempt the entire
-song before establishing the smallest reproducible inference run.
+Close the Windows Phase 0 update and its gates first. Then perform a metadata/source
+compatibility audit for Windows/Python 3.12 CPU. Do not implement DCF-100 onward
+or run transcription until the user starts that subsequent milestone.

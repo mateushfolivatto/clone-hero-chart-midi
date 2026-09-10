@@ -28,3 +28,10 @@ After the initial uncommitted delivery, the user required branches before change
 and a commit followed by a merge into main for every completed phase. Phase 0
 closure uses chore/phase-0-bootstrap, including this standing instruction. Consult
 Git history for the resulting commit and merge; no remote push is part of this closure.
+
+## Windows-primary follow-up
+
+Phase 0 environment/doctor update revalidates DCF-013 through DCF-019 and
+DCF-037 through DCF-042 on native Windows/Python 3.12 CPU. See environment.md and
+phase-0-verification.md. DCF-100 onward remains unstarted: only a compatibility
+audit is authorized next, before implementation.

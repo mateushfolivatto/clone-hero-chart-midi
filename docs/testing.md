@@ -28,6 +28,9 @@ Build outputs stay in ignored dist/. Keep uv.lock version controlled.
 Tests exercise CLI subprocesses, structured doctor output, temporary file cleanup,
 unwritable/nonexistent target failure, absent ffmpeg, tool timeout, broken torch,
 CUDA reporting and WSL detection. All inputs are synthetic; no audio/model download.
+The Windows update adds explicit Windows/Linux/WSL labels, stale WSL-variable
+handling, CPU-only CUDA status, a torch timeout and ffmpeg.exe paths with spaces.
+There are 15 tests after this update. Linux/WSL labels are tested with mocks only.
 Doctor returns 0 with optional-component warnings, 1 for a failed write target;
 argparse returns 2 for invalid usage. Optional dependency warnings do not validate
 ML readiness. Model path checks only existence/size, not checkpoint compatibility.
