@@ -59,6 +59,9 @@ The canonical `DrumHit` model is the boundary between machine-learning/audio inf
 8. Keep Clone Hero mapping isolated from ML/transcription internals.
 9. Start with **Expert Pro Drums only**.
 10. Treat copyrighted audio as local/private input, never repository content.
+11. Create a dedicated branch before every new unit of changes. After validation,
+    commit on that branch and merge into main; every completed phase must be
+    committed and merged. This is the user's standing Git workflow instruction.
 
 ## Candidate technology
 
@@ -94,9 +97,25 @@ Success means:
 
 ## Current phase
 
-**Phase 0 — Research & Bootstrap**
+**Phase 0 — Research & Bootstrap completed (2026-09-10).**
 
-See `BACKLOG.md` / `docs/backlog.md`.
+See `BACKLOG.md` for task status and `docs/phase-0-verification.md` for evidence.
+Always reread `lessons.md` alongside the backlog and after context recovery.
+
+Bootstrap provides a standard-library argparse CLI with help and doctor, pytest,
+Ruff, strict mypy, uv.lock and locked Hatchling build dependencies. Only native
+Windows/Python 3.12 was validated. No transcription or exporter is implemented.
+
+Reuse the existing clone-hero-chart-midi Git repository and main branch rather
+than replace history or rename its remote. Python distribution: drum-chart-forge;
+CLI: drumforge. BACKLOG.md is canonical; docs/backlog.md is only a status summary.
+
+ML remains optional and uninstalled. ADTOF code/checkpoint terms and exact backend
+compatibility are unresolved; a local research audit does not authorize redistribution.
+The next smallest milestone is an isolated CPU dependency/checkpoint readiness
+spike toward DCF-100 through DCF-122. Pin source and checkpoint identity, explicitly
+reject missing weights, disclose downloads, and establish a short reproducible
+test before processing Turn to Ashes. Do not jump to canonical/exporter phases.
 
 ## Do not do yet
 

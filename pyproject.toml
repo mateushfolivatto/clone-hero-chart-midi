@@ -1,0 +1,40 @@
+[project]
+name = "drum-chart-forge"
+version = "0.1.0"
+description = "Local-first drum transcription and Clone Hero chart tooling"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = []
+
+[project.scripts]
+drumforge = "drumforge.cli:main"
+
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/drumforge"]
+
+[tool.hatch.build.targets.sdist]
+include = ["/src", "/tests", "/docs", "/*.md", "/pyproject.toml", "/uv.lock", "/.python-version", "/.gitignore", "/.gitattributes"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1", "mypy>=1.15,<2", "hatchling==1.27.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = [".tools", ".uv-cache"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+files = ["src", "tests"]
