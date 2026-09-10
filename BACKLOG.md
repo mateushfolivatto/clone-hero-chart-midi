@@ -20,62 +20,67 @@ Priority:
 
 ### Repository and environment
 
-- [ ] **DCF-001 [P0]** Create Git repository `drum-chart-forge`.
-- [ ] **DCF-002 [P0]** Use `main` as default branch.
-- [ ] **DCF-003 [P0]** Initialize Python project using `uv`.
-- [ ] **DCF-004 [P0]** Create `src/drumforge/` package.
-- [ ] **DCF-005 [P0]** Add `pytest`.
-- [ ] **DCF-006 [P0]** Configure formatter/linter.
-- [ ] **DCF-007 [P1]** Configure static type checking.
-- [ ] **DCF-008 [P0]** Add audio-safe `.gitignore`.
-- [ ] **DCF-009 [P0]** Add `README.md`.
-- [ ] **DCF-010 [P0]** Add canonical `CONTEXT.md`.
-- [ ] **DCF-011 [P0]** Add `AGENTS.md`.
-- [ ] **DCF-012 [P1]** Add `CONTRIBUTING.md`.
+- [x] **DCF-001 [P0]** Establish Git repository for `drum-chart-forge` (adapted: reuse existing `clone-hero-chart-midi`, preserving history and origin).
+- [x] **DCF-002 [P0]** Use `main` as default branch.
+- [x] **DCF-003 [P0]** Initialize Python project using `uv`.
+- [x] **DCF-004 [P0]** Create `src/drumforge/` package.
+- [x] **DCF-005 [P0]** Add `pytest`.
+- [x] **DCF-006 [P0]** Configure formatter/linter.
+- [x] **DCF-007 [P1]** Configure static type checking.
+- [x] **DCF-008 [P0]** Add audio-safe `.gitignore`.
+- [x] **DCF-009 [P0]** Add `README.md`.
+- [x] **DCF-010 [P0]** Add canonical `CONTEXT.md`.
+- [x] **DCF-011 [P0]** Add `AGENTS.md`.
+- [x] **DCF-012 [P1]** Add `CONTRIBUTING.md`.
 
 ### Environment diagnostics
 
-- [ ] **DCF-013 [P0]** Implement `drumforge doctor`.
-- [ ] **DCF-014 [P0]** Detect Python version.
-- [ ] **DCF-015 [P0]** Detect ffmpeg availability/version.
-- [ ] **DCF-016 [P1]** Detect PyTorch device availability.
-- [ ] **DCF-017 [P1]** Detect CUDA and report without requiring it.
-- [ ] **DCF-018 [P1]** Identify WSL environment.
-- [ ] **DCF-019 [P1]** Record CPU/RAM-relevant diagnostics without collecting unnecessary personal data.
+- [x] **DCF-013 [P0]** Implement `drumforge doctor`.
+- [x] **DCF-014 [P0]** Detect Python version.
+- [x] **DCF-015 [P0]** Detect ffmpeg availability/version.
+- [x] **DCF-016 [P1]** Detect PyTorch device availability.
+- [x] **DCF-017 [P1]** Detect CUDA and report without requiring it.
+- [x] **DCF-018 [P1]** Identify WSL environment.
+- [x] **DCF-019 [P1]** Record CPU/RAM-relevant diagnostics without collecting unnecessary personal data.
 
 ### Dependency/licensing research
 
-- [ ] **DCF-020 [P0]** Evaluate `ADTOF-pytorch`.
-- [ ] **DCF-021 [P0]** Evaluate `adtof_plus_drum_transcription`.
-- [ ] **DCF-022 [P0]** Evaluate current viable source-separation backend.
-- [ ] **DCF-023 [P0]** Evaluate `midi2clonehero` as reference/dependency.
-- [ ] **DCF-024 [P0]** Document code vs model-weight licenses.
-- [ ] **DCF-025 [P0]** Create `docs/dependency-licenses.md`.
-- [ ] **DCF-026 [P0]** Record Python-version compatibility.
-- [ ] **DCF-027 [P1]** Record expected model download sizes and cache locations.
-- [ ] **DCF-028 [P1]** Decide whether external ML backends are optional extras.
+- [x] **DCF-020 [P0]** Evaluate `ADTOF-pytorch`.
+- [x] **DCF-021 [P0]** Evaluate `adtof_plus_drum_transcription`.
+- [x] **DCF-022 [P0]** Evaluate current viable source-separation backend.
+- [x] **DCF-023 [P0]** Evaluate `midi2clonehero` as reference/dependency.
+- [x] **DCF-024 [P0]** Document code vs model-weight licenses.
+- [x] **DCF-025 [P0]** Create `docs/dependency-licenses.md`.
+- [x] **DCF-026 [P0]** Record Python-version compatibility.
+- [x] **DCF-027 [P1]** Record expected model download sizes and cache locations.
+- [x] **DCF-028 [P1]** Decide whether external ML backends are optional extras.
 
 ### Format research
 
-- [ ] **DCF-029 [P0]** Document Clone Hero minimum song folder requirements.
-- [ ] **DCF-030 [P0]** Document RB3-style Pro Drums lane semantics used by Clone Hero.
-- [ ] **DCF-031 [P0]** Compare `notes.mid` vs `notes.chart` for first exporter.
-- [ ] **DCF-032 [P0]** Document MIDI PPQN / tempo-event requirements.
-- [ ] **DCF-033 [P1]** Document cymbal markers.
-- [ ] **DCF-034 [P1]** Document Expert+/2x Kick conventions.
-- [ ] **DCF-035 [P2]** Document ghost/accent conventions.
-- [ ] **DCF-036 [P2]** Document roll/swell events.
+- [x] **DCF-029 [P0]** Document Clone Hero minimum song folder requirements.
+- [x] **DCF-030 [P0]** Document RB3-style Pro Drums lane semantics used by Clone Hero.
+- [x] **DCF-031 [P0]** Compare `notes.mid` vs `notes.chart` for first exporter.
+- [x] **DCF-032 [P0]** Document MIDI PPQN / tempo-event requirements.
+- [x] **DCF-033 [P1]** Document cymbal markers.
+- [x] **DCF-034 [P1]** Document Expert+/2x Kick conventions.
+- [x] **DCF-035 [P2]** Document ghost/accent conventions.
+- [x] **DCF-036 [P2]** Document roll/swell events.
 
 ### Phase 0 acceptance
 
-- [ ] **DCF-037 [P0]** `drumforge --help` works.
-- [ ] **DCF-038 [P0]** `drumforge doctor` works.
-- [ ] **DCF-039 [P0]** Tests pass.
-- [ ] **DCF-040 [P0]** Lint/format checks pass.
-- [ ] **DCF-041 [P0]** No copyrighted audio is tracked by Git.
-- [ ] **DCF-042 [P0]** Architecture and next experiment documented.
+- [x] **DCF-037 [P0]** `drumforge --help` works.
+- [x] **DCF-038 [P0]** `drumforge doctor` works.
+- [x] **DCF-039 [P0]** Tests pass.
+- [x] **DCF-040 [P0]** Lint/format checks pass.
+- [x] **DCF-041 [P0]** No copyrighted audio is tracked by Git.
+- [x] **DCF-042 [P0]** Architecture and next experiment documented.
 
 ---
+
+Phase 0 verified on 2026-09-10. Evidence: `docs/phase-0-verification.md`.
+Research completion records unresolved model licensing and runtime risks; it does
+not imply model installation or redistribution clearance. Read `lessons.md` with
+this backlog. Phase 1 remains unstarted.
 
 ## Phase 1 — Audio → Drum MIDI Spike
 
