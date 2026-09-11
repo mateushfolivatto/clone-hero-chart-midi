@@ -45,6 +45,17 @@ dependency-licenses.md for the decisions and remaining license constraints.
   installation spike. Size/cache research is documented below; no weight downloaded.
 - No ffmpeg, torch or game integration was installed/tested during research.
 
+## 2026-09-11 Windows/Python 3.12 compatibility follow-up
+
+The detailed, sourced matrix and local smoke evidence are in
+[phase-1-windows-compatibility.md](phase-1-windows-compatibility.md). Direct
+ADTOF/PyTorch CPU is viable on native Windows for a synthetic WAV and should be
+the first Phase 1 baseline without separation. The integrated ADTOF Plus wrapper
+is not viable as published because Essentia has no Windows CPython 3.12 wheel.
+`mdxnet-infer` 0.1.0 is a better optional separator than the earlier alpha adapter:
+its matching suite passed 40 tests locally, but real-weight inference was not run
+and its 417.4 MiB DrumSep checkpoint has unresolved terms.
+
 ## Environment audit and failure record
 
 Initial repository: clean main tracking origin/main; remote name clone-hero-chart-midi,

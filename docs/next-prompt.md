@@ -5,30 +5,28 @@ Releia lessons.md junto do backlog e depois de recuperar contexto. Leia também
 os relatórios em docs/environment.md, docs/phase-0-verification.md,
 docs/research-notes.md e docs/dependency-licenses.md.
 
-A Phase 0 está validada em Windows nativo/Python 3.12 CPU. Audite Git e ambiente
+A Phase 0 e a auditoria de compatibilidade pré-Phase 1 estão concluídas em
+Windows nativo/Python 3.12 CPU. Audite Git e ambiente
 antes de editar; crie uma branch dedicada a partir de main. Preserve trabalho local.
 Windows é primário para desenvolver, testar, executar e futuramente gerar charts.
 Linux/WSL é apenas portabilidade futura. Não instale WSL, use docker-desktop,
 introduza Docker ou modifique políticas administrativas. CUDA é opcional.
 
-Faça somente a auditoria de compatibilidade pré-Phase 1 para este Windows 10,
-Python 3.12.0, 4 CPUs lógicas, 15.9 GiB RAM e Intel HD Graphics 630 sem NVIDIA.
-Não implemente DCF-100 em diante nesta auditoria. Não execute inferência nem baixe
-modelos. Investigue ffmpeg, PyTorch CPU, ADTOF-pytorch, separação, transitivas e
-checkpoints por fontes primárias, metadados e manifests.
+Após nova autorização explícita do usuário, implemente somente o menor primeiro
+recorte de Phase 1 (começando em DCF-100), neste Windows 10/Python 3.12 CPU. Use a
+decisão de `docs/phase-1-windows-compatibility.md`: FFmpeg nativo como boundary de
+normalização, PyTorch CPU e ADTOF `85c192e`, sem separação inicialmente.
 
-Para cada componente registre suporte Windows/Python 3.12, wheel compatível,
-compilação necessária, requisitos ffmpeg/CUDA, tamanho e licenças código/pesos.
-Distinga evidência documental, resolução de pacotes e teste real. Não apresente
-wheel disponível como inferência validada. Recomende a menor configuração
-Windows CPU para áudio -> transcrição de bateria -> MIDI, explicitando bloqueios.
+Faça primeiro o menor slice testável de probe/cópia/normalização, preservando o
+original e usando `pathlib.Path`, `ffmpeg.exe` resolvido explicitamente, argumentos
+de subprocesso e `shell=False`. Não instale WSL/Docker/CUDA e não torne separação
+um requisito. Mantenha dependências ML opcionais e travadas.
 
-A API ADTOF inspecionada pode continuar sem carregar pesos ausentes. Documente
-isso: um futuro adaptador deve rejeitar checkpoint ausente/incompatível. Não
+A API ADTOF pode continuar sem carregar pesos ausentes. O adaptador deve rejeitar
+checkpoint ausente/incompatível, validar o SHA256 registrado e forçar CPU. Não
 infira licença dos pesos a partir do wrapper. Não trate WSL como solução.
 
 Atualize documentos, backlog e lessons.md com evidências. Execute gates aplicáveis
 em docs/testing.md, revise artefatos e ausência de áudio/pesos rastreados, faça
 commit na branch e merge --no-ff em main. Verifique árvore limpa e informe hashes.
-Entregue a matriz de compatibilidade, recomendação mínima, limites e próximo
-prompt completo. Aguarde nova instrução antes de iniciar DCF-100.
+Entregue apenas os DCFs realmente concluídos, medições e o próximo menor passo.

@@ -35,3 +35,7 @@ Phase 0 environment/doctor update revalidates DCF-013 through DCF-019 and
 DCF-037 through DCF-042 on native Windows/Python 3.12 CPU. See environment.md and
 phase-0-verification.md. DCF-100 onward remains unstarted: only a compatibility
 audit is authorized next, before implementation.
+
+The pre-Phase 1 compatibility audit was completed on 2026-09-11 without changing
+DCF-100–122 status. See [phase-1-windows-compatibility.md](phase-1-windows-compatibility.md).
+The next implementation session should start only after explicit user direction.

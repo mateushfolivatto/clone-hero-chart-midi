@@ -39,6 +39,14 @@ without claiming the song has constant musical tempo. Quantization stays off.
 
 ## Next experiment
 
-Close the Windows Phase 0 update and its gates first. Then perform a metadata/source
-compatibility audit for Windows/Python 3.12 CPU. Do not implement DCF-100 onward
-or run transcription until the user starts that subsequent milestone.
+The Windows/Python 3.12 CPU compatibility audit is complete. Phase 1 should first
+normalize input through a native `ffmpeg.exe` boundary and run pinned ADTOF
+directly on the full mix with an explicit CPU device. Separation stays behind the
+existing interface and is disabled for the smallest experiment. If measured
+quality requires it, `mdxnet-infer` 0.1.0 is the preferred next separator spike;
+its checkpoint is optional, large and not cleared for redistribution.
+
+The future adapter must validate an allowlisted checkpoint revision and SHA256,
+reject missing/unexpected weights, and use `pathlib.Path` plus argument-list
+subprocess calls. See phase-1-windows-compatibility.md. Do not implement DCF-100
+onward until the user explicitly starts Phase 1.

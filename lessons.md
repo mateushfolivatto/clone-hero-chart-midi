@@ -48,3 +48,16 @@ finding. This file supplements the backlog; it does not redefine task completion
 12. **Missing CUDA is not a failed CPU environment.** Report platform, CPU,
     PyTorch and CUDA separately. Missing/broken PyTorch leaves hardware unverified;
     it does not prove that a GPU is absent. Test CPU-only and unavailable probes.
+
+## 2026-09-11 — Pre-Phase 1 compatibility audit
+
+13. **Test a release against its matching source tag.** `mdxnet-infer` master had
+    APIs absent from its 0.1.0 wheel, so master tests failed during collection
+    against the release. The matching v0.1.0 suite passed 40 tests on Windows
+    Python 3.12. Pin one revision and never mix release artifacts with HEAD tests.
+14. **A successful ML smoke is narrower than model validation.** ADTOF generated
+    valid MIDI from a synthetic WAV on CPU, proving install/import/inference paths.
+    It does not prove musical accuracy, full-song performance or license clearance.
+15. **Prefer the no-separation baseline.** Direct ADTOF avoids a 417–500 MiB
+    separator checkpoint and a second unresolved weight license. Add separation
+    only after measured full-mix results justify its CPU and distribution cost.
