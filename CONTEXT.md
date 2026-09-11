@@ -127,6 +127,14 @@ dependencies and checkpoints. Do not implement Phase 1 in that audit. Distinguis
 wheel/source compatibility evidence from actual inference validation. Await the
 user's next instruction before starting implementation.
 
+**Pre-Phase 1 compatibility audit completed (2026-09-11).** The smallest native
+path is portable FFmpeg normalization followed by pinned ADTOF-pytorch and
+PyTorch CPU, with source separation disabled initially. A synthetic WAV-to-MIDI
+smoke succeeded on this host; this is not a quality claim. See
+`docs/phase-1-windows-compatibility.md`. ADTOF code licensing and ADTOF/MDX weight
+terms still block redistribution. DCF-100 onward remains unstarted and requires
+the user's explicit next instruction.
+
 ## Do not do yet
 
 - GUI

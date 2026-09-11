@@ -88,6 +88,12 @@ CPU is mandatory for this stage; WSL/Linux is optional, CUDA is optional, and
 Docker/administrative workarounds are prohibited. Perform only the compatibility
 investigation before DCF-100; implementation awaits the user's next instruction.
 
+Pre-Phase 1 Windows compatibility gate completed on 2026-09-11. Evidence and the
+recommended minimum CPU configuration are in
+`docs/phase-1-windows-compatibility.md`. This research did not complete or start
+any DCF-100–122 implementation item; Phase 1 remains unstarted pending explicit
+authorization.
+
 ## Phase 1 — Audio → Drum MIDI Spike
 
 ### Audio handling

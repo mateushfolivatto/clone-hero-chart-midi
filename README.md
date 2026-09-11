@@ -38,9 +38,16 @@ write failures produce exit 1. ML inference is not verified by this command.
 - [BACKLOG.md](BACKLOG.md): single authoritative task list.
 - [lessons.md](lessons.md): reread alongside the backlog every session.
 - [Architecture](docs/architecture.md), [format notes](docs/clonehero-format-notes.md),
-  [research](docs/research-notes.md), [license register](docs/dependency-licenses.md).
+  [research](docs/research-notes.md), [Windows Phase 1 compatibility matrix](docs/phase-1-windows-compatibility.md),
+  [license register](docs/dependency-licenses.md).
 - [Quality gates](docs/testing.md) and [contribution rules](CONTRIBUTING.md).
 
 Keep test music in ignored `audio/` or `fixtures/private/`. Never commit songs or
 model weights. The existing repository name remains clone-hero-chart-midi;
 drum-chart-forge is the Python distribution name and drumforge is the CLI.
+
+The pre-Phase 1 audit found a viable native CPU research path: portable FFmpeg
+normalization plus pinned ADTOF-pytorch/PyTorch CPU, initially without source
+separation. No Phase 1 command is implemented yet. The ADTOF wrapper and model
+terms are not cleared for redistribution; consult the compatibility matrix before
+installing the optional ML stack.

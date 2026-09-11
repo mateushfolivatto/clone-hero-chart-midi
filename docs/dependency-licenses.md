@@ -13,6 +13,13 @@ and independent weight terms before downloading. Unknown terms remain unresolved
 | [MDX23C adapter](https://github.com/xavriley/mdx23c-drum-separation/blob/main/pyproject.toml) | MIT declared | Check mix-to-kit and kit-to-components checkpoints separately | MIT code allows commercial reuse with notices; weight permission not verified | Candidate replaceable separator |
 | [Music Source Separation Training](https://github.com/ZFTurbo/Music-Source-Separation-Training) | MIT | Per-checkpoint terms; not established by framework license | Code notices required; no model redistribution authorized by this audit | Alternative MDX23C host; inference not tested |
 | [midi2clonehero](https://github.com/apvilkko/midi2clonehero/blob/main/LICENSE) | MIT, Antti Pekka Vilkko (2024); raw LICENSE read | No model | Commercial reuse allowed with copyright/license notice; no code copied or distributed | Mapping reference only |
+| [mdxnet-infer 0.1.0](https://github.com/openmirlab/mdxnet-infer) | MIT; preserves KUIELab, ZFTurbo and OpenMIRLab notices | DrumSep authors supplied no explicit terms; upstream advises noncommercial-safe only | Code notices required; weight redistribution/commercial permission unresolved | Preferred optional separator spike, not minimum install; no checkpoint downloaded |
+
+The 2026-09-11 audit strengthens the ADTOF conclusion: source commit `85c192e`
+contains no LICENSE file. Its bundled converted checkpoint is 3,617,805 bytes with
+observed SHA256 `1bc986e596ec47ba0b44916f87cd4a39f0b2bec23596df3fb5d0e87749217320`.
+Local execution does not supply missing redistribution or commercial-use rights.
+See `phase-1-windows-compatibility.md` for the complete matrix.
 
 ## Bootstrap tools
 

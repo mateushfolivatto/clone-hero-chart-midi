@@ -51,3 +51,10 @@ they do not claim this release was exercised on those operating systems.
 Before DCF-100, audit native wheels, source requirements, codecs and weight terms.
 Do not install heavyweight backends or start inference as part of the compatibility
 investigation. No model download is needed to inspect indexes and manifests.
+
+That compatibility gate was completed on 2026-09-11; see
+[phase-1-windows-compatibility.md](phase-1-windows-compatibility.md). A small,
+explicit, disposable ADTOF smoke was additionally authorized to distinguish
+metadata claims from native execution. No MDX model was downloaded. The result
+does not change the platform contract above: Windows/CPU is primary, WSL remains
+optional, and CUDA absence is normal.
