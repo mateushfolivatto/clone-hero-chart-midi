@@ -16,6 +16,14 @@ lists and `shell=False`. It probes the first audio stream, normalizes to mono
 temporary file. The cache key includes source bytes and normalization settings;
 the source is opened read-only and is never used as an output path.
 
+## ADR-005: isolated strict ADTOF adapter
+
+Accepted for the Phase 1 research spike: the core invokes a user-supplied backend
+Python without importing ML packages. The adapter allows only ADTOF 0.1.0 at the
+audited revision and the recorded 3,617,805-byte checkpoint SHA256, forces CPU,
+monkey-patches the upstream loader to `strict=True`, and refuses to overwrite MIDI.
+Thresholds are explicit; raw 100 fps onset timing is exported without quantization.
+
 Use native Windows/Python 3.12 as the primary environment for the entire current
 stage: development, tests and future chart generation. The initial Python range
 is 3.11–3.12; only 3.12 has been exercised. CPU is the mandatory baseline; CUDA is

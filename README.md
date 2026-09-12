@@ -21,6 +21,9 @@ uv --cache-dir .uv-cache run --locked drumforge doctor
 uv --cache-dir .uv-cache run --locked drumforge doctor --json
 uv --cache-dir .uv-cache run --locked drumforge prepare-audio INPUT --work-dir WORK \
   --ffmpeg-path PATH_TO_FFMPEG --ffprobe-path PATH_TO_FFPROBE
+uv --cache-dir .uv-cache run --locked drumforge transcribe WORK/audio.wav \
+  --midi-out WORK/raw.mid --weights PATH_TO_ALLOWLISTED_WEIGHTS \
+  --backend-python PATH_TO_ADTOF_PYTHON --skip-separation
 ```
 
 This checkout has uv 0.12.13 in ignored `.tools/bin/uv.exe`; on this Windows host
@@ -40,6 +43,11 @@ creates a cached mono 44.1 kHz 16-bit PCM WAV. On Windows, pass explicit paths t
 portable `ffmpeg.exe` and `ffprobe.exe`; paths containing spaces are supported.
 Its JSON result includes metadata, cache identity and cache-hit status.
 
+`transcribe` runs the optional pinned ADTOF backend in an isolated Python process
+on CPU. It refuses missing/modified checkpoints and existing MIDI outputs. The
+backend environment and weights are intentionally not installed or downloaded by
+the core project; consult the compatibility report before local research use.
+
 ## Project navigation
 
 - [CONTEXT.md](CONTEXT.md): mission and decisions.
@@ -56,6 +64,7 @@ drum-chart-forge is the Python distribution name and drumforge is the CLI.
 
 The pre-Phase 1 audit found a viable native CPU research path: portable FFmpeg
 normalization plus pinned ADTOF-pytorch/PyTorch CPU, initially without source
-separation. Audio preparation is implemented, but transcription is not. The ADTOF wrapper and model
+separation. A strict CPU-only ADTOF transcription command is implemented; private-song
+validation is still pending. The ADTOF wrapper and model
 terms are not cleared for redistribution; consult the compatibility matrix before
 installing the optional ML stack.

@@ -56,3 +56,9 @@ until the transcription command can expose meaningful pipeline selection.
 The standing Git workflow now also requires pushing `main` after every successful
 merge. The first push attempt from this environment failed because HTTPS GitHub
 credentials were unavailable; local commits were preserved unchanged.
+
+The ADTOF slice completed DCF-107, DCF-110–112 and DCF-115. The real pinned
+backend converted a synthetic two-second WAV to parseable MIDI on CPU in about
+4.6 seconds. Private-song quality, velocities/confidences and debug inspection
+remain open. An initial unpinned Linux resolution attempted CUDA packages; it was
+stopped and replaced with the explicit PyTorch 2.12.0 CPU index.

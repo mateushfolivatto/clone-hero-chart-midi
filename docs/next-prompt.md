@@ -12,19 +12,19 @@ Windows é primário para desenvolver, testar, executar e futuramente gerar char
 Linux/WSL é apenas portabilidade futura. Não instale WSL, use docker-desktop,
 introduza Docker ou modifique políticas administrativas. CUDA é opcional.
 
-Continue a Phase 1 a partir de DCF-107 e DCF-110. DCF-100–104 e DCF-109 já
-implementam o preparo de áudio e as interfaces de backend, mas o preparo ainda
+Continue a Phase 1 a partir de DCF-113–114 e DCF-116–122. DCF-100–112 e DCF-115 já
+implementam o preparo, interfaces e transcrição ADTOF, mas o fluxo ainda
 deve ser exercitado com FFmpeg e áudio privado no Windows nativo. Use a
 decisão de `docs/phase-1-windows-compatibility.md`: FFmpeg nativo como boundary de
 normalização, PyTorch CPU e ADTOF `85c192e`, sem separação inicialmente.
 
-Faça primeiro a validação nativa do slice de áudio. Depois implemente o adaptador
-ADTOF e um comando de transcrição, mantendo separação desativada no baseline por
-meio do passthrough existente e `--skip-separation`. Não instale WSL/Docker/CUDA e não torne
+Faça primeiro a validação nativa com áudio privado e gere contagens/CSV de debug.
+Mantenha separação desativada no baseline por meio do passthrough existente e
+`--skip-separation`. Não instale WSL/Docker/CUDA e não torne
 separação um requisito. Mantenha dependências ML opcionais e travadas.
 
-A API ADTOF pode continuar sem carregar pesos ausentes. O adaptador deve rejeitar
-checkpoint ausente/incompatível, validar o SHA256 registrado e forçar CPU. Não
+A API ADTOF upstream pode continuar sem carregar pesos ausentes; o adaptador local
+já rejeita checkpoint ausente/incompatível, valida o SHA256 e força CPU. Não
 infira licença dos pesos a partir do wrapper. Não trate WSL como solução.
 
 Atualize documentos, backlog e lessons.md com evidências. Execute gates aplicáveis

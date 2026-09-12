@@ -72,3 +72,12 @@ finding. This file supplements the backlog; it does not redefine task completion
     not imply that HTTPS credentials were available to `git push`. Push `main`
     after each merge, verify `main` against `origin/main`, and preserve/report
     commits unchanged when authentication blocks publication.
+18. **Do not resolve a virtual-environment Python symlink.** Resolving the backend
+    executable to its base interpreter discarded the venv's site-packages and made
+    an installed ADTOF appear missing. Preserve the absolute venv executable path
+    and cover symlink behavior with a test before isolated-backend inference.
+19. **Pin the CPU wheel index before resolving ML dependencies.** Installing an
+    unconstrained current Linux `torch` attempted several gigabytes of CUDA 13
+    packages. Stop that resolution immediately; install the audited `+cpu` wheel
+    from PyTorch's CPU index first, then add the pinned optional backend and verify
+    the installed package list contains no NVIDIA/CUDA dependencies.
