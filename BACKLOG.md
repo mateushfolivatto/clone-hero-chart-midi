@@ -105,7 +105,7 @@ authorization.
 
 ### Separation
 
-- [ ] **DCF-104 [P0]** Implement `Separator` interface.
+- [x] **DCF-104 [P0]** Implement `Separator` interface.
 - [ ] **DCF-105 [P0]** Implement first separation backend.
 - [ ] **DCF-106 [P0]** Generate isolated/estimated drums stem from full mix.
 - [ ] **DCF-107 [P1]** Add `--skip-separation`.
@@ -119,7 +119,7 @@ execution remain required before Phase 1 acceptance. No model or audio was added
 
 ### Transcription
 
-- [ ] **DCF-109 [P0]** Implement `Transcriber` interface.
+- [x] **DCF-109 [P0]** Implement `Transcriber` interface.
 - [ ] **DCF-110 [P0]** Implement first ADTOF-compatible transcriber.
 - [ ] **DCF-111 [P0]** Export raw drum MIDI.
 - [ ] **DCF-112 [P0]** Preserve onset timestamps.

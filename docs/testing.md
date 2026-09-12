@@ -30,9 +30,11 @@ unwritable/nonexistent target failure, absent ffmpeg, tool timeout, broken torch
 CUDA reporting and WSL detection. All inputs are synthetic; no audio/model download.
 The Windows update adds explicit Windows/Linux/WSL labels, stale WSL-variable
 handling, CPU-only CUDA status, a torch timeout and ffmpeg.exe paths with spaces.
-There are 20 tests after the Phase 1 audio-foundation update. Linux/WSL labels
+There are 23 tests after the Phase 1 backend-interface update. Linux/WSL labels
 are tested with mocks only. Audio preparation tests use synthetic bytes and
 mocked FFmpeg/ffprobe subprocesses; native Windows real-codec verification remains.
+Backend tests verify structural `Separator`/`Transcriber` compatibility and the
+full-mix passthrough without importing optional ML packages.
 Doctor returns 0 with optional-component warnings, 1 for a failed write target;
 argparse returns 2 for invalid usage. Optional dependency warnings do not validate
 ML readiness. Model path checks only existence/size, not checkpoint compatibility.
