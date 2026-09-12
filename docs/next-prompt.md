@@ -12,15 +12,16 @@ Windows é primário para desenvolver, testar, executar e futuramente gerar char
 Linux/WSL é apenas portabilidade futura. Não instale WSL, use docker-desktop,
 introduza Docker ou modifique políticas administrativas. CUDA é opcional.
 
-Após nova autorização explícita do usuário, implemente somente o menor primeiro
-recorte de Phase 1 (começando em DCF-100), neste Windows 10/Python 3.12 CPU. Use a
+Continue a Phase 1 a partir de DCF-104/DCF-107 e DCF-109. DCF-100–103 já
+implementam o preparo de áudio, mas ainda devem ser exercitados com FFmpeg e
+áudio privado no Windows nativo. Use a
 decisão de `docs/phase-1-windows-compatibility.md`: FFmpeg nativo como boundary de
 normalização, PyTorch CPU e ADTOF `85c192e`, sem separação inicialmente.
 
-Faça primeiro o menor slice testável de probe/cópia/normalização, preservando o
-original e usando `pathlib.Path`, `ffmpeg.exe` resolvido explicitamente, argumentos
-de subprocesso e `shell=False`. Não instale WSL/Docker/CUDA e não torne separação
-um requisito. Mantenha dependências ML opcionais e travadas.
+Faça primeiro a validação nativa do slice de áudio. Depois implemente interfaces
+de `Separator` e `Transcriber`, mantendo separação desativada no baseline por
+meio de passthrough/`--skip-separation`. Não instale WSL/Docker/CUDA e não torne
+separação um requisito. Mantenha dependências ML opcionais e travadas.
 
 A API ADTOF pode continuar sem carregar pesos ausentes. O adaptador deve rejeitar
 checkpoint ausente/incompatível, validar o SHA256 registrado e forçar CPU. Não

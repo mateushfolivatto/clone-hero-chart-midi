@@ -61,3 +61,10 @@ finding. This file supplements the backlog; it does not redefine task completion
 15. **Prefer the no-separation baseline.** Direct ADTOF avoids a 417–500 MiB
     separator checkpoint and a second unresolved weight license. Add separation
     only after measured full-mix results justify its CPU and distribution cost.
+
+## 2026-09-12 — Phase 1 audio foundation
+
+16. **Anchor private-media ignore rules at the repository root.** The unanchored
+    `audio/` rule also ignored `src/drumforge/audio/`, which could silently omit
+    implementation modules from commits. Use `/audio/` for the private input
+    directory and verify new source paths with `git check-ignore` and `git status`.

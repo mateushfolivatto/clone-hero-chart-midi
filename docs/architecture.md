@@ -5,7 +5,16 @@
 Accepted: Python package in src/drumforge, argparse CLI, standard-library runtime.
 doctor.py owns environment probes; cli/ only parses arguments and renders results.
 pytest, Ruff, mypy and Hatchling are development/build tools, locked by uv.
-Only --help, --version and doctor are implemented. No fake generate command.
+The first Phase 1 slice adds `prepare-audio`; no generate/transcription command
+exists yet.
+
+## ADR-004: deterministic FFmpeg audio boundary
+
+Accepted: `audio.prepare` invokes explicit FFmpeg/ffprobe paths with argument
+lists and `shell=False`. It probes the first audio stream, normalizes to mono
+44.1 kHz PCM s16le WAV, validates the output metadata, and atomically promotes a
+temporary file. The cache key includes source bytes and normalization settings;
+the source is opened read-only and is never used as an output path.
 
 Use native Windows/Python 3.12 as the primary environment for the entire current
 stage: development, tests and future chart generation. The initial Python range

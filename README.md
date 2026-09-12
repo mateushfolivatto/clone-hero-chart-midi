@@ -1,8 +1,9 @@
 # Drum Chart Forge
 
 Local-first tooling to turn legally obtained music into Clone Hero Expert Pro
-Drums charts. **Phase 0 bootstrap only:** environment diagnostics work; transcription
-and chart generation are future milestones. No music or model weights are included.
+Drums charts. **Phase 1 is in progress:** environment diagnostics and deterministic
+audio preparation work; transcription and chart generation are future slices. No
+music or model weights are included.
 
 ## Setup
 
@@ -18,6 +19,8 @@ uv --cache-dir .uv-cache sync --locked
 uv --cache-dir .uv-cache run --locked drumforge --help
 uv --cache-dir .uv-cache run --locked drumforge doctor
 uv --cache-dir .uv-cache run --locked drumforge doctor --json
+uv --cache-dir .uv-cache run --locked drumforge prepare-audio INPUT --work-dir WORK \
+  --ffmpeg-path PATH_TO_FFMPEG --ffprobe-path PATH_TO_FFPROBE
 ```
 
 This checkout has uv 0.12.13 in ignored `.tools/bin/uv.exe`; on this Windows host
@@ -31,6 +34,11 @@ optional backend discovery and write access. Use `--write-dir PATH` to probe an
 existing output directory, and `--model-path PATH` for a local checkpoint presence
 check. No models are downloaded. Missing optional components produce warnings;
 write failures produce exit 1. ML inference is not verified by this command.
+
+`prepare-audio` probes the first audio stream, preserves the input unchanged, and
+creates a cached mono 44.1 kHz 16-bit PCM WAV. On Windows, pass explicit paths to
+portable `ffmpeg.exe` and `ffprobe.exe`; paths containing spaces are supported.
+Its JSON result includes metadata, cache identity and cache-hit status.
 
 ## Project navigation
 
@@ -48,6 +56,6 @@ drum-chart-forge is the Python distribution name and drumforge is the CLI.
 
 The pre-Phase 1 audit found a viable native CPU research path: portable FFmpeg
 normalization plus pinned ADTOF-pytorch/PyTorch CPU, initially without source
-separation. No Phase 1 command is implemented yet. The ADTOF wrapper and model
+separation. Audio preparation is implemented, but transcription is not. The ADTOF wrapper and model
 terms are not cleared for redistribution; consult the compatibility matrix before
 installing the optional ML stack.

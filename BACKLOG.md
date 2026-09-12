@@ -98,10 +98,10 @@ authorization.
 
 ### Audio handling
 
-- [ ] **DCF-100 [P0]** Probe audio metadata: duration/sample rate/channels.
-- [ ] **DCF-101 [P0]** Normalize input audio to a backend-compatible working format.
-- [ ] **DCF-102 [P1]** Preserve original file unchanged.
-- [ ] **DCF-103 [P1]** Cache working intermediates by content/config hash.
+- [x] **DCF-100 [P0]** Probe audio metadata: duration/sample rate/channels.
+- [x] **DCF-101 [P0]** Normalize input audio to a backend-compatible working format.
+- [x] **DCF-102 [P1]** Preserve original file unchanged.
+- [x] **DCF-103 [P1]** Cache working intermediates by content/config hash.
 
 ### Separation
 
@@ -110,6 +110,12 @@ authorization.
 - [ ] **DCF-106 [P0]** Generate isolated/estimated drums stem from full mix.
 - [ ] **DCF-107 [P1]** Add `--skip-separation`.
 - [ ] **DCF-108 [P1]** Measure separation runtime.
+
+DCF-100–103 implemented on 2026-09-12 as the first Phase 1 slice. The
+`prepare-audio` command uses explicit FFmpeg/ffprobe executables, outputs mono
+44.1 kHz PCM WAV, and caches by source content plus normalization configuration.
+Unit gates passed on Linux portability/Python 3.12; native Windows and real-audio
+execution remain required before Phase 1 acceptance. No model or audio was added.
 
 ### Transcription
 
