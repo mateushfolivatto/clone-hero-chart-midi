@@ -116,7 +116,8 @@ Always reread `lessons.md` alongside the backlog and after context recovery.
 
 Bootstrap provides a standard-library argparse CLI with help and doctor, pytest,
 Ruff, strict mypy, uv.lock and locked Hatchling build dependencies. Only native
-Windows/Python 3.12 was validated. No transcription or exporter is implemented.
+Windows/Python 3.12 was validated. Phase 1 now has audio preparation and a raw
+ADTOF MIDI command; no Clone Hero exporter is implemented.
 
 Reuse the existing clone-hero-chart-midi Git repository and main branch rather
 than replace history or rename its remote. Python distribution: drum-chart-forge;
@@ -132,7 +133,8 @@ user's next instruction before starting implementation.
 **Phase 1 in progress (2026-09-12).** DCF-100–103 now provide metadata probing,
 FFmpeg normalization, original preservation and content/config caching through
 `drumforge prepare-audio`. The slice has portable unit coverage but still needs
-native Windows execution with real local audio. No transcription is implemented.
+native Windows execution with real local audio. A later slice added the strict,
+CPU-only ADTOF adapter and raw MIDI output, validated with synthetic audio only.
 
 The pre-Phase 1 compatibility audit completed on 2026-09-11. The smallest native
 path is portable FFmpeg normalization followed by pinned ADTOF-pytorch and

@@ -108,7 +108,7 @@ authorization.
 - [x] **DCF-104 [P0]** Implement `Separator` interface.
 - [ ] **DCF-105 [P0]** Implement first separation backend.
 - [ ] **DCF-106 [P0]** Generate isolated/estimated drums stem from full mix.
-- [ ] **DCF-107 [P1]** Add `--skip-separation`.
+- [x] **DCF-107 [P1]** Add `--skip-separation`.
 - [ ] **DCF-108 [P1]** Measure separation runtime.
 
 DCF-100–103 implemented on 2026-09-12 as the first Phase 1 slice. The
@@ -120,12 +120,19 @@ execution remain required before Phase 1 acceptance. No model or audio was added
 ### Transcription
 
 - [x] **DCF-109 [P0]** Implement `Transcriber` interface.
-- [ ] **DCF-110 [P0]** Implement first ADTOF-compatible transcriber.
-- [ ] **DCF-111 [P0]** Export raw drum MIDI.
-- [ ] **DCF-112 [P0]** Preserve onset timestamps.
+- [x] **DCF-110 [P0]** Implement first ADTOF-compatible transcriber.
+- [x] **DCF-111 [P0]** Export raw drum MIDI.
+- [x] **DCF-112 [P0]** Preserve onset timestamps.
 - [ ] **DCF-113 [P1]** Preserve velocity.
 - [ ] **DCF-114 [P1]** Preserve confidence when backend exposes it.
-- [ ] **DCF-115 [P1]** Add configurable detection thresholds.
+- [x] **DCF-115 [P1]** Add configurable detection thresholds.
+
+DCF-107 and DCF-110–112/115 were implemented on 2026-09-12. The isolated
+ADTOF adapter forces CPU, validates the allowlisted checkpoint size/SHA256,
+requires strict state loading, preserves unquantized backend timing, rejects
+existing outputs and supports uniform or five-instrument thresholds. A synthetic
+two-second WAV produced a parseable raw MIDI through the real pinned backend;
+this is execution evidence, not musical-accuracy or private-song validation.
 
 ### Spike validation
 

@@ -14,6 +14,14 @@ class TranscriptionResult:
     backend: str
     elapsed_seconds: float
 
+    def to_dict(self) -> dict[str, str | float]:
+        return {
+            "source_audio": str(self.source_audio),
+            "midi_path": str(self.midi_path),
+            "backend": self.backend,
+            "elapsed_seconds": self.elapsed_seconds,
+        }
+
 
 class Transcriber(Protocol):
     """Convert prepared audio into backend-native raw drum MIDI."""
