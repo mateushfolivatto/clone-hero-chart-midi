@@ -68,3 +68,7 @@ finding. This file supplements the backlog; it does not redefine task completion
     `audio/` rule also ignored `src/drumforge/audio/`, which could silently omit
     implementation modules from commits. Use `/audio/` for the private input
     directory and verify new source paths with `git check-ignore` and `git status`.
+17. **Verify remote authentication after local closure.** A valid local merge did
+    not imply that HTTPS credentials were available to `git push`. Push `main`
+    after each merge, verify `main` against `origin/main`, and preserve/report
+    commits unchanged when authentication blocks publication.

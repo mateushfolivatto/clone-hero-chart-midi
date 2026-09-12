@@ -47,3 +47,12 @@ After explicit user authorization, DCF-100–103 were implemented on
 source preservation and content/config cache. Twenty tests plus lint, formatting
 and strict typing passed on the Linux portability environment with Python 3.12.
 Native Windows/real-audio verification remains before Phase 1 acceptance.
+
+The next Phase 1 slice added the `Separator` and `Transcriber` contracts
+(DCF-104 and DCF-109) plus an explicit full-mix passthrough implementation.
+Twenty-three tests and all static gates passed. `--skip-separation` remains open
+until the transcription command can expose meaningful pipeline selection.
+
+The standing Git workflow now also requires pushing `main` after every successful
+merge. The first push attempt from this environment failed because HTTPS GitHub
+credentials were unavailable; local commits were preserved unchanged.

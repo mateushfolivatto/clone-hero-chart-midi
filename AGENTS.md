@@ -34,6 +34,9 @@ staged diff, commit on the branch, then merge into main. Every completed phase
 must have a commit and a merge into main before the final report.
 Use a non-fast-forward merge to keep the branch boundary visible in history.
 Verify the merge, current branch and working-tree status, and report commit hashes.
+After a successful local merge, push `main` to `origin` and verify synchronization.
+If authentication or the remote blocks the push, preserve the local commits and
+report the exact blocker; never discard or rewrite verified work to work around it.
 If a phase is incomplete or gates fail, keep the work on its branch and report
 its actual status instead of declaring completion. This workflow is already
 authorized by the user; do not ask again for routine branch/commit/local merge.

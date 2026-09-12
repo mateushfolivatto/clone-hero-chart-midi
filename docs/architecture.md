@@ -25,8 +25,9 @@ No Docker workaround or machine policy changes. See environment.md for the audit
 
 ## ADR-002: replaceable inference
 
-Future flow: audio -> Separator -> Transcriber -> canonical DrumHit[] ->
-normalization -> Clone Hero exporter. These boundaries are planned, not implemented.
+Flow: audio -> Separator -> Transcriber -> canonical DrumHit[] -> normalization ->
+Clone Hero exporter. The backend-neutral `Separator` and raw-MIDI `Transcriber`
+contracts now exist; concrete inference, canonical events and export remain future work.
 Transcribers must not know game lanes; exporters must not import ML backends.
 Canonical events will preserve raw seconds, instrument, velocity, confidence and
 source note. Phase 2 owns their implementation.

@@ -61,7 +61,9 @@ The canonical `DrumHit` model is the boundary between machine-learning/audio inf
 10. Treat copyrighted audio as local/private input, never repository content.
 11. Create a dedicated branch before every new unit of changes. After validation,
     commit on that branch and merge into main; every completed phase must be
-    committed and merged. This is the user's standing Git workflow instruction.
+    committed and merged. Push `main` to `origin` after each successful merge;
+    authentication failures must be reported without rewriting local history.
+    This is the user's standing Git workflow instruction.
 
 ## Candidate technology
 
