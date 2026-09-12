@@ -127,7 +127,12 @@ dependencies and checkpoints. Do not implement Phase 1 in that audit. Distinguis
 wheel/source compatibility evidence from actual inference validation. Await the
 user's next instruction before starting implementation.
 
-**Pre-Phase 1 compatibility audit completed (2026-09-11).** The smallest native
+**Phase 1 in progress (2026-09-12).** DCF-100–103 now provide metadata probing,
+FFmpeg normalization, original preservation and content/config caching through
+`drumforge prepare-audio`. The slice has portable unit coverage but still needs
+native Windows execution with real local audio. No transcription is implemented.
+
+The pre-Phase 1 compatibility audit completed on 2026-09-11. The smallest native
 path is portable FFmpeg normalization followed by pinned ADTOF-pytorch and
 PyTorch CPU, with source separation disabled initially. A synthetic WAV-to-MIDI
 smoke succeeded on this host; this is not a quality claim. See
