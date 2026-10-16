@@ -342,14 +342,22 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   Public Qobuz playlist 69773629 exported completely: 681 entries, CSV/XLSX/JSON,
   original order and version metadata preserved. Reusable metadata exporter and
   pagination safeguards verified. Existing-library inventory is still not supplied.
-- [ ] **DCF-LIB-003 [P0]** Inspect RhythmVerse search/download behavior for drums
+- [-] **DCF-LIB-003 [P0]** Inspect RhythmVerse search/download behavior for drums
   and implement matching with recorded sources and reviewable ambiguous versions.
   Network blocker resolved after unrestricted publication: catalog HTTP 200.
-  Search integration, matching and provider downloads remain unimplemented.
-- [ ] **DCF-LIB-004 [P0]** Validate a small pilot, choose conversion by actual input
+  Public native-CH search and direct ZIP downloads were exercised. Twelve manually
+  selected playlist matches have recorded sources and checksums; general matching,
+  provider handling and incremental search integration remain outstanding.
+- [-] **DCF-LIB-004 [P0]** Validate a small pilot, choose conversion by actual input
   format, verify drums/Pro Drums and obtain the user's Scan Songs/playtest result.
-- [ ] **DCF-LIB-005 [P1]** Implement resumable acquisition/preparation, preserve
+  Twelve native songs prepared: Expert four-lane drums and Pro Drums evidence,
+  40 audio assets decoded, ZIP extracted and hashes checked. Heart-Shaped Box's
+  five-lane candidate was replaced with Dumb. User's Scan Songs/playtest pending.
+- [-] **DCF-LIB-005 [P1]** Implement resumable acquisition/preparation, preserve
   existing files, and export a ZIP of song folders with a missing/blocked report.
+  Pilot ZIP and safe, atomic single-song preparation helper delivered. Original
+  archives retained, existing destinations never overwritten, pilot catalog saved.
+  General batch acquisition and update automation remain outstanding.
 - [ ] **DCF-LIB-006 [P1]** Support incremental playlist updates without losing
   selections or repeating verified downloads; check space and Windows path limits.
 
@@ -357,6 +365,9 @@ No real songs were searched, downloaded, converted or verified in the game durin
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
 The subsequent metadata-export slice captured the playlist only; it did not
 download audio or prepare charts. The workstream remains in progress.
+The user then explicitly authorized at least ten songs for a later playtest.
+That preparation slice delivered twelve in a private ZIP; game acceptance and
+the full-playlist workflow remain incomplete.
 
 # Immediate next milestone
 

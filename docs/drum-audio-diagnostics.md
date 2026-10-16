@@ -82,7 +82,9 @@ pode criar agudos. A interpretação exige áudio, ativação por classe e MIDI.
 ## Validação desta entrega
 
 - Linux/Python 3.12.14; execução nativa Windows deste analisador ainda não feita.
-- 38 testes do projeto passaram, incluindo a regressão de HH/TT; Ruff e mypy passaram.
+- 38 testes passaram na entrega isolada, incluindo a regressão de HH/TT. Após
+  incorporar as atualizações concorrentes da biblioteca de músicas, os 46 testes
+  passaram; Ruff e mypy também passaram no conjunto integrado.
 - Lock do núcleo, help/doctor, execução do script pelo lock próprio e builds
   wheel/sdist passaram. Os dois arquivos de distribuição foram inspecionados:
   nenhum áudio, modelo, cache ou arquivo temporário. O aviso de uv sobre cache
