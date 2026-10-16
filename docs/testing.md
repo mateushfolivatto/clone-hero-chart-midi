@@ -45,3 +45,10 @@ ML readiness. Model path checks only existence/size, not checkpoint compatibilit
 
 Later phases add meaningful mapping/timing/serialization golden tests and separate
 slow/model tests. They do not belong in the Phase 0 executable skeleton.
+
+The separate song-library workstream adds five public-playlist metadata tests,
+bringing the suite to 37 tests. They run offline with synthetic pages, checking
+incomplete pagination, repeated pages, playlist mutation and preservation of
+repeated songs/versions. A real cloud export independently verified all 681
+MixDrumRock entries in CSV/XLSX against a JSON snapshot. This verifies metadata
+export only, not audio downloads, chart conversion or compatibility in the game.

@@ -5,9 +5,39 @@ para tocar bateria no Clone Hero. A coleção pode crescer além de 600 músicas
 o processamento futuro deve ser incremental e preservar escolhas anteriores.
 O pipeline de MP3 → transcrição do Drum Chart Forge continua independente.
 
-Esta entrega cria a organização, os modelos CSV e o plano de trabalho. Ainda não
-há importador, busca automática, downloader, conversor ou empacotador implementado.
-A playlist real ainda não foi recebida e nenhuma música foi baixada.
+O exportador de metadados do Qobuz já está implementado em
+`src/drumforge/library/qobuz.py`. A MixDrumRock foi exportada com 681 faixas,
+preservando ordem, versões e identificadores, em CSV, Excel e um snapshot JSON.
+Busca de charts, downloads de músicas, conversão e empacotamento ainda não foram
+implementados. Nenhum áudio foi baixado.
+
+## Atualizar a lista sem Soundiiz
+
+Na raiz do repositório, use um diretório novo para cada exportação:
+
+```text
+uv --cache-dir .uv-cache run --locked python -m drumforge.library.qobuz 69773629 --output-dir song-library/data/mixdrumrock/inbox/qobuz-NOVA-DATA
+```
+
+Para também gerar Excel, use a ferramenta opcional com versão fixa, sem alterar
+as dependências do projeto:
+
+```text
+uv --cache-dir .uv-cache run --locked --with openpyxl==3.1.5 python -m drumforge.library.qobuz 69773629 --output-dir song-library/data/mixdrumrock/inbox/qobuz-NOVA-DATA --xlsx
+```
+
+Substitua `NOVA-DATA` por uma data/hora ainda não usada. O exportador recusa
+diretórios existentes. O CSV usa UTF-8 com BOM; o Excel tem filtros e cabeçalho
+fixo. São guardados `playlist.csv`, `playlist.json`, `manifest.json` e, com a opção
+`--xlsx`, `playlist.xlsx`. A primeira exportação está em
+`data/mixdrumrock/inbox/qobuz-2026-10-16/`.
+
+O helper acessa somente metadados de playlists públicas pelo mesmo endpoint usado
+pelo frontend do Qobuz. Ele lê o identificador público da aplicação; não usa senha,
+token pessoal, segredo da aplicação ou endpoints de áudio. A interface pode mudar:
+nesse caso o comando falha explicitamente. Ele confere contagem, paginação,
+posições e identificadores de entradas e recusa snapshots parciais ou alterações
+da playlist durante a captura. Músicas repetidas em entradas distintas são mantidas.
 
 ## Organização portátil
 
@@ -59,10 +89,9 @@ são versionados. Nenhum desses dados deve entrar em commits ou distribuições.
 
 ## Fluxo recomendado
 
-1. Receber o arquivo MixDrumRock, de preferência CSV ou XLSX com artista e título;
-   álbum, duração, versão, ISRC e link da faixa ajudam na identificação. O modelo
-   em `templates/playlist.csv` é uma opção, não um requisito para receber o arquivo.
-   Preservar a exportação original em `inbox/`. Não é necessário enviar senha.
+1. Capturar a playlist pública com o comando acima, ou receber CSV/XLSX com
+   artista e título. Álbum, duração, versão, ISRC e link da faixa ajudam na
+   identificação. Preservar a exportação em `inbox/`. Não é necessário enviar senha.
 2. Importar a lista e inventariar as músicas que você já tem. Preservar a ordem
    da playlist e registrar duplicatas; versões ao vivo, covers e regravações
    permanecem distintas. Usar identificadores estáveis quando disponíveis.
@@ -106,35 +135,41 @@ identifica sozinho qual gravação da música foi chartada.
 | `game_verified` | Usuário confirmou Scan Songs e drums/Pro Drums jogáveis. |
 | `blocked` | Link, acesso, formato ou outra falha identificada; motivo em `notes`. |
 
-Esses estados são uma proposta de contrato, não resultados da playlist real.
+Esses estados são uma proposta de contrato; o catálogo de charts ainda não foi
+preenchido a partir da lista real.
 O backlog oficial permanece em [BACKLOG.md](../BACKLOG.md), itens DCF-LIB-001–006.
 
 ## Evidência e pendências desta sessão
 
-Em 2026-10-16, as tentativas HTTPS de abrir
-`https://rhythmverse.co/songfiles/game` e `https://rhythmverse.co/robots.txt`
-falharam no proxy deste ambiente com `Tunnel connection failed: 403 Forbidden`.
-Isso não é uma resposta do site e não comprova sua política de automação nem
-disponibilidade atual. Não foi possível inspecionar a busca ou links de download.
-A inclusão de `rhythmverse.co` na rede foi salva no rascunho de configuração;
-ainda precisa ser aplicada/publicada nas configurações do ambiente e testada.
-Outros domínios só serão necessários se os links reais apontarem para eles.
+O bloqueio HTTP CONNECT 403 observado no início de 2026-10-16 foi resolvido após
+o usuário publicar acesso sem restrições. Qobuz e o catálogo RhythmVerse
+responderam HTTP 200. Isso confirma conectividade; a busca automatizada e os
+downloads dos provedores de charts ainda precisam ser investigados.
 
-Este chat não dispõe de conexão com seu Google Drive. Para começar a coleção
-real, anexe a exportação MixDrumRock ou forneça um link acessível. Um link público
-da playlist também pode servir, dependendo do acesso. Depois precisamos de uma
-amostra de pacote de chart e, para evitar duplicação, da lista da sua biblioteca
-existente (sem necessidade de enviar toda a mídia agora).
+O link público `https://open.qobuz.com/playlist/69773629` retornou MixDrumRock com
+681 faixas. O exportador coletou sete páginas, confirmou a revisão ao final e
+preservou as 681 posições e IDs de entrada; são 681 IDs de faixa distintos.
+CSV e XLSX foram reabertos e comparados ao snapshot de origem, incluindo a duração
+total de 182953 segundos. Uma segunda captura reproduziu a lista; a tentativa de
+reutilizar o primeiro diretório falhou sem alterar seus arquivos.
+Os testes cobrem paginação incompleta, repetição de página, mudança de revisão e
+preservação de músicas repetidas e versões. Nenhum chart foi validado no jogo.
+
+Ainda falta inventariar as músicas que você já tem (uma lista de pastas/metadados
+é suficiente; não é necessário enviar toda a mídia). A playlist já está disponível
+localmente, sem necessidade de arquivo do Drive ou assinatura de exportação.
 
 ## Prompt para continuar
 
 > Leia AGENTS.md, CODEX_KICKOFF.md, CONTEXT.md, BACKLOG.md e lessons.md, depois
 > song-library/README.md. Continue apenas a frente MixDrumRock, sem avançar fases
 > de transcrição. Audite Git e runtime e use uma branch dedicada conforme as
-> instruções do projeto. Com a playlist anexada, implemente primeiro importação
-> e inventário incremental com dados privados em song-library/data/mixdrumrock/.
-> Preserve versões e escolhas, não altere músicas existentes. Verifique acesso ao
-> RhythmVerse antes de implementar integração; não suponha uma API. Após receber
+> instruções do projeto. A playlist de 681 faixas está no snapshot privado
+> song-library/data/mixdrumrock/inbox/qobuz-2026-10-16/; atualize com o exportador
+> se necessário. Faça o inventário incremental a partir da biblioteca existente
+> quando sua lista for fornecida. Preserve versões e escolhas, não altere músicas
+> existentes. Investigue a busca de drums no RhythmVerse; não suponha uma API.
+> Comece por um piloto de 5–10 faixas, registrando fontes e ambiguidades. Após obter
 > pacotes reais, valide um piloto com drums/Pro Drums e conversão apropriada,
 > mantendo a confirmação no jogo separada da inspeção estrutural. Atualize os
 > DCF-LIB no backlog com evidências, execute os gates pertinentes e siga o fluxo

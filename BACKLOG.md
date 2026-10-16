@@ -326,12 +326,14 @@ See song-library/README.md for scope, evidence and the continuation prompt.
 
 - [x] **DCF-LIB-001 [P0]** Create a portable library area, private-data ignore rule,
   metadata templates and a documented staged workflow. No downloader is implied.
-- [!] **DCF-LIB-002 [P0]** Import the real playlist and inventory existing songs.
-  Blocked: the MixDrumRock file/link and existing-library inventory are not supplied.
-- [!] **DCF-LIB-003 [P0]** Inspect RhythmVerse search/download behavior for drums
+- [-] **DCF-LIB-002 [P0]** Import the real playlist and inventory existing songs.
+  Public Qobuz playlist 69773629 exported completely: 681 entries, CSV/XLSX/JSON,
+  original order and version metadata preserved. Reusable metadata exporter and
+  pagination safeguards verified. Existing-library inventory is still not supplied.
+- [ ] **DCF-LIB-003 [P0]** Inspect RhythmVerse search/download behavior for drums
   and implement matching with recorded sources and reviewable ambiguous versions.
-  Blocked: the environment proxy rejects the site with HTTP CONNECT 403; its
-  domain addition is saved in the environment draft but not runtime-verified.
+  Network blocker resolved after unrestricted publication: catalog HTTP 200.
+  Search integration, matching and provider downloads remain unimplemented.
 - [ ] **DCF-LIB-004 [P0]** Validate a small pilot, choose conversion by actual input
   format, verify drums/Pro Drums and obtain the user's Scan Songs/playtest result.
 - [ ] **DCF-LIB-005 [P1]** Implement resumable acquisition/preparation, preserve
@@ -341,6 +343,8 @@ See song-library/README.md for scope, evidence and the continuation prompt.
 
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
+The subsequent metadata-export slice captured the playlist only; it did not
+download audio or prepare charts. The workstream remains in progress.
 
 # Immediate next milestone
 

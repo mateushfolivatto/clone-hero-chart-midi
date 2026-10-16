@@ -89,3 +89,9 @@ finding. This file supplements the backlog; it does not redefine task completion
     site content was available. Record the environment-network blocker, save only
     the required domain addition, and retry after application. Do not infer a site
     ban, download API or automation permission from an uninspected destination.
+
+21. **A public playlist page may show only its first batch.** Qobuz's open-page
+    frontend requests 50 entries by default, while this playlist contains 681.
+    Read public metadata in pages and compare expected count, offsets, entry IDs,
+    positions and revision before calling an export complete. Verify CSV/XLSX rows
+    against the captured source and preserve repeated songs as distinct entries.
