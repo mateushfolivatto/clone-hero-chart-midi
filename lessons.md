@@ -95,3 +95,17 @@ finding. This file supplements the backlog; it does not redefine task completion
     Read public metadata in pages and compare expected count, offsets, entry IDs,
     positions and revision before calling an export complete. Verify CSV/XLSX rows
     against the captured source and preserve repeated songs as distinct entries.
+
+## 2026-10-16 — Hi-hat diagnostics
+
+22. **Check class order at the backend boundary.** The public CLI declared
+    BD SD HH TT CY but passed values directly to ADTOF LABELS_5, whose third and
+    fourth labels are GM 47 (tom) and GM 42 (hi-hat). Translate the public vector
+    once and assert the upstream order. Verify with distinct HH/TT thresholds
+    against the serialized values by MIDI note; equal-valued tests hide swaps.
+23. **A spectral attack is not an instrument label.** An abruptly truncated
+    synthetic bass pulse produced an additional high-band candidate. Compare
+    against ground truth, construct continuous synthetic tails when testing
+    isolated attacks, and label band peaks as candidates. Verify silence and
+    overlapping low/high attacks separately; never report candidate counts as
+    musical transcription accuracy.

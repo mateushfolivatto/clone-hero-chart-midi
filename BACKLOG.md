@@ -144,6 +144,18 @@ this is execution evidence, not musical-accuracy or private-song validation.
 - [ ] **DCF-121 [P1]** Record obvious false positives/false negatives.
 - [ ] **DCF-122 [P0]** Document Phase 1 findings.
 
+### Phase 1 diagnostic support — 2026-10-16
+
+- [x] **DCF-123 [P1]** Add a project-local drum-audio diagnostic skill and bounded
+  spectrogram/report script; verify on authored synthetic signals. Correct public
+  HH/TT threshold translation to pinned ADTOF class order and add regression coverage.
+
+This support slice does not complete DCF-114 or DCF-116–122. No failing private
+audio, MIDI, stems or model checkpoint is available in this checkout. The core
+separator remains passthrough; Moises is an optional external stem source, not
+an implemented integration. See docs/drum-audio-diagnostics.md for evidence and
+the measured next experiment. Phase 1 remains in progress.
+
 ---
 
 ## Phase 2 — Canonical Event Pipeline

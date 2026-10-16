@@ -144,6 +144,24 @@ smoke succeeded on this host; this is not a quality claim. See
 terms still block redistribution. DCF-100 onward remains unstarted and requires
 the user's explicit next instruction.
 
+## Drum diagnostic support (2026-10-16)
+
+The user requested investigation of missing hi-hats, spectral visualization and
+possible Moises separation. A project-local skill and standalone diagnostic script
+now compare short full-mix/stem excerpts using stereo power spectra and band flux.
+Their Python dependencies are optional and separately locked; no ML model is
+installed and no audio is uploaded. This supports Phase 1, not a GUI or exporter.
+
+A confirmed configuration bug was fixed: public thresholds BD SD HH TT CY must
+be translated to pinned ADTOF's BD SD TT HH CY (GM 35, 38, 47, 42, 49). Previously
+the third/fourth thresholds affected the opposite classes from the CLI help.
+The public order is retained, with translation at the isolated backend boundary
+and a runtime label-order check. Untuned upstream defaults remain unchanged.
+Review previously tuned explicit vectors. Real-song improvement is unmeasured;
+private source audio/MIDI are unavailable. Phase 1 acceptance remains pending.
+See docs/drum-audio-diagnostics.md and DCF-123; keep the full-mix baseline and
+measure per-class precision/recall before choosing stems or fusion.
+
 ## Separate song-library workstream (2026-10-16)
 
 The user requested a separate, portable area for the growing MixDrumRock Qobuz

@@ -1,5 +1,20 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-16 — Hi-hat diagnostic support
+
+The project-local drum-audio-diagnostics skill provides a separately locked,
+CPU-only visual analyzer for mix/stem excerpts. Synthetic checks covered quiet
+high-band attacks over strong bass attacks, simultaneous events, silence, stereo
+phase, absolute crop times, FFmpeg decoding and overwrite/NaN refusal. The demo
+was inspected visually. This is diagnostic tooling, not real-song validation.
+
+An audited upstream class order exposed a real bug: public HH and TT thresholds
+were passed to opposite backend classes. Translation now preserves the CLI's
+BD SD HH TT CY interface and targets the correct backend notes. A regression
+test verifies distinct per-note values; the child rejects unexpected label order.
+See [drum-audio-diagnostics.md](drum-audio-diagnostics.md). Root BACKLOG.md owns
+DCF-123 and the still-pending Phase 1 acceptance tasks.
+
 ## 2026-10-16 — Qobuz metadata export
 
 After unrestricted publication, Qobuz and RhythmVerse returned HTTP 200. The
