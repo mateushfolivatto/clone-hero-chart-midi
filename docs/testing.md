@@ -1,5 +1,20 @@
 # Quality gates
 
+The hi-hat diagnostic slice brings the core suite to 38 tests. Its new regression
+checks that the public hi-hat threshold reaches backend GM 42 and the tom
+threshold reaches GM 47. The optional script lives outside src/tests; also run:
+
+```text
+uv --cache-dir .uv-cache run --locked ruff check .agents/skills/drum-audio-diagnostics/scripts
+uv --cache-dir .uv-cache run --locked ruff format --check .agents/skills/drum-audio-diagnostics/scripts
+uv --cache-dir .uv-cache run --no-project --locked --script .agents/skills/drum-audio-diagnostics/scripts/inspect_audio.py --help
+```
+
+Its separate script lock pins optional plotting dependencies without adding them
+to the core. Use the synthetic acceptance procedure/evidence in
+drum-audio-diagnostics.md when changing DSP; do not equate spectral candidates
+with classified instrument notes. Real-song and Windows checks remain separate.
+
 Run from the repository root after `uv --cache-dir .uv-cache sync --locked`.
 On this machine uv was installed locally: replace `uv` with
 `.\.tools\bin\uv.exe` in PowerShell. No shell activation is required.

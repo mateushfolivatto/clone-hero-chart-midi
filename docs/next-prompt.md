@@ -19,6 +19,16 @@ decisão de `docs/phase-1-windows-compatibility.md`: FFmpeg nativo como boundary
 normalização, PyTorch CPU e ADTOF `85c192e`, sem separação inicialmente.
 
 Faça primeiro a validação nativa com áudio privado e gere contagens/CSV de debug.
+Use a skill local `.agents/skills/drum-audio-diagnostics/SKILL.md` para investigar
+chimbal ausente e comparar um trecho de 15–30 s da mixagem com stems locais de
+bateria/chimbal, quando fornecidos. Veja docs/drum-audio-diagnostics.md. O CLI
+mantém `--thresholds BD SD HH TT CY`; o adaptador agora traduz para a ordem
+upstream BD SD TT HH CY. Terceiro valor público = chimbal. Reavalie vetores
+explícitos antigos ajustados antes da correção. Preserve a mixagem de referência,
+varie só HH e meça TP/FP/FN e erro de tempo por classe; não suponha que a separação
+melhore tudo. O script espectral produz candidatos, não classes reconhecidas.
+Não faça upload ao Moises nem baixe modelos sem autorização específica; stems
+exportados pelo usuário podem ser preparados/transcritos no fluxo atual.
 Mantenha separação desativada no baseline por meio do passthrough existente e
 `--skip-separation`. Não instale WSL/Docker/CUDA e não torne
 separação um requisito. Mantenha dependências ML opcionais e travadas.

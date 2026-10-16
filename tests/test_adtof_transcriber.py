@@ -1,3 +1,4 @@
+import json
 import subprocess
 import sys
 from pathlib import Path
@@ -121,6 +122,30 @@ def test_failed_backend_removes_partial_output(tmp_path: Path) -> None:
         with pytest.raises(TranscriptionError, match="backend failed"):
             transcriber.transcribe(source, midi)
     assert not midi.exists()
+
+
+def test_hihat_and_tom_thresholds_target_the_correct_backend_notes(tmp_path: Path) -> None:
+    source = tmp_path / "prepared.wav"
+    source.write_bytes(b"wav")
+    checkpoint = _checkpoint(tmp_path)
+    midi = tmp_path / "raw.mid"
+
+    def runner(command: list[str], **_: object) -> subprocess.CompletedProcess[str]:
+        # LABELS_5 in allowlisted upstream 85c192e: bass, snare, tom, hat, cymbal.
+        by_note = dict(zip((35, 38, 47, 42, 49), json.loads(command[-1]), strict=True))
+        assert by_note == {35: 0.21, 38: 0.24, 42: 0.13, 47: 0.37, 49: 0.30}
+        midi.write_bytes(b"MThd")
+        return subprocess.CompletedProcess(command, 0, stdout="", stderr="")
+
+    with (
+        patch("drumforge.transcription.adtof.ADTOF_CHECKPOINT_SIZE", 1),
+        patch(
+            "drumforge.transcription.adtof.checkpoint_sha256", return_value=ADTOF_CHECKPOINT_SHA256
+        ),
+    ):
+        AdtofTranscriber(
+            checkpoint, thresholds=[0.21, 0.24, 0.13, 0.37, 0.30], runner=runner
+        ).transcribe(source, midi)
 
 
 def test_existing_midi_is_not_overwritten(tmp_path: Path) -> None:

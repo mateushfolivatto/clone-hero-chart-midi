@@ -71,6 +71,8 @@ import adtof_pytorch
 
 if version("adtof-pytorch") != "0.1.0":
     raise RuntimeError("expected adtof-pytorch 0.1.0 from the allowlisted revision")
+if tuple(adtof_pytorch.LABELS_5) != (35, 38, 47, 42, 49):
+    raise RuntimeError("unexpected ADTOF class order; expected BD SD TT HH CY")
 
 audio, midi_out, weights, threshold_json, thresholds_json = sys.argv[1:]
 original_loader = adtof_pytorch.load_pytorch_weights
@@ -92,7 +94,7 @@ adtof_pytorch.transcribe_to_midi(
 
 
 class AdtofTranscriber:
-    """Run allowlisted ADTOF weights on CPU without importing ML in this process."""
+    """Run ADTOF on CPU; public per-class thresholds are ordered BD SD HH TT CY."""
 
     name = f"adtof-pytorch@{ADTOF_REVISION[:7]}"
 
@@ -126,6 +128,13 @@ class AdtofTranscriber:
         if output.exists():
             raise TranscriptionError(f"MIDI output already exists: {output}")
         output.parent.mkdir(parents=True, exist_ok=True)
+        # The public CLI places hi-hat third. Pinned upstream LABELS_5 places it
+        # fourth (GM 42), after toms (GM 47). Translate only at the backend boundary.
+        backend_thresholds = (
+            [self.thresholds[index] for index in (0, 1, 3, 2, 4)]
+            if self.thresholds is not None
+            else None
+        )
         command = [
             str(self.python_executable),
             "-c",
@@ -134,7 +143,7 @@ class AdtofTranscriber:
             str(output),
             str(self.checkpoint),
             json.dumps(self.threshold),
-            json.dumps(self.thresholds),
+            json.dumps(backend_thresholds),
         ]
         started = time.monotonic()
         try:

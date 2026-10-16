@@ -48,6 +48,16 @@ on CPU. It refuses missing/modified checkpoints and existing MIDI outputs. The
 backend environment and weights are intentionally not installed or downloaded by
 the core project; consult the compatibility report before local research use.
 
+Per-instrument `--thresholds` use **BD SD HH TT CY** (bass drum, snare, hi-hat,
+toms, cymbals). The adapter translates this to the pinned backend's different
+order; lowering the third value now targets hi-hat, not toms. Previous explicit
+vectors need reassessment if they were tuned around the old swapped behavior.
+
+For missing hi-hats, use the project skill `$drum-audio-diagnostics`. It supplies
+a local spectrogram/report script and an experiment comparing full mix, drums
+and Moises component stems. See [the diagnostic guide](docs/drum-audio-diagnostics.md).
+Plots do not classify every note; real-song accuracy still needs measurement.
+
 ## Project navigation
 
 - [Biblioteca MixDrumRock](song-library/README.md): exportação da playlist do

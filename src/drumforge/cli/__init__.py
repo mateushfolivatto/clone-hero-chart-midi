@@ -36,7 +36,11 @@ def main(argv: list[str] | None = None) -> int:
     threshold_group = transcribe.add_mutually_exclusive_group()
     threshold_group.add_argument("--threshold", type=float)
     threshold_group.add_argument(
-        "--thresholds", type=float, nargs=5, metavar=("BD", "SD", "HH", "TT", "CY")
+        "--thresholds",
+        type=float,
+        nargs=5,
+        metavar=("BD", "SD", "HH", "TT", "CY"),
+        help="Detection thresholds: bass drum, snare, hi-hat, toms, cymbals",
     )
     args = parser.parse_args(argv)
     if args.command == "prepare-audio":

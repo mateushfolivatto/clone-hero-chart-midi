@@ -1,5 +1,19 @@
 # Dependency and model license register
 
+## Optional diagnostic script — 2026-10-16
+
+The project-local skill's script uses NumPy 2.3.5 (BSD-3-Clause) and Matplotlib
+3.10.8 (Matplotlib/PSF-style license), installed independently using its PEP 723
+metadata and adjacent uv lock. Primary license sources:
+[NumPy](https://numpy.org/doc/stable/license.html),
+[Matplotlib](https://matplotlib.org/stable/project/license.html).
+There are no model weights. These libraries are invoked locally, not vendored or
+embedded in the project wheel. Retain upstream/bundled notices if distributing
+their binaries; the lock records transitive artifacts, not license clearance for
+packaging. Existing FFmpeg is invoked as a separate local executable; its build's
+LGPL/GPL terms must be checked if later redistributed. Moises remains an external
+service used through user-exported files, without copied code or an API client.
+
 Audit date: 2026-09-10. Engineering inventory, not clearance to redistribute models.
 No ML package or model is installed, invoked or distributed by Phase 0.
 Each future adapter must pin a commit and record the checkpoint URL, size, SHA256
