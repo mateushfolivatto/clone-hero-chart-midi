@@ -1,5 +1,24 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-16 — Separate MixDrumRock library
+
+The user requested library management for a growing Qobuz playlist and existing
+drums charts. [../song-library/README.md](../song-library/README.md) records the
+portable layout, metadata templates, conversion caveats and continuation prompt.
+No executable downloader or conversion workflow was added. The playlist is not
+yet supplied, and the network proxy currently denies RhythmVerse access.
+Authoritative status is in DCF-LIB items in the root backlog; transcription
+phase acceptance remains unchanged.
+
+Validation on the cloud Linux/Python 3.12.14 environment: all 32 existing pytest
+tests passed; locked dependency check, Ruff lint/format, strict mypy, CLI help,
+doctor in text/JSON and wheel/sdist build passed. Doctor's optional ML/checkpoint
+warnings remain expected; inference is not validated. Both archives were inspected
+and contain no caches, collection data, media or weights. The CSV headers are
+unique, all seven collection directories are ignored, and no media is tracked.
+The build warns that the local uv cache could be included, but the actual archive
+inspection confirms its absence. No new executable behavior was introduced.
+
 [../BACKLOG.md](../BACKLOG.md) is the sole task-status authority. Read
 [../lessons.md](../lessons.md) every time you consult it. This document is a
 session evidence summary, not a duplicate checklist.

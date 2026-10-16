@@ -144,6 +144,22 @@ smoke succeeded on this host; this is not a quality claim. See
 terms still block redistribution. DCF-100 onward remains unstarted and requires
 the user's explicit next instruction.
 
+## Separate song-library workstream (2026-10-16)
+
+The user requested a separate, portable area for the growing MixDrumRock Qobuz
+playlist (600+ tracks), existing drums charts from RhythmVerse, conversion when
+needed, and a ZIP of extracted song folders for personal Clone Hero use.
+`song-library/README.md` records this workflow and its limits; templates are
+versioned while all private collection data stays in ignored `song-library/data/`.
+This request authorizes library organization and investigation independently of
+the MP3 transcription phases; it does not complete any Phase 1 acceptance item.
+No playlist or chart package has been received. RhythmVerse access currently fails
+at the environment proxy, so site integration/conversion remains unverified.
+Do not promise complete coverage or infer drums from a Guitar Hero III label.
+The collection should preserve source audio/chart pairing, existing songs and
+manual choices, use relative paths, and distinguish structural checks from actual
+user-confirmed game compatibility. See DCF-LIB items in BACKLOG.md for status.
+
 ## Do not do yet
 
 - GUI
