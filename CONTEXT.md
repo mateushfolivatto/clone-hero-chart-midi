@@ -157,8 +157,14 @@ The public playlist link was provided and all 681 entries were exported to priva
 CSV/XLSX/JSON snapshots. The reusable metadata helper lives in
 `drumforge.library.qobuz`, isolated from the transcription pipeline. The network
 blocker was resolved after unrestricted publication; Qobuz and RhythmVerse return
-HTTP 200. No chart package or inventory of existing songs has been received;
-site search integration and conversion remain unimplemented/unverified.
+HTTP 200. The user subsequently authorized at least ten songs for a later test.
+Twelve native Clone Hero packages were selected from the playlist, downloaded,
+inspected for four-lane Expert/Pro Drums and packaged in a private ZIP with sources
+and instructions. All 40 audio assets decoded; audio and note files remain intact.
+Only Requiem's song.ini received pro_drums=True from existing cymbal markers.
+No console/five-lane conversion was needed. Scan Songs/playtest and inventory of
+the existing user library remain pending; general search/acquisition automation
+and full-playlist coverage are not complete. See song-library/README.md.
 Do not promise complete coverage or infer drums from a Guitar Hero III label.
 The collection should preserve source audio/chart pairing, existing songs and
 manual choices, use relative paths, and distinguish structural checks from actual

@@ -95,3 +95,17 @@ finding. This file supplements the backlog; it does not redefine task completion
     Read public metadata in pages and compare expected count, offsets, entry IDs,
     positions and revision before calling an export complete. Verify CSV/XLSX rows
     against the captured source and preserve repeated songs as distinct entries.
+
+22. **Catalog flags are weaker than chart evidence.** RhythmVerse reported
+    pro_drums=0 for Numb, but its original song.ini had pro_drums=True and its
+    PART DRUMS contained tom markers. Inspect actual configuration and notes;
+    preserve source flags separately and leave game acceptance pending a playtest.
+23. **Do not remove a five-lane flag to pretend conversion.** The first
+    Heart-Shaped Box candidate had five_lane_drums=True and Expert MIDI note 101.
+    Exclude it from a four-lane pilot or perform a separately verified conversion.
+    The pilot used Dumb instead, preserving the excluded original archive.
+24. **Scope MIDI inspection around supported game data.** Mido rejected extended
+    Phase Shift SysEx bytes in Numb's guitar track. Strictly parse original conductor
+    and PART DRUMS chunks for drum checks; do not enable generic clipping or rewrite
+    the delivered MIDI. Record that other instruments were not validated, and
+    verify the original chart/audio hashes through ZIP extraction.

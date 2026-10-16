@@ -52,3 +52,17 @@ incomplete pagination, repeated pages, playlist mutation and preservation of
 repeated songs/versions. A real cloud export independently verified all 681
 MixDrumRock entries in CSV/XLSX against a JSON snapshot. This verifies metadata
 export only, not audio downloads, chart conversion or compatibility in the game.
+
+The first private song pilot adds eight package-safety/chart tests (45 total):
+path traversal, symlinks, Windows case collisions, overwrite refusal, atomic
+cleanup after failed inspection, byte preservation, tempo changes and five-lane
+rejection. No copyrighted media is used in tests.
+
+Real pilot checks: 12 native song packages, 11 MIDI drum/conductor inspections and
+one ExpertDrums .chart inspection, 17,146 Expert gems and 40 audio assets decoded
+with FFmpeg. ZIP CRC and all runtime-asset hashes passed after a fresh extraction.
+The preparation CLI reproduced Numb in a temporary directory, preserved its assets
+and refused an existing destination. Mido 1.3.3 is optional through uv --with;
+core development dependencies and lockfile are unchanged. Other instruments,
+native Windows execution, perceived synchronization and game acceptance are not
+established by these cloud checks. User Scan Songs/playtest remains required.

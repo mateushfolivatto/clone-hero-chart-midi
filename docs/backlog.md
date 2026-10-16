@@ -1,5 +1,36 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-16 — Twelve-song private pilot
+
+The user authorized at least ten playlist songs for a later Clone Hero test.
+Twelve native-CH packages were selected, obtained and staged in a separate folder.
+They cover Linkin Park, Nirvana, Iron Maiden, The Beatles and Avenged Sevenfold.
+No audio/MIDI conversion was required. Heart-Shaped Box's five-lane version was
+excluded; Dumb replaced it. Requiem's .chart already had cymbal markers, so its
+local song.ini received pro_drums=True; chart/audio bytes were preserved.
+
+Evidence: four-lane Expert drums and Pro Drums markers in all 12 packages,
+17,146 Expert gems, all 40 audio assets decoded, no final drum notes past audio,
+and ZIP CRC plus a complete hash comparison after fresh extraction. The delivery
+is song-library/data/mixdrumrock/exports/MixDrumRock-piloto-12.zip (138.6 MiB),
+with already extracted song folders, instructions, song list and source/validation
+manifest. Originals and a catalog remain in ignored collection directories.
+
+Reusable helpers safely curate single-song ZIPs, reject unsafe paths/symlinks and
+overwrites, inspect drum tracks/tempo and decode audio. The preparation CLI was
+exercised independently on Numb and reproduced its runtime hashes. MIDI inspection
+covers conductor/PART DRUMS, leaving other instruments unverified. Native Windows,
+Scan Songs, perceived synchronization and gameplay remain for the user's test.
+Full-playlist matching/acquisition and existing-library inventory remain open;
+see the canonical DCF-LIB entries for actual status and song-library/README.md for
+the next-session prompt.
+
+Final checks passed: all 45 tests, Ruff lint/format, strict mypy, locked dependency
+validation, CLI help/doctor and wheel/sdist builds. Both code distributions were
+inspected and contain no collection data, media, model files or caches. The pilot
+ZIP is 145,332,049 bytes; SHA256 is recorded beside it in the ignored exports
+directory. No song or archive is tracked or pushed to GitHub.
+
 ## 2026-10-16 — Qobuz metadata export
 
 After unrestricted publication, Qobuz and RhythmVerse returned HTTP 200. The

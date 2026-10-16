@@ -8,8 +8,60 @@ O pipeline de MP3 → transcrição do Drum Chart Forge continua independente.
 O exportador de metadados do Qobuz já está implementado em
 `src/drumforge/library/qobuz.py`. A MixDrumRock foi exportada com 681 faixas,
 preservando ordem, versões e identificadores, em CSV, Excel e um snapshot JSON.
-Busca de charts, downloads de músicas, conversão e empacotamento ainda não foram
-implementados. Nenhum áudio foi baixado.
+Um primeiro lote privado de 12 músicas já foi obtido pelo RhythmVerse e preparado
+com áudio e bateria Expert de quatro pistas. A integração geral de busca/download
+para as 681 faixas continua pendente; o lote foi selecionado e conferido manualmente.
+
+## Lote de teste 01 — 12 músicas
+
+O arquivo está em `data/mixdrumrock/exports/MixDrumRock-piloto-12.zip` (138,6 MiB).
+Ele contém `Songs/MixDrumRock - Lote teste 01/`, com uma pasta por música, além de
+`LEIA-ME.txt`, `musicas.csv` e `fontes-e-validacao.json`. Não há ZIPs internos.
+
+| Artista | Músicas |
+| --- | --- |
+| Linkin Park | Numb; Lying From You; From The Inside |
+| Nirvana | Come As You Are; Dumb; All Apologies |
+| Iron Maiden | Fear of the Dark; Hallowed Be Thy Name; The Number of the Beast |
+| The Beatles | Come Together; Here Comes the Sun |
+| Avenged Sevenfold | Requiem |
+
+Extraia o ZIP, copie `MixDrumRock - Lote teste 01` de dentro de `Songs/` para a
+pasta de músicas configurada no seu Clone Hero e execute **Scan Songs**. Escolha
+**Pro Drums / Expert** em uma versão atual do jogo. Confira pratos, tons, bumbo e
+sincronismo e registre o nome da faixa se algo não funcionar.
+
+Foram verificados 12 `song.ini`, 11 MIDI e um `.chart`, 17.146 notas de bateria
+Expert, marcações de pratos/tons e 40 arquivos de áudio decodificados por FFmpeg.
+O ZIP foi testado, extraído novamente e todos os hashes dos arquivos conferidos.
+O teste no jogo ainda depende do usuário; outros instrumentos não foram validados.
+A correspondência com o Qobuz confere artista, título e duração próxima, sem
+garantir o mesmo master/edição. O áudio de cada chart foi mantido com ele.
+
+Uma versão de Heart-Shaped Box foi excluída porque tinha cinco pistas, e Dumb
+entrou no lugar. Em Requiem, o único ajuste foi acrescentar `pro_drums=True` ao
+`song.ini`, com base nos pratos já presentes no `.chart`. Áudio e notas não foram
+convertidos ou reescritos. Arquivos auxiliares de editor e MIDIs de outros jogos
+foram omitidos da entrega; os pacotes originais continuam em `downloads/`.
+
+Fontes, uploaders, autores, hashes e verificações ficam nos relatórios privados
+em `data/mixdrumrock/reports/pilot-*.json`. O catálogo persistente é
+`data/mixdrumrock/catalog/pilot-01.csv`, com estado `prepared`, ainda sem
+`game_verified`. A biblioteca pré-existente do usuário não foi fornecida; este
+lote fica em uma pasta própria para facilitar comparação e movimentação.
+
+Para preparar outro ZIP nativo de uma única música, sem sobrescrever uma pasta:
+
+```text
+uv --cache-dir .uv-cache run --locked --with mido==1.3.3 python -m drumforge.library.packages ARQUIVO.zip --output-dir NOVA_PASTA
+```
+
+O helper rejeita caminhos inseguros, symlinks, colisões de nomes no Windows,
+pacotes muito grandes, ausência de bateria Expert/Pro Drums e áudio ilegível.
+Ele usa FFmpeg/ffprobe instalados e Mido opcional para inspecionar o mapa de tempo
+e `PART DRUMS`. Outros instrumentos podem usar extensões SysEx de Phase Shift que
+Mido não interpreta; esses chunks ficam fora da inspeção, preservados no original.
+Não se usa clipping genérico nem se altera o MIDI para fazer a análise passar.
 
 ## Atualizar a lista sem Soundiiz
 
@@ -153,7 +205,8 @@ CSV e XLSX foram reabertos e comparados ao snapshot de origem, incluindo a dura�
 total de 182953 segundos. Uma segunda captura reproduziu a lista; a tentativa de
 reutilizar o primeiro diretório falhou sem alterar seus arquivos.
 Os testes cobrem paginação incompleta, repetição de página, mudança de revisão e
-preservação de músicas repetidas e versões. Nenhum chart foi validado no jogo.
+preservação de músicas repetidas e versões. O lote de 12 charts passou pelas
+verificações estruturais e de áudio descritas acima; nenhum foi testado no jogo.
 
 Ainda falta inventariar as músicas que você já tem (uma lista de pastas/metadados
 é suficiente; não é necessário enviar toda a mídia). A playlist já está disponível
@@ -168,9 +221,14 @@ localmente, sem necessidade de arquivo do Drive ou assinatura de exportação.
 > song-library/data/mixdrumrock/inbox/qobuz-2026-10-16/; atualize com o exportador
 > se necessário. Faça o inventário incremental a partir da biblioteca existente
 > quando sua lista for fornecida. Preserve versões e escolhas, não altere músicas
-> existentes. Investigue a busca de drums no RhythmVerse; não suponha uma API.
-> Comece por um piloto de 5–10 faixas, registrando fontes e ambiguidades. Após obter
-> pacotes reais, valide um piloto com drums/Pro Drums e conversão apropriada,
-> mantendo a confirmação no jogo separada da inspeção estrutural. Atualize os
+> existentes. O lote de 12 faixas está em exports/MixDrumRock-piloto-12.zip e o
+> catálogo privado em catalog/pilot-01.csv, dentro da coleção. Receba o resultado
+> do Scan Songs/playtest antes de marcar game_verified. O endpoint público de
+> busca observado é POST https://rhythmverse.co/api/ch/songfiles/search/live,
+> com instrument[]=drums, text, data_type=full, page e records (máximo 100).
+> Resultados privados e plano estão em reports/rv-search/ e pilot-selection.json.
+> Continue a integração incremental de busca/download e trate ambiguidades de
+> versões. Use os helpers packages/inspect_song para pacotes nativos; conversão
+> de console ou de cinco pistas ainda exige investigação própria. Atualize os
 > DCF-LIB no backlog com evidências, execute os gates pertinentes e siga o fluxo
 > de commit, merge --no-ff e push sem descartar trabalho em caso de falha.
