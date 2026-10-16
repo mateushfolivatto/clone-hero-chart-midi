@@ -50,8 +50,8 @@ the core project; consult the compatibility report before local research use.
 
 ## Project navigation
 
-- [Biblioteca MixDrumRock](song-library/README.md): organização da playlist do
-  Qobuz e planejamento de charts existentes com bateria para Clone Hero.
+- [Biblioteca MixDrumRock](song-library/README.md): exportação da playlist do
+  Qobuz para CSV/Excel e planejamento de charts com bateria para Clone Hero.
 - [CONTEXT.md](CONTEXT.md): mission and decisions.
 - [BACKLOG.md](BACKLOG.md): single authoritative task list.
 - [lessons.md](lessons.md): reread alongside the backlog every session.

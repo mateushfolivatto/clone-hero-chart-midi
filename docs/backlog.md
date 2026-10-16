@@ -1,5 +1,27 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-16 — Qobuz metadata export
+
+After unrestricted publication, Qobuz and RhythmVerse returned HTTP 200. The
+public MixDrumRock playlist was captured completely: 681 entries in seven pages,
+with a final revision check. CSV and XLSX were reopened and compared against the
+source snapshot for count, order, titles, IDs and duration; a fresh export
+reproduced the list. Reusing an existing output directory was rejected without
+changing any files. Data remains ignored under song-library/data/mixdrumrock/.
+
+`drumforge.library.qobuz` supports repeatable public-metadata exports. CSV/JSON
+require only the standard library; XLSX optionally uses openpyxl 3.1.5 through
+uv's transient --with option, keeping core dependencies unchanged. Five new tests
+exercise incomplete/repeated pages, concurrent playlist changes and preservation
+of repeated songs/versions. Existing-library inventory, chart search/downloads,
+conversion and gameplay validation remain outstanding; no audio was downloaded.
+
+Final gates passed: 37 pytest tests, Ruff lint/format, strict mypy, locked dependency
+validation, CLI help/doctor and wheel/sdist builds. Archives include the new helper
+and exclude private collection data, media, models and caches. The documented
+`uv run --locked --with openpyxl==3.1.5` command produced the delivery files under
+song-library/data/mixdrumrock/exports/qobuz-2026-10-16/; rows match the inbox snapshot.
+
 ## 2026-10-16 — Separate MixDrumRock library
 
 The user requested library management for a growing Qobuz playlist and existing
