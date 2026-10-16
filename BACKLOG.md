@@ -319,6 +319,29 @@ Do not start until the CLI pipeline is reliable.
 
 ---
 
+## Separate workstream — MixDrumRock song library
+
+Authorized by the user on 2026-10-16, independently of the transcription phases.
+See song-library/README.md for scope, evidence and the continuation prompt.
+
+- [x] **DCF-LIB-001 [P0]** Create a portable library area, private-data ignore rule,
+  metadata templates and a documented staged workflow. No downloader is implied.
+- [!] **DCF-LIB-002 [P0]** Import the real playlist and inventory existing songs.
+  Blocked: the MixDrumRock file/link and existing-library inventory are not supplied.
+- [!] **DCF-LIB-003 [P0]** Inspect RhythmVerse search/download behavior for drums
+  and implement matching with recorded sources and reviewable ambiguous versions.
+  Blocked: the environment proxy rejects the site with HTTP CONNECT 403; its
+  domain addition is saved in the environment draft but not runtime-verified.
+- [ ] **DCF-LIB-004 [P0]** Validate a small pilot, choose conversion by actual input
+  format, verify drums/Pro Drums and obtain the user's Scan Songs/playtest result.
+- [ ] **DCF-LIB-005 [P1]** Implement resumable acquisition/preparation, preserve
+  existing files, and export a ZIP of song folders with a missing/blocked report.
+- [ ] **DCF-LIB-006 [P1]** Support incremental playlist updates without losing
+  selections or repeating verified downloads; check space and Windows path limits.
+
+No real songs were searched, downloaded, converted or verified in the game during
+the organization slice. DCF-LIB-001 completion does not complete the workstream.
+
 # Immediate next milestone
 
 Do **not** work on the whole backlog.

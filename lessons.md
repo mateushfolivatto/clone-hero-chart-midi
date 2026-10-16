@@ -81,3 +81,11 @@ finding. This file supplements the backlog; it does not redefine task completion
     packages. Stop that resolution immediately; install the audited `+cpu` wheel
     from PyTorch's CPU index first, then add the pinned optional backend and verify
     the installed package list contains no NVIDIA/CUDA dependencies.
+
+## 2026-10-16 — Song-library feasibility
+
+20. **A proxy denial does not describe the destination site.** Requests to the
+    RhythmVerse catalog and robots.txt failed during HTTP CONNECT with 403 before
+    site content was available. Record the environment-network blocker, save only
+    the required domain addition, and retry after application. Do not infer a site
+    ban, download API or automation permission from an uninspected destination.
