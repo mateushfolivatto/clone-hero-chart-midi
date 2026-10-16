@@ -67,3 +67,18 @@ build dependencies rather than resolving transitives again.
 Package source URLs and hashes are in uv.lock. All listed licenses allow commercial
 use subject to their conditions. No tools were modified for redistribution; the
 project itself has no public distribution license selected yet.
+
+## Optional song-library tools (2026-10-16)
+
+Mido 1.3.3 is an optional metadata/MIDI inspection tool under MIT, verified from
+installed package metadata; source: https://github.com/mido/mido/blob/main/LICENSE.
+It is invoked through `uv run --locked --with mido==1.3.3`, not embedded in the
+project wheel or the song ZIP. It has no weights. Preserve notices if redistributed.
+The existing FFmpeg build reports GPL terms via `ffmpeg -L`; it is invoked locally
+for probing/decoding, and its executable is not included in the song delivery.
+No upstream implementation was copied and no model was installed for the pilot.
+
+Downloaded charts/media retain their original terms and credits; source, uploader
+and the chart's own author field are recorded separately in private manifests.
+They remain ignored by Git and excluded from project distributions. This private
+preparation task does not infer redistribution permission from a wrapper or uploader.
