@@ -385,6 +385,12 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   update/resume command. All 70 tests passed; three real source conversions,
   pinned MIDI, 17 asset hashes, logs and unchanged resume checked on Linux.
   Native Windows retry/game acceptance still requires the user's result.
+- [x] **DCF-LIB-010 [P0]** Provide a local complement for the user's renamed
+  existing song folders without uploading ~4 GB. Stdlib scanner, content/INI
+  matching, present-batch precedence, old-copy deduplication, edition/duration
+  reviews, immutable inputs, ZIP64 export and CSV/JSON reports implemented.
+  Thirteen regressions and standalone real-collection checks passed on Linux;
+  the user's actual inventory, Windows run and game acceptance remain pending.
 
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
