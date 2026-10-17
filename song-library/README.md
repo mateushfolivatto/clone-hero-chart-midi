@@ -24,7 +24,8 @@ O primeiro arquivo foi criado em `data/mixdrumrock/exports/MixDrumRock-piloto-12
 `/workspace/shared/downloads/MixDrumRock-piloto-12.zip`.
 Para obter uma cópia durável no PC, siga [BAIXAR.md](BAIXAR.md).
 Ele contém `Songs/MixDrumRock - Lote teste 01/`, com uma pasta por música, além de
-`LEIA-ME.txt`, `musicas.csv` e `fontes-e-validacao.json`. Não há ZIPs internos.
+`LEIA-ME.txt`, `musicas.csv` e `receita-verificada.json` na cópia reconstruída.
+Não há ZIPs internos.
 
 | Artista | Músicas |
 | --- | --- |
@@ -52,10 +53,12 @@ entrou no lugar. Em Requiem, o único ajuste foi acrescentar `pro_drums=True` ao
 convertidos ou reescritos. Arquivos auxiliares de editor e MIDIs de outros jogos
 foram omitidos da entrega; os pacotes originais continuam em `downloads/`.
 
-Fontes, uploaders, autores, hashes e verificações ficam nos relatórios privados
-em `data/mixdrumrock/reports/pilot-*.json`. O catálogo persistente é
-`data/mixdrumrock/catalog/pilot-01.csv`, com estado `prepared`, ainda sem
-`game_verified`. A biblioteca pré-existente do usuário não foi fornecida; este
+Na preparação original, fontes, uploaders, autores, hashes e verificações foram
+registrados em `data/mixdrumrock/reports/pilot-*.json` e no catálogo
+`data/mixdrumrock/catalog/pilot-01.csv`; esses arquivos locais também podem faltar
+após uma retomada. A cópia recuperada inclui fontes, autores e hashes em
+`receita-verificada.json`, com `game_verified=false`. A biblioteca pré-existente
+do usuário não foi fornecida; este
 lote fica em uma pasta própria para facilitar comparação e movimentação.
 
 Para preparar outro ZIP nativo de uma única música, sem sobrescrever uma pasta:
