@@ -123,3 +123,13 @@ finding. This file supplements the backlog; it does not redefine task completion
     isolated attacks, and label band peaks as candidates. Verify silence and
     overlapping low/high attacks separately; never report candidate counts as
     musical transcription accuracy.
+
+## 2026-10-17 — Pilot delivery recovery
+
+27. **An ignored workspace file is not a delivered artifact.** On resumption,
+    the checkout was back at 83be509 and no song-library/data directory existed,
+    although origin/main retained the helper code. The user could not download
+    the old ZIP. Preserve metadata-only source/checksum recipes in Git, provide
+    a tested reconstruction command and distinguish current local existence from
+    user-visible download success. Verify recovery in a clean directory and
+    repeat it without modifying existing songs; keep media outside Git.

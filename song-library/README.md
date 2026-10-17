@@ -1,5 +1,9 @@
 # Biblioteca de músicas — MixDrumRock
 
+**Para baixar o lote no seu Windows, use [BAIXAR.md](BAIXAR.md).** O baixador e
+a receita estão no GitHub; a pasta `data` é gerada localmente e não é versionada.
+Links de arquivos da máquina da nuvem não garantem disponibilidade após retomadas.
+
 Área separada para organizar a playlist do Qobuz e preparar charts já existentes
 para tocar bateria no Clone Hero. A coleção pode crescer além de 600 músicas;
 o processamento futuro deve ser incremental e preservar escolhas anteriores.
@@ -14,7 +18,11 @@ para as 681 faixas continua pendente; o lote foi selecionado e conferido manualm
 
 ## Lote de teste 01 — 12 músicas
 
-O arquivo está em `data/mixdrumrock/exports/MixDrumRock-piloto-12.zip` (138,6 MiB).
+O primeiro arquivo foi criado em `data/mixdrumrock/exports/MixDrumRock-piloto-12.zip`
+(138,6 MiB). Ele não sobreviveu à retomada da máquina. O lote foi recuperado em
+2026-10-17 e a cópia atual está em
+`/workspace/shared/downloads/MixDrumRock-piloto-12.zip`.
+Para obter uma cópia durável no PC, siga [BAIXAR.md](BAIXAR.md).
 Ele contém `Songs/MixDrumRock - Lote teste 01/`, com uma pasta por música, além de
 `LEIA-ME.txt`, `musicas.csv` e `fontes-e-validacao.json`. Não há ZIPs internos.
 
@@ -222,7 +230,11 @@ localmente, sem necessidade de arquivo do Drive ou assinatura de exportação.
 > se necessário. Faça o inventário incremental a partir da biblioteca existente
 > quando sua lista for fornecida. Preserve versões e escolhas, não altere músicas
 > existentes. O lote de 12 faixas está em exports/MixDrumRock-piloto-12.zip e o
-> catálogo privado em catalog/pilot-01.csv, dentro da coleção. Receba o resultado
+> catálogo privado em catalog/pilot-01.csv, dentro da coleção original. Esses
+> dados podem estar ausentes após uma retomada. A receita durável é
+> src/drumforge/library/pilot_01.json; recupere o lote com recover_pilot.py conforme
+> BAIXAR.md, mantendo a verificação de hashes. Uma cópia reconstruída nesta sessão
+> está em /workspace/shared/downloads/MixDrumRock/. Receba o resultado
 > do Scan Songs/playtest antes de marcar game_verified. O endpoint público de
 > busca observado é POST https://rhythmverse.co/api/ch/songfiles/search/live,
 > com instrument[]=drums, text, data_type=full, page e records (máximo 100).

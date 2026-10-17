@@ -1,0 +1,733 @@
+{
+  "schema_version": 1,
+  "collection_folder": "MixDrumRock - Lote teste 01",
+  "game_verified": false,
+  "songs": [
+    {
+      "artist": "Linkin Park",
+      "title": "Numb",
+      "file_id": "6524a935c49844cc843919db988dbba2",
+      "source_url": "https://rhythmverse.co/songfile/6524a935c49844cc843919db988dbba2",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/6524a935c49844cc843919db988dbba2/Linkin%20Park%20-%20Numb.zip",
+      "archive_sha256": "f6e68f273297a75f3c7e5f603f0d65882d07de178c7919ccfb80ac31f0323d41",
+      "archive_bytes": 18079468,
+      "folder": "Linkin Park - Numb [6524a935]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1172,
+          "kick_note_on_count": 260,
+          "tom_marker_count": 17,
+          "last_expert_onset_seconds": 184.909,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Numb/album.png",
+          "name": "album.png",
+          "sha256": "df73c0483a424266280bb7249e3da393f7d4bc66986dd78bd4ec01dba24968a5"
+        },
+        {
+          "archive_name": "Linkin Park - Numb/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "e5ef1c45e621f0b52dee79d5d1e8ff3939960d85c79c83eca30965c5a03cf354"
+        },
+        {
+          "archive_name": "Linkin Park - Numb/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d307f7d64b6928755bae92d3a3d2a9ac5caef072e4fb71b7ef0179f3a31a98a9"
+        },
+        {
+          "archive_name": "Linkin Park - Numb/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "1122c6e548d894ccaacc0f07e4e1e9683659023646f269a30eb2e1a89b269337"
+        },
+        {
+          "archive_name": "Linkin Park - Numb/notes.mid",
+          "name": "notes.mid",
+          "sha256": "38f2d73be1a2c4860c4bd74dbbfcf82269d4746f73c902adeb4b8b5e7e69f062"
+        },
+        {
+          "archive_name": "Linkin Park - Numb/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "ec456c7d35af5523890cfe64008e9abe8abd1419d4492c20d914e6e7bc9b6f3d"
+        },
+        {
+          "archive_name": "Linkin Park - Numb/song.ini",
+          "name": "song.ini",
+          "sha256": "955a43ae97ed93947e505d02506f4e5401bba19233105f039a12f8d892a7c274"
+        },
+        {
+          "archive_name": "Linkin Park - Numb/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3799361e638a68019915371a9ca950bafe65238b17d58a049912680dd86e2d3a"
+        },
+        {
+          "archive_name": "Linkin Park - Numb/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "cecb996c79e62285098aa3d718698024a4dd0d9bfa83e640ae64072a53eb76a2"
+        }
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Lying From You",
+      "file_id": "3e2397b44c5549ac98fa4dbfb6f08568",
+      "source_url": "https://rhythmverse.co/songfile/3e2397b44c5549ac98fa4dbfb6f08568",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/3e2397b44c5549ac98fa4dbfb6f08568/Linkin%20Park%20-%20Lying%20From%20You.zip",
+      "archive_sha256": "dafb834ab3b845c39e7e62ac56f8b66d77d1027481cba5c0d8af6c891e84ec2a",
+      "archive_bytes": 16320024,
+      "folder": "Linkin Park - Lying From You [3e2397b4]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1024,
+          "kick_note_on_count": 314,
+          "tom_marker_count": 38,
+          "last_expert_onset_seconds": 173.625,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Lying From You/album.png",
+          "name": "album.png",
+          "sha256": "df73c0483a424266280bb7249e3da393f7d4bc66986dd78bd4ec01dba24968a5"
+        },
+        {
+          "archive_name": "Linkin Park - Lying From You/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "89bff4725e77e39ad2cb0cc1bac444c4bc14ec5c43f44b0312590f084cd1eecf"
+        },
+        {
+          "archive_name": "Linkin Park - Lying From You/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "db79c435524ac57c302e4cd8e17900a61fa1062a4899194623f0a00ff9531910"
+        },
+        {
+          "archive_name": "Linkin Park - Lying From You/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1726e5a2262905cb29bf3d8f5aeff7f6b32da07a155c2563b2d31771c6ae654f"
+        },
+        {
+          "archive_name": "Linkin Park - Lying From You/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "a2bb03806fadd520bd1b828db239b3e4251258e108f4113fc2d2ff30ab63d0c1"
+        },
+        {
+          "archive_name": "Linkin Park - Lying From You/song.ini",
+          "name": "song.ini",
+          "sha256": "f6247018480861bddc91983ef1fc83e9141cd1eb5f8a72bd60491173dca58a9a"
+        },
+        {
+          "archive_name": "Linkin Park - Lying From You/song.ogg",
+          "name": "song.ogg",
+          "sha256": "db0d8060b4ab9a027aef890758376e646a4f70a19613a5cacff5c17dd3b59192"
+        },
+        {
+          "archive_name": "Linkin Park - Lying From You/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "abc03deb78381b86320df7f7b5894118ee9d5371cda4ff6ea47c79d7589fa39f"
+        }
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "From The Inside",
+      "file_id": "0415a5cb53e24e98ab47b45508be147c",
+      "source_url": "https://rhythmverse.co/songfile/0415a5cb53e24e98ab47b45508be147c",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/0415a5cb53e24e98ab47b45508be147c/Linkin%20Park%20-%20From%20The%20Inside.zip",
+      "archive_sha256": "6dd2d4c2634e2c61e497ecc46f57fbbf627308c760602556be7d68a852c096c8",
+      "archive_bytes": 4312737,
+      "folder": "Linkin Park - From The Inside [0415a5cb]",
+      "charter": "The Oreo, Zanny77",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 979,
+          "kick_note_on_count": 345,
+          "tom_marker_count": 62,
+          "last_expert_onset_seconds": 174.767,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - From The Inside/album.png",
+          "name": "album.png",
+          "sha256": "df73c0483a424266280bb7249e3da393f7d4bc66986dd78bd4ec01dba24968a5"
+        },
+        {
+          "archive_name": "Linkin Park - From The Inside/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "8c6b2ce4c18d1fe3a1f02d3bf65cc6075c31d3c1830778a87362e3c74576532a"
+        },
+        {
+          "archive_name": "Linkin Park - From The Inside/notes.mid",
+          "name": "notes.mid",
+          "sha256": "684858077fb7e9121fbf32b8aa9ec8f8f3552845ea9048224388f4d3b16c089b"
+        },
+        {
+          "archive_name": "Linkin Park - From The Inside/song.ini",
+          "name": "song.ini",
+          "sha256": "993438d31bdf6b7289e2e2369fa6034ef4809a1a16d843688261b989f0cf4302"
+        }
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Come As You Are",
+      "file_id": "00fea0c67b034277a07c877115fe6efd",
+      "source_url": "https://rhythmverse.co/songfile/00fea0c67b034277a07c877115fe6efd",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/00fea0c67b034277a07c877115fe6efd/Nirvana%20-%20Come%20as%20you%20Are.zip",
+      "archive_sha256": "0c44ef002b05d934720a2e3e542fba246e3e331a227c29ed4db0a2245ff83d94",
+      "archive_bytes": 4253175,
+      "folder": "Nirvana - Come As You Are [00fea0c6]",
+      "charter": "MissingElements, DemonUnicorns, AFJOne23",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1271,
+          "kick_note_on_count": 427,
+          "tom_marker_count": 16,
+          "last_expert_onset_seconds": 210.218,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Come as you Are/album.png",
+          "name": "album.png",
+          "sha256": "2061c09f4c0e2aae918d4c5773de9a0ee29ad77eb22d721e8b40f24732df2208"
+        },
+        {
+          "archive_name": "Nirvana - Come as you Are/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "8c459de4e2cc6819312b866fb17f6407ba7b448d7564072e6b081dc9a8f0812d"
+        },
+        {
+          "archive_name": "Nirvana - Come as you Are/notes.mid",
+          "name": "notes.mid",
+          "sha256": "eb91819f845291fb8bb1aa4c3d523a0ec0e83e470749ccf0ddc6d5ed79fff56a"
+        },
+        {
+          "archive_name": "Nirvana - Come as you Are/song.ini",
+          "name": "song.ini",
+          "sha256": "12a3bc7f0e9477cf7d04e917a801185c8c30099858010818150b70e83980b0a7"
+        }
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Dumb",
+      "file_id": "2ba9b778f9cf4de2b24eafccd1a4662d",
+      "source_url": "https://rhythmverse.co/songfile/2ba9b778f9cf4de2b24eafccd1a4662d",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/2ba9b778f9cf4de2b24eafccd1a4662d/Nirvana%20-%20Dumb.zip",
+      "archive_sha256": "58af89cd96a9f2abcbcf61c95897113cd61f055d8661d930e3cf3f59a0ff7a6f",
+      "archive_bytes": 3579995,
+      "folder": "Nirvana - Dumb [2ba9b778]",
+      "charter": "Highfine",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 643,
+          "kick_note_on_count": 196,
+          "tom_marker_count": 66,
+          "last_expert_onset_seconds": 146.289,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Dumb/album.jpg",
+          "name": "album.jpg",
+          "sha256": "49f500eafe3810cb420b9c80d8a4cb038c8cfa659255caa65db75b6dee0866f3"
+        },
+        {
+          "archive_name": "Nirvana - Dumb/background.jpg",
+          "name": "background.jpg",
+          "sha256": "ccf17602337ca221707702ff50a1d8bab6050f2326bb4859c147aebfa2566eb6"
+        },
+        {
+          "archive_name": "Nirvana - Dumb/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "e6b8a9843ea2255a30787616069a580b228c9a57ca5b3ec5fb483c2b98edba9d"
+        },
+        {
+          "archive_name": "Nirvana - Dumb/notes.chart",
+          "name": "notes.chart",
+          "sha256": "c17057499e5d612b338fadc6109a4c0c8dae76f4ecfda638e7d59352e917a18f"
+        },
+        {
+          "archive_name": "Nirvana - Dumb/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e4e96f87996f1d350c6f21455faafcc5e0fcbf464aeb88bbdc9e56ac62d710c5"
+        },
+        {
+          "archive_name": "Nirvana - Dumb/song.ini",
+          "name": "song.ini",
+          "sha256": "7c122e1ad0edcbb7b3241a91fc6cc0e8dd77da13ddac70b2ab0f7278c70f9da6"
+        }
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "All Apologies",
+      "file_id": "473f6755bdd64d75a5a690df3e49b7d4",
+      "source_url": "https://rhythmverse.co/songfile/473f6755bdd64d75a5a690df3e49b7d4",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/473f6755bdd64d75a5a690df3e49b7d4/Nirvana%20-%20All%20Apologies.zip",
+      "archive_sha256": "3dad373b8c63b32d2262ec345eae361e1216edbde8dfd24987d9c26e4dca8252",
+      "archive_bytes": 25550102,
+      "folder": "Nirvana - All Apologies [473f6755]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1125,
+          "kick_note_on_count": 439,
+          "tom_marker_count": 62,
+          "last_expert_onset_seconds": 227.642,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - All Apologies/album.jpg",
+          "name": "album.jpg",
+          "sha256": "49f500eafe3810cb420b9c80d8a4cb038c8cfa659255caa65db75b6dee0866f3"
+        },
+        {
+          "archive_name": "Nirvana - All Apologies/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "f13ecb8fdd4b18809346da79855d5f4abea391146fef1d7a3d1a66f04d004c1a"
+        },
+        {
+          "archive_name": "Nirvana - All Apologies/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d95a2a7d7e16837c5be353be62cd3d795cd0ed753c2b382afe0bc87a9eabf48d"
+        },
+        {
+          "archive_name": "Nirvana - All Apologies/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "c4308aef74e89704b656154aa971ae95739c4ecf11e89a411c31c57e8ff409c1"
+        },
+        {
+          "archive_name": "Nirvana - All Apologies/notes.mid",
+          "name": "notes.mid",
+          "sha256": "de1da8c96ce4abfde5897693475b83c1677b4fefaf8e78c7842b581dc5f022b0"
+        },
+        {
+          "archive_name": "Nirvana - All Apologies/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "24ee05d913f015658d1cfb45eea7baebaee69fe7e779742ab3725da559ba8e14"
+        },
+        {
+          "archive_name": "Nirvana - All Apologies/song.ini",
+          "name": "song.ini",
+          "sha256": "0a6b5722fd27751934f2ede4f557b96723d2100412d4aefaa89d438d8b888777"
+        },
+        {
+          "archive_name": "Nirvana - All Apologies/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b2947f71324a916706dee5d1314d7c6aacff4c659247c9e4795cc9f0ba475ecb"
+        },
+        {
+          "archive_name": "Nirvana - All Apologies/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "38165ee98431ff3c2fff0907149672abe1e910fccf8ad194a2ef1aeb6ce7d689"
+        }
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Fear of the Dark",
+      "file_id": "4fc698548df44d31a2669c161922fa94",
+      "source_url": "https://rhythmverse.co/songfile/4fc698548df44d31a2669c161922fa94",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/4fc698548df44d31a2669c161922fa94/Iron%20Maiden%20-%20Fear%20of%20The%20Dark.zip",
+      "archive_sha256": "d438535776aa1cb3ce79b9de2079aa23797074f5e9993bb8ae6c905f72089fbc",
+      "archive_bytes": 9640000,
+      "folder": "Iron Maiden - Fear of the Dark [4fc69854]",
+      "charter": "Sideshow, NSW1-6, slashfan7964, Beard216",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2861,
+          "kick_note_on_count": 988,
+          "tom_marker_count": 34,
+          "last_expert_onset_seconds": 409.813,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Fear of The Dark/album.png",
+          "name": "album.png",
+          "sha256": "ed1597016eca2d1db912328db4d88430e68355f9cf3d29cd58a83aa12ad0cdc2"
+        },
+        {
+          "archive_name": "Iron Maiden - Fear of The Dark/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c049ceda6e6f5fbb68d14142e83500bbb54280dc011542ebdbeb129055380c11"
+        },
+        {
+          "archive_name": "Iron Maiden - Fear of The Dark/notes.mid",
+          "name": "notes.mid",
+          "sha256": "88ebd24d37f2ecca7657021ca3130ba92cf17d971da9e9347b940aa17cb4f231"
+        },
+        {
+          "archive_name": "Iron Maiden - Fear of The Dark/song.ini",
+          "name": "song.ini",
+          "sha256": "543cef3c30d21153eb7d941dd05d0e81bda2b7c95696f39dcac625fe82487458"
+        }
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Hallowed Be Thy Name",
+      "file_id": "ef6143f015d4425498751fa02d740f11",
+      "source_url": "https://rhythmverse.co/songfile/ef6143f015d4425498751fa02d740f11",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/ef6143f015d4425498751fa02d740f11/Iron%20Maiden%20-%20Hallowed%20Be%20Thy%20Name.zip",
+      "archive_sha256": "5ec0ccfef66b57e880072be21ade53b03d7fe2bb8b9bc75c0c045b838296664a",
+      "archive_bytes": 9138094,
+      "folder": "Iron Maiden - Hallowed Be Thy Name [ef6143f0]",
+      "charter": "Doomtron",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2665,
+          "kick_note_on_count": 733,
+          "tom_marker_count": 290,
+          "last_expert_onset_seconds": 430.702,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Hallowed Be Thy Name/album.jpg",
+          "name": "album.jpg",
+          "sha256": "62237bbc2795690ef702c62f4cb55a5b9430a10337240dba8b7744efbdf40251"
+        },
+        {
+          "archive_name": "Iron Maiden - Hallowed Be Thy Name/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "fa9d12bee5148229cbb6462510bca9c34c2a69d83a0400cb6ee95989c253361d"
+        },
+        {
+          "archive_name": "Iron Maiden - Hallowed Be Thy Name/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f14ab1510e1bf27c6a5423fc12d693981e0806fcadd6ab2325ce919a25b811ae"
+        },
+        {
+          "archive_name": "Iron Maiden - Hallowed Be Thy Name/song.ini",
+          "name": "song.ini",
+          "sha256": "36658ec555a0436e2ed47ee5064fb0284310a9bf710ffacb7c5c4c9d0d0dfb92"
+        }
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "The Number of the Beast",
+      "file_id": "19300087ad5549a0a5033e3760bb2079",
+      "source_url": "https://rhythmverse.co/songfile/19300087ad5549a0a5033e3760bb2079",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/19300087ad5549a0a5033e3760bb2079/Iron%20Maiden%20-%20The%20Number%20of%20the%20Beast.zip",
+      "archive_sha256": "2b0d485a1bdcc4dfd2cc5c4d3844355d89c3a884bfa9f94f975a90aeca516aa9",
+      "archive_bytes": 22935362,
+      "folder": "Iron Maiden - The Number of the Beast [19300087]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1980,
+          "kick_note_on_count": 548,
+          "tom_marker_count": 78,
+          "last_expert_onset_seconds": 287.506,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - The Number of the Beast/album.jpg",
+          "name": "album.jpg",
+          "sha256": "0142365761878db7e8f0c2d75ece2ef62c7784909ab47a867f8da6944caae3c0"
+        },
+        {
+          "archive_name": "Iron Maiden - The Number of the Beast/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "6c4abe917fdb79d1fdceaf23ca3635a18287d06746edc3b47fb12a16088b639d"
+        },
+        {
+          "archive_name": "Iron Maiden - The Number of the Beast/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "9134ffb87a591eafc2bd1c3f8007078ceeb957ec7e66587c534b414ba5b4ae29"
+        },
+        {
+          "archive_name": "Iron Maiden - The Number of the Beast/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "47bc8652bc5debd1bfca80969167a1c6d2e6eb1dd111854bcefc235c346c2044"
+        },
+        {
+          "archive_name": "Iron Maiden - The Number of the Beast/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "e9936fcd13079725096c05613609e082443198fe1e8f10bc2f5351a75debeada"
+        },
+        {
+          "archive_name": "Iron Maiden - The Number of the Beast/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ab405433e415cc3636dccbae4225dcb2038074793725ad9a61938e8f1bc27c4a"
+        },
+        {
+          "archive_name": "Iron Maiden - The Number of the Beast/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "7ccc68f5752e8e68f5b4d2eb051db779f1da8af2879eb932fd5f1297044d63ae"
+        },
+        {
+          "archive_name": "Iron Maiden - The Number of the Beast/song.ini",
+          "name": "song.ini",
+          "sha256": "900ac8c82ca80a8908240c29227ed9014dcb79a5ab1beb5ad2d54462bb404091"
+        },
+        {
+          "archive_name": "Iron Maiden - The Number of the Beast/song.ogg",
+          "name": "song.ogg",
+          "sha256": "be8086298a7ed77171be0be079c619c66a437e79bbfe66b087b2be73a8076504"
+        },
+        {
+          "archive_name": "Iron Maiden - The Number of the Beast/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "d3cbd691cd5d82f0cb4b391d080aa7ab2fc06f692013afd2320164ebf6c1cd9c"
+        }
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Come Together",
+      "file_id": "c620c633812b4914b7014bd75233e2b2",
+      "source_url": "https://rhythmverse.co/songfile/c620c633812b4914b7014bd75233e2b2",
+      "download_url": "https://rhythmverse.co/download_file/zak-chayette/c620c633812b4914b7014bd75233e2b2/cometogether_thv2_chps.zip",
+      "archive_sha256": "464c4ab0381357f6b0aa1bf191e89e340527dc27b4dd37018341b98f231dd6aa",
+      "archive_bytes": 19850767,
+      "folder": "The Beatles - Come Together [c620c633]",
+      "charter": "Unknown Author",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1144,
+          "kick_note_on_count": 335,
+          "tom_marker_count": 53,
+          "last_expert_onset_seconds": 253.507,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - Come Together/album.png",
+          "name": "album.png",
+          "sha256": "1ade904bb28cf3d964ee582125941bc5ce6cefe29da596c4f1e6e1288df17c50"
+        },
+        {
+          "archive_name": "The Beatles - Come Together/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "6d4a93743566f70d483b14e03e467035169376ec435682f2a435ec182d7c1aee"
+        },
+        {
+          "archive_name": "The Beatles - Come Together/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "69ddc2f9654a7b7e18ceed619cb48d512861e5226dd3090ec4e3ac6ead289ac5"
+        },
+        {
+          "archive_name": "The Beatles - Come Together/notes.mid",
+          "name": "notes.mid",
+          "sha256": "dcbb8599d7175d255876629d94c053352839039451399417989a9411e44d87ed"
+        },
+        {
+          "archive_name": "The Beatles - Come Together/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "5207d1dc564c76a8532d077155d4e82c6d40c34c8ce8b1a01035755afbcee88a"
+        },
+        {
+          "archive_name": "The Beatles - Come Together/song.ini",
+          "name": "song.ini",
+          "sha256": "96a17af356df9eeb17afc420066a025af325b6e524e39df481e5f7d5e2d0d00d"
+        },
+        {
+          "archive_name": "The Beatles - Come Together/song.ogg",
+          "name": "song.ogg",
+          "sha256": "312d70bf93a9253512a6793d00f3f76c25d4e95c046d99e54b816868360bc155"
+        },
+        {
+          "archive_name": "The Beatles - Come Together/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "864476c84b7cf7f923e59019276bf5ca9aab8f37bde0df3776d826d981a0eba1"
+        }
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Here Comes the Sun",
+      "file_id": "cf1f21edcae54d3abfb1818f78d5930b",
+      "source_url": "https://rhythmverse.co/songfile/cf1f21edcae54d3abfb1818f78d5930b",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/cf1f21edcae54d3abfb1818f78d5930b/The%20Beatles%20-%20Here%20Comes%20the%20Sun.zip",
+      "archive_sha256": "93807fe09d73a257ee6a6a049a135cfe8a77fb437d049da154eb443437ce0fc7",
+      "archive_bytes": 10527694,
+      "folder": "The Beatles - Here Comes the Sun [cf1f21ed]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1058,
+          "kick_note_on_count": 223,
+          "tom_marker_count": 127,
+          "last_expert_onset_seconds": 182.123,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - Here Comes the Sun/album.jpg",
+          "name": "album.jpg",
+          "sha256": "256188f574b3f2ca9d6aee4d318d6dec3060c9c37abffadddcf1f3c571204fb1"
+        },
+        {
+          "archive_name": "The Beatles - Here Comes the Sun/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "bb34e97e36f20970a8ceaa676b14cab7cb1144efc272642b47e4901f3aef2eb9"
+        },
+        {
+          "archive_name": "The Beatles - Here Comes the Sun/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "53b971299c4e886d0bf7362a770e891f3c233c05f37d59fd659f82bf18d4caaf"
+        },
+        {
+          "archive_name": "The Beatles - Here Comes the Sun/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a3cb1089848c06b401e05bbf62e2e45ebb447c4c6cd81e4949b4b5f2b0c7aeb0"
+        },
+        {
+          "archive_name": "The Beatles - Here Comes the Sun/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "0906164d68fdf5d698619d63380bd330e33b1e08afde7fd9b63f6800caf61538"
+        },
+        {
+          "archive_name": "The Beatles - Here Comes the Sun/song.ini",
+          "name": "song.ini",
+          "sha256": "1417a4e62f8d8d9a86c202be9c72db8e061a862fc6d0ea581a49a51030c3a2dd"
+        },
+        {
+          "archive_name": "The Beatles - Here Comes the Sun/song.ogg",
+          "name": "song.ogg",
+          "sha256": "9d517b5cc38ceecf19340a395400fdbd9340918ae479e62e8201f9b51db1a3c2"
+        },
+        {
+          "archive_name": "The Beatles - Here Comes the Sun/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "b082c63ab54ed5e5aea470def707dd5cb1098d4ca40e568d264202c31cb2c9ea"
+        }
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Requiem",
+      "file_id": "d74d0dc7acc54cd09aea30794bd37acd",
+      "source_url": "https://rhythmverse.co/songfile/d74d0dc7acc54cd09aea30794bd37acd",
+      "download_url": "https://rhythmverse.co/download_file/fernando-ahumada/d74d0dc7acc54cd09aea30794bd37acd/Avenged%20Sevenfold%20-%20Requiem%20%28Fernandinsky%29.zip",
+      "archive_sha256": "238a6c5016dd4600e68a499d90f493c337ea41502be1c618795ec34df0280ff3",
+      "archive_bytes": 2682400,
+      "folder": "Avenged Sevenfold - Requiem [d74d0dc7]",
+      "charter": "Fernandinsky",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1224,
+          "kick_note_on_count": 414,
+          "cymbal_marker_count": 436,
+          "last_expert_onset_seconds": 260.422,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Requiem (Fernandinsky)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "292ebec41b4719c360e8fe9d148d998fb7eab4c03c361081260bdee8200a8286"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Requiem (Fernandinsky)/guitar.opus",
+          "name": "guitar.opus",
+          "sha256": "845f26b2d9fd46e8225769e01f393100332ab117afdae3ed2060499ca91a33aa"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Requiem (Fernandinsky)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "38e86ef9e33968a252f42746029935eb35ad0efb2c5211402df711b8c0c28aec"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Requiem (Fernandinsky)/song.ini",
+          "name": "song.ini",
+          "sha256": "48a1d0e19c8f80bf0be2b20cd36f8b946d4aa214a4c20ed45b187de1619f5fff"
+        }
+      ]
+    }
+  ]
+}
