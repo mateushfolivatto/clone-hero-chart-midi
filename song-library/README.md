@@ -260,3 +260,11 @@ localmente, sem necessidade de arquivo do Drive ou assinatura de exportação.
 > pré-existente do usuário não foi inventariada. Documente evidências e pendências,
 > execute os gates configurados e conclua com commit, merge --no-ff, push e
 > verificação de sincronização, preservando o trabalho se a publicação falhar.
+
+O baixador recebeu uma correção após falhas do Onyx no Windows em 2026-10-17:
+não passe `+RTS -N2` à distribuição CLI do Windows; preserve o limite do AppRun
+Linux. O índice referencia a versão corrigida do auxiliar. O bloco de retomada
+em CONTINUACAO.md atualiza três arquivos e reaproveita os downloads existentes.
+Leia também docs/library-onyx-recovery-fix.md; preserve `Logs/Onyx` ao investigar
+novos erros. A confirmação da retomada no Windows e o teste no jogo permanecem
+dependentes do resultado do usuário.

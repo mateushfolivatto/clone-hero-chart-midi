@@ -220,6 +220,19 @@ output hashes protect resume. Metadata recipes append without replacing earlier
 batches. Actual Windows conversion, Scan Songs, synchronization and musical quality
 remain unverified. No ML/model dependency or transcription implementation changed.
 
+### Windows Onyx invocation correction — 2026-10-17
+
+The user's Windows log showed repeated Onyx import exit 1 failures in batch 08
+and a separate Octavarium download timeout. The downloader incorrectly sent
+`+RTS -N2 -RTS` to the pinned Windows CLI, whose upstream target does not enable
+threaded/runtime options; the Linux GUI/AppRun build does. Windows now receives
+no runtime flags, while Linux retains its two-capability limit. Each PC conversion
+keeps an independent log under `Logs/Onyx`, with the stage and diagnostic tail in
+errors after temporary-project cleanup. The song recipes, originals, tool version
+and output verification stay unchanged. Only the helper/index identities change.
+See song-library/CONTINUACAO.md for the three-file update and resume command;
+docs/library-onyx-recovery-fix.md records evidence and native-validation limits.
+
 ## Do not do yet
 
 - GUI

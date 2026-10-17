@@ -99,3 +99,10 @@ recovery and unchanged resume were exercised outside the checkout without extern
 Python libraries; Windows execution/game acceptance remain separate. See
 [library-bulk-verification.md](library-bulk-verification.md) for counts, scope,
 provider blockers, artifact checks and reproduction instructions.
+
+The Windows Onyx invocation correction adds five regressions (70 tests total):
+supported Windows/Linux runtime options and persistent import/export/timeout
+diagnostics after cleanup. Three real source conversions reproduced pinned MIDI,
+17 runtime assets verified against local receipts, and repeated preparation kept
+all assets unchanged. Linux isolated-Python evidence does not establish Windows
+execution or game acceptance. See library-onyx-recovery-fix.md for the diagnosis.

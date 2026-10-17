@@ -379,6 +379,12 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   275 of 744 entries. The remaining 469 comprise 358 not found conservatively,
   50 version reviews and 61 access/preparation blockers. This completes this bulk
   preparation pass, not full-playlist coverage or game acceptance.
+- [x] **DCF-LIB-009 [P0]** Correct Windows Onyx invocation and preserve diagnostics
+  after the user's batch-08 import failures. Remove unsupported Windows RTS flags,
+  keep the Linux CPU limit, retain per-attempt logs and supply a cache-preserving
+  update/resume command. All 70 tests passed; three real source conversions,
+  pinned MIDI, 17 asset hashes, logs and unchanged resume checked on Linux.
+  Native Windows retry/game acceptance still requires the user's result.
 
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.

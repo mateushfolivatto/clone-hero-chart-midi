@@ -158,3 +158,17 @@ finding. This file supplements the backlog; it does not redefine task completion
     total_filtered counted unique packages. Reject repeated page fingerprints or
     wrong offsets, deduplicate file IDs, and reconcile the unique total. The full
     148 cached searches then passed; rejecting any duplicate discarded valid artists.
+
+## 2026-10-17 — Windows library recovery failure
+
+33. **GUI and CLI distributions can need different runtime flags.** The cloud's
+    threaded Onyx AppRun accepted `+RTS -N2`, but the pinned Windows `onyx-cli`
+    target has no `-threaded`/`-rtsopts` settings. The downloader nevertheless sent
+    that flag and the user's Windows imports repeatedly exited 1. Select options
+    for the actual distribution, verify both platform command paths, and keep
+    native Windows acceptance separate from Linux conversion results.
+34. **Keep subprocess diagnostics outside disposable projects.** The failed
+    Onyx logs lived inside TemporaryDirectory and disappeared before the user
+    could inspect them; only CalledProcessError's command/exit status survived.
+    Store a per-attempt log in the collection, include its path and diagnostic
+    tail in the error, and test import/export/timeout failures after cleanup.
