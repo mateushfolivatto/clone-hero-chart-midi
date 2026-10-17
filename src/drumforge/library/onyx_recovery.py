@@ -23,39 +23,65 @@ ONYX_URL = (
 ONYX_SHA256 = "d6131d67cef8d442590a618bcc2d582f5332fd0aa7077547a02f02d34958288c"
 
 
-def build(executable: Path, source: Path, project: Path, target: Path) -> None:
-    with project.with_suffix(".log").open("w", encoding="utf-8") as log:
-        subprocess.run(
-            [str(executable), "import", str(source), "--to", str(project), "+RTS", "-N2", "-RTS"],
-            stdout=log,
-            stderr=subprocess.STDOUT,
-            check=True,
-            timeout=180,
-        )
-        yaml = project / "song.yml"
-        content = yaml.read_text(encoding="utf-8")
-        if "targets:\n" not in content:
-            raise ValueError("Onyx nao criou um projeto com destinos")
-        content = content.replace("targets:\n", "targets:\n  clonehero:\n    game: ps\n", 1)
-        yaml.write_text(content, encoding="utf-8", newline="\n")
-        subprocess.run(
-            [
-                str(executable),
-                "build",
-                str(yaml),
-                "--target",
-                "clonehero",
-                "--to",
-                str(target),
-                "+RTS",
-                "-N2",
-                "-RTS",
-            ],
-            stdout=log,
-            stderr=subprocess.STDOUT,
-            check=True,
-            timeout=900,
-        )
+def build(
+    executable: Path,
+    source: Path,
+    project: Path,
+    target: Path,
+    *,
+    log_path: Path | None = None,
+) -> None:
+    # The pinned Windows onyx-cli target has no -threaded/-rtsopts options.
+    # Linux AppRun uses the threaded GUI binary, whose default is all CPUs.
+    runtime = [] if sys.platform == "win32" else ["+RTS", "-N2", "-RTS"]
+    log_path = log_path or project.with_suffix(".log")
+    stage = "importacao"
+    try:
+        with log_path.open("w", encoding="utf-8") as log:
+            subprocess.run(
+                [str(executable), "import", str(source), "--to", str(project), *runtime],
+                stdout=log,
+                stderr=subprocess.STDOUT,
+                check=True,
+                timeout=180,
+            )
+            yaml = project / "song.yml"
+            content = yaml.read_text(encoding="utf-8")
+            if "targets:\n" not in content:
+                raise ValueError("Onyx nao criou um projeto com destinos")
+            content = content.replace("targets:\n", "targets:\n  clonehero:\n    game: ps\n", 1)
+            yaml.write_text(content, encoding="utf-8", newline="\n")
+            stage = "exportacao"
+            subprocess.run(
+                [
+                    str(executable),
+                    "build",
+                    str(yaml),
+                    "--target",
+                    "clonehero",
+                    "--to",
+                    str(target),
+                    *runtime,
+                ],
+                stdout=log,
+                stderr=subprocess.STDOUT,
+                check=True,
+                timeout=900,
+            )
+    except (OSError, ValueError, subprocess.SubprocessError) as exc:
+        detail = str(exc)
+        if isinstance(exc, subprocess.CalledProcessError):
+            detail = f"codigo de saida {exc.returncode}"
+        elif isinstance(exc, subprocess.TimeoutExpired):
+            detail = f"tempo limite de {exc.timeout} segundos"
+        tail = ""
+        if log_path.is_file():
+            with log_path.open("rb") as log:
+                log.seek(max(0, log_path.stat().st_size - 4096))
+                tail = log.read().decode("utf-8", errors="replace").strip()
+        raise ValueError(
+            f"Onyx falhou na {stage}: {detail}. Log: {log_path}" + (f"\n{tail}" if tail else "")
+        ) from exc
 
 
 @cache
@@ -104,10 +130,16 @@ def prepare(song: dict[str, Any], source: Path, destination: Path, root: Path) -
         return dict(local)
     executable = install(root)
     destination.parent.mkdir(parents=True, exist_ok=True)
+    logs = root / "Logs" / "Onyx"
+    logs.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile(
+        prefix=song["file_id"] + "-", suffix=".log", dir=logs, delete=False
+    ) as log:
+        log_path = Path(log.name)
     with tempfile.TemporaryDirectory(prefix="convertendo-", dir=destination.parent) as temporary:
         workspace = Path(temporary)
         target = workspace / "clonehero.zip"
-        build(executable, source, workspace / "projeto", target)
+        build(executable, source, workspace / "projeto", target, log_path=log_path)
         folder = workspace / "musica"
         folder.mkdir()
         assets = []

@@ -51,6 +51,39 @@ Uma falha de download não impede tentar as outras faixas: o programa registra
 `*-falhas.json`, gera um ZIP parcial quando possível e continua os outros lotes.
 Execute o mesmo bloco para retomar. As pastas já prontas em `Songs` podem ser usadas.
 
+## Se o Onyx parou na importação
+
+O baixador anterior passava `+RTS -N2 -RTS` ao Onyx do Windows. A versão portátil
+de linha de comando usada aqui é compilada sem suporte a essa opção de paralelismo.
+Isso foi corrigido em 2026-10-17. O log enviado pelo usuário mostra o lote 08;
+as conversões Onyx começam nesse lote e também aparecem nos lotes 09–12.
+
+Espere a execução anterior terminar ou interrompa com **Ctrl+C** antes de atualizar.
+Se já executou o bloco acima, basta atualizar estes três arquivos e retomar:
+
+```powershell
+& {
+    $ErrorActionPreference = 'Stop'
+    $base = 'https://raw.githubusercontent.com/mateushfolivatto/clone-hero-chart-midi/main/src/drumforge/library'
+    $pasta = Join-Path $env:USERPROFILE 'Downloads\MixDrumRock'
+    $baixador = Join-Path $pasta 'Baixador'
+    foreach ($arquivo in @('recover_pilot.py', 'onyx_recovery.py', 'collection_index.json')) {
+        Invoke-WebRequest -Uri "$base/$arquivo" -OutFile (Join-Path $baixador $arquivo) -UseBasicParsing
+    }
+    py -3 (Join-Path $baixador 'recover_pilot.py') --restante --destino $pasta
+    if ($LASTEXITCODE -ne 0) { throw 'Ainda ha pendencias. Confira as mensagens e os logs indicados.' }
+}
+```
+
+Mantenha `Originais`, `Songs`, `Verificacoes` e os ZIPs existentes: o programa
+confere e reaproveita esses arquivos. As receitas de músicas não mudaram.
+Agora cada tentativa do Onyx deixa um log em `Downloads\MixDrumRock\Logs\Onyx`,
+mesmo se a conversão falhar. A mensagem mostra a etapa e o motivo do conversor.
+Um timeout de download, como o de Octavarium no texto recebido, é uma pendência
+separada: a retomada tenta baixar essa origem novamente.
+
+## Escolher lote e usar no jogo
+
 Para executar apenas um lote, acrescente `--lote 2` ao comando `py -3 ...`.
 Para mudar o destino, altere somente `$pasta`. Prefira um caminho curto se o
 Windows avisar sobre nomes/caminhos longos.

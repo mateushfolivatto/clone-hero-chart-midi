@@ -209,7 +209,9 @@ def test_onyx_output_hashes_are_local_but_midi_is_pinned_and_edits_are_preserved
         ],
     }
 
-    def build(executable: Path, source: Path, project: Path, target: Path) -> None:
+    def build(
+        executable: Path, source: Path, project: Path, target: Path, *, log_path: Path
+    ) -> None:
         with zipfile.ZipFile(target, "w") as archive:
             archive.writestr("Song/notes.mid", midi)
             archive.writestr("Song/song.ogg", b"OggS synthetic local serial")
