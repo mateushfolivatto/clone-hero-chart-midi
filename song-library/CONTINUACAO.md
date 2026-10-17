@@ -84,6 +84,10 @@ separada: a retomada tenta baixar essa origem novamente.
 
 ## Escolher lote e usar no jogo
 
+Se já tem músicas antigas, use [SEM-REPETIDAS.md](SEM-REPETIDAS.md) para gerar
+um complemento local, reconhecendo pastas renomeadas sem enviar áudios/ZIPs.
+Monte a biblioteca nova a partir dos lotes e desse complemento.
+
 Para executar apenas um lote, acrescente `--lote 2` ao comando `py -3 ...`.
 Para mudar o destino, altere somente `$pasta`. Prefira um caminho curto se o
 Windows avisar sobre nomes/caminhos longos.

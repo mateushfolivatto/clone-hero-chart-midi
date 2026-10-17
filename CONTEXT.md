@@ -233,6 +233,19 @@ and output verification stay unchanged. Only the helper/index identities change.
 See song-library/CONTINUACAO.md for the three-file update and resume command;
 docs/library-onyx-recovery-fix.md records evidence and native-validation limits.
 
+### Existing library complement
+
+The user authorized a local complement of an existing ~4 GB song collection,
+whose folders were renamed and cannot be uploaded. `library.complement` and its
+standalone stdlib helper `local_library` compare actual extracted folders by INI
+artist/title and chart-plus-audio hashes. Present new batches take precedence;
+incomplete downloads do not exclude an old song. Ambiguous editions/durations
+are reported for review, and repeated old songs are represented once. The tool
+exports ZIP64 plus CSV/JSON without altering inputs or overwriting earlier outputs.
+See song-library/SEM-REPETIDAS.md. The user must assemble batches plus complement
+in an empty library, retaining the old folder as backup. The user's actual local
+inventory, native Windows run and game acceptance remain pending.
+
 ## Do not do yet
 
 - GUI

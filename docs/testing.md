@@ -106,3 +106,14 @@ diagnostics after cleanup. Three real source conversions reproduced pinned MIDI,
 17 runtime assets verified against local receipts, and repeated preparation kept
 all assets unchanged. Linux isolated-Python evidence does not establish Windows
 execution or game acceptance. See library-onyx-recovery-fix.md for the diagnosis.
+
+The local library complement adds 13 regressions (83 tests total): renamed/nested
+folders, INI encodings/case/color tags, chart-and-audio identity despite edited
+metadata, repeated old copies, incomplete new downloads, uncertain versions,
+source edits, links/archives/OneDrive tags, nested packs with a stray INI, standalone export,
+output preservation and a lowered ZIP64 threshold. A real scan compared five
+renamed old folders with all 254 new charts and selected only the synthetic
+exclusive. Another stdlib-only subprocess exported two real exclusive songs
+plus a synthetic one (12,223,459 bytes) and checked every ZIP asset hash.
+The user's actual 4 GB collection, native Windows and game acceptance remain
+unverified; use song-library/SEM-REPETIDAS.md to run on the user's PC.

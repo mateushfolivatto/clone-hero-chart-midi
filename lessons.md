@@ -172,3 +172,15 @@ finding. This file supplements the backlog; it does not redefine task completion
     could inspect them; only CalledProcessError's command/exit status survived.
     Store a per-attempt log in the collection, include its path and diagnostic
     tail in the error, and test import/export/timeout failures after cleanup.
+
+## 2026-10-17 — Local collection complement
+
+35. **Folder names are not song identities.** The user's existing library has
+    renamed folders, nested packs and already duplicated tracks. Compare INI
+    artist/title plus chart-and-audio identity, report ambiguous versions, and
+    verify with renamed/nested real copies. Export a complement without changing
+    either input; merging into an already populated old folder retains its copies.
+36. **A planned download is not a local replacement.** Comparing against all
+    recipes would hide an old song even when its new download failed. Use only
+    locally present INI/chart/audio folders as references. The incomplete-new-song
+    regression keeps the old track selected; rerun after later batches finish.

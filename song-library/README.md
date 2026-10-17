@@ -5,6 +5,10 @@ recuperar somente o piloto de 12, use [BAIXAR.md](BAIXAR.md). O baixador e
 a receita estão no GitHub; a pasta `data` é gerada localmente e não é versionada.
 Links de arquivos da máquina da nuvem não garantem disponibilidade após retomadas.
 
+**Para juntar sua coleção antiga aos lotes, use [SEM-REPETIDAS.md](SEM-REPETIDAS.md).**
+O comparador roda no PC, reconhece pastas renomeadas por metadados/conteúdo e cria
+um ZIP só do complemento, preservando os originais. Nenhum upload de mídia é necessário.
+
 Área separada para organizar a playlist do Qobuz e preparar charts já existentes
 para tocar bateria no Clone Hero. A coleção pode crescer além de 600 músicas;
 o processamento futuro deve ser incremental e preservar escolhas anteriores.
@@ -268,3 +272,12 @@ em CONTINUACAO.md atualiza três arquivos e reaproveita os downloads existentes.
 Leia também docs/library-onyx-recovery-fix.md; preserve `Logs/Onyx` ao investigar
 novos erros. A confirmação da retomada no Windows e o teste no jogo permanecem
 dependentes do resultado do usuário.
+
+O usuário também autorizou comparar sua biblioteca antiga (aproximadamente 4 GB)
+com os lotes. O comparador local `complement.py` + `local_library.py`, de biblioteca
+padrão, produz o complemento em ZIP64 e relatórios sem alterar as coleções. Leia
+SEM-REPETIDAS.md: prioridade para os lotes realmente presentes, versões incertas
+fora do ZIP para revisão, repetidas antigas registradas e destino novo a cada
+execução. Não confunda o inventário de teste com os arquivos reais do usuário;
+aguarde comparacao.csv/avisos.csv para revisar seu resultado. A nova biblioteca
+deve ser montada em pasta vazia, mantendo a antiga como backup.
