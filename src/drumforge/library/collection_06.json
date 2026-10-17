@@ -1,0 +1,1895 @@
+{
+  "schema_version": 1,
+  "batch_number": 6,
+  "collection_folder": "MixDrumRock - Lote 06",
+  "archive_name": "MixDrumRock-lote-06.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "songs": [
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Nightmare",
+      "file_id": "4767c1410f504d1d82ba58f0c2dfcef8",
+      "source_url": "https://rhythmverse.co/songfile/4767c1410f504d1d82ba58f0c2dfcef8",
+      "download_url": "https://drive.google.com/uc?export=download&id=1BnzsJc8Bh7fCsvza2ctO1w89MJ1ozThr",
+      "archive_format": "7z",
+      "folder": "Avenged Sevenfold - Nightmare [4767c141]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2480,
+          "kick_note_on_count": 893,
+          "cymbal_marker_count": 997,
+          "last_expert_onset_seconds": 360.18,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "4767c1410f504d1d82ba58f0c2dfcef8",
+        "artist": "Avenged Sevenfold",
+        "title": "Nightmare",
+        "album": "Nightmare",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/4767c1410f504d1d82ba58f0c2dfcef8",
+        "download_url": "https://drive.google.com/file/d/1BnzsJc8Bh7fCsvza2ctO1w89MJ1ozThr",
+        "duration_seconds": 376.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare [ImPhanty]/album.png",
+          "name": "album.png",
+          "sha256": "39b87e6ecce55a309317a48e55e31b57a44ebf4e6d3773bc71d8b99afe7a12d9"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare [ImPhanty]/background.jpg",
+          "name": "background.jpg",
+          "sha256": "941ca962d573cf58ef5c0ecbb1f022442ec7fada0e1ec9a3dafebbac292b77e2"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare [ImPhanty]/notes.chart",
+          "name": "notes.chart",
+          "sha256": "8dc560090e9bd9df5a76428d283f808779b5f06659c0150c8d5f352b5210ce3b"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare [ImPhanty]/song.ini",
+          "name": "song.ini",
+          "sha256": "78dd2562c0c7af57e91a11852e1bee7ebb2633c0de6c60155ef2813ab62d626c"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare [ImPhanty]/song.opus",
+          "name": "song.opus",
+          "sha256": "13a8a3988cbf2f61bf2b6cf442802f44391328f65f0a20020aaf1fddea598083"
+        }
+      ],
+      "archive_sha256": "086ed7efa0d0291ace7c2dfe783e2b6c35ea10310176718cefdb1b964ecdbb39",
+      "archive_bytes": 4714016,
+      "prepared_bytes": 4713721,
+      "qobuz_track_ids": [
+        "2270592"
+      ],
+      "playlist_track_ids": [
+        "12221847103"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Unbound (The Wild Ride)",
+      "file_id": "a3db279b18534d12a035d4a2adaec75a",
+      "source_url": "https://rhythmverse.co/songfile/a3db279b18534d12a035d4a2adaec75a",
+      "download_url": "https://drive.google.com/uc?export=download&id=1ReYRKkgVCVvEGIJ8Z9apldz_78QACNgZ",
+      "archive_format": "7z",
+      "folder": "Avenged Sevenfold - Unbound (The Wild Ride) [a3db279b]",
+      "charter": "LMBECIL1832, Darkatness, metalli3212",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2263,
+          "kick_note_on_count": 835,
+          "cymbal_marker_count": 641,
+          "last_expert_onset_seconds": 310.741,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a3db279b18534d12a035d4a2adaec75a",
+        "artist": "Avenged Sevenfold",
+        "title": "Unbound (The Wild Ride)",
+        "album": "Avenged Sevenfold",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a3db279b18534d12a035d4a2adaec75a",
+        "download_url": "https://drive.google.com/file/d/1ReYRKkgVCVvEGIJ8Z9apldz_78QACNgZ",
+        "duration_seconds": 315.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "LMBECIL1832, Darkatness, metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Unbound (The Wild Ride)/album.png",
+          "name": "album.png",
+          "sha256": "a1c25b2e79edfe9120de9fdd72d9660ed66960b8750d4a0747df4cd16f16e16d"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Unbound (The Wild Ride)/background.jpg",
+          "name": "background.jpg",
+          "sha256": "d5a26e896a4d9aa544a62201862e0da01271ee3ad98fab745d60a3e3a4389ebd"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Unbound (The Wild Ride)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "acc2fc6b24dbc40a86a4e87614141273a176ad1f82c6bd943a2c6b0bea86fe81"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Unbound (The Wild Ride)/song.ini",
+          "name": "song.ini",
+          "sha256": "56bd889b70a1cf792e70866a45e21b585135c0a03a90ac64bedd2f4c89c8cf52"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Unbound (The Wild Ride)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "64a9d7e97638d1da9105f6acba6f697e3eb33150a39a9bafd97354245afe361b"
+        }
+      ],
+      "archive_sha256": "bd6a208faad4a8380fecabc28e260a2eefc6e9619990d2474e8d2c4abda90874",
+      "archive_bytes": 9318873,
+      "prepared_bytes": 9481784,
+      "qobuz_track_ids": [
+        "4689334"
+      ],
+      "playlist_track_ids": [
+        "12449394405"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "6:00",
+      "file_id": "7e7a0a9c248e4874ab8cd536be02bfb7",
+      "source_url": "https://rhythmverse.co/songfile/7e7a0a9c248e4874ab8cd536be02bfb7",
+      "download_url": "https://drive.google.com/uc?export=download&id=1LJenA-wXj9EcbkLH5HIlScTA6agxQc1u",
+      "archive_format": "rar",
+      "folder": "Dream Theater - 6_00 [7e7a0a9c]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2659,
+          "kick_note_on_count": 773,
+          "cymbal_marker_count": 1182,
+          "last_expert_onset_seconds": 330.68,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7e7a0a9c248e4874ab8cd536be02bfb7",
+        "artist": "Dream Theater",
+        "title": "6:00",
+        "album": "Awake",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/7e7a0a9c248e4874ab8cd536be02bfb7",
+        "download_url": "https://drive.google.com/file/d/1LJenA-wXj9EcbkLH5HIlScTA6agxQc1u",
+        "duration_seconds": 333.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - 600/album.png",
+          "name": "album.png",
+          "sha256": "c17f6efd49bd2f6bb74dedc3e770aac0ed4017783c4bd70cf222fac0b44338b2"
+        },
+        {
+          "archive_name": "Dream Theater - 600/notes.chart",
+          "name": "notes.chart",
+          "sha256": "a4e6502ada145920a05c48fee43d96021312d56603c1d31bfd2afedb5a43237d"
+        },
+        {
+          "archive_name": "Dream Theater - 600/song.ini",
+          "name": "song.ini",
+          "sha256": "4d2ddb31b0a29096bc409bd89b45da33ab547aa8e07556d57d9d667447f9ff5a"
+        },
+        {
+          "archive_name": "Dream Theater - 600/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f6c449eeedfb93cd23fab62f9f29f7e35f1bcba4ee71dfd6380938c24d15b936"
+        }
+      ],
+      "archive_sha256": "2f8a479f64098513702cc109184db541220ef979ee8d8a4aa52bc3c1d7f7afdd",
+      "archive_bytes": 11913938,
+      "prepared_bytes": 12084783,
+      "qobuz_track_ids": [
+        "2927439"
+      ],
+      "playlist_track_ids": [
+        "12449398600"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "A Broken Man",
+      "file_id": "473b31a157164ec1ba82b9b96c7c202f",
+      "source_url": "https://rhythmverse.co/songfile/473b31a157164ec1ba82b9b96c7c202f",
+      "download_url": "https://drive.google.com/uc?export=download&id=1xtdBC9hUqM5t07FTYe1czAvFQa4V9PJq",
+      "archive_format": "rar",
+      "folder": "Dream Theater - A Broken Man [473b31a1]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3915,
+          "kick_note_on_count": 1203,
+          "cymbal_marker_count": 1083,
+          "last_expert_onset_seconds": 502.389,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "473b31a157164ec1ba82b9b96c7c202f",
+        "artist": "Dream Theater",
+        "title": "A Broken Man",
+        "album": "A Broken Man (Single)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/473b31a157164ec1ba82b9b96c7c202f",
+        "download_url": "https://drive.google.com/file/d/1xtdBC9hUqM5t07FTYe1czAvFQa4V9PJq",
+        "duration_seconds": 511.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - A Broken Man/album.png",
+          "name": "album.png",
+          "sha256": "13522959392f134852175956d8375771c85c857f5e20ec7429346b9ee6bf15d1"
+        },
+        {
+          "archive_name": "Dream Theater - A Broken Man/notes.chart",
+          "name": "notes.chart",
+          "sha256": "bdcae0c2b2e5664c0a875bcbaec722a98bd6d4da2f3be71a34ee4f76dbff6da4"
+        },
+        {
+          "archive_name": "Dream Theater - A Broken Man/song.ini",
+          "name": "song.ini",
+          "sha256": "a8fd72735fc42352d308d51ced0e6c0f9e38d2bc37e89b766b3c06fd6dc8f442"
+        },
+        {
+          "archive_name": "Dream Theater - A Broken Man/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0e6a74d53d362f811279aadd76730f395eb0ebffffa3d186b1d7146faaa0120d"
+        }
+      ],
+      "archive_sha256": "548c34509df16236a4f64cfdde154293b6af58b58461f4c665c6e6129fb6f025",
+      "archive_bytes": 17091287,
+      "prepared_bytes": 17311831,
+      "qobuz_track_ids": [
+        "292980570"
+      ],
+      "playlist_track_ids": [
+        "12449398615"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "A Rite of Passage",
+      "file_id": "3a0fe2c67f334cb98d6f5c1caabf7cae",
+      "source_url": "https://rhythmverse.co/songfile/3a0fe2c67f334cb98d6f5c1caabf7cae",
+      "download_url": "https://drive.google.com/uc?export=download&id=1j2mhOlRp7kCN41lrCMDScbVZJIICqTu1",
+      "archive_format": "rar",
+      "folder": "Dream Theater - A Rite of Passage [3a0fe2c6]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3254,
+          "kick_note_on_count": 952,
+          "cymbal_marker_count": 1479,
+          "last_expert_onset_seconds": 513.681,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3a0fe2c67f334cb98d6f5c1caabf7cae",
+        "artist": "Dream Theater",
+        "title": "A Rite of Passage",
+        "album": "Black Clouds & Silver Linings",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/3a0fe2c67f334cb98d6f5c1caabf7cae",
+        "download_url": "https://drive.google.com/file/d/1j2mhOlRp7kCN41lrCMDScbVZJIICqTu1",
+        "duration_seconds": 517.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - A Rite of Passage/album.png",
+          "name": "album.png",
+          "sha256": "e1f6311493a1c590cdd437c77d759b25c66897a085c5fb17efd8726eb054ff85"
+        },
+        {
+          "archive_name": "Dream Theater - A Rite of Passage/notes.chart",
+          "name": "notes.chart",
+          "sha256": "f8aec803f84493a074b7d75443afc515e78fb18383229c3395b54dd3ab704209"
+        },
+        {
+          "archive_name": "Dream Theater - A Rite of Passage/song.ini",
+          "name": "song.ini",
+          "sha256": "e16868d68162f12b5b008b866d992c0ffc18d3fc28a97cbbee7ba8eb2b7c7817"
+        },
+        {
+          "archive_name": "Dream Theater - A Rite of Passage/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2ed4af371d2ce51ad41315425c8ec1f7e8c7fe67c7d905d3344fb71d63cfbef4"
+        }
+      ],
+      "archive_sha256": "0d722fb7aa7ec11dc1f1113c4e07293c0602bc95bd90430e7d5e644b30bcac99",
+      "archive_bytes": 31006814,
+      "prepared_bytes": 31198261,
+      "qobuz_track_ids": [
+        "14345233"
+      ],
+      "playlist_track_ids": [
+        "12449398618"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Another Day",
+      "file_id": "6b3193cbd5764e96a9cd84e8a5964be0",
+      "source_url": "https://rhythmverse.co/songfile/6b3193cbd5764e96a9cd84e8a5964be0",
+      "download_url": "https://drive.google.com/uc?export=download&id=1b806pA96QI0Pf-WhkUP7CXyYZCGASzWU",
+      "archive_format": "rar",
+      "folder": "Dream Theater - Another Day [6b3193cb]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1179,
+          "kick_note_on_count": 306,
+          "cymbal_marker_count": 552,
+          "last_expert_onset_seconds": 258.79,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6b3193cbd5764e96a9cd84e8a5964be0",
+        "artist": "Dream Theater",
+        "title": "Another Day",
+        "album": "Images and Words",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/6b3193cbd5764e96a9cd84e8a5964be0",
+        "download_url": "https://drive.google.com/file/d/1b806pA96QI0Pf-WhkUP7CXyYZCGASzWU",
+        "duration_seconds": 265.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Another Day/album.png",
+          "name": "album.png",
+          "sha256": "c7badfacfe0c5bf74b37831e442758a6dda19fec79bd730181e4a3cf464a9c49"
+        },
+        {
+          "archive_name": "Dream Theater - Another Day/notes.chart",
+          "name": "notes.chart",
+          "sha256": "3eaaa06bf7a6e7c32243d54ad4ad60312b3616e806b1d53ea940abf023385255"
+        },
+        {
+          "archive_name": "Dream Theater - Another Day/song.ini",
+          "name": "song.ini",
+          "sha256": "bbd7a8b73bcd6c2e81234853e476805b7e51001ebea5c73fe6b493e95bb44d95"
+        },
+        {
+          "archive_name": "Dream Theater - Another Day/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c71ba794fa7ff2a452ac063f14bfc54ce6038a8b892e96ffc2eaa50e7b4436de"
+        }
+      ],
+      "archive_sha256": "9d342d1553f44f9ff9303e9d8cab047d59d6ae998aa4032d560c31b7e2bea104",
+      "archive_bytes": 16550154,
+      "prepared_bytes": 16620251,
+      "qobuz_track_ids": [
+        "2927586"
+      ],
+      "playlist_track_ids": [
+        "12449398622"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "As I Am",
+      "file_id": "7b8df21a858a430e8210e8dd5f033633",
+      "source_url": "https://rhythmverse.co/songfile/7b8df21a858a430e8210e8dd5f033633",
+      "download_url": "https://drive.google.com/uc?export=download&id=1ps-Ry9HBcP4xYGSP0WXmpUXcPaogqQYQ",
+      "archive_format": "rar",
+      "folder": "Dream Theater - As I Am [7b8df21a]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3095,
+          "kick_note_on_count": 646,
+          "cymbal_marker_count": 1668,
+          "last_expert_onset_seconds": 447.776,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7b8df21a858a430e8210e8dd5f033633",
+        "artist": "Dream Theater",
+        "title": "As I Am",
+        "album": "Train of Thought",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/7b8df21a858a430e8210e8dd5f033633",
+        "download_url": "https://drive.google.com/file/d/1ps-Ry9HBcP4xYGSP0WXmpUXcPaogqQYQ",
+        "duration_seconds": 467.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - As I Am/album.png",
+          "name": "album.png",
+          "sha256": "62c5b1fda1ea92b3f493e5412341e39fefc3d54dee7a079232eef2469a04829d"
+        },
+        {
+          "archive_name": "Dream Theater - As I Am/background.png",
+          "name": "background.png",
+          "sha256": "06078792b09be8feee751253599e9aa29d390b91784c4e9f1473a6311620a42a"
+        },
+        {
+          "archive_name": "Dream Theater - As I Am/notes.chart",
+          "name": "notes.chart",
+          "sha256": "b99059cfe2491ae0ef0bd240f68c211a8594768c4ca371ce1f84c8c95c644e95"
+        },
+        {
+          "archive_name": "Dream Theater - As I Am/song.ini",
+          "name": "song.ini",
+          "sha256": "6b4ccc75b2bc15a30f605de2695e3c9a85258be4addb0a933093db9daec027ca"
+        },
+        {
+          "archive_name": "Dream Theater - As I Am/song.ogg",
+          "name": "song.ogg",
+          "sha256": "69a8b6e721b610a14886c2d52a2eb190abebf344130fc78e5c2eee21b66342ef"
+        }
+      ],
+      "archive_sha256": "ef494ac8a591324254ec345f3ee1e2c0bc1298183c9d0b8c9a21df4c769b47d5",
+      "archive_bytes": 16656117,
+      "prepared_bytes": 16824433,
+      "qobuz_track_ids": [
+        "2783810"
+      ],
+      "playlist_track_ids": [
+        "12449398621"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Barstool Warrior",
+      "file_id": "00675e3bdcb84b7cb84dcfd3b23f8b50",
+      "source_url": "https://rhythmverse.co/songfile/00675e3bdcb84b7cb84dcfd3b23f8b50",
+      "download_url": "https://drive.google.com/uc?export=download&id=1VkZsFXoa-TvA7QL6b7WmUZuCr4baUjyY",
+      "archive_format": "rar",
+      "folder": "Dream Theater - Barstool Warrior [00675e3b]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2136,
+          "kick_note_on_count": 710,
+          "cymbal_marker_count": 801,
+          "last_expert_onset_seconds": 388.222,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "00675e3bdcb84b7cb84dcfd3b23f8b50",
+        "artist": "Dream Theater",
+        "title": "Barstool Warrior",
+        "album": "Distance Over Time",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/00675e3bdcb84b7cb84dcfd3b23f8b50",
+        "download_url": "https://drive.google.com/file/d/1VkZsFXoa-TvA7QL6b7WmUZuCr4baUjyY",
+        "duration_seconds": 405.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Barstool Warrior/album.png",
+          "name": "album.png",
+          "sha256": "ad5ef88dfcd86687d4e7c38fc18d70825f865cf0f917e9c3ebfc32fe7aed1c7f"
+        },
+        {
+          "archive_name": "Dream Theater - Barstool Warrior/background.png",
+          "name": "background.png",
+          "sha256": "1badc52e90be743819fb7a2358700687b9ab529036b0376d3ac71b363d504460"
+        },
+        {
+          "archive_name": "Dream Theater - Barstool Warrior/notes.chart",
+          "name": "notes.chart",
+          "sha256": "fa1074f472c03e74c4a241862cf1690d046451d1097732b387e80f2a2d712f29"
+        },
+        {
+          "archive_name": "Dream Theater - Barstool Warrior/song.ini",
+          "name": "song.ini",
+          "sha256": "f6feeeb86214b57b14a8f2bd66bb57de558c3d95d7822fce1898e5a2bdcaac60"
+        },
+        {
+          "archive_name": "Dream Theater - Barstool Warrior/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1623d9d931e48f28837ba7469e193161bbe1db0da9cdf60e972ca7a6545ea6b3"
+        }
+      ],
+      "archive_sha256": "13504048269d64defd2539cccb634233998037de1b5cfc62a318d816cb54c04a",
+      "archive_bytes": 14615676,
+      "prepared_bytes": 14927146,
+      "qobuz_track_ids": [
+        "56741123"
+      ],
+      "playlist_track_ids": [
+        "12449398627"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Enigma Machine",
+      "file_id": "2522ba876c754c28a8df8b8a2f29083c",
+      "source_url": "https://rhythmverse.co/songfile/2522ba876c754c28a8df8b8a2f29083c",
+      "download_url": "https://drive.google.com/uc?export=download&id=12E2vlAX4UPPf2pWbe2JW91GbHRtVrGW0",
+      "archive_format": "rar",
+      "folder": "Dream Theater - Enigma Machine [2522ba87]",
+      "charter": "ImPhanty, Miscellany",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2320,
+          "kick_note_on_count": 777,
+          "cymbal_marker_count": 809,
+          "last_expert_onset_seconds": 348.481,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "2522ba876c754c28a8df8b8a2f29083c",
+        "artist": "Dream Theater",
+        "title": "Enigma Machine",
+        "album": "Dream Theater",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/2522ba876c754c28a8df8b8a2f29083c",
+        "download_url": "https://drive.google.com/file/d/12E2vlAX4UPPf2pWbe2JW91GbHRtVrGW0",
+        "duration_seconds": 361.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty, Miscellany",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Enigma Machine/album.png",
+          "name": "album.png",
+          "sha256": "e0b948d4e1ab38d2b0eb85193357d977f90f1b234ae1961626db12697ff5e0df"
+        },
+        {
+          "archive_name": "Dream Theater - Enigma Machine/background.png",
+          "name": "background.png",
+          "sha256": "f0cb254bce0199398271a67ff35cba7028c9d48fb2a5acbe7b33455cc9c3d4f2"
+        },
+        {
+          "archive_name": "Dream Theater - Enigma Machine/notes.chart",
+          "name": "notes.chart",
+          "sha256": "ecb5a35f6c8fd3a81a23e44e95a2cb772d782ae2d2704743cdc82813c578af82"
+        },
+        {
+          "archive_name": "Dream Theater - Enigma Machine/song.ini",
+          "name": "song.ini",
+          "sha256": "2a3153352aca98695746f4ca06371ec5ad713beb28ac751777ac59d09c067c19"
+        },
+        {
+          "archive_name": "Dream Theater - Enigma Machine/song.ogg",
+          "name": "song.ogg",
+          "sha256": "49e8b73879fca0f769a11ced3cc2a19af1af04bbf4376a2858abe2e9a77a3a95"
+        }
+      ],
+      "archive_sha256": "42b7ef2481849591d59bc78ae7c142237bf9538f57989cc0461f82926de10232",
+      "archive_bytes": 13039156,
+      "prepared_bytes": 13179775,
+      "qobuz_track_ids": [
+        "11614146"
+      ],
+      "playlist_track_ids": [
+        "12449398624"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Midnight Messiah",
+      "file_id": "ed8fd3b1ce104c1496f4366f524cdf1c",
+      "source_url": "https://rhythmverse.co/songfile/ed8fd3b1ce104c1496f4366f524cdf1c",
+      "download_url": "https://drive.google.com/uc?export=download&id=1NVapouKvPP9Iwq5R9_CPNAnOETJO54CX",
+      "archive_format": "rar",
+      "folder": "Dream Theater - Midnight Messiah [ed8fd3b1]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3289,
+          "kick_note_on_count": 1112,
+          "cymbal_marker_count": 1347,
+          "last_expert_onset_seconds": 464.105,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ed8fd3b1ce104c1496f4366f524cdf1c",
+        "artist": "Dream Theater",
+        "title": "Midnight Messiah",
+        "album": "Midnight Messiah (Single)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/ed8fd3b1ce104c1496f4366f524cdf1c",
+        "download_url": "https://drive.google.com/file/d/1NVapouKvPP9Iwq5R9_CPNAnOETJO54CX",
+        "duration_seconds": 472.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Midnight Messiah/album.png",
+          "name": "album.png",
+          "sha256": "e3bf82212701dc0fab7941ec9c5430657058edeb19cbf05631342a5d2d254f71"
+        },
+        {
+          "archive_name": "Dream Theater - Midnight Messiah/notes.chart",
+          "name": "notes.chart",
+          "sha256": "6a8d4538f08cdf0573848cc411aab8102e32acec18323502a00df606d7d7e3a8"
+        },
+        {
+          "archive_name": "Dream Theater - Midnight Messiah/song.ini",
+          "name": "song.ini",
+          "sha256": "39ab5c9eb7507e7c621a926dc40f6427d008a86000e3c42dcecfbfdfa112c19e"
+        },
+        {
+          "archive_name": "Dream Theater - Midnight Messiah/song.ogg",
+          "name": "song.ogg",
+          "sha256": "36a25f7f8807c2c714f3f8d59376a4a28dcc335626daf960b74d8d9be98df34e"
+        }
+      ],
+      "archive_sha256": "ea85768a401cc472fcea4416ccdee6873ba1e531c085dc7cbc169a0f4fceb9c3",
+      "archive_bytes": 16462483,
+      "prepared_bytes": 16902323,
+      "qobuz_track_ids": [
+        "292980572"
+      ],
+      "playlist_track_ids": [
+        "12449398623"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Night Terror",
+      "file_id": "7f96ee5ceaff4260ab6ea4d0392cabaa",
+      "source_url": "https://rhythmverse.co/songfile/7f96ee5ceaff4260ab6ea4d0392cabaa",
+      "download_url": "https://drive.google.com/uc?export=download&id=1nfmzd9UC5p0nTYpq8MC_ec9x-laD9i-F",
+      "archive_format": "rar",
+      "folder": "Dream Theater - Night Terror [7f96ee5c]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 4300,
+          "kick_note_on_count": 1266,
+          "cymbal_marker_count": 1716,
+          "last_expert_onset_seconds": 590.836,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7f96ee5ceaff4260ab6ea4d0392cabaa",
+        "artist": "Dream Theater",
+        "title": "Night Terror",
+        "album": "Parasomnia",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/7f96ee5ceaff4260ab6ea4d0392cabaa",
+        "download_url": "https://drive.google.com/file/d/1nfmzd9UC5p0nTYpq8MC_ec9x-laD9i-F",
+        "duration_seconds": 595.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Night Terror (CH Version)/album.png",
+          "name": "album.png",
+          "sha256": "e94ccf35f6b8b69f587e0e4a68003617af62058ac28a7bc278b4b26da357556f"
+        },
+        {
+          "archive_name": "Dream Theater - Night Terror (CH Version)/background.png",
+          "name": "background.png",
+          "sha256": "ecf6241eda7ab0dc6019e521b405d67771f8abbe225fc365158b50ad701dcc06"
+        },
+        {
+          "archive_name": "Dream Theater - Night Terror (CH Version)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "173d340238be5413401fdf10a8fc1d34e987d8eda0ea266942ad632772d3e747"
+        },
+        {
+          "archive_name": "Dream Theater - Night Terror (CH Version)/song.ini",
+          "name": "song.ini",
+          "sha256": "c85ab65f912a1ee641b22c30354c84bf3f21f230602269236932b1b24224557f"
+        },
+        {
+          "archive_name": "Dream Theater - Night Terror (CH Version)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2343477c38d270b6f26d0a04c1619e7d2ac2e44ccd26684ca44de63d4ea4d474"
+        }
+      ],
+      "archive_sha256": "131c0bc392c88ddc95f1162ba3648aec0897694a936a34e737d9bf8cf9822bea",
+      "archive_bytes": 23027402,
+      "prepared_bytes": 23266104,
+      "qobuz_track_ids": [
+        "292980569"
+      ],
+      "playlist_track_ids": [
+        "12449398596"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Pull Me Under",
+      "file_id": "23573c632dc44e838a1370353d683813",
+      "source_url": "https://rhythmverse.co/songfile/23573c632dc44e838a1370353d683813",
+      "download_url": "https://drive.google.com/uc?export=download&id=19fMrNQ-U_d0BCbPi5rltnGI7LZQ2Pmfm",
+      "archive_format": "rar",
+      "folder": "Dream Theater - Pull Me Under [23573c63]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3645,
+          "kick_note_on_count": 1229,
+          "cymbal_marker_count": 1333,
+          "last_expert_onset_seconds": 493.381,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "23573c632dc44e838a1370353d683813",
+        "artist": "Dream Theater",
+        "title": "Pull Me Under",
+        "album": "Images and Words",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/23573c632dc44e838a1370353d683813",
+        "download_url": "https://drive.google.com/file/d/19fMrNQ-U_d0BCbPi5rltnGI7LZQ2Pmfm",
+        "duration_seconds": 495.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Pull Me Under/album.png",
+          "name": "album.png",
+          "sha256": "c7badfacfe0c5bf74b37831e442758a6dda19fec79bd730181e4a3cf464a9c49"
+        },
+        {
+          "archive_name": "Dream Theater - Pull Me Under/notes.chart",
+          "name": "notes.chart",
+          "sha256": "9afa0b151b728f9445e4fe55884326f542a3bf9124885c9e220ba0c0b955283c"
+        },
+        {
+          "archive_name": "Dream Theater - Pull Me Under/song.ini",
+          "name": "song.ini",
+          "sha256": "b73afd00a8f81ccd2c78be0a16425a5b62c3a69da4ced2197ed0e564f5a8ab2b"
+        },
+        {
+          "archive_name": "Dream Theater - Pull Me Under/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d64c8833fa340df8b5852ed09c1496e0891792d1149e2188b95f1b1c1ea2b6e6"
+        }
+      ],
+      "archive_sha256": "4374843bf087c25589f9d5841d3ebdc7a4ece94ee24d0143bfefe736f805934a",
+      "archive_bytes": 16915382,
+      "prepared_bytes": 17091645,
+      "qobuz_track_ids": [
+        "2927585"
+      ],
+      "playlist_track_ids": [
+        "12449398594"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Space-Dye Vest",
+      "file_id": "51fbc389cca942c786dc28810ac33146",
+      "source_url": "https://rhythmverse.co/songfile/51fbc389cca942c786dc28810ac33146",
+      "download_url": "https://drive.google.com/uc?export=download&id=1KOo4UsKMsYTHEl9WSOy_vqBqEl9FeRuJ",
+      "archive_format": "rar",
+      "folder": "Dream Theater - Space-Dye Vest [51fbc389]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 800,
+          "kick_note_on_count": 121,
+          "cymbal_marker_count": 258,
+          "last_expert_onset_seconds": 413.232,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "51fbc389cca942c786dc28810ac33146",
+        "artist": "Dream Theater",
+        "title": "Space-Dye Vest",
+        "album": "Awake",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/51fbc389cca942c786dc28810ac33146",
+        "download_url": "https://drive.google.com/file/d/1KOo4UsKMsYTHEl9WSOy_vqBqEl9FeRuJ",
+        "duration_seconds": 451.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Space-Dye Vest/album.png",
+          "name": "album.png",
+          "sha256": "c17f6efd49bd2f6bb74dedc3e770aac0ed4017783c4bd70cf222fac0b44338b2"
+        },
+        {
+          "archive_name": "Dream Theater - Space-Dye Vest/notes.chart",
+          "name": "notes.chart",
+          "sha256": "dfd48d26c1e099c76158c90c6d9edbccf1fd3cc18fbd302a9a0028aee717793b"
+        },
+        {
+          "archive_name": "Dream Theater - Space-Dye Vest/song.ini",
+          "name": "song.ini",
+          "sha256": "4caaafbeebfdb3f2204037fd5308a7c3cf4b34f0935c4aa4fd9a7dfd0e76f439"
+        },
+        {
+          "archive_name": "Dream Theater - Space-Dye Vest/song.ogg",
+          "name": "song.ogg",
+          "sha256": "13ffe40180dd4655056c60a6197e0134d25a4c60fe4cc889a9fa40cb3dc5b744"
+        }
+      ],
+      "archive_sha256": "4b2b1df552338f1ea2333d4ee7b47e0333feb287f1c426a4e14eeaa1947b1ad4",
+      "archive_bytes": 14318390,
+      "prepared_bytes": 14413356,
+      "qobuz_track_ids": [
+        "2927449"
+      ],
+      "playlist_track_ids": [
+        "12449398632"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Stream of Consciousness",
+      "file_id": "a020465fd9b44feebed3999dea052af4",
+      "source_url": "https://rhythmverse.co/songfile/a020465fd9b44feebed3999dea052af4",
+      "download_url": "https://drive.google.com/uc?export=download&id=1fg5kup0bQTcNLUyXf0NPYlTtqE-xBxL1",
+      "archive_format": "rar",
+      "folder": "Dream Theater - Stream of Consciousness [a020465f]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 4847,
+          "kick_note_on_count": 1118,
+          "cymbal_marker_count": 2510,
+          "last_expert_onset_seconds": 657.83,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a020465fd9b44feebed3999dea052af4",
+        "artist": "Dream Theater",
+        "title": "Stream of Consciousness",
+        "album": "Train of Thought",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a020465fd9b44feebed3999dea052af4",
+        "download_url": "https://drive.google.com/file/d/1fg5kup0bQTcNLUyXf0NPYlTtqE-xBxL1",
+        "duration_seconds": 678.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Stream of Consciousness/album.png",
+          "name": "album.png",
+          "sha256": "62c5b1fda1ea92b3f493e5412341e39fefc3d54dee7a079232eef2469a04829d"
+        },
+        {
+          "archive_name": "Dream Theater - Stream of Consciousness/background.png",
+          "name": "background.png",
+          "sha256": "06078792b09be8feee751253599e9aa29d390b91784c4e9f1473a6311620a42a"
+        },
+        {
+          "archive_name": "Dream Theater - Stream of Consciousness/notes.chart",
+          "name": "notes.chart",
+          "sha256": "146a5347a767a5372889c1d211829dcd05297254d941a69bde3e6fad3fe5d1ac"
+        },
+        {
+          "archive_name": "Dream Theater - Stream of Consciousness/song.ini",
+          "name": "song.ini",
+          "sha256": "c4cafc9eea726c2ed971f1105e89ef15ebf63fb90c6f9518fec89224352fc3a3"
+        },
+        {
+          "archive_name": "Dream Theater - Stream of Consciousness/song.ogg",
+          "name": "song.ogg",
+          "sha256": "102fa856ddff314dfe831ae2a39bc8995096b6e3bacea4aac974dcd272799466"
+        }
+      ],
+      "archive_sha256": "6a10bd34eda743f832c882331abc06c5ef1d50a57e8b0b699868933abacdaa00",
+      "archive_bytes": 23467218,
+      "prepared_bytes": 23704318,
+      "qobuz_track_ids": [
+        "2783815"
+      ],
+      "playlist_track_ids": [
+        "12449398607"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "The Alien",
+      "file_id": "0a11ba741d364ff28d404db2f2761da4",
+      "source_url": "https://rhythmverse.co/songfile/0a11ba741d364ff28d404db2f2761da4",
+      "download_url": "https://drive.google.com/uc?export=download&id=1RSsV-VfZGJx_MoXHnIAe3Wl70pfX5Ncl",
+      "archive_format": "rar",
+      "folder": "Dream Theater - The Alien [0a11ba74]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 4693,
+          "kick_note_on_count": 1521,
+          "cymbal_marker_count": 1830,
+          "last_expert_onset_seconds": 568.73,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "0a11ba741d364ff28d404db2f2761da4",
+        "artist": "Dream Theater",
+        "title": "The Alien",
+        "album": "A View from the Top of the World",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/0a11ba741d364ff28d404db2f2761da4",
+        "download_url": "https://drive.google.com/file/d/1RSsV-VfZGJx_MoXHnIAe3Wl70pfX5Ncl",
+        "duration_seconds": 571.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - The Alien/album.png",
+          "name": "album.png",
+          "sha256": "85792e2ea9d2ab9bb29c34e9e83a463a0bf7a2a8018d4f7318ba1249e889415d"
+        },
+        {
+          "archive_name": "Dream Theater - The Alien/background.png",
+          "name": "background.png",
+          "sha256": "d0933216167c923748bc344912d4090a367ef12a1478629fe0bcfc44a5aca550"
+        },
+        {
+          "archive_name": "Dream Theater - The Alien/notes.chart",
+          "name": "notes.chart",
+          "sha256": "0732c2310418943ab1ca419010406859c0553fefb115f78ec6a053648f65aef0"
+        },
+        {
+          "archive_name": "Dream Theater - The Alien/song.ini",
+          "name": "song.ini",
+          "sha256": "32d55e9a2f75967535cfb64e89df3a9da3ea88c2588b8e232e68f858653ef002"
+        },
+        {
+          "archive_name": "Dream Theater - The Alien/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a815684dd2a79a200f3d3a4b7ea57e03f61fcdf52e154177bae9073b7e4bf592"
+        }
+      ],
+      "archive_sha256": "23ec3f0808afe003612887900643bdfe06330759530b587b1620b525d24b28b0",
+      "archive_bytes": 25069829,
+      "prepared_bytes": 25669489,
+      "qobuz_track_ids": [
+        "126719436"
+      ],
+      "playlist_track_ids": [
+        "12449398630"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "The Count of Tuscany",
+      "file_id": "aa2b39ab6c8d41a4937e7f96a10077da",
+      "source_url": "https://rhythmverse.co/songfile/aa2b39ab6c8d41a4937e7f96a10077da",
+      "download_url": "https://drive.google.com/uc?export=download&id=11QLcziZZ-aKeQhH1OE_AIOGDYMC6Qde4",
+      "archive_format": "rar",
+      "folder": "Dream Theater - The Count of Tuscany [aa2b39ab]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 5987,
+          "kick_note_on_count": 1800,
+          "cymbal_marker_count": 2500,
+          "last_expert_onset_seconds": 1109.468,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "aa2b39ab6c8d41a4937e7f96a10077da",
+        "artist": "Dream Theater",
+        "title": "The Count of Tuscany",
+        "album": "Black Clouds & Silver Linings",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/aa2b39ab6c8d41a4937e7f96a10077da",
+        "download_url": "https://drive.google.com/file/d/11QLcziZZ-aKeQhH1OE_AIOGDYMC6Qde4",
+        "duration_seconds": 1158.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - The Count of Tuscany/album.png",
+          "name": "album.png",
+          "sha256": "e1f6311493a1c590cdd437c77d759b25c66897a085c5fb17efd8726eb054ff85"
+        },
+        {
+          "archive_name": "Dream Theater - The Count of Tuscany/notes.chart",
+          "name": "notes.chart",
+          "sha256": "92fdc9e13932c5302663b171feed78f7839bb29c8a95d09143584b5bf85830d3"
+        },
+        {
+          "archive_name": "Dream Theater - The Count of Tuscany/song.ini",
+          "name": "song.ini",
+          "sha256": "3ac3280375db7c8feee72bea516217b7cbf01287241ff3b32f22acfdd15364e8"
+        },
+        {
+          "archive_name": "Dream Theater - The Count of Tuscany/song.ogg",
+          "name": "song.ogg",
+          "sha256": "72146dab2e4c1d905883e366547c606a002073b38c48be94e3ffc4102ea178f3"
+        }
+      ],
+      "archive_sha256": "ddae5b83d7dfd87ac7b28ad57ba52aa9025a1fd5268c5d386f000a25be8192d0",
+      "archive_bytes": 62046254,
+      "prepared_bytes": 62879938,
+      "qobuz_track_ids": [
+        "14345237"
+      ],
+      "playlist_track_ids": [
+        "12449398633"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "The Enemy Inside",
+      "file_id": "5a8f6db0731f46f392b636c4b35c11d8",
+      "source_url": "https://rhythmverse.co/songfile/5a8f6db0731f46f392b636c4b35c11d8",
+      "download_url": "https://drive.google.com/uc?export=download&id=1kWsmTul8qHMN0Qes2_AGMpHhdnziMH9M",
+      "archive_format": "rar",
+      "folder": "Dream Theater - The Enemy Inside [5a8f6db0]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2836,
+          "kick_note_on_count": 916,
+          "cymbal_marker_count": 973,
+          "last_expert_onset_seconds": 371.839,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5a8f6db0731f46f392b636c4b35c11d8",
+        "artist": "Dream Theater",
+        "title": "The Enemy Inside",
+        "album": "Dream Theater",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/5a8f6db0731f46f392b636c4b35c11d8",
+        "download_url": "https://drive.google.com/file/d/1kWsmTul8qHMN0Qes2_AGMpHhdnziMH9M",
+        "duration_seconds": 377.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - The Enemy Inside (CH Version)/album.png",
+          "name": "album.png",
+          "sha256": "e0b948d4e1ab38d2b0eb85193357d977f90f1b234ae1961626db12697ff5e0df"
+        },
+        {
+          "archive_name": "Dream Theater - The Enemy Inside (CH Version)/background.png",
+          "name": "background.png",
+          "sha256": "f0cb254bce0199398271a67ff35cba7028c9d48fb2a5acbe7b33455cc9c3d4f2"
+        },
+        {
+          "archive_name": "Dream Theater - The Enemy Inside (CH Version)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "d7ed6620cb0a6f3c60af273b562db428273bc326b13ebdf483ae4a4be884f178"
+        },
+        {
+          "archive_name": "Dream Theater - The Enemy Inside (CH Version)/song.ini",
+          "name": "song.ini",
+          "sha256": "e1e145292bca315c77a90758689cb859da0d8868af82c9e0106169f0da257007"
+        },
+        {
+          "archive_name": "Dream Theater - The Enemy Inside (CH Version)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "27a7717937edb6b94e0065007900af1addb3d1e2f2d6843772c3b86d1177ce3f"
+        }
+      ],
+      "archive_sha256": "45e76695e19ed8b7f4c2e0676d50b9ca48cadcba6813b5ece0a1a7cc5c621adf",
+      "archive_bytes": 14389000,
+      "prepared_bytes": 14570852,
+      "qobuz_track_ids": [
+        "11614144"
+      ],
+      "playlist_track_ids": [
+        "12449398608"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "The Mirror",
+      "file_id": "c490b12ad7034872803b0be525371306",
+      "source_url": "https://rhythmverse.co/songfile/c490b12ad7034872803b0be525371306",
+      "download_url": "https://drive.google.com/uc?export=download&id=1eNLAw9GUiprnjVM-AmJ8bwsVFpr0REYH",
+      "archive_format": "rar",
+      "folder": "Dream Theater - The Mirror [c490b12a]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2874,
+          "kick_note_on_count": 988,
+          "cymbal_marker_count": 971,
+          "last_expert_onset_seconds": 407.08,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c490b12ad7034872803b0be525371306",
+        "artist": "Dream Theater",
+        "title": "The Mirror",
+        "album": "Awake",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/c490b12ad7034872803b0be525371306",
+        "download_url": "https://drive.google.com/file/d/1eNLAw9GUiprnjVM-AmJ8bwsVFpr0REYH",
+        "duration_seconds": 407.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - The Mirror/album.png",
+          "name": "album.png",
+          "sha256": "c17f6efd49bd2f6bb74dedc3e770aac0ed4017783c4bd70cf222fac0b44338b2"
+        },
+        {
+          "archive_name": "Dream Theater - The Mirror/notes.chart",
+          "name": "notes.chart",
+          "sha256": "6bcd506c6dc15a1dab521c6e16f256bf75d14de85447d0780ae75972e756a0f9"
+        },
+        {
+          "archive_name": "Dream Theater - The Mirror/song.ini",
+          "name": "song.ini",
+          "sha256": "067031b5ac947a19d9edda19f2ea3405fc5f6cf2345278b883f03bebd5555a95"
+        },
+        {
+          "archive_name": "Dream Theater - The Mirror/song.ogg",
+          "name": "song.ogg",
+          "sha256": "19fc7336a199f050edd222e67d8f6205aa197756037c0aee6096bcbf4f3b0b17"
+        }
+      ],
+      "archive_sha256": "65dca852349c1780731d20118b9b51648b059107404dfe1e3397ee720e36c4ac",
+      "archive_bytes": 14359882,
+      "prepared_bytes": 14498151,
+      "qobuz_track_ids": [
+        "2927445"
+      ],
+      "playlist_track_ids": [
+        "12449398603"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Transcending Time",
+      "file_id": "f40d4a590f3d4be49b4e23c8e08a5cbc",
+      "source_url": "https://rhythmverse.co/songfile/f40d4a590f3d4be49b4e23c8e08a5cbc",
+      "download_url": "https://drive.google.com/uc?export=download&id=1XuWSK4O7YRbgpda2crnwnlYduh_UPZA9",
+      "archive_format": "rar",
+      "folder": "Dream Theater - Transcending Time [f40d4a59]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2778,
+          "kick_note_on_count": 757,
+          "cymbal_marker_count": 1143,
+          "last_expert_onset_seconds": 369.404,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f40d4a590f3d4be49b4e23c8e08a5cbc",
+        "artist": "Dream Theater",
+        "title": "Transcending Time",
+        "album": "A View from the Top of the World",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/f40d4a590f3d4be49b4e23c8e08a5cbc",
+        "download_url": "https://drive.google.com/file/d/1XuWSK4O7YRbgpda2crnwnlYduh_UPZA9",
+        "duration_seconds": 386.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Transcending Time/album.png",
+          "name": "album.png",
+          "sha256": "85792e2ea9d2ab9bb29c34e9e83a463a0bf7a2a8018d4f7318ba1249e889415d"
+        },
+        {
+          "archive_name": "Dream Theater - Transcending Time/background.png",
+          "name": "background.png",
+          "sha256": "6f9949ae69a18f4d58afa7ef838b0c47fcf5a5621a8b41306f186b34692cd918"
+        },
+        {
+          "archive_name": "Dream Theater - Transcending Time/notes.chart",
+          "name": "notes.chart",
+          "sha256": "61baf4cd1faebb75020ab3429ba27e7e9c5955db7ae9c368b9f0a00f37f6efe9"
+        },
+        {
+          "archive_name": "Dream Theater - Transcending Time/song.ini",
+          "name": "song.ini",
+          "sha256": "c29790317524d576026a9e61fdf9fc1e77fce82f3d31fbd9b4d40d896ebab609"
+        },
+        {
+          "archive_name": "Dream Theater - Transcending Time/song.ogg",
+          "name": "song.ogg",
+          "sha256": "185aea3c5728cdeae807066f2101c74b03a08644d8ff7c19b63258f1dbea868e"
+        }
+      ],
+      "archive_sha256": "4080097ab1ca092c6872a07fe13b31ea771b2d14f34d83355b5e91ff02c6d6e4",
+      "archive_bytes": 16176192,
+      "prepared_bytes": 16530805,
+      "qobuz_track_ids": [
+        "126719440"
+      ],
+      "playlist_track_ids": [
+        "12449398628"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Under a Glass Moon",
+      "file_id": "4f0da41d9fd64a4fab028abb9bad807f",
+      "source_url": "https://rhythmverse.co/songfile/4f0da41d9fd64a4fab028abb9bad807f",
+      "download_url": "https://drive.google.com/uc?export=download&id=1x0tS1fQQlCnmbfMSMNO9zBFt9YkgE-Vd",
+      "archive_format": "rar",
+      "folder": "Dream Theater - Under a Glass Moon [4f0da41d]",
+      "charter": "ImPhanty",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3371,
+          "kick_note_on_count": 1036,
+          "cymbal_marker_count": 1361,
+          "last_expert_onset_seconds": 423.146,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "4f0da41d9fd64a4fab028abb9bad807f",
+        "artist": "Dream Theater",
+        "title": "Under a Glass Moon",
+        "album": "Images and Words",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/4f0da41d9fd64a4fab028abb9bad807f",
+        "download_url": "https://drive.google.com/file/d/1x0tS1fQQlCnmbfMSMNO9zBFt9YkgE-Vd",
+        "duration_seconds": 425.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ImPhanty",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Under a Glass Moon/album.png",
+          "name": "album.png",
+          "sha256": "c7badfacfe0c5bf74b37831e442758a6dda19fec79bd730181e4a3cf464a9c49"
+        },
+        {
+          "archive_name": "Dream Theater - Under a Glass Moon/notes.chart",
+          "name": "notes.chart",
+          "sha256": "9c75d1c788986d14feb1f559dc6ac1f7e19c279bf7372192716d6f037740a36b"
+        },
+        {
+          "archive_name": "Dream Theater - Under a Glass Moon/song.ini",
+          "name": "song.ini",
+          "sha256": "80366e0b8916fbc3c706a559d50b6f264943a8f4494d0126cb37ff90bac609d6"
+        },
+        {
+          "archive_name": "Dream Theater - Under a Glass Moon/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ad7306751447a04884b2683f191bf0d31ef020d69cc3d94550839b7e6950187d"
+        }
+      ],
+      "archive_sha256": "9126aae127600a7db87b00c6d3d8b5f172f44bcee52ee5a3382f3d705d5890d3",
+      "archive_bytes": 14998964,
+      "prepared_bytes": 15172539,
+      "qobuz_track_ids": [
+        "2927590"
+      ],
+      "playlist_track_ids": [
+        "12449398601"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "Amazonia",
+      "file_id": "c65116e03213454a84e2ee310e617491",
+      "source_url": "https://rhythmverse.co/songfile/c65116e03213454a84e2ee310e617491",
+      "download_url": "https://drive.google.com/uc?export=download&id=1zLCTi4win3i4qzYfV9hCrqnPRipX9QmE",
+      "archive_format": "7z",
+      "folder": "Gojira - Amazonia [c65116e0]",
+      "charter": "<color=#a5002c>M</color><color=#ff0038>i</color><color=#f84b61>s</color><color=#f2848d>c</color><color=#f6b6cd>e</color><color=#f6b6cd>l</color><color=#f2848d>l</color><color=#f84b61>a</color><color=#ff0038>n</color><color=#a5002c>y</color>",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2048,
+          "kick_note_on_count": 469,
+          "cymbal_marker_count": 1187,
+          "last_expert_onset_seconds": 292.007,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c65116e03213454a84e2ee310e617491",
+        "artist": "Gojira",
+        "title": "Amazonia",
+        "album": "Amazonia",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/c65116e03213454a84e2ee310e617491",
+        "download_url": "https://drive.google.com/file/d/1zLCTi4win3i4qzYfV9hCrqnPRipX9QmE",
+        "duration_seconds": 302.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Miscellany",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - Amazonia [Miscellany]/album.jpg",
+          "name": "album.jpg",
+          "sha256": "928564ad02131a085c1e4466f4dde689537d5dd085d34a6fe353057e5d163eea"
+        },
+        {
+          "archive_name": "Gojira - Amazonia [Miscellany]/background.jpg",
+          "name": "background.jpg",
+          "sha256": "7e1f28a3943776ad4d16bc9c089bfbb6906ad53fe8881bcb74d6077304e3b036"
+        },
+        {
+          "archive_name": "Gojira - Amazonia [Miscellany]/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "51f408236ce77fde72105121aa3117bf90737e87ab98b9acc7fbf212c34826eb"
+        },
+        {
+          "archive_name": "Gojira - Amazonia [Miscellany]/notes.chart",
+          "name": "notes.chart",
+          "sha256": "5983af6f977c27cdd84b75761c2ef66c519cffd4dd12dcfcec9294849c5df66f"
+        },
+        {
+          "archive_name": "Gojira - Amazonia [Miscellany]/song.ini",
+          "name": "song.ini",
+          "sha256": "3751b1cbebbe79681cd476a685b56fea52de2e947f55deae5498921e6d54cd22"
+        }
+      ],
+      "archive_sha256": "db56281b9d64cc7181c65b21c9c4ae7442a9ca8039c2f87d8fff6d2e6727be80",
+      "archive_bytes": 12181635,
+      "prepared_bytes": 12287639,
+      "qobuz_track_ids": [
+        "115413103"
+      ],
+      "playlist_track_ids": [
+        "12451169773"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "Born For One Thing",
+      "file_id": "49d1fe37e7a34869b05caf0b19c1de1a",
+      "source_url": "https://rhythmverse.co/songfile/49d1fe37e7a34869b05caf0b19c1de1a",
+      "download_url": "https://drive.google.com/uc?export=download&id=1mjkoMhjrzeGxBAmYuc92cSOWUC5s6jB5",
+      "archive_format": "7z",
+      "folder": "Gojira - Born For One Thing [49d1fe37]",
+      "charter": "<color=#a5002c>M</color><color=#ff0038>i</color><color=#f84b61>s</color><color=#f2848d>c</color><color=#f6b6cd>e</color><color=#f6b6cd>l</color><color=#f2848d>l</color><color=#f84b61>a</color><color=#ff0038>n</color><color=#a5002c>y</color>, MMSRhino",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2151,
+          "kick_note_on_count": 583,
+          "tom_marker_count": 72,
+          "last_expert_onset_seconds": 259.524,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "49d1fe37e7a34869b05caf0b19c1de1a",
+        "artist": "Gojira",
+        "title": "Born For One Thing",
+        "album": "Fortitude",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/49d1fe37e7a34869b05caf0b19c1de1a",
+        "download_url": "https://drive.google.com/file/d/1mjkoMhjrzeGxBAmYuc92cSOWUC5s6jB5",
+        "duration_seconds": 262.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Miscellany, MMSRhino",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - Born For One Thing [Miscellany, MMSRhino]/album.jpg",
+          "name": "album.jpg",
+          "sha256": "928564ad02131a085c1e4466f4dde689537d5dd085d34a6fe353057e5d163eea"
+        },
+        {
+          "archive_name": "Gojira - Born For One Thing [Miscellany, MMSRhino]/background.jpg",
+          "name": "background.jpg",
+          "sha256": "7e1f28a3943776ad4d16bc9c089bfbb6906ad53fe8881bcb74d6077304e3b036"
+        },
+        {
+          "archive_name": "Gojira - Born For One Thing [Miscellany, MMSRhino]/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d63d6127c67814d1db17497fd1e38e68b9f91bd4994088c66854813ad8d7d97a"
+        },
+        {
+          "archive_name": "Gojira - Born For One Thing [Miscellany, MMSRhino]/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b55a1d0828eaa0b55b56cfccb9c56f0501d1cfa8a1e6651125f61084c04829ba"
+        },
+        {
+          "archive_name": "Gojira - Born For One Thing [Miscellany, MMSRhino]/song.ini",
+          "name": "song.ini",
+          "sha256": "5b864de5817097c510cc823aeba2a215d55ba0a599427d08d0b23b17ab2b68d8"
+        }
+      ],
+      "archive_sha256": "48b7fb145cc798050ebb01d5593d4f3288a634a2cab23363edb39c85eb537131",
+      "archive_bytes": 10635873,
+      "prepared_bytes": 10679253,
+      "qobuz_track_ids": [
+        "115413102"
+      ],
+      "playlist_track_ids": [
+        "12451169779"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Be Quick or Be Dead",
+      "file_id": "55d73f0317c44",
+      "source_url": "https://rhythmverse.co/songfile/55d73f0317c44",
+      "download_url": "https://rhythmverse.co/download_file/bluzer/55d73f0317c44/far_bequickorbedead_ps.rar",
+      "archive_format": "rar",
+      "folder": "Iron Maiden - Be Quick or Be Dead [55d73f03]",
+      "charter": "farottone",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1833,
+          "kick_note_on_count": 574,
+          "tom_marker_count": 77,
+          "last_expert_onset_seconds": 203.633,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "55d73f0317c44",
+        "artist": "Iron Maiden",
+        "title": "Be Quick or Be Dead",
+        "album": "Fear of the Dark",
+        "game": "ps",
+        "source_url": "https://rhythmverse.co/songfile/55d73f0317c44",
+        "download_url": "https://rhythmverse.co/download_file/bluzer/55d73f0317c44/far_bequickorbedead_ps.rar",
+        "duration_seconds": 209.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "bluzer",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Be Quick or Be Dead/album.png",
+          "name": "album.png",
+          "sha256": "7fea21f4640d167bbddb5242b073d370b7153dc564b358fedec8afa26568042f"
+        },
+        {
+          "archive_name": "Iron Maiden - Be Quick or Be Dead/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "999b0fea33f890a8c5e36c4c7b8365eb953a772929653f30127fc73d290d9e09"
+        },
+        {
+          "archive_name": "Iron Maiden - Be Quick or Be Dead/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c80bb6efcde726101f17b7193d115d07d39e64220b71c2d4c9792167fd24f3d5"
+        },
+        {
+          "archive_name": "Iron Maiden - Be Quick or Be Dead/song.ini",
+          "name": "song.ini",
+          "sha256": "b2a51236c9a50234ced15247951f9e3e191d526a72359e4372593700382703ad"
+        }
+      ],
+      "archive_sha256": "86297f12e9ed921f2b09e38e9e85c927b0240ab11c760e50281db0d707f84de4",
+      "archive_bytes": 3953359,
+      "prepared_bytes": 4021732,
+      "qobuz_track_ids": [
+        "25120864"
+      ],
+      "playlist_track_ids": [
+        "12449352552"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Children Of The Damned",
+      "file_id": "6a7efb87b26b49e69800638599a8d32d",
+      "source_url": "https://rhythmverse.co/songfile/6a7efb87b26b49e69800638599a8d32d",
+      "download_url": "https://drive.google.com/uc?export=download&id=15Za3jJJlhQPMJq7zg6mw8CnFXft4dUdS",
+      "archive_format": "rar",
+      "folder": "Iron Maiden - Children Of The Damned [6a7efb87]",
+      "charter": "Joshwantsmaccas",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2384,
+          "kick_note_on_count": 440,
+          "tom_marker_count": 526,
+          "last_expert_onset_seconds": 272.327,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6a7efb87b26b49e69800638599a8d32d",
+        "artist": "Iron Maiden",
+        "title": "Children Of The Damned",
+        "album": "The Number Of The Beast",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/6a7efb87b26b49e69800638599a8d32d",
+        "download_url": "https://drive.google.com/file/d/15Za3jJJlhQPMJq7zg6mw8CnFXft4dUdS",
+        "duration_seconds": 277.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Joshwantsmaccas",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Children Of The Damned/album.jpg",
+          "name": "album.jpg",
+          "sha256": "ed929c92ae91955cb688699ac3d7bb29be929372a86a5671df0e008db4b83a84"
+        },
+        {
+          "archive_name": "Iron Maiden - Children Of The Damned/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "39ce03c3a3648e9b239fcf1a53dc1fe784c07e90c3915b955cc4ab0efcc86a75"
+        },
+        {
+          "archive_name": "Iron Maiden - Children Of The Damned/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7a547b18a0a0b283c7ea6aabf4ea777a4dfbaee777b4ca417d9eee95894fca43"
+        },
+        {
+          "archive_name": "Iron Maiden - Children Of The Damned/song.ini",
+          "name": "song.ini",
+          "sha256": "8d8a2c8050dd1c455c0cee1e6b674e68683edd54cd14e92b0e21ffdcc34ba0f4"
+        }
+      ],
+      "archive_sha256": "7ada7bd10160395323b80c6cef6b6e56243c340b227a0080047d0e918fcb8c2d",
+      "archive_bytes": 10159371,
+      "prepared_bytes": 10263929,
+      "qobuz_track_ids": [
+        "25115302"
+      ],
+      "playlist_track_ids": [
+        "12449352551"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Iron Maiden",
+      "file_id": "5d572210ed9245358c6be7a0804d91aa",
+      "source_url": "https://rhythmverse.co/songfile/5d572210ed9245358c6be7a0804d91aa",
+      "download_url": "https://drive.google.com/uc?export=download&id=1ZNOPG0dlusNKwsM2jxu5t2pIEajSUAQI",
+      "archive_format": "rar",
+      "folder": "Iron Maiden - Iron Maiden [5d572210]",
+      "charter": "Sygenysis + Nunchuck",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1783,
+          "kick_note_on_count": 509,
+          "tom_marker_count": 105,
+          "last_expert_onset_seconds": 212.251,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5d572210ed9245358c6be7a0804d91aa",
+        "artist": "Iron Maiden",
+        "title": "Iron Maiden",
+        "album": "Iron Maiden",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/5d572210ed9245358c6be7a0804d91aa",
+        "download_url": "https://drive.google.com/file/d/1ZNOPG0dlusNKwsM2jxu5t2pIEajSUAQI",
+        "duration_seconds": 220.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sygenysis + Nunchuck",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Iron Maiden/album.png",
+          "name": "album.png",
+          "sha256": "e7abcbe590729c4bea17bb4eadc8952079eda77e50d68af3e9750a03a96717e2"
+        },
+        {
+          "archive_name": "Iron Maiden - Iron Maiden/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "e3a84c7479326bfbc67c9af020b4bdfe75eebbe024fd23ec4cba0c861837b3a3"
+        },
+        {
+          "archive_name": "Iron Maiden - Iron Maiden/notes.mid",
+          "name": "notes.mid",
+          "sha256": "503e945cfdc252cdbb6fbeeb2432453216035ad1a6c886e7474a158e98a90a79"
+        },
+        {
+          "archive_name": "Iron Maiden - Iron Maiden/song.ini",
+          "name": "song.ini",
+          "sha256": "2916ef4f77b1aa6c3e21042a2b991be925877990a9dd1307dee4886bf191201a"
+        }
+      ],
+      "archive_sha256": "b00a4cb7c95efc6f6755eedc951d7b7ee42373fa36d583232ade1d29edc6d10a",
+      "archive_bytes": 4891988,
+      "prepared_bytes": 4990707,
+      "qobuz_track_ids": [
+        "56107397"
+      ],
+      "playlist_track_ids": [
+        "12449352518"
+      ]
+    }
+  ]
+}

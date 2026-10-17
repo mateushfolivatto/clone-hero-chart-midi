@@ -1,0 +1,803 @@
+{
+  "schema_version": 1,
+  "batch_number": 12,
+  "collection_folder": "MixDrumRock - Drums - Lote 12",
+  "archive_name": "MixDrumRock-lote-12.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "songs": [
+    {
+      "artist": "Linkin Park",
+      "title": "Bleed It Out",
+      "file_id": "209d4526afd34557ba7a8b28cd9c84da",
+      "source_url": "https://rhythmverse.co/songfile/209d4526afd34557ba7a8b28cd9c84da",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1MRap183xex-Pq0b16ZZNZwkbn4d8iRCt",
+      "archive_format": "files",
+      "folder": "Linkin Park - Bleed It Out [209d4526]",
+      "charter": "<color=orange>Neversoft</color>",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 417,
+          "kick_note_on_count": 127,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 158.15,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": false,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 9,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "209d4526afd34557ba7a8b28cd9c84da",
+        "artist": "Linkin Park",
+        "title": "Bleed It Out",
+        "album": "Minutes to Midnight",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/209d4526afd34557ba7a8b28cd9c84da",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1MRap183xex-Pq0b16ZZNZwkbn4d8iRCt",
+        "duration_seconds": 169.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Neversoft",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "c51e1e502710fddf1eb8bb56d8b0e891fec75091dbf45e160aca1ee9fd83c944",
+          "download_url": "https://drive.google.com/uc?export=download&id=1UaqA9GEvW8V4ZrjrSkMPYLiNz3LoR9os",
+          "source_sha256": "c51e1e502710fddf1eb8bb56d8b0e891fec75091dbf45e160aca1ee9fd83c944",
+          "bytes": 119117
+        },
+        {
+          "archive_name": "bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "078c5321e227d361fda7d55c098d684ff94969888cacbf8c6d4498ee426ae409",
+          "download_url": "https://drive.google.com/uc?export=download&id=1rQwxVLYUByxK-LJ3I34Jd3nJ9rWOiWkB",
+          "source_sha256": "078c5321e227d361fda7d55c098d684ff94969888cacbf8c6d4498ee426ae409",
+          "bytes": 2261209
+        },
+        {
+          "archive_name": "drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "f6b3f12916863aa24871b36fe7b5f7d474ae6b8715ae16263e8361dbf04f797d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1LMsbVf-I-M0Hkrs8ZLdt-NnX6wiAIa23",
+          "source_sha256": "f6b3f12916863aa24871b36fe7b5f7d474ae6b8715ae16263e8361dbf04f797d",
+          "bytes": 1970046
+        },
+        {
+          "archive_name": "drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "8c6eb6605661204ca1d1a274a2aa75e67e7acd4cc3664506792b092b1da28acc",
+          "download_url": "https://drive.google.com/uc?export=download&id=1wlqEnY3hAhS-VFoqZHsIq25jnt7ihNGg",
+          "source_sha256": "8c6eb6605661204ca1d1a274a2aa75e67e7acd4cc3664506792b092b1da28acc",
+          "bytes": 2939061
+        },
+        {
+          "archive_name": "drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "cd264181ff1104e16ee4bab72a23053c96b12d6025c42e3084ff42dbadd2088a",
+          "download_url": "https://drive.google.com/uc?export=download&id=1OFvr0MXA7rCIu6dnfNbmsMleQ1ws40rn",
+          "source_sha256": "cd264181ff1104e16ee4bab72a23053c96b12d6025c42e3084ff42dbadd2088a",
+          "bytes": 20802
+        },
+        {
+          "archive_name": "drums_4.ogg",
+          "name": "drums_4.ogg",
+          "sha256": "702a7c7927494b58df4c1f4e495a7e488e5ff1814de958c3f5a6178bf950c9ae",
+          "download_url": "https://drive.google.com/uc?export=download&id=1EAKj3ueoMX_nUZZ6Ymt_Jxrto7yNpvEg",
+          "source_sha256": "702a7c7927494b58df4c1f4e495a7e488e5ff1814de958c3f5a6178bf950c9ae",
+          "bytes": 779455
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "7110bd1d36bc5dd0b4eefc1de8ea3ec8d632cd413e8a25e820b2f1a83e89d553",
+          "download_url": "https://drive.google.com/uc?export=download&id=189cezSpD_B2hKxWeFTEFwpkKri6EywcC",
+          "source_sha256": "7110bd1d36bc5dd0b4eefc1de8ea3ec8d632cd413e8a25e820b2f1a83e89d553",
+          "bytes": 3956204
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "1a4df3cdd8c3489b0e9f06adf961b83aa4a9793bf3aa6aa639b66c0930a83f03",
+          "download_url": "https://drive.google.com/uc?export=download&id=1XsdLMwqIimY6DbR6szRlFXNbbiMM5v3j",
+          "source_sha256": "1a4df3cdd8c3489b0e9f06adf961b83aa4a9793bf3aa6aa639b66c0930a83f03",
+          "bytes": 65973
+        },
+        {
+          "archive_name": "preview.ogg",
+          "name": "preview.ogg",
+          "sha256": "a57feb56fa14e18887733a5b30035bbf8dca7951535dcea17acfc6b53c27fce0",
+          "download_url": "https://drive.google.com/uc?export=download&id=1MqylH_nm2d1n8cylbYyB0arsXGk6Bi0S",
+          "source_sha256": "a57feb56fa14e18887733a5b30035bbf8dca7951535dcea17acfc6b53c27fce0",
+          "bytes": 847264
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "06d163b69240551fda0894f72453d811ac7b4c58a218dc7a8295059c89af5e57",
+          "download_url": "https://drive.google.com/uc?export=download&id=1KoF_TWKA6K4PigqdtU7tl1VjrXaDHwyi",
+          "source_sha256": "06d163b69240551fda0894f72453d811ac7b4c58a218dc7a8295059c89af5e57",
+          "bytes": 652
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "ffc8c3a81492da7b5b249467cb7216991a56f1dbd2e356c3af699795e5033746",
+          "download_url": "https://drive.google.com/uc?export=download&id=1LtLN6HmWad7W0vR-C3KtUPIU8aLDAgz5",
+          "source_sha256": "ffc8c3a81492da7b5b249467cb7216991a56f1dbd2e356c3af699795e5033746",
+          "bytes": 5093602
+        },
+        {
+          "archive_name": "vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "0fb0fdc1a6a5c6428435af3e92294bcc8f71e2f14a2d75941cf5bc64dc7ebc20",
+          "download_url": "https://drive.google.com/uc?export=download&id=1zokTaWdefD95XpS60IMzl1ejj__nKDuh",
+          "source_sha256": "0fb0fdc1a6a5c6428435af3e92294bcc8f71e2f14a2d75941cf5bc64dc7ebc20",
+          "bytes": 3654217
+        }
+      ],
+      "prepared_bytes": 21707602,
+      "qobuz_track_ids": [
+        "6907104"
+      ],
+      "playlist_track_ids": [
+        "12450473439"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Phantom Lord",
+      "file_id": "101c91e3768f43e1aa733a074af5b356",
+      "source_url": "https://rhythmverse.co/songfile/101c91e3768f43e1aa733a074af5b356",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1xEQ_hS9CxuAcoeKtCeIesLa29537_dnJ",
+      "archive_format": "files",
+      "folder": "Metallica - Phantom Lord [101c91e3]",
+      "charter": "Thrash",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2662,
+          "kick_note_on_count": 850,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 296.784,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "101c91e3768f43e1aa733a074af5b356",
+        "artist": "Metallica",
+        "title": "Phantom Lord",
+        "album": "Kill 'Em All",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/101c91e3768f43e1aa733a074af5b356",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1xEQ_hS9CxuAcoeKtCeIesLa29537_dnJ",
+        "duration_seconds": 299.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Thrash",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "06ec1faa0698438fe51ff90bb5a3a048f230017ec82813975f3b12a9e16d4a66",
+          "download_url": "https://drive.google.com/uc?export=download&id=19UdNiQAAGzCifLU64KQR6IZkzrSQuxvG",
+          "source_sha256": "06ec1faa0698438fe51ff90bb5a3a048f230017ec82813975f3b12a9e16d4a66",
+          "bytes": 31998
+        },
+        {
+          "archive_name": "drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "cfbbf0c108d344c21f49203ad4d4cdad4d55667bb1c17acd4d63cfb35515e974",
+          "download_url": "https://drive.google.com/uc?export=download&id=1rhFGSSVc0_Yjp3QH7eLrh40XlwNa7DU-",
+          "source_sha256": "cfbbf0c108d344c21f49203ad4d4cdad4d55667bb1c17acd4d63cfb35515e974",
+          "bytes": 14412703
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "13f0c4b0261e39976503f5e54807539512bf84d61236447344d17956bc73d646",
+          "download_url": "https://drive.google.com/uc?export=download&id=1EkSgpX6komBGcaTJk0BCsYurTNoTf_jX",
+          "source_sha256": "13f0c4b0261e39976503f5e54807539512bf84d61236447344d17956bc73d646",
+          "bytes": 14886613
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "e377c5a4c8bf0499c4390f45455838c93755d967f297da4deffc9b7d601874d1",
+          "download_url": "https://drive.google.com/uc?export=download&id=1DkaH6CcC0Ijzsp-7aq5cCVbf0NxTDEAd",
+          "source_sha256": "e377c5a4c8bf0499c4390f45455838c93755d967f297da4deffc9b7d601874d1",
+          "bytes": 165290
+        },
+        {
+          "archive_name": "rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "5e2e1ded6991a1425db7af2cb486b5cc85a855726c129a3cb80a563700ad0d52",
+          "download_url": "https://drive.google.com/uc?export=download&id=1LHxTL9lqTc9YDBNhZRc-VlljXlcSp8mt",
+          "source_sha256": "5e2e1ded6991a1425db7af2cb486b5cc85a855726c129a3cb80a563700ad0d52",
+          "bytes": 14476754
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "87a1a4240fc23d9855e32fe95f7bc3cbfbbad749b22ef27dc9696a9f353f9cbb",
+          "download_url": "https://drive.google.com/uc?export=download&id=1VICssOnPZbedF-hBp8h6qYsArpuNp9E4",
+          "source_sha256": "87a1a4240fc23d9855e32fe95f7bc3cbfbbad749b22ef27dc9696a9f353f9cbb",
+          "bytes": 723
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "22c55693199f9d12433ffadbe1373e6188f24d6813020b5af025cdc81713bffa",
+          "download_url": "https://drive.google.com/uc?export=download&id=1FVixvrsOMkBchnrajy0JX-ycYnmUOTWc",
+          "source_sha256": "22c55693199f9d12433ffadbe1373e6188f24d6813020b5af025cdc81713bffa",
+          "bytes": 12303283
+        },
+        {
+          "archive_name": "vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "589a279260ba9578b1e98adec55967ff02444f412d339dabe2096209b3d6bff9",
+          "download_url": "https://drive.google.com/uc?export=download&id=18RVrcH_ax_LzezLyjKLip799anwCcR85",
+          "source_sha256": "589a279260ba9578b1e98adec55967ff02444f412d339dabe2096209b3d6bff9",
+          "bytes": 14664851
+        }
+      ],
+      "prepared_bytes": 70942215,
+      "qobuz_track_ids": [
+        "95787426"
+      ],
+      "playlist_track_ids": [
+        "12450490321"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Territorial Pissings",
+      "file_id": "454e018f0b814d0a865db3f774f1286e",
+      "source_url": "https://rhythmverse.co/songfile/454e018f0b814d0a865db3f774f1286e",
+      "download_url": "https://rhythmverse.co/download_file/dion-white/454e018f0b814d0a865db3f774f1286e/Nirvana%20-%20Territorial%20Pissings.7z",
+      "archive_format": "7z",
+      "folder": "Nirvana - Territorial Pissings [454e018f]",
+      "charter": "",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1248,
+          "kick_note_on_count": 468,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 144.576,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "454e018f0b814d0a865db3f774f1286e",
+        "artist": "Nirvana",
+        "title": "Territorial Pissings",
+        "album": "Nevermind",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/454e018f0b814d0a865db3f774f1286e",
+        "download_url": "https://rhythmverse.co/download_file/dion-white/454e018f0b814d0a865db3f774f1286e/Nirvana - Territorial Pissings.7z",
+        "duration_seconds": 147.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Dion White",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Territorial Pissings/album.png",
+          "name": "album.png",
+          "sha256": "97a8c3d94ec54452c770f86d435286011234c8f29de7c135fb804a039bcdd135"
+        },
+        {
+          "archive_name": "Nirvana - Territorial Pissings/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "efede4ba0ce34182703958cd18c48af918a64d08278a897703c4ec35193912ef"
+        },
+        {
+          "archive_name": "Nirvana - Territorial Pissings/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "2d3255def7b2dfd010514b37d7a231524ae9c50bf99744c0ee83cb0b48814537"
+        },
+        {
+          "archive_name": "Nirvana - Territorial Pissings/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "07097cf9535c1f5f05cb2af37cf5811732de8dd2a6bdcce8348d480acddb045e"
+        },
+        {
+          "archive_name": "Nirvana - Territorial Pissings/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "dd17ce91470c7bbb5490140cee4d2f31f69d76c76eefcc4be348b3e2e9da7240"
+        },
+        {
+          "archive_name": "Nirvana - Territorial Pissings/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c8e0163eb12492aeececef6560939b763885089b76d1fc35b95d0f71a5ee57fe"
+        },
+        {
+          "archive_name": "Nirvana - Territorial Pissings/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "852435eb10875782013841e2a69b00618ccfb14b198ae64d37a02940ebfaec2e"
+        },
+        {
+          "archive_name": "Nirvana - Territorial Pissings/song.ini",
+          "name": "song.ini",
+          "sha256": "c19592deaf51fc4d81a9017115f0164d00424bd4f8626316787f2b7d0749118d"
+        },
+        {
+          "archive_name": "Nirvana - Territorial Pissings/song.ogg",
+          "name": "song.ogg",
+          "sha256": "03b8ebb55169b5c8b4fc7094a3747435be93c3b24a64eddadd4239d3b9a09020"
+        },
+        {
+          "archive_name": "Nirvana - Territorial Pissings/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "aebedecffa4621ba6d42b1ad141343d62cd8ab2d989dae9f680b0adac950b496"
+        }
+      ],
+      "archive_sha256": "ebbac90366ecd3d63eb1d4c1092fed62f3a59e0ab281c702490b99277c0ff569",
+      "archive_bytes": 13766127,
+      "prepared_bytes": 13987796,
+      "qobuz_track_ids": [
+        "54466307"
+      ],
+      "playlist_track_ids": [
+        "12449354349"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Powerless",
+      "file_id": "5b947daf00c8a9.24951178",
+      "source_url": "https://rhythmverse.co/songfile/5b947daf00c8a9.24951178",
+      "download_url": "https://mega.nz/#!x0U2QCCR!RsbGi8RQhkSgbJ7CiZqSmumpmaL4xUZF7VJpOqnAzUA",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Powerless [5b947daf]",
+      "charter": "iPodwithnomusic",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1281,
+          "kick_note_on_count": 233,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 227.786,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947daf00c8a9.24951178",
+        "artist": "Linkin Park",
+        "title": "Powerless",
+        "album": "",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b947daf00c8a9.24951178",
+        "download_url": "https://mega.nz/#!x0U2QCCR!RsbGi8RQhkSgbJ7CiZqSmumpmaL4xUZF7VJpOqnAzUA",
+        "duration_seconds": 226.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "iPodwithnomusic",
+        "notes": "<p>Updated 2015-11-29: Corrected the guitar track, and the vocal / harmony parts were greatly improved by&#160;ShadowMaurix</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Powerless/album.png",
+          "name": "album.png",
+          "sha256": "6e7b37088c4029f8bbda2d18b0678c0e663c2aea270d3da0aa91168f18812d3a"
+        },
+        {
+          "archive_name": "Linkin Park - Powerless/notes.mid",
+          "name": "notes.mid",
+          "sha256": "5596b5522a77a471615ef48b3c476817f6f57033059708b89e8a3addba75baa2"
+        },
+        {
+          "archive_name": "Linkin Park - Powerless/song.ini",
+          "name": "song.ini",
+          "sha256": "e59d8a5d4b38f393fda51f48528ed23cd4bb2bd15e38f5ab60ffdbe145b89994"
+        },
+        {
+          "archive_name": "Linkin Park - Powerless/song.ogg",
+          "name": "song.ogg",
+          "sha256": "95bb454fa6e02ec400aac396318f408408025fe8dac6f2946a36440b559979f8"
+        },
+        {
+          "archive_name": "Linkin Park - Powerless/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "e4369de123765796a806b928ef2f3b3a4f54029b07a97315bed070f593b8cae5"
+        }
+      ],
+      "archive_sha256": "b118d9379483a76f7accf4fe5c057e959b4d576150ff7f14fe39443d626047c1",
+      "archive_bytes": 10153984,
+      "prepared_bytes": 8153717,
+      "qobuz_track_ids": [
+        "11092342"
+      ],
+      "playlist_track_ids": [
+        "12450473476"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Negative Creep",
+      "file_id": "598296181843f4.81081073",
+      "source_url": "https://rhythmverse.co/songfile/598296181843f4.81081073",
+      "download_url": "https://rhythmverse.co/download_file/kloporte/598296181843f4.81081073/klop_negativecreep1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Nirvana - Negative Creep [59829618]",
+      "charter": "Kloporte, Neversoft",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1584,
+          "kick_note_on_count": 427,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 179.848,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "598296181843f4.81081073",
+        "artist": "Nirvana",
+        "title": "Negative Creep",
+        "album": "Bleach",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/598296181843f4.81081073",
+        "download_url": "https://rhythmverse.co/download_file/kloporte/598296181843f4.81081073/klop_negativecreep1x_rb3con",
+        "duration_seconds": 177.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Kloporte",
+        "notes": "<p>GH:WT DLC convert with drum animations, venue etc.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Negative Creep/album.png",
+          "name": "album.png",
+          "sha256": "f9b7bcd72bc795dc1432d6ae56ceb858ebafdb94885e5a84f3b1dc928069949a"
+        },
+        {
+          "archive_name": "Nirvana - Negative Creep/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "de6b0d5ed4821e218ab91dff92ad7916856f722a7699cf229ff24be4140acdfc"
+        },
+        {
+          "archive_name": "Nirvana - Negative Creep/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "0620b5c29c312a593205295d78d660fa67ba2d1d536a9b9f1a9ad73a607be5a2"
+        },
+        {
+          "archive_name": "Nirvana - Negative Creep/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "a9827c8b0d8619860e399a596158d22bbf1a1cd4d2a4df2e795101d1b215df7d"
+        },
+        {
+          "archive_name": "Nirvana - Negative Creep/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "afa0f02aeaae866edbda7c7c1500dbf15c958a8c9cbeebbde678cbdc2d2cab08"
+        },
+        {
+          "archive_name": "Nirvana - Negative Creep/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a81fd7c555cb6cccffaf516bd911d6963b24872527938d0decf058a9cdb43296"
+        },
+        {
+          "archive_name": "Nirvana - Negative Creep/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "a846149407a20167fa7690af3ec99f3942fa7047e1abad6caf24a0080772a364"
+        },
+        {
+          "archive_name": "Nirvana - Negative Creep/song.ini",
+          "name": "song.ini",
+          "sha256": "985be4b4b450d93eba91cce6dfe560b5833768a50ab53146506666657d75ed81"
+        },
+        {
+          "archive_name": "Nirvana - Negative Creep/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d2b3e033ac75f26d129041dc0ce41f74aee7f067543715408009cc654a20a95e"
+        },
+        {
+          "archive_name": "Nirvana - Negative Creep/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "308b4e8bb2a06d7840991e83718f0483ac4d890e3c86b46ec0505aa9f4fa055f"
+        }
+      ],
+      "archive_sha256": "8f04ef3c511e8945e2732ee819aa0a40c5d468691804f7bcba78abaccb9a1dcb",
+      "archive_bytes": 22847488,
+      "prepared_bytes": 16825091,
+      "qobuz_track_ids": [
+        "407819437"
+      ],
+      "playlist_track_ids": [
+        "12449354355"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "For No One",
+      "file_id": "51f5c23a130e7",
+      "source_url": "https://rhythmverse.co/songfile/51f5c23a130e7",
+      "download_url": "https://rhythmverse.co/download_file/orangeharrison/51f5c23a130e7/oh_for_no_one",
+      "archive_format": "onyx",
+      "folder": "The Beatles - For No One [51f5c23a]",
+      "charter": "Orange Harrison",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 347,
+          "kick_note_on_count": 41,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 119.204,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "51f5c23a130e7",
+        "artist": "The Beatles",
+        "title": "For No One",
+        "album": "Revolver",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/51f5c23a130e7",
+        "download_url": "https://rhythmverse.co/download_file/orangeharrison/51f5c23a130e7/oh_for_no_one",
+        "duration_seconds": 126.0,
+        "duration_difference_seconds": 7.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Orange Harrison",
+        "notes": "<p>This custom was auto-converted from the C3 database. Please let the author know if something is wrong. If you ARE the author, and this song is not correctly assigned to you, please contact pksage.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - For No One/album.png",
+          "name": "album.png",
+          "sha256": "cb8f563cd5bad413dfe7502e907017180ab1d5f8223c1cc7f5e58900c6e01d6f"
+        },
+        {
+          "archive_name": "The Beatles - For No One/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "b88ff53597e12cf805ce1f52fd8d60b2ada19b972f8e71e7d828f31a42879740"
+        },
+        {
+          "archive_name": "The Beatles - For No One/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "5f245fc10b3b7c5fbb9a91e59086f813a8e6ff8bd0efe16b2a298d8c35b79b4a"
+        },
+        {
+          "archive_name": "The Beatles - For No One/notes.mid",
+          "name": "notes.mid",
+          "sha256": "37d7d0c28fcdb3c53fc22871d60304f5e8b4f0e3d0a411119ae2905979095c8c"
+        },
+        {
+          "archive_name": "The Beatles - For No One/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "5a821aaf23ecb2d04450cf4eb351135531c4d137987c6061e12dd04609f926f0"
+        },
+        {
+          "archive_name": "The Beatles - For No One/song.ini",
+          "name": "song.ini",
+          "sha256": "83a87e1f983f4c117713161c88de15135ad523c8571f86f98a2b7ebce778494c"
+        },
+        {
+          "archive_name": "The Beatles - For No One/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ee3b9fd0068fb1aabadf120983b55e3213281f79049988d579f163e779724c70"
+        },
+        {
+          "archive_name": "The Beatles - For No One/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "60a7e00da3cc603f5bafef77dbc56e66c886fd436bcf201740df79d433a7ea47"
+        }
+      ],
+      "archive_sha256": "5bf2d83be6d3e8e717d9dedd63d600ba8553f0a2be1e7b0ca1f0db7b684f888f",
+      "archive_bytes": 6721536,
+      "prepared_bytes": 7680846,
+      "qobuz_track_ids": [
+        "172443639"
+      ],
+      "playlist_track_ids": [
+        "12450499033"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "The Ballad of John & Yoko",
+      "file_id": "5e9e85be0e5ad8.76565792",
+      "source_url": "https://rhythmverse.co/songfile/5e9e85be0e5ad8.76565792",
+      "download_url": "https://rhythmverse.co/download_file/spindoctor/5e9e85be0e5ad8.76565792/The%20Beatles%20-%20The%20Ballad%20of%20John%20%26%20Yoko",
+      "archive_format": "onyx",
+      "folder": "The Beatles - The Ballad of John & Yoko [5e9e85be]",
+      "charter": "Spindoctor",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1173,
+          "kick_note_on_count": 197,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 180.063,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5e9e85be0e5ad8.76565792",
+        "artist": "The Beatles",
+        "title": "The Ballad of John & Yoko",
+        "album": "Past Masters Volume 2",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5e9e85be0e5ad8.76565792",
+        "download_url": "https://rhythmverse.co/download_file/spindoctor/5e9e85be0e5ad8.76565792/The Beatles - The Ballad of John %26 Yoko",
+        "duration_seconds": 185.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Spindoctor",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - The Ballad of John & Yoko/album.png",
+          "name": "album.png",
+          "sha256": "ac6a799f95d2c0342478c2fa1aea55cee6f47e38a31d2e1aa5738744572063c4"
+        },
+        {
+          "archive_name": "The Beatles - The Ballad of John & Yoko/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ed171c48ec4847f85a851f438a8e2c2d9010f6b9c315a71405464510a9c37874"
+        },
+        {
+          "archive_name": "The Beatles - The Ballad of John & Yoko/song.ini",
+          "name": "song.ini",
+          "sha256": "8699f3770a922aa7c2000c73546e7a2c46c552b8ede7728acd2c30c6f2b2ede9"
+        },
+        {
+          "archive_name": "The Beatles - The Ballad of John & Yoko/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3c1728fcdae6a5b3ae24be49995269fc0d5ff3647cdfc86fc75ff1b0bbd64629"
+        }
+      ],
+      "archive_sha256": "4ab2b6516f9e9de2ca8cc8ab5eebfb2380c536a92ea4afff81e95cf4191f90f2",
+      "archive_bytes": 5169152,
+      "prepared_bytes": 3252707,
+      "qobuz_track_ids": [
+        "235803330"
+      ],
+      "playlist_track_ids": [
+        "12450499030"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "We Can Work It Out",
+      "file_id": "591ee5fd865bc0.98239616",
+      "source_url": "https://rhythmverse.co/songfile/591ee5fd865bc0.98239616",
+      "download_url": "https://rhythmverse.co/download_file/dash-riprock/591ee5fd865bc0.98239616/WeCanWorkItOut_rb3con",
+      "archive_format": "onyx",
+      "folder": "The Beatles - We Can Work It Out [591ee5fd]",
+      "charter": "Oscarj08,Matsthemaster10,Sideshow,Beard216,Dash Riprock",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 839,
+          "kick_note_on_count": 207,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 133.896,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "591ee5fd865bc0.98239616",
+        "artist": "The Beatles",
+        "title": "We Can Work It Out",
+        "album": "We Can Work It Out",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/591ee5fd865bc0.98239616",
+        "download_url": "https://rhythmverse.co/download_file/dash-riprock/591ee5fd865bc0.98239616/WeCanWorkItOut_rb3con",
+        "duration_seconds": 135.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Dash Riprock",
+        "notes": "<p>Drums by Oscarj08 / Guitar/Bass by Matsthemaster10 / Vox/Conversion by Sideshow / [s]CAT by Beard216[/s]<br />\n&#160;<br />\n[Jun-12-17] Updated:<br />\n&#160;<br />\nRevised Pro Keys/Keys.<br />\nAdded manual reductions.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - We Can Work It Out/album.png",
+          "name": "album.png",
+          "sha256": "9c1c91a4745db75bb5dadbb8426a2bc81a13c6f9920e5287165c511b10c383b6"
+        },
+        {
+          "archive_name": "The Beatles - We Can Work It Out/notes.mid",
+          "name": "notes.mid",
+          "sha256": "91b5a59acd944358a740fbd80703ec8d93ebd6612daaccf5131c50b30dcb8fd9"
+        },
+        {
+          "archive_name": "The Beatles - We Can Work It Out/song.ini",
+          "name": "song.ini",
+          "sha256": "7e12453fc8494bc11dbdedd342713a3d70e1a49a698f40e48cdd1d5c40b8075c"
+        },
+        {
+          "archive_name": "The Beatles - We Can Work It Out/song.ogg",
+          "name": "song.ogg",
+          "sha256": "06c2f6204f0ad7c4ef8d863db39a3d91ca5c4c410cf6997f10eaf5208e9da4a5"
+        }
+      ],
+      "archive_sha256": "6a963b340801b1bbcf0a2a8b6ac4daecfbc6b5b10246f6d46a39b7bf9a48349c",
+      "archive_bytes": 3706880,
+      "prepared_bytes": 3012992,
+      "qobuz_track_ids": [
+        "235802078"
+      ],
+      "playlist_track_ids": [
+        "12450498990"
+      ]
+    }
+  ]
+}

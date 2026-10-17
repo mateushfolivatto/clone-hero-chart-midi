@@ -16,9 +16,11 @@ AUDIO_EXTENSIONS = {".ogg", ".opus", ".mp3", ".wav"}
 
 
 def read_config(path: Path) -> configparser.SectionProxy:
-    parser = configparser.ConfigParser(interpolation=None, strict=False)
+    parser = configparser.ConfigParser(
+        interpolation=None, strict=False, comment_prefixes=("#", ";", "//")
+    )
     parser.read_string(path.read_text(encoding="utf-8-sig"))
-    return parser["song"]
+    return parser[next(section for section in parser.sections() if section.casefold() == "song")]
 
 
 def truth(value: str | None) -> bool:
@@ -138,7 +140,7 @@ def chart_drums(text: str) -> dict[str, Any]:
     }
 
 
-def inspect_song(folder: Path) -> dict[str, Any]:
+def inspect_song(folder: Path, *, require_pro: bool = True) -> dict[str, Any]:
     config = read_config(folder / "song.ini")
     if not config.get("name") or not config.get("artist"):
         raise ValueError("song.ini needs name and artist")
@@ -153,7 +155,7 @@ def inspect_song(folder: Path) -> dict[str, Any]:
         result["pro_drums_configured"]
         and (result.get("tom_marker_count", 0) or result.get("cymbal_marker_count", 0))
     )
-    if not result["pro_drums_evidence"]:
+    if require_pro and not result["pro_drums_evidence"]:
         raise ValueError("This pilot requires explicit Pro Drums configuration and markers")
     audio: list[dict[str, Any]] = []
     for path in sorted(folder.iterdir()):

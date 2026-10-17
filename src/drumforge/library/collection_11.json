@@ -1,0 +1,1760 @@
+{
+  "schema_version": 1,
+  "batch_number": 11,
+  "collection_folder": "MixDrumRock - Lote 11",
+  "archive_name": "MixDrumRock-lote-11.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "songs": [
+    {
+      "artist": "Skillet",
+      "title": "Rise",
+      "file_id": "6414b18433fea4.18051520",
+      "source_url": "https://rhythmverse.co/songfile/6414b18433fea4.18051520",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/6414b18433fea4.18051520/Skillet%20-%20Rise_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Rise [6414b184]",
+      "charter": "GeeForce11, tlg1793",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1651,
+          "kick_note_on_count": 459,
+          "tom_marker_count": 345,
+          "last_expert_onset_seconds": 263.204,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6414b18433fea4.18051520",
+        "artist": "Skillet",
+        "title": "Rise",
+        "album": "Rise",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6414b18433fea4.18051520",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/6414b18433fea4.18051520/Skillet - Rise_rb3con",
+        "duration_seconds": 266.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": "",
+        "uploader": "GeeForce11",
+        "notes": "The chart preview video doesn't load automatically, click on the link below to open it manually ",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Rise/album.png",
+          "name": "album.png",
+          "sha256": "67d1b70ab6467192392e57b58962093c5f9f1e9130b57198ccd083a5b5921e20"
+        },
+        {
+          "archive_name": "Skillet - Rise/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "8f2dc95c1446d9c3db30f120f95aff94a978db7b6a5b47f80a3051efb95945f9"
+        },
+        {
+          "archive_name": "Skillet - Rise/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "1cc5162bb030f87c4d10995409a5345be946ea8926d9feebf9022957c06e29bf"
+        },
+        {
+          "archive_name": "Skillet - Rise/notes.mid",
+          "name": "notes.mid",
+          "sha256": "57e5f943fd7333461e109b6a3f38fdb27738dbeae4c07ed2c8984d957e51543c"
+        },
+        {
+          "archive_name": "Skillet - Rise/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "a20a72ec2e548723168a14f5a9d9bc5c4cbfe2df54ecdc01a00c44a2bbbca672"
+        },
+        {
+          "archive_name": "Skillet - Rise/song.ini",
+          "name": "song.ini",
+          "sha256": "01963eaea6e437d4326a8713e1aeec0788507d8236519168e151100565e15f1f"
+        },
+        {
+          "archive_name": "Skillet - Rise/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c1e691169bc9ff7fe3120b726ad7deacb2ed24d6110a2503035cecc45d7b83ef"
+        },
+        {
+          "archive_name": "Skillet - Rise/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "2f072504c862dd40687e56dd1f1c589247b3c49d3b97bc65afa2903914f72ad6"
+        }
+      ],
+      "archive_sha256": "336fb03193de56aefc2a05eb01f97e63a27ffa34a8fe258d2fdd60ae18cc464f",
+      "archive_bytes": 30822400,
+      "prepared_bytes": 23836946,
+      "qobuz_track_ids": [
+        "9971654"
+      ],
+      "playlist_track_ids": [
+        "12221847140"
+      ]
+    },
+    {
+      "artist": "Skillet",
+      "title": "Sick Of It",
+      "file_id": "6414b2fcd8a815.53249080",
+      "source_url": "https://rhythmverse.co/songfile/6414b2fcd8a815.53249080",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/6414b2fcd8a815.53249080/Skillet%20-%20Sick%20Of%20It_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Sick Of It [6414b2fc]",
+      "charter": "GeeForce11, tlg1793",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1087,
+          "kick_note_on_count": 438,
+          "tom_marker_count": 102,
+          "last_expert_onset_seconds": 189.461,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6414b2fcd8a815.53249080",
+        "artist": "Skillet",
+        "title": "Sick Of It",
+        "album": "Rise",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6414b2fcd8a815.53249080",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/6414b2fcd8a815.53249080/Skillet - Sick Of It_rb3con",
+        "duration_seconds": 195.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": "",
+        "uploader": "GeeForce11",
+        "notes": "The chart preview video doesn't load automatically, click on the link below to open it manually ",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Sick Of It/album.png",
+          "name": "album.png",
+          "sha256": "8fd20b83f87c0a575996b8963c8695cfc6c4cf5d98ba0e8eef7af402998bf44f"
+        },
+        {
+          "archive_name": "Skillet - Sick Of It/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "e5252ccd6cd1ee7d7af721764537a0b895cf8326516cbb0e0206e1af5b6b09e6"
+        },
+        {
+          "archive_name": "Skillet - Sick Of It/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "81ef243b5fc26856b2dae2541e69a38ae4c8d2e18c3248782254ba5000f383a2"
+        },
+        {
+          "archive_name": "Skillet - Sick Of It/notes.mid",
+          "name": "notes.mid",
+          "sha256": "44c8c8f6b2ecd2acd647a132a71fd1c71daf2626a00b9fa221364d99e59c1e00"
+        },
+        {
+          "archive_name": "Skillet - Sick Of It/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "b60030724641fee5de2051189a67f12e2a85c156c17617b90dd1f9498def4738"
+        },
+        {
+          "archive_name": "Skillet - Sick Of It/song.ini",
+          "name": "song.ini",
+          "sha256": "705805597c4925e43c58feb72bb30cc6811ed27b0cfda0b5653d2c86347a27dd"
+        },
+        {
+          "archive_name": "Skillet - Sick Of It/song.ogg",
+          "name": "song.ogg",
+          "sha256": "446f85270fb1ae62a507348407653d130c0a16aaf5f30c180412daf127eac93f"
+        },
+        {
+          "archive_name": "Skillet - Sick Of It/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "ff3a77eb506488dabebba3a7e772debce6289010976336c73dd94c58793f55dd"
+        }
+      ],
+      "archive_sha256": "f2a880e2cb1bac194db9b400c0fb744ffade5c18b6e227372ba86a18f158ba8d",
+      "archive_bytes": 24092672,
+      "prepared_bytes": 17701383,
+      "qobuz_track_ids": [
+        "10207679"
+      ],
+      "playlist_track_ids": [
+        "12221847138"
+      ]
+    },
+    {
+      "artist": "Skillet",
+      "title": "Undefeated",
+      "file_id": "641de7d4002107.40781161",
+      "source_url": "https://rhythmverse.co/songfile/641de7d4002107.40781161",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/641de7d4002107.40781161/Skillet%20-%20Undefeated_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Undefeated [641de7d4]",
+      "charter": "GeeForce11, smash252",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1432,
+          "kick_note_on_count": 489,
+          "tom_marker_count": 338,
+          "last_expert_onset_seconds": 212.91,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "641de7d4002107.40781161",
+        "artist": "Skillet",
+        "title": "Undefeated",
+        "album": "Unleashed",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/641de7d4002107.40781161",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/641de7d4002107.40781161/Skillet - Undefeated_rb3con",
+        "duration_seconds": 217.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": "",
+        "uploader": "GeeForce11",
+        "notes": "The chart preview video doesn't load automatically, click on the link below to open it manually",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Undefeated/album.png",
+          "name": "album.png",
+          "sha256": "45944623ce09801c3ad8eab52defd2a910b1a90f8721770102454e896f547240"
+        },
+        {
+          "archive_name": "Skillet - Undefeated/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "dfdcc0d79991fc760a8a57cc8ff7db744fa648aacbb29290b6160d5a804ec377"
+        },
+        {
+          "archive_name": "Skillet - Undefeated/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "52e561cf85333d7270171c075352af6f3d9a60b2d05edd015a676498590466ae"
+        },
+        {
+          "archive_name": "Skillet - Undefeated/notes.mid",
+          "name": "notes.mid",
+          "sha256": "522edc00b421bc9e8278c9a15e04dd8dcbb2f464eae907c987e05fa751d74d64"
+        },
+        {
+          "archive_name": "Skillet - Undefeated/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "923ca039282a48a4afc6d7c46df20ff3e116d1fe859c22bc7b396e259b0c3db8"
+        },
+        {
+          "archive_name": "Skillet - Undefeated/song.ini",
+          "name": "song.ini",
+          "sha256": "5497ac8a601cd56f7d1c3b6652db5286b326fce721a2c4a6d30b09503e3b4102"
+        },
+        {
+          "archive_name": "Skillet - Undefeated/song.ogg",
+          "name": "song.ogg",
+          "sha256": "59e94229622b2ed8d7e3ce66afa0232b08354baca6f9aa9fb360153e61c3de6f"
+        },
+        {
+          "archive_name": "Skillet - Undefeated/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "cd4cbd523fd8dd9aa3c87ac12545528dd60459617f1ed970cfe4d134b81dfbab"
+        }
+      ],
+      "archive_sha256": "fb6807170d3085b183c163653b16b266c54b7e5421fadf7a2c6836e209cd9878",
+      "archive_bytes": 25862144,
+      "prepared_bytes": 19728454,
+      "qobuz_track_ids": [
+        "32383688"
+      ],
+      "playlist_track_ids": [
+        "12221847137"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Abolish Government/Superficial Love",
+      "file_id": "596e3d23bcbe47.54754871",
+      "source_url": "https://rhythmverse.co/songfile/596e3d23bcbe47.54754871",
+      "download_url": "https://rhythmverse.co/download_file/beard216/596e3d23bcbe47.54754871/SlayAbolishSuper1x",
+      "archive_format": "onyx",
+      "folder": "Slayer - Abolish Government_Superficial Love [596e3d23]",
+      "charter": "Juli7xxxxx",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 980,
+          "kick_note_on_count": 360,
+          "tom_marker_count": 50,
+          "last_expert_onset_seconds": 106.992,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "596e3d23bcbe47.54754871",
+        "artist": "Slayer",
+        "title": "Abolish Government/Superficial Love",
+        "album": "Undisputed Attitude",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/596e3d23bcbe47.54754871",
+        "download_url": "https://rhythmverse.co/download_file/beard216/596e3d23bcbe47.54754871/SlayAbolishSuper1x",
+        "duration_seconds": 114.0,
+        "duration_difference_seconds": 7.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "beard216",
+        "notes": "<p>Frets: Juli7xxxxx<br />\nConversion/Reductions/Drum Fills/Drum Animations/Audio: beard216</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slayer - Abolish Government_Superficial Love/album.png",
+          "name": "album.png",
+          "sha256": "141187a0a23693e7725fbce3a1775274bca2d7cd90ff3dde3df1165a4b2c0eee"
+        },
+        {
+          "archive_name": "Slayer - Abolish Government_Superficial Love/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9097f0b5d7231b01fdd16b8f55f5a752a78ad8ef330ce84952a1adb37c929c9a"
+        },
+        {
+          "archive_name": "Slayer - Abolish Government_Superficial Love/song.ini",
+          "name": "song.ini",
+          "sha256": "3b6227248aa4dd12248d37dd917797b5be8f9f02c5e86ff639ff2706cd27ddbe"
+        },
+        {
+          "archive_name": "Slayer - Abolish Government_Superficial Love/song.ogg",
+          "name": "song.ogg",
+          "sha256": "9e3da90af1555d5ab8397b9fbf236ca446e2d68b40f98da6d03297041919821b"
+        }
+      ],
+      "archive_sha256": "05f6656122585910843d013e28f601c118585b775df8b770a98b34a9b45c22dd",
+      "archive_bytes": 2478080,
+      "prepared_bytes": 2059296,
+      "qobuz_track_ids": [
+        "8460425"
+      ],
+      "playlist_track_ids": [
+        "12450470404"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Behind The Crooked Cross",
+      "file_id": "5b947da98e53c6.16157495",
+      "source_url": "https://rhythmverse.co/songfile/5b947da98e53c6.16157495",
+      "download_url": "https://www.mediafire.com/download/qmhi5neksa7xkj9/behindthecrookedcross1x",
+      "archive_format": "onyx",
+      "folder": "Slayer - Behind The Crooked Cross [5b947da9]",
+      "charter": "furiouss",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1810,
+          "kick_note_on_count": 348,
+          "tom_marker_count": 201,
+          "last_expert_onset_seconds": 196.764,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947da98e53c6.16157495",
+        "artist": "Slayer",
+        "title": "Behind The Crooked Cross",
+        "album": "",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b947da98e53c6.16157495",
+        "download_url": "http://www.mediafire.com/download/qmhi5neksa7xkj9/behindthecrookedcross1x",
+        "duration_seconds": 200.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slayer - Behind The Crooked Cross/album.png",
+          "name": "album.png",
+          "sha256": "11242ff185f345b7df714d8b9c0a8bab6249c3f73fbf9ee5e98c9bf1d586972b"
+        },
+        {
+          "archive_name": "Slayer - Behind The Crooked Cross/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "2e4a1f4fca8a60307dbf40961aa37fd34ee694194033af01e6c3661e0f5bde2b"
+        },
+        {
+          "archive_name": "Slayer - Behind The Crooked Cross/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "2e4a1f4fca8a60307dbf40961aa37fd34ee694194033af01e6c3661e0f5bde2b"
+        },
+        {
+          "archive_name": "Slayer - Behind The Crooked Cross/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9d71c08c1e6e2d15067aa9e643d7fccc0f9473eff673fa6dba7ea6fb6ce6b00b"
+        },
+        {
+          "archive_name": "Slayer - Behind The Crooked Cross/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "2e4a1f4fca8a60307dbf40961aa37fd34ee694194033af01e6c3661e0f5bde2b"
+        },
+        {
+          "archive_name": "Slayer - Behind The Crooked Cross/song.ini",
+          "name": "song.ini",
+          "sha256": "b62e1dfe2fcb9fc46742cef00ab637b2c83c642e2b5d9d04bf42c0f3ff2c80a4"
+        },
+        {
+          "archive_name": "Slayer - Behind The Crooked Cross/song.ogg",
+          "name": "song.ogg",
+          "sha256": "71efd67e65693e933eecb587d626a510af644a1699be1192299be221ee2ed69d"
+        },
+        {
+          "archive_name": "Slayer - Behind The Crooked Cross/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "2e4a1f4fca8a60307dbf40961aa37fd34ee694194033af01e6c3661e0f5bde2b"
+        }
+      ],
+      "archive_sha256": "c0a1e8dfaaf7e6ec0c98cd62103d8f68785d4c7894f6e67617e00a0b0b9be177",
+      "archive_bytes": 4845568,
+      "prepared_bytes": 4541581,
+      "qobuz_track_ids": [
+        "27117360"
+      ],
+      "playlist_track_ids": [
+        "12450470420"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Dead Skin Mask",
+      "file_id": "5bbce4f86038f1.11448044",
+      "source_url": "https://rhythmverse.co/songfile/5bbce4f86038f1.11448044",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/5bbce4f86038f1.11448044/DeadSkinMask1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Slayer - Dead Skin Mask [5bbce4f8]",
+      "charter": "AJFOne23",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1956,
+          "kick_note_on_count": 643,
+          "tom_marker_count": 232,
+          "last_expert_onset_seconds": 303.403,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5bbce4f86038f1.11448044",
+        "artist": "Slayer",
+        "title": "Dead Skin Mask",
+        "album": "Seasons in the Abyss",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5bbce4f86038f1.11448044",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/5bbce4f86038f1.11448044/DeadSkinMask1x_rb3con",
+        "duration_seconds": 324.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>GUITAR/BASS/VOCALS: TheWay123<br />\n&#160;</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slayer - Dead Skin Mask/album.png",
+          "name": "album.png",
+          "sha256": "4d3e76044d0acad137ff127c35ea632d876edbe815694548f71c4fbd3c50c1c9"
+        },
+        {
+          "archive_name": "Slayer - Dead Skin Mask/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0b1879611df89a98b3e3b6a64fc7f616168be4df7d9ba5dfc4640e0cfecb3381"
+        },
+        {
+          "archive_name": "Slayer - Dead Skin Mask/song.ini",
+          "name": "song.ini",
+          "sha256": "d0619d4a2c30b798ed45443e8d5446636ba7a868ae0089378ce0d3c06a91a978"
+        },
+        {
+          "archive_name": "Slayer - Dead Skin Mask/song.ogg",
+          "name": "song.ogg",
+          "sha256": "cf90db0435760dd04258f6f1ccaa613c684a00cf2203cc84255569f4295fb2ce"
+        }
+      ],
+      "archive_sha256": "aa84f4de02840fd999bdfce316ffaa418a9ffa20dbbe6862cda635480b8e3cf3",
+      "archive_bytes": 7204864,
+      "prepared_bytes": 5899268,
+      "qobuz_track_ids": [
+        "27117383"
+      ],
+      "playlist_track_ids": [
+        "12450470390"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Die By the Sword",
+      "file_id": "59295ee39bccf9.63403271",
+      "source_url": "https://rhythmverse.co/songfile/59295ee39bccf9.63403271",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/59295ee39bccf9.63403271/DieByTheSword1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Slayer - Die By the Sword [59295ee3]",
+      "charter": "AJFOne23, 1337buddha",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1693,
+          "kick_note_on_count": 640,
+          "tom_marker_count": 39,
+          "last_expert_onset_seconds": 216.319,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59295ee39bccf9.63403271",
+        "artist": "Slayer",
+        "title": "Die By the Sword",
+        "album": "Show No Mercy",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59295ee39bccf9.63403271",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/59295ee39bccf9.63403271/DieByTheSword1x_rb3con",
+        "duration_seconds": 218.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>[b]GUITAR: 1337buddha[/b]</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slayer - Die By the Sword/album.png",
+          "name": "album.png",
+          "sha256": "e4eefd5a046fd1d93b3ee7105a0b1d4f9a290b5ec891fe2ba89c4f78d863eccd"
+        },
+        {
+          "archive_name": "Slayer - Die By the Sword/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "fac5a8bb95921ee1caf560a39e70466f0ed9d29f6ef3f1ce02fbbde15b57f9ed"
+        },
+        {
+          "archive_name": "Slayer - Die By the Sword/notes.mid",
+          "name": "notes.mid",
+          "sha256": "90fc9a66f4aa0b13bdec77f17935cb10f3497d7631d6dacb8197c39ae3c9ff38"
+        },
+        {
+          "archive_name": "Slayer - Die By the Sword/song.ini",
+          "name": "song.ini",
+          "sha256": "f718da5fe4001fe3688210c920cec8ab0256ed6602f9a987b31b91649706b04c"
+        },
+        {
+          "archive_name": "Slayer - Die By the Sword/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c0dc4242cd1479f744d2a3ea0f80bd5e12d29a8d39ebd404271a7409eea2141c"
+        }
+      ],
+      "archive_sha256": "c1eb35078672c92911c6acb0f38874987cc985a75f779c0b6915cd2fa31d64fc",
+      "archive_bytes": 5382144,
+      "prepared_bytes": 4671214,
+      "qobuz_track_ids": [
+        "60650401"
+      ],
+      "playlist_track_ids": [
+        "12450470401"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Hell Awaits",
+      "file_id": "592969d6883996.27990027",
+      "source_url": "https://rhythmverse.co/songfile/592969d6883996.27990027",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/592969d6883996.27990027/HellAwaits1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Slayer - Hell Awaits [592969d6]",
+      "charter": "AJFOne23, Doomtron",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2968,
+          "kick_note_on_count": 837,
+          "tom_marker_count": 192,
+          "last_expert_onset_seconds": 374.668,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "592969d6883996.27990027",
+        "artist": "Slayer",
+        "title": "Hell Awaits",
+        "album": "Hell Awaits",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/592969d6883996.27990027",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/592969d6883996.27990027/HellAwaits1x_rb3con",
+        "duration_seconds": 382.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>[b]GUITAR: Doomtron[/b]</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slayer - Hell Awaits/album.png",
+          "name": "album.png",
+          "sha256": "f7434a6840e16c9966b96fb8df3da3932e0b4b2b98554318cdce2185b14bc168"
+        },
+        {
+          "archive_name": "Slayer - Hell Awaits/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "2df9f3f543d42765be31b2e1ad0bbadcd51a55f00de12d8ca098614e49169874"
+        },
+        {
+          "archive_name": "Slayer - Hell Awaits/notes.mid",
+          "name": "notes.mid",
+          "sha256": "01df64ee28c10504e8b8fbf756f34fc9ae43ca4459a56ce999fe2ae69ec0730f"
+        },
+        {
+          "archive_name": "Slayer - Hell Awaits/song.ini",
+          "name": "song.ini",
+          "sha256": "f3a32a6a38c66689e0d64dc7bc51a64bc20d915ed2859f2ff3a26f38366537a1"
+        },
+        {
+          "archive_name": "Slayer - Hell Awaits/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6b0e938aa395bdee0d36802bb26b44e1e64b2bbb3808e5e7bbf93c1f75c44a7e"
+        }
+      ],
+      "archive_sha256": "011aa4c40505045b276ae12f5d6a0536be9cd736126df758fe322b3da2b268fd",
+      "archive_bytes": 9043968,
+      "prepared_bytes": 8123263,
+      "qobuz_track_ids": [
+        "60685554"
+      ],
+      "playlist_track_ids": [
+        "12450470384"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Mandatory Suicide",
+      "file_id": "59296ed5e30595.05043401",
+      "source_url": "https://rhythmverse.co/songfile/59296ed5e30595.05043401",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/59296ed5e30595.05043401/MandatorySuicide1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Slayer - Mandatory Suicide [59296ed5]",
+      "charter": "AJFOne23",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1936,
+          "kick_note_on_count": 523,
+          "tom_marker_count": 173,
+          "last_expert_onset_seconds": 241.857,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59296ed5e30595.05043401",
+        "artist": "Slayer",
+        "title": "Mandatory Suicide",
+        "album": "South of Heaven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59296ed5e30595.05043401",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/59296ed5e30595.05043401/MandatorySuicide1x_rb3con",
+        "duration_seconds": 248.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>GUITAR SOLO: Chips</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slayer - Mandatory Suicide/album.png",
+          "name": "album.png",
+          "sha256": "b31932117110b2eecb290e8dda93d58d9992bdb2991df44fe624ae1918ff4f84"
+        },
+        {
+          "archive_name": "Slayer - Mandatory Suicide/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e568d5835ca54f2ae149eb2cfc59c2b901bffa6969bbeaa8e837831e4ff55e8c"
+        },
+        {
+          "archive_name": "Slayer - Mandatory Suicide/song.ini",
+          "name": "song.ini",
+          "sha256": "470f793c1f3504aa0ce385c2eb45c91c08b65df4cd2e82bef5ddb8913d085491"
+        },
+        {
+          "archive_name": "Slayer - Mandatory Suicide/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f83a5a4eef6d781d8d9ad954998b40afa2b6968779a90227a5dd137a8103b093"
+        }
+      ],
+      "archive_sha256": "1b608eb5cc40f8ecb7190078353df4b21b98a641855c9aacfb7007b9a6e4004d",
+      "archive_bytes": 5783552,
+      "prepared_bytes": 4857791,
+      "qobuz_track_ids": [
+        "27117361"
+      ],
+      "playlist_track_ids": [
+        "12450470397"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Necrophobic",
+      "file_id": "5daf8dd6558410.71618973",
+      "source_url": "https://rhythmverse.co/songfile/5daf8dd6558410.71618973",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/5daf8dd6558410.71618973/Necrophobic1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Slayer - Necrophobic [5daf8dd6]",
+      "charter": "AJFOne23",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1385,
+          "kick_note_on_count": 303,
+          "tom_marker_count": 65,
+          "last_expert_onset_seconds": 101.749,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5daf8dd6558410.71618973",
+        "artist": "Slayer",
+        "title": "Necrophobic",
+        "album": "Reign in Blood",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5daf8dd6558410.71618973",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/5daf8dd6558410.71618973/Necrophobic1x_rb3con",
+        "duration_seconds": 102.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>GUITAR: Sonic<br />\n&#160;<br />\nUPDATED 10/25/2019:<br />\n&#160;<br />\nChanged vocals to talkies as they were meant to be&#160; :cripes:</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slayer - Necrophobic/album.png",
+          "name": "album.png",
+          "sha256": "8a6804316aca54ac452e31818d26dab07f89c7b45882a303a604040589dc747f"
+        },
+        {
+          "archive_name": "Slayer - Necrophobic/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6b6d8bd437236b351cfda7c1120afeb1e97a5a27f5be38609b75da48e73e4822"
+        },
+        {
+          "archive_name": "Slayer - Necrophobic/song.ini",
+          "name": "song.ini",
+          "sha256": "ee10d4203a16b03d2f2bb62d6c844f36bd389b46f1b828b8ba8142abba46286a"
+        },
+        {
+          "archive_name": "Slayer - Necrophobic/song.ogg",
+          "name": "song.ogg",
+          "sha256": "947790e9d7f0daf43dcf8d5e7e7805a8f1c4cd598d5e8cca6149bd59a1bfe16a"
+        }
+      ],
+      "archive_sha256": "885705227485e17551352f420a95c8bb1638fdca604bddd8595c03b86275c458",
+      "archive_bytes": 2457600,
+      "prepared_bytes": 2035522,
+      "qobuz_track_ids": [
+        "258121610"
+      ],
+      "playlist_track_ids": [
+        "12450470408"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Piece by Piece",
+      "file_id": "5daf8cc896d293.68565918",
+      "source_url": "https://rhythmverse.co/songfile/5daf8cc896d293.68565918",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/5daf8cc896d293.68565918/PieceByPiece1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Slayer - Piece by Piece [5daf8cc8]",
+      "charter": "AJFOne23",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1452,
+          "kick_note_on_count": 382,
+          "tom_marker_count": 91,
+          "last_expert_onset_seconds": 123.3,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5daf8cc896d293.68565918",
+        "artist": "Slayer",
+        "title": "Piece by Piece",
+        "album": "Reign in Blood",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5daf8cc896d293.68565918",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/5daf8cc896d293.68565918/PieceByPiece1x_rb3con",
+        "duration_seconds": 127.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>GUITAR: Vedicardi</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slayer - Piece by Piece/album.png",
+          "name": "album.png",
+          "sha256": "8a6804316aca54ac452e31818d26dab07f89c7b45882a303a604040589dc747f"
+        },
+        {
+          "archive_name": "Slayer - Piece by Piece/notes.mid",
+          "name": "notes.mid",
+          "sha256": "73cf200ff92f7dba9b6509be0e2581c17d0d72255a7bb49a476143e04ce931b2"
+        },
+        {
+          "archive_name": "Slayer - Piece by Piece/song.ini",
+          "name": "song.ini",
+          "sha256": "7af7abdb075a7c6666c154ae328763fa0faef6b9a1af5e35a923790c261ed33d"
+        },
+        {
+          "archive_name": "Slayer - Piece by Piece/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7498f69e34d7c9d4b5d137c77a06de3f9b83976e298e650784e264e163a086d3"
+        }
+      ],
+      "archive_sha256": "0d96e0b038b5126d2ff07878c0962c13ad1028f45f25fd02a35cf8cb5123c5a4",
+      "archive_bytes": 2953216,
+      "prepared_bytes": 2474852,
+      "qobuz_track_ids": [
+        "258121609"
+      ],
+      "playlist_track_ids": [
+        "12450470380"
+      ]
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Spit It Out",
+      "file_id": "cb61de26a0324926a80f3326f32b143b",
+      "source_url": "https://rhythmverse.co/songfile/cb61de26a0324926a80f3326f32b143b",
+      "download_url": "https://rhythmverse.co/download_file/krisangel/cb61de26a0324926a80f3326f32b143b/SpitItOutKris1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Slipknot - Spit It Out [cb61de26]",
+      "charter": "KrisAngel, Bat Ramps, FUGGNUTZ",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1481,
+          "kick_note_on_count": 530,
+          "tom_marker_count": 93,
+          "last_expert_onset_seconds": 161.75,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "cb61de26a0324926a80f3326f32b143b",
+        "artist": "Slipknot",
+        "title": "Spit It Out",
+        "album": "Slipknot",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/cb61de26a0324926a80f3326f32b143b",
+        "download_url": "https://rhythmverse.co/download_file/krisangel/cb61de26a0324926a80f3326f32b143b/SpitItOutKris1x_rb3con",
+        "duration_seconds": 161.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "CapnKris",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slipknot - Spit It Out/album.png",
+          "name": "album.png",
+          "sha256": "9d180ed80f40827a367f747a7206bbe7a8ead5a64f2cd36e92740bdc9272c99c"
+        },
+        {
+          "archive_name": "Slipknot - Spit It Out/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d485c92f938763696f5e75aa1972f109d1e43a4fcf032592613b039c71fb6b4d"
+        },
+        {
+          "archive_name": "Slipknot - Spit It Out/song.ini",
+          "name": "song.ini",
+          "sha256": "a8404e2de52801759b9fc8ac75142caee806da4a77c510170d864b2b6dbe2067"
+        },
+        {
+          "archive_name": "Slipknot - Spit It Out/song.ogg",
+          "name": "song.ogg",
+          "sha256": "179ff9b3fc57d309a0eede6ffaf7555e5f02831f472c690f66f45f5ff1511c62"
+        }
+      ],
+      "archive_sha256": "c7e6ca302ed79be555a095466310f8dae18aa218b819654c4a942c5dbe79a25d",
+      "archive_bytes": 3870720,
+      "prepared_bytes": 3470559,
+      "qobuz_track_ids": [
+        "347548906",
+        "347548932"
+      ],
+      "playlist_track_ids": [
+        "12448263274",
+        "12448263300"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Back in the U.S.S.R.",
+      "file_id": "43ed1ebbc0fe4a80981510c066419299",
+      "source_url": "https://rhythmverse.co/songfile/43ed1ebbc0fe4a80981510c066419299",
+      "download_url": "https://rhythmverse.co/download_file/paxultek/43ed1ebbc0fe4a80981510c066419299/The%20Beatles%20-%20Back%20in%20the%20U.S.S.R_rb3con",
+      "archive_format": "onyx",
+      "folder": "The Beatles - Back in the U.S.S.R [43ed1ebb]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1212,
+          "kick_note_on_count": 315,
+          "tom_marker_count": 17,
+          "last_expert_onset_seconds": 158.515,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "43ed1ebbc0fe4a80981510c066419299",
+        "artist": "The Beatles",
+        "title": "Back in the U.S.S.R.",
+        "album": "The Beatles (The White Album)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/43ed1ebbc0fe4a80981510c066419299",
+        "download_url": "https://rhythmverse.co/download_file/paxultek/43ed1ebbc0fe4a80981510c066419299/The Beatles - Back in the U.S.S.R_rb3con",
+        "duration_seconds": 166.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Paxultek",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - Back in the U.S.S.R/album.png",
+          "name": "album.png",
+          "sha256": "a8db192d796edd9d05785354d47fe7a083255e5de9a68bb8c311c0502910511a"
+        },
+        {
+          "archive_name": "The Beatles - Back in the U.S.S.R/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "644babe0f780eef50efcafe98abe4de0bc2640f4a25dcb7ccd55eb04c81b4de4"
+        },
+        {
+          "archive_name": "The Beatles - Back in the U.S.S.R/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "da94c447816e0d62648623ff92ff7d6d26b7d1f0f6eabef0f653d96867d8ead5"
+        },
+        {
+          "archive_name": "The Beatles - Back in the U.S.S.R/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7435df8159957e08f09e1c5a55c598a9e61e33c74ec6f411fd9662653de24266"
+        },
+        {
+          "archive_name": "The Beatles - Back in the U.S.S.R/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "3e84f5e73f8db1a8a0af7efb5189310aaa0946e6f5457b827b00c23346563a38"
+        },
+        {
+          "archive_name": "The Beatles - Back in the U.S.S.R/song.ini",
+          "name": "song.ini",
+          "sha256": "26ecde5250c140a0758b024b70153710347ad70eb93e874dae4c68437c0e2f72"
+        },
+        {
+          "archive_name": "The Beatles - Back in the U.S.S.R/song.ogg",
+          "name": "song.ogg",
+          "sha256": "28124b32eb069d586a0c41cae3ab18e32c600bbe0ff5e896a2da7f8dbf47791f"
+        },
+        {
+          "archive_name": "The Beatles - Back in the U.S.S.R/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "e97c68bac5146d8c3e173abe105aad29fd3f1532615b3a98c884ea16435d6273"
+        }
+      ],
+      "archive_sha256": "6d2973a99d655cfad9bc5c63b6e54d7c9b60fb6bdb2786939b9f209ef3d09511",
+      "archive_bytes": 17473536,
+      "prepared_bytes": 12892418,
+      "qobuz_track_ids": [
+        "53668079"
+      ],
+      "playlist_track_ids": [
+        "12450498989"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Happiness Is a Warm Gun",
+      "file_id": "5cd84f26efae83.62559357",
+      "source_url": "https://rhythmverse.co/songfile/5cd84f26efae83.62559357",
+      "download_url": "https://rhythmverse.co/download_file/mrprezident/5cd84f26efae83.62559357/BeatlesHappinessv1_rb3con",
+      "archive_format": "onyx",
+      "folder": "The Beatles - Happiness Is a Warm Gun [5cd84f26]",
+      "charter": "MrPrezident, DoNotPassGo",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 524,
+          "kick_note_on_count": 82,
+          "tom_marker_count": 31,
+          "last_expert_onset_seconds": 167.22,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5cd84f26efae83.62559357",
+        "artist": "The Beatles",
+        "title": "Happiness Is a Warm Gun",
+        "album": "The Beatles",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5cd84f26efae83.62559357",
+        "download_url": "https://rhythmverse.co/download_file/mrprezident/5cd84f26efae83.62559357/BeatlesHappinessv1_rb3con",
+        "duration_seconds": 171.0,
+        "duration_difference_seconds": 7.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "MrPrezident",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - Happiness Is a Warm Gun/album.png",
+          "name": "album.png",
+          "sha256": "11d300a61dcee41f92f11cd7d850b122d941f18892e6d5dc423aa53600c387a0"
+        },
+        {
+          "archive_name": "The Beatles - Happiness Is a Warm Gun/notes.mid",
+          "name": "notes.mid",
+          "sha256": "eb3ec4cd7fc9f9f1ea1da923137a15c5d49cb3c136c5e70008736d4abfed262d"
+        },
+        {
+          "archive_name": "The Beatles - Happiness Is a Warm Gun/song.ini",
+          "name": "song.ini",
+          "sha256": "193bffbe99e4acde95dc88028f83e946d4bc0163fe0b45cd001a15a7b368b0a9"
+        },
+        {
+          "archive_name": "The Beatles - Happiness Is a Warm Gun/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d221b30d7a03ad8599ccb5105e5b03a146d20cf21e67982f8f4d23e883cd675d"
+        }
+      ],
+      "archive_sha256": "41947116fcbb935dafc56b44592bd15e4c6a4be14c92b449db14617c4b1bda9e",
+      "archive_bytes": 4042752,
+      "prepared_bytes": 2878670,
+      "qobuz_track_ids": [
+        "53668086"
+      ],
+      "playlist_track_ids": [
+        "12450499036"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Help!",
+      "file_id": "531564eb98941",
+      "source_url": "https://rhythmverse.co/songfile/531564eb98941",
+      "download_url": "https://rhythmverse.co/download_file/trojannemo/531564eb98941/TheBeatles-Help",
+      "archive_format": "onyx",
+      "folder": "The Beatles - Help! [531564eb]",
+      "charter": "oscarj08 / TrojanNemo",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 969,
+          "kick_note_on_count": 177,
+          "tom_marker_count": 4,
+          "last_expert_onset_seconds": 134.468,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "531564eb98941",
+        "artist": "The Beatles",
+        "title": "Help!",
+        "album": "Help!",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/531564eb98941",
+        "download_url": "https://rhythmverse.co/download_file/trojannemo/531564eb98941/TheBeatles-Help",
+        "duration_seconds": 138.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "TrojanNemo",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - Help!/album.png",
+          "name": "album.png",
+          "sha256": "84c6c92214b79875b124063aa6f5d512988185348c916ac92c9b21e9c2e7b484"
+        },
+        {
+          "archive_name": "The Beatles - Help!/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6c0de65f09c982c1521d28c6c8fdffcbeb70ad9bb8764629a5af038ff6efe2bd"
+        },
+        {
+          "archive_name": "The Beatles - Help!/song.ini",
+          "name": "song.ini",
+          "sha256": "dd9951e838e4ac92bd9d5af411e25f89db3e4e125a195a814126880ae9a13b77"
+        },
+        {
+          "archive_name": "The Beatles - Help!/song.ogg",
+          "name": "song.ogg",
+          "sha256": "844406bf291395ee51c030aa5aca8538e7b3adc334b8f3c4ec58a8830d35a6d9"
+        },
+        {
+          "archive_name": "The Beatles - Help!/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "33207c5a4935022fb95c5553fe246a20c8bb8dd47a044c3bf3cb46a44ba5108f"
+        }
+      ],
+      "archive_sha256": "ea319170e81f797a85df836b5ce6706d9f787c52d6ca9c18b1b0105341e2a134",
+      "archive_bytes": 5697536,
+      "prepared_bytes": 4232838,
+      "qobuz_track_ids": [
+        "235802076"
+      ],
+      "playlist_track_ids": [
+        "12450498972"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Ob-La-Di, Ob-La-Da",
+      "file_id": "5b6d7333387f75.76396477",
+      "source_url": "https://rhythmverse.co/songfile/5b6d7333387f75.76396477",
+      "download_url": "https://rhythmverse.co/download_file/thesheepqueen/5b6d7333387f75.76396477/SheepQ_TBe_ObLaDiObLaDa_rb3con",
+      "archive_format": "onyx",
+      "folder": "The Beatles - Ob-La-Di, Ob-La-Da [5b6d7333]",
+      "charter": "TheSheepQueen",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 972,
+          "kick_note_on_count": 163,
+          "tom_marker_count": 39,
+          "last_expert_onset_seconds": 187.469,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b6d7333387f75.76396477",
+        "artist": "The Beatles",
+        "title": "Ob-La-Di, Ob-La-Da",
+        "album": "The Beatles",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b6d7333387f75.76396477",
+        "download_url": "https://rhythmverse.co/download_file/thesheepqueen/5b6d7333387f75.76396477/SheepQ_TBe_ObLaDiObLaDa_rb3con",
+        "duration_seconds": 194.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "TheSheepQueen",
+        "notes": "<p>V2: Added:<br />\n&#8226;DIY stems, thanks to Rocker1999!<br />\n&#8226;Custom count-in<br />\n&#8226;Human dry vox<br />\n&#160;<br />\n&#8226;Did a few fixes to the chart too<br />\n&#160;<br />\nV3: &#8226;Completely redone every instrument<br />\n&#8226;Fixed drums overdrive activators<br />\n&#8226;Enhanced venue<br />\n&#8226;Adjusted song pitch<br />\n&#8226;Changed file name to new standard<br />\n&#160;<br />\nV4: &#8226;Fixed missing tom roll and file name</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - Ob-La-Di, Ob-La-Da/album.png",
+          "name": "album.png",
+          "sha256": "ff3f9b860d7a1e4e27ea2db59ab251d65429f3ab17a03e7d50119104f9aa8dc1"
+        },
+        {
+          "archive_name": "The Beatles - Ob-La-Di, Ob-La-Da/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "772cf91f7a9b0c58fa74a30c1b89c983d069853666920fd0e41defc24557c97a"
+        },
+        {
+          "archive_name": "The Beatles - Ob-La-Di, Ob-La-Da/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "0683d26cf5a74fd6826e4ee9686b79d1e6254aa3e36d3237ed1d221bfe2efb64"
+        },
+        {
+          "archive_name": "The Beatles - Ob-La-Di, Ob-La-Da/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "7a7afa3a3672af165156272372cfcc24bf43b256a9416346c513adc3aba0a472"
+        },
+        {
+          "archive_name": "The Beatles - Ob-La-Di, Ob-La-Da/notes.mid",
+          "name": "notes.mid",
+          "sha256": "970ab20aa2fe3a29aad58eaaa13860ef5836631d546dc5611fc4bffff9d36c3f"
+        },
+        {
+          "archive_name": "The Beatles - Ob-La-Di, Ob-La-Da/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "658f1e11be56cb44d95d4e71f847cbbf19a9e2be6a6c89b463ad18cc5e283e67"
+        },
+        {
+          "archive_name": "The Beatles - Ob-La-Di, Ob-La-Da/song.ini",
+          "name": "song.ini",
+          "sha256": "1fdfff924d681ad580e03252b5813a60f9f950608c5b778f1219facf56362f92"
+        },
+        {
+          "archive_name": "The Beatles - Ob-La-Di, Ob-La-Da/song.ogg",
+          "name": "song.ogg",
+          "sha256": "11fa69033c93f2a39f437607e050df5b03fe8a2d6a438d0c27927468e42a413c"
+        },
+        {
+          "archive_name": "The Beatles - Ob-La-Di, Ob-La-Da/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "6c59d411378c192741865253fb70252d19dc66ec898af6477e277d32b45083c7"
+        }
+      ],
+      "archive_sha256": "d99b58a9d56457a5a51764f9f697b9d8d755bd2609d01fa93463befe54ca047e",
+      "archive_bytes": 20193280,
+      "prepared_bytes": 16288692,
+      "qobuz_track_ids": [
+        "53668082"
+      ],
+      "playlist_track_ids": [
+        "12450499010"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Revolution",
+      "file_id": "273f1acc86d84398a1fa01d88ff8f3b2",
+      "source_url": "https://rhythmverse.co/songfile/273f1acc86d84398a1fa01d88ff8f3b2",
+      "download_url": "https://rhythmverse.co/download_file/paxultek/273f1acc86d84398a1fa01d88ff8f3b2/The%20Beatles%20-%20Revolution_rb3con",
+      "archive_format": "onyx",
+      "folder": "The Beatles - Revolution [273f1acc]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 975,
+          "kick_note_on_count": 502,
+          "tom_marker_count": 15,
+          "last_expert_onset_seconds": 200.752,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "273f1acc86d84398a1fa01d88ff8f3b2",
+        "artist": "The Beatles",
+        "title": "Revolution",
+        "album": "Singles and B-Sides",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/273f1acc86d84398a1fa01d88ff8f3b2",
+        "download_url": "https://rhythmverse.co/download_file/paxultek/273f1acc86d84398a1fa01d88ff8f3b2/The Beatles - Revolution_rb3con",
+        "duration_seconds": 206.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Paxultek",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - Revolution/album.png",
+          "name": "album.png",
+          "sha256": "1a70af260bbcb4bc7b7e1a4786f599e81bb0ddeb043a14fd5bcfc744c46fee83"
+        },
+        {
+          "archive_name": "The Beatles - Revolution/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "1d2a4b1c51af884e6f4517015654eff34728249630d622d17937a14a15237e81"
+        },
+        {
+          "archive_name": "The Beatles - Revolution/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "4999c0eaba56c262a55a3985bc6709a0acfce3fc5ab587ad3be5aec0ecac6173"
+        },
+        {
+          "archive_name": "The Beatles - Revolution/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d12de1996b654e2a3ec96eeba4db8c9d273f50c4fd63d5651a76f783bcc4786a"
+        },
+        {
+          "archive_name": "The Beatles - Revolution/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "90a4cfa64e8f2c80ba7e891368c3af2009b410305e66824ffad29a6411e3d342"
+        },
+        {
+          "archive_name": "The Beatles - Revolution/song.ini",
+          "name": "song.ini",
+          "sha256": "36ee14708a4fc7b7b464ca274b9de47927d89462c52b694976f2f2c926978cad"
+        },
+        {
+          "archive_name": "The Beatles - Revolution/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6d29a0e652e609fead717b1a0e87b73776da997c7584dc7d112b67eb59d30687"
+        },
+        {
+          "archive_name": "The Beatles - Revolution/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "453fba456b021c742d1df320ab5f59a1baa19eebe6156a65ac2de9bb4a5616d8"
+        }
+      ],
+      "archive_sha256": "e065b60aae5b92eebc09cc8d869b55380ac4e3011dfd6285ef63a8e2c1333e76",
+      "archive_bytes": 24436736,
+      "prepared_bytes": 15076327,
+      "qobuz_track_ids": [
+        "235803320"
+      ],
+      "playlist_track_ids": [
+        "12450499002"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Roll Over Beethoven",
+      "file_id": "57a6840e02bad1.17712538",
+      "source_url": "https://rhythmverse.co/songfile/57a6840e02bad1.17712538",
+      "download_url": "https://rhythmverse.co/download_file/farottone/57a6840e02bad1.17712538/far_RollOverBeethoven_rb3con",
+      "archive_format": "onyx",
+      "folder": "The Beatles - Roll Over Beethoven [57a6840e]",
+      "charter": "farottone, Sideshow",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1367,
+          "kick_note_on_count": 296,
+          "tom_marker_count": 90,
+          "last_expert_onset_seconds": 162.412,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "57a6840e02bad1.17712538",
+        "artist": "The Beatles",
+        "title": "Roll Over Beethoven",
+        "album": "With the Beatles",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/57a6840e02bad1.17712538",
+        "download_url": "https://rhythmverse.co/download_file/farottone/57a6840e02bad1.17712538/far_RollOverBeethoven_rb3con",
+        "duration_seconds": 170.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Farottone",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - Roll Over Beethoven/album.png",
+          "name": "album.png",
+          "sha256": "b3d8b2172432eab73591c70ede1c0e75f5fe931ede41843319ef7445c306cb60"
+        },
+        {
+          "archive_name": "The Beatles - Roll Over Beethoven/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c09b83a9629c4a4e3013c6f216740a4e8dddf7c464f58307949b64014275ab2d"
+        },
+        {
+          "archive_name": "The Beatles - Roll Over Beethoven/song.ini",
+          "name": "song.ini",
+          "sha256": "f49db260a47386a5aa7a611e81028a13a803d25933979d80862fe52bbbe0bdbd"
+        },
+        {
+          "archive_name": "The Beatles - Roll Over Beethoven/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d1eca5b9a39ee984a4324333a0c9d0e78dd1ee0071d432289bf2e1ab80beef68"
+        }
+      ],
+      "archive_sha256": "6e124d11da999603bc86481f45b1d1ca1f971a1679d65fb13e4ba8f99a7a5b7a",
+      "archive_bytes": 4132864,
+      "prepared_bytes": 2200071,
+      "qobuz_track_ids": [
+        "235802066"
+      ],
+      "playlist_track_ids": [
+        "12450499027"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Strawberry Fields Forever",
+      "file_id": "548b2d1b0dd9e",
+      "source_url": "https://rhythmverse.co/songfile/548b2d1b0dd9e",
+      "download_url": "https://rhythmverse.co/download_file/orangeharrison/548b2d1b0dd9e/oh_Strawberry_v5",
+      "archive_format": "onyx",
+      "folder": "The Beatles - Strawberry Fields Forever [548b2d1b]",
+      "charter": "Orange Harrison",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 901,
+          "kick_note_on_count": 305,
+          "tom_marker_count": 43,
+          "last_expert_onset_seconds": 257.767,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "548b2d1b0dd9e",
+        "artist": "The Beatles",
+        "title": "Strawberry Fields Forever",
+        "album": "Magical Mystery Tour",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/548b2d1b0dd9e",
+        "download_url": "https://rhythmverse.co/download_file/orangeharrison/548b2d1b0dd9e/oh_Strawberry_v5",
+        "duration_seconds": 250.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Orange Harrison",
+        "notes": "<p>This custom was auto-converted from the C3 database. Please let the author know if something is wrong. If you ARE the author, and this song is not correctly assigned to you, please contact pksage.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - Strawberry Fields Forever/album.png",
+          "name": "album.png",
+          "sha256": "c81927f02a7a482028f87d2fa218bb4b802f8d7f8aa4093f95b79e9f6ee4f921"
+        },
+        {
+          "archive_name": "The Beatles - Strawberry Fields Forever/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "31208986fe0846d450e3494aad0d9dce5ac9bf84c6ba8c29a28f2c0d08405b38"
+        },
+        {
+          "archive_name": "The Beatles - Strawberry Fields Forever/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "40a4cf70eb3bb4ed0f36f2d880e2abd4ee9774b9603feb2dbd3d8c9e9358b015"
+        },
+        {
+          "archive_name": "The Beatles - Strawberry Fields Forever/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "aa4c1415b1d6126170e0497f206b75d2d5885c74b5166f4d3e9c09dc98b1f4fa"
+        },
+        {
+          "archive_name": "The Beatles - Strawberry Fields Forever/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e1605fef8e859c245fb893cd5bb470b9784a6a81e8ba504c958a2a2bd38003e9"
+        },
+        {
+          "archive_name": "The Beatles - Strawberry Fields Forever/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "fd0be933ba1313306b1e25fc5f0d2d1b5d84d6f8a8a4f8a878d43b5bf4019b83"
+        },
+        {
+          "archive_name": "The Beatles - Strawberry Fields Forever/song.ini",
+          "name": "song.ini",
+          "sha256": "fec31fb1b9ea6b1f2a8819f7f54028c8f5d7b5b3b40e2f67e924b8730d172422"
+        },
+        {
+          "archive_name": "The Beatles - Strawberry Fields Forever/song.ogg",
+          "name": "song.ogg",
+          "sha256": "29920b30908ea741f95f8ae4b5a575240eafda2f01824ca10652b36593fcc542"
+        },
+        {
+          "archive_name": "The Beatles - Strawberry Fields Forever/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "cf562c9916b639f66aea378492b736dba99906df7d73ddaf365ca30441196078"
+        }
+      ],
+      "archive_sha256": "40de24ea45be368972cab592a85aa63644ec937e51e712fbd2d3f568e0f20947",
+      "archive_bytes": 13918208,
+      "prepared_bytes": 14390453,
+      "qobuz_track_ids": [
+        "45990299"
+      ],
+      "playlist_track_ids": [
+        "12450498991"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Ticket to Ride",
+      "file_id": "551aa4deadb73",
+      "source_url": "https://rhythmverse.co/songfile/551aa4deadb73",
+      "download_url": "https://www.keepitfishy.com/tbrb/tbrb_tickettoride",
+      "archive_format": "onyx",
+      "folder": "The Beatles - Ticket to Ride [551aa4de]",
+      "charter": "Harmonix / TrojanNemo",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 890,
+          "kick_note_on_count": 269,
+          "tom_marker_count": 6,
+          "last_expert_onset_seconds": 182.571,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "551aa4deadb73",
+        "artist": "The Beatles",
+        "title": "Ticket to Ride",
+        "album": "Help!",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/551aa4deadb73",
+        "download_url": "http://www.keepitfishy.com/tbrb/tbrb_tickettoride",
+        "duration_seconds": 185.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "TrojanNemo",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "The Beatles - Ticket To Ride/album.png",
+          "name": "album.png",
+          "sha256": "84c6c92214b79875b124063aa6f5d512988185348c916ac92c9b21e9c2e7b484"
+        },
+        {
+          "archive_name": "The Beatles - Ticket To Ride/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "a20c5a70bdaa38beb6deab00e8aff12ac06ce89bce4d4a5289722c465a7e4af3"
+        },
+        {
+          "archive_name": "The Beatles - Ticket To Ride/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "53dedb340d1d9e35787a3e90a5bb0aa52e00da4bbfb08baee76540c642985eaa"
+        },
+        {
+          "archive_name": "The Beatles - Ticket To Ride/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "e8c6951b2705232959b8fc0063b6abab137fa00d45ae1eee97b929083911e5b9"
+        },
+        {
+          "archive_name": "The Beatles - Ticket To Ride/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e1a4a1a912400aa42a2008993073b497be4b9a293e09b05eca4d2af424f4c987"
+        },
+        {
+          "archive_name": "The Beatles - Ticket To Ride/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "68971a6e3036156f6958bd2f80c9fa8605bc584ba5e6925ad25ea0c1ab3d1474"
+        },
+        {
+          "archive_name": "The Beatles - Ticket To Ride/song.ini",
+          "name": "song.ini",
+          "sha256": "e3f55ec1be8b4b482f1d11e33cbc0a79ee724c52213d6fa80c67eee21d04b654"
+        },
+        {
+          "archive_name": "The Beatles - Ticket To Ride/song.ogg",
+          "name": "song.ogg",
+          "sha256": "55082ef9c763a9081711d63a5ec015494133d3fee62aae0bbce32d3fe2ddf86e"
+        },
+        {
+          "archive_name": "The Beatles - Ticket To Ride/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "753e64b74ea4666a15a044d46cb8e956d4f47dbc76100ec1cd219aa0687d4f44"
+        }
+      ],
+      "archive_sha256": "97a9eff47665d03991906fea55c3bf24f7cb02e05bd29d2902bfa7585b7d1ef9",
+      "archive_bytes": 23760896,
+      "prepared_bytes": 18786355,
+      "qobuz_track_ids": [
+        "235802074"
+      ],
+      "playlist_track_ids": [
+        "12450498983"
+      ]
+    },
+    {
+      "artist": "VIOLENT VIRA",
+      "title": "Burn Me With A Bible",
+      "file_id": "3c64c1ef61b74874a59d57db7314fb46",
+      "source_url": "https://rhythmverse.co/songfile/3c64c1ef61b74874a59d57db7314fb46",
+      "download_url": "https://rhythmverse.co/download_file/dragonvu341/3c64c1ef61b74874a59d57db7314fb46/BurnMeWithABible_rb3con",
+      "archive_format": "onyx",
+      "folder": "VIOLENT VIRA - Burn Me With A Bible [3c64c1ef]",
+      "charter": "DragonVu341",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1294,
+          "kick_note_on_count": 331,
+          "tom_marker_count": 74,
+          "last_expert_onset_seconds": 242.069,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3c64c1ef61b74874a59d57db7314fb46",
+        "artist": "VIOLENT VIRA",
+        "title": "Burn Me With A Bible",
+        "album": "Lover of a Ghost",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/3c64c1ef61b74874a59d57db7314fb46",
+        "download_url": "https://rhythmverse.co/download_file/dragonvu341/3c64c1ef61b74874a59d57db7314fb46/BurnMeWithABible_rb3con",
+        "duration_seconds": 246.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "DragonVu341",
+        "notes": "RB2 Version: https://drive.google.com/file/d/1q_BDQbYvRFLbKdeKV4kQdnVX18BmyMr2/view?usp=sharing",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "VIOLENT VIRA - Burn Me With A Bible/album.png",
+          "name": "album.png",
+          "sha256": "ced1232b04d8b437c6595b580c7d8483a828fb46755502db9dce107a63a058a4"
+        },
+        {
+          "archive_name": "VIOLENT VIRA - Burn Me With A Bible/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "545643f177091759371aa3f125f4338fabc68e5d181019a9ff21e7fc51eb8396"
+        },
+        {
+          "archive_name": "VIOLENT VIRA - Burn Me With A Bible/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d52e86965684e8ac85151ea98ceed68569889b7d2cf93669c86dacab727deb9c"
+        },
+        {
+          "archive_name": "VIOLENT VIRA - Burn Me With A Bible/song.ini",
+          "name": "song.ini",
+          "sha256": "dd145d874b1308b6e87f09950ab869402b684cf994cd376834bbef867554d06d"
+        },
+        {
+          "archive_name": "VIOLENT VIRA - Burn Me With A Bible/song.ogg",
+          "name": "song.ogg",
+          "sha256": "719d8e8b765b8fcad0061d757c8f6af49634efbe676cbe5b91937b102b660617"
+        }
+      ],
+      "archive_sha256": "27081c3a016eab0085149f4e6165a517f9d119310e0bfec618771c5c6ad48e17",
+      "archive_bytes": 5693440,
+      "prepared_bytes": 6244928,
+      "qobuz_track_ids": [
+        "368269393"
+      ],
+      "playlist_track_ids": [
+        "12221847126"
+      ]
+    }
+  ]
+}

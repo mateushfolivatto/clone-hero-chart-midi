@@ -5,6 +5,10 @@ Drums charts. **Phase 1 is in progress:** environment diagnostics and determinis
 audio preparation work; transcription and chart generation are future slices. No
 music or model weights are included.
 
+Para a playlist MixDrumRock, veja [baixar os 254 charts novos](song-library/CONTINUACAO.md)
+e o [relatório das 744 entradas](song-library/reports/cobertura.csv). Essa biblioteca
+de charts existentes é independente da transcrição de MP3.
+
 ## Setup
 
 Python 3.11–3.12 and [uv](https://docs.astral.sh/uv/getting-started/installation/).

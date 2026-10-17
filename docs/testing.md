@@ -91,3 +91,11 @@ The real recipe was also exercised with `python -I -S` outside the checkout,
 downloading all twelve sources and reproducing 78 verified runtime files plus ZIP.
 A second execution validated the existing collection and ZIP. This verifies
 reconstruction on cloud Linux/Python 3.12, not Windows or the browser download UI.
+
+The full-playlist preparation pass has 65 passing tests and eleven validated new
+ZIPs, with 254 charts/1,449 assets/629 decoded audio files. Both ordinary drums and
+Pro Drums are explicit. Standalone five-format recovery, authenticated public MEGA
+recovery and unchanged resume were exercised outside the checkout without external
+Python libraries; Windows execution/game acceptance remain separate. See
+[library-bulk-verification.md](library-bulk-verification.md) for counts, scope,
+provider blockers, artifact checks and reproduction instructions.

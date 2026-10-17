@@ -201,6 +201,25 @@ See song-library/BAIXAR.md for the PowerShell instructions. A reconstructed clou
 copy lives in /workspace/shared/downloads/MixDrumRock/, but it is not a permanent
 download URL. Media remains outside Git; game acceptance still needs user testing.
 
+## MixDrumRock bulk preparation — 2026-10-17
+
+After confirming pilot delivery, the user authorized the remainder. The public
+playlist grew to 744 entries. The library now has cached catalog searches,
+conservative artist/title/version/duration matching, native archive preparation,
+Onyx 20261016 conversion, pinned portable readers and standalone PC recovery.
+254 additional charts were prepared in 11 batches: 246 Pro Drums and eight ordinary
+four-lane Drums, clearly separated. Including the pilot, 266 charts cover 275
+playlist entries; 469 entries remain explicitly pending in song-library/reports/cobertura.csv.
+See song-library/CONTINUACAO.md. Sources, hashes and Qobuz IDs are durable JSON;
+audio/charts remain private and ignored. Local ZIP paths are temporary conveniences.
+
+Original chart/audio pairing is retained. Ordinary Drums does not imply Pro Drums;
+five-lane charts are not relabeled. Onyx regenerates MIDI/audio for console inputs;
+its Ogg serial numbers vary, so source/tool/MIDI identities are pinned and local
+output hashes protect resume. Metadata recipes append without replacing earlier
+batches. Actual Windows conversion, Scan Songs, synchronization and musical quality
+remain unverified. No ML/model dependency or transcription implementation changed.
+
 ## Do not do yet
 
 - GUI

@@ -1,0 +1,2102 @@
+{
+  "schema_version": 1,
+  "batch_number": 2,
+  "collection_folder": "MixDrumRock - Lote 02",
+  "archive_name": "MixDrumRock-lote-02.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "songs": [
+    {
+      "artist": "Dream Theater",
+      "title": "Forsaken",
+      "file_id": "5b947daf879aa2.04123249",
+      "source_url": "https://rhythmverse.co/songfile/5b947daf879aa2.04123249",
+      "download_url": "https://onyxite.org/customs/download/forsaken_rc2_ps_fixed.zip",
+      "archive_format": "zip",
+      "folder": "Dream Theater - Forsaken [5b947daf]",
+      "charter": "Onyxite, mazegeek999",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1938,
+          "kick_note_on_count": 641,
+          "tom_marker_count": 34,
+          "last_expert_onset_seconds": 325.74,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947daf879aa2.04123249",
+        "artist": "Dream Theater",
+        "title": "Forsaken",
+        "album": "Systematic Chaos",
+        "game": "ps",
+        "source_url": "https://rhythmverse.co/songfile/5b947daf879aa2.04123249",
+        "download_url": "http://onyxite.org/customs/download/forsaken_rc2_ps_fixed.zip",
+        "duration_seconds": 336.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "onyxite",
+        "notes": "<p>Part of the [url=\"http://pksage.com/ccc/IPS/index.php?/topic/13546-dream-theaters-systematic-chaos-updated-112/\"]Systematic Chaos project[/url], work in progress.<br />\n&#160;<br />\nFeatures separated drums audio.<br />\n&#160;<br />\n[2015 December 3] Oops, somehow deleted the 2x con. Link should work now.<br />\n&#160;<br />\n[2016 April 15] Systematic Chaos 1.0 release, lots of minor fixes. QA by mazegeek999<br />\n&#160;<br />\n[2016 May 8] Fixed the Phase Shift song.ini.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "e08310203348375e66319b764910037e75431e59098efcc89d07026ba067c087"
+        },
+        {
+          "archive_name": "drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "3d03ac7326487b7314de82c953a6ca7dbe80807ae4a6c83826d2f4d1acc93d2c"
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "43c894ee8512bec96d90bc2e12fb000f092c4ceaf2d3397e707671d5ffb66728"
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "4639a7717fee75d4f6accdc0d785638b2fb262000b99097cdad03269535a9ad0"
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "2b0ee3cbd5116acc9850614fbdce809b1d45e89755e70eadc8cb4ec7bcbc2f4a"
+        }
+      ],
+      "archive_sha256": "312280ab3619e5c71bcf880dfffcd9348eead23e0f54040bceecac2815f7953a",
+      "archive_bytes": 10040177,
+      "prepared_bytes": 10207967,
+      "qobuz_track_ids": [
+        "14345240"
+      ],
+      "playlist_track_ids": [
+        "12449398610"
+      ]
+    },
+    {
+      "artist": "Exodus",
+      "title": "Bonded By Blood",
+      "file_id": "34e2846b234a48ae8c1350a47e9c1e11",
+      "source_url": "https://rhythmverse.co/songfile/34e2846b234a48ae8c1350a47e9c1e11",
+      "download_url": "https://rhythmverse.co/download_file/alanzinho720/34e2846b234a48ae8c1350a47e9c1e11/Exodus%20-%20Bonded%20by%20Blood.zip",
+      "archive_format": "zip",
+      "folder": "Exodus - Bonded By Blood [34e2846b]",
+      "charter": "Alan Silva",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2649,
+          "kick_note_on_count": 889,
+          "cymbal_marker_count": 787,
+          "last_expert_onset_seconds": 225.145,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "34e2846b234a48ae8c1350a47e9c1e11",
+        "artist": "Exodus",
+        "title": "Bonded By Blood",
+        "album": "Bonded By Blood",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/34e2846b234a48ae8c1350a47e9c1e11",
+        "download_url": "https://rhythmverse.co/download_file/alanzinho720/34e2846b234a48ae8c1350a47e9c1e11/Exodus - Bonded by Blood.zip",
+        "duration_seconds": 228.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Alanzito",
+        "notes": "Lyrics ✔️",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Exodus - Bonded by Blood/album.jpg",
+          "name": "album.jpg",
+          "sha256": "f0c468e6c0684264afa5496666db4fc74852270cdbcf77f242fd96773a36a9a2"
+        },
+        {
+          "archive_name": "Exodus - Bonded by Blood/background.jpg",
+          "name": "background.jpg",
+          "sha256": "dbd08b7c6543c8d85e7bf9bc7d0f274214e6e931ae2f027f19585ddefbcdc6ab"
+        },
+        {
+          "archive_name": "Exodus - Bonded by Blood/notes.chart",
+          "name": "notes.chart",
+          "sha256": "b1e84333a90a71b9b8e22c9c89722e6e3d3670f69ccdaaf1bdd38c4b86efad83"
+        },
+        {
+          "archive_name": "Exodus - Bonded by Blood/song.ini",
+          "name": "song.ini",
+          "sha256": "8bd100347a7c6ef29b118832eb2e2877f0c7e7de17ce00331ff22247e186e69c"
+        },
+        {
+          "archive_name": "Exodus - Bonded by Blood/song.mp3",
+          "name": "song.mp3",
+          "sha256": "11762cb95b29fbef3e7759003716487aac3069184abe9be8b0f5384498f4a86e"
+        }
+      ],
+      "archive_sha256": "4d486a8cd20ea8bdf8caebe2a17320d711639d5854dd48415b03df4c76e02b36",
+      "archive_bytes": 10492240,
+      "prepared_bytes": 11112263,
+      "qobuz_track_ids": [
+        "25140800"
+      ],
+      "playlist_track_ids": [
+        "12450512909"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "Clone",
+      "file_id": "6766293b84d04bf5a8c01783e7cc0a7c",
+      "source_url": "https://rhythmverse.co/songfile/6766293b84d04bf5a8c01783e7cc0a7c",
+      "download_url": "https://rhythmverse.co/download_file/seniormoistener/6766293b84d04bf5a8c01783e7cc0a7c/Gojira%20-%20Clone%20[SeniorMoistener].zip",
+      "archive_format": "zip",
+      "folder": "Gojira - Clone [6766293b]",
+      "charter": "SeniorMoistener",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1997,
+          "kick_note_on_count": 603,
+          "tom_marker_count": 62,
+          "last_expert_onset_seconds": 296.593,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6766293b84d04bf5a8c01783e7cc0a7c",
+        "artist": "Gojira",
+        "title": "Clone",
+        "album": "Terra Incognita",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/6766293b84d04bf5a8c01783e7cc0a7c",
+        "download_url": "https://rhythmverse.co/download_file/seniormoistener/6766293b84d04bf5a8c01783e7cc0a7c/Gojira - Clone [SeniorMoistener].zip",
+        "duration_seconds": 297.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "seniormoistener",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - Clone [SeniorMoistener]/album.png",
+          "name": "album.png",
+          "sha256": "00cb1ba32f7818142a2597d88afb9c5c64abdbfb5680300a61feef958a691cf2"
+        },
+        {
+          "archive_name": "Gojira - Clone [SeniorMoistener]/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f777ec730182e7e9cb8983d945c31cadf12839c01307d82fcdcbd2e55dd95124"
+        },
+        {
+          "archive_name": "Gojira - Clone [SeniorMoistener]/song.ini",
+          "name": "song.ini",
+          "sha256": "3438236caf498a95abf1e4f45e8353fc3f9f92625477547b80b29025a1f55938"
+        },
+        {
+          "archive_name": "Gojira - Clone [SeniorMoistener]/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3222f1b53162f65921cdd3f466bf7532b061e881085cbd1c1b2725c00eb8ee55"
+        }
+      ],
+      "archive_sha256": "6783d1d0d3d7de4e2c820ef6f8f0ac17665c7fe97fa2abe288f48553c2fe9ef5",
+      "archive_bytes": 10038240,
+      "prepared_bytes": 10093503,
+      "qobuz_track_ids": [
+        "34140249"
+      ],
+      "playlist_track_ids": [
+        "12451169797"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "Remembrance",
+      "file_id": "a9999545bd0b435f80c693d7b1d50430",
+      "source_url": "https://rhythmverse.co/songfile/a9999545bd0b435f80c693d7b1d50430",
+      "download_url": "https://rhythmverse.co/download_file/seniormoistener/a9999545bd0b435f80c693d7b1d50430/Gojira%20-%20Remembrance%20[SeniorMoistener].zip",
+      "archive_format": "zip",
+      "folder": "Gojira - Remembrance [a9999545]",
+      "charter": "SeniorMoistener",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2422,
+          "kick_note_on_count": 1016,
+          "tom_marker_count": 76,
+          "last_expert_onset_seconds": 271.287,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a9999545bd0b435f80c693d7b1d50430",
+        "artist": "Gojira",
+        "title": "Remembrance",
+        "album": "The Link",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a9999545bd0b435f80c693d7b1d50430",
+        "download_url": "https://rhythmverse.co/download_file/seniormoistener/a9999545bd0b435f80c693d7b1d50430/Gojira - Remembrance [SeniorMoistener].zip",
+        "duration_seconds": 281.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "seniormoistener",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - Remembrance [SeniorMoistener]/album.png",
+          "name": "album.png",
+          "sha256": "70cca4d7d9f667e873b1dee0ded4e9f0de52c6ad60a78158af9c1e366ad6f203"
+        },
+        {
+          "archive_name": "Gojira - Remembrance [SeniorMoistener]/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e10d0f0d3faf55911539ff453e09a60323f3c852ff5ef817502089a13a2020f3"
+        },
+        {
+          "archive_name": "Gojira - Remembrance [SeniorMoistener]/song.ini",
+          "name": "song.ini",
+          "sha256": "b8465c7e2411a5882ab604c1bce9e9d6f7176b3431b3789274dc3f831039d0c7"
+        },
+        {
+          "archive_name": "Gojira - Remembrance [SeniorMoistener]/song.ogg",
+          "name": "song.ogg",
+          "sha256": "643978bde467d41ffac0a8336110f84d692a08c2da8dfe28c8a5e8fbbaa6649f"
+        }
+      ],
+      "archive_sha256": "b32167f1a60de4495d048d3d77c7cc723d99a670a5b8e7533ec8c1da0ce7ec87",
+      "archive_bytes": 16395644,
+      "prepared_bytes": 16430264,
+      "qobuz_track_ids": [
+        "14196221"
+      ],
+      "playlist_track_ids": [
+        "12451169776"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "Stranded",
+      "file_id": "04ab6df6cb7a43d0899cd4bd87fc688c",
+      "source_url": "https://rhythmverse.co/songfile/04ab6df6cb7a43d0899cd4bd87fc688c",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/04ab6df6cb7a43d0899cd4bd87fc688c/Gojira%20-%20Stranded.zip",
+      "archive_format": "zip",
+      "folder": "Gojira - Stranded [04ab6df6]",
+      "charter": "Ungrateful Dead",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1464,
+          "kick_note_on_count": 317,
+          "tom_marker_count": 223,
+          "last_expert_onset_seconds": 268.612,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "04ab6df6cb7a43d0899cd4bd87fc688c",
+        "artist": "Gojira",
+        "title": "Stranded",
+        "album": "Magma",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/04ab6df6cb7a43d0899cd4bd87fc688c",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/04ab6df6cb7a43d0899cd4bd87fc688c/Gojira - Stranded.zip",
+        "duration_seconds": 273.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - Stranded/album.jpg",
+          "name": "album.jpg",
+          "sha256": "d71b53627fb9aaa74f27068048b94ce2b0a3d74261bf2813ef36dc0da2e1d8c8"
+        },
+        {
+          "archive_name": "Gojira - Stranded/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "3a5595552b67dfdd48b65bef78b3567d903a975578f632afc7bdc2e43348ab2a"
+        },
+        {
+          "archive_name": "Gojira - Stranded/notes.mid",
+          "name": "notes.mid",
+          "sha256": "896aab2df35e386861cca4712468d71bdb55eef48f35fae625afc898a3a0f122"
+        },
+        {
+          "archive_name": "Gojira - Stranded/song.ini",
+          "name": "song.ini",
+          "sha256": "9c76b7eeea237aa65413399a4d77770d982a7defd63138b54b6c26a81db27c38"
+        }
+      ],
+      "archive_sha256": "e1142e03a71f4bcacd640184d7303a436b1ae75a50e837d3b79d9a12d6c8bea4",
+      "archive_bytes": 8121607,
+      "prepared_bytes": 8048553,
+      "qobuz_track_ids": [
+        "31458912"
+      ],
+      "playlist_track_ids": [
+        "12451169770"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "The Heaviest Matter of the Universe",
+      "file_id": "3788a9a737b94d44b3ca8095d59468e4",
+      "source_url": "https://rhythmverse.co/songfile/3788a9a737b94d44b3ca8095d59468e4",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/3788a9a737b94d44b3ca8095d59468e4/Gojira%20-%20The%20Heaviest%20Matter%20of%20The%20Universe.zip",
+      "archive_format": "zip",
+      "folder": "Gojira - The Heaviest Matter of the Universe [3788a9a7]",
+      "charter": "Jordan9232",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2055,
+          "kick_note_on_count": 861,
+          "tom_marker_count": 264,
+          "last_expert_onset_seconds": 235.536,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3788a9a737b94d44b3ca8095d59468e4",
+        "artist": "Gojira",
+        "title": "The Heaviest Matter of the Universe",
+        "album": "From Mars To Sirius",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/3788a9a737b94d44b3ca8095d59468e4",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/3788a9a737b94d44b3ca8095d59468e4/Gojira - The Heaviest Matter of The Universe.zip",
+        "duration_seconds": 239.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - The Heaviest Matter of The Universe/album.jpg",
+          "name": "album.jpg",
+          "sha256": "097d4d06ba8e62469a4fc81a7a116c1839ba4b63472b74031b856423eed5a81f"
+        },
+        {
+          "archive_name": "Gojira - The Heaviest Matter of The Universe/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "6b8d64e531c3842bbd1f947e07d5bad03bd93776aba90b637abac5aab0a34b33"
+        },
+        {
+          "archive_name": "Gojira - The Heaviest Matter of The Universe/notes.mid",
+          "name": "notes.mid",
+          "sha256": "24d5b1d2279e69c614424574fb3215c02588f5f2599d9b7900427a55e6bb5aef"
+        },
+        {
+          "archive_name": "Gojira - The Heaviest Matter of The Universe/song.ini",
+          "name": "song.ini",
+          "sha256": "695b06d0493d85387115d741101011c05ec42df541ca127c1c3c98ed901ca43a"
+        }
+      ],
+      "archive_sha256": "48838a904773bd37b45a33c8dc5c57c66e2e6d844d3d704a9aa9dd40209c58b5",
+      "archive_bytes": 5651458,
+      "prepared_bytes": 5593819,
+      "qobuz_track_ids": [
+        "14195454"
+      ],
+      "playlist_track_ids": [
+        "12451169795"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Dance of Death",
+      "file_id": "df7b44be2bea44ad878dafa627253a65",
+      "source_url": "https://rhythmverse.co/songfile/df7b44be2bea44ad878dafa627253a65",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/df7b44be2bea44ad878dafa627253a65/Iron%20Maiden%20-%20Dance%20of%20Death.zip",
+      "archive_format": "zip",
+      "folder": "Iron Maiden - Dance of Death [df7b44be]",
+      "charter": "GhostByob",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2151,
+          "kick_note_on_count": 701,
+          "tom_marker_count": 201,
+          "last_expert_onset_seconds": 512.709,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "df7b44be2bea44ad878dafa627253a65",
+        "artist": "Iron Maiden",
+        "title": "Dance of Death",
+        "album": "Dance of Death",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/df7b44be2bea44ad878dafa627253a65",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/df7b44be2bea44ad878dafa627253a65/Iron Maiden - Dance of Death.zip",
+        "duration_seconds": 521.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Dance of Death/album.png",
+          "name": "album.png",
+          "sha256": "b800764fd3bf357492076e0e4dd54238f22956238a0ce6f2251a6e5e3a7fba8f"
+        },
+        {
+          "archive_name": "Iron Maiden - Dance of Death/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "3b6a7cb74479582d354e9990e1ca5bc3ae8feed6257e5e83cb01966601c972a6"
+        },
+        {
+          "archive_name": "Iron Maiden - Dance of Death/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a5871d72408ea84db566b9a7ae2043ce0247c7b64f487b6bf360befa2dba2173"
+        },
+        {
+          "archive_name": "Iron Maiden - Dance of Death/song.ini",
+          "name": "song.ini",
+          "sha256": "d2b38e86b74347f56d0eacd0e73cc67920d9dfd0477972ac3b4ccb995e8ad433"
+        }
+      ],
+      "archive_sha256": "9e1da80f7cd6cc778925bfdaebd7f6468b518bf500eed5b61be0db8c37c3623d",
+      "archive_bytes": 10746666,
+      "prepared_bytes": 10701831,
+      "qobuz_track_ids": [
+        "3605060"
+      ],
+      "playlist_track_ids": [
+        "12449352532"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Different World",
+      "file_id": "9968a5de48424162be983fdad1a267ac",
+      "source_url": "https://rhythmverse.co/songfile/9968a5de48424162be983fdad1a267ac",
+      "download_url": "https://rhythmverse.co/download_file/rjsf22/9968a5de48424162be983fdad1a267ac/Iron%20Maiden%20-%20Different%20World.zip",
+      "archive_format": "zip",
+      "folder": "Iron Maiden - Different World [9968a5de]",
+      "charter": "RJSF",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1920,
+          "kick_note_on_count": 633,
+          "cymbal_marker_count": 597,
+          "last_expert_onset_seconds": 256.305,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "9968a5de48424162be983fdad1a267ac",
+        "artist": "Iron Maiden",
+        "title": "Different World",
+        "album": "A Matter of Life and Death",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/9968a5de48424162be983fdad1a267ac",
+        "download_url": "https://rhythmverse.co/download_file/rjsf22/9968a5de48424162be983fdad1a267ac/Iron Maiden - Different World.zip",
+        "duration_seconds": 261.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "RJSF22",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Different World/album.png",
+          "name": "album.png",
+          "sha256": "4af10a58686746464d8c5e2cd41299b096258273a92aeddaa3dab1e6540317b3"
+        },
+        {
+          "archive_name": "Iron Maiden - Different World/background.jpg",
+          "name": "background.jpg",
+          "sha256": "c4533a75c799c5aee9944f19009aabc00371b5d3a8b1df6d84373eac8f5a6936"
+        },
+        {
+          "archive_name": "Iron Maiden - Different World/notes.chart",
+          "name": "notes.chart",
+          "sha256": "29f2d26d3c084997e7d61372e3fbc20ce21f26b27ba1b374ee6547e779387bc9"
+        },
+        {
+          "archive_name": "Iron Maiden - Different World/song.ini",
+          "name": "song.ini",
+          "sha256": "84c80ad2dd799d8d5a87b94b96df292b894672d269d9f5887b7c6d6cd5c924e7"
+        },
+        {
+          "archive_name": "Iron Maiden - Different World/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7f9266c4c4aed3c98bff4f39bed8c4a5655100f49633d2d6c72ca5ac04e59e37"
+        }
+      ],
+      "archive_sha256": "fa54ba2dd694c9ff946043e4c2a164e9d9d3a0946fdc547ff66319fd8347548f",
+      "archive_bytes": 10807070,
+      "prepared_bytes": 10862701,
+      "qobuz_track_ids": [
+        "3605043"
+      ],
+      "playlist_track_ids": [
+        "12449352553"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Hell On Earth",
+      "file_id": "b38df35af3f54573911707aa3989a445",
+      "source_url": "https://rhythmverse.co/songfile/b38df35af3f54573911707aa3989a445",
+      "download_url": "https://rhythmverse.co/download_file/bryan-holderbaum/b38df35af3f54573911707aa3989a445/Iron%20Maiden%20-%20Hell%20On%20Earth.zip",
+      "archive_format": "zip",
+      "folder": "Iron Maiden - Hell On Earth [b38df35a]",
+      "charter": "Fireball495673",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3265,
+          "kick_note_on_count": 1042,
+          "cymbal_marker_count": 1588,
+          "last_expert_onset_seconds": 586.498,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b38df35af3f54573911707aa3989a445",
+        "artist": "Iron Maiden",
+        "title": "Hell On Earth",
+        "album": "Senjutsu",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b38df35af3f54573911707aa3989a445",
+        "download_url": "https://rhythmverse.co/download_file/bryan-holderbaum/b38df35af3f54573911707aa3989a445/Iron Maiden - Hell On Earth.zip",
+        "duration_seconds": 683.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Fireball495673",
+        "notes": "Hell On Earth is my favorite song of all time! I put my all into making this chart as accurate and close to the song as I could! I really hope all who play it enjoy it and find it fair! (Edit note: Had to update the chart a tiny bit to lower the guitar difficulty to 5 and to get rid of a couple notes on the drum chart that were unnecessary)",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Hell On Earth/album.jpg",
+          "name": "album.jpg",
+          "sha256": "f557df0283973bd3bc72b1f15a8cb1b44c3ba9e9445203526d47af5d478042bd"
+        },
+        {
+          "archive_name": "Iron Maiden - Hell On Earth/notes.chart",
+          "name": "notes.chart",
+          "sha256": "58b4b9fe461036a07d5ade0b1ec32e85bf7ed33865e31dcda13912f3b587669e"
+        },
+        {
+          "archive_name": "Iron Maiden - Hell On Earth/song.ini",
+          "name": "song.ini",
+          "sha256": "5c9211eca2aac3788f2b485e98b42462a9e2198388873dea6cc8ae934c68ae37"
+        },
+        {
+          "archive_name": "Iron Maiden - Hell On Earth/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6d3850979065cde94418c6f87e36c67f9e013f95b2813133e31e485cd2091703"
+        }
+      ],
+      "archive_sha256": "72e5db321f2726e682819ac9f3046b776c2725d5b57f957c80067e7ee45f55ab",
+      "archive_bytes": 17810173,
+      "prepared_bytes": 18252404,
+      "qobuz_track_ids": [
+        "126886862"
+      ],
+      "playlist_track_ids": [
+        "12449352560"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Wasting Love",
+      "file_id": "9c65403e7d204744b138f8cf36b43b6c",
+      "source_url": "https://rhythmverse.co/songfile/9c65403e7d204744b138f8cf36b43b6c",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/9c65403e7d204744b138f8cf36b43b6c/Iron%20Maiden%20-%20Wasting%20Love.zip",
+      "archive_format": "zip",
+      "folder": "Iron Maiden - Wasting Love [9c65403e]",
+      "charter": "Furiouss",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1339,
+          "kick_note_on_count": 357,
+          "tom_marker_count": 132,
+          "last_expert_onset_seconds": 336.133,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "9c65403e7d204744b138f8cf36b43b6c",
+        "artist": "Iron Maiden",
+        "title": "Wasting Love",
+        "album": "Fear Of The Dark",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/9c65403e7d204744b138f8cf36b43b6c",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/9c65403e7d204744b138f8cf36b43b6c/Iron Maiden - Wasting Love.zip",
+        "duration_seconds": 355.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Wasting Love/album.png",
+          "name": "album.png",
+          "sha256": "ed1597016eca2d1db912328db4d88430e68355f9cf3d29cd58a83aa12ad0cdc2"
+        },
+        {
+          "archive_name": "Iron Maiden - Wasting Love/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "a9de1b347b55ddc18a75e92e8010cf4a28d56b85f3ad6a9840062809909542e0"
+        },
+        {
+          "archive_name": "Iron Maiden - Wasting Love/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b8c88cf1ef85059c458a277a427c3ff39d932f1ced2b518dea7b268c9398da50"
+        },
+        {
+          "archive_name": "Iron Maiden - Wasting Love/song.ini",
+          "name": "song.ini",
+          "sha256": "0a21e2a6c3661c253296cdf35ec6ca0daf1b29caf45e48a01ceaee837e50c532"
+        }
+      ],
+      "archive_sha256": "d3b69a4dbf38da3613293d19ce946607318aa72237b181ff62afdc12d4853b9c",
+      "archive_bytes": 7705175,
+      "prepared_bytes": 7592013,
+      "qobuz_track_ids": [
+        "25120869"
+      ],
+      "playlist_track_ids": [
+        "12449352530"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Crawling",
+      "file_id": "b01756067b8c4aa1bfbd31276a1a059a",
+      "source_url": "https://rhythmverse.co/songfile/b01756067b8c4aa1bfbd31276a1a059a",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b01756067b8c4aa1bfbd31276a1a059a/Linkin%20Park%20-%20Crawling.zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Crawling [b0175606]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1263,
+          "kick_note_on_count": 222,
+          "tom_marker_count": 46,
+          "last_expert_onset_seconds": 200.562,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 8,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b01756067b8c4aa1bfbd31276a1a059a",
+        "artist": "Linkin Park",
+        "title": "Crawling",
+        "album": "Hybrid Theory",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b01756067b8c4aa1bfbd31276a1a059a",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b01756067b8c4aa1bfbd31276a1a059a/Linkin Park - Crawling.zip",
+        "duration_seconds": 208.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Crawling/album.jpg",
+          "name": "album.jpg",
+          "sha256": "f01b3f03769f2db52e1a96ab457c57152e46efa5eaa591ff6ee09cda82b60466"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "ada52d256c31556dc537b72f3fa46a3727cca007d6fe8e98b3de2c6b58fcbba3"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "995663e86b86ab94a27f327ca632a6c3bb967ac843f933f008255b513132ce68"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "1a7b7918abe44bfdeb5753d44f286414a281474a0b40f76164dd89d46a767633"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "22c1e9f1a4b7a0197963cc001cb39e3409941baf67048d116a9c2440bbf28222"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "eb51f1af0807b43bb2c023237e0737a341739d930c1164126ad52edac72314c1"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2518a58aeddb83200dd9194a1ca983865baad970b114b3511393e6e0326e610e"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "d865a7a03578368a9e019bd36599dba5ce246ffcb49ef5be9077363c58da13dc"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling/song.ini",
+          "name": "song.ini",
+          "sha256": "28f9e7d59f41ceb7797f6fc304c631d3781bb05a10960acc8100bb752a4c9dc1"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b5cc57d09ad1e776d80aaa6b7602845097edf2be47b895d97f7ed91975720935"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "64c208d459a3a364a9a5659647970edd3a87dc699031686a916cc25cc69e073d"
+        }
+      ],
+      "archive_sha256": "92e00a7a936614a416b28e510c5d33cca64753c85c90fb06e2fd06746512dd64",
+      "archive_bytes": 20162610,
+      "prepared_bytes": 20464155,
+      "qobuz_track_ids": [
+        "99543872",
+        "7020291"
+      ],
+      "playlist_track_ids": [
+        "12221847115",
+        "12450473450"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Given Up",
+      "file_id": "0ccdd2668df04f2f8c0b240ddb2d5dcc",
+      "source_url": "https://rhythmverse.co/songfile/0ccdd2668df04f2f8c0b240ddb2d5dcc",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/0ccdd2668df04f2f8c0b240ddb2d5dcc/Linkin%20Park%20-%20Given%20Up.zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Given Up [0ccdd266]",
+      "charter": "Nickmein",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1054,
+          "kick_note_on_count": 305,
+          "tom_marker_count": 7,
+          "last_expert_onset_seconds": 189.404,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "0ccdd2668df04f2f8c0b240ddb2d5dcc",
+        "artist": "Linkin Park",
+        "title": "Given Up",
+        "album": "Minutes to Midnight",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/0ccdd2668df04f2f8c0b240ddb2d5dcc",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/0ccdd2668df04f2f8c0b240ddb2d5dcc/Linkin Park - Given Up.zip",
+        "duration_seconds": 189.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Given Up/album.jpg",
+          "name": "album.jpg",
+          "sha256": "1ec4f70a5c986dcb144dc5dc65654c40145179d9f3eedbfb06add9b4c8fe69da"
+        },
+        {
+          "archive_name": "Linkin Park - Given Up/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "21a4d6c1c9b903cf3d10b398243fc3ff94703db4e434606c4435a2a2e1ccb418"
+        },
+        {
+          "archive_name": "Linkin Park - Given Up/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "56b49cc3e4dad63b2d2738da59868c5908d54058b508292196e7e2f524a4dd01"
+        },
+        {
+          "archive_name": "Linkin Park - Given Up/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "581b50f98d29353da6e2c94a684972ad337cde7221e5213246c2adf210fda9d6"
+        },
+        {
+          "archive_name": "Linkin Park - Given Up/notes.mid",
+          "name": "notes.mid",
+          "sha256": "5dc6915fddf0cf6cbac22a918273a4d13f27b98819aea102105bc38a46507c89"
+        },
+        {
+          "archive_name": "Linkin Park - Given Up/song.ini",
+          "name": "song.ini",
+          "sha256": "f45833a218e6298abe4e8bc989083192580bec0bf8d550e80ae0b7479157470b"
+        },
+        {
+          "archive_name": "Linkin Park - Given Up/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "ed19e9890621e6e71d76c613987695473e144d1e0a556aa41ccc3b9326cd8f24"
+        }
+      ],
+      "archive_sha256": "9b5d637a02a68cd37988fca6f05ea6ac7c46e7c050b1e9a6ff4edd57350d696d",
+      "archive_bytes": 13390815,
+      "prepared_bytes": 13397437,
+      "qobuz_track_ids": [
+        "6907102"
+      ],
+      "playlist_track_ids": [
+        "12450473469"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Good Things Go",
+      "file_id": "31c1da1db05f47bbad8cde02f59f629a",
+      "source_url": "https://rhythmverse.co/songfile/31c1da1db05f47bbad8cde02f59f629a",
+      "download_url": "https://rhythmverse.co/download_file/sir-vector/31c1da1db05f47bbad8cde02f59f629a/Good%20Things%20Go.zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Good Things Go [31c1da1d]",
+      "charter": "Vectored",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 836,
+          "kick_note_on_count": 174,
+          "cymbal_marker_count": 411,
+          "last_expert_onset_seconds": 199.37,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 3,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "31c1da1db05f47bbad8cde02f59f629a",
+        "artist": "Linkin Park",
+        "title": "Good Things Go",
+        "album": "From Zero",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/31c1da1db05f47bbad8cde02f59f629a",
+        "download_url": "https://rhythmverse.co/download_file/sir-vector/31c1da1db05f47bbad8cde02f59f629a/Good Things Go.zip",
+        "duration_seconds": 214.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sir Vector",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Good Things Go/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "a0a4a3b89794b017bf1732d924b91fa233ce7bcdc6dde1888c2a99c4d6ed23d6"
+        },
+        {
+          "archive_name": "Good Things Go/notes.chart",
+          "name": "notes.chart",
+          "sha256": "8fb29095410aa3e104d39458573cfb37a8fd604385bdab5c4fe25c4cb5b6de9d"
+        },
+        {
+          "archive_name": "Good Things Go/song.ini",
+          "name": "song.ini",
+          "sha256": "aab41e061073fee8207832740200446a4910d25a5e66b1deec2f675aa8311f36"
+        },
+        {
+          "archive_name": "Good Things Go/song.ogg",
+          "name": "song.ogg",
+          "sha256": "e8aacbc2bad7e5e5ed030375801dbeabccf4c009af34825eb897761284da677c"
+        },
+        {
+          "archive_name": "Good Things Go/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "8136bb0fcb553b8190d5b825fcf900162a34492c95baa11b781ed4477c2e5c6e"
+        }
+      ],
+      "archive_sha256": "a00bc3ee7a499b9da5a52b35da402d17ed2bdee6d6642e10b74bb3da45580fec",
+      "archive_bytes": 15935767,
+      "prepared_bytes": 16028260,
+      "qobuz_track_ids": [
+        "287336652"
+      ],
+      "playlist_track_ids": [
+        "12450473465"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "IGYEIH",
+      "file_id": "37b750806b734b68b884c75b7a915a4e",
+      "source_url": "https://rhythmverse.co/songfile/37b750806b734b68b884c75b7a915a4e",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/37b750806b734b68b884c75b7a915a4e/Linkin%20Park%20-%20IGYEIH%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - IGYEIH [37b75080]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 890,
+          "kick_note_on_count": 226,
+          "tom_marker_count": 30,
+          "last_expert_onset_seconds": 201.194,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "37b750806b734b68b884c75b7a915a4e",
+        "artist": "Linkin Park",
+        "title": "IGYEIH",
+        "album": "From Zero",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/37b750806b734b68b884c75b7a915a4e",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/37b750806b734b68b884c75b7a915a4e/Linkin Park - IGYEIH (mjey2010).zip",
+        "duration_seconds": 211.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - IGYEIH (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "39de865a66aa8f90b3c7b4de95ba20f8f7e06eac544580765532afd538d93855"
+        },
+        {
+          "archive_name": "Linkin Park - IGYEIH (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "b1a4827ded7041735c75c1eb4871d86562176bc13f6403cb8aa2ddf916a22d89"
+        },
+        {
+          "archive_name": "Linkin Park - IGYEIH (mjey2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "8376dd45af346ecc1407fdc77e8820793583752b695efdd9dca8449490d1483b"
+        },
+        {
+          "archive_name": "Linkin Park - IGYEIH (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "8e9e89a3246cccf3499fd7fecf4b2823b11eb04b12d56d5b847b30c371d3dd76"
+        },
+        {
+          "archive_name": "Linkin Park - IGYEIH (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "41afbfa651e8446ef6243af8783fd2416da31923650a1a3515f5d990a6d9e86f"
+        }
+      ],
+      "archive_sha256": "1d8d2e09f09887b52a9aaac66ec8b8ae47580cad856685fa925f4583df065b19",
+      "archive_bytes": 7050471,
+      "prepared_bytes": 7125633,
+      "qobuz_track_ids": [
+        "287336651"
+      ],
+      "playlist_track_ids": [
+        "12450473452"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "In The End",
+      "file_id": "b6b97e67892d430daff47cdbe4cf5437",
+      "source_url": "https://rhythmverse.co/songfile/b6b97e67892d430daff47cdbe4cf5437",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b6b97e67892d430daff47cdbe4cf5437/Linkin%20Park%20-%20In%20The%20End.zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - In The End [b6b97e67]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1001,
+          "kick_note_on_count": 275,
+          "tom_marker_count": 46,
+          "last_expert_onset_seconds": 189.704,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 8,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b6b97e67892d430daff47cdbe4cf5437",
+        "artist": "Linkin Park",
+        "title": "In The End",
+        "album": "Hybrid Theory",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b6b97e67892d430daff47cdbe4cf5437",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b6b97e67892d430daff47cdbe4cf5437/Linkin Park - In The End.zip",
+        "duration_seconds": 215.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - In The End/album.jpg",
+          "name": "album.jpg",
+          "sha256": "f01b3f03769f2db52e1a96ab457c57152e46efa5eaa591ff6ee09cda82b60466"
+        },
+        {
+          "archive_name": "Linkin Park - In The End/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "aeb3661345ac9fe754339e9450c17dada039ec88cb3975ffa3f74a10645547d8"
+        },
+        {
+          "archive_name": "Linkin Park - In The End/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "2d281c28a0e8471bdfb30cba2621a2de0cd57432f01746a2bbc122f0dc658da4"
+        },
+        {
+          "archive_name": "Linkin Park - In The End/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "f578a7b0f3184d924b967f7d638348e10a439bd28dbecdff5a4c5aec6b502349"
+        },
+        {
+          "archive_name": "Linkin Park - In The End/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d814447d8a1c17a41e8362fc4d4135956fc6f4e78351c82d8fd94a444951187a"
+        },
+        {
+          "archive_name": "Linkin Park - In The End/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "cb4f78dcbf89e357e32430dede7acbf5d746410ee7a155ba96808a6b4c6a57ab"
+        },
+        {
+          "archive_name": "Linkin Park - In The End/notes.mid",
+          "name": "notes.mid",
+          "sha256": "5d99d9c941c99e0606295d1f1cc821a2d5550520d21d594a91b93f1758780aca"
+        },
+        {
+          "archive_name": "Linkin Park - In The End/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "ec8e8b137ae29daa3db04ab4c49c0a70d54b4790141512cb0b056a3b0e781a51"
+        },
+        {
+          "archive_name": "Linkin Park - In The End/song.ini",
+          "name": "song.ini",
+          "sha256": "733a3f27b2142d6b71e5f15d17effe90346dc649facae7609a71001c6d68a18c"
+        },
+        {
+          "archive_name": "Linkin Park - In The End/song.ogg",
+          "name": "song.ogg",
+          "sha256": "75bc8c3270409e6a571917fa5ffed58ba93b5f49589701d12785d94c29fba160"
+        },
+        {
+          "archive_name": "Linkin Park - In The End/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "2c355ac10197391b60b0cf58df9aa8ad82a98b4d4d15f1fc910dceb784f397d4"
+        }
+      ],
+      "archive_sha256": "fbe32cd8bd4c5c6fe546de34ff66e718a19b9520a1fb9ba0c131545ba18227dd",
+      "archive_bytes": 27520361,
+      "prepared_bytes": 27793134,
+      "qobuz_track_ids": [
+        "7020294"
+      ],
+      "playlist_track_ids": [
+        "12450473430"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Leave Out All The Rest",
+      "file_id": "2ac99a5052774648874696a1a4359db2",
+      "source_url": "https://rhythmverse.co/songfile/2ac99a5052774648874696a1a4359db2",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/2ac99a5052774648874696a1a4359db2/Linkin%20Park%20-%20Leave%20Out%20All%20The%20Rest%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Leave Out All The Rest [2ac99a50]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 689,
+          "kick_note_on_count": 209,
+          "cymbal_marker_count": 372,
+          "last_expert_onset_seconds": 176.25,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "2ac99a5052774648874696a1a4359db2",
+        "artist": "Linkin Park",
+        "title": "Leave Out All The Rest",
+        "album": "Minutes to Midnight",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/2ac99a5052774648874696a1a4359db2",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/2ac99a5052774648874696a1a4359db2/Linkin Park - Leave Out All The Rest (mjey2010).zip",
+        "duration_seconds": 211.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Leave Out All The Rest (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "58f13c480e5fc55affbb96fc6e481e5accaee88510e1f7eac92034bd438a3b62"
+        },
+        {
+          "archive_name": "Linkin Park - Leave Out All The Rest (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "c95901322c161d2bf30cf6f55222eb72fc1153598e051388e255e1bdb32971cd"
+        },
+        {
+          "archive_name": "Linkin Park - Leave Out All The Rest (mjey2010)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "11492f40d35b0886cedc5f0ff451d6081a54db16595a2232058e4b64107a6451"
+        },
+        {
+          "archive_name": "Linkin Park - Leave Out All The Rest (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "93ae7f57ea807bf5e8b3e7235221f023fc5c1f5064b853efda02eea367cd728a"
+        },
+        {
+          "archive_name": "Linkin Park - Leave Out All The Rest (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d0f99edb40874f54ad0004177b3068690e31a994de2f90e717ba756e3cc7ca9b"
+        }
+      ],
+      "archive_sha256": "8c8cc3c71a49b5527211969f36d5fc9abb0d410aafb61b1b312e8a00e44fd534",
+      "archive_bytes": 5366854,
+      "prepared_bytes": 5474341,
+      "qobuz_track_ids": [
+        "6907103"
+      ],
+      "playlist_track_ids": [
+        "12450473462"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "New Divide",
+      "file_id": "81eb3dbbe67c4034b43f3f938d5bdde0",
+      "source_url": "https://rhythmverse.co/songfile/81eb3dbbe67c4034b43f3f938d5bdde0",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/81eb3dbbe67c4034b43f3f938d5bdde0/Linkin%20Park%20-%20New%20Divide.zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - New Divide [81eb3dbb]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1378,
+          "kick_note_on_count": 352,
+          "tom_marker_count": 265,
+          "last_expert_onset_seconds": 248.119,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "81eb3dbbe67c4034b43f3f938d5bdde0",
+        "artist": "Linkin Park",
+        "title": "New Divide",
+        "album": "Transformers: Revenge of the Fallen",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/81eb3dbbe67c4034b43f3f938d5bdde0",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/81eb3dbbe67c4034b43f3f938d5bdde0/Linkin Park - New Divide.zip",
+        "duration_seconds": 269.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - New Divide/album.jpg",
+          "name": "album.jpg",
+          "sha256": "57aa264f5019a357249a637bb2fd7b18384d0cd6591b330f069341645d4858fe"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "0477370f52636e9bfc1c8d91b6257488ef7afdfe39197dc2765d333d781ab2ef"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "8cd7575b9c07a3b3757c9c6dae9f735ef45c7b565c28561294b32286e41ae637"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "1f4fbb8ff4f3a71b5131e1fe0fc159c3caa5ec48bfa62584cb3de9b2be66002b"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2a14f871f88ec5294872453a309bfcb90b8eea585c3d7405ef8679c5ba6dcfdb"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "3945a48b3c8580749d926a3ec6ff68db65faad7f59d4300db53cb4f1162c2af8"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide/song.ini",
+          "name": "song.ini",
+          "sha256": "c71356144b62f36b2cb0fbbe39a2ba84440ac590b89942fd2d9d23383e0f3948"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6d86ec7162699f07898110ab966db0e7e747ffd78b99f211d402d45ae876917d"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "57dba4964031d6a3912f6fc61b2ea6ab28a595344e4f3deaebdcec0dc9be3042"
+        }
+      ],
+      "archive_sha256": "f9722f8b22b165d83dfa2aaba1d13a21e6fe6c373c211f50fcd2f92b9ceeb9e6",
+      "archive_bytes": 32895520,
+      "prepared_bytes": 32862866,
+      "qobuz_track_ids": [
+        "2844992"
+      ],
+      "playlist_track_ids": [
+        "12450473436"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Papercut",
+      "file_id": "e40f1a19164c444a9c492714d576d7dd",
+      "source_url": "https://rhythmverse.co/songfile/e40f1a19164c444a9c492714d576d7dd",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/e40f1a19164c444a9c492714d576d7dd/Linkin%20Park%20-%20Papercut.zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Papercut [e40f1a19]",
+      "charter": "MJR, Nickmein",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1498,
+          "kick_note_on_count": 443,
+          "tom_marker_count": 99,
+          "last_expert_onset_seconds": 187.608,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "e40f1a19164c444a9c492714d576d7dd",
+        "artist": "Linkin Park",
+        "title": "Papercut",
+        "album": "Hybrid Theory",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/e40f1a19164c444a9c492714d576d7dd",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/e40f1a19164c444a9c492714d576d7dd/Linkin Park - Papercut.zip",
+        "duration_seconds": 191.0,
+        "duration_difference_seconds": 7.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Papercut/album.jpg",
+          "name": "album.jpg",
+          "sha256": "f01b3f03769f2db52e1a96ab457c57152e46efa5eaa591ff6ee09cda82b60466"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "a704fc283ca0f8f32d6d6e88122607ed5a36aaf50472f7c40778d1fbdb20171e"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut/notes.mid",
+          "name": "notes.mid",
+          "sha256": "771daad6b1f7ea46ee64a5f6bf47ab308f98a14e0959fd79c7f744245474ae08"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut/song.ini",
+          "name": "song.ini",
+          "sha256": "ee56882e81a0e1f8c96bd790d60432387bfd0f22acfe7e343cedb7bd855bca75"
+        }
+      ],
+      "archive_sha256": "626c3402c6758788509f1d351266a5deed2d3f12f07b374be011383ae82e1efe",
+      "archive_bytes": 4036827,
+      "prepared_bytes": 3936067,
+      "qobuz_track_ids": [
+        "7020287"
+      ],
+      "playlist_track_ids": [
+        "12450473455"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Somewhere I Belong",
+      "file_id": "0d8b5a3b759d47f9bbb205cd460c7b29",
+      "source_url": "https://rhythmverse.co/songfile/0d8b5a3b759d47f9bbb205cd460c7b29",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/0d8b5a3b759d47f9bbb205cd460c7b29/Linkin%20Park%20-%20Somewhere%20I%20Belong.zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Somewhere I Belong [0d8b5a3b]",
+      "charter": "Matthew Jay Reynolds",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1289,
+          "kick_note_on_count": 398,
+          "tom_marker_count": 74,
+          "last_expert_onset_seconds": 214.332,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "0d8b5a3b759d47f9bbb205cd460c7b29",
+        "artist": "Linkin Park",
+        "title": "Somewhere I Belong",
+        "album": "Meteora",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/0d8b5a3b759d47f9bbb205cd460c7b29",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/0d8b5a3b759d47f9bbb205cd460c7b29/Linkin Park - Somewhere I Belong.zip",
+        "duration_seconds": 216.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong/album.png",
+          "name": "album.png",
+          "sha256": "df73c0483a424266280bb7249e3da393f7d4bc66986dd78bd4ec01dba24968a5"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "32cc4485c7b3d3f279fc40ee6201dcd3386204e5e0d1413a52add325c977c4d3"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "1636ad472a8083ebf664daa3bd1b08a5865d3fab78866140153aff516946a500"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c841c7127d47001abc4e45bae09d914b6ae43478eaf63719b729d8331b8804ec"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "98f75cd06b578975d9c38d3450c23590eb61f3baef9ddd6928e7fa0ae24e6dd2"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong/notes.mid",
+          "name": "notes.mid",
+          "sha256": "81951ee8a8e5f29ca2230dd80d6f655c1bb75507823fa4a314b1dfbbe5dab2ae"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong/song.ini",
+          "name": "song.ini",
+          "sha256": "16e5a60b016f9ef8b1a804febda3cacc0ce0683a50594e2b9135fdab1380bd69"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "90542951b7e325adf92f36a66f93066f52d3a82c6a4f65974c3ccacc6e216dc2"
+        }
+      ],
+      "archive_sha256": "43b059458af9d103aab1c0f041c128ae59863c96c6f796ef007565a8a7d81f92",
+      "archive_bytes": 24873907,
+      "prepared_bytes": 24994450,
+      "qobuz_track_ids": [
+        "7020275"
+      ],
+      "playlist_track_ids": [
+        "12221847116"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Valentine's Day",
+      "file_id": "6c0e889b7f0f42a887e305d00f1f5fa5",
+      "source_url": "https://rhythmverse.co/songfile/6c0e889b7f0f42a887e305d00f1f5fa5",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/6c0e889b7f0f42a887e305d00f1f5fa5/Linkin%20Park%20-%20Valentines%20Day%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Valentine's Day [6c0e889b]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 885,
+          "kick_note_on_count": 160,
+          "cymbal_marker_count": 236,
+          "last_expert_onset_seconds": 194.722,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6c0e889b7f0f42a887e305d00f1f5fa5",
+        "artist": "Linkin Park",
+        "title": "Valentine's Day",
+        "album": "Minutes to Midnight",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/6c0e889b7f0f42a887e305d00f1f5fa5",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/6c0e889b7f0f42a887e305d00f1f5fa5/Linkin Park - Valentines Day (mjey2010).zip",
+        "duration_seconds": 198.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Valentines Day (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "58f13c480e5fc55affbb96fc6e481e5accaee88510e1f7eac92034bd438a3b62"
+        },
+        {
+          "archive_name": "Linkin Park - Valentines Day (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "c95901322c161d2bf30cf6f55222eb72fc1153598e051388e255e1bdb32971cd"
+        },
+        {
+          "archive_name": "Linkin Park - Valentines Day (mjey2010)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "37647288dd0de47e92340fdf0608e89e51829a54d8fb29de4511abd0506f06d0"
+        },
+        {
+          "archive_name": "Linkin Park - Valentines Day (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "1366a4ef261edfb1db6d2fec3d94c1a339408d1a35dccd5a809d2760c2b53151"
+        },
+        {
+          "archive_name": "Linkin Park - Valentines Day (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a98e8fc27d142418136f7cdd5f3a287ab9a876162a0a16e2dbeb3a7ed26d6d5c"
+        }
+      ],
+      "archive_sha256": "94ea6db9a6ad8ba2cdfa4f509517c208c1dedb07c2304ce3353207b81a9adf57",
+      "archive_bytes": 4851379,
+      "prepared_bytes": 4986001,
+      "qobuz_track_ids": [
+        "6907109"
+      ],
+      "playlist_track_ids": [
+        "12450473474"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "A Tout le Monde",
+      "file_id": "a0cc6ac9196444f098d634de77a6bda7",
+      "source_url": "https://rhythmverse.co/songfile/a0cc6ac9196444f098d634de77a6bda7",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/a0cc6ac9196444f098d634de77a6bda7/Megadeth%20-%20A%20Tout%20Le%20Monde.zip",
+      "archive_format": "zip",
+      "folder": "Megadeth - A Tout le Monde [a0cc6ac9]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1157,
+          "kick_note_on_count": 269,
+          "tom_marker_count": 96,
+          "last_expert_onset_seconds": 242.386,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a0cc6ac9196444f098d634de77a6bda7",
+        "artist": "Megadeth",
+        "title": "A Tout le Monde",
+        "album": "Youthanasia",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a0cc6ac9196444f098d634de77a6bda7",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/a0cc6ac9196444f098d634de77a6bda7/Megadeth - A Tout Le Monde.zip",
+        "duration_seconds": 268.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - À Tout Le Monde/album.png",
+          "name": "album.png",
+          "sha256": "47e3a635f8bb6279c612ebc64e57223b9d3f4cb01ae4df3d9df06f8f24bae615"
+        },
+        {
+          "archive_name": "Megadeth - À Tout Le Monde/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "6b9299a2075e957ce578c64678617d4876be2fc28299522d7b607c1807170ded"
+        },
+        {
+          "archive_name": "Megadeth - À Tout Le Monde/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "2f5097fb000f35f4fc020d097347e2a6885bf03eace87f04dbbcf6dac6c2ddd8"
+        },
+        {
+          "archive_name": "Megadeth - À Tout Le Monde/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "dc244ce89c49f7f3a24e3fa322e16542cd57ba2d031e5bfa0de26b25f3c68a4b"
+        },
+        {
+          "archive_name": "Megadeth - À Tout Le Monde/notes.mid",
+          "name": "notes.mid",
+          "sha256": "45dca4661a6a6699e3487ea821c93b7d2ca5f115f07d858ed3fae216b6339538"
+        },
+        {
+          "archive_name": "Megadeth - À Tout Le Monde/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "9780499097a29105a49de7abfaec2e35c4a46a1e2fe53d329cd033b4699bba80"
+        },
+        {
+          "archive_name": "Megadeth - À Tout Le Monde/song.ini",
+          "name": "song.ini",
+          "sha256": "54c33e67ad3e9e52a2ee15c9889254a6c9c053ee30723bc91de7166b2993c4a3"
+        },
+        {
+          "archive_name": "Megadeth - À Tout Le Monde/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2a8315008e54bf11cc07676dbce11910e264ff800d71e260a7d31d4ef5e1480a"
+        },
+        {
+          "archive_name": "Megadeth - À Tout Le Monde/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "57675609dd7ce22854bdfd34e3ae26f580072475b8f5fb570ff719fdb5890713"
+        }
+      ],
+      "archive_sha256": "1af2ae8dd2cfbbc329614ef014d388e325aae14a6b57fb882c24091f3657ec56",
+      "archive_bytes": 26143433,
+      "prepared_bytes": 26400957,
+      "qobuz_track_ids": [
+        "4744534"
+      ],
+      "playlist_track_ids": [
+        "12450478649"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Sweating Bullets",
+      "file_id": "596f7c75b5a650.04547647",
+      "source_url": "https://rhythmverse.co/songfile/596f7c75b5a650.04547647",
+      "download_url": "https://rhythmverse.co/download_file/mb1nightmare/596f7c75b5a650.04547647/Megadeth%20-%20Sweating%20Bullets.zip",
+      "archive_format": "zip",
+      "folder": "Megadeth - Sweating Bullets [596f7c75]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1799,
+          "kick_note_on_count": 639,
+          "tom_marker_count": 38,
+          "last_expert_onset_seconds": 325.787,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "596f7c75b5a650.04547647",
+        "artist": "Megadeth",
+        "title": "Sweating Bullets",
+        "album": "Countdown to Extinction",
+        "game": "ps",
+        "source_url": "https://rhythmverse.co/songfile/596f7c75b5a650.04547647",
+        "download_url": "https://rhythmverse.co/download_file/mb1nightmare/596f7c75b5a650.04547647/Megadeth - Sweating Bullets.zip",
+        "duration_seconds": 327.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mb1nightmare",
+        "notes": "<p>Guitar Hero 5 Convert!<br />\n&#160;<br />\nSome lyric inssue on preview are fixed already.<br />\n&#160;<br />\nRock Band 3 footage by: [url=\"http://pksage.com/ccc/IPS/index.php?/user/7074-storm360/\"]http://pksage.com/ccc/IPS/index.php?/user/7074-storm360/[/url]</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - Sweating Bullets/album.png",
+          "name": "album.png",
+          "sha256": "d9029114df77458424c80402604ed59197d63fe4b63f65a0fe29ec5db249d464"
+        },
+        {
+          "archive_name": "Megadeth - Sweating Bullets/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "51cadd622e158576b42063c6d32fb974e375cdc72a34c33d74bb969ec17095d1"
+        },
+        {
+          "archive_name": "Megadeth - Sweating Bullets/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "ddd9faab7d3aa3ee1451cd0f28f65b88ac245cd53d19ae673f49d1ca8b076470"
+        },
+        {
+          "archive_name": "Megadeth - Sweating Bullets/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c9cd03756d6d8dbc774bfd22b56b451ff19f9c9e87d5876964878c85ffdb5b08"
+        },
+        {
+          "archive_name": "Megadeth - Sweating Bullets/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "9b85a605066d09cf9fef6207b864ce35a2730499344a9d00c33a25106b786b34"
+        },
+        {
+          "archive_name": "Megadeth - Sweating Bullets/song.ini",
+          "name": "song.ini",
+          "sha256": "f5ad4e17e4489c8f3329f87bce8a5ad7814df3c74b5b86cadee0fc2dcac9d4b0"
+        },
+        {
+          "archive_name": "Megadeth - Sweating Bullets/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c57467a97c1b89ee6b3301f3415ad11a02eef5d6a1337e48e9b8e49f0e523962"
+        },
+        {
+          "archive_name": "Megadeth - Sweating Bullets/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "6d91bef9544a64099fbece9fc7909a1b3581903ba2a01a36c1d9e9a4d7682293"
+        }
+      ],
+      "archive_sha256": "6f6b3643e9250390368789c9a0910ada5bae6874688c60066205035c58e6d58e",
+      "archive_bytes": 20863824,
+      "prepared_bytes": 21207732,
+      "qobuz_track_ids": [
+        "4743524"
+      ],
+      "playlist_track_ids": [
+        "12450478661"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Youthanasia",
+      "file_id": "cee70182cdd94135808a5f32dc4dd946",
+      "source_url": "https://rhythmverse.co/songfile/cee70182cdd94135808a5f32dc4dd946",
+      "download_url": "https://rhythmverse.co/download_file/mrdrummerboy97/cee70182cdd94135808a5f32dc4dd946/Megadeth%20-%20Youthanasia.zip",
+      "archive_format": "zip",
+      "folder": "Megadeth - Youthanasia [cee70182]",
+      "charter": "MrDrummerboy97",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1462,
+          "kick_note_on_count": 416,
+          "cymbal_marker_count": 803,
+          "last_expert_onset_seconds": 245.732,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "cee70182cdd94135808a5f32dc4dd946",
+        "artist": "Megadeth",
+        "title": "Youthanasia",
+        "album": "Youthanasia (Remastered)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/cee70182cdd94135808a5f32dc4dd946",
+        "download_url": "https://rhythmverse.co/download_file/mrdrummerboy97/cee70182cdd94135808a5f32dc4dd946/Megadeth - Youthanasia.zip",
+        "duration_seconds": 249.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "MrDrummerboy97",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - Youthanasia/album.jpg",
+          "name": "album.jpg",
+          "sha256": "346e0a8eedcfca24e51a6c4d8e48d52e3de82aece2bf36217bae2424a3445fb0"
+        },
+        {
+          "archive_name": "Megadeth - Youthanasia/background.JPG",
+          "name": "background.JPG",
+          "sha256": "940be1391c01e60e1a60e4e06ea27071a2d7ce32e98a3f6e88d510d9ee3c703f"
+        },
+        {
+          "archive_name": "Megadeth - Youthanasia/notes.chart",
+          "name": "notes.chart",
+          "sha256": "888841cf8f44e7d743c7035a3fa7dd353bd0ced94d74644e178483f65170d021"
+        },
+        {
+          "archive_name": "Megadeth - Youthanasia/song.ini",
+          "name": "song.ini",
+          "sha256": "8a9a38e22c984d7375b5252db84b36d04d1f5ac0943aaa61026c9d9d9a9c8e20"
+        },
+        {
+          "archive_name": "Megadeth - Youthanasia/song.ogg",
+          "name": "song.ogg",
+          "sha256": "e94bc8ce9ffa2d48438617846d16e3efe54e9a8c726752c006024d3549c7dff4"
+        }
+      ],
+      "archive_sha256": "bf350db91068327143e756b1d8598ea28f1e106e15ff66cb4bbb5ffb712f6e1e",
+      "archive_bytes": 4340093,
+      "prepared_bytes": 4507232,
+      "qobuz_track_ids": [
+        "59856598"
+      ],
+      "playlist_track_ids": [
+        "12450478635"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "72 Seasons",
+      "file_id": "311119d84fc945fea76e2a3fb72f4a61",
+      "source_url": "https://rhythmverse.co/songfile/311119d84fc945fea76e2a3fb72f4a61",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/311119d84fc945fea76e2a3fb72f4a61/Metallica%20-%2072%20Seasons.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - 72 Seasons [311119d8]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 4313,
+          "kick_note_on_count": 771,
+          "tom_marker_count": 214,
+          "last_expert_onset_seconds": 455.469,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "311119d84fc945fea76e2a3fb72f4a61",
+        "artist": "Metallica",
+        "title": "72 Seasons",
+        "album": "72 Seasons",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/311119d84fc945fea76e2a3fb72f4a61",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/311119d84fc945fea76e2a3fb72f4a61/Metallica - 72 Seasons.zip",
+        "duration_seconds": 461.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - 72 Seasons/album.png",
+          "name": "album.png",
+          "sha256": "39016006bf60e1c4e3ce82e33ff9032e87a5eb653468700d958c1be7a3629377"
+        },
+        {
+          "archive_name": "Metallica - 72 Seasons/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "03ba4e23e2e2e8292bc28dba0855b5ffd0d2337785ed49dc805fb65760096875"
+        },
+        {
+          "archive_name": "Metallica - 72 Seasons/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "9de682f3d3ec1a97824e7b72cab3d30970bfff6b489396756e45bd55bbb1619f"
+        },
+        {
+          "archive_name": "Metallica - 72 Seasons/notes.mid",
+          "name": "notes.mid",
+          "sha256": "565a6dc2b59df6503345bcbc97138523a12258237b96ec352845901d75967ffc"
+        },
+        {
+          "archive_name": "Metallica - 72 Seasons/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "397d8e0732d868cc71ddff9293175d50a3fb9a2dc0d0ccfb51b0827f240842d3"
+        },
+        {
+          "archive_name": "Metallica - 72 Seasons/song.ini",
+          "name": "song.ini",
+          "sha256": "08bbbff5f1be5347284fde696404eff862ff5da62a2993549452d8a8efb279ab"
+        },
+        {
+          "archive_name": "Metallica - 72 Seasons/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1b92e391e98a3bcdd475ea9a7cad208845b1a168f0c3e8c6c5a39311c50a0fca"
+        },
+        {
+          "archive_name": "Metallica - 72 Seasons/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "897fca62917ad5b9bf259d36af319bf6172cc9b7cdf39e06c72d5d741cd7ed0e"
+        }
+      ],
+      "archive_sha256": "c93836bfb1e8cbd7cf55be2ee7791754e710ce1e68c04877a5c0313f15267ae4",
+      "archive_bytes": 33193529,
+      "prepared_bytes": 33383341,
+      "qobuz_track_ids": [
+        "206111781"
+      ],
+      "playlist_track_ids": [
+        "12449350405"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Blackened",
+      "file_id": "b76dd301e97c46dea6da536727a10a79",
+      "source_url": "https://rhythmverse.co/songfile/b76dd301e97c46dea6da536727a10a79",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b76dd301e97c46dea6da536727a10a79/Metallica%20-%20Blackened.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Blackened [b76dd301]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3115,
+          "kick_note_on_count": 741,
+          "tom_marker_count": 187,
+          "last_expert_onset_seconds": 398.255,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b76dd301e97c46dea6da536727a10a79",
+        "artist": "Metallica",
+        "title": "Blackened",
+        "album": "...And Justice for All",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b76dd301e97c46dea6da536727a10a79",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b76dd301e97c46dea6da536727a10a79/Metallica - Blackened.zip",
+        "duration_seconds": 401.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Blackened/album.png",
+          "name": "album.png",
+          "sha256": "7e69bea42834471e970d692a35ae1af4f8b7e31717e0a6d97f9cba5dc07a995f"
+        },
+        {
+          "archive_name": "Metallica - Blackened/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "13076ec854e27519d01f2cab14ec07bf0f63c655fe211ff9072546bd1a19a4fb"
+        },
+        {
+          "archive_name": "Metallica - Blackened/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "62ce2a12172742f7c6c16dd92a4fe3a972162aef7851b1f5b4ae53fea5679437"
+        },
+        {
+          "archive_name": "Metallica - Blackened/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "3f32ff7a2baa69d2fd7847ccd41229eda0c9e5499bda7d0ad63528f9c70644e6"
+        },
+        {
+          "archive_name": "Metallica - Blackened/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "d63e2a43bc42521ad8bb2a9ce0c60fb6eb97596dcb9e8e26193333c6101678f4"
+        },
+        {
+          "archive_name": "Metallica - Blackened/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f9a9715d402983e989e446ae3c00088ec4df38bb1fb45bd60547ed141b225d63"
+        },
+        {
+          "archive_name": "Metallica - Blackened/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a67419c0a427a81cc7bc0cd6206ffd307819ba965d45c942e5075c0da375908b"
+        },
+        {
+          "archive_name": "Metallica - Blackened/song.ini",
+          "name": "song.ini",
+          "sha256": "b5772850c093749c470ff1f62c00ec1e23eb013086433f0e256c19ab4cd99d75"
+        },
+        {
+          "archive_name": "Metallica - Blackened/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0e69147c639ed66675b3f0e68254bdbb6f399a03bf4f8f8614a0fa51ae261ba1"
+        },
+        {
+          "archive_name": "Metallica - Blackened/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "fe608cab77cc4c40a108e4797440e584abb30631a2e9ce11ec27e826f8d4a296"
+        }
+      ],
+      "archive_sha256": "42fb0a9a7d9f6d6cf69dc05120d9d480997b902670ec717111796dff2d591e97",
+      "archive_bytes": 42958761,
+      "prepared_bytes": 43412320,
+      "qobuz_track_ids": [
+        "95785751"
+      ],
+      "playlist_track_ids": [
+        "12449350410"
+      ]
+    }
+  ]
+}

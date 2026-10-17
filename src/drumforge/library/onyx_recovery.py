@@ -1,0 +1,145 @@
+"""Pinned portable Onyx conversion, also usable beside the standalone downloader."""
+
+from __future__ import annotations
+
+import hashlib
+import importlib
+import json
+import subprocess
+import sys
+import tempfile
+import zipfile
+from functools import cache
+from pathlib import Path
+from typing import Any
+
+recovery = importlib.import_module(
+    "drumforge.library.recover_pilot" if __package__ else "recover_pilot"
+)
+ONYX_URL = (
+    "https://github.com/mtolly/onyx/releases/download/20261016/"
+    "onyx-command-line-20261016-windows-x64.zip"
+)
+ONYX_SHA256 = "d6131d67cef8d442590a618bcc2d582f5332fd0aa7077547a02f02d34958288c"
+
+
+def build(executable: Path, source: Path, project: Path, target: Path) -> None:
+    with project.with_suffix(".log").open("w", encoding="utf-8") as log:
+        subprocess.run(
+            [str(executable), "import", str(source), "--to", str(project), "+RTS", "-N2", "-RTS"],
+            stdout=log,
+            stderr=subprocess.STDOUT,
+            check=True,
+            timeout=180,
+        )
+        yaml = project / "song.yml"
+        content = yaml.read_text(encoding="utf-8")
+        if "targets:\n" not in content:
+            raise ValueError("Onyx nao criou um projeto com destinos")
+        content = content.replace("targets:\n", "targets:\n  clonehero:\n    game: ps\n", 1)
+        yaml.write_text(content, encoding="utf-8", newline="\n")
+        subprocess.run(
+            [
+                str(executable),
+                "build",
+                str(yaml),
+                "--target",
+                "clonehero",
+                "--to",
+                str(target),
+                "+RTS",
+                "-N2",
+                "-RTS",
+            ],
+            stdout=log,
+            stderr=subprocess.STDOUT,
+            check=True,
+            timeout=900,
+        )
+
+
+@cache
+def install(root: Path) -> Path:
+    if sys.platform != "win32":
+        raise ValueError("Os lotes Onyx deste baixador requerem Windows 10/11 x64")
+    archive = recovery.download_archive(
+        {
+            "file_id": "onyx-20261016-windows",
+            "download_url": ONYX_URL,
+            "source_url": "https://github.com/mtolly/onyx/releases/tag/20261016",
+            "archive_bytes": 63005066,
+            "archive_sha256": ONYX_SHA256,
+        },
+        root / "Ferramentas",
+    )
+    installation = root / "Ferramentas" / "Onyx-20261016"
+    with zipfile.ZipFile(archive) as package:
+        for info in package.infolist():
+            relative = recovery.relative_path(info.filename)
+            if info.is_dir():
+                continue
+            path = installation.joinpath(*relative.parts)
+            content = package.read(info)
+            if path.exists():
+                if path.read_bytes() != content:
+                    raise ValueError("Ferramenta local alterada; preservada")
+            else:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(content)
+    matches = list(installation.rglob("onyx.exe"))
+    if len(matches) != 1:
+        raise ValueError("Executavel do Onyx ausente na distribuicao oficial")
+    return matches[0]
+
+
+def prepare(song: dict[str, Any], source: Path, destination: Path, root: Path) -> dict[str, Any]:
+    # Ogg serial numbers vary between conversions. Pin source/tool/MIDI and record
+    # local output hashes for resumption instead of pretending cloud hashes match.
+    receipt_path = root / "Verificacoes" / (song["file_id"] + ".json")
+    if destination.exists():
+        local = json.loads(receipt_path.read_text(encoding="utf-8"))
+        if local["archive_sha256"] != song["archive_sha256"] or local["converter"] != ONYX_SHA256:
+            raise ValueError("Verificacao local pertence a outra fonte ou conversor")
+        recovery.verify_song(local, destination)
+        return dict(local)
+    executable = install(root)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix="convertendo-", dir=destination.parent) as temporary:
+        workspace = Path(temporary)
+        target = workspace / "clonehero.zip"
+        build(executable, source, workspace / "projeto", target)
+        folder = workspace / "musica"
+        folder.mkdir()
+        assets = []
+        with zipfile.ZipFile(target) as archive:
+            by_name = {}
+            for name in archive.namelist():
+                path = recovery.relative_path(name)
+                if not name.endswith("/"):
+                    if path.name.casefold() in by_name:
+                        raise ValueError("Conversao criou nomes repetidos")
+                    by_name[path.name.casefold()] = name
+            for asset in song["files"]:
+                content = archive.read(by_name[asset["name"].casefold()])
+                if asset["name"] == "song.ini" and song.get("set_pro_drums"):
+                    content = recovery.patched_config(content)
+                if asset["name"] == "notes.mid":
+                    if hashlib.sha256(content).hexdigest() != asset["sha256"]:
+                        raise ValueError("O MIDI convertido difere do MIDI inspecionado na nuvem")
+                if Path(asset["name"]).suffix.lower() == ".ogg" and not content.startswith(b"OggS"):
+                    raise ValueError("Conversao nao criou o audio Ogg esperado")
+                (folder / asset["name"]).write_bytes(content)
+                assets.append({**asset, "sha256": hashlib.sha256(content).hexdigest()})
+        local = {
+            **song,
+            "files": assets,
+            "converter": ONYX_SHA256,
+            "output_hash_scope": "local conversion; source/tool/MIDI pinned",
+        }
+        recovery.verify_song(local, folder)
+        receipt_path.parent.mkdir(parents=True, exist_ok=True)
+        receipt_path.write_text(json.dumps(local, ensure_ascii=False, indent=2), encoding="utf-8")
+        if destination.exists():
+            raise FileExistsError("Destino apareceu durante a conversao; preservado")
+        folder.rename(destination)
+        return local

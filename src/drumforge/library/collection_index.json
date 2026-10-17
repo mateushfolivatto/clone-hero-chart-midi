@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "playlist_url": "https://open.qobuz.com/playlist/69773629",
+  "playlist_entries": 744,
+  "unique_new_charts": 254,
+  "active_new_charts": 254,
+  "drum_modes": {
+    "pro": 246,
+    "standard": 8
+  },
+  "coverage_entries": {
+    "prepared": 262,
+    "not_found": 358,
+    "needs_review": 50,
+    "pilot": 13,
+    "blocked": 61
+  },
+  "download_bytes": 3952089814,
+  "prepared_bytes": 3356044386,
+  "recommended_free_bytes": 12811662234,
+  "game_verified": false,
+  "batches": [
+    {
+      "number": 2,
+      "manifest": "collection_02.json",
+      "sha256": "29107a3b676cdc1281acce8435b352dd33a6b5faeedfb3ccf8cbebf3e6e6f7f1",
+      "songs": 25,
+      "drum_mode": "pro"
+    },
+    {
+      "number": 3,
+      "manifest": "collection_03.json",
+      "sha256": "2d74136c943f53991531a09688daab6c3ed93ed0aac2cd66226e4af0d2fce124",
+      "songs": 25,
+      "drum_mode": "pro"
+    },
+    {
+      "number": 4,
+      "manifest": "collection_04.json",
+      "sha256": "e10f3412746ee029745fb7862abcb3f72249a0070f0d3bd279a1d5db63d93338",
+      "songs": 25,
+      "drum_mode": "pro"
+    },
+    {
+      "number": 5,
+      "manifest": "collection_05.json",
+      "sha256": "7168121594cbac2a5cb548a430bab8d80f8e689f7298d2e901b76c1fa7a02814",
+      "songs": 25,
+      "drum_mode": "pro"
+    },
+    {
+      "number": 6,
+      "manifest": "collection_06.json",
+      "sha256": "9225615c66a63ad21013a9b7b0970b9460f3ef530268a1222f1396e1b8fec4d7",
+      "songs": 25,
+      "drum_mode": "pro"
+    },
+    {
+      "number": 7,
+      "manifest": "collection_07.json",
+      "sha256": "c6a1e78152b451fca02e6e70a3e2045435e76a91a125bb77a4849acb6cf49d33",
+      "songs": 25,
+      "drum_mode": "pro"
+    },
+    {
+      "number": 8,
+      "manifest": "collection_08.json",
+      "sha256": "65f47f53e0a7d61766ca64cb5e4ce4b1250c6b9d8d4b99aa26e95f7fe8943f20",
+      "songs": 25,
+      "drum_mode": "pro"
+    },
+    {
+      "number": 9,
+      "manifest": "collection_09.json",
+      "sha256": "2c714e1ee876383c12b81f974dd5ca651bbbf3062f74c68d22baea48db475d97",
+      "songs": 25,
+      "drum_mode": "pro"
+    },
+    {
+      "number": 10,
+      "manifest": "collection_10.json",
+      "sha256": "044785726b3384d13c60b5ad1ebd6e8eec7166d0f50a83c9908a4713497b02ee",
+      "songs": 25,
+      "drum_mode": "pro"
+    },
+    {
+      "number": 11,
+      "manifest": "collection_11.json",
+      "sha256": "8f82f6bee28e3e5eea74af6a92275cb41a3c2ca85a6355ab2fdce4d128de6ce6",
+      "songs": 21,
+      "drum_mode": "pro"
+    },
+    {
+      "number": 12,
+      "manifest": "collection_12.json",
+      "sha256": "8314ed1e777d0700b670f10708064faa4a5bb475f37a1180ba0ee8acd9c4a707",
+      "songs": 8,
+      "drum_mode": "standard"
+    }
+  ],
+  "helpers": {
+    "onyx_recovery.py": "0411737492f43ed87d1c1114c9742064a9ff3daa8aebbe31d5b28910c546f321",
+    "sevenzip.py": "822d12334b2ab821e3dfec5fcf38d99ce1dfc610c80cfae49170f8b83095da3a",
+    "mega_recovery.py": "94149c758ca8f8d60989af41631fc4b2ba559a5f26039893f3704b52e9520191"
+  }
+}
