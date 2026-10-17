@@ -133,3 +133,28 @@ finding. This file supplements the backlog; it does not redefine task completion
     a tested reconstruction command and distinguish current local existence from
     user-visible download success. Verify recovery in a clean directory and
     repeat it without modifying existing songs; keep media outside Git.
+
+## 2026-10-17 — Full playlist preparation pass
+
+28. **Folder visibility does not prove file access.** Public Drive folders listed
+    their files while artwork, chart, INI and audio downloads returned an explicit
+    quota-exceeded page. Classify that response and try other public sources;
+    never count a catalog/listing response as a successful song download.
+29. **Converted Ogg bytes are not reproducible identities.** Two independent
+    Onyx builds of the same source produced equal MIDI/INI but different Ogg
+    stream serials. Pin source/tool/MIDI; store local converted-asset hashes and
+    reload that receipt on resume. Do not pretend cloud Ogg hashes match Windows.
+30. **Separate ordinary drums from confirmed Pro Drums.** Usable four-lane
+    Expert charts can lack Pro/tom evidence. Keep configuration and notes, label
+    them explicitly and offer ordinary Drums. Onyx's default PS export retained
+    five lanes in a real test; exporting or deleting a flag is not conversion.
+31. **Validate delivery recipes before publishing.** One successfully prepared
+    source still had an HTTP URL rejected by the standalone reader. Its HTTPS
+    endpoint reproduced the exact pinned archive hash. Check every final recipe,
+    helper hash and reconstructed format, including provider URL semantics such
+    as MEGA's key-bearing fragment, rather than checking only local song folders.
+32. **Distinguish duplicate catalog rows from repeated pages.** Real Linkin Park,
+    Metallica and System of a Down results repeated one joined file row while
+    total_filtered counted unique packages. Reject repeated page fingerprints or
+    wrong offsets, deduplicate file IDs, and reconcile the unique total. The full
+    148 cached searches then passed; rejecting any duplicate discarded valid artists.

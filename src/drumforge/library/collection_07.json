@@ -1,0 +1,2092 @@
+{
+  "schema_version": 1,
+  "batch_number": 7,
+  "collection_folder": "MixDrumRock - Lote 07",
+  "archive_name": "MixDrumRock-lote-07.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "songs": [
+    {
+      "artist": "Iron Maiden",
+      "title": "Stratego",
+      "file_id": "a005eeca2a944bdfa5be8798c2b9c44d",
+      "source_url": "https://rhythmverse.co/songfile/a005eeca2a944bdfa5be8798c2b9c44d",
+      "download_url": "https://drive.google.com/uc?export=download&id=1E4gkwKTukP_xLm0H0AhpcWM2AATOQsyG",
+      "archive_format": "rar",
+      "folder": "Iron Maiden - Stratego [a005eeca]",
+      "charter": "Debugmod12",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2348,
+          "kick_note_on_count": 945,
+          "cymbal_marker_count": 796,
+          "last_expert_onset_seconds": 299.068,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a005eeca2a944bdfa5be8798c2b9c44d",
+        "artist": "Iron Maiden",
+        "title": "Stratego",
+        "album": "Senjutsu",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a005eeca2a944bdfa5be8798c2b9c44d",
+        "download_url": "https://drive.google.com/file/d/1E4gkwKTukP_xLm0H0AhpcWM2AATOQsyG",
+        "duration_seconds": 301.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Charts Drive",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Stratego/album.jpg",
+          "name": "album.jpg",
+          "sha256": "4edc1117729bd137d3162fd453e62de6ce501092a065488c5c7f9f50c729647d"
+        },
+        {
+          "archive_name": "Iron Maiden - Stratego/notes.chart",
+          "name": "notes.chart",
+          "sha256": "085ff1a93d04c4ab0169b0929e0da98f5a319a46c7782dbf25c68127f2f51be6"
+        },
+        {
+          "archive_name": "Iron Maiden - Stratego/song.ini",
+          "name": "song.ini",
+          "sha256": "1c8442a6b3c16ec3a2ac7dcf93d3537a17e7d17d5405412a9ba10017e0511246"
+        },
+        {
+          "archive_name": "Iron Maiden - Stratego/song.ogg",
+          "name": "song.ogg",
+          "sha256": "eddd596f81a7c9c0384b6f2c312ba148266826b80a41c0b2c5c15bd1eeb3ca24"
+        }
+      ],
+      "archive_sha256": "8254300e91c3b30d14e87c0e2f79fa39109103bbd4d8a3779bcaad2572162295",
+      "archive_bytes": 10860859,
+      "prepared_bytes": 10943437,
+      "qobuz_track_ids": [
+        "128878242"
+      ],
+      "playlist_track_ids": [
+        "12449352507"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "The Evil That Men Do",
+      "file_id": "a2f57d41e6fe42968936ca25288c38e3",
+      "source_url": "https://rhythmverse.co/songfile/a2f57d41e6fe42968936ca25288c38e3",
+      "download_url": "https://drive.google.com/uc?export=download&id=12i24MjecS5EH9fHXByBpwFjoQtsEGoJV",
+      "archive_format": "rar",
+      "folder": "Iron Maiden - The Evil That Men Do [a2f57d41]",
+      "charter": "highfine",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1885,
+          "kick_note_on_count": 651,
+          "tom_marker_count": 65,
+          "last_expert_onset_seconds": 274.542,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a2f57d41e6fe42968936ca25288c38e3",
+        "artist": "Iron Maiden",
+        "title": "The Evil That Men Do",
+        "album": "Seventh Son of a Seventh Son",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a2f57d41e6fe42968936ca25288c38e3",
+        "download_url": "https://drive.google.com/file/d/12i24MjecS5EH9fHXByBpwFjoQtsEGoJV",
+        "duration_seconds": 277.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "highfine",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - The Evil That Men Do [highfine]/album.png",
+          "name": "album.png",
+          "sha256": "7adced0a00980dcbc67b51bf2b54d813c6152a6497d5cb9ecf2a71cac8e1abc4"
+        },
+        {
+          "archive_name": "Iron Maiden - The Evil That Men Do [highfine]/background.jpg",
+          "name": "background.jpg",
+          "sha256": "8d281a6ce2cebb02dfd8614bc45c94314d793c8c94279302037ee5c85b1eff30"
+        },
+        {
+          "archive_name": "Iron Maiden - The Evil That Men Do [highfine]/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f048044c6d3aa56bbcb9f02c63314d717a8b231f053a21d523bd0bc6e235f580"
+        },
+        {
+          "archive_name": "Iron Maiden - The Evil That Men Do [highfine]/song.ini",
+          "name": "song.ini",
+          "sha256": "35c3fa2aaeb0b7313866a4d2402c97a76a19b3132e4c4672e810f561c294297b"
+        },
+        {
+          "archive_name": "Iron Maiden - The Evil That Men Do [highfine]/song.ogg",
+          "name": "song.ogg",
+          "sha256": "9d35830f73909ef5ca0869feb61c5706c273bd85c048aedb2a25c93edf212e43"
+        }
+      ],
+      "archive_sha256": "1f53d745314811276f76a999497d471f119fc389337f6af4dc7879cfa40d6a06",
+      "archive_bytes": 10309494,
+      "prepared_bytes": 10352410,
+      "qobuz_track_ids": [
+        "56105868"
+      ],
+      "playlist_track_ids": [
+        "12449352513"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "When The Wild Wind Blows (2015 Remaster)",
+      "file_id": "db7e58fbd9524464913cc6ed19b037cb",
+      "source_url": "https://rhythmverse.co/songfile/db7e58fbd9524464913cc6ed19b037cb",
+      "download_url": "https://drive.google.com/uc?export=download&id=1UghD5alG_z_RIdGLZai0XVVKgNdPVNKq",
+      "archive_format": "rar",
+      "folder": "Iron Maiden - When The Wild Wind Blows (2015 Remaster) [db7e58fb]",
+      "charter": "Joshwantsmaccas",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2804,
+          "kick_note_on_count": 628,
+          "tom_marker_count": 171,
+          "last_expert_onset_seconds": 597.672,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "db7e58fbd9524464913cc6ed19b037cb",
+        "artist": "Iron Maiden",
+        "title": "When The Wild Wind Blows (2015 Remaster)",
+        "album": "The Final Frontier (2015 Remaster)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/db7e58fbd9524464913cc6ed19b037cb",
+        "download_url": "https://drive.google.com/file/d/1UghD5alG_z_RIdGLZai0XVVKgNdPVNKq",
+        "duration_seconds": 662.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Joshwantsmaccas",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - When The Wild Wind Blows (2015 Remaster)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "dc45ec8b12aa87f7d766a712efa89e8974da0b0ca87ce8f6ffd5a04c5c550b6c"
+        },
+        {
+          "archive_name": "Iron Maiden - When The Wild Wind Blows (2015 Remaster)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "cb5ceef62e7f4413423f6e48d085a7a7e1baaed6965283914528be990c56413e"
+        },
+        {
+          "archive_name": "Iron Maiden - When The Wild Wind Blows (2015 Remaster)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "34bf32b0f8174ee3bcf559157f3d59df628ba450a231c8652d5e5c8555f59f5e"
+        },
+        {
+          "archive_name": "Iron Maiden - When The Wild Wind Blows (2015 Remaster)/song.ini",
+          "name": "song.ini",
+          "sha256": "2b44ff8f1667169bf932f5670b9bc626d82ee415fa2b1cfb261a130d930f7766"
+        }
+      ],
+      "archive_sha256": "fe3e74ca5764c0ab887d3674088183ebc1a4e728fe4dbf67fa6901d8b66a0f58",
+      "archive_bytes": 23819723,
+      "prepared_bytes": 23982191,
+      "qobuz_track_ids": [
+        "3605061"
+      ],
+      "playlist_track_ids": [
+        "12449352558"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Breaking The Habit",
+      "file_id": "6f6ecf87c2f04d00a3a5205f49c41512",
+      "source_url": "https://rhythmverse.co/songfile/6f6ecf87c2f04d00a3a5205f49c41512",
+      "download_url": "https://drive.google.com/uc?export=download&id=1XtuOkDvKgcD78pjJ7qFo5Zi1K-jmHQcs",
+      "archive_format": "rar",
+      "folder": "Linkin Park - Breaking The Habit [6f6ecf87]",
+      "charter": "Debugmod12",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1686,
+          "kick_note_on_count": 287,
+          "cymbal_marker_count": 1102,
+          "last_expert_onset_seconds": 181.195,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6f6ecf87c2f04d00a3a5205f49c41512",
+        "artist": "Linkin Park",
+        "title": "Breaking The Habit",
+        "album": "Meteora",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/6f6ecf87c2f04d00a3a5205f49c41512",
+        "download_url": "https://drive.google.com/file/d/1XtuOkDvKgcD78pjJ7qFo5Zi1K-jmHQcs",
+        "duration_seconds": 199.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Charts Drive",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "9. Breaking The Habit/album.jpg",
+          "name": "album.jpg",
+          "sha256": "4b8ab929de34cddfa2a933b1c96e2d51392d70a38e27dba8c4ac04069e7d9b78"
+        },
+        {
+          "archive_name": "9. Breaking The Habit/notes.chart",
+          "name": "notes.chart",
+          "sha256": "64c2c2053daf81292838b15f4980017ee0829f6278cca486222e7657c7bb616d"
+        },
+        {
+          "archive_name": "9. Breaking The Habit/song.ini",
+          "name": "song.ini",
+          "sha256": "f499c3c590a7c21f040908ea282ca79280d6b74a73c9e5a39d677a7b2230d9f8"
+        },
+        {
+          "archive_name": "9. Breaking The Habit/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7acf937caf4783d9798f84f471a173921947b3f9f5c2041ab7ae391d13421fb3"
+        }
+      ],
+      "archive_sha256": "7a93e6030158d8ab5ad6f7d25f85cdeadf194dc38e84ce86fe25eb8d772dade1",
+      "archive_bytes": 6932845,
+      "prepared_bytes": 6997365,
+      "qobuz_track_ids": [
+        "7020281"
+      ],
+      "playlist_track_ids": [
+        "12450473447"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Faint",
+      "file_id": "d9000b31037646228cf89c8d14ffcde8",
+      "source_url": "https://rhythmverse.co/songfile/d9000b31037646228cf89c8d14ffcde8",
+      "download_url": "https://drive.google.com/uc?export=download&id=1bJuZVInW6gPVfP6vPlgsBsG3NRrJnNtj",
+      "archive_format": "rar",
+      "folder": "Linkin Park - Faint [d9000b31]",
+      "charter": "Debugmod12",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1095,
+          "kick_note_on_count": 174,
+          "cymbal_marker_count": 608,
+          "last_expert_onset_seconds": 161.168,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d9000b31037646228cf89c8d14ffcde8",
+        "artist": "Linkin Park",
+        "title": "Faint",
+        "album": "Meteora",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/d9000b31037646228cf89c8d14ffcde8",
+        "download_url": "https://drive.google.com/file/d/1bJuZVInW6gPVfP6vPlgsBsG3NRrJnNtj",
+        "duration_seconds": 164.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Charts Drive",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "7. Faint/album.jpg",
+          "name": "album.jpg",
+          "sha256": "4b8ab929de34cddfa2a933b1c96e2d51392d70a38e27dba8c4ac04069e7d9b78"
+        },
+        {
+          "archive_name": "7. Faint/notes.chart",
+          "name": "notes.chart",
+          "sha256": "df7f7110db0ef634ff34f4ac31beddad8b2e93773505161ab3add7f053d7ed97"
+        },
+        {
+          "archive_name": "7. Faint/song.ini",
+          "name": "song.ini",
+          "sha256": "e5753c16ccd061d1a90f18dd977ae554ffabc8dfe294d6edf08475cc9b31c1d4"
+        },
+        {
+          "archive_name": "7. Faint/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d1ad5cf03cf1339020e521d8ced5b089d9ef62a0a8dc88ba1373998a968161b8"
+        }
+      ],
+      "archive_sha256": "a198fff10d921f6892bb8d6ac7d17948ce41bee6d2c717f3a6ac4162010f0fe8",
+      "archive_bytes": 5208161,
+      "prepared_bytes": 5268288,
+      "qobuz_track_ids": [
+        "5683600",
+        "7020279"
+      ],
+      "playlist_track_ids": [
+        "12221847117",
+        "12450473434"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Figure.09",
+      "file_id": "7acdc2129d704b2298a33573b66ff722",
+      "source_url": "https://rhythmverse.co/songfile/7acdc2129d704b2298a33573b66ff722",
+      "download_url": "https://drive.google.com/uc?export=download&id=1Ydd_Ow13iN3Cr6aBhA4PBTzf6ZfPm_6p",
+      "archive_format": "rar",
+      "folder": "Linkin Park - Figure.09 [7acdc212]",
+      "charter": "Debugmod12",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1113,
+          "kick_note_on_count": 329,
+          "cymbal_marker_count": 591,
+          "last_expert_onset_seconds": 192.929,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7acdc2129d704b2298a33573b66ff722",
+        "artist": "Linkin Park",
+        "title": "Figure.09",
+        "album": "Meteora",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/7acdc2129d704b2298a33573b66ff722",
+        "download_url": "https://drive.google.com/file/d/1Ydd_Ow13iN3Cr6aBhA4PBTzf6ZfPm_6p",
+        "duration_seconds": 199.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Charts Drive",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "8. Figure.09/album.jpg",
+          "name": "album.jpg",
+          "sha256": "4b8ab929de34cddfa2a933b1c96e2d51392d70a38e27dba8c4ac04069e7d9b78"
+        },
+        {
+          "archive_name": "8. Figure.09/notes.chart",
+          "name": "notes.chart",
+          "sha256": "9046995604c3bd755999dcf8ae02b12d74b2a21c732824e4f832aa168149d6ec"
+        },
+        {
+          "archive_name": "8. Figure.09/song.ini",
+          "name": "song.ini",
+          "sha256": "ecb34da3826cc220b05e8c02bd569db60c9212c2697f59cdffdd73fe621990f5"
+        },
+        {
+          "archive_name": "8. Figure.09/song.ogg",
+          "name": "song.ogg",
+          "sha256": "03e99639dada9c35b24bc19adec4da57e558f672f04b2db546ad35d06683698b"
+        }
+      ],
+      "archive_sha256": "8845dc61379c07175d86d3c58b1a9e6917f6b37bf94e9c4247a47dccee71c877",
+      "archive_bytes": 6917671,
+      "prepared_bytes": 7111308,
+      "qobuz_track_ids": [
+        "7020280"
+      ],
+      "playlist_track_ids": [
+        "12221847113"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "The Emptiness Machine",
+      "file_id": "a34195e161db4dcaaf5c5004c0feb017",
+      "source_url": "https://rhythmverse.co/songfile/a34195e161db4dcaaf5c5004c0feb017",
+      "download_url": "https://rhythmverse.co/download_file/robin-bonnefoy/a34195e161db4dcaaf5c5004c0feb017/Linkin%20Park%20-%20The%20Emptiness%20Machine.7z",
+      "archive_format": "7z",
+      "folder": "Linkin Park - The Emptiness Machine [a34195e1]",
+      "charter": "<b><color=#13dcf2>S</color><color=#5CC9F4>u</color><color=#A5B6F6>c</color><color=#EEA4F9>r</color><color=#FFEDFE>e</color><color=#FFFFFF>M</color><color=#FFEDFE>o</color><color=#EEA4F9>n</color><color=#A5B6F6>d</color><color=#5CC9F4>e</color><color=#13DCF2>s</color></b> & Pippin",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1170,
+          "kick_note_on_count": 353,
+          "cymbal_marker_count": 354,
+          "last_expert_onset_seconds": 192.202,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a34195e161db4dcaaf5c5004c0feb017",
+        "artist": "Linkin Park",
+        "title": "The Emptiness Machine",
+        "album": "From Zero",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a34195e161db4dcaaf5c5004c0feb017",
+        "download_url": "https://rhythmverse.co/download_file/robin-bonnefoy/a34195e161db4dcaaf5c5004c0feb017/Linkin Park - The Emptiness Machine.7z",
+        "duration_seconds": 193.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "SucreMondes",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine/album.png",
+          "name": "album.png",
+          "sha256": "a7cfdfd8a863551ce85439abf09abce691177668b2ee0128e2c73615d56e33ac"
+        },
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine/notes.chart",
+          "name": "notes.chart",
+          "sha256": "0a190fed55869474925e9d37fe7829baad4f7cb1953d1d67bddf42cac64913aa"
+        },
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine/song.ini",
+          "name": "song.ini",
+          "sha256": "412092db6ca73be3735b93e177a98b3dcb9e659ebe9e867e2762ef5d3b174209"
+        },
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine/song.ogg",
+          "name": "song.ogg",
+          "sha256": "951bb6e054a60babc2861c733bfa7dbfdb8a4a9c4703c7672829aaa6d09e04ba"
+        }
+      ],
+      "archive_sha256": "ce8461a9012041d5542213148518eceee4099d30121444aa257bad239bcf37e7",
+      "archive_bytes": 5234950,
+      "prepared_bytes": 5365571,
+      "qobuz_track_ids": [
+        "287336643"
+      ],
+      "playlist_track_ids": [
+        "12450473433"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Killing Is My Business...And Business Is Good!",
+      "file_id": "255ce4f4471d47bdb1eeb2534fe2fc29",
+      "source_url": "https://rhythmverse.co/songfile/255ce4f4471d47bdb1eeb2534fe2fc29",
+      "download_url": "https://drive.google.com/uc?export=download&id=1IxphjisTMKJO3duBDU0WHnxUYPRa-u9d",
+      "archive_format": "7z",
+      "folder": "Megadeth - Killing Is My Business...And Business Is Good! [255ce4f4]",
+      "charter": "Miscellany",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1673,
+          "kick_note_on_count": 567,
+          "tom_marker_count": 59,
+          "last_expert_onset_seconds": 173.287,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "255ce4f4471d47bdb1eeb2534fe2fc29",
+        "artist": "Megadeth",
+        "title": "Killing Is My Business...And Business Is Good!",
+        "album": "Killing Is My Business...And Business Is Good!",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/255ce4f4471d47bdb1eeb2534fe2fc29",
+        "download_url": "https://drive.google.com/file/d/1IxphjisTMKJO3duBDU0WHnxUYPRa-u9d",
+        "duration_seconds": 186.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Miscellany",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - Killing Is My Business... And Business Is Good! (Miscellany)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "3c84fd1b3ec849c432427eff784cafc33ede599dce4caca508e36e246738df34"
+        },
+        {
+          "archive_name": "Megadeth - Killing Is My Business... And Business Is Good! (Miscellany)/background.jpg",
+          "name": "background.jpg",
+          "sha256": "a939ffde9e4692077e5028bb2ecd86da466110789d039b35afab07caf20d7817"
+        },
+        {
+          "archive_name": "Megadeth - Killing Is My Business... And Business Is Good! (Miscellany)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c1614e81e5351b4845915abe6563ad660a7d77b64699b0795e42f1f1d42ed719"
+        },
+        {
+          "archive_name": "Megadeth - Killing Is My Business... And Business Is Good! (Miscellany)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c2b5c6734deae20adb8c59b867cf4f2dc379130c15aab2d91bd061e034c201f4"
+        },
+        {
+          "archive_name": "Megadeth - Killing Is My Business... And Business Is Good! (Miscellany)/song.ini",
+          "name": "song.ini",
+          "sha256": "b62a5c449173a4b5f762aa091dff14d7e888e946578843ed1759e77d31404efe"
+        }
+      ],
+      "archive_sha256": "c080812528fdf15c2622b6eb8867bf6e1a0e5eb177a13db527b546c0df6beb42",
+      "archive_bytes": 8633062,
+      "prepared_bytes": 8769791,
+      "qobuz_track_ids": [
+        "48322799"
+      ],
+      "playlist_track_ids": [
+        "12450478642"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Mechanix",
+      "file_id": "55d73f03149ec",
+      "source_url": "https://rhythmverse.co/songfile/55d73f03149ec",
+      "download_url": "https://rhythmverse.co/download_file/bluzer/55d73f03149ec/Addy_Mechanix1x_ps.rar",
+      "archive_format": "rar",
+      "folder": "Megadeth - Mechanix [55d73f03]",
+      "charter": "AddyMilldike",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2407,
+          "kick_note_on_count": 812,
+          "tom_marker_count": 145,
+          "last_expert_onset_seconds": 259.621,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "55d73f03149ec",
+        "artist": "Megadeth",
+        "title": "Mechanix",
+        "album": "Killing Is My Business... and Business is Good!",
+        "game": "ps",
+        "source_url": "https://rhythmverse.co/songfile/55d73f03149ec",
+        "download_url": "https://rhythmverse.co/download_file/bluzer/55d73f03149ec/Addy_Mechanix1x_ps.rar",
+        "duration_seconds": 265.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "bluzer",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - Mechanix/album.png",
+          "name": "album.png",
+          "sha256": "737b6119858063e2c95f35cbb6a72e3f9d09f807b67e0ab1e6ce5ea47231480a"
+        },
+        {
+          "archive_name": "Megadeth - Mechanix/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "b24dac396b74b089037191d8fccecaa99698a24e7f920f7de90b89400f8d9208"
+        },
+        {
+          "archive_name": "Megadeth - Mechanix/notes.mid",
+          "name": "notes.mid",
+          "sha256": "8eed76353ee792f93097c811913381c5225d519a9a88579ac6641bbc22466cc5"
+        },
+        {
+          "archive_name": "Megadeth - Mechanix/song.ini",
+          "name": "song.ini",
+          "sha256": "3aed1f258d039521b5fb3c8642ffcca0d9b20d7e0fd7a2b1d701cd742198111e"
+        }
+      ],
+      "archive_sha256": "e45b381e5fff782a59e271c1c0765eccfd3230022d763e16b92161219784a6d0",
+      "archive_bytes": 5659090,
+      "prepared_bytes": 5764582,
+      "qobuz_track_ids": [
+        "48322804"
+      ],
+      "playlist_track_ids": [
+        "12450478645"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Tornado Of Souls (Remastered 2004)",
+      "file_id": "9ce075a649724947a578e40f30bf6007",
+      "source_url": "https://rhythmverse.co/songfile/9ce075a649724947a578e40f30bf6007",
+      "download_url": "https://drive.google.com/uc?export=download&id=1G_GiJMyEhYreZtu4C9JytCI_o5iDurlK",
+      "archive_format": "rar",
+      "folder": "Megadeth - Tornado Of Souls (Remastered 2004) [9ce075a6]",
+      "charter": "Joshwantsmaccas",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2411,
+          "kick_note_on_count": 943,
+          "tom_marker_count": 69,
+          "last_expert_onset_seconds": 316.621,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "9ce075a649724947a578e40f30bf6007",
+        "artist": "Megadeth",
+        "title": "Tornado Of Souls (Remastered 2004)",
+        "album": "Rust In Peace",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/9ce075a649724947a578e40f30bf6007",
+        "download_url": "https://drive.google.com/file/d/1G_GiJMyEhYreZtu4C9JytCI_o5iDurlK",
+        "duration_seconds": 321.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Joshwantsmaccas",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - Tornado Of Souls (Remastered 2004)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "b45165ee83c3b1b501d9c272d9b2b71bab6a680f927e5b3b317c1a77ff8e1c3c"
+        },
+        {
+          "archive_name": "Megadeth - Tornado Of Souls (Remastered 2004)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "b40494ab040d891eb7f7490ad2e5a9f19645e15fcc019bd80853a6a4f16c2afd"
+        },
+        {
+          "archive_name": "Megadeth - Tornado Of Souls (Remastered 2004)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "267f8f1d4239c2368f7a81f306f752f2b5f1986dd3509d160f976838d932d160"
+        },
+        {
+          "archive_name": "Megadeth - Tornado Of Souls (Remastered 2004)/song.ini",
+          "name": "song.ini",
+          "sha256": "74d873ff0c327bd9459eae49d5e2d99848e8ce44e5ef1bd7699472390bbe6f4d"
+        }
+      ],
+      "archive_sha256": "42d0e5920342e2f9e82194f8a3b29dce561e72ee4b5f0337864eaaeb0eeec88d",
+      "archive_bytes": 14143142,
+      "prepared_bytes": 14220904,
+      "qobuz_track_ids": [
+        "54707268"
+      ],
+      "playlist_track_ids": [
+        "12450478631"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "All Nightmare Long",
+      "file_id": "60a88261eb06484a8bc74e2fa7ff408a",
+      "source_url": "https://rhythmverse.co/songfile/60a88261eb06484a8bc74e2fa7ff408a",
+      "download_url": "https://drive.google.com/uc?export=download&id=1LjbTTNAuvmRQPmCorf-ZwBgpCy2bM2AX",
+      "archive_format": "rar",
+      "folder": "Metallica - All Nightmare Long [60a88261]",
+      "charter": "<color=#ff0a5c>G</color><color=#ff266f>a</color><color=#ff4282>y</color><color=#ff5991>v</color><color=#ff6e9f>e</color><color=#ff80ab>e</color>",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 4335,
+          "kick_note_on_count": 933,
+          "tom_marker_count": 434,
+          "last_expert_onset_seconds": 477.91,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "60a88261eb06484a8bc74e2fa7ff408a",
+        "artist": "Metallica",
+        "title": "All Nightmare Long",
+        "album": "Death Magnetic",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/60a88261eb06484a8bc74e2fa7ff408a",
+        "download_url": "https://drive.google.com/file/d/1LjbTTNAuvmRQPmCorf-ZwBgpCy2bM2AX",
+        "duration_seconds": 481.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Gayvee",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "All Nightmare Long (Gayvee)/album.png",
+          "name": "album.png",
+          "sha256": "f5ad8ff927a205a133d2898325c7f4ae227a3775a0ef1dd5821a87fafb3d3e3d"
+        },
+        {
+          "archive_name": "All Nightmare Long (Gayvee)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "62022d04ec8e2103898b7a57ad342c5bfb00a1ecee4830083e177ebfe4032140"
+        },
+        {
+          "archive_name": "All Nightmare Long (Gayvee)/song.ini",
+          "name": "song.ini",
+          "sha256": "c54136e004515193b93997ca642680873beed062e75095caaa3b7af2b8a5da4a"
+        },
+        {
+          "archive_name": "All Nightmare Long (Gayvee)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "121760e273b830bff90973bcc34239b4206d9483883c7e035881dd200ed852b3"
+        }
+      ],
+      "archive_sha256": "8b6bed1358b501226bc7ef9f6f0f58f82fcf1bc233277859332d7f2c0bfd99a0",
+      "archive_bytes": 12765371,
+      "prepared_bytes": 12953185,
+      "qobuz_track_ids": [
+        "95786732"
+      ],
+      "playlist_track_ids": [
+        "12449350406"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Die, Die My Darling",
+      "file_id": "531a763e1a936",
+      "source_url": "https://rhythmverse.co/songfile/531a763e1a936",
+      "download_url": "https://rhythmverse.co/download_file/bluzer/531a763e1a936/DieMyDarlingGarage_ps.rar",
+      "archive_format": "rar",
+      "folder": "Metallica - Die, Die My Darling [531a763e]",
+      "charter": "Nightmare Lyre",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1170,
+          "kick_note_on_count": 192,
+          "tom_marker_count": 34,
+          "last_expert_onset_seconds": 138.766,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "531a763e1a936",
+        "artist": "Metallica",
+        "title": "Die, Die My Darling",
+        "album": "Garage Inc.",
+        "game": "ps",
+        "source_url": "https://rhythmverse.co/songfile/531a763e1a936",
+        "download_url": "https://rhythmverse.co/download_file/bluzer/531a763e1a936/DieMyDarlingGarage_ps.rar",
+        "duration_seconds": 151.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "bluzer",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Die, Die My Darling/album.png",
+          "name": "album.png",
+          "sha256": "2ccab539975fb9775e266c9017dc58ed20debc668d5d592c4e7df5ab7a5e752c"
+        },
+        {
+          "archive_name": "Metallica - Die, Die My Darling/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "944f808e79915052a1f3aa005b880f7fc0856ebe2878f5e60091592a695f9e7b"
+        },
+        {
+          "archive_name": "Metallica - Die, Die My Darling/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9d002bbb7791520037bc135e9ef2959317390c7c3d2c604477f867e0abb936df"
+        },
+        {
+          "archive_name": "Metallica - Die, Die My Darling/song.ini",
+          "name": "song.ini",
+          "sha256": "30eae38071fc721a27571313be69fda789af1dd4603549598c37482bcc4f699c"
+        }
+      ],
+      "archive_sha256": "c343e80511027c297a36a480305c55be3fc1dce81934cf1de6befc85f408a1c4",
+      "archive_bytes": 3084036,
+      "prepared_bytes": 3174791,
+      "qobuz_track_ids": [
+        "95786847"
+      ],
+      "playlist_track_ids": [
+        "12449350407"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Blew",
+      "file_id": "910fbf38185b4d3fb01f675e8b08a40f",
+      "source_url": "https://rhythmverse.co/songfile/910fbf38185b4d3fb01f675e8b08a40f",
+      "download_url": "https://rhythmverse.co/download_file/dion-white/910fbf38185b4d3fb01f675e8b08a40f/Nirvana%20-%20Blew.7z",
+      "archive_format": "7z",
+      "folder": "Nirvana - Blew [910fbf38]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1272,
+          "kick_note_on_count": 407,
+          "tom_marker_count": 16,
+          "last_expert_onset_seconds": 175.422,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "910fbf38185b4d3fb01f675e8b08a40f",
+        "artist": "Nirvana",
+        "title": "Blew",
+        "album": "Bleach",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/910fbf38185b4d3fb01f675e8b08a40f",
+        "download_url": "https://rhythmverse.co/download_file/dion-white/910fbf38185b4d3fb01f675e8b08a40f/Nirvana - Blew.7z",
+        "duration_seconds": 177.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Dion White",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Blew/album.png",
+          "name": "album.png",
+          "sha256": "19f07c4375fc0f820d4731766b827281c8a8f145f4942153a586ea434d070e6d"
+        },
+        {
+          "archive_name": "Nirvana - Blew/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "2acbffb28ec7e2f94cb6bca9d1d94695f0f159cb63c30781792d25451e0d90e3"
+        },
+        {
+          "archive_name": "Nirvana - Blew/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "e889b54031d0b9d0514d0297879f4602367660e347f02acea6618a3d49dfe43a"
+        },
+        {
+          "archive_name": "Nirvana - Blew/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "14e090ebddd99a76913365b15c7dcff2e2c0e5c4736605c0307b4faf5d426a6b"
+        },
+        {
+          "archive_name": "Nirvana - Blew/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "9b551a67d7f4a1a6f7dcf896af24e055d79825a2784c54809b0c4a1c10b607a3"
+        },
+        {
+          "archive_name": "Nirvana - Blew/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c5eaa37713a1879e7a9a8d1608d37b7e9b75b0e6377c7ce939628fff96ff1b1a"
+        },
+        {
+          "archive_name": "Nirvana - Blew/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "e86dcbfd27a77f05c53391f8b067b39a513bb15f813435ef14e1539d0b4c3d66"
+        },
+        {
+          "archive_name": "Nirvana - Blew/song.ini",
+          "name": "song.ini",
+          "sha256": "5fa14ec1a0dff9cbb05d1e035a97598dee734fdf1aba2b344bd5a5ed0be808f4"
+        },
+        {
+          "archive_name": "Nirvana - Blew/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5794a555db8fe342c4e4c3da65738997e018efe5a91f6c5644a40049bb9462f9"
+        },
+        {
+          "archive_name": "Nirvana - Blew/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "8bfd08c97359934cb5060b7aed9e730524f08f2ba2f445f83d6991cc4fe1aeab"
+        }
+      ],
+      "archive_sha256": "803f12fa3c743d584ec87060011de2541821f89af51e4af31e82c850cb940c1c",
+      "archive_bytes": 18446323,
+      "prepared_bytes": 18719718,
+      "qobuz_track_ids": [
+        "407819431"
+      ],
+      "playlist_track_ids": [
+        "12449354350"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Frances Farmer Will Have Her Revenge on Seattle",
+      "file_id": "4a977c9b6d4c4d1892283bc2af5fd24e",
+      "source_url": "https://rhythmverse.co/songfile/4a977c9b6d4c4d1892283bc2af5fd24e",
+      "download_url": "https://drive.google.com/uc?export=download&id=1RDmXdredO3pZJRBU-HJSkzH4ylofuX1n",
+      "archive_format": "rar",
+      "folder": "Nirvana - Frances Farmer Will Have Her Revenge on Seattle [4a977c9b]",
+      "charter": "Sygenysis + Nunchuck",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1356,
+          "kick_note_on_count": 458,
+          "tom_marker_count": 147,
+          "last_expert_onset_seconds": 249.366,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "4a977c9b6d4c4d1892283bc2af5fd24e",
+        "artist": "Nirvana",
+        "title": "Frances Farmer Will Have Her Revenge on Seattle",
+        "album": "In Utero",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/4a977c9b6d4c4d1892283bc2af5fd24e",
+        "download_url": "https://drive.google.com/file/d/1RDmXdredO3pZJRBU-HJSkzH4ylofuX1n",
+        "duration_seconds": 258.0,
+        "duration_difference_seconds": 8.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sygenysis + Nunchuck",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Frances Farmer Will Have Her Revenge on Seattle/album.png",
+          "name": "album.png",
+          "sha256": "704bfe26fb80e6c8ad8cbaf4ca02aa4d47877f2702731e65dd4be841eaedd5d9"
+        },
+        {
+          "archive_name": "Nirvana - Frances Farmer Will Have Her Revenge on Seattle/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f62dfc53fff4b80e3674d72b7cf24523a7bc42742a681a887bc43eabd21321df"
+        },
+        {
+          "archive_name": "Nirvana - Frances Farmer Will Have Her Revenge on Seattle/notes.mid",
+          "name": "notes.mid",
+          "sha256": "51fb91b7bf92cfa625c901f34ab6e02b8275885d8248328efb5d154eb975fd8e"
+        },
+        {
+          "archive_name": "Nirvana - Frances Farmer Will Have Her Revenge on Seattle/song.ini",
+          "name": "song.ini",
+          "sha256": "e91721d7cd8771c9b0a779abda8be2d628ec529ad012f05e327db40977c5ee44"
+        }
+      ],
+      "archive_sha256": "3a00282b5b17e4c79ef076f9868c4a6006e695a3eb5df2fdceb10ceeb4df0e66",
+      "archive_bytes": 4389864,
+      "prepared_bytes": 4517245,
+      "qobuz_track_ids": [
+        "11395732"
+      ],
+      "playlist_track_ids": [
+        "12433542497"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Heart-Shaped Box",
+      "file_id": "a739f2ed861948338718d0da85618bfe",
+      "source_url": "https://rhythmverse.co/songfile/a739f2ed861948338718d0da85618bfe",
+      "download_url": "https://rhythmverse.co/download_file/dion-white/a739f2ed861948338718d0da85618bfe/Nirvana%20-%20Heart-Shaped%20Box.7z",
+      "archive_format": "7z",
+      "folder": "Nirvana - Heart-Shaped Box [a739f2ed]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1641,
+          "kick_note_on_count": 452,
+          "tom_marker_count": 85,
+          "last_expert_onset_seconds": 271.843,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a739f2ed861948338718d0da85618bfe",
+        "artist": "Nirvana",
+        "title": "Heart-Shaped Box",
+        "album": "In Utero",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/a739f2ed861948338718d0da85618bfe",
+        "download_url": "https://rhythmverse.co/download_file/dion-white/a739f2ed861948338718d0da85618bfe/Nirvana - Heart-Shaped Box.7z",
+        "duration_seconds": 283.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Dion White",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Heart-Shaped Box/album.png",
+          "name": "album.png",
+          "sha256": "c16a3974169c9b91016e00a3966a3cab1c1c9b53ba5b030c53639250d61bde05"
+        },
+        {
+          "archive_name": "Nirvana - Heart-Shaped Box/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "79ff21ce2b1bf7ba203f4ee8e6d80c387d16dce46a472277c6dad77bcd42b8be"
+        },
+        {
+          "archive_name": "Nirvana - Heart-Shaped Box/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "36c44e012a52dc152cd904db78a70149b4dbfb33197796d610cde47385e19d87"
+        },
+        {
+          "archive_name": "Nirvana - Heart-Shaped Box/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "7dea1c0eb75014cb6c4a0f94bf3db8aeccf169fd86f5e7ed1f5a30317c89f87e"
+        },
+        {
+          "archive_name": "Nirvana - Heart-Shaped Box/notes.mid",
+          "name": "notes.mid",
+          "sha256": "93e34e1aa65acb47d6a990731bdf1dc93d616a1f95b3ac65247d243a3d8e2f48"
+        },
+        {
+          "archive_name": "Nirvana - Heart-Shaped Box/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "104d19206ae945146b7b3671e5934d5dcdbb88e8005a6b6d76a7b26ed7fb5c3d"
+        },
+        {
+          "archive_name": "Nirvana - Heart-Shaped Box/song.ini",
+          "name": "song.ini",
+          "sha256": "75b8e176a33ba8d3c08915cee6953e583a782c8dd05fe2a64bf7331ba1304a88"
+        },
+        {
+          "archive_name": "Nirvana - Heart-Shaped Box/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b15cdf081bc5d9a0ba41e5a2ee75c6fb8d35e43d1ee4d2b4bbf0bad66197959b"
+        },
+        {
+          "archive_name": "Nirvana - Heart-Shaped Box/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "1051a6ad9053db06983fefa233561cff09962c3c9c216d846a1fa2a27c2e369f"
+        }
+      ],
+      "archive_sha256": "d1644c5ec2b30fec87aede5220746920847bc8301f57570ea1090b5cbd4c84ab",
+      "archive_bytes": 20452636,
+      "prepared_bytes": 20705068,
+      "qobuz_track_ids": [
+        "11395730"
+      ],
+      "playlist_track_ids": [
+        "12433542493"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "In Bloom",
+      "file_id": "d00611b188224ef3b376dd4b1917dfe4",
+      "source_url": "https://rhythmverse.co/songfile/d00611b188224ef3b376dd4b1917dfe4",
+      "download_url": "https://drive.google.com/uc?export=download&id=1Z-G6x_FYa838Lqyt_cmnNIDiPqmSMkhI",
+      "archive_format": "rar",
+      "folder": "Nirvana - In Bloom [d00611b1]",
+      "charter": "Debugmod12",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1685,
+          "kick_note_on_count": 472,
+          "cymbal_marker_count": 774,
+          "last_expert_onset_seconds": 253.208,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d00611b188224ef3b376dd4b1917dfe4",
+        "artist": "Nirvana",
+        "title": "In Bloom",
+        "album": "Nevermind",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/d00611b188224ef3b376dd4b1917dfe4",
+        "download_url": "https://drive.google.com/file/d/1Z-G6x_FYa838Lqyt_cmnNIDiPqmSMkhI",
+        "duration_seconds": 256.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Charts Drive",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - In Bloom/album.jpg",
+          "name": "album.jpg",
+          "sha256": "8b08b609b72318f6bb3895dfa4d459cd54a9de8cca05ba64ccd7927f9053fe3d"
+        },
+        {
+          "archive_name": "Nirvana - In Bloom/notes.chart",
+          "name": "notes.chart",
+          "sha256": "5cde007322d893c255def02cfd9a01edf77741c10ec4f1332786da822109fb6d"
+        },
+        {
+          "archive_name": "Nirvana - In Bloom/song.ini",
+          "name": "song.ini",
+          "sha256": "dfa4286b154e60ad0ef66e764dcbe64923015e0b7c8f436c15cd98c74184d464"
+        },
+        {
+          "archive_name": "Nirvana - In Bloom/song.ogg",
+          "name": "song.ogg",
+          "sha256": "020c8fdfe755d1ffc4be91a71a511f7116c6a5b111ef13836523ac8bffbd1060"
+        }
+      ],
+      "archive_sha256": "0898e06b03342f9474d3afe9736ae6b5e0398ed6307bfc28b293be97f2b3612d",
+      "archive_bytes": 8207039,
+      "prepared_bytes": 8277233,
+      "qobuz_track_ids": [
+        "14158545"
+      ],
+      "playlist_track_ids": [
+        "12449354337"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Lounge Act",
+      "file_id": "56d65e91ab5849eb80a6267c271f115b",
+      "source_url": "https://rhythmverse.co/songfile/56d65e91ab5849eb80a6267c271f115b",
+      "download_url": "https://rhythmverse.co/download_file/dion-white/56d65e91ab5849eb80a6267c271f115b/Nirvana%20-%20Lounge%20Act.7z",
+      "archive_format": "7z",
+      "folder": "Nirvana - Lounge Act [56d65e91]",
+      "charter": "",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1101,
+          "kick_note_on_count": 359,
+          "tom_marker_count": 13,
+          "last_expert_onset_seconds": 146.19,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "56d65e91ab5849eb80a6267c271f115b",
+        "artist": "Nirvana",
+        "title": "Lounge Act",
+        "album": "Nevermind",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/56d65e91ab5849eb80a6267c271f115b",
+        "download_url": "https://rhythmverse.co/download_file/dion-white/56d65e91ab5849eb80a6267c271f115b/Nirvana - Lounge Act.7z",
+        "duration_seconds": 157.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Dion White",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Lounge Act/album.png",
+          "name": "album.png",
+          "sha256": "97a8c3d94ec54452c770f86d435286011234c8f29de7c135fb804a039bcdd135"
+        },
+        {
+          "archive_name": "Nirvana - Lounge Act/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "f11f4a0ff519912d2dac503a938b554dfeddacda051c2af516816d094d299008"
+        },
+        {
+          "archive_name": "Nirvana - Lounge Act/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "9fe61dc4cf810ceee5368026d3862f64c930e150832eabfaf5f758b9d822684c"
+        },
+        {
+          "archive_name": "Nirvana - Lounge Act/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "c1faa2a92f7d9c8d42812097d4d36f1ea4b97baa5e1d33bb80069e7d2c559a49"
+        },
+        {
+          "archive_name": "Nirvana - Lounge Act/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "664b890abb87829c2accd964885555039233549e845ed112d79ac96dfba282b5"
+        },
+        {
+          "archive_name": "Nirvana - Lounge Act/notes.mid",
+          "name": "notes.mid",
+          "sha256": "19c45d0549541a435d190d3333aab2dc74f6a9aaec6068bae4dc3e17ba8c6297"
+        },
+        {
+          "archive_name": "Nirvana - Lounge Act/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "44e507dcc42fabdc1a018bc2a9b8c51b42c7aa21a03d28a885956a4152231f94"
+        },
+        {
+          "archive_name": "Nirvana - Lounge Act/song.ini",
+          "name": "song.ini",
+          "sha256": "c8f540928a7f64399d2e33d1098fcbb8efa1c695357eeb9d1c49e0694e5ec951"
+        },
+        {
+          "archive_name": "Nirvana - Lounge Act/song.ogg",
+          "name": "song.ogg",
+          "sha256": "08cbb9ca8929fff3c71192ffb7260a18d503a4345bde272d548d549b34851711"
+        },
+        {
+          "archive_name": "Nirvana - Lounge Act/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "1fdd97f33eeadc0d8345cba4075275c042de639eaac389bf113564e7e8748b64"
+        }
+      ],
+      "archive_sha256": "098e51ccfa208e3dfabf57296a02753aecf417a9f1acba330a6b5483268abe44",
+      "archive_bytes": 16464026,
+      "prepared_bytes": 16716805,
+      "qobuz_track_ids": [
+        "14158556"
+      ],
+      "playlist_track_ids": [
+        "12449354345"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Rape Me",
+      "file_id": "f4b41bd7f91f43a8ab50b5a125c3d6e1",
+      "source_url": "https://rhythmverse.co/songfile/f4b41bd7f91f43a8ab50b5a125c3d6e1",
+      "download_url": "https://rhythmverse.co/download_file/dion-white/f4b41bd7f91f43a8ab50b5a125c3d6e1/Nirvana%20-%20Rape%20Me.7z",
+      "archive_format": "7z",
+      "folder": "Nirvana - Rape Me [f4b41bd7]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 829,
+          "kick_note_on_count": 217,
+          "tom_marker_count": 6,
+          "last_expert_onset_seconds": 158.66,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f4b41bd7f91f43a8ab50b5a125c3d6e1",
+        "artist": "Nirvana",
+        "title": "Rape Me",
+        "album": "In Utero",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/f4b41bd7f91f43a8ab50b5a125c3d6e1",
+        "download_url": "https://rhythmverse.co/download_file/dion-white/f4b41bd7f91f43a8ab50b5a125c3d6e1/Nirvana - Rape Me.7z",
+        "duration_seconds": 172.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Dion White",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Rape Me/album.png",
+          "name": "album.png",
+          "sha256": "c16a3974169c9b91016e00a3966a3cab1c1c9b53ba5b030c53639250d61bde05"
+        },
+        {
+          "archive_name": "Nirvana - Rape Me/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "f43aab01f94fc1e273966862c98f71b87e9d37df92286eb0db2904e772be5121"
+        },
+        {
+          "archive_name": "Nirvana - Rape Me/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "5055b319e0788159434bdbe7dc6696eb386809a483d1d8740b4bc9d76208e5c8"
+        },
+        {
+          "archive_name": "Nirvana - Rape Me/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "313b895ae06bc4a03da720f3e95ecc96d1859d05728ef5b419a0cc4d7e6573eb"
+        },
+        {
+          "archive_name": "Nirvana - Rape Me/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "32e509a64fec8551e6302149a8bc5904d3842a884582878223db58b70e68754c"
+        },
+        {
+          "archive_name": "Nirvana - Rape Me/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c6af9b87ad1d11fd4212495fb0093e49e53c73acb756a78d0ec079ba6f63366d"
+        },
+        {
+          "archive_name": "Nirvana - Rape Me/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "b103ff6c1c69e3d2dcbd56c96f5eb82288343d778492ba200908612255a018ec"
+        },
+        {
+          "archive_name": "Nirvana - Rape Me/song.ini",
+          "name": "song.ini",
+          "sha256": "98bb60affcc98d195c8293593a7d8294d237a73a6a8b921ee3e502e3633ff2c8"
+        },
+        {
+          "archive_name": "Nirvana - Rape Me/song.ogg",
+          "name": "song.ogg",
+          "sha256": "def94257747c8853646013cca64c7cbbf7eab2c45c58cb9b327a4d4cd69ade1a"
+        },
+        {
+          "archive_name": "Nirvana - Rape Me/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "1ca42f452dac321cd786508ea01009010e12dc34853706a8d793be34b4ef26d3"
+        }
+      ],
+      "archive_sha256": "d3d068d97c039be8456c55aa807827f3174b5c5e8accd488ab560503fa3f560a",
+      "archive_bytes": 16249723,
+      "prepared_bytes": 16452674,
+      "qobuz_track_ids": [
+        "11395731"
+      ],
+      "playlist_track_ids": [
+        "12433542496"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "School",
+      "file_id": "a2191a854c9746e38b882a17db5032ed",
+      "source_url": "https://rhythmverse.co/songfile/a2191a854c9746e38b882a17db5032ed",
+      "download_url": "https://rhythmverse.co/download_file/dion-white/a2191a854c9746e38b882a17db5032ed/Nirvana%20-%20School.7z",
+      "archive_format": "7z",
+      "folder": "Nirvana - School [a2191a85]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1375,
+          "kick_note_on_count": 465,
+          "tom_marker_count": 115,
+          "last_expert_onset_seconds": 160.549,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a2191a854c9746e38b882a17db5032ed",
+        "artist": "Nirvana",
+        "title": "School",
+        "album": "Bleach",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/a2191a854c9746e38b882a17db5032ed",
+        "download_url": "https://rhythmverse.co/download_file/dion-white/a2191a854c9746e38b882a17db5032ed/Nirvana - School.7z",
+        "duration_seconds": 164.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Dion White",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - School/album.png",
+          "name": "album.png",
+          "sha256": "19f07c4375fc0f820d4731766b827281c8a8f145f4942153a586ea434d070e6d"
+        },
+        {
+          "archive_name": "Nirvana - School/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "0c327121b4f23ee40fb88ed00e57a6955d00c10223f2f2a2cf0a198a247da82c"
+        },
+        {
+          "archive_name": "Nirvana - School/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "c8030477a40a9ca4d4bd903de31aa894357ef7f3624ca64bf142d3d9fc63ad87"
+        },
+        {
+          "archive_name": "Nirvana - School/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "06783d82962c7c68cc3880517c0db726b2014391685c248a49755a208c44c72d"
+        },
+        {
+          "archive_name": "Nirvana - School/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "b97dd8a846f0578c82d066365b106c36ca5f18e32896551ff4846aea55cbc112"
+        },
+        {
+          "archive_name": "Nirvana - School/notes.mid",
+          "name": "notes.mid",
+          "sha256": "32b9ceb7416e7b8a674a72c6e70e982ea0a1153af71e7e9c9a5e152d657fafa0"
+        },
+        {
+          "archive_name": "Nirvana - School/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "66b470ee07910ce77caf4fbfb25b6f74d98d35240ed07d98a37bd0cae3e78a99"
+        },
+        {
+          "archive_name": "Nirvana - School/song.ini",
+          "name": "song.ini",
+          "sha256": "df794b19bc9b9921581d89c57313380964e94b0d76b80ed0990b9848aee47dd0"
+        },
+        {
+          "archive_name": "Nirvana - School/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6a18158e609488e0e2310dde9ddab17632f23a84c584508fde724c3d9e6c792a"
+        },
+        {
+          "archive_name": "Nirvana - School/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "0b9dbae635c07165438ed2e72bf7a11a35f679acd218e29d790396edb83d98b2"
+        }
+      ],
+      "archive_sha256": "37af2a61547a661e1c66180c1d0caa5b0cfb6f95610d786c9954d16b49f82368",
+      "archive_bytes": 11680538,
+      "prepared_bytes": 11914432,
+      "qobuz_track_ids": [
+        "407819434"
+      ],
+      "playlist_track_ids": [
+        "12449354363"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Stay Away",
+      "file_id": "15b372505a4f4019bf7097ec5d8d63e9",
+      "source_url": "https://rhythmverse.co/songfile/15b372505a4f4019bf7097ec5d8d63e9",
+      "download_url": "https://rhythmverse.co/download_file/dion-white/15b372505a4f4019bf7097ec5d8d63e9/Nirvana%20-%20Stay%20Away.7z",
+      "archive_format": "7z",
+      "folder": "Nirvana - Stay Away [15b37250]",
+      "charter": "",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1985,
+          "kick_note_on_count": 752,
+          "tom_marker_count": 6,
+          "last_expert_onset_seconds": 195.492,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "15b372505a4f4019bf7097ec5d8d63e9",
+        "artist": "Nirvana",
+        "title": "Stay Away",
+        "album": "Nevermind",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/15b372505a4f4019bf7097ec5d8d63e9",
+        "download_url": "https://rhythmverse.co/download_file/dion-white/15b372505a4f4019bf7097ec5d8d63e9/Nirvana - Stay Away.7z",
+        "duration_seconds": 214.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Dion White",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Stay Away/album.png",
+          "name": "album.png",
+          "sha256": "97a8c3d94ec54452c770f86d435286011234c8f29de7c135fb804a039bcdd135"
+        },
+        {
+          "archive_name": "Nirvana - Stay Away/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "eb322611dd0931f7ad6c607c5a2d45cb3236cf32da7836870b7239780784812e"
+        },
+        {
+          "archive_name": "Nirvana - Stay Away/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "c44fbfe2b2ceb24004c541429ef25f093551a8388b74f990926d63380bfb8121"
+        },
+        {
+          "archive_name": "Nirvana - Stay Away/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "c881fe15f6216a50b1120a6f670c95765a5cf5201f94b82180e896e744445035"
+        },
+        {
+          "archive_name": "Nirvana - Stay Away/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "4845af8fbf72b9c204638ade74d95dd0b77617121040d6a31625ecca6fd6fa7f"
+        },
+        {
+          "archive_name": "Nirvana - Stay Away/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b5317d539ef93109a95576362f48c54642e376f5068ba4d1440122d6babf76ac"
+        },
+        {
+          "archive_name": "Nirvana - Stay Away/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "e1aa18a94aa53b5db36f1b6f12501b6f546e258e6bbcc827af0074b16f08a77a"
+        },
+        {
+          "archive_name": "Nirvana - Stay Away/song.ini",
+          "name": "song.ini",
+          "sha256": "cd966a860a1905d6f5dbd857728c6b1fa9179b1fd89f84f3388a65adc741a987"
+        },
+        {
+          "archive_name": "Nirvana - Stay Away/song.ogg",
+          "name": "song.ogg",
+          "sha256": "da40066d44577b6018dc9c00c9fdaba14cb5f3dba29296d36c0ce874b72b970d"
+        },
+        {
+          "archive_name": "Nirvana - Stay Away/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "096a1ecc0200fd5fc5c95f786a8b2d6d922607682d43988b329587e7e7ebe5e4"
+        }
+      ],
+      "archive_sha256": "d4428a93e868f461d839ddc302578a678da416a56a383263e237409831b2768e",
+      "archive_bytes": 18373987,
+      "prepared_bytes": 18605818,
+      "qobuz_track_ids": [
+        "14158557"
+      ],
+      "playlist_track_ids": [
+        "12449354356"
+      ]
+    },
+    {
+      "artist": "Skillet",
+      "title": "Feel Invincible",
+      "file_id": "d81305d994d24eba8c76c1d2508c9b9d",
+      "source_url": "https://rhythmverse.co/songfile/d81305d994d24eba8c76c1d2508c9b9d",
+      "download_url": "https://rhythmverse.co/download_file/dion-white/d81305d994d24eba8c76c1d2508c9b9d/Skillet%20-%20Feel%20Invincible.7z",
+      "archive_format": "7z",
+      "folder": "Skillet - Feel Invincible [d81305d9]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1327,
+          "kick_note_on_count": 475,
+          "tom_marker_count": 10,
+          "last_expert_onset_seconds": 228.412,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d81305d994d24eba8c76c1d2508c9b9d",
+        "artist": "Skillet",
+        "title": "Feel Invincible",
+        "album": "Unleashed",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/d81305d994d24eba8c76c1d2508c9b9d",
+        "download_url": "https://rhythmverse.co/download_file/dion-white/d81305d994d24eba8c76c1d2508c9b9d/Skillet - Feel Invincible.7z",
+        "duration_seconds": 230.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Dion White",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Feel Invincible/album.png",
+          "name": "album.png",
+          "sha256": "2e00bad7f922e184b19657aac4c7048e4de473d8f086b93b76436fb3976f143c"
+        },
+        {
+          "archive_name": "Skillet - Feel Invincible/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "c3c61248009159100700cf28198b48d90e3c21ebab7806a1bb45ad06e394c8f4"
+        },
+        {
+          "archive_name": "Skillet - Feel Invincible/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "0db2995021d189768304f3e40c79cdd8446bc0130f074c36577c7f594911876e"
+        },
+        {
+          "archive_name": "Skillet - Feel Invincible/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f3c8ba1f646f39a4f2e17f379ed0e3dd200d5cc823d632294c2d21d59d8f5935"
+        },
+        {
+          "archive_name": "Skillet - Feel Invincible/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "67e22108a14b8967cad8691ce7e2ccf0e3c88883ebc937fd69bb9f1e6469a580"
+        },
+        {
+          "archive_name": "Skillet - Feel Invincible/song.ini",
+          "name": "song.ini",
+          "sha256": "a07854f48cba9fa8954288aa5e0d6cf208831a892f08aa13ca44b9484923688d"
+        },
+        {
+          "archive_name": "Skillet - Feel Invincible/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c82da867142be85ece51af02b8e4006784dc30801874bb60750b3c4a6bb81ebe"
+        },
+        {
+          "archive_name": "Skillet - Feel Invincible/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "71c3fe7e66c413eba4beda1a0242b57ce52046cd58a55217b14d6524c3a8f2a1"
+        }
+      ],
+      "archive_sha256": "b838385c129e92094fa88fdbd0a8ebaed751c9bb088695c5f8e1549e2b48a009",
+      "archive_bytes": 22675583,
+      "prepared_bytes": 22961465,
+      "qobuz_track_ids": [
+        "32383684"
+      ],
+      "playlist_track_ids": [
+        "12221847131"
+      ]
+    },
+    {
+      "artist": "Skillet",
+      "title": "The Resistance",
+      "file_id": "f543551d5fdb4293b9f67bd1c6581c2c",
+      "source_url": "https://rhythmverse.co/songfile/f543551d5fdb4293b9f67bd1c6581c2c",
+      "download_url": "https://rhythmverse.co/download_file/meestarneeek/f543551d5fdb4293b9f67bd1c6581c2c/Skillet%20-%20The%20Resistance.7z",
+      "archive_format": "7z",
+      "folder": "Skillet - The Resistance [f543551d]",
+      "charter": "Meestarneeek",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1038,
+          "kick_note_on_count": 343,
+          "cymbal_marker_count": 390,
+          "last_expert_onset_seconds": 230.993,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f543551d5fdb4293b9f67bd1c6581c2c",
+        "artist": "Skillet",
+        "title": "The Resistance",
+        "album": "Unleashed",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/f543551d5fdb4293b9f67bd1c6581c2c",
+        "download_url": "https://rhythmverse.co/download_file/meestarneeek/f543551d5fdb4293b9f67bd1c6581c2c/Skillet - The Resistance.7z",
+        "duration_seconds": 231.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Meestarneeek",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - The Resistance/album.jpg",
+          "name": "album.jpg",
+          "sha256": "2d5177e9b81555f5a490fd95d0d073a04ca03ec5fc1aed75ddf50856ee815b23"
+        },
+        {
+          "archive_name": "Skillet - The Resistance/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "c90825eff2dd5155e6c375b1b253c17e16295fe23ff04043719cb5461ef2ca43"
+        },
+        {
+          "archive_name": "Skillet - The Resistance/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "089aace10f69234d4c30961847eed21dbf13b56a58e8598c0dd0873144070cbc"
+        },
+        {
+          "archive_name": "Skillet - The Resistance/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c63b64e51f7e280900cc74d86d2aa5837a63b59921bbacc1f55bd66385067e47"
+        },
+        {
+          "archive_name": "Skillet - The Resistance/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "231918163be2eab6ca9315f273a1df671aea50528e4ed0b608269d205ea59661"
+        },
+        {
+          "archive_name": "Skillet - The Resistance/notes.chart",
+          "name": "notes.chart",
+          "sha256": "3b01fff55d18ed933203bc623be9dcb5fe7b3dabc112ea838b79f1ea23c2f6be"
+        },
+        {
+          "archive_name": "Skillet - The Resistance/song.ini",
+          "name": "song.ini",
+          "sha256": "14b7e3ee7b05a7d2f852fe81dd8029bbe3618c78481f1360ae840ff117a831b1"
+        },
+        {
+          "archive_name": "Skillet - The Resistance/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6975bec4649545b033d006c5b75c9140a556ff110350f7dc750fd6159bc7aa1a"
+        },
+        {
+          "archive_name": "Skillet - The Resistance/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "91e6cc567d26f3953d3e7922d69a255f349c36dd04fe04194eeeb242fedae721"
+        }
+      ],
+      "archive_sha256": "136e5850b981bc2b93b948b588801500394fbf98f11f2499b42dd8c44a9ef47b",
+      "archive_bytes": 27008025,
+      "prepared_bytes": 27531422,
+      "qobuz_track_ids": [
+        "32383695"
+      ],
+      "playlist_track_ids": [
+        "12221847130"
+      ]
+    },
+    {
+      "artist": "Skillet",
+      "title": "Whispers In The Dark",
+      "file_id": "5b947db23bf565.22598108",
+      "source_url": "https://rhythmverse.co/songfile/5b947db23bf565.22598108",
+      "download_url": "https://www.mediafire.com/file/sen3q4zmp2m7key/s_witd_rb3con_ps.rar",
+      "archive_format": "rar",
+      "folder": "Skillet - Whispers In The Dark [5b947db2]",
+      "charter": "Bernie, diogoblader, Mati12Osorio",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1159,
+          "kick_note_on_count": 309,
+          "tom_marker_count": 13,
+          "last_expert_onset_seconds": 202.978,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947db23bf565.22598108",
+        "artist": "Skillet",
+        "title": "Whispers In The Dark",
+        "album": "Comatose",
+        "game": "ps",
+        "source_url": "https://rhythmverse.co/songfile/5b947db23bf565.22598108",
+        "download_url": "http://www.mediafire.com/file/sen3q4zmp2m7key/s_witd_rb3con_ps.rar",
+        "duration_seconds": 204.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "diogoblader",
+        "notes": "<p>Original Chart: Bernie<br />\n&#160;<br />\nConversion: diogoblader<br />\n&#160;----------------------------------<br />\n&#160;<br />\nupgrade 06/16/17<br />\n&#160;<br />\n&#160;Harmonies, Keys, Pro Keys and Phase Shift version added by Mati12Osorio</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Whispers In The Dark/album.png",
+          "name": "album.png",
+          "sha256": "40acbf07597fd54a0c7aca042c160ff1bcb6d407e6c54893d36407d5580386fc"
+        },
+        {
+          "archive_name": "Skillet - Whispers In The Dark/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "63b6d41d8effafd4d897f1a0f91f689abb189fff65bbcdbfa1a6751521d5ae08"
+        },
+        {
+          "archive_name": "Skillet - Whispers In The Dark/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "a5a0938f21ef66688c31eebff64f8f3ac65c03fd5eddaed0baef8d528191282d"
+        },
+        {
+          "archive_name": "Skillet - Whispers In The Dark/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "17a60dd7613de15e7ca7791966383704289d2b35b2d6a5d8d2d986706450e016"
+        },
+        {
+          "archive_name": "Skillet - Whispers In The Dark/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d4131a6d6b533d88425a2fedefaadaf20b29f1a7abd21a9bfea91a44efd11d34"
+        },
+        {
+          "archive_name": "Skillet - Whispers In The Dark/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "e31e36ae6b6384fd141cbeccb9060cc539f3b00b0b84e026fffdfc89a77ef249"
+        },
+        {
+          "archive_name": "Skillet - Whispers In The Dark/song.ini",
+          "name": "song.ini",
+          "sha256": "34cd65a224d1af982ff1241f21d595dd77c0e815a42429c553fc751b76b5b387"
+        },
+        {
+          "archive_name": "Skillet - Whispers In The Dark/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f64768f64fb1da9bb6aba32277f1b39801f8eaef8e4151c4c862487c631c327f"
+        },
+        {
+          "archive_name": "Skillet - Whispers In The Dark/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "de28f1e6a683479a7447087a357353ed594e7d5416b33b6bd2e837ff68119d4b"
+        }
+      ],
+      "archive_sha256": "339ef29201c5c40aec50ba640b106ef499b95e6c6b69554b1eb10eaddbff460f",
+      "archive_bytes": 20936956,
+      "prepared_bytes": 21761324,
+      "qobuz_track_ids": [
+        "2928692"
+      ],
+      "playlist_track_ids": [
+        "12221847136"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Skeletons of Society",
+      "file_id": "606316d82a6746d483bdcee9c1a75b15",
+      "source_url": "https://rhythmverse.co/songfile/606316d82a6746d483bdcee9c1a75b15",
+      "download_url": "https://drive.google.com/uc?export=download&id=1Lmz0nkBc8HVZvZlC9vzDhPemUIKyG8y4",
+      "archive_format": "rar",
+      "folder": "Slayer - Skeletons of Society [606316d8]",
+      "charter": "Sygenysis + Nunchuck",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1628,
+          "kick_note_on_count": 391,
+          "tom_marker_count": 364,
+          "last_expert_onset_seconds": 283.172,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "606316d82a6746d483bdcee9c1a75b15",
+        "artist": "Slayer",
+        "title": "Skeletons of Society",
+        "album": "Seasons in the Abyss",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/606316d82a6746d483bdcee9c1a75b15",
+        "download_url": "https://drive.google.com/file/d/1Lmz0nkBc8HVZvZlC9vzDhPemUIKyG8y4",
+        "duration_seconds": 284.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sygenysis + Nunchuck",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slayer - Skeletons of Society/album.png",
+          "name": "album.png",
+          "sha256": "6c85f2d210f6f0e296e6527b45bdf61978f8dc6a64971d2aa518d8917d64074f"
+        },
+        {
+          "archive_name": "Slayer - Skeletons of Society/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "8d297f8c7bc3e9f90c0ea3d9697c1214914577b216c719d86c0b36f9d88bb4f1"
+        },
+        {
+          "archive_name": "Slayer - Skeletons of Society/notes.mid",
+          "name": "notes.mid",
+          "sha256": "241f7fc866b8a529f1a63e5ac9925f5b7e8700e7a270c39a0b4d57184e0461c8"
+        },
+        {
+          "archive_name": "Slayer - Skeletons of Society/song.ini",
+          "name": "song.ini",
+          "sha256": "8f17cd35807b6b4d1946ce6394eda2439ad8a97673b80bf4ce2d2328ccdb647a"
+        }
+      ],
+      "archive_sha256": "5a46b62e787f86f272377b7f98fe1c7491179a9efaf66675225f3d23fd621521",
+      "archive_bytes": 5564944,
+      "prepared_bytes": 5645033,
+      "qobuz_track_ids": [
+        "27117385"
+      ],
+      "playlist_track_ids": [
+        "12450470407"
+      ]
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Eeyore",
+      "file_id": "6e6e61a9bf004dda978a5dea8ae5f8df",
+      "source_url": "https://rhythmverse.co/songfile/6e6e61a9bf004dda978a5dea8ae5f8df",
+      "download_url": "https://drive.google.com/uc?export=download&id=1Heyt2FbFSguMXqBmvfEZ3PNBqyHgqrQS",
+      "archive_format": "rar",
+      "folder": "Slipknot - Eeyore [6e6e61a9]",
+      "charter": "Joshwantsmaccas",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1907,
+          "kick_note_on_count": 761,
+          "tom_marker_count": 217,
+          "last_expert_onset_seconds": 136.349,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6e6e61a9bf004dda978a5dea8ae5f8df",
+        "artist": "Slipknot",
+        "title": "Eeyore",
+        "album": "Slipknot",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/6e6e61a9bf004dda978a5dea8ae5f8df",
+        "download_url": "https://drive.google.com/file/d/1Heyt2FbFSguMXqBmvfEZ3PNBqyHgqrQS",
+        "duration_seconds": 167.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Joshwantsmaccas",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slipknot - Eeyore/album.jpg",
+          "name": "album.jpg",
+          "sha256": "fa4eaa98c9598ca47d4382a96c715abf37a7f1788fd96291635615894c43584d"
+        },
+        {
+          "archive_name": "Slipknot - Eeyore/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "95b0eac683385222fb22694dac8871ceb73733219d938ff8e5d3f284f465e639"
+        },
+        {
+          "archive_name": "Slipknot - Eeyore/notes.mid",
+          "name": "notes.mid",
+          "sha256": "516727942ae597ee33b67d4ffc11472ad0a12998b47ab5146101f3e1df669e34"
+        },
+        {
+          "archive_name": "Slipknot - Eeyore/song.ini",
+          "name": "song.ini",
+          "sha256": "a8c1cb46291c51e1e56b29eb1218445fbce9bf7892bc421687c7f97f62fbbdfd"
+        }
+      ],
+      "archive_sha256": "645befe44a2965001dedd26d9fe8e5b3388edc6785e206509c18734282a2d587",
+      "archive_bytes": 6327671,
+      "prepared_bytes": 6385504,
+      "qobuz_track_ids": [
+        "347548915"
+      ],
+      "playlist_track_ids": [
+        "12448263283"
+      ]
+    }
+  ]
+}

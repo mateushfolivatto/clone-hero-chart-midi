@@ -1,0 +1,2225 @@
+{
+  "schema_version": 1,
+  "batch_number": 5,
+  "collection_folder": "MixDrumRock - Lote 05",
+  "archive_name": "MixDrumRock-lote-05.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "songs": [
+    {
+      "artist": "Sepultura",
+      "title": "Roots Bloody Roots",
+      "file_id": "1f42a7be04944fb5945bb65325242a5a",
+      "source_url": "https://rhythmverse.co/songfile/1f42a7be04944fb5945bb65325242a5a",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1jGvcG4L-S1-wb2IPwbE--45DJghqubUg",
+      "archive_format": "files",
+      "folder": "Sepultura - Roots Bloody Roots [1f42a7be]",
+      "charter": "postmortem",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1363,
+          "kick_note_on_count": 443,
+          "cymbal_marker_count": 649,
+          "last_expert_onset_seconds": 208.561,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "1f42a7be04944fb5945bb65325242a5a",
+        "artist": "Sepultura",
+        "title": "Roots Bloody Roots",
+        "album": "Roots",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/1f42a7be04944fb5945bb65325242a5a",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1jGvcG4L-S1-wb2IPwbE--45DJghqubUg",
+        "duration_seconds": 212.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "postmortem",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "4d57870a8e11e66b76fa29d1a9e18c1f30d2a101aec8212ef437f7557eb0316e",
+          "download_url": "https://drive.google.com/uc?export=download&id=15c5qYtF9n8JJUUdwSTkzup_voNKuJM7a",
+          "source_sha256": "4d57870a8e11e66b76fa29d1a9e18c1f30d2a101aec8212ef437f7557eb0316e",
+          "bytes": 253527
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "f257535a1551e28bc7c6ac7c9ab487c50e90551c5659673af9984e560fbe06da",
+          "download_url": "https://drive.google.com/uc?export=download&id=1tYRn-j7mXZs7QIMlHJo-hnwzPbSTwh_E",
+          "source_sha256": "f257535a1551e28bc7c6ac7c9ab487c50e90551c5659673af9984e560fbe06da",
+          "bytes": 240609
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "c2f5cbf2e5780305916711a40dbd07e3e5abc3373e2951b1c21628299d9830b5",
+          "download_url": "https://drive.google.com/uc?export=download&id=1mxgdMCj8oeuD0wljF-jwbrdUiCdco8Qv",
+          "source_sha256": "c2f5cbf2e5780305916711a40dbd07e3e5abc3373e2951b1c21628299d9830b5",
+          "bytes": 68357
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "6cd83c442248dc3480bb230fb86130800c2aaf167d55cc46f498c59eae645d45",
+          "download_url": "https://drive.google.com/uc?export=download&id=1l5UpmfGl7AIuO4K6O7WSt8vYoURRiEqK",
+          "source_sha256": "d5bce7e68c3a17c7dab28ea4a981d629a8b56b3449382b77d6d42db3c249c9b0",
+          "bytes": 426
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "279edd41beed375313f826f03e2e2462b503ae5759f1b9e50584096ca47a62ab",
+          "download_url": "https://drive.google.com/uc?export=download&id=1AN1pcAg7SAeQBplnoo2Y22V09qrXXrjo",
+          "source_sha256": "279edd41beed375313f826f03e2e2462b503ae5759f1b9e50584096ca47a62ab",
+          "bytes": 6369290
+        }
+      ],
+      "prepared_bytes": 6932201,
+      "qobuz_track_ids": [
+        "44368195"
+      ],
+      "playlist_track_ids": [
+        "12449405371"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Chemical Warfare",
+      "file_id": "7be3ca52b0fe4584b3b90522fbbdcb7a",
+      "source_url": "https://rhythmverse.co/songfile/7be3ca52b0fe4584b3b90522fbbdcb7a",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1TB7PAH_VqhIlFBzKz9KIKB_ibPzOnF9k",
+      "archive_format": "files",
+      "folder": "Slayer - Chemical Warfare [7be3ca52]",
+      "charter": "Youngblood",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3645,
+          "kick_note_on_count": 863,
+          "cymbal_marker_count": 1565,
+          "last_expert_onset_seconds": 355.912,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7be3ca52b0fe4584b3b90522fbbdcb7a",
+        "artist": "Slayer",
+        "title": "Chemical Warfare",
+        "album": "Haunting the Chapel EP",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/7be3ca52b0fe4584b3b90522fbbdcb7a",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1TB7PAH_VqhIlFBzKz9KIKB_ibPzOnF9k",
+        "duration_seconds": 364.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "c2743fce37868aa66e2380644cfabb6e0ea5728dd340a530a4a8c739c5d3736f",
+          "download_url": "https://drive.google.com/uc?export=download&id=134MSShogQlcPNIUwR9FYt1X2ZBdXA9nF",
+          "source_sha256": "c2743fce37868aa66e2380644cfabb6e0ea5728dd340a530a4a8c739c5d3736f",
+          "bytes": 21069
+        },
+        {
+          "archive_name": "background.jpeg",
+          "name": "background.jpeg",
+          "sha256": "58ad730f51e31ac324fffbcabac1863bd0355155942befc891cbed97ef71c131",
+          "download_url": "https://drive.google.com/uc?export=download&id=1W00WUN-CLAlaoyj0IhIoOk4YfHfQ1aSc",
+          "source_sha256": "58ad730f51e31ac324fffbcabac1863bd0355155942befc891cbed97ef71c131",
+          "bytes": 10598
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "b44270f705086be30d503a0263a1643d1c19f2d4c0bf7e606e92f1a31642985b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1d5lbdJi8a5UkFr1AtFe4GT-yHKish5Sc",
+          "source_sha256": "b44270f705086be30d503a0263a1643d1c19f2d4c0bf7e606e92f1a31642985b",
+          "bytes": 118091
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "51680b80972d3fe7a4149b5982aa3d14e9777d161590c0487203fcb08e116ccd",
+          "download_url": "https://drive.google.com/uc?export=download&id=19KbGnGUKJ9NQpGmsd5kZpKTuBzF_Gl-V",
+          "source_sha256": "51680b80972d3fe7a4149b5982aa3d14e9777d161590c0487203fcb08e116ccd",
+          "bytes": 498
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "d93816aa3908e76cbc1bcc34ab8628c553228530a770ee3804c4bc7e71e9b544",
+          "download_url": "https://drive.google.com/uc?export=download&id=1KDOU3RwJWIWcXEcQW5xE2LlHaboqJddV",
+          "source_sha256": "d93816aa3908e76cbc1bcc34ab8628c553228530a770ee3804c4bc7e71e9b544",
+          "bytes": 11163480
+        }
+      ],
+      "prepared_bytes": 11313736,
+      "qobuz_track_ids": [
+        "136741235"
+      ],
+      "playlist_track_ids": [
+        "12450470411"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Psychopathy Red",
+      "file_id": "9899bc4d8b4f4fea975d99cfe4cab4c1",
+      "source_url": "https://rhythmverse.co/songfile/9899bc4d8b4f4fea975d99cfe4cab4c1",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1vcUpGBYvAxvJm5wo0NAFp9t7CNjvnIbU",
+      "archive_format": "files",
+      "folder": "Slayer - Psychopathy Red [9899bc4d]",
+      "charter": "Sygenysis",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1805,
+          "kick_note_on_count": 521,
+          "tom_marker_count": 79,
+          "last_expert_onset_seconds": 144.733,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "9899bc4d8b4f4fea975d99cfe4cab4c1",
+        "artist": "Slayer",
+        "title": "Psychopathy Red",
+        "album": "World Painted Blood",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/9899bc4d8b4f4fea975d99cfe4cab4c1",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1vcUpGBYvAxvJm5wo0NAFp9t7CNjvnIbU",
+        "duration_seconds": 147.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sygenysis",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "2d4ec4c5e93f67ae9295f024d19ca7affbaba7adec901bc04353b73c68122603",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Q70O7rNLY7EIjgV41ebOFn2bgpEGQPJ1",
+          "source_sha256": "2d4ec4c5e93f67ae9295f024d19ca7affbaba7adec901bc04353b73c68122603",
+          "bytes": 66203
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f21c2579d19791dfdf83841f2bd246f5b0b25db52f3306542c1b137d41690f1e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1di_AUsgb9iq9j0ecE5x2kseor-9g0rdT",
+          "source_sha256": "f21c2579d19791dfdf83841f2bd246f5b0b25db52f3306542c1b137d41690f1e",
+          "bytes": 2615539
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "e194a2fd957f9bc43797ba96140100258049801e0ad84406eaad8b8026162278",
+          "download_url": "https://drive.google.com/uc?export=download&id=12Ar5zmXdj6o1OT1hyXF33YYXQ1ocHhs9",
+          "source_sha256": "e194a2fd957f9bc43797ba96140100258049801e0ad84406eaad8b8026162278",
+          "bytes": 23874
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "b3a5bed762c599ca212813e1ae4dede4e8507b4111413b69536a595fae5896d3",
+          "download_url": "https://drive.google.com/uc?export=download&id=1har8Ce3UhSMY6YaeIzLPSa1VaC5t5g9B",
+          "source_sha256": "b3a5bed762c599ca212813e1ae4dede4e8507b4111413b69536a595fae5896d3",
+          "bytes": 715
+        }
+      ],
+      "prepared_bytes": 2706331,
+      "qobuz_track_ids": [
+        "15677084"
+      ],
+      "playlist_track_ids": [
+        "12450470415"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Spill the Blood",
+      "file_id": "5ce6b927e1d34eda97d61d89f6640f42",
+      "source_url": "https://rhythmverse.co/songfile/5ce6b927e1d34eda97d61d89f6640f42",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1C61Js5yNVnnvtnYYe2N2KhBuTea32Fjv",
+      "archive_format": "files",
+      "folder": "Slayer - Spill the Blood [5ce6b927]",
+      "charter": "metalli3212",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1998,
+          "kick_note_on_count": 433,
+          "cymbal_marker_count": 1036,
+          "last_expert_onset_seconds": 291.676,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5ce6b927e1d34eda97d61d89f6640f42",
+        "artist": "Slayer",
+        "title": "Spill the Blood",
+        "album": "South of Heaven",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/5ce6b927e1d34eda97d61d89f6640f42",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1C61Js5yNVnnvtnYYe2N2KhBuTea32Fjv",
+        "duration_seconds": 292.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "2c4ada3b9fdd1bf762326f01fb866f9cdcb050243dca80f780550caece32abdc",
+          "download_url": "https://drive.google.com/uc?export=download&id=1O_8QofFQxoS8oGw9OHUBNwU2ZB67sD_M",
+          "source_sha256": "2c4ada3b9fdd1bf762326f01fb866f9cdcb050243dca80f780550caece32abdc",
+          "bytes": 149191
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "29ac64b8e5899a0277222c6c0c99c970959b3c7511e0082a54e5103edf4ebb9f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1gKeC-hwmftSSW1Q6lX_z_kdAyi7xgRfR",
+          "source_sha256": "29ac64b8e5899a0277222c6c0c99c970959b3c7511e0082a54e5103edf4ebb9f",
+          "bytes": 310092
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "2cdba34f5b3c80e2dcb77416cd6f964b0223034b38da846452a58d03f3c4a697",
+          "download_url": "https://drive.google.com/uc?export=download&id=1wKOjfUoQEBi-ZBkXBoZmMZFKbSThZwKW",
+          "source_sha256": "2cdba34f5b3c80e2dcb77416cd6f964b0223034b38da846452a58d03f3c4a697",
+          "bytes": 8648479
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "d08ad56ba632998a0b407f54ab193add79852c043041b80ec7fc96865bd524b8",
+          "download_url": "https://drive.google.com/uc?export=download&id=16sxmGObygYuVtFZdUsS1khenK1zTv-ol",
+          "source_sha256": "d08ad56ba632998a0b407f54ab193add79852c043041b80ec7fc96865bd524b8",
+          "bytes": 61634
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "d6ce2975df6e3de90fef2c9d4d14fa9ad473ae7a695d73457c645040da33107f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1sd-hRn4HZby3x3HzmHlCdlrcqwNUn0QI",
+          "source_sha256": "d6ce2975df6e3de90fef2c9d4d14fa9ad473ae7a695d73457c645040da33107f",
+          "bytes": 593
+        }
+      ],
+      "prepared_bytes": 9169989,
+      "qobuz_track_ids": [
+        "27117366"
+      ],
+      "playlist_track_ids": [
+        "12450470412"
+      ]
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Eyeless",
+      "file_id": "c175cab0ce6f4206acce6d59e7efb8c6",
+      "source_url": "https://rhythmverse.co/songfile/c175cab0ce6f4206acce6d59e7efb8c6",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1LLk9aCZw0ZaPR1RPOKPaCSsMRCEcYcep",
+      "archive_format": "files",
+      "folder": "Slipknot - Eyeless [c175cab0]",
+      "charter": "Unknown",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1934,
+          "kick_note_on_count": 657,
+          "tom_marker_count": 111,
+          "last_expert_onset_seconds": 237.122,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c175cab0ce6f4206acce6d59e7efb8c6",
+        "artist": "Slipknot",
+        "title": "Eyeless",
+        "album": "Slipknot",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/c175cab0ce6f4206acce6d59e7efb8c6",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1LLk9aCZw0ZaPR1RPOKPaCSsMRCEcYcep",
+        "duration_seconds": 238.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Castillerian",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "a989c50330d01e523783e12c3f3cae000764f819ed1ff505a8933858e856c4ab",
+          "download_url": "https://drive.google.com/uc?export=download&id=118kpiHrk9BarJJjorRyLLfRMtgWBYYf6",
+          "source_sha256": "a989c50330d01e523783e12c3f3cae000764f819ed1ff505a8933858e856c4ab",
+          "bytes": 191111
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "b16afdd5c35ed9f0b728850a336570d2faa82ded055529b0df194728abd1a14b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1ZUS_nlsO9qn_-z9gLeKDfao_5O8jd2Ny",
+          "source_sha256": "b16afdd5c35ed9f0b728850a336570d2faa82ded055529b0df194728abd1a14b",
+          "bytes": 4304906
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "1a84e51d0289377c452b6b23a8fd464f702a32cef86f5f36cfd744be168377aa",
+          "download_url": "https://drive.google.com/uc?export=download&id=1uqJFkzDeSfLkm7XLIIp_313aRTvSPP56",
+          "source_sha256": "1a84e51d0289377c452b6b23a8fd464f702a32cef86f5f36cfd744be168377aa",
+          "bytes": 49398
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "84c5678ebc153f9aa1e5cb49bdf29ccbdc821798f5e57f40c71e6f109e44ea5d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1TBD2rvtiqCKCFnbeeunbeD8V5_cMbL-q",
+          "source_sha256": "84c5678ebc153f9aa1e5cb49bdf29ccbdc821798f5e57f40c71e6f109e44ea5d",
+          "bytes": 554
+        }
+      ],
+      "prepared_bytes": 4545969,
+      "qobuz_track_ids": [
+        "347548903"
+      ],
+      "playlist_track_ids": [
+        "12448263271"
+      ]
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Liberate",
+      "file_id": "a0bdc65545d241139b0541f258fee5a3",
+      "source_url": "https://rhythmverse.co/songfile/a0bdc65545d241139b0541f258fee5a3",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1F_MIH2rbxLS9HuwHI8Blf5lS1GhjMJyC",
+      "archive_format": "files",
+      "folder": "Slipknot - Liberate [a0bdc655]",
+      "charter": "metalli3212",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1440,
+          "kick_note_on_count": 498,
+          "cymbal_marker_count": 325,
+          "last_expert_onset_seconds": 185.617,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a0bdc65545d241139b0541f258fee5a3",
+        "artist": "Slipknot",
+        "title": "Liberate",
+        "album": "Slipknot",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a0bdc65545d241139b0541f258fee5a3",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1F_MIH2rbxLS9HuwHI8Blf5lS1GhjMJyC",
+        "duration_seconds": 187.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "7958cafbd28d147258479536de4f1fd6aa239ac59b09fe9f2eace481dfbbd2f0",
+          "download_url": "https://drive.google.com/uc?export=download&id=10Qx054_gtdU9uGCBe5_bMc0MVU0b9gok",
+          "source_sha256": "7958cafbd28d147258479536de4f1fd6aa239ac59b09fe9f2eace481dfbbd2f0",
+          "bytes": 157285
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "8409e39f456c45e361fbf0f55db03f2b6a952864945663a3a744acc8f42a7e1b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1XOOa_sqHtrfURssvxozVyyHpz34Bbtoo",
+          "source_sha256": "8409e39f456c45e361fbf0f55db03f2b6a952864945663a3a744acc8f42a7e1b",
+          "bytes": 351423
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "49fda1e817bbd3d7c8f58fb5c7dbb12cf6015dfe188100fa2b18c1f1426a9582",
+          "download_url": "https://drive.google.com/uc?export=download&id=13QhmVFVxlLFkmTsAU4VXtFq4f5JPjeR5",
+          "source_sha256": "49fda1e817bbd3d7c8f58fb5c7dbb12cf6015dfe188100fa2b18c1f1426a9582",
+          "bytes": 5148356
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "d2aebf9af7566fad43e3cfc65ff7eaeca65dda0b1a74c46b9a3099e8a0a12820",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Pgmd_4vSk2BIxiCp211QyTAvU5clPzXD",
+          "source_sha256": "d2aebf9af7566fad43e3cfc65ff7eaeca65dda0b1a74c46b9a3099e8a0a12820",
+          "bytes": 72005
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "3708dae76559b9311475c080ea9c856ebc0320ad18dc148b106b27809cbb64a7",
+          "download_url": "https://drive.google.com/uc?export=download&id=1MAbW6Y2vr524rchnShzTb_XnTDiGq2Q4",
+          "source_sha256": "3708dae76559b9311475c080ea9c856ebc0320ad18dc148b106b27809cbb64a7",
+          "bytes": 564
+        }
+      ],
+      "prepared_bytes": 5729633,
+      "qobuz_track_ids": [
+        "347548909"
+      ],
+      "playlist_track_ids": [
+        "12448263277"
+      ]
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Purity",
+      "file_id": "020b0373d64d44feb9d065cd880d43f5",
+      "source_url": "https://rhythmverse.co/songfile/020b0373d64d44feb9d065cd880d43f5",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1tYR_BkMU84_OUerPD2FESgwDQ4LXGN8N",
+      "archive_format": "files",
+      "folder": "Slipknot - Purity [020b0373]",
+      "charter": "Castillerian",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2116,
+          "kick_note_on_count": 793,
+          "tom_marker_count": 200,
+          "last_expert_onset_seconds": 263.823,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "020b0373d64d44feb9d065cd880d43f5",
+        "artist": "Slipknot",
+        "title": "Purity",
+        "album": "Slipknot",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/020b0373d64d44feb9d065cd880d43f5",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1tYR_BkMU84_OUerPD2FESgwDQ4LXGN8N",
+        "duration_seconds": 270.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Castillerian",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "a989c50330d01e523783e12c3f3cae000764f819ed1ff505a8933858e856c4ab",
+          "download_url": "https://drive.google.com/uc?export=download&id=1sNlKFefaPjgJr7sSmFpIB6Ko0IyPOFH2",
+          "source_sha256": "a989c50330d01e523783e12c3f3cae000764f819ed1ff505a8933858e856c4ab",
+          "bytes": 191111
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "7c7c5c8b3916df3978605a566248837e56eb0bda15d1c5393f3f4c7f06d893f5",
+          "download_url": "https://drive.google.com/uc?export=download&id=19hn4TEhn2ogQdfQBJIPRfr7NDsmplX_Z",
+          "source_sha256": "7c7c5c8b3916df3978605a566248837e56eb0bda15d1c5393f3f4c7f06d893f5",
+          "bytes": 5300511
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "f6482969e0e113b50db4a12b36d26b97e909d38b135f954289f0e26034c4e0d4",
+          "download_url": "https://drive.google.com/uc?export=download&id=1VB6jT0WfvbH4PNuO1evOoSZ2VS7DKx8t",
+          "source_sha256": "f6482969e0e113b50db4a12b36d26b97e909d38b135f954289f0e26034c4e0d4",
+          "bytes": 45586
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "667b03321b0cbb5532a03a37a8f155d331a39214da221ed2ea53e3b7a71838d3",
+          "download_url": "https://drive.google.com/uc?export=download&id=1PlqXUptzP-AJaiHYJ8TzpqorVuYgyOfk",
+          "source_sha256": "667b03321b0cbb5532a03a37a8f155d331a39214da221ed2ea53e3b7a71838d3",
+          "bytes": 1004
+        }
+      ],
+      "prepared_bytes": 5538212,
+      "qobuz_track_ids": [
+        "347548908"
+      ],
+      "playlist_track_ids": [
+        "12448263276"
+      ]
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Surfacing",
+      "file_id": "3c922c0c0a514e4ab3470d5b90956239",
+      "source_url": "https://rhythmverse.co/songfile/3c922c0c0a514e4ab3470d5b90956239",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1UjPI9qIe3EzSJXcHphVqz2E7514DpNOY",
+      "archive_format": "files",
+      "folder": "Slipknot - Surfacing [3c922c0c]",
+      "charter": "metalli3212",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2276,
+          "kick_note_on_count": 798,
+          "cymbal_marker_count": 812,
+          "last_expert_onset_seconds": 218.721,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3c922c0c0a514e4ab3470d5b90956239",
+        "artist": "Slipknot",
+        "title": "Surfacing",
+        "album": "Slipknot",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/3c922c0c0a514e4ab3470d5b90956239",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1UjPI9qIe3EzSJXcHphVqz2E7514DpNOY",
+        "duration_seconds": 221.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "7958cafbd28d147258479536de4f1fd6aa239ac59b09fe9f2eace481dfbbd2f0",
+          "download_url": "https://drive.google.com/uc?export=download&id=1TM90i4sScn52L-DyT-1WgLhsF28Tnwem",
+          "source_sha256": "7958cafbd28d147258479536de4f1fd6aa239ac59b09fe9f2eace481dfbbd2f0",
+          "bytes": 157285
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "8409e39f456c45e361fbf0f55db03f2b6a952864945663a3a744acc8f42a7e1b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1ZmhZ8IarCSZiFQvI_czIxfhy6KtiWjS6",
+          "source_sha256": "8409e39f456c45e361fbf0f55db03f2b6a952864945663a3a744acc8f42a7e1b",
+          "bytes": 351423
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "27ae71f805d5b01a56c7c0a9b2862bec33b2878ca28ce8e83d26d47a982a4a39",
+          "download_url": "https://drive.google.com/uc?export=download&id=1ZvSoWJrsvnL15-dq7Gp9b0PqjMPFvDD3",
+          "source_sha256": "27ae71f805d5b01a56c7c0a9b2862bec33b2878ca28ce8e83d26d47a982a4a39",
+          "bytes": 6476120
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "5dc7ded41059eb978e6496423e003de8e53211f93b0f42f48670e63cb385d0af",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Af1WglrZQ9bpmsLteeF8C218jOdhz0u8",
+          "source_sha256": "5dc7ded41059eb978e6496423e003de8e53211f93b0f42f48670e63cb385d0af",
+          "bytes": 119191
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "98262cc61e1a5219f144223c4a35f146221932d251098eb516b15011a2fe084d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1s-uuGgsmLxsGbM4SxsmfMzOZ_RhlVJd1",
+          "source_sha256": "98262cc61e1a5219f144223c4a35f146221932d251098eb516b15011a2fe084d",
+          "bytes": 559
+        }
+      ],
+      "prepared_bytes": 7104578,
+      "qobuz_track_ids": [
+        "347548905",
+        "347548925"
+      ],
+      "playlist_track_ids": [
+        "12448263273",
+        "12448263293"
+      ]
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Vermilion",
+      "file_id": "27bfc9c4e36c4ea08cd2d9ff7af42a92",
+      "source_url": "https://rhythmverse.co/songfile/27bfc9c4e36c4ea08cd2d9ff7af42a92",
+      "download_url": "https://drive.google.com/drive/u/0/folders/12EHfpE62qrkZeQSiePtL9lhfPPWU6AKg",
+      "archive_format": "files",
+      "folder": "Slipknot - Vermilion [27bfc9c4]",
+      "charter": "Nea7x",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2404,
+          "kick_note_on_count": 790,
+          "cymbal_marker_count": 491,
+          "last_expert_onset_seconds": 295.723,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "27bfc9c4e36c4ea08cd2d9ff7af42a92",
+        "artist": "Slipknot",
+        "title": "Vermilion",
+        "album": "Vol. 3: The Subliminal Verses",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/27bfc9c4e36c4ea08cd2d9ff7af42a92",
+        "download_url": "https://drive.google.com/drive/u/0/folders/12EHfpE62qrkZeQSiePtL9lhfPPWU6AKg",
+        "duration_seconds": 318.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nea7x",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "3530a6890cdc8cdef034890ebf06ce50f4df20b5320eded398d871f1bff52a29",
+          "download_url": "https://drive.google.com/uc?export=download&id=1t4fiZu7LAEjNgcapl2w_ixxWmVYFGIai",
+          "source_sha256": "3530a6890cdc8cdef034890ebf06ce50f4df20b5320eded398d871f1bff52a29",
+          "bytes": 227881
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "abe41a988a9965ac0cf3669a0c40b51027f2bf690a338d8e683e103a8c746915",
+          "download_url": "https://drive.google.com/uc?export=download&id=1aDkeh4ZnPD5RuPDWZfE6nFSFOwoXt7cP",
+          "source_sha256": "abe41a988a9965ac0cf3669a0c40b51027f2bf690a338d8e683e103a8c746915",
+          "bytes": 134683
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "2efb483fd7e1ba25cdce5cee916460d7fe1508be2a10695cb5df686688c744f2",
+          "download_url": "https://drive.google.com/uc?export=download&id=1FoOpLsu3rKTFS1NjS62KeEDT4-dmijoO",
+          "source_sha256": "d6387ba821a8e8121eb7e734cbcdd3cb4e85c0649423aeacfc24d6c56dd51b83",
+          "bytes": 484
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "da238af73ae255d4ab7e31aa0e8d6e4ac5091f8466f279662034f54e2e810c6f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1F6maJmxSjgnm_4GnLbAGzS7-TE5m0daF",
+          "source_sha256": "da238af73ae255d4ab7e31aa0e8d6e4ac5091f8466f279662034f54e2e810c6f",
+          "bytes": 10876772
+        }
+      ],
+      "prepared_bytes": 11239819,
+      "qobuz_track_ids": [
+        "2807766"
+      ],
+      "playlist_track_ids": [
+        "12449333062"
+      ]
+    },
+    {
+      "artist": "System of a Down",
+      "title": "Toxicity",
+      "file_id": "94fb73d45a8742c498fa5c9e67a10daa",
+      "source_url": "https://rhythmverse.co/songfile/94fb73d45a8742c498fa5c9e67a10daa",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1NGvm50Ixn5OVvW8v4yFEyvf4RmKcLIRL",
+      "archive_format": "files",
+      "folder": "System of a Down - Toxicity [94fb73d4]",
+      "charter": "Youngblood",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1624,
+          "kick_note_on_count": 402,
+          "cymbal_marker_count": 600,
+          "last_expert_onset_seconds": 220.567,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "94fb73d45a8742c498fa5c9e67a10daa",
+        "artist": "System of a Down",
+        "title": "Toxicity",
+        "album": "Toxicity",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/94fb73d45a8742c498fa5c9e67a10daa",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1NGvm50Ixn5OVvW8v4yFEyvf4RmKcLIRL",
+        "duration_seconds": 221.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "6d26072515ab88df77f254d5722ee5437d70eadabe40d72d4c2ae852df6363a2",
+          "download_url": "https://drive.google.com/uc?export=download&id=19EP266XHwRjhCzTFiXIe2s6CpUl9p9hD",
+          "source_sha256": "6d26072515ab88df77f254d5722ee5437d70eadabe40d72d4c2ae852df6363a2",
+          "bytes": 176027
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "275e6d7d8b421f118cb6bd73a844891a97012ac8b334881f2dc1fbb66948eaed",
+          "download_url": "https://drive.google.com/uc?export=download&id=1GjigZbMXcFxae52Fdtk3dQRm8LgSHQ8k",
+          "source_sha256": "275e6d7d8b421f118cb6bd73a844891a97012ac8b334881f2dc1fbb66948eaed",
+          "bytes": 522236
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "8ae5533d5d75b64e4beedf3e77592d9c57976f795c721a8b66e6c204702023b8",
+          "download_url": "https://drive.google.com/uc?export=download&id=1_6Ab2-AVzaoL_sCcNb_t1qWTkXZD1noz",
+          "source_sha256": "8ae5533d5d75b64e4beedf3e77592d9c57976f795c721a8b66e6c204702023b8",
+          "bytes": 53424
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "33059fd77e0c7b1d53fa5f902a907260352564b9743d9febb12ee1a1cc112e34",
+          "download_url": "https://drive.google.com/uc?export=download&id=1hSyvMCYW7gfQU8TOss0qFv26zJkMtN7w",
+          "source_sha256": "33059fd77e0c7b1d53fa5f902a907260352564b9743d9febb12ee1a1cc112e34",
+          "bytes": 428
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "a4816a305dd6c2d39d340fa1ab14c7ff722688788967be908eeac75d1a6f903f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1zlMXlYJwBOz0Q8BSKFfcaJY74gXwwFtd",
+          "source_sha256": "a4816a305dd6c2d39d340fa1ab14c7ff722688788967be908eeac75d1a6f903f",
+          "bytes": 6938080
+        }
+      ],
+      "prepared_bytes": 7690195,
+      "qobuz_track_ids": [
+        "12983961"
+      ],
+      "playlist_track_ids": [
+        "12221847167"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "All My Loving",
+      "file_id": "abe9629b2ed24f2885e35fbc99eb7ee3",
+      "source_url": "https://rhythmverse.co/songfile/abe9629b2ed24f2885e35fbc99eb7ee3",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1xA1gveNhsRdEr2yKUoH1XvvDUFBDyt5e",
+      "archive_format": "files",
+      "folder": "The Beatles - All My Loving [abe9629b]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1040,
+          "kick_note_on_count": 202,
+          "cymbal_marker_count": 573,
+          "last_expert_onset_seconds": 124.644,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "abe9629b2ed24f2885e35fbc99eb7ee3",
+        "artist": "The Beatles",
+        "title": "All My Loving",
+        "album": "With The Beatles",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/abe9629b2ed24f2885e35fbc99eb7ee3",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1xA1gveNhsRdEr2yKUoH1XvvDUFBDyt5e",
+        "duration_seconds": 130.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "aa01900fa5f976328c0e050eeb39b448692063d4b670bb7146279dc1a589ea06",
+          "download_url": "https://drive.google.com/uc?export=download&id=1b29S4A8AfKPIZCs45bAsyMn1Ccc_0k3-",
+          "source_sha256": "aa01900fa5f976328c0e050eeb39b448692063d4b670bb7146279dc1a589ea06",
+          "bytes": 71292
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "cbca7ce5c022959604d1260eb7aff90abeb8b135cb5a7238ce478c2bbd0f0919",
+          "download_url": "https://drive.google.com/uc?export=download&id=1dnKrelLChAxVVcuS9mOOF9kpR6Xr991N",
+          "source_sha256": "cbca7ce5c022959604d1260eb7aff90abeb8b135cb5a7238ce478c2bbd0f0919",
+          "bytes": 73761
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "708ae1f748e78f593abaa33c73dcc1f30dd1e457bc62b48db95d0168325ab59c",
+          "download_url": "https://drive.google.com/uc?export=download&id=1EI5i6uXJX84jTyho_1awhBixQcWLbfH5",
+          "source_sha256": "708ae1f748e78f593abaa33c73dcc1f30dd1e457bc62b48db95d0168325ab59c",
+          "bytes": 36561
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "401146c23f393131ec9d5514c91bfbf550e0d66ff2abd2be4c1c476adc1023cf",
+          "download_url": "https://drive.google.com/uc?export=download&id=1YKxoccnQoxd3-Bpub4N4bwccccTqh81Z",
+          "source_sha256": "6df1978cd91db39e7e944b2464be0fb2208807d223c57a7c0e3c15d3d9114146",
+          "bytes": 518
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "1e6cf8e458b63c78877c8adc61df44c3c948818686a7fbffdaf60a6192e58d8e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Cns3BX855ZFjsjwLtTmrymymA2yRG9vc",
+          "source_sha256": "1e6cf8e458b63c78877c8adc61df44c3c948818686a7fbffdaf60a6192e58d8e",
+          "bytes": 3741435
+        }
+      ],
+      "prepared_bytes": 3923570,
+      "qobuz_track_ids": [
+        "235802065"
+      ],
+      "playlist_track_ids": [
+        "12450499019"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "From Me To You",
+      "file_id": "842f26756f2a498c932bbdb4ff642178",
+      "source_url": "https://rhythmverse.co/songfile/842f26756f2a498c932bbdb4ff642178",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1_0RMl47B6NTyzZFpKZKXhtFbOp1qbmU0",
+      "archive_format": "files",
+      "folder": "The Beatles - From Me To You [842f2675]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 817,
+          "kick_note_on_count": 158,
+          "cymbal_marker_count": 473,
+          "last_expert_onset_seconds": 112.93,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "842f26756f2a498c932bbdb4ff642178",
+        "artist": "The Beatles",
+        "title": "From Me To You",
+        "album": "From Me To You (Single)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/842f26756f2a498c932bbdb4ff642178",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1_0RMl47B6NTyzZFpKZKXhtFbOp1qbmU0",
+        "duration_seconds": 119.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "e3c90ecb4908428122eaef1546ce6d63f4484697cbefcf4728f060d3621a9d17",
+          "download_url": "https://drive.google.com/uc?export=download&id=1ojWiqU_dfBw0Nd72-QMREeuiFZnhP3tD",
+          "source_sha256": "e3c90ecb4908428122eaef1546ce6d63f4484697cbefcf4728f060d3621a9d17",
+          "bytes": 33323
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "0e724bcece86f6a0d683e696ad8895267ea2886b9a858fe2d04646553efb329f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1E1wWOg2DJ6z9f6OnZAtFQ1qKD0sl9BU7",
+          "source_sha256": "0e724bcece86f6a0d683e696ad8895267ea2886b9a858fe2d04646553efb329f",
+          "bytes": 131008
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "bedcf06ca25646dfbcb8ffd0a8bfc17d5614f0b087a7123b141a77053423f24e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1VhMdZRvvOXpI3NAz4HauPYdlH44Z3KdM",
+          "source_sha256": "bedcf06ca25646dfbcb8ffd0a8bfc17d5614f0b087a7123b141a77053423f24e",
+          "bytes": 31969
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "dd22cefeebdd177d74982abd76ebf38da32b1fc04ea581efefd9df156f336ee5",
+          "download_url": "https://drive.google.com/uc?export=download&id=1sTLpNokwILpeJDuhfvW1Chd38kmg2XRb",
+          "source_sha256": "7a4a8ce196fce5ea8a4e5a172035aa378a8a2c20cb78b2f56b639ab0fb95fbb9",
+          "bytes": 484
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "7ed523d79675dfa1a08299cba3a819eae86d30d69254f07c1a6c37774bc37ede",
+          "download_url": "https://drive.google.com/uc?export=download&id=1zXOwe6ednOOOkEKtqF-4i2ksNXZsAs9u",
+          "source_sha256": "7ed523d79675dfa1a08299cba3a819eae86d30d69254f07c1a6c37774bc37ede",
+          "bytes": 3457270
+        }
+      ],
+      "prepared_bytes": 3654054,
+      "qobuz_track_ids": [
+        "235802061"
+      ],
+      "playlist_track_ids": [
+        "12450499023"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "I Saw Her Standing There",
+      "file_id": "b9033835995645c7b67dbc3f61e2c374",
+      "source_url": "https://rhythmverse.co/songfile/b9033835995645c7b67dbc3f61e2c374",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1hlZRVirRooQWNdJHseNHZWRRjJtwOFgy",
+      "archive_format": "files",
+      "folder": "The Beatles - I Saw Her Standing There [b9033835]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1358,
+          "kick_note_on_count": 244,
+          "cymbal_marker_count": 827,
+          "last_expert_onset_seconds": 171.073,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b9033835995645c7b67dbc3f61e2c374",
+        "artist": "The Beatles",
+        "title": "I Saw Her Standing There",
+        "album": "Please Please Me",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b9033835995645c7b67dbc3f61e2c374",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1hlZRVirRooQWNdJHseNHZWRRjJtwOFgy",
+        "duration_seconds": 175.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "8e4ddb9403fa73690a9551c6e5bd45ab5f8100a70cca9aa35fabc7a3b7e4cfab",
+          "download_url": "https://drive.google.com/uc?export=download&id=1HJ4Y4EZ9aGzlyeerXobkZlKWv3eJfMgE",
+          "source_sha256": "8e4ddb9403fa73690a9551c6e5bd45ab5f8100a70cca9aa35fabc7a3b7e4cfab",
+          "bytes": 50029
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "c05acd7ccebfd4651e318c35ff0127af75ad8d4ede1d3b051b6256dae8e7f9a6",
+          "download_url": "https://drive.google.com/uc?export=download&id=13-yZBig23iEUcvItLgUOmd_LjzI1avUE",
+          "source_sha256": "c05acd7ccebfd4651e318c35ff0127af75ad8d4ede1d3b051b6256dae8e7f9a6",
+          "bytes": 1448238
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "11285e52d6c3cf98b91c76db66056ff1db8d5547d70c3f46e63200aa4c4881a0",
+          "download_url": "https://drive.google.com/uc?export=download&id=1F6f3Tm0su7RjplEDeNT-16eSanVcVai6",
+          "source_sha256": "11285e52d6c3cf98b91c76db66056ff1db8d5547d70c3f46e63200aa4c4881a0",
+          "bytes": 48862
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "5963200df9d2032673502b92b0f51a6c8e4d6f38f8d5b9c8da2836469c4b8ba4",
+          "download_url": "https://drive.google.com/uc?export=download&id=1FkBYa3Z14FOCTYSNZ4BVkdJpck9VfYPL",
+          "source_sha256": "d6aee7f0009923018899a80314a58170f1ea9ebb690ef2c6bfb399387f6e4a63",
+          "bytes": 540
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "066438865eb0f14d4e0c81455db1e0b5d25929671c62563e7099ab27809a4d68",
+          "download_url": "https://drive.google.com/uc?export=download&id=1zUzbwYTeuZOyxQ3kpKC8F-XQvhaLHNKr",
+          "source_sha256": "066438865eb0f14d4e0c81455db1e0b5d25929671c62563e7099ab27809a4d68",
+          "bytes": 5214070
+        }
+      ],
+      "prepared_bytes": 6761740,
+      "qobuz_track_ids": [
+        "235802059"
+      ],
+      "playlist_track_ids": [
+        "12450499026"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "I Want To Hold Your Hand",
+      "file_id": "fd396606bf374bf58a8f8223af700745",
+      "source_url": "https://rhythmverse.co/songfile/fd396606bf374bf58a8f8223af700745",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1awl8uR-pOEtdEACTLXEhL1cluz7aWgUD",
+      "archive_format": "files",
+      "folder": "The Beatles - I Want To Hold Your Hand [fd396606]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1081,
+          "kick_note_on_count": 261,
+          "cymbal_marker_count": 536,
+          "last_expert_onset_seconds": 141.764,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "fd396606bf374bf58a8f8223af700745",
+        "artist": "The Beatles",
+        "title": "I Want To Hold Your Hand",
+        "album": "I Want To Hold Your Hand (Single)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/fd396606bf374bf58a8f8223af700745",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1awl8uR-pOEtdEACTLXEhL1cluz7aWgUD",
+        "duration_seconds": 148.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "f28ee7aacce0cd7c51f4431292188d249f6d81b183d9ec9543873f80214ae833",
+          "download_url": "https://drive.google.com/uc?export=download&id=12nGYbIoUDhkDy7gYglA8_Nj9z93b_sck",
+          "source_sha256": "f28ee7aacce0cd7c51f4431292188d249f6d81b183d9ec9543873f80214ae833",
+          "bytes": 12998
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "0e724bcece86f6a0d683e696ad8895267ea2886b9a858fe2d04646553efb329f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1aNV_hEQawE3aabFuu0dSCxmnVw96Jxrc",
+          "source_sha256": "0e724bcece86f6a0d683e696ad8895267ea2886b9a858fe2d04646553efb329f",
+          "bytes": 131008
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "3be3bc7ac612be075674eda1b198451083b4dc0c327734de0a061e6d05784338",
+          "download_url": "https://drive.google.com/uc?export=download&id=13wV04x509a6fQQyiGjf3edjb_nV-JR3y",
+          "source_sha256": "3be3bc7ac612be075674eda1b198451083b4dc0c327734de0a061e6d05784338",
+          "bytes": 37511
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "385112a2299356fbf64e6c6576397811e237295bc02ea19dc491897cf9909a12",
+          "download_url": "https://drive.google.com/uc?export=download&id=1HWVGy9UbNARBoVQ7DxTi7mcSDhupyjI4",
+          "source_sha256": "8d9311fad9dc054a7e6c0b342e721176578ad0cb275b2299ab079d8adbce71ed",
+          "bytes": 515
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "1e1df2ac7dda04f00645ad1787f6cdafd57a5266d609e41d3817269ba6b9637c",
+          "download_url": "https://drive.google.com/uc?export=download&id=1iQthTVOWwAWSjahF2ephGq_20N0ihqEL",
+          "source_sha256": "1e1df2ac7dda04f00645ad1787f6cdafd57a5266d609e41d3817269ba6b9637c",
+          "bytes": 3953963
+        }
+      ],
+      "prepared_bytes": 4135999,
+      "qobuz_track_ids": [
+        "235802063"
+      ],
+      "playlist_track_ids": [
+        "12450499022"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Now And Then",
+      "file_id": "1bfd98159c8d4236b600e9418f88518e",
+      "source_url": "https://rhythmverse.co/songfile/1bfd98159c8d4236b600e9418f88518e",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1ypgB79OFetJTj-VLSp-918_z4rVzLhdv",
+      "archive_format": "files",
+      "folder": "The Beatles - Now And Then [1bfd9815]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 996,
+          "kick_note_on_count": 184,
+          "cymbal_marker_count": 555,
+          "last_expert_onset_seconds": 242.94,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "1bfd98159c8d4236b600e9418f88518e",
+        "artist": "The Beatles",
+        "title": "Now And Then",
+        "album": "Now And Then",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/1bfd98159c8d4236b600e9418f88518e",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1ypgB79OFetJTj-VLSp-918_z4rVzLhdv",
+        "duration_seconds": 250.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "76d4a931af38af61a1d81cb1059cef3a5ac677781b85112b0cd7fa3d54a5941e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1CbReunCe5iALTuHndS27vs4Re1GVZnOs",
+          "source_sha256": "76d4a931af38af61a1d81cb1059cef3a5ac677781b85112b0cd7fa3d54a5941e",
+          "bytes": 31430
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "86ea8d2b1fae11c964a3ff12262d8769bcdb4c9aaaafdd412d8f944b1a446c7e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1PxYjg2eTdjaBI3z5lmIEKS3vcIMs70PI",
+          "source_sha256": "86ea8d2b1fae11c964a3ff12262d8769bcdb4c9aaaafdd412d8f944b1a446c7e",
+          "bytes": 347606
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "e56ba972ca9473efc2e24e1590aeb96292d62b49891e75b74d56a4e203573dc9",
+          "download_url": "https://drive.google.com/uc?export=download&id=1RccFVFWxw4t_zFqatP3rO78pOmfbu4-H",
+          "source_sha256": "e56ba972ca9473efc2e24e1590aeb96292d62b49891e75b74d56a4e203573dc9",
+          "bytes": 39582
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "f99692806d66faa59d9b89fb5783ffa61560c503a530f0f6c2bab6cc24cc9bc4",
+          "download_url": "https://drive.google.com/uc?export=download&id=18VUn2tbPxYzL-9ocF69UvPIDWtI4wPTA",
+          "source_sha256": "cde4502e1c6fe253ebb12b92a747ad9ed3ba80eaadbea9765b24ba237fa753fd",
+          "bytes": 1148
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "bc3d314f178eb1df0ea22a49e0434e5533e511de4b373b30623f67daefb70996",
+          "download_url": "https://drive.google.com/uc?export=download&id=1oYHUihXqMXdOa5j6lOuWd2uQgUfpb_uB",
+          "source_sha256": "bc3d314f178eb1df0ea22a49e0434e5533e511de4b373b30623f67daefb70996",
+          "bytes": 7881390
+        }
+      ],
+      "prepared_bytes": 8301160,
+      "qobuz_track_ids": [
+        "234684809"
+      ],
+      "playlist_track_ids": [
+        "12450499008"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Old Brown Shoe",
+      "file_id": "262f36f3b6e041b494b2c3f1c2bef944",
+      "source_url": "https://rhythmverse.co/songfile/262f36f3b6e041b494b2c3f1c2bef944",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1vOKKRFDrgU9piKGg7CL_b5U5f-ypbt8H",
+      "archive_format": "files",
+      "folder": "The Beatles - Old Brown Shoe [262f36f3]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1869,
+          "kick_note_on_count": 469,
+          "cymbal_marker_count": 857,
+          "last_expert_onset_seconds": 198.985,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "262f36f3b6e041b494b2c3f1c2bef944",
+        "artist": "The Beatles",
+        "title": "Old Brown Shoe",
+        "album": "The Beatles 1967-1970",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/262f36f3b6e041b494b2c3f1c2bef944",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1vOKKRFDrgU9piKGg7CL_b5U5f-ypbt8H",
+        "duration_seconds": 200.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "8aa234c9a304caf8dae69f0c240127d88e3010f599d5af295689168046e9b145",
+          "download_url": "https://drive.google.com/uc?export=download&id=1D1Iwhrah0jxD0QJmz4XjEmy7Mt_ELwZ2",
+          "source_sha256": "8aa234c9a304caf8dae69f0c240127d88e3010f599d5af295689168046e9b145",
+          "bytes": 56296
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "a73e225b408913843f63a4307d93de56d70beb215fdf225542779fc500254eb4",
+          "download_url": "https://drive.google.com/uc?export=download&id=10gdDJ9kbZjOajXYYveDR5MbjB8c1jcEA",
+          "source_sha256": "a73e225b408913843f63a4307d93de56d70beb215fdf225542779fc500254eb4",
+          "bytes": 150914
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "b3176896d05aa3dfe4b084460dbb42c165249023a12558ba686f9d887be5fc76",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Tkr_B0J0mbpg8dbUYauWiYWBLe2Ai6Z7",
+          "source_sha256": "b3176896d05aa3dfe4b084460dbb42c165249023a12558ba686f9d887be5fc76",
+          "bytes": 61978
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "ad8ccd13742fd549d9877390e1b2d71b458cd38817100166e83b659a5a9c4343",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Chnju3ZSFV8Bz8xm_n8fENV9vtlAcI7w",
+          "source_sha256": "a7fefd1e667e60b933fa829e73d66bb6bf3a0cd5058ead407d448bda88ea1c53",
+          "bytes": 493
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "7eb50536ae0e84933776379b5131a90d00ced37a2d6a996224fdd10dc8f0a44d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1YtXSsw9Q9aOzzTzdAyJvqysyNhRwTzN8",
+          "source_sha256": "7eb50536ae0e84933776379b5131a90d00ced37a2d6a996224fdd10dc8f0a44d",
+          "bytes": 6136833
+        }
+      ],
+      "prepared_bytes": 6406517,
+      "qobuz_track_ids": [
+        "235803331"
+      ],
+      "playlist_track_ids": [
+        "12450499039"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Please Please Me",
+      "file_id": "b97b1cfe354648b0b9d917222c047319",
+      "source_url": "https://rhythmverse.co/songfile/b97b1cfe354648b0b9d917222c047319",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1-OJdXqXvcldK__CwX1STP3Bil-7Kg5tP",
+      "archive_format": "files",
+      "folder": "The Beatles - Please Please Me [b97b1cfe]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 901,
+          "kick_note_on_count": 131,
+          "cymbal_marker_count": 420,
+          "last_expert_onset_seconds": 116.001,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b97b1cfe354648b0b9d917222c047319",
+        "artist": "The Beatles",
+        "title": "Please Please Me",
+        "album": "Please Please Me",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b97b1cfe354648b0b9d917222c047319",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1-OJdXqXvcldK__CwX1STP3Bil-7Kg5tP",
+        "duration_seconds": 122.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "8e4ddb9403fa73690a9551c6e5bd45ab5f8100a70cca9aa35fabc7a3b7e4cfab",
+          "download_url": "https://drive.google.com/uc?export=download&id=1FWvaPtdBcTjecIiIHlBIMtzB2AjRH7El",
+          "source_sha256": "8e4ddb9403fa73690a9551c6e5bd45ab5f8100a70cca9aa35fabc7a3b7e4cfab",
+          "bytes": 50029
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "c05acd7ccebfd4651e318c35ff0127af75ad8d4ede1d3b051b6256dae8e7f9a6",
+          "download_url": "https://drive.google.com/uc?export=download&id=138RS8_yjxAaFrKYam_9SkVbv37NpNMAv",
+          "source_sha256": "c05acd7ccebfd4651e318c35ff0127af75ad8d4ede1d3b051b6256dae8e7f9a6",
+          "bytes": 1448238
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "3d91b570a45c6d1081d55f582e5bf466ff4ce88a3dac373ac995df3907e41ebb",
+          "download_url": "https://drive.google.com/uc?export=download&id=1yaL8J-uCMU0K1Olm1fMysyg9PUJNRg7W",
+          "source_sha256": "3d91b570a45c6d1081d55f582e5bf466ff4ce88a3dac373ac995df3907e41ebb",
+          "bytes": 31822
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "fe288ba656b387bc20f28caabe44004768e5cea09036746a5d1898bd3d27f5d0",
+          "download_url": "https://drive.google.com/uc?export=download&id=1xDVcAzni9LMOhD0WXtfjE2AmBMif_TEq",
+          "source_sha256": "e9aa0d0a5fd9ffbc20de165fe3f55343c80f6bdf85961eaa802eb4efc6e13262",
+          "bytes": 799
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "d2f5075b880e9d3cd72443ea44049cdc93b5b551fd081050776c5eaf6c50e2ed",
+          "download_url": "https://drive.google.com/uc?export=download&id=16X7Q2n6nrNQbb2wL_LMt6EbvvaMmf-Ju",
+          "source_sha256": "d2f5075b880e9d3cd72443ea44049cdc93b5b551fd081050776c5eaf6c50e2ed",
+          "bytes": 3312846
+        }
+      ],
+      "prepared_bytes": 4843730,
+      "qobuz_track_ids": [
+        "235802058"
+      ],
+      "playlist_track_ids": [
+        "12450499025"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "She Loves You",
+      "file_id": "7ecc9aff412848418d0fd2fddf95374f",
+      "source_url": "https://rhythmverse.co/songfile/7ecc9aff412848418d0fd2fddf95374f",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1PBSSsrtXch6unbJpxmzIhlu2eVVKMv17",
+      "archive_format": "files",
+      "folder": "The Beatles - She Loves You [7ecc9aff]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1039,
+          "kick_note_on_count": 221,
+          "cymbal_marker_count": 467,
+          "last_expert_onset_seconds": 137.416,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7ecc9aff412848418d0fd2fddf95374f",
+        "artist": "The Beatles",
+        "title": "She Loves You",
+        "album": "She Loves You (Single)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/7ecc9aff412848418d0fd2fddf95374f",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1PBSSsrtXch6unbJpxmzIhlu2eVVKMv17",
+        "duration_seconds": 142.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "8387ce5ab2aa2c6d68fead236a3babb79623b1703395b2c5e5f8e6987c0f98f6",
+          "download_url": "https://drive.google.com/uc?export=download&id=168t7bRYxUELFgMU82_CDDzuZ-rytmqgl",
+          "source_sha256": "8387ce5ab2aa2c6d68fead236a3babb79623b1703395b2c5e5f8e6987c0f98f6",
+          "bytes": 80095
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "0e724bcece86f6a0d683e696ad8895267ea2886b9a858fe2d04646553efb329f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1bdYOmYthVFgYkJrcktzUlNlpLpDCu2U-",
+          "source_sha256": "0e724bcece86f6a0d683e696ad8895267ea2886b9a858fe2d04646553efb329f",
+          "bytes": 131008
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "4101456465d618ba654377add8709bab15eec9569ec521aa07f6a2f227ae3022",
+          "download_url": "https://drive.google.com/uc?export=download&id=1nZKoZTvZf2XVeqPhPFnpDCSEvrKPGga_",
+          "source_sha256": "4101456465d618ba654377add8709bab15eec9569ec521aa07f6a2f227ae3022",
+          "bytes": 36535
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "fe3bdbc17e08a6c81246da44c32b5d24ae089ce648814f7803fe1fcfe3e39e37",
+          "download_url": "https://drive.google.com/uc?export=download&id=1B9qmvb8JGhD4oT80nwBXAjjrc5BC7AgC",
+          "source_sha256": "4b220f7cda7c0cd3b95dfe3d4c4717da14c64596dd53ea6ead5cdb1d7c3fc50c",
+          "bytes": 522
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "cf0ae3faa36f3e3729e393c122540f1164edc17872510bdbae260b88d9a8c661",
+          "download_url": "https://drive.google.com/uc?export=download&id=1shNTD3O3HxCSbOPKdgAIvCkkDOEvTfiM",
+          "source_sha256": "cf0ae3faa36f3e3729e393c122540f1164edc17872510bdbae260b88d9a8c661",
+          "bytes": 3022204
+        }
+      ],
+      "prepared_bytes": 3270364,
+      "qobuz_track_ids": [
+        "235802062"
+      ],
+      "playlist_track_ids": [
+        "12450499001"
+      ]
+    },
+    {
+      "artist": "The Beatles",
+      "title": "This Boy",
+      "file_id": "153c29439fe24fb2ae6b0cb648fe92e8",
+      "source_url": "https://rhythmverse.co/songfile/153c29439fe24fb2ae6b0cb648fe92e8",
+      "download_url": "https://drive.google.com/drive/u/0/folders/16i5YJW5SYCBtGX93WyHwOFFTpZveKax2",
+      "archive_format": "files",
+      "folder": "The Beatles - This Boy [153c2943]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 826,
+          "kick_note_on_count": 28,
+          "cymbal_marker_count": 784,
+          "last_expert_onset_seconds": 135.156,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "153c29439fe24fb2ae6b0cb648fe92e8",
+        "artist": "The Beatles",
+        "title": "This Boy",
+        "album": "I Want To Hold Your Hand (Single)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/153c29439fe24fb2ae6b0cb648fe92e8",
+        "download_url": "https://drive.google.com/drive/u/0/folders/16i5YJW5SYCBtGX93WyHwOFFTpZveKax2",
+        "duration_seconds": 141.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "f28ee7aacce0cd7c51f4431292188d249f6d81b183d9ec9543873f80214ae833",
+          "download_url": "https://drive.google.com/uc?export=download&id=1oHpNu7L1wGhkdefstJXyU6SU0o6gVu54",
+          "source_sha256": "f28ee7aacce0cd7c51f4431292188d249f6d81b183d9ec9543873f80214ae833",
+          "bytes": 12998
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "0e724bcece86f6a0d683e696ad8895267ea2886b9a858fe2d04646553efb329f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Qox2qdCXZIEy8O72mLcF-AhcgZ3dtAQC",
+          "source_sha256": "0e724bcece86f6a0d683e696ad8895267ea2886b9a858fe2d04646553efb329f",
+          "bytes": 131008
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "9c32fcbbf9ce8e61d9540da0bcc648b7ed952cd7ec9f0f1d7af34ad21dfb39ca",
+          "download_url": "https://drive.google.com/uc?export=download&id=1y3uMo1VfZTdQE0fXZFQhxCr6K3wFEXPq",
+          "source_sha256": "9c32fcbbf9ce8e61d9540da0bcc648b7ed952cd7ec9f0f1d7af34ad21dfb39ca",
+          "bytes": 33153
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "525896f6459b64b837129f6954204b4b84945f52efdbff1928ea2fd6554acf86",
+          "download_url": "https://drive.google.com/uc?export=download&id=1xxa3j_gVReIh70VvNWCB-KgGE4Qpr-_n",
+          "source_sha256": "189b9492ce942705c63b9bf8dcc6ac25f6db8284969a97373655689687cc3012",
+          "bytes": 471
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "4fa429aec3323236c6818a255d844548b420cd708f2b76ccb0312b2666735f43",
+          "download_url": "https://drive.google.com/uc?export=download&id=1ff0HJP0Jt84AC3TfRiwkz_nOg1tY2-fp",
+          "source_sha256": "4fa429aec3323236c6818a255d844548b420cd708f2b76ccb0312b2666735f43",
+          "bytes": 4555066
+        }
+      ],
+      "prepared_bytes": 4732699,
+      "qobuz_track_ids": [
+        "235802064"
+      ],
+      "playlist_track_ids": [
+        "12450499046"
+      ]
+    },
+    {
+      "artist": "Thousand Foot Krutch",
+      "title": "Courtesy Call",
+      "file_id": "030872c31c1b4a40ba9518cbbbccf29d",
+      "source_url": "https://rhythmverse.co/songfile/030872c31c1b4a40ba9518cbbbccf29d",
+      "download_url": "https://drive.google.com/drive/u/0/folders/11FaT4BrsyJ3BpbdIf7Ee1F5DRJE5VoLv",
+      "archive_format": "files",
+      "folder": "Thousand Foot Krutch - Courtesy Call [030872c3]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1107,
+          "kick_note_on_count": 314,
+          "cymbal_marker_count": 538,
+          "last_expert_onset_seconds": 229.841,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "030872c31c1b4a40ba9518cbbbccf29d",
+        "artist": "Thousand Foot Krutch",
+        "title": "Courtesy Call",
+        "album": "The End Is Where We Begin",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/030872c31c1b4a40ba9518cbbbccf29d",
+        "download_url": "https://drive.google.com/drive/u/0/folders/11FaT4BrsyJ3BpbdIf7Ee1F5DRJE5VoLv",
+        "duration_seconds": 239.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "e93cbbdd0caad5b64fe7b0fc0bac5db99d7de873220c686cd8ec8dd23c89c6d5",
+          "download_url": "https://drive.google.com/uc?export=download&id=1tMLJyJymPiOEZv6WkyoQ0fWdD59FLhTU",
+          "source_sha256": "e93cbbdd0caad5b64fe7b0fc0bac5db99d7de873220c686cd8ec8dd23c89c6d5",
+          "bytes": 38297
+        },
+        {
+          "archive_name": "background.png",
+          "name": "background.png",
+          "sha256": "ba494ec5d51d7e0a67ad488a551a2573a9115ba2672bfebe62cbb81b5d869642",
+          "download_url": "https://drive.google.com/uc?export=download&id=1jWmMMcuSQHc3mprBahefy0_mrxg3MlYI",
+          "source_sha256": "ba494ec5d51d7e0a67ad488a551a2573a9115ba2672bfebe62cbb81b5d869642",
+          "bytes": 934303
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "8dd3560704c528fe273daa790303b85b13df26b90ff1187f38fb99488f199cbc",
+          "download_url": "https://drive.google.com/uc?export=download&id=1yV6GMdgna7qusOPmhygLdxSJKxWy8lwY",
+          "source_sha256": "8dd3560704c528fe273daa790303b85b13df26b90ff1187f38fb99488f199cbc",
+          "bytes": 48398
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "76c3d21985e83def174e183d3e9a6a2b11ccadb3072a1aa571163fd0363ab349",
+          "download_url": "https://drive.google.com/uc?export=download&id=1XcERfLD1UAF1jgJdSRa-jqhsxjoNgN14",
+          "source_sha256": "ae099b1cf3c1b1d69c04335cc6eb45af28b63c8df396cdbb0f29c93cde2cc9b6",
+          "bytes": 355
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "dc41570d5fd5cfe2ce18aa49e5723b7ee2d240f335151b03f09f56ba2653a2cd",
+          "download_url": "https://drive.google.com/uc?export=download&id=1RSkdM5KGpSq5aZgr9uk6jwhrHOLRrQ5p",
+          "source_sha256": "dc41570d5fd5cfe2ce18aa49e5723b7ee2d240f335151b03f09f56ba2653a2cd",
+          "bytes": 7543128
+        }
+      ],
+      "prepared_bytes": 8564487,
+      "qobuz_track_ids": [
+        "112207687"
+      ],
+      "playlist_track_ids": [
+        "12221847141"
+      ]
+    },
+    {
+      "artist": "Angra",
+      "title": "Nova Era",
+      "file_id": "8959218ac8ce4707bf98b92f14844ad8",
+      "source_url": "https://rhythmverse.co/songfile/8959218ac8ce4707bf98b92f14844ad8",
+      "download_url": "https://rhythmverse.co/download_file/naonemeu/8959218ac8ce4707bf98b92f14844ad8/Angra%20-%20Nova%20Era%20[FB].7z",
+      "archive_format": "7z",
+      "folder": "Angra - Nova Era [8959218a]",
+      "charter": "Naonemeu, PistolOfRb6",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2798,
+          "kick_note_on_count": 1215,
+          "tom_marker_count": 180,
+          "last_expert_onset_seconds": 298.194,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "8959218ac8ce4707bf98b92f14844ad8",
+        "artist": "Angra",
+        "title": "Nova Era",
+        "album": "Rebirth",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/8959218ac8ce4707bf98b92f14844ad8",
+        "download_url": "https://rhythmverse.co/download_file/naonemeu/8959218ac8ce4707bf98b92f14844ad8/Angra - Nova Era [FB].7z",
+        "duration_seconds": 299.0,
+        "duration_difference_seconds": 7.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Naonemeu",
+        "notes": "Use onyx to import to RB3. Bass and Vocals revised by me.",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Angra - Nova Era [FB]/album.jpg",
+          "name": "album.jpg",
+          "sha256": "841d0eb2fcbe3f2ddff19c3d3a6b877225c9c0b22068dc0a34a527321e66e908"
+        },
+        {
+          "archive_name": "Angra - Nova Era [FB]/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "cb96fa33f455fb38cf1b87a9dbaad42b8572d2ef18751516388f536d803eddb1"
+        },
+        {
+          "archive_name": "Angra - Nova Era [FB]/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "543539f31e7e7c879edd5488d86a5a02d219a9ec22631093be727efb2571eeda"
+        },
+        {
+          "archive_name": "Angra - Nova Era [FB]/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "17785df7a561f97242d38af44f3e87c7308de2198b7a21e1279fdee4f313794a"
+        },
+        {
+          "archive_name": "Angra - Nova Era [FB]/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c3aaf6cee22c078b0f8d018f0d07845d98f57034d2091e40f985b2562accbdb8"
+        },
+        {
+          "archive_name": "Angra - Nova Era [FB]/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7f383b348ad79e6afebd3813722b19868f34a8cb1ae7a41cd5eaef8a8c14b490"
+        },
+        {
+          "archive_name": "Angra - Nova Era [FB]/song.ini",
+          "name": "song.ini",
+          "sha256": "34e135a726eb0fc6ef0fb8fadfe9f4cb234b53273ad8cf8d39cd924fe9c1a6b1"
+        },
+        {
+          "archive_name": "Angra - Nova Era [FB]/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a9ff15c920812ca2adf5cb371b1922faded638f07a39d7c7206f68100358072b"
+        },
+        {
+          "archive_name": "Angra - Nova Era [FB]/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "028ab50d100e125fdd856d8298728dcf1ce38b0ece3c53cf35cbf6c84bca054f"
+        }
+      ],
+      "archive_sha256": "e2ffe975435a169735f67c40ee61ef5bd479d34b3279aa4cdd87fabc5d044ef4",
+      "archive_bytes": 27194610,
+      "prepared_bytes": 27911746,
+      "qobuz_track_ids": [
+        "211960962"
+      ],
+      "playlist_track_ids": [
+        "12451170119"
+      ]
+    },
+    {
+      "artist": "Angra",
+      "title": "Wuthering Heights",
+      "file_id": "525d6f7acfaa2",
+      "source_url": "https://rhythmverse.co/songfile/525d6f7acfaa2",
+      "download_url": "https://rhythmverse.co/download_file/bluzer/525d6f7acfaa2/far_angra_wutheringheights_ps.rar",
+      "archive_format": "rar",
+      "folder": "Angra - Wuthering Heights [525d6f7a]",
+      "charter": "",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1068,
+          "kick_note_on_count": 288,
+          "tom_marker_count": 96,
+          "last_expert_onset_seconds": 268.991,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "525d6f7acfaa2",
+        "artist": "Angra",
+        "title": "Wuthering Heights",
+        "album": "Angels Cry",
+        "game": "ps",
+        "source_url": "https://rhythmverse.co/songfile/525d6f7acfaa2",
+        "download_url": "https://rhythmverse.co/download_file/bluzer/525d6f7acfaa2/far_angra_wutheringheights_ps.rar",
+        "duration_seconds": 273.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "bluzer",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Angra - Wuthering Heights/album.png",
+          "name": "album.png",
+          "sha256": "5c12ed4d02f8338907c7d8ef0afee192ee5c8e774fb7de08902e9bf3bca6bbde"
+        },
+        {
+          "archive_name": "Angra - Wuthering Heights/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "1c67537b024af7224c31fd76ab50aaee94cf5f9dbcff376fce00aafd637d3d21"
+        },
+        {
+          "archive_name": "Angra - Wuthering Heights/notes.mid",
+          "name": "notes.mid",
+          "sha256": "beced0477c5f8254a0f8dbc3bfe6ff307d819ed6493443834ad06de46315ce57"
+        },
+        {
+          "archive_name": "Angra - Wuthering Heights/song.ini",
+          "name": "song.ini",
+          "sha256": "386ccb0cdda8faf0c99f80199a9f3f695941bfc2a99815f8af9b15a93d300eee"
+        }
+      ],
+      "archive_sha256": "da192684837da5c09068914ce0c875d2dde7a1e4f06229ebe6389e48e468288e",
+      "archive_bytes": 5218305,
+      "prepared_bytes": 5303455,
+      "qobuz_track_ids": [
+        "211961668"
+      ],
+      "playlist_track_ids": [
+        "12451170103"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Afterlife",
+      "file_id": "3f02fba9bfdb4f9da7d853d825b16f99",
+      "source_url": "https://rhythmverse.co/songfile/3f02fba9bfdb4f9da7d853d825b16f99",
+      "download_url": "https://rhythmverse.co/download_file/uriasp/3f02fba9bfdb4f9da7d853d825b16f99/Avenged%20Sevenfold%20-%20Afterlife%20(Expert+).7z",
+      "archive_format": "7z",
+      "folder": "Avenged Sevenfold - Afterlife [3f02fba9]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2173,
+          "kick_note_on_count": 797,
+          "tom_marker_count": 38,
+          "last_expert_onset_seconds": 336.283,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3f02fba9bfdb4f9da7d853d825b16f99",
+        "artist": "Avenged Sevenfold",
+        "title": "Afterlife",
+        "album": "Avenged Sevenfold",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/3f02fba9bfdb4f9da7d853d825b16f99",
+        "download_url": "https://rhythmverse.co/download_file/uriasp/3f02fba9bfdb4f9da7d853d825b16f99/Avenged Sevenfold - Afterlife (Expert+).7z",
+        "duration_seconds": 352.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "UriasP",
+        "notes": "Includes a live performance background video by Avenged Sevenfold @ Long Beach Arena 2008, edited and synced to match audio by UriaP/LurtZ. Chart by Harmonix.",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Afterlife (Expert+)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "3a72372f404a44dd4b81afa5f64b514d87c4007359e49d9768bbcbb341617804"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Afterlife (Expert+)/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "f7ed052654d8e84cfede8c9de66f23a1ca9a024859c2c297f3fc4e31f69410fe"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Afterlife (Expert+)/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "dc0e5895d297bad0e67a5712963f662defb92fffa899642c5f9419a02b311309"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Afterlife (Expert+)/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "6c5786a9e17a863a1831d12ea85b396fa53bc2d8340a78611c3940bae526736c"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Afterlife (Expert+)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "09f2715565346b7ef0e4cfea49693b95d4b04450e8f902340a293baecb09fa1c"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Afterlife (Expert+)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "58635ebad94863a783f8dabab8fe5768c717d14fc75532751dacae7125cbfbee"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Afterlife (Expert+)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "c935df2beb82af4fb33fd357b31d91c98ba30bcc361a80b87159ac1395d77059"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Afterlife (Expert+)/song.ini",
+          "name": "song.ini",
+          "sha256": "209086be43077af5ad02ae029b9801069cc5dce154d29f30688ab61efcc17f2d"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Afterlife (Expert+)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "cb715d8bd262e61f1c104627154d3b14f68fd3e236ef8c0c87a78fef27cef46f"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Afterlife (Expert+)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "e4d3a02a5b7c6e248aeb837023bd276e732b9465c9f8c7c84874951573a5bea3"
+        }
+      ],
+      "archive_sha256": "a3cdae39e53ddba3d1f1928a2035fdb501bc6e25f2b83eb52749826fe242bf3c",
+      "archive_bytes": 377212738,
+      "prepared_bytes": 51772092,
+      "qobuz_track_ids": [
+        "4689332"
+      ],
+      "playlist_track_ids": [
+        "12449394403"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Carry On",
+      "file_id": "5ae6742589a320.27858576",
+      "source_url": "https://rhythmverse.co/songfile/5ae6742589a320.27858576",
+      "download_url": "https://rhythmverse.co/download_file/beard216/5ae6742589a320.27858576/Avenged%20Sevenfold%20-%20Carry%20On.rar",
+      "archive_format": "rar",
+      "folder": "Avenged Sevenfold - Carry On [5ae67425]",
+      "charter": "bernie, sodamlazy, beard216, BassSinger313",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2392,
+          "kick_note_on_count": 776,
+          "tom_marker_count": 140,
+          "last_expert_onset_seconds": 256.519,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5ae6742589a320.27858576",
+        "artist": "Avenged Sevenfold",
+        "title": "Carry On",
+        "album": "Carry On (Call of Duty: Black Ops II Version) - Single",
+        "game": "ps",
+        "source_url": "https://rhythmverse.co/songfile/5ae6742589a320.27858576",
+        "download_url": "https://rhythmverse.co/download_file/beard216/5ae6742589a320.27858576/Avenged Sevenfold - Carry On.rar",
+        "duration_seconds": 257.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "beard216",
+        "notes": "<p>Frets:<br />\n&#160;<br />\nDrums: sodamlazy<br />\nVocals/Harmonies/Preview Video: BassSinger313<br />\nEverything Else: bernie<br />\nConversion/Audio/Drum Fills/Drum Animations: beard216<br />\n&#160;<br />\nUpdated: 4/29 (Harmonies and Pitched Vox)</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Carry On/album.png",
+          "name": "album.png",
+          "sha256": "ed3f8f76f8c5643a94d4b707a9913b8f6e89562e390f0ba85a5196391b76b27d"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Carry On/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "2595e67e94690924912ee97998f593b1089a90e76f1558e79573c818ca53c56f"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Carry On/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3e6a05b4e6e711cde1e79d08879a6d0ed4ca8fc47bc8caea9bbdc4b96c7b2f0d"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Carry On/song.ini",
+          "name": "song.ini",
+          "sha256": "1d3dd9ef357ec71d756ee8db78abd9019b92f3fa2d8f838226bff122916585be"
+        }
+      ],
+      "archive_sha256": "bd512a19cf6153f0180459246be37bb6b8f587d7cde6daff3627ef46545d4937",
+      "archive_bytes": 5023600,
+      "prepared_bytes": 5156055,
+      "qobuz_track_ids": [
+        "6513019"
+      ],
+      "playlist_track_ids": [
+        "12221847105"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Heretic",
+      "file_id": "b0ae4fb4300d49138de17a7d750bdde7",
+      "source_url": "https://rhythmverse.co/songfile/b0ae4fb4300d49138de17a7d750bdde7",
+      "download_url": "https://drive.google.com/uc?export=download&id=1kyKJp7PBmtsr4WxTWVZT39fBW2FaLJBI",
+      "archive_format": "rar",
+      "folder": "Avenged Sevenfold - Heretic [b0ae4fb4]",
+      "charter": "Picquerist",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1501,
+          "kick_note_on_count": 560,
+          "tom_marker_count": 35,
+          "last_expert_onset_seconds": 292.907,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b0ae4fb4300d49138de17a7d750bdde7",
+        "artist": "Avenged Sevenfold",
+        "title": "Heretic",
+        "album": "Hail to the King",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b0ae4fb4300d49138de17a7d750bdde7",
+        "download_url": "https://drive.google.com/file/d/1kyKJp7PBmtsr4WxTWVZT39fBW2FaLJBI",
+        "duration_seconds": 295.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Picquerist",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Heretic/album.png",
+          "name": "album.png",
+          "sha256": "bccf955c10c8282c66155a53cb833ec5c97c85791614ff109372d94dd4730763"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Heretic/background.png",
+          "name": "background.png",
+          "sha256": "2b1839fceab8b0c2f291b0dacc81c7e39ff76ece9857b7895d59d741e001f99d"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Heretic/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f31b3f46f49d326e27a36ccd0522ede44acd56bceeb2eab0677309cbd17bf77f"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Heretic/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f891cad7a22435db5199145a98176f10132ed9004cd5f531267d8da3e2476180"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Heretic/song.ini",
+          "name": "song.ini",
+          "sha256": "0c0ec79cd3eb7dbf32639d2765bae2e00614b9ba772204feff5d2bb9f89252ea"
+        }
+      ],
+      "archive_sha256": "b42bb90b9535ed04f25e67108d6ed35bcc7a3827a6c49ebfadfde3b17c7c0e72",
+      "archive_bytes": 14215256,
+      "prepared_bytes": 14268645,
+      "qobuz_track_ids": [
+        "13112403"
+      ],
+      "playlist_track_ids": [
+        "12449396036"
+      ]
+    }
+  ]
+}

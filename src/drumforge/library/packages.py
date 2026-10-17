@@ -15,7 +15,13 @@ import zipfile
 from pathlib import Path, PurePosixPath
 from typing import Any
 
-from drumforge.library.inspect_song import AUDIO_EXTENSIONS, chart_drums, inspect_song, truth
+from drumforge.library.inspect_song import (
+    AUDIO_EXTENSIONS,
+    chart_drums,
+    inspect_song,
+    midi_drums,
+    truth,
+)
 
 
 def check_members(archive: zipfile.ZipFile) -> None:
@@ -46,7 +52,9 @@ def safe_folder_name(artist: str, title: str, file_id: str) -> str:
     return f"{label} [{suffix}]"
 
 
-def prepare_zip(archive_path: Path, destination: Path) -> dict[str, Any]:
+def prepare_zip(
+    archive_path: Path, destination: Path, *, require_pro: bool = True
+) -> dict[str, Any]:
     if destination.exists():
         raise FileExistsError("Refusing to overwrite an existing song folder")
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -105,18 +113,27 @@ def prepare_zip(archive_path: Path, destination: Path) -> dict[str, Any]:
                     shutil.copyfileobj(source, target)
                 copied.append(target_name)
             # .chart cymbal markers are preserved; make their intended mode explicit.
-            configuration = configparser.ConfigParser(interpolation=None, strict=False)
+            configuration = configparser.ConfigParser(
+                interpolation=None, strict=False, comment_prefixes=("#", ";", "//")
+            )
             configuration.read(folder / "song.ini", encoding="utf-8-sig")
-            if not (folder / "notes.mid").exists() and not truth(
-                configuration["song"].get("pro_drums")
-            ):
-                evidence = chart_drums((folder / "notes.chart").read_text(encoding="utf-8-sig"))
-                if evidence["cymbal_marker_count"]:
-                    configuration["song"]["pro_drums"] = "True"
-                    with (folder / "song.ini").open("w", encoding="utf-8") as file:
+            section = configuration[
+                next(name for name in configuration.sections() if name.casefold() == "song")
+            ]
+            if not truth(section.get("pro_drums")) and not truth(section.get("five_lane_drums")):
+                evidence = (
+                    midi_drums((folder / "notes.mid").read_bytes())
+                    if (folder / "notes.mid").exists()
+                    else chart_drums((folder / "notes.chart").read_text(encoding="utf-8-sig"))
+                )
+                if evidence.get("cymbal_marker_count") or evidence.get("tom_marker_count"):
+                    section["pro_drums"] = "True"
+                    with (folder / "song.ini").open("w", encoding="utf-8", newline="\n") as file:
                         configuration.write(file)
-                    changes.append("Added pro_drums=True from existing .chart cymbal markers")
-            report = inspect_song(folder)
+                    changes.append("Added pro_drums=True from existing drum markers")
+            report = (
+                inspect_song(folder) if require_pro else inspect_song(folder, require_pro=False)
+            )
             hashes = {
                 path.name: hashlib.sha256(path.read_bytes()).hexdigest()
                 for path in sorted(folder.iterdir())

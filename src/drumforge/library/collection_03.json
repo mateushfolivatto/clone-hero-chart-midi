@@ -1,0 +1,2181 @@
+{
+  "schema_version": 1,
+  "batch_number": 3,
+  "collection_folder": "MixDrumRock - Lote 03",
+  "archive_name": "MixDrumRock-lote-03.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "songs": [
+    {
+      "artist": "Metallica",
+      "title": "Halo on Fire",
+      "file_id": "c1c2318b2e90421b8db8f1fb523c02cc",
+      "source_url": "https://rhythmverse.co/songfile/c1c2318b2e90421b8db8f1fb523c02cc",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/c1c2318b2e90421b8db8f1fb523c02cc/Metallica%20-%20Halo%20on%20Fire.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Halo on Fire [c1c2318b]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3180,
+          "kick_note_on_count": 729,
+          "tom_marker_count": 116,
+          "last_expert_onset_seconds": 493.438,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c1c2318b2e90421b8db8f1fb523c02cc",
+        "artist": "Metallica",
+        "title": "Halo on Fire",
+        "album": "Hardwired...to Self-Destruct",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/c1c2318b2e90421b8db8f1fb523c02cc",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/c1c2318b2e90421b8db8f1fb523c02cc/Metallica - Halo on Fire.zip",
+        "duration_seconds": 499.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Halo on Fire/album.png",
+          "name": "album.png",
+          "sha256": "a12a4e39450b1f8e9331246d6c1697278b714b8e0c08c087b6e1bb4a326859bb"
+        },
+        {
+          "archive_name": "Metallica - Halo on Fire/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "0866a3d9e5b301a4901d6ddf5792d74569456e14341059a9416e46ab50d17b77"
+        },
+        {
+          "archive_name": "Metallica - Halo on Fire/notes.mid",
+          "name": "notes.mid",
+          "sha256": "902853bded4864a0bac9fe80ed577b28bc20ed1a41e600e013262ffe3ebb23bb"
+        },
+        {
+          "archive_name": "Metallica - Halo on Fire/song.ini",
+          "name": "song.ini",
+          "sha256": "5af0fb114da7a252e87c59ffeb9c99db6533b9aac7614c3e90fcceb5f608ed35"
+        }
+      ],
+      "archive_sha256": "910e0edbbd38188aca2bc09239feea0568fa7bf64ee4942af54693375772a3fd",
+      "archive_bytes": 10824888,
+      "prepared_bytes": 10774666,
+      "qobuz_track_ids": [
+        "95786379"
+      ],
+      "playlist_track_ids": [
+        "12449350439"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Hardwired",
+      "file_id": "d312b28b41b245f2bc4d513867f47ffb",
+      "source_url": "https://rhythmverse.co/songfile/d312b28b41b245f2bc4d513867f47ffb",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/d312b28b41b245f2bc4d513867f47ffb/Metallica%20-%20Hardwired.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Hardwired [d312b28b]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1989,
+          "kick_note_on_count": 460,
+          "tom_marker_count": 32,
+          "last_expert_onset_seconds": 188.637,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d312b28b41b245f2bc4d513867f47ffb",
+        "artist": "Metallica",
+        "title": "Hardwired",
+        "album": "Hardwired...to Self-Destruct",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/d312b28b41b245f2bc4d513867f47ffb",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/d312b28b41b245f2bc4d513867f47ffb/Metallica - Hardwired.zip",
+        "duration_seconds": 192.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Hardwired/album.png",
+          "name": "album.png",
+          "sha256": "a12a4e39450b1f8e9331246d6c1697278b714b8e0c08c087b6e1bb4a326859bb"
+        },
+        {
+          "archive_name": "Metallica - Hardwired/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d8a9f2fab35aa973115675b68065ea2cefeae34e6fbc73640b24bed0ce76d40d"
+        },
+        {
+          "archive_name": "Metallica - Hardwired/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6804dad0e50127966b1fb6843f0f27df1a067cde8f6eea6223e52b7e822f9e77"
+        },
+        {
+          "archive_name": "Metallica - Hardwired/song.ini",
+          "name": "song.ini",
+          "sha256": "9077ec31ff5a81f8a11b2389d67a95482697ee3843a3812884be693ca17e5091"
+        }
+      ],
+      "archive_sha256": "f20905842b258f7eedb571d8331a3234470eb1123f5dc510af760e2abba0a0c1",
+      "archive_bytes": 3909321,
+      "prepared_bytes": 3839520,
+      "qobuz_track_ids": [
+        "95786374"
+      ],
+      "playlist_track_ids": [
+        "12449350446"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Hit the Lights",
+      "file_id": "9bacfc3bc06846179628472af72655be",
+      "source_url": "https://rhythmverse.co/songfile/9bacfc3bc06846179628472af72655be",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/9bacfc3bc06846179628472af72655be/Metallica%20-%20Hit%20the%20Lights.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Hit the Lights [9bacfc3b]",
+      "charter": "Neversoft",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2326,
+          "kick_note_on_count": 814,
+          "tom_marker_count": 184,
+          "last_expert_onset_seconds": 258.279,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 9,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "9bacfc3bc06846179628472af72655be",
+        "artist": "Metallica",
+        "title": "Hit the Lights",
+        "album": "Kill 'Em All",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/9bacfc3bc06846179628472af72655be",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/9bacfc3bc06846179628472af72655be/Metallica - Hit the Lights.zip",
+        "duration_seconds": 262.0,
+        "duration_difference_seconds": 7.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Hit the Lights/album.png",
+          "name": "album.png",
+          "sha256": "c5444eb16ded35e16f55fc8c9e44c11a35d4f4e929e7ff06d958abe336729cf1"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "1ab4a46ff0fcb7756c05dc2ca420c8b17c00df7ee2b33855d6759afaba6e4e46"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "dd2b7456a5383a038f4ab364b440bfc2780cc5fc385d7796f1670ac0e72cdc1f"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "fc4f83c0867fb9f28c4dbc32a2ee0cd1f4c85febe6b5669826e6bb164b784bb0"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "1618125aebfbce4164f87fba4d8bedb943661a842172ef04dd99da44d64abc15"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/drums_4.ogg",
+          "name": "drums_4.ogg",
+          "sha256": "f75f5ac357815c1ca91f06e260496c56514e7cf1429eb9df3a968870a1d825f5"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "daf76d7e2515e517ddc64be2fd1e5c7d3e3dce8fd2ac32e21901e9940e5f3152"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/notes.mid",
+          "name": "notes.mid",
+          "sha256": "5ea1c2088e568abc93159a121d15c3630fd1b27d138408549f007d75831c14ab"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "d4eccd5c8296c247e646ef64ac6771271c369f8298fc46222507be892dd5d675"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/song.ini",
+          "name": "song.ini",
+          "sha256": "4d57e707c62e3d75b3c9cad83dba0b36b8c2f245cacd50caa20984f5014b5682"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/song.ogg",
+          "name": "song.ogg",
+          "sha256": "daf12a39e85563a37cc327bae0bd408d586919d13da3b5c00e25c2ca84070e80"
+        },
+        {
+          "archive_name": "Metallica - Hit the Lights/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "43f8b2de0c8c64ac3ac57b9d8fccbafc84d6f9a1e0bc3d6f892a2f5330eee7e8"
+        }
+      ],
+      "archive_sha256": "c21e0ef606fd2582831e715c00e85637447945d2e72bea95cc90bbad127b7774",
+      "archive_bytes": 37189057,
+      "prepared_bytes": 37696047,
+      "qobuz_track_ids": [
+        "95787420"
+      ],
+      "playlist_track_ids": [
+        "12449350428"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "If Darkness Had a Son",
+      "file_id": "b20de1923bcf40edb96963384849326a",
+      "source_url": "https://rhythmverse.co/songfile/b20de1923bcf40edb96963384849326a",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b20de1923bcf40edb96963384849326a/Metallica%20-%20If%20Darkness%20Had%20a%20Son.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - If Darkness Had a Son [b20de192]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2874,
+          "kick_note_on_count": 716,
+          "tom_marker_count": 232,
+          "last_expert_onset_seconds": 393.489,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b20de1923bcf40edb96963384849326a",
+        "artist": "Metallica",
+        "title": "If Darkness Had a Son",
+        "album": "72 Seasons",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b20de1923bcf40edb96963384849326a",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b20de1923bcf40edb96963384849326a/Metallica - If Darkness Had a Son.zip",
+        "duration_seconds": 400.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - If Darkness Had a Son/album.png",
+          "name": "album.png",
+          "sha256": "39016006bf60e1c4e3ce82e33ff9032e87a5eb653468700d958c1be7a3629377"
+        },
+        {
+          "archive_name": "Metallica - If Darkness Had a Son/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "2dae5d1e0009c5f3794d143a04c94cf0603a414fec1a4bc5ed945fc44d296dc9"
+        },
+        {
+          "archive_name": "Metallica - If Darkness Had a Son/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "10320f721b4a8c23b3d2b1dcbc99324e9301241dccb5a22b81b0fd6d5161038d"
+        },
+        {
+          "archive_name": "Metallica - If Darkness Had a Son/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3e681bf97300c4bea2076e31110a13f1519f9a3330b451b8edf00c3c26ab0102"
+        },
+        {
+          "archive_name": "Metallica - If Darkness Had a Son/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "c6b8074ce8e4a944ad7a1d1e38263826fdff2de03c1ba9fa78ec56f288490f4f"
+        },
+        {
+          "archive_name": "Metallica - If Darkness Had a Son/song.ini",
+          "name": "song.ini",
+          "sha256": "7b2f88da05f2ef10d3acfc90ab2789435803273d53bf2d9dc7d8c0117ad40859"
+        },
+        {
+          "archive_name": "Metallica - If Darkness Had a Son/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1e1eae5ae2a56a335cf3d1f3f4bc31366e702c7800513c1df46aebf41a173da8"
+        },
+        {
+          "archive_name": "Metallica - If Darkness Had a Son/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "d83f35386e8795112895bc818f34e88f1eef407ed0e3958e911a6b743766e204"
+        }
+      ],
+      "archive_sha256": "9b07b56cbf49a58ba112329691006d023a45e83f9088f8b41f766585e3d84d50",
+      "archive_bytes": 29443931,
+      "prepared_bytes": 29534388,
+      "qobuz_track_ids": [
+        "206111789"
+      ],
+      "playlist_track_ids": [
+        "12449350430"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Jump in the Fire",
+      "file_id": "794d771f122b44f8bf390793bb3d2ff2",
+      "source_url": "https://rhythmverse.co/songfile/794d771f122b44f8bf390793bb3d2ff2",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/794d771f122b44f8bf390793bb3d2ff2/Metallica%20-%20Jump%20in%20the%20Fire.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Jump in the Fire [794d771f]",
+      "charter": "Mrcoupdetat",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2754,
+          "kick_note_on_count": 846,
+          "tom_marker_count": 74,
+          "last_expert_onset_seconds": 279.234,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "794d771f122b44f8bf390793bb3d2ff2",
+        "artist": "Metallica",
+        "title": "Jump in the Fire",
+        "album": "Kill 'Em All",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/794d771f122b44f8bf390793bb3d2ff2",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/794d771f122b44f8bf390793bb3d2ff2/Metallica - Jump in the Fire.zip",
+        "duration_seconds": 283.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Jump in the Fire/album.png",
+          "name": "album.png",
+          "sha256": "c5444eb16ded35e16f55fc8c9e44c11a35d4f4e929e7ff06d958abe336729cf1"
+        },
+        {
+          "archive_name": "Metallica - Jump in the Fire/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f947e0836e27869bdd1fb93323085cfa9795bd4d0b2f3a122f7e2b119e61c982"
+        },
+        {
+          "archive_name": "Metallica - Jump in the Fire/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6728b3984a2a1c2518e884c189a2a4b88f10b9bdce467b7ade3c14c97637d682"
+        },
+        {
+          "archive_name": "Metallica - Jump in the Fire/song.ini",
+          "name": "song.ini",
+          "sha256": "8d328ffe4a7ee754797f552615ccd9f6acb690ec8b2a651584603eb73988756e"
+        },
+        {
+          "archive_name": "Metallica - Jump in the Fire/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f947e0836e27869bdd1fb93323085cfa9795bd4d0b2f3a122f7e2b119e61c982"
+        }
+      ],
+      "archive_sha256": "b911836e33549b3337896c0c165492b1a1414309f50e07ebd95f662ee812051c",
+      "archive_bytes": 11119595,
+      "prepared_bytes": 11151891,
+      "qobuz_track_ids": [
+        "95787423"
+      ],
+      "playlist_track_ids": [
+        "12449350409"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "King Nothing",
+      "file_id": "b787a4e4a27d49f2aa50d2f4fe10c252",
+      "source_url": "https://rhythmverse.co/songfile/b787a4e4a27d49f2aa50d2f4fe10c252",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b787a4e4a27d49f2aa50d2f4fe10c252/Metallica%20-%20King%20Nothing.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - King Nothing [b787a4e4]",
+      "charter": "Neversoft",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1722,
+          "kick_note_on_count": 290,
+          "tom_marker_count": 65,
+          "last_expert_onset_seconds": 317.581,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b787a4e4a27d49f2aa50d2f4fe10c252",
+        "artist": "Metallica",
+        "title": "King Nothing",
+        "album": "Load",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b787a4e4a27d49f2aa50d2f4fe10c252",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b787a4e4a27d49f2aa50d2f4fe10c252/Metallica - King Nothing.zip",
+        "duration_seconds": 333.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - King Nothing/album.png",
+          "name": "album.png",
+          "sha256": "7cf18fd2dbca09bde16763c912b5974c6f0673cef3cffd8342f1d1387904f5a0"
+        },
+        {
+          "archive_name": "Metallica - King Nothing/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "33215c338793a8e87b439a166b6be796a5af2694e7ce2044ad026421667da0d5"
+        },
+        {
+          "archive_name": "Metallica - King Nothing/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "7ba839b9151632d5bdc39051926d26d04091e0480b3309dded60d61a424d12de"
+        },
+        {
+          "archive_name": "Metallica - King Nothing/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "fbc0f42707293566d4dce90f2f9a31514a9dd5152484cd4a20d988d2d597b476"
+        },
+        {
+          "archive_name": "Metallica - King Nothing/notes.mid",
+          "name": "notes.mid",
+          "sha256": "278611c52243be37eade4002379471cdee07e0f0a19fd70986d73b64a8fc9d74"
+        },
+        {
+          "archive_name": "Metallica - King Nothing/preview.ogg",
+          "name": "preview.ogg",
+          "sha256": "3829cc85147eae808cc15db0edadb3fe1ecf03ae7ed1fc8f06f0b8ffd962744b"
+        },
+        {
+          "archive_name": "Metallica - King Nothing/song.ini",
+          "name": "song.ini",
+          "sha256": "513685b1dc03a21a718df628dc0cf3f8e4733fcb505a767d4e727fde4da48617"
+        },
+        {
+          "archive_name": "Metallica - King Nothing/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "97e69989d564f61f374019e922f525fabe5e091ff3ca72067b0e4215d2daeeba"
+        }
+      ],
+      "archive_sha256": "d1eb0cfe1cb283306b67d84ccdacd1fc021fc6072d7cb1273650a087e1e7fdc9",
+      "archive_bytes": 24003509,
+      "prepared_bytes": 24144796,
+      "qobuz_track_ids": [
+        "340931159"
+      ],
+      "playlist_track_ids": [
+        "12449350435"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Leper Messiah",
+      "file_id": "457547abe81644d4b2f216ae82e5b056",
+      "source_url": "https://rhythmverse.co/songfile/457547abe81644d4b2f216ae82e5b056",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/457547abe81644d4b2f216ae82e5b056/Metallica%20-%20Leper%20Messiah.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Leper Messiah [457547ab]",
+      "charter": "Sideshow",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2191,
+          "kick_note_on_count": 707,
+          "tom_marker_count": 195,
+          "last_expert_onset_seconds": 339.712,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "457547abe81644d4b2f216ae82e5b056",
+        "artist": "Metallica",
+        "title": "Leper Messiah",
+        "album": "Master of Puppets",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/457547abe81644d4b2f216ae82e5b056",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/457547abe81644d4b2f216ae82e5b056/Metallica - Leper Messiah.zip",
+        "duration_seconds": 342.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Leper Messiah/album.png",
+          "name": "album.png",
+          "sha256": "8e8af0447b079f372714db984a34d60c223b2ff20eba38539f37d96b7556f4ad"
+        },
+        {
+          "archive_name": "Metallica - Leper Messiah/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "6613882be54140d576d14a2f39f47ee9b18480e56061cd7449c67992db84d18c"
+        },
+        {
+          "archive_name": "Metallica - Leper Messiah/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "88798a7236c59151c98176e19eb0c5193774a80cb1f9c521dac8a5d9e5e7dc3a"
+        },
+        {
+          "archive_name": "Metallica - Leper Messiah/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "7248696e65a139d60fecf2ce6d1461c04ef01f029edccff0b3a5576f29f9dd47"
+        },
+        {
+          "archive_name": "Metallica - Leper Messiah/notes.mid",
+          "name": "notes.mid",
+          "sha256": "eb5a441a6c359f8e8d1b73fc7739dcefbfec99b093d7bbc683696144350fcf8b"
+        },
+        {
+          "archive_name": "Metallica - Leper Messiah/song.ini",
+          "name": "song.ini",
+          "sha256": "a55666bc782797f304a079090504f140382b4d00dd19578d549e4a39a3465411"
+        },
+        {
+          "archive_name": "Metallica - Leper Messiah/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "4e9887846de62d2d42ae198ac1681884131363c675b25a58c5f0414b03d49ebb"
+        }
+      ],
+      "archive_sha256": "87f603fb3ad62337d34aa0d1924d78530d4a49e34858c298ff756f66dc36f6ab",
+      "archive_bytes": 24603474,
+      "prepared_bytes": 24609040,
+      "qobuz_track_ids": [
+        "95787408"
+      ],
+      "playlist_track_ids": [
+        "12449350402"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Lux Æterna",
+      "file_id": "b7cd8aace5604d279dcec894335500b6",
+      "source_url": "https://rhythmverse.co/songfile/b7cd8aace5604d279dcec894335500b6",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b7cd8aace5604d279dcec894335500b6/Metallica%20-%20Lux%20AEterna.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Lux Æterna [b7cd8aac]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1693,
+          "kick_note_on_count": 540,
+          "tom_marker_count": 42,
+          "last_expert_onset_seconds": 201.436,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b7cd8aace5604d279dcec894335500b6",
+        "artist": "Metallica",
+        "title": "Lux Æterna",
+        "album": "72 Seasons",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b7cd8aace5604d279dcec894335500b6",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/b7cd8aace5604d279dcec894335500b6/Metallica - Lux AEterna.zip",
+        "duration_seconds": 205.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Lux AEterna/album.png",
+          "name": "album.png",
+          "sha256": "39016006bf60e1c4e3ce82e33ff9032e87a5eb653468700d958c1be7a3629377"
+        },
+        {
+          "archive_name": "Metallica - Lux AEterna/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "c8894429d2c8dfde8a98762aa79d2d6aaa492686760444e8346eb79f68697bd1"
+        },
+        {
+          "archive_name": "Metallica - Lux AEterna/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "2373e034f33d4455d0e4fe87c831c5fdd556314918c879a24f6f6b15b324c72f"
+        },
+        {
+          "archive_name": "Metallica - Lux AEterna/notes.mid",
+          "name": "notes.mid",
+          "sha256": "5fac23b8262b650c3eee675a5f65554e39fbf666688c914f909d49e64a262026"
+        },
+        {
+          "archive_name": "Metallica - Lux AEterna/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "ca105562a8b8f21a3706f91af8e41b1a49381de9d0255f4cde6d8cc97ed936e0"
+        },
+        {
+          "archive_name": "Metallica - Lux AEterna/song.ini",
+          "name": "song.ini",
+          "sha256": "219fce4cbb083620ebce0569176eb7ec6d2203b7efa263d1d46e76797dcd9e7f"
+        },
+        {
+          "archive_name": "Metallica - Lux AEterna/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6138fd5f4f08cb4153dea3762da3ae86e874664b9311b4c146be6b2374814378"
+        },
+        {
+          "archive_name": "Metallica - Lux AEterna/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "1b4f5c11a709d686382d098604d92733e7f86bcbb474a5baa154e777162e3e0e"
+        }
+      ],
+      "archive_sha256": "3add52fc01711f5c05764c3848b3f01e83e2e4d1fc36f6fe19cc4a550ca4db70",
+      "archive_bytes": 14805590,
+      "prepared_bytes": 14859681,
+      "qobuz_track_ids": [
+        "206111786"
+      ],
+      "playlist_track_ids": [
+        "12449350398"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Metal Militia",
+      "file_id": "d3c33459263c438aad59a509db2bc7c8",
+      "source_url": "https://rhythmverse.co/songfile/d3c33459263c438aad59a509db2bc7c8",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/d3c33459263c438aad59a509db2bc7c8/Metallica%20-%20Metal%20Militia.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Metal Militia [d3c33459]",
+      "charter": "Nickmein",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2869,
+          "kick_note_on_count": 725,
+          "tom_marker_count": 83,
+          "last_expert_onset_seconds": 298.885,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d3c33459263c438aad59a509db2bc7c8",
+        "artist": "Metallica",
+        "title": "Metal Militia",
+        "album": "Kill 'Em All",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/d3c33459263c438aad59a509db2bc7c8",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/d3c33459263c438aad59a509db2bc7c8/Metallica - Metal Militia.zip",
+        "duration_seconds": 313.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Metal Militia/album.png",
+          "name": "album.png",
+          "sha256": "c5444eb16ded35e16f55fc8c9e44c11a35d4f4e929e7ff06d958abe336729cf1"
+        },
+        {
+          "archive_name": "Metallica - Metal Militia/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "dd5834eafa3bff407703e033a653f4becf31cb675ca3844752c11080509e099e"
+        },
+        {
+          "archive_name": "Metallica - Metal Militia/notes.mid",
+          "name": "notes.mid",
+          "sha256": "03d366c22263f13f9b5c9f910389b91dff418cc77b412e81f45a4723ac00c947"
+        },
+        {
+          "archive_name": "Metallica - Metal Militia/song.ini",
+          "name": "song.ini",
+          "sha256": "0ed9bdb737dab47fd51681dbde5935c2c2c01be1feff00189e717e638a6baabe"
+        }
+      ],
+      "archive_sha256": "57d91f4f7bcece724e097557b16c894da08d6e43f514a2fa48299ee56c792e15",
+      "archive_bytes": 9620024,
+      "prepared_bytes": 9565300,
+      "qobuz_track_ids": [
+        "95787429"
+      ],
+      "playlist_track_ids": [
+        "12450490323"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Moth Into Flame",
+      "file_id": "9bfe75df3af14850805989e38f7ab06f",
+      "source_url": "https://rhythmverse.co/songfile/9bfe75df3af14850805989e38f7ab06f",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/9bfe75df3af14850805989e38f7ab06f/Metallica%20-%20Moth%20Into%20Flame.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Moth Into Flame [9bfe75df]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3380,
+          "kick_note_on_count": 864,
+          "tom_marker_count": 85,
+          "last_expert_onset_seconds": 347.986,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "9bfe75df3af14850805989e38f7ab06f",
+        "artist": "Metallica",
+        "title": "Moth Into Flame",
+        "album": "Hardwired...To Self-Destruct",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/9bfe75df3af14850805989e38f7ab06f",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/9bfe75df3af14850805989e38f7ab06f/Metallica - Moth Into Flame.zip",
+        "duration_seconds": 354.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Moth Into Flame/album.png",
+          "name": "album.png",
+          "sha256": "a12a4e39450b1f8e9331246d6c1697278b714b8e0c08c087b6e1bb4a326859bb"
+        },
+        {
+          "archive_name": "Metallica - Moth Into Flame/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "e41cefb6e49b2df87fa9c928b336293276acfdab0ed74dad9fd9d478d4fcf902"
+        },
+        {
+          "archive_name": "Metallica - Moth Into Flame/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3cb01faf3b066e5055fbc305522368accd00be400c5bd5468c9eed319246c670"
+        },
+        {
+          "archive_name": "Metallica - Moth Into Flame/song.ini",
+          "name": "song.ini",
+          "sha256": "bc782592965e218c75b11e7fd174e370725338933fd180804029fb474afbbde3"
+        }
+      ],
+      "archive_sha256": "36991303600de1897d0f28d1c6d5af311ca9733c38d2936c098f66c073dc764d",
+      "archive_bytes": 7122319,
+      "prepared_bytes": 6997531,
+      "qobuz_track_ids": [
+        "95786377"
+      ],
+      "playlist_track_ids": [
+        "12449350417"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "No Remorse",
+      "file_id": "f7ccc9ec60cc4d05bd4e178fa3f028cb",
+      "source_url": "https://rhythmverse.co/songfile/f7ccc9ec60cc4d05bd4e178fa3f028cb",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/f7ccc9ec60cc4d05bd4e178fa3f028cb/Metallica%20-%20No%20Remorse.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - No Remorse [f7ccc9ec]",
+      "charter": "Nunchuk & Sygenysis",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3025,
+          "kick_note_on_count": 905,
+          "tom_marker_count": 193,
+          "last_expert_onset_seconds": 385.576,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f7ccc9ec60cc4d05bd4e178fa3f028cb",
+        "artist": "Metallica",
+        "title": "No Remorse",
+        "album": "Kill 'Em All",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/f7ccc9ec60cc4d05bd4e178fa3f028cb",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/f7ccc9ec60cc4d05bd4e178fa3f028cb/Metallica - No Remorse.zip",
+        "duration_seconds": 392.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - No Remorse/album.png",
+          "name": "album.png",
+          "sha256": "c5444eb16ded35e16f55fc8c9e44c11a35d4f4e929e7ff06d958abe336729cf1"
+        },
+        {
+          "archive_name": "Metallica - No Remorse/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "ce19e584d939baf87a34120f503933325aa4c796ed55d4e03b572ff870dc94d0"
+        },
+        {
+          "archive_name": "Metallica - No Remorse/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a0dbb8a505b7ee7e40ef6180dd731493cf9dff9be0a6217724d69ae2be9f072a"
+        },
+        {
+          "archive_name": "Metallica - No Remorse/song.ini",
+          "name": "song.ini",
+          "sha256": "e2eddb421e74546119f5806a4557655059f90f30bdfcf597d28a3bbc8b7899be"
+        }
+      ],
+      "archive_sha256": "dd329c4e3b4954ffd65a8073af8b753f14de8debbb906607e3aaad26824eaf49",
+      "archive_bytes": 7324284,
+      "prepared_bytes": 7230362,
+      "qobuz_track_ids": [
+        "95787427"
+      ],
+      "playlist_track_ids": [
+        "12450490322"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Ride The Lightning",
+      "file_id": "413fbe5c4c4a4fafa07023d768eb6749",
+      "source_url": "https://rhythmverse.co/songfile/413fbe5c4c4a4fafa07023d768eb6749",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/413fbe5c4c4a4fafa07023d768eb6749/Metallica%20-%20Ride%20the%20Lightning.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Ride The Lightning [413fbe5c]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3153,
+          "kick_note_on_count": 853,
+          "tom_marker_count": 321,
+          "last_expert_onset_seconds": 397.208,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "413fbe5c4c4a4fafa07023d768eb6749",
+        "artist": "Metallica",
+        "title": "Ride The Lightning",
+        "album": "Ride The Lightning",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/413fbe5c4c4a4fafa07023d768eb6749",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/413fbe5c4c4a4fafa07023d768eb6749/Metallica - Ride the Lightning.zip",
+        "duration_seconds": 400.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Ride the Lightning/album.png",
+          "name": "album.png",
+          "sha256": "bb246cb7d74a12465b6a5e544c3755a292d2e14236b157a8df3bf7ffdc22df0d"
+        },
+        {
+          "archive_name": "Metallica - Ride the Lightning/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "07b0f36fef9d6603d3ba7955c0325c844a9639d9aa7447867d542711700ffcb9"
+        },
+        {
+          "archive_name": "Metallica - Ride the Lightning/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "94ef491a7ff8006d42b6a89c35987f3d31bb369e582c6d55602912566f7151b8"
+        },
+        {
+          "archive_name": "Metallica - Ride the Lightning/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "03f61e31957f6d01a00dba630e7b88fb83982f22906c61397c06ffda33fccc1b"
+        },
+        {
+          "archive_name": "Metallica - Ride the Lightning/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "57228b1426b1a2e687cd7bd1155ddb0a09f8a5e916ad4029e6047da14cc604df"
+        },
+        {
+          "archive_name": "Metallica - Ride the Lightning/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "0eac1544bcdffca0c0bdab86508c7695432a654c71b4f1ab171b7f0284d53160"
+        },
+        {
+          "archive_name": "Metallica - Ride the Lightning/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9ac47a4fdb4d5175ee51e599d178cf722168db3e4d25cbcbb3a9abcd7d4b08cd"
+        },
+        {
+          "archive_name": "Metallica - Ride the Lightning/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "3aeeae0d07a971b7a66d588d53badecd07a9418a1d18f9e76d9087259ed7c25f"
+        },
+        {
+          "archive_name": "Metallica - Ride the Lightning/song.ini",
+          "name": "song.ini",
+          "sha256": "bf51bff1c0b09b63cd797cc6351bea0fe63f8495961a04cc6f85c3b5e98006a9"
+        },
+        {
+          "archive_name": "Metallica - Ride the Lightning/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "20331e89868b7980089c799557e240fb5e336ba861367c8eac112eab420a6d27"
+        }
+      ],
+      "archive_sha256": "dd35eca48fca1ce56c02ede204035c61ba24f71e30a258d3fd13ab770561eb0e",
+      "archive_bytes": 46940906,
+      "prepared_bytes": 47123203,
+      "qobuz_track_ids": [
+        "95786170"
+      ],
+      "playlist_track_ids": [
+        "12449350414"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Screaming Suicide",
+      "file_id": "0964cfe8f9bb4fea88cd8ad304fc932b",
+      "source_url": "https://rhythmverse.co/songfile/0964cfe8f9bb4fea88cd8ad304fc932b",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/0964cfe8f9bb4fea88cd8ad304fc932b/Metallica%20-%20Screaming%20Suicide.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Screaming Suicide [0964cfe8]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2366,
+          "kick_note_on_count": 633,
+          "tom_marker_count": 362,
+          "last_expert_onset_seconds": 325.829,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "0964cfe8f9bb4fea88cd8ad304fc932b",
+        "artist": "Metallica",
+        "title": "Screaming Suicide",
+        "album": "72 Seasons",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/0964cfe8f9bb4fea88cd8ad304fc932b",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/0964cfe8f9bb4fea88cd8ad304fc932b/Metallica - Screaming Suicide.zip",
+        "duration_seconds": 333.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Screaming Suicide/album.png",
+          "name": "album.png",
+          "sha256": "39016006bf60e1c4e3ce82e33ff9032e87a5eb653468700d958c1be7a3629377"
+        },
+        {
+          "archive_name": "Metallica - Screaming Suicide/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "689a19b52d82e47b1ced22d62d76e638cd5211da0b0c9e59b1d6bfe3ff7f1190"
+        },
+        {
+          "archive_name": "Metallica - Screaming Suicide/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "819aa0d2c375f9bf9b1e88dd1dabc4410343fc66010a57453f7c08a1bce0a016"
+        },
+        {
+          "archive_name": "Metallica - Screaming Suicide/notes.mid",
+          "name": "notes.mid",
+          "sha256": "35a6097374d9eec4e7635b86d14db3c2ec19c5b1f2f443ee6bd060faf027644e"
+        },
+        {
+          "archive_name": "Metallica - Screaming Suicide/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "4fcb763e7f4404583131b08d412fd009fc25c39a9f78692cb5e457e66cbac126"
+        },
+        {
+          "archive_name": "Metallica - Screaming Suicide/song.ini",
+          "name": "song.ini",
+          "sha256": "4733f5806c6b42e94c1b51bbeadf61f62ced1cf6eae80b0c5e9a19f5620906d7"
+        },
+        {
+          "archive_name": "Metallica - Screaming Suicide/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7dff81a65a96e0a606b4966fbb226f1d53b12c15a3e2cfaf04c952ba33f38e18"
+        },
+        {
+          "archive_name": "Metallica - Screaming Suicide/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "a00056643fa62ec38759def045add095a16bad206c67ebfb7a1ae6f54a9be660"
+        }
+      ],
+      "archive_sha256": "98b5fa79a29ee0d3f670f655754d9afade883753fb2bafb0a87b8a9e20ee491d",
+      "archive_bytes": 26614945,
+      "prepared_bytes": 26748068,
+      "qobuz_track_ids": [
+        "206111783"
+      ],
+      "playlist_track_ids": [
+        "12449350441"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Seek and Destroy",
+      "file_id": "ac55a2ee28bf403f9161effbb5279394",
+      "source_url": "https://rhythmverse.co/songfile/ac55a2ee28bf403f9161effbb5279394",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/ac55a2ee28bf403f9161effbb5279394/Metallica%20-%20Seek%20and%20Destroy.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Seek and Destroy [ac55a2ee]",
+      "charter": "Neversoft",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3077,
+          "kick_note_on_count": 871,
+          "tom_marker_count": 171,
+          "last_expert_onset_seconds": 413.364,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 9,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ac55a2ee28bf403f9161effbb5279394",
+        "artist": "Metallica",
+        "title": "Seek and Destroy",
+        "album": "Kill 'Em All",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/ac55a2ee28bf403f9161effbb5279394",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/ac55a2ee28bf403f9161effbb5279394/Metallica - Seek and Destroy.zip",
+        "duration_seconds": 415.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Seek and Destroy/album.png",
+          "name": "album.png",
+          "sha256": "c5444eb16ded35e16f55fc8c9e44c11a35d4f4e929e7ff06d958abe336729cf1"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "b7a1179dc0ff296f7204e702faa89390e75edb58c67a757d676b1fb55df125e2"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "558ad69d345e9509fd9883c4ee7b5b4ffb14aa9b0b8dfc2d54b6fa991946e870"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "761cdf52d35fca023036818dd23d2bd4ad707671ca25ae46695c3c7fa0255663"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "e3c00175d3a283094c067ac8dd7e8c6edb19acaa4b7151c6ad58b8d8e00b5595"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "cbdb742c31a70a70e9d813480083e0f565083150e0520cc478dba0de663aaf34"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/drums_4.ogg",
+          "name": "drums_4.ogg",
+          "sha256": "b49b09454dab91fe1b33ac196d20b76b2eb414a9a56c35d1c9e0afd6593a3012"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "2d0ee8190927e25a35cf017f7dbdac5a05a719ec276065a97a360777839f2094"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/notes.mid",
+          "name": "notes.mid",
+          "sha256": "4cc1f429ad4615a9de99601bce0e4632701641388d24233209c6dd71b391d6a9"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/song.ini",
+          "name": "song.ini",
+          "sha256": "89ba7c04a87130abd8553f6ceca3e4455a79e28c1a20886bd2169e09fb02075e"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7ec94411440f57d5b732e84d6813d640610449ff389c528229e6b55924abc287"
+        },
+        {
+          "archive_name": "Metallica - Seek and Destroy/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "c99009ba87637c612234e631fd9b126168c3369a647d3b97d0c8a20d64c46677"
+        }
+      ],
+      "archive_sha256": "db3b70050f8b062d0c83ee9070500a0ad81db3a0c159f4d3c3d33df4d64c7373",
+      "archive_bytes": 68183957,
+      "prepared_bytes": 69241925,
+      "qobuz_track_ids": [
+        "95787428"
+      ],
+      "playlist_track_ids": [
+        "12449350448"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Spit Out the Bone",
+      "file_id": "7da14e5070964640a53116b5cd213bb9",
+      "source_url": "https://rhythmverse.co/songfile/7da14e5070964640a53116b5cd213bb9",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/7da14e5070964640a53116b5cd213bb9/Metallica%20-%20Spit%20Out%20the%20Bone.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Spit Out the Bone [7da14e50]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 4268,
+          "kick_note_on_count": 1115,
+          "tom_marker_count": 90,
+          "last_expert_onset_seconds": 425.246,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7da14e5070964640a53116b5cd213bb9",
+        "artist": "Metallica",
+        "title": "Spit Out the Bone",
+        "album": "Hardwired...to Self-Destruct",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/7da14e5070964640a53116b5cd213bb9",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/7da14e5070964640a53116b5cd213bb9/Metallica - Spit Out the Bone.zip",
+        "duration_seconds": 432.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Spit Out the Bone/album.png",
+          "name": "album.png",
+          "sha256": "a12a4e39450b1f8e9331246d6c1697278b714b8e0c08c087b6e1bb4a326859bb"
+        },
+        {
+          "archive_name": "Metallica - Spit Out the Bone/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "454367486728e29bd36aebb9a0ed2b77f07339dfef817f7c5baa5cf07d37d321"
+        },
+        {
+          "archive_name": "Metallica - Spit Out the Bone/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6f8c1e887ccc0d2a139908e25db6a6e61a74ae8743a0ce746776c3ffc64f08e8"
+        },
+        {
+          "archive_name": "Metallica - Spit Out the Bone/song.ini",
+          "name": "song.ini",
+          "sha256": "2a4ef0fe229b714827e9c1e70c41a9bb0fac81a51775f05a529587cbe66a7e28"
+        }
+      ],
+      "archive_sha256": "cd06c44aedfe37c02212c708264c5bc21943317f70624e74ce460bf653c7de69",
+      "archive_bytes": 8108532,
+      "prepared_bytes": 7966200,
+      "qobuz_track_ids": [
+        "95786385"
+      ],
+      "playlist_track_ids": [
+        "12449350401"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "St. Anger",
+      "file_id": "182c0abc6e334068bd5df781cda04b33",
+      "source_url": "https://rhythmverse.co/songfile/182c0abc6e334068bd5df781cda04b33",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/182c0abc6e334068bd5df781cda04b33/Metallica%20-%20St.%20Anger.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - St. Anger [182c0abc]",
+      "charter": "Nickmein, Puppetz",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3589,
+          "kick_note_on_count": 955,
+          "tom_marker_count": 200,
+          "last_expert_onset_seconds": 440.755,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "182c0abc6e334068bd5df781cda04b33",
+        "artist": "Metallica",
+        "title": "St. Anger",
+        "album": "St.Anger",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/182c0abc6e334068bd5df781cda04b33",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/182c0abc6e334068bd5df781cda04b33/Metallica - St. Anger.zip",
+        "duration_seconds": 443.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - St. Anger/album.png",
+          "name": "album.png",
+          "sha256": "772ac3191960ecf64468b698892dcf55158b945fd01b790d26a48da4e93e6c71"
+        },
+        {
+          "archive_name": "Metallica - St. Anger/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f361e89d7895d923d9dd2a6ce4d4d6433a696f8753f5c0a8d5cb367ff3a5b4af"
+        },
+        {
+          "archive_name": "Metallica - St. Anger/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ce3081c9093258a31f20ae0de255b39fab52b9e811c7471f132f416c11686df9"
+        },
+        {
+          "archive_name": "Metallica - St. Anger/song.ini",
+          "name": "song.ini",
+          "sha256": "f304b3b4eda7bab41f56afb5fdd0ecf0e29933e0ed06d7709dad8d76ca3e7757"
+        }
+      ],
+      "archive_sha256": "86b94054d26765e35c7a6035030c034610b0cbbd7a9b8f270342671cd66f34d1",
+      "archive_bytes": 9851901,
+      "prepared_bytes": 9783859,
+      "qobuz_track_ids": [
+        "95786949"
+      ],
+      "playlist_track_ids": [
+        "12449350425"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "The Call of Ktulu",
+      "file_id": "510b41828f45401b84e63b9224815e96",
+      "source_url": "https://rhythmverse.co/songfile/510b41828f45401b84e63b9224815e96",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/510b41828f45401b84e63b9224815e96/Metallica%20-%20The%20Call%20of%20Ktulu.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - The Call of Ktulu [510b4182]",
+      "charter": "Puppetz",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2907,
+          "kick_note_on_count": 592,
+          "tom_marker_count": 370,
+          "last_expert_onset_seconds": 529.428,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "510b41828f45401b84e63b9224815e96",
+        "artist": "Metallica",
+        "title": "The Call of Ktulu",
+        "album": "Ride the Lightning",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/510b41828f45401b84e63b9224815e96",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/510b41828f45401b84e63b9224815e96/Metallica - The Call of Ktulu.zip",
+        "duration_seconds": 532.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - The Call of Ktulu/album.png",
+          "name": "album.png",
+          "sha256": "bb246cb7d74a12465b6a5e544c3755a292d2e14236b157a8df3bf7ffdc22df0d"
+        },
+        {
+          "archive_name": "Metallica - The Call of Ktulu/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "afc220bcc1ebc358b69a0f46cc0895e679c4ac2f22475c212c507177ca602bd1"
+        },
+        {
+          "archive_name": "Metallica - The Call of Ktulu/notes.mid",
+          "name": "notes.mid",
+          "sha256": "700c1e063d6617325b70acdae3937474a89a638bdfbe465a3339a4522e59a00c"
+        },
+        {
+          "archive_name": "Metallica - The Call of Ktulu/song.ini",
+          "name": "song.ini",
+          "sha256": "fec40e35107cacf638c2fc9bb97c39c054377c5a3705a7f4defb805adfa9a9dd"
+        }
+      ],
+      "archive_sha256": "62157d635b767e504aff8be323deb54b82e6bc2c20633f8e44322c5d9f48cffa",
+      "archive_bytes": 10408409,
+      "prepared_bytes": 10421057,
+      "qobuz_track_ids": [
+        "95786176"
+      ],
+      "playlist_track_ids": [
+        "12449350419"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "The Four Horsemen",
+      "file_id": "6a095192410744c6b558fd249b9818b0",
+      "source_url": "https://rhythmverse.co/songfile/6a095192410744c6b558fd249b9818b0",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/6a095192410744c6b558fd249b9818b0/Metallica%20-%20The%20Four%20Horsemen.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - The Four Horsemen [6a095192]",
+      "charter": "Puppetz",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2960,
+          "kick_note_on_count": 1071,
+          "tom_marker_count": 59,
+          "last_expert_onset_seconds": 432.6,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6a095192410744c6b558fd249b9818b0",
+        "artist": "Metallica",
+        "title": "The Four Horsemen",
+        "album": "Kill 'Em All",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/6a095192410744c6b558fd249b9818b0",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/6a095192410744c6b558fd249b9818b0/Metallica - The Four Horsemen.zip",
+        "duration_seconds": 435.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - The Four Horsemen/album.png",
+          "name": "album.png",
+          "sha256": "c5444eb16ded35e16f55fc8c9e44c11a35d4f4e929e7ff06d958abe336729cf1"
+        },
+        {
+          "archive_name": "Metallica - The Four Horsemen/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d6f98366296e536a401d0ca9ca6e9c847767b89e3b8b59dbd093bbc0fd5699fc"
+        },
+        {
+          "archive_name": "Metallica - The Four Horsemen/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b22cae563118776a95323bb4a99dec9770e5fbb79c0dc21af6bd8384c7c9a67d"
+        },
+        {
+          "archive_name": "Metallica - The Four Horsemen/song.ini",
+          "name": "song.ini",
+          "sha256": "9ab959ac5612a9726f17056b29a59ea6ed86282c0ef2991c0a606068b18e46ab"
+        }
+      ],
+      "archive_sha256": "ac3307e1bd6568bcb3e6f917fc5dc6a6bc838aad05fed8354bec8c538236d0cf",
+      "archive_bytes": 8492737,
+      "prepared_bytes": 8436718,
+      "qobuz_track_ids": [
+        "95787421"
+      ],
+      "playlist_track_ids": [
+        "12449350422"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "The Frayed Ends Of Sanity",
+      "file_id": "d99b508ce8184271afd5b7a89160bd5a",
+      "source_url": "https://rhythmverse.co/songfile/d99b508ce8184271afd5b7a89160bd5a",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/d99b508ce8184271afd5b7a89160bd5a/Metallica%20-%20The%20Frayed%20Ends%20of%20Sanity.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - The Frayed Ends Of Sanity [d99b508c]",
+      "charter": "Nickmein",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3299,
+          "kick_note_on_count": 947,
+          "tom_marker_count": 229,
+          "last_expert_onset_seconds": 462.943,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d99b508ce8184271afd5b7a89160bd5a",
+        "artist": "Metallica",
+        "title": "The Frayed Ends Of Sanity",
+        "album": "...And Justice For All",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/d99b508ce8184271afd5b7a89160bd5a",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/d99b508ce8184271afd5b7a89160bd5a/Metallica - The Frayed Ends of Sanity.zip",
+        "duration_seconds": 467.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - The Frayed Ends of Sanity/album.png",
+          "name": "album.png",
+          "sha256": "7e69bea42834471e970d692a35ae1af4f8b7e31717e0a6d97f9cba5dc07a995f"
+        },
+        {
+          "archive_name": "Metallica - The Frayed Ends of Sanity/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "3c561c294ef6e588db9a417c46b16f627ccaee53801e77dc5870acef39da03ee"
+        },
+        {
+          "archive_name": "Metallica - The Frayed Ends of Sanity/notes.mid",
+          "name": "notes.mid",
+          "sha256": "74aa62a3ea0dbff6f780d4e7ea577ab47a06f02f216cee36e28f9094cd39c70b"
+        },
+        {
+          "archive_name": "Metallica - The Frayed Ends of Sanity/song.ini",
+          "name": "song.ini",
+          "sha256": "ee5704e206803532453a8fc983f122a8e9700b71a99708f846cb90cdcb4b6588"
+        }
+      ],
+      "archive_sha256": "9f95e92ea33d815d84d569fcaa40cfb7abb092f4f0ded6321dd32348438ba645",
+      "archive_bytes": 15507502,
+      "prepared_bytes": 15380399,
+      "qobuz_track_ids": [
+        "95785757"
+      ],
+      "playlist_track_ids": [
+        "12449350426"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "The Memory Remains",
+      "file_id": "0929a5a44a2f44bf9d7fba4412aefce7",
+      "source_url": "https://rhythmverse.co/songfile/0929a5a44a2f44bf9d7fba4412aefce7",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/0929a5a44a2f44bf9d7fba4412aefce7/Metallica%20-%20The%20Memory%20Remains.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - The Memory Remains [0929a5a4]",
+      "charter": "Neversoft",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1149,
+          "kick_note_on_count": 340,
+          "tom_marker_count": 63,
+          "last_expert_onset_seconds": 239.649,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 9,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "0929a5a44a2f44bf9d7fba4412aefce7",
+        "artist": "Metallica",
+        "title": "The Memory Remains",
+        "album": "ReLoad",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/0929a5a44a2f44bf9d7fba4412aefce7",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/0929a5a44a2f44bf9d7fba4412aefce7/Metallica - The Memory Remains.zip",
+        "duration_seconds": 282.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - The Memory Remains/album.png",
+          "name": "album.png",
+          "sha256": "11247600e6e29860c665b7172f24fe0ada69bb11674318440d9c3d5ad2daed1b"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "1369d5d3e075c2b0c1ce209c69fa0644d366b0fc81131cea5a3f8e9eecdc0fce"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "6c4255b4635546817ad27690eff0c1a8031a8f5d6c8d4fb6c69318f028f30be9"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "3f65a7bd7f8e0b0df105652dbd5a243a3f60589c211ca3174bec5b53d5e77478"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "e68ed54a917d648d548cac9e24841594cf28f807ca4d8e2fe1dc507928ff40d6"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "abe8fe08f784236e850215a3289c5fa058f0f5882c1060b4447a3a954d4128b1"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/drums_4.ogg",
+          "name": "drums_4.ogg",
+          "sha256": "403276a983fed790b7500b8ca217da24012046f795735a34fbbd5d6d30ff2dcf"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f72bf73c555a75397afdf60b76a4602ef2b02830309b084cc59e91f1a0b989da"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/notes.mid",
+          "name": "notes.mid",
+          "sha256": "72c510ef00b547f8012b91d26c62b5f44226d35e9ba2c9f817dbdff119e29660"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/song.ini",
+          "name": "song.ini",
+          "sha256": "5a5315c13d5f6083b23eb6ca6bc5f48764ec51952613f899e24d21f9000e3ebb"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ec2324bb5278458bc7226976c227b448d37c869e59c573a9b3c0bc5569751904"
+        },
+        {
+          "archive_name": "Metallica - The Memory Remains/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "583898bd7abf08a35b3f32d45aabe13306ff0f3bef1574c9be0d8cc7b7e651fc"
+        }
+      ],
+      "archive_sha256": "d090cf9eff2cdb3abd9919ab1c9d5ba4a42e3c99e72bd59594958b1343b340f0",
+      "archive_bytes": 35945500,
+      "prepared_bytes": 36411707,
+      "qobuz_track_ids": [
+        "95785440"
+      ],
+      "playlist_track_ids": [
+        "12449350420"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Whiplash",
+      "file_id": "2a485fb551ff465ca78a236e9602427b",
+      "source_url": "https://rhythmverse.co/songfile/2a485fb551ff465ca78a236e9602427b",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/2a485fb551ff465ca78a236e9602427b/Metallica%20-%20Whiplash.zip",
+      "archive_format": "zip",
+      "folder": "Metallica - Whiplash [2a485fb5]",
+      "charter": "Neversoft",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2444,
+          "kick_note_on_count": 623,
+          "tom_marker_count": 320,
+          "last_expert_onset_seconds": 251.663,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 9,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "2a485fb551ff465ca78a236e9602427b",
+        "artist": "Metallica",
+        "title": "Whiplash",
+        "album": "Kill 'Em All",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/2a485fb551ff465ca78a236e9602427b",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/2a485fb551ff465ca78a236e9602427b/Metallica - Whiplash.zip",
+        "duration_seconds": 254.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Whiplash/album.png",
+          "name": "album.png",
+          "sha256": "c5444eb16ded35e16f55fc8c9e44c11a35d4f4e929e7ff06d958abe336729cf1"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "334d4109187dc6a8593a6ca18e3aee82ae7a62d969fa1c63ba0b3e2536662ce2"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "37a66bce3ca5718471edb25cc1d92af2fa6571e80cf74999879cd97041d12880"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "02e9b7fe0c2b79a94e3f977139fc60a8afeaa9801642140133e63c429c5c5bf5"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "215ddc0c45b65e23cd75ad4cc8781cd8ae36027eb6241ddf8f0b3a7b04e622ef"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/drums_4.ogg",
+          "name": "drums_4.ogg",
+          "sha256": "6b587649b4c04d011ccc9639d441c528c1cb46d4a55d043e3d2a8f56d871ee20"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "006aa2dd629901a714d84eda91addcec453c11fccd8393566efc9290c0c36e87"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f82d1e8893ab4efabe3672923147dc90eb167bb1613205b3ece85343f9dbaa5b"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "ca4dd47403ad13e518be0ad4236592a125836931285690eee3ced2ba247234ae"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/song.ini",
+          "name": "song.ini",
+          "sha256": "eb85c7866b329f28e8ec35f25887602c29f3c74310b70cf981f874f4a0177944"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ea6da8523457edd86b874991a7831861e6d1d3047a475d384379749936d760b4"
+        },
+        {
+          "archive_name": "Metallica - Whiplash/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "6d514c615900ca8719a4ceb882a9d403ccb69fe53ce7d2c9cccf46f0176c06a6"
+        }
+      ],
+      "archive_sha256": "3029877245ed0b8c8b81b6fd20034b93dcef0be0b8e53754ee9b60e3b4a60be7",
+      "archive_bytes": 30810634,
+      "prepared_bytes": 31206886,
+      "qobuz_track_ids": [
+        "95787425"
+      ],
+      "playlist_track_ids": [
+        "12449350450"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Something In The Way",
+      "file_id": "8e01a13f8b7049029828b1b96acb9d32",
+      "source_url": "https://rhythmverse.co/songfile/8e01a13f8b7049029828b1b96acb9d32",
+      "download_url": "https://rhythmverse.co/download_file/meepminer/8e01a13f8b7049029828b1b96acb9d32/Nirvana%20-%20Something%20In%20The%20Way.zip",
+      "archive_format": "zip",
+      "folder": "Nirvana - Something In The Way [8e01a13f]",
+      "charter": "highfine & Meepminer",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 354,
+          "kick_note_on_count": 72,
+          "cymbal_marker_count": 210,
+          "last_expert_onset_seconds": 225.162,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "8e01a13f8b7049029828b1b96acb9d32",
+        "artist": "Nirvana",
+        "title": "Something In The Way",
+        "album": "Nevermind",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/8e01a13f8b7049029828b1b96acb9d32",
+        "download_url": "https://rhythmverse.co/download_file/meepminer/8e01a13f8b7049029828b1b96acb9d32/Nirvana - Something In The Way.zip",
+        "duration_seconds": 236.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Meepminer",
+        "notes": "For DRUMMERS: Tweaked highfine's drum chart in attempt to better match the music.",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Something In The Way/album.jpg",
+          "name": "album.jpg",
+          "sha256": "9c330e0a5f1c072ddc83f09650dd8b46a4ca7c965d60b65d0a42576a1d04dbff"
+        },
+        {
+          "archive_name": "Nirvana - Something In The Way/background.jpg",
+          "name": "background.jpg",
+          "sha256": "36418d728c30bc85200fe49b0723356bca1b0c07a35532af5453444897458c05"
+        },
+        {
+          "archive_name": "Nirvana - Something In The Way/notes.chart",
+          "name": "notes.chart",
+          "sha256": "80d12add9c66962c855402fba3f5ea0762e3e735aa40b69306ed5dd700da0642"
+        },
+        {
+          "archive_name": "Nirvana - Something In The Way/song.ini",
+          "name": "song.ini",
+          "sha256": "1d41ac18bdd290c07320cf8e2c26e321b212b328b236190da2ee8293adc18732"
+        },
+        {
+          "archive_name": "Nirvana - Something In The Way/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b5fd4870f82a0c46c333c1660f085fa0c283487031bbf4f438758e2a29d7e1a3"
+        }
+      ],
+      "archive_sha256": "f49b0755e17fdce140c1cd525b1014ed7033ac5861efcfbe6f67e1b216bb394a",
+      "archive_bytes": 6398466,
+      "prepared_bytes": 6486086,
+      "qobuz_track_ids": [
+        "14158560"
+      ],
+      "playlist_track_ids": [
+        "12449354353"
+      ]
+    },
+    {
+      "artist": "Slayer",
+      "title": "Angel of Death",
+      "file_id": "d165841b50cf469d8da452061145b641",
+      "source_url": "https://rhythmverse.co/songfile/d165841b50cf469d8da452061145b641",
+      "download_url": "https://rhythmverse.co/download_file/fernando-ahumada/d165841b50cf469d8da452061145b641/Angel%20of%20Death.zip",
+      "archive_format": "zip",
+      "folder": "Slayer - Angel of Death [d165841b]",
+      "charter": "Fernandinsky",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3473,
+          "kick_note_on_count": 966,
+          "cymbal_marker_count": 1645,
+          "last_expert_onset_seconds": 290.985,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d165841b50cf469d8da452061145b641",
+        "artist": "Slayer",
+        "title": "Angel of Death",
+        "album": "Reign In Blood",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/d165841b50cf469d8da452061145b641",
+        "download_url": "https://rhythmverse.co/download_file/fernando-ahumada/d165841b50cf469d8da452061145b641/Angel of Death.zip",
+        "duration_seconds": 294.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "F3RN4ND1NSK7",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Angel of Death/album.jpg",
+          "name": "album.jpg",
+          "sha256": "95b5190506d54e673f5a6f6deeba7d2bf9df6736052d8ab9195eccd9531a866f"
+        },
+        {
+          "archive_name": "Angel of Death/notes.chart",
+          "name": "notes.chart",
+          "sha256": "f5171dd319c13b642df7094eb28a58b970ebdb60105780869aa0a27379ad2576"
+        },
+        {
+          "archive_name": "Angel of Death/song.ini",
+          "name": "song.ini",
+          "sha256": "2ec9b6285be05fb4f584623d3dc545371075994a7aa5451e99547fe94c1924a9"
+        },
+        {
+          "archive_name": "Angel of Death/song.opus",
+          "name": "song.opus",
+          "sha256": "6a8cb8c454766ccf9802eab96aab9df301b56cf13785832e423236dd4f63ae5b"
+        }
+      ],
+      "archive_sha256": "b8f37d530becc323d954c3e162cce32d0e6c8a6eca6e44ac1ba460c39d93c8e3",
+      "archive_bytes": 2894152,
+      "prepared_bytes": 3059105,
+      "qobuz_track_ids": [
+        "258121608"
+      ],
+      "playlist_track_ids": [
+        "12450470375"
+      ]
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Duality",
+      "file_id": "8fcc861ff8ff4bbda1c044c8d6446c22",
+      "source_url": "https://rhythmverse.co/songfile/8fcc861ff8ff4bbda1c044c8d6446c22",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/8fcc861ff8ff4bbda1c044c8d6446c22/Slipknot%20-%20Duality.zip",
+      "archive_format": "zip",
+      "folder": "Slipknot - Duality [8fcc861f]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2053,
+          "kick_note_on_count": 786,
+          "tom_marker_count": 212,
+          "last_expert_onset_seconds": 253.879,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "8fcc861ff8ff4bbda1c044c8d6446c22",
+        "artist": "Slipknot",
+        "title": "Duality",
+        "album": "Vol. 3: (The Subliminal Verses)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/8fcc861ff8ff4bbda1c044c8d6446c22",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/8fcc861ff8ff4bbda1c044c8d6446c22/Slipknot - Duality.zip",
+        "duration_seconds": 256.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slipknot - Duality/album.png",
+          "name": "album.png",
+          "sha256": "564007da8c73b346a48b58c610b41ea7e2c61bf7dd625a11bec877caf6c9b27c"
+        },
+        {
+          "archive_name": "Slipknot - Duality/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "f62065b0667b3d4caf2bc03d1154cf47927afeab84935b6e4bf9e4d2ce8296ff"
+        },
+        {
+          "archive_name": "Slipknot - Duality/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "4f132444cf1e169515ac44be4f99c7af4595c9f2ef4a519540d5b79be95eb0fc"
+        },
+        {
+          "archive_name": "Slipknot - Duality/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "339d0a19572c3e570e724e907a8c9c86b68d52e6815d5c025a23bb36878d3eea"
+        },
+        {
+          "archive_name": "Slipknot - Duality/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "9bd13e9848f809aa0c34ae496db21ea4280a72da62f5738840370c55e6d45a96"
+        },
+        {
+          "archive_name": "Slipknot - Duality/notes.mid",
+          "name": "notes.mid",
+          "sha256": "10598801d2b390224a61fa5b805b0d80fe39868ba5487bda9a3158007bd7e8cf"
+        },
+        {
+          "archive_name": "Slipknot - Duality/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "c006d18516ff54d63cba75487c8785ffca9df6d051670c4e0e17a13edc39499d"
+        },
+        {
+          "archive_name": "Slipknot - Duality/song.ini",
+          "name": "song.ini",
+          "sha256": "a043df462da5e7217cd09736363d92309219d769ea84fc8fae7e76698b699f7e"
+        },
+        {
+          "archive_name": "Slipknot - Duality/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d5b473ad6f99acf528e6c3ccc477b218c6bad3f81c9d2a123331a2ea21ad7fa0"
+        }
+      ],
+      "archive_sha256": "ad2baba76af9c9a73a3eb5f203cba368f78f39f802deffd2262d451310a515de",
+      "archive_bytes": 24427593,
+      "prepared_bytes": 24360982,
+      "qobuz_track_ids": [
+        "2808452",
+        "2807762"
+      ],
+      "playlist_track_ids": [
+        "12221847118",
+        "12449333058"
+      ]
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Wait and Bleed",
+      "file_id": "0e34aaa090db4b7aa1704f2457071386",
+      "source_url": "https://rhythmverse.co/songfile/0e34aaa090db4b7aa1704f2457071386",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/0e34aaa090db4b7aa1704f2457071386/Slipknot%20-%20Wait%20and%20Bleed%20(mjey).zip",
+      "archive_format": "zip",
+      "folder": "Slipknot - Wait and Bleed [0e34aaa0]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1415,
+          "kick_note_on_count": 490,
+          "tom_marker_count": 110,
+          "last_expert_onset_seconds": 150.933,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "0e34aaa090db4b7aa1704f2457071386",
+        "artist": "Slipknot",
+        "title": "Wait and Bleed",
+        "album": "Slipknot",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/0e34aaa090db4b7aa1704f2457071386",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/0e34aaa090db4b7aa1704f2457071386/Slipknot - Wait and Bleed (mjey).zip",
+        "duration_seconds": 154.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Slipknot - Wait and Bleed (mjey)/album.png",
+          "name": "album.png",
+          "sha256": "10823382c2e1e04e97944ff9a0220c60587cf028bccefb8c0337680d21026666"
+        },
+        {
+          "archive_name": "Slipknot - Wait and Bleed (mjey)/background.png",
+          "name": "background.png",
+          "sha256": "3edc37335bca3e739fcfb4d3abfe6335fb7d2b680b2d1c38d87d1b43b9772820"
+        },
+        {
+          "archive_name": "Slipknot - Wait and Bleed (mjey)/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "4f75987215bf0b0ae521f1c0337dfc42571ddf28ff6c8897c53508d2f8c2ac8b"
+        },
+        {
+          "archive_name": "Slipknot - Wait and Bleed (mjey)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "4761d215a1a1483a9725df4d9e3c08fd59736e1f06989bef6ecdf69c1c62a531"
+        },
+        {
+          "archive_name": "Slipknot - Wait and Bleed (mjey)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "fbaaf59a46bb95c9ca11aeb69d94428f7d6cc77316416b1d425750bf5cbbb602"
+        },
+        {
+          "archive_name": "Slipknot - Wait and Bleed (mjey)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2fd990319b54d55b0671395975973f3e01eded6721cc11167ae16cc446db36e7"
+        },
+        {
+          "archive_name": "Slipknot - Wait and Bleed (mjey)/song.ini",
+          "name": "song.ini",
+          "sha256": "43dc87ca04e429c6e509fb9b8a214d8ceb22fcc9a451873b9bc4c2ebf624f21b"
+        },
+        {
+          "archive_name": "Slipknot - Wait and Bleed (mjey)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "186d746ba37fc4ce107918cb45c01344f30e45c16143d1dccb703c07d5e986d5"
+        }
+      ],
+      "archive_sha256": "7ce358153fe11c7d0be4e3037bacdcc223f6f2ac440d229398c5087113f01fc6",
+      "archive_bytes": 16514189,
+      "prepared_bytes": 16705886,
+      "qobuz_track_ids": [
+        "347548904",
+        "347548918",
+        "347548930"
+      ],
+      "playlist_track_ids": [
+        "12448263272",
+        "12448263286",
+        "12448263298"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1955 @@
+{
+  "schema_version": 1,
+  "batch_number": 8,
+  "collection_folder": "MixDrumRock - Lote 08",
+  "archive_name": "MixDrumRock-lote-08.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "songs": [
+    {
+      "artist": "Angra",
+      "title": "Carolina IV",
+      "file_id": "5f520f0378be4d45a7511d5e0e67fa4d",
+      "source_url": "https://rhythmverse.co/songfile/5f520f0378be4d45a7511d5e0e67fa4d",
+      "download_url": "https://rhythmverse.co/download_file/mr-sub/5f520f0378be4d45a7511d5e0e67fa4d/Angra%20-%20Carolina%20IV_rb3con",
+      "archive_format": "onyx",
+      "folder": "Angra - Carolina IV [5f520f03]",
+      "charter": "mutantx20",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 6276,
+          "kick_note_on_count": 2908,
+          "tom_marker_count": 270,
+          "last_expert_onset_seconds": 634.545,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5f520f0378be4d45a7511d5e0e67fa4d",
+        "artist": "Angra",
+        "title": "Carolina IV",
+        "album": "Holy Land",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5f520f0378be4d45a7511d5e0e67fa4d",
+        "download_url": "https://rhythmverse.co/download_file/mr-sub/5f520f0378be4d45a7511d5e0e67fa4d/Angra - Carolina IV_rb3con",
+        "duration_seconds": 638.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mr sub",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Angra - Carolina IV/album.png",
+          "name": "album.png",
+          "sha256": "02e3c52668258eeaf2d30abc2ffae77990fa33c10749bcaebdffbe5b803deffc"
+        },
+        {
+          "archive_name": "Angra - Carolina IV/notes.mid",
+          "name": "notes.mid",
+          "sha256": "013a5cf5e6e09fa453a9e401ddb4793df23f1ec155f6fb6fc809cba48477fd4f"
+        },
+        {
+          "archive_name": "Angra - Carolina IV/song.ini",
+          "name": "song.ini",
+          "sha256": "3d189dcc019dda8e0573a54f0370fa8a82c7240f8e26150b05737fce54846af8"
+        },
+        {
+          "archive_name": "Angra - Carolina IV/song.ogg",
+          "name": "song.ogg",
+          "sha256": "211e713deb54659d40e8ac5d56e42aad623b3f29f7479360f0d61dff495b34a7"
+        }
+      ],
+      "archive_sha256": "80fc7ed3a74324e010526177ad2a1d43a624fbafc692600d97d868bbb71b5cbb",
+      "archive_bytes": 14409728,
+      "prepared_bytes": 12560675,
+      "qobuz_track_ids": [
+        "218963152"
+      ],
+      "playlist_track_ids": [
+        "12451170126"
+      ]
+    },
+    {
+      "artist": "Angra",
+      "title": "Spread Your Fire",
+      "file_id": "61f57343073b28.16607526",
+      "source_url": "https://rhythmverse.co/songfile/61f57343073b28.16607526",
+      "download_url": "https://rhythmverse.co/download_file/raphaelgoulart/61f57343073b28.16607526/angra_spreadyourfire1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Angra - Spread Your Fire [61f57343]",
+      "charter": "raphaelgoulart, Xane60",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3063,
+          "kick_note_on_count": 1280,
+          "tom_marker_count": 92,
+          "last_expert_onset_seconds": 269.363,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "61f57343073b28.16607526",
+        "artist": "Angra",
+        "title": "Spread Your Fire",
+        "album": "Temple Of Shadows",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/61f57343073b28.16607526",
+        "download_url": "https://rhythmverse.co/download_file/raphaelgoulart/61f57343073b28.16607526/angra_spreadyourfire1x_rb3con",
+        "duration_seconds": 273.0,
+        "duration_difference_seconds": 8.0,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "Raphael Goulart",
+        "notes": "",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Angra - Spread Your Fire/album.png",
+          "name": "album.png",
+          "sha256": "9b6dd2e99f298630c9671d5732c664738c2619e654ad12bcad28b369ae5b580c"
+        },
+        {
+          "archive_name": "Angra - Spread Your Fire/notes.mid",
+          "name": "notes.mid",
+          "sha256": "75358480c1e25970602e9605e9d3b002a0da5361034381463327ac941242d770"
+        },
+        {
+          "archive_name": "Angra - Spread Your Fire/song.ini",
+          "name": "song.ini",
+          "sha256": "2a41cd857e26de754017e9fe9262dc3e0ee7699d2df19f956a6645690c3bc08a"
+        },
+        {
+          "archive_name": "Angra - Spread Your Fire/song.ogg",
+          "name": "song.ogg",
+          "sha256": "fc477c9c8d3cb5f69fed63caba52803b61ef2bd6efed7e7b86c1ee2a5026b853"
+        }
+      ],
+      "archive_sha256": "a7f69439e88acb4e7cfdeb204c5b3f7a56c043a3c871759e90c2bf850152e847",
+      "archive_bytes": 5632000,
+      "prepared_bytes": 6125368,
+      "qobuz_track_ids": [
+        "224957583"
+      ],
+      "playlist_track_ids": [
+        "12451170108"
+      ]
+    },
+    {
+      "artist": "Angra",
+      "title": "Waiting Silence",
+      "file_id": "5929608f39cb10.99587685",
+      "source_url": "https://rhythmverse.co/songfile/5929608f39cb10.99587685",
+      "download_url": "https://rhythmverse.co/download_file/freewaymad/5929608f39cb10.99587685/FWM_WaitingShadowsv31x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Angra - Waiting Silence [5929608f]",
+      "charter": "Freewaymad",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2372,
+          "kick_note_on_count": 972,
+          "tom_marker_count": 172,
+          "last_expert_onset_seconds": 294.07,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5929608f39cb10.99587685",
+        "artist": "Angra",
+        "title": "Waiting Silence",
+        "album": "Temple Of Shadows",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5929608f39cb10.99587685",
+        "download_url": "https://rhythmverse.co/download_file/freewaymad/5929608f39cb10.99587685/FWM_WaitingShadowsv31x_rb3con",
+        "duration_seconds": 301.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Freewaymad",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Angra - Waiting Silence/album.png",
+          "name": "album.png",
+          "sha256": "d896fe86a684e4ea9e246d6b523265cda3fe4b1f3f63454d5b3a5e79d8ff52ae"
+        },
+        {
+          "archive_name": "Angra - Waiting Silence/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1cdfde4cb5332067c7f5785235791531566317ef4ac9ec5a78c4c8446ccfb6ff"
+        },
+        {
+          "archive_name": "Angra - Waiting Silence/song.ini",
+          "name": "song.ini",
+          "sha256": "00db52d8a94bd63dc90eadd423033866967da63a14986c893de70c161c902972"
+        },
+        {
+          "archive_name": "Angra - Waiting Silence/song.ogg",
+          "name": "song.ogg",
+          "sha256": "dbc8d050f2d94c1a5cfc302d97e9208828e556db0aeb9a55c786add47d4d9d3d"
+        }
+      ],
+      "archive_sha256": "34264004709a0ba96fdbe9cd45ba1eaa35ac9e5b70f4762016fbdf913f6b5499",
+      "archive_bytes": 7172096,
+      "prepared_bytes": 7000619,
+      "qobuz_track_ids": [
+        "224957585"
+      ],
+      "playlist_track_ids": [
+        "12451170113"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Brompton Cocktail",
+      "file_id": "59295b3783ee59.64257864",
+      "source_url": "https://rhythmverse.co/songfile/59295b3783ee59.64257864",
+      "download_url": "https://rhythmverse.co/download_file/beard216/59295b3783ee59.64257864/BromptonCocktail_rb3con",
+      "archive_format": "onyx",
+      "folder": "Avenged Sevenfold - Brompton Cocktail [59295b37]",
+      "charter": "xlxAvaricexlx",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1502,
+          "kick_note_on_count": 585,
+          "tom_marker_count": 29,
+          "last_expert_onset_seconds": 254.363,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59295b3783ee59.64257864",
+        "artist": "Avenged Sevenfold",
+        "title": "Brompton Cocktail",
+        "album": "Avenged Sevenfold",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59295b3783ee59.64257864",
+        "download_url": "https://rhythmverse.co/download_file/beard216/59295b3783ee59.64257864/BromptonCocktail_rb3con",
+        "duration_seconds": 254.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "beard216",
+        "notes": "<p>Instruments:&#160;xlxAvaricexlx<br />\nReductions: beard216</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Brompton Cocktail/album.png",
+          "name": "album.png",
+          "sha256": "67c7da774cce955a586f155fde5a2559e018355d550ae812c3eb55cf8a2fbcb2"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Brompton Cocktail/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "cb2270bd08f194f12e8ceca2013f90a20aa5644d665bc62634105c38279252e7"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Brompton Cocktail/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "cb2270bd08f194f12e8ceca2013f90a20aa5644d665bc62634105c38279252e7"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Brompton Cocktail/notes.mid",
+          "name": "notes.mid",
+          "sha256": "75d1f59fd0270342170a12c231e023b8f522bee07805cb79f3298ce4a00e98b2"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Brompton Cocktail/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "cb2270bd08f194f12e8ceca2013f90a20aa5644d665bc62634105c38279252e7"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Brompton Cocktail/song.ini",
+          "name": "song.ini",
+          "sha256": "6a5318f3bed83228c2d85a2016efc2f6c9f8460ac93c472d0e047a154a1f12f1"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Brompton Cocktail/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ffc8e27c1ca3cd63128e5e7060077645528c5d9671d36203287a9769bb5897c1"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Brompton Cocktail/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "cb2270bd08f194f12e8ceca2013f90a20aa5644d665bc62634105c38279252e7"
+        }
+      ],
+      "archive_sha256": "27551675dbbbbbee1b779009805fa035757b721a0c10f9d4558af4eaaa9e0bb6",
+      "archive_bytes": 6049792,
+      "prepared_bytes": 5239663,
+      "qobuz_track_ids": [
+        "4689335"
+      ],
+      "playlist_track_ids": [
+        "12449394406"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Dear God",
+      "file_id": "5f79124329f8d2.73760783",
+      "source_url": "https://rhythmverse.co/songfile/5f79124329f8d2.73760783",
+      "download_url": "https://www.mediafire.com/file/vook13dl37lr1oa/A7x_Dear_God_rb3con",
+      "archive_format": "onyx",
+      "folder": "Avenged Sevenfold - Dear God [5f791243]",
+      "charter": "nicholasp",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1981,
+          "kick_note_on_count": 622,
+          "tom_marker_count": 50,
+          "last_expert_onset_seconds": 376.714,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5f79124329f8d2.73760783",
+        "artist": "Avenged Sevenfold",
+        "title": "Dear God",
+        "album": "",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5f79124329f8d2.73760783",
+        "download_url": "http://www.mediafire.com/file/vook13dl37lr1oa/A7x_Dear_God_rb3con",
+        "duration_seconds": 399.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "nicholasp248",
+        "notes": "<p>[color=rgb(40,40,40)][font=helvetica]This is part of my \"sequel\" to my Nightmare project where I now took on the self-titled album. This time most of the songs have been done, but you can find my versions of Gunslinger, Unbound and Dear God, as well as an updated version of A Little Piece of Heaven which was previously on this site.&#160;[/font][/color]</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Dear God/album.png",
+          "name": "album.png",
+          "sha256": "9a1e8ec64b8f365127c4aa711957c1c8bfeda3edd0efc0cf512f61112f847436"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Dear God/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f6542f87653902982c139472890382b8ac9a6274bdf76f244fd2c16646ef6f24"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Dear God/song.ini",
+          "name": "song.ini",
+          "sha256": "a816d53d59068c8fd344f229333a1ca213fdc3e0910931f3b99e7d595d6527e6"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Dear God/song.ogg",
+          "name": "song.ogg",
+          "sha256": "8b0de87d55886863ac7d76a790b75ab3b25f28a50c8ff9a3b00763fe2716ebbf"
+        }
+      ],
+      "archive_sha256": "05c50dc96d3d530184a654594d51451889515be98e70cba7dbb1787c0401bdd6",
+      "archive_bytes": 9322496,
+      "prepared_bytes": 7823595,
+      "qobuz_track_ids": [
+        "4689338"
+      ],
+      "playlist_track_ids": [
+        "12449394409"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Fiction",
+      "file_id": "5b947dba414bf6.68611169",
+      "source_url": "https://rhythmverse.co/songfile/5b947dba414bf6.68611169",
+      "download_url": "https://www.mediafire.com/file/3ta93hb6dzncvh9/A7x_Fiction_rb3con",
+      "archive_format": "onyx",
+      "folder": "Avenged Sevenfold - Fiction [5b947dba]",
+      "charter": "nicholasp",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1059,
+          "kick_note_on_count": 316,
+          "tom_marker_count": 88,
+          "last_expert_onset_seconds": 279.523,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947dba414bf6.68611169",
+        "artist": "Avenged Sevenfold",
+        "title": "Fiction",
+        "album": "",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b947dba414bf6.68611169",
+        "download_url": "https://www.mediafire.com/file/3ta93hb6dzncvh9/A7x_Fiction_rb3con",
+        "duration_seconds": 309.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "nicholasp248",
+        "notes": "<p>Originally uploaded by&#160;PIK.<br />\nAll I did was add pro keys.<br />\n&#160;<br />\nJune 20, 2017 - Fixed the download link<br />\nAugust 13, 2017 - Fixed the download link (again)</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Fiction/album.png",
+          "name": "album.png",
+          "sha256": "1c779d36c81528521be255a4dad954d71d870f4e4fa1f0886d4229e57550deff"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Fiction/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1b9445a5fd1cf62788de9fdc6aa785d1a45e6e246904ced5b73061bcbaf2bf05"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Fiction/song.ini",
+          "name": "song.ini",
+          "sha256": "3e9f951d6d760b75c2c3562bd786def73fd29dc9a5fada39ac4c04001daddabd"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Fiction/song.ogg",
+          "name": "song.ogg",
+          "sha256": "13cf2081e0b277613d5a75ff37f2f9328af9cc0c6d35ddf4f529237854f88b3e"
+        }
+      ],
+      "archive_sha256": "48e402ed9e788b5c04290bbebd9159e9ace4962e494f4f36b394f491b5d0dbc0",
+      "archive_bytes": 6930432,
+      "prepared_bytes": 4930094,
+      "qobuz_track_ids": [
+        "2270601"
+      ],
+      "playlist_track_ids": [
+        "12449393653"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Gunslinger",
+      "file_id": "5b947db93c3045.15469727",
+      "source_url": "https://rhythmverse.co/songfile/5b947db93c3045.15469727",
+      "download_url": "https://www.mediafire.com/file/g4mimsxvbetk5di/A7x_Gunslinger_rb3con",
+      "archive_format": "onyx",
+      "folder": "Avenged Sevenfold - Gunslinger [5b947db9]",
+      "charter": "Nicholasp",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 915,
+          "kick_note_on_count": 320,
+          "tom_marker_count": 42,
+          "last_expert_onset_seconds": 247.407,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947db93c3045.15469727",
+        "artist": "Avenged Sevenfold",
+        "title": "Gunslinger",
+        "album": "",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b947db93c3045.15469727",
+        "download_url": "http://www.mediafire.com/file/g4mimsxvbetk5di/A7x_Gunslinger_rb3con",
+        "duration_seconds": 255.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "nicholasp248",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Gunslinger/album.png",
+          "name": "album.png",
+          "sha256": "4f74f3550b548598a2be989a67d0a9b44fe7800ab82600a8f047d7c1b0480558"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Gunslinger/notes.mid",
+          "name": "notes.mid",
+          "sha256": "faa6ba374b1671ce8e530c6e8f86b515dbbfab97e05e74e6a95934ebc041aced"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Gunslinger/song.ini",
+          "name": "song.ini",
+          "sha256": "0e80ce68421dd12af9f5802b976f161684f069aed9e0ab5d6124f89f5e49c860"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Gunslinger/song.ogg",
+          "name": "song.ogg",
+          "sha256": "006cbe1045f5267630cd698e057cc16cc7aa1a317bab1b1598b8bbd6792c5379"
+        }
+      ],
+      "archive_sha256": "073ae5d2d2652d0ab8c885d90cb5b56d3d1b4c437f5f6a7b6e60ea251ddc9f0b",
+      "archive_bytes": 5828608,
+      "prepared_bytes": 4558933,
+      "qobuz_track_ids": [
+        "4689333"
+      ],
+      "playlist_track_ids": [
+        "12449394404"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Lost",
+      "file_id": "5bc7ab1a2c58e7.81110423",
+      "source_url": "https://rhythmverse.co/songfile/5bc7ab1a2c58e7.81110423",
+      "download_url": "https://rhythmverse.co/download_file/beard216/5bc7ab1a2c58e7.81110423/A7XLost1x",
+      "archive_format": "onyx",
+      "folder": "Avenged Sevenfold - Lost [5bc7ab1a]",
+      "charter": "Jusey1, beard216, SanicStudios",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2625,
+          "kick_note_on_count": 758,
+          "tom_marker_count": 19,
+          "last_expert_onset_seconds": 300.405,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5bc7ab1a2c58e7.81110423",
+        "artist": "Avenged Sevenfold",
+        "title": "Lost",
+        "album": "Avenged Sevenfold",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5bc7ab1a2c58e7.81110423",
+        "download_url": "https://rhythmverse.co/download_file/beard216/5bc7ab1a2c58e7.81110423/A7XLost1x",
+        "duration_seconds": 304.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "beard216",
+        "notes": "<p>Frets: Jusey1<br />\nHarmonies/Vocal Overhaul/Guitar Overhaul: Sanic Studios<br />\nReductions/OD/Drum Fills/Drum Animations/1x Bass Pedal/Audio: beard216</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Lost/album.png",
+          "name": "album.png",
+          "sha256": "bfbb0bb6f871a862e508919107b5023473fc5c43587459903e8167dd02b21a11"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Lost/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f654f0ebc915dd94352064fff46409487ac21f2cfdb6ad391f2ddbb6a62ab683"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Lost/song.ini",
+          "name": "song.ini",
+          "sha256": "9b04b70fa3b5c6d651fd1e321134bdf78d4c5774e5b4ab0aae553b2488fef5f2"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Lost/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3d02b26cf57359ca766f3943d03d657d5c05226c1b1737d08a59cf5a3219318a"
+        }
+      ],
+      "archive_sha256": "13f94cfcfcb54a96639aaf4663bff2feff0b81919c2d9dd89b866cfe9e092650",
+      "archive_bytes": 7823360,
+      "prepared_bytes": 5916800,
+      "qobuz_track_ids": [
+        "4689336"
+      ],
+      "playlist_track_ids": [
+        "12449394407"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Not Ready To Die",
+      "file_id": "59297cefa69a91.47595939",
+      "source_url": "https://rhythmverse.co/songfile/59297cefa69a91.47595939",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/59297cefa69a91.47595939/notreadytodie1x",
+      "archive_format": "onyx",
+      "folder": "Avenged Sevenfold - Not Ready To Die [59297cef]",
+      "charter": "furiouss",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2605,
+          "kick_note_on_count": 1097,
+          "tom_marker_count": 63,
+          "last_expert_onset_seconds": 421.217,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59297cefa69a91.47595939",
+        "artist": "Avenged Sevenfold",
+        "title": "Not Ready To Die",
+        "album": "Black Reign",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59297cefa69a91.47595939",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/59297cefa69a91.47595939/notreadytodie1x",
+        "duration_seconds": 427.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Not Ready To Die/album.png",
+          "name": "album.png",
+          "sha256": "265140a3d8add958531795242e5f2cce92a4c5d65933606c2645c0dbe1ddd0f4"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Not Ready To Die/notes.mid",
+          "name": "notes.mid",
+          "sha256": "07db9862a1761b5ff5e5ec6d74496cf55645c34852ef681d1e09c27df6f76484"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Not Ready To Die/song.ini",
+          "name": "song.ini",
+          "sha256": "547229b47fc44b07e049a7a27c2be59bf7b4c765354eda0ba38150dd89d56c19"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Not Ready To Die/song.ogg",
+          "name": "song.ogg",
+          "sha256": "70fe789933365d179b13ea8a4081658dc8dd39bb126df043445dfa4a17d4cc83"
+        }
+      ],
+      "archive_sha256": "5f84e25fe2091dfbab0583d9de0ec609034f1abfe04da1070f0644a3bb8e2878",
+      "archive_bytes": 7102464,
+      "prepared_bytes": 6418668,
+      "qobuz_track_ids": [
+        "3565618"
+      ],
+      "playlist_track_ids": [
+        "12221847099"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Victim",
+      "file_id": "5b947db8d1fd08.15838126",
+      "source_url": "https://rhythmverse.co/songfile/5b947db8d1fd08.15838126",
+      "download_url": "https://www.mediafire.com/file/2bnrm188ym18djm/A7x_Victim_rb3con",
+      "archive_format": "onyx",
+      "folder": "Avenged Sevenfold - Victim [5b947db8]",
+      "charter": "nicholasp",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1725,
+          "kick_note_on_count": 567,
+          "tom_marker_count": 136,
+          "last_expert_onset_seconds": 440.768,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947db8d1fd08.15838126",
+        "artist": "Avenged Sevenfold",
+        "title": "Victim",
+        "album": "",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b947db8d1fd08.15838126",
+        "download_url": "http://www.mediafire.com/file/2bnrm188ym18djm/A7x_Victim_rb3con",
+        "duration_seconds": 450.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "nicholasp248",
+        "notes": "<p>This is part of a&#160;larger project where I took on the whole Nightmare album. All other songs on this album can be found on this website with the exception of Nightmare, Welcome to the Family, and So Far Away because they were done by Harmonix, and Fiction which already has a complete custom.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Victim/album.png",
+          "name": "album.png",
+          "sha256": "1c779d36c81528521be255a4dad954d71d870f4e4fa1f0886d4229e57550deff"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Victim/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c8636fc338486b581726037f57ac826ae49374a506ba9ae49b7d40e534dd125e"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Victim/song.ini",
+          "name": "song.ini",
+          "sha256": "9c42306cfc39d0b9da69498d0e050928bbe1492f690329e02a43c598abd9c191"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Victim/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5d8909601daea29cad4c7b0e4bcbbff19fc5816ac2a29be031ab1ad7d0e59082"
+        }
+      ],
+      "archive_sha256": "9bf68759025640fbd8bce576c635499f57288497644ebbc1dc0163da8ffb072f",
+      "archive_bytes": 10235904,
+      "prepared_bytes": 7898557,
+      "qobuz_track_ids": [
+        "2270599"
+      ],
+      "playlist_track_ids": [
+        "12449393651"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Octavarium",
+      "file_id": "5b947da5c7b2d6.24291386",
+      "source_url": "https://rhythmverse.co/songfile/5b947da5c7b2d6.24291386",
+      "download_url": "https://www.mediafire.com/file/4c8go18gtfvbdl2/Dream%20Theater%20-%20Octavarium",
+      "archive_format": "onyx",
+      "folder": "Dream Theater - Octavarium [5b947da5]",
+      "charter": "mazegeek999",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 7235,
+          "kick_note_on_count": 1968,
+          "tom_marker_count": 240,
+          "last_expert_onset_seconds": 1414.314,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947da5c7b2d6.24291386",
+        "artist": "Dream Theater",
+        "title": "Octavarium",
+        "album": "Octavarium",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b947da5c7b2d6.24291386",
+        "download_url": "https://www.mediafire.com/file/4c8go18gtfvbdl2/Dream%20Theater%20-%20Octavarium",
+        "duration_seconds": 1440.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Lowlander2",
+        "notes": "<p>Mazegeek is majorly responsible, I just did a bit of cleaning and uploaded the final file.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Octavarium/album.png",
+          "name": "album.png",
+          "sha256": "81138a277bf7f108091e8da89a53f60f5f71971a6daaa2b83ca9e1180c8dbbc5"
+        },
+        {
+          "archive_name": "Dream Theater - Octavarium/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "8276553a1d77ee4fe75ad232dfb6c35d246e79df297249cc45aa6ff1b0f883c9"
+        },
+        {
+          "archive_name": "Dream Theater - Octavarium/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "cd096251a00315e913edbd82e5dd0dfc025905679ed8e1bf5e549b3523fb9174"
+        },
+        {
+          "archive_name": "Dream Theater - Octavarium/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "46af967dcd70fff7ece5a6166ffaf59ea2e4490acb193bad70a73a4e063e2ec0"
+        },
+        {
+          "archive_name": "Dream Theater - Octavarium/notes.mid",
+          "name": "notes.mid",
+          "sha256": "260017f9035be73c913b1f81b4cfa9bb059e2ab32bcd346d80b116a4f9f24401"
+        },
+        {
+          "archive_name": "Dream Theater - Octavarium/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "f15a9f2825e87ec22cb77c2c973aca8be10ee67bc10dc696d259cea65eea97d9"
+        },
+        {
+          "archive_name": "Dream Theater - Octavarium/song.ini",
+          "name": "song.ini",
+          "sha256": "3a17df74e88e90bc6d553ea957b2198c961cdd0fdf6852f821fef787d7bbbcee"
+        },
+        {
+          "archive_name": "Dream Theater - Octavarium/song.ogg",
+          "name": "song.ogg",
+          "sha256": "e1e2d2cdde8619fbcc8aca3b8c24107bb694047a939062a02eaaf727049a6b60"
+        },
+        {
+          "archive_name": "Dream Theater - Octavarium/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "69210911ec61bbfaeb59f7fe2371b5ffc541fb63254c574c81474f736716ca7f"
+        }
+      ],
+      "archive_sha256": "4386ecd722b814ace3efd078655180b92637bb922178b45c8cc5b9646fa260fd",
+      "archive_bytes": 155082752,
+      "prepared_bytes": 131445080,
+      "qobuz_track_ids": [
+        "4755147"
+      ],
+      "playlist_track_ids": [
+        "12449398595"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Take the Time",
+      "file_id": "5334d0e64e5d5",
+      "source_url": "https://rhythmverse.co/songfile/5334d0e64e5d5",
+      "download_url": "https://rhythmverse.co/download_file/farottone/5334d0e64e5d5/far_takethetimev7_rb3con",
+      "archive_format": "onyx",
+      "folder": "Dream Theater - Take the Time [5334d0e6]",
+      "charter": "farottone",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3418,
+          "kick_note_on_count": 1237,
+          "tom_marker_count": 260,
+          "last_expert_onset_seconds": 496.589,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5334d0e64e5d5",
+        "artist": "Dream Theater",
+        "title": "Take the Time",
+        "album": "Images & Words",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5334d0e64e5d5",
+        "download_url": "https://rhythmverse.co/download_file/farottone/5334d0e64e5d5/far_takethetimev7_rb3con",
+        "duration_seconds": 503.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Farottone",
+        "notes": "<p>This custom was auto-converted from the C3 database. Please let the author know if something is wrong. If you ARE the author, and this song is not correctly assigned to you, please contact pksage.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - Take the Time/album.png",
+          "name": "album.png",
+          "sha256": "9d5e51f7f1a37dc7c498759f402f89ee06e3d24cc69632e44a2ab59fa9fdd04c"
+        },
+        {
+          "archive_name": "Dream Theater - Take the Time/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "2d2ee961abd7624dfae41db9aa1fae9f302c7d55b0325e2243ec1457cf7a6601"
+        },
+        {
+          "archive_name": "Dream Theater - Take the Time/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "291a31758a57512d6d8f181a7c7ae293eb20b0a6de60bc50f6ad768209a07bbb"
+        },
+        {
+          "archive_name": "Dream Theater - Take the Time/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "57af7925da50768772a85e14424dca804c78f79ffb9f52208489df344753dc63"
+        },
+        {
+          "archive_name": "Dream Theater - Take the Time/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ef1f90209ea6e7524e90004db800260e633248817f53a92a7268509c614a86a3"
+        },
+        {
+          "archive_name": "Dream Theater - Take the Time/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "1cf8ce7935282c21520b4e6b138ba6ca621b89b27c96b0c76323ea45a5bc2169"
+        },
+        {
+          "archive_name": "Dream Theater - Take the Time/song.ini",
+          "name": "song.ini",
+          "sha256": "479529df1dacb4137980275f95dead145ed64b99c1441d3b2b48750e4d6f2f74"
+        },
+        {
+          "archive_name": "Dream Theater - Take the Time/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d6b9a9dd5062b2fed214702a65d8436e700d109a61c63e762446bfda569709f9"
+        },
+        {
+          "archive_name": "Dream Theater - Take the Time/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "7cfe3ac0dff482ca8cb657d4a8080d788dc002ad42a25846a5530ab0263b5fd4"
+        }
+      ],
+      "archive_sha256": "e4d8de8a7fd7c1f514d1b0bb4cf192b9a6185bbf9916969bc6f030c9170f832b",
+      "archive_bytes": 66564096,
+      "prepared_bytes": 52040241,
+      "qobuz_track_ids": [
+        "2927587"
+      ],
+      "playlist_track_ids": [
+        "12449398631"
+      ]
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "The Glass Prison",
+      "file_id": "592976c4ca74d6.79599103",
+      "source_url": "https://rhythmverse.co/songfile/592976c4ca74d6.79599103",
+      "download_url": "https://rhythmverse.co/download_file/mazegeek999/592976c4ca74d6.79599103/TheGlassPrison1xV3_rb3con",
+      "archive_format": "onyx",
+      "folder": "Dream Theater - The Glass Prison [592976c4]",
+      "charter": "mazegeek999",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 6230,
+          "kick_note_on_count": 2188,
+          "tom_marker_count": 427,
+          "last_expert_onset_seconds": 822.463,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "592976c4ca74d6.79599103",
+        "artist": "Dream Theater",
+        "title": "The Glass Prison",
+        "album": "Six Degrees of Inner Turbulence",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/592976c4ca74d6.79599103",
+        "download_url": "https://rhythmverse.co/download_file/mazegeek999/592976c4ca74d6.79599103/TheGlassPrison1xV3_rb3con",
+        "duration_seconds": 834.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mazegeek999",
+        "notes": "<p>Credit to Onyxite for charting vocals and reviewing the other instruments' charts in general.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Dream Theater - The Glass Prison/album.png",
+          "name": "album.png",
+          "sha256": "5504f618fd01fb4522c6b78ea0fb8e0e3cad33d85235e385da56f923740fddec"
+        },
+        {
+          "archive_name": "Dream Theater - The Glass Prison/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3c44d5c0dfc5f4f754a94b8c4ad29a3175f6189ed08072a85752a6928685c7a3"
+        },
+        {
+          "archive_name": "Dream Theater - The Glass Prison/song.ini",
+          "name": "song.ini",
+          "sha256": "1836ad5d71f68b41ca774fab32c7b943f146b569986a48fb4088d9bc3e0b33eb"
+        },
+        {
+          "archive_name": "Dream Theater - The Glass Prison/song.ogg",
+          "name": "song.ogg",
+          "sha256": "913b7280c74f85f31f985c851b60dc5e45a9dd171e778093a31a69e6f4f79b09"
+        }
+      ],
+      "archive_sha256": "56b12a3978b906b86f26b0ec1ca3d7ddea97c88b0290ad126d02303174ac1c17",
+      "archive_bytes": 17694720,
+      "prepared_bytes": 15104089,
+      "qobuz_track_ids": [
+        "2783509"
+      ],
+      "playlist_track_ids": [
+        "12449398606"
+      ]
+    },
+    {
+      "artist": "Exodus",
+      "title": "Good Day To Die",
+      "file_id": "594d7c8e512df7.80810511",
+      "source_url": "https://rhythmverse.co/songfile/594d7c8e512df7.80810511",
+      "download_url": "https://rhythmverse.co/download_file/freewaymad/594d7c8e512df7.80810511/FWM_GoodDayToDiev1_rb3con",
+      "archive_format": "onyx",
+      "folder": "Exodus - Good Day To Die [594d7c8e]",
+      "charter": "Freewaymad",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1671,
+          "kick_note_on_count": 481,
+          "tom_marker_count": 27,
+          "last_expert_onset_seconds": 287.607,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "594d7c8e512df7.80810511",
+        "artist": "Exodus",
+        "title": "Good Day To Die",
+        "album": "Force Of Habit",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/594d7c8e512df7.80810511",
+        "download_url": "https://rhythmverse.co/download_file/freewaymad/594d7c8e512df7.80810511/FWM_GoodDayToDiev1_rb3con",
+        "duration_seconds": 295.0,
+        "duration_difference_seconds": 8.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Freewaymad",
+        "notes": "<p>There are no 4-note chords on this song.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Exodus - Good Day To Die/album.png",
+          "name": "album.png",
+          "sha256": "0d856b00aaa8684ad7a3a273eebe5ff89c9987c40899801da3b47351caf23feb"
+        },
+        {
+          "archive_name": "Exodus - Good Day To Die/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3139c2f7c733af1a27140463755d8044c247a3b6e681b3004743d3775da2279b"
+        },
+        {
+          "archive_name": "Exodus - Good Day To Die/song.ini",
+          "name": "song.ini",
+          "sha256": "187cb13d2530b7b1850f937f3f5a55dda6f48b629bfc71a6fe11be5919909ef0"
+        },
+        {
+          "archive_name": "Exodus - Good Day To Die/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3038a286e8501dd601bc235ee0a637672db479d473f354e91d1f6b19f870c9b5"
+        }
+      ],
+      "archive_sha256": "60342b6b01addff23da3d041cb32e5e3e536c7b32cd1b3672a09de8b52b4cc60",
+      "archive_bytes": 6602752,
+      "prepared_bytes": 5728622,
+      "qobuz_track_ids": [
+        "5155761"
+      ],
+      "playlist_track_ids": [
+        "12450515400"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "All the Tears",
+      "file_id": "592220c7994958.25172582",
+      "source_url": "https://rhythmverse.co/songfile/592220c7994958.25172582",
+      "download_url": "https://rhythmverse.co/download_file/sideshow/592220c7994958.25172582/AllTheTearsv11x",
+      "archive_format": "onyx",
+      "folder": "Gojira - All the Tears [592220c7]",
+      "charter": "Sideshow, JackDaMaster",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2305,
+          "kick_note_on_count": 915,
+          "tom_marker_count": 159,
+          "last_expert_onset_seconds": 221.89,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "592220c7994958.25172582",
+        "artist": "Gojira",
+        "title": "All the Tears",
+        "album": "The Way of All Flesh",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/592220c7994958.25172582",
+        "download_url": "https://rhythmverse.co/download_file/sideshow/592220c7994958.25172582/AllTheTearsv11x",
+        "duration_seconds": 226.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sideshow",
+        "notes": "<p>Authored by JackDaMaster</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - All the Tears/album.png",
+          "name": "album.png",
+          "sha256": "c35fd906a528ad8c343febc57128bb4ccc6211238576f2f26ed705ff72bb08fe"
+        },
+        {
+          "archive_name": "Gojira - All the Tears/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "0852d909f036c8da082a3f2cff1c13a18b10929f7369a231ff363c68fe65068b"
+        },
+        {
+          "archive_name": "Gojira - All the Tears/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1a5b3aed7b0b9d081d0bd1129d8817269f82c8835b94ea08c4d53d408ace4f1a"
+        },
+        {
+          "archive_name": "Gojira - All the Tears/song.ini",
+          "name": "song.ini",
+          "sha256": "64053f518b49d0abc0b06886aaf7860245a9abdd88a0f6e2aea35d62ef9c6621"
+        },
+        {
+          "archive_name": "Gojira - All the Tears/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0c33144738ca8ad822d89f43e08e284b1b434f353df8ecd1cf7d7c34b7aad3e1"
+        }
+      ],
+      "archive_sha256": "d57fa950eecc8d8dc09556aac576f33db84f53f6d55b689ed0eda235573ed743",
+      "archive_bytes": 8441856,
+      "prepared_bytes": 5071462,
+      "qobuz_track_ids": [
+        "9427620"
+      ],
+      "playlist_track_ids": [
+        "12451169790"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "Another World",
+      "file_id": "614ff16120fce1.89986772",
+      "source_url": "https://rhythmverse.co/songfile/614ff16120fce1.89986772",
+      "download_url": "https://rhythmverse.co/download_file/ungratefuldead/614ff16120fce1.89986772/ud_anotherworld_rb3con",
+      "archive_format": "onyx",
+      "folder": "Gojira - Another World [614ff161]",
+      "charter": "Ungrateful Dead",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1022,
+          "kick_note_on_count": 167,
+          "tom_marker_count": 26,
+          "last_expert_onset_seconds": 206.123,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "614ff16120fce1.89986772",
+        "artist": "Gojira",
+        "title": "Another World",
+        "album": "Fortitude",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/614ff16120fce1.89986772",
+        "download_url": "https://rhythmverse.co/download_file/ungratefuldead/614ff16120fce1.89986772/ud_anotherworld_rb3con",
+        "duration_seconds": 266.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "UngratefulDead",
+        "notes": "",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - Another World/album.png",
+          "name": "album.png",
+          "sha256": "86b0a6e9de685e6e669224bb251da38bc523869883b7eb92e0c59c7937a678b2"
+        },
+        {
+          "archive_name": "Gojira - Another World/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7df22a12c2e12467fd0f1f1729324685301f2bee7a6868a89e4b955f37946e45"
+        },
+        {
+          "archive_name": "Gojira - Another World/song.ini",
+          "name": "song.ini",
+          "sha256": "dad5588e6afa6318b15d052858d25cbd1f7a1a197cbba9090050782545c1d779"
+        },
+        {
+          "archive_name": "Gojira - Another World/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c9a15c4710f115ebe62eade1f9baf28c01bd80d19ea90bce048b703bdbd41246"
+        }
+      ],
+      "archive_sha256": "177d622c7512070ea727739f274af28941018b1fc245d28a4aef85a9fc9b3d88",
+      "archive_bytes": 6045696,
+      "prepared_bytes": 5359692,
+      "qobuz_track_ids": [
+        "115413104"
+      ],
+      "playlist_track_ids": [
+        "12451169786"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "L'Enfant Sauvage",
+      "file_id": "5b947daf1aca63.88850228",
+      "source_url": "https://rhythmverse.co/songfile/5b947daf1aca63.88850228",
+      "download_url": "https://www.mediafire.com/download/8b4b8x0b0lnnb6j/LenfantSauvagev11x",
+      "archive_format": "onyx",
+      "folder": "Gojira - L'Enfant Sauvage [5b947daf]",
+      "charter": "Sideshow, Blitzbob",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2118,
+          "kick_note_on_count": 684,
+          "tom_marker_count": 19,
+          "last_expert_onset_seconds": 232.317,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947daf1aca63.88850228",
+        "artist": "Gojira",
+        "title": "L'Enfant Sauvage",
+        "album": "",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b947daf1aca63.88850228",
+        "download_url": "http://www.mediafire.com/download/8b4b8x0b0lnnb6j/LenfantSauvagev11x",
+        "duration_seconds": 260.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sideshow",
+        "notes": "<p>Authored by Blitzbob</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - L'Enfant Sauvage/album.png",
+          "name": "album.png",
+          "sha256": "7d4a609fad7f023526f2e434223aa575ab8f234a1da901c20919b420ec9bd270"
+        },
+        {
+          "archive_name": "Gojira - L'Enfant Sauvage/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "a02bec8cd5cf552285aa6da30a07d56734129f0a85383f74053c88212af37234"
+        },
+        {
+          "archive_name": "Gojira - L'Enfant Sauvage/notes.mid",
+          "name": "notes.mid",
+          "sha256": "602fb108686a2237c9aeb81d30c2672a3878822ae02de578782f9e1ddb6baf70"
+        },
+        {
+          "archive_name": "Gojira - L'Enfant Sauvage/song.ini",
+          "name": "song.ini",
+          "sha256": "e965bd402a96521e64302e3383c42ed7455000f2932f27c887e506c44ab60ea0"
+        },
+        {
+          "archive_name": "Gojira - L'Enfant Sauvage/song.ogg",
+          "name": "song.ogg",
+          "sha256": "27e13be07c851965372f2a8a6977be6cbee54fe135a9a4fd003f00accaf92284"
+        }
+      ],
+      "archive_sha256": "ea4c4572b758d3fe69194e200cb13c13d3a514f56ac9ab74841544d7cc59c24a",
+      "archive_bytes": 9416704,
+      "prepared_bytes": 3874624,
+      "qobuz_track_ids": [
+        "5650380"
+      ],
+      "playlist_track_ids": [
+        "12451169772"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "The Art of Dying",
+      "file_id": "59297690eedab9.84032928",
+      "source_url": "https://rhythmverse.co/songfile/59297690eedab9.84032928",
+      "download_url": "https://rhythmverse.co/download_file/sideshow/59297690eedab9.84032928/TheArtofDyingv11x",
+      "archive_format": "onyx",
+      "folder": "Gojira - The Art of Dying [59297690]",
+      "charter": "Sideshow, Plastikdrink",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3393,
+          "kick_note_on_count": 1289,
+          "tom_marker_count": 140,
+          "last_expert_onset_seconds": 542.163,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59297690eedab9.84032928",
+        "artist": "Gojira",
+        "title": "The Art of Dying",
+        "album": "The Way of All Flesh",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59297690eedab9.84032928",
+        "download_url": "https://rhythmverse.co/download_file/sideshow/59297690eedab9.84032928/TheArtofDyingv11x",
+        "duration_seconds": 598.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sideshow",
+        "notes": "<p>Authored by Plastikdrink</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - The Art of Dying/album.png",
+          "name": "album.png",
+          "sha256": "c35fd906a528ad8c343febc57128bb4ccc6211238576f2f26ed705ff72bb08fe"
+        },
+        {
+          "archive_name": "Gojira - The Art of Dying/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "c194068a87476031f77fb69c14294e8dd093402ce36de0751ca00f337c1e78e6"
+        },
+        {
+          "archive_name": "Gojira - The Art of Dying/notes.mid",
+          "name": "notes.mid",
+          "sha256": "35f187b62629a9d603cf12bfb076516b6d188679b89a87177003cb0b91b4eb70"
+        },
+        {
+          "archive_name": "Gojira - The Art of Dying/song.ini",
+          "name": "song.ini",
+          "sha256": "700beded65d30c0aa7f40887cd7923a77b7cfbdd7840cb0c76a79addeea94952"
+        },
+        {
+          "archive_name": "Gojira - The Art of Dying/song.ogg",
+          "name": "song.ogg",
+          "sha256": "510e6fbf60271a158db61e5b84d6b4ad4de7d15729c158bcc4a536d134086c3e"
+        }
+      ],
+      "archive_sha256": "2b3dd032703fb1f090f3ef0db1e53589547c545edb1451d69bd370ea6521b936",
+      "archive_bytes": 18898944,
+      "prepared_bytes": 9939168,
+      "qobuz_track_ids": [
+        "9427622"
+      ],
+      "playlist_track_ids": [
+        "12451169799"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "Toxic Garbage Island",
+      "file_id": "5a32583310bdb7.41760476",
+      "source_url": "https://rhythmverse.co/songfile/5a32583310bdb7.41760476",
+      "download_url": "https://rhythmverse.co/download_file/spiralshadow123/5a32583310bdb7.41760476/toxicv72x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Gojira - Toxic Garbage Island [5a325833]",
+      "charter": "spiralshadow123",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1796,
+          "kick_note_on_count": 754,
+          "tom_marker_count": 128,
+          "last_expert_onset_seconds": 248.314,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5a32583310bdb7.41760476",
+        "artist": "Gojira",
+        "title": "Toxic Garbage Island",
+        "album": "The Way of All Flesh",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5a32583310bdb7.41760476",
+        "download_url": "https://rhythmverse.co/download_file/spiralshadow123/5a32583310bdb7.41760476/toxicv72x_rb3con",
+        "duration_seconds": 248.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "spiralshadow123",
+        "notes": "<p>This song is part of C3thon! If you would have downloaded this release even if it were paid DLC, please donate 90 cents per song to the Make-A-Wish Foundation:<br />\nworldwish.rallybound.org/c3<br />\n&#160;<br />\nFor more information please check the C3thon post on the discussion board.<br />\n&#160;<br />\nDrums: JackDaMaster</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - Toxic Garbage Island/album.png",
+          "name": "album.png",
+          "sha256": "da53293f676f013511e328fee4960a61d02c291ca063c84d733dc6d4790c2ea9"
+        },
+        {
+          "archive_name": "Gojira - Toxic Garbage Island/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f9584bfaf3dd8f75fdaa86548074e3843c2eade5ab1c4a3d2d41112abf64962e"
+        },
+        {
+          "archive_name": "Gojira - Toxic Garbage Island/song.ini",
+          "name": "song.ini",
+          "sha256": "e5beba7a411b10eba14a164d4039ce5e84a8000558f0699444ceb81af6e59480"
+        },
+        {
+          "archive_name": "Gojira - Toxic Garbage Island/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3d9a31406c27c52ae1197b32b36d7a65ec491272d3f39dbdfcbce4dd7524f12f"
+        }
+      ],
+      "archive_sha256": "74b1ed485a6b68592de7761502dc3d141fbfc2550ac5799d0c44b9b8fba9e783",
+      "archive_bytes": 5705728,
+      "prepared_bytes": 5419971,
+      "qobuz_track_ids": [
+        "9427616"
+      ],
+      "playlist_track_ids": [
+        "12451169796"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "Vacuity",
+      "file_id": "592977e1cbb7b0.02118878",
+      "source_url": "https://rhythmverse.co/songfile/592977e1cbb7b0.02118878",
+      "download_url": "https://rhythmverse.co/download_file/sideshow/592977e1cbb7b0.02118878/Vacuityv11x",
+      "archive_format": "onyx",
+      "folder": "Gojira - Vacuity [592977e1]",
+      "charter": "Sideshow, Victhorest",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1648,
+          "kick_note_on_count": 524,
+          "tom_marker_count": 85,
+          "last_expert_onset_seconds": 290.097,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "592977e1cbb7b0.02118878",
+        "artist": "Gojira",
+        "title": "Vacuity",
+        "album": "The Way of All Flesh",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/592977e1cbb7b0.02118878",
+        "download_url": "https://rhythmverse.co/download_file/sideshow/592977e1cbb7b0.02118878/Vacuityv11x",
+        "duration_seconds": 295.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sideshow",
+        "notes": "<p>Authored by Victhorest</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Gojira - Vacuity/album.png",
+          "name": "album.png",
+          "sha256": "c35fd906a528ad8c343febc57128bb4ccc6211238576f2f26ed705ff72bb08fe"
+        },
+        {
+          "archive_name": "Gojira - Vacuity/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "2d1d0e003507e5d511ef6a2128f4b9e57ce9aa299c16c6d8b877e68032e4d4b0"
+        },
+        {
+          "archive_name": "Gojira - Vacuity/notes.mid",
+          "name": "notes.mid",
+          "sha256": "18d5641bbf381be96dc727b06ba867a47e21af61495ff07693b87077c8e54df8"
+        },
+        {
+          "archive_name": "Gojira - Vacuity/song.ini",
+          "name": "song.ini",
+          "sha256": "c199c989146477e3c4902f7cd3dfbed9a389163aa6e1b925aec5b89e0b49fe52"
+        },
+        {
+          "archive_name": "Gojira - Vacuity/song.ogg",
+          "name": "song.ogg",
+          "sha256": "61026ba2430189bf878e59dc80c164f3bb9b86390491a0c7e85af366fe9d7f8c"
+        }
+      ],
+      "archive_sha256": "9f3e5fcb02ba7c64b9d9b33aec1d6ae11dcad572a8cc20a76ddef7f6a8a01f39",
+      "archive_bytes": 6397952,
+      "prepared_bytes": 5922522,
+      "qobuz_track_ids": [
+        "9427624"
+      ],
+      "playlist_track_ids": [
+        "12451169785"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Aces High",
+      "file_id": "596c68615135c3.73192070",
+      "source_url": "https://rhythmverse.co/songfile/596c68615135c3.73192070",
+      "download_url": "https://rhythmverse.co/download_file/sideshow/596c68615135c3.73192070/SideAcesHighv1",
+      "archive_format": "onyx",
+      "folder": "Iron Maiden - Aces High [596c6861]",
+      "charter": "Sideshow, FerchoH4x, Beard216",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2464,
+          "kick_note_on_count": 830,
+          "tom_marker_count": 83,
+          "last_expert_onset_seconds": 272.174,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "596c68615135c3.73192070",
+        "artist": "Iron Maiden",
+        "title": "Aces High",
+        "album": "Powerslave",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/596c68615135c3.73192070",
+        "download_url": "https://rhythmverse.co/download_file/sideshow/596c68615135c3.73192070/SideAcesHighv1",
+        "duration_seconds": 273.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sideshow",
+        "notes": "<p>Tempo map, guitar by FerchoH4X<br />\nDrums, bass, vocals by Sideshow<br />\nCAT reductions by Beard216</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Aces High/album.png",
+          "name": "album.png",
+          "sha256": "61638e86d3477dbebb08cb6998d24ffe441fb13acb0d508b139214e3b065ed14"
+        },
+        {
+          "archive_name": "Iron Maiden - Aces High/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ffce98bd7a79d3ec21e646c0ba5f6c58b8f8f560579c36087f6d65e161a02cd4"
+        },
+        {
+          "archive_name": "Iron Maiden - Aces High/song.ini",
+          "name": "song.ini",
+          "sha256": "2a7cbfceab989c806bcb0e41b35be2798a6326d84f75e07fb6fdb80f7358475b"
+        },
+        {
+          "archive_name": "Iron Maiden - Aces High/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c9771fae225d95c43460cdae29fa04bfb80dafb5b035fa517786e4244dcedb25"
+        }
+      ],
+      "archive_sha256": "76629b8d1a5dba321e93e97be0694456442fc603b33d7755521a25c11c292e57",
+      "archive_bytes": 7131136,
+      "prepared_bytes": 6326480,
+      "qobuz_track_ids": [
+        "25115282"
+      ],
+      "playlist_track_ids": [
+        "12449352509"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Heaven Can Wait",
+      "file_id": "5a6e37f1e94885.01069204",
+      "source_url": "https://rhythmverse.co/songfile/5a6e37f1e94885.01069204",
+      "download_url": "https://rhythmverse.co/download_file/nsw1-6/5a6e37f1e94885.01069204/nswIMHeavenv1",
+      "archive_format": "onyx",
+      "folder": "Iron Maiden - Heaven Can Wait [5a6e37f1]",
+      "charter": "Sideshow, NSW1-6, Puppetz",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 3430,
+          "kick_note_on_count": 1205,
+          "tom_marker_count": 136,
+          "last_expert_onset_seconds": 437.08,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5a6e37f1e94885.01069204",
+        "artist": "Iron Maiden",
+        "title": "Heaven Can Wait",
+        "album": "Somewhere in Time",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5a6e37f1e94885.01069204",
+        "download_url": "https://rhythmverse.co/download_file/nsw1-6/5a6e37f1e94885.01069204/nswIMHeavenv1",
+        "duration_seconds": 445.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "nsw1-6",
+        "notes": "<p>Original Guitar Chart: Puppetz<br />\nClean up/OD/Compilation: Sideshow<br />\n&#160;<br />\nA live favorite and audience participation song, this is a full-band upgrade to a chart I did for FoF Forum's Drum Project 5. Possibly my favorite off the album (before or after Alexander) discussing a potential out-of-body experience and exploring the supernatural realms (of Heaven?), though we never hear the resolution to the narrator's plight.<br />\n&#160;</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Heaven Can Wait/album.png",
+          "name": "album.png",
+          "sha256": "78809cc905436f38d8ee3a9c814645467af69ca02b00505aa6ed322c759f14af"
+        },
+        {
+          "archive_name": "Iron Maiden - Heaven Can Wait/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d15a8fb060f33802817959069769469c23a93ad6e110c444aba70b404101c4c2"
+        },
+        {
+          "archive_name": "Iron Maiden - Heaven Can Wait/song.ini",
+          "name": "song.ini",
+          "sha256": "c859a16e39af7ae47807c582bb772ec31586bdecf6b887fa9b2d1e91daac604f"
+        },
+        {
+          "archive_name": "Iron Maiden - Heaven Can Wait/song.ogg",
+          "name": "song.ogg",
+          "sha256": "315ea5636cf4a094bea0b870a24b3e57328f4f4c9131087abbfcd3c2c4f4dc86"
+        }
+      ],
+      "archive_sha256": "3c80916d10fbcf7c79a655759281270ca615e6ac623397c86c7695adde1008c5",
+      "archive_bytes": 11501568,
+      "prepared_bytes": 9683678,
+      "qobuz_track_ids": [
+        "25115257"
+      ],
+      "playlist_track_ids": [
+        "12449352515"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Man on the Edge",
+      "file_id": "596c6be7e7b694.30502873",
+      "source_url": "https://rhythmverse.co/songfile/596c6be7e7b694.30502873",
+      "download_url": "https://rhythmverse.co/download_file/sideshow/596c6be7e7b694.30502873/SideMOTEdgev1",
+      "archive_format": "onyx",
+      "folder": "Iron Maiden - Man on the Edge [596c6be7]",
+      "charter": "Sideshow, Puppetz, Beard216",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2568,
+          "kick_note_on_count": 799,
+          "tom_marker_count": 48,
+          "last_expert_onset_seconds": 251.278,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "596c6be7e7b694.30502873",
+        "artist": "Iron Maiden",
+        "title": "Man on the Edge",
+        "album": "The X Factor",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/596c6be7e7b694.30502873",
+        "download_url": "https://rhythmverse.co/download_file/sideshow/596c6be7e7b694.30502873/SideMOTEdgev1",
+        "duration_seconds": 255.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sideshow",
+        "notes": "<p>Tempo map, guitar by Puppetz<br />\nDrums, bass, vocals, compile by Sideshow<br />\nCAT reductions by Beard216</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Man on the Edge/album.png",
+          "name": "album.png",
+          "sha256": "8fbc3b6d1fd308c2479620d8bcc3863e6458a1fab49fd3a4b204337727da0d42"
+        },
+        {
+          "archive_name": "Iron Maiden - Man on the Edge/notes.mid",
+          "name": "notes.mid",
+          "sha256": "4960a8ee0412bb54d425fa76e11c7a7c53d42d91e077e6b9abe24a64286fcff7"
+        },
+        {
+          "archive_name": "Iron Maiden - Man on the Edge/song.ini",
+          "name": "song.ini",
+          "sha256": "6b69f51a8fb4e6687e4727c8f3ed9393f86b24dcf88d29477545b63eda2cc60d"
+        },
+        {
+          "archive_name": "Iron Maiden - Man on the Edge/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5744e40183d29afa25814855039c75c168ea9b8d129ef31f0251738be48717e9"
+        }
+      ],
+      "archive_sha256": "2620246d412f4a2d5d3c7b65fa4aaf7b30976fa39d861e8900af8c274abe4d13",
+      "archive_bytes": 7053312,
+      "prepared_bytes": 5907445,
+      "qobuz_track_ids": [
+        "25120854"
+      ],
+      "playlist_track_ids": [
+        "12449352548"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Out of the Silent Planet",
+      "file_id": "58310ba342844c5b96ae188d7fdd65fb",
+      "source_url": "https://rhythmverse.co/songfile/58310ba342844c5b96ae188d7fdd65fb",
+      "download_url": "https://rhythmverse.co/download_file/dogbronson/58310ba342844c5b96ae188d7fdd65fb/Out%20of%20the%20Silent%20Planet",
+      "archive_format": "onyx",
+      "folder": "Iron Maiden - Out of the Silent Planet [58310ba3]",
+      "charter": "DogBronson",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1962,
+          "kick_note_on_count": 620,
+          "tom_marker_count": 47,
+          "last_expert_onset_seconds": 375.582,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "58310ba342844c5b96ae188d7fdd65fb",
+        "artist": "Iron Maiden",
+        "title": "Out of the Silent Planet",
+        "album": "Brave New World",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/58310ba342844c5b96ae188d7fdd65fb",
+        "download_url": "https://rhythmverse.co/download_file/dogbronson/58310ba342844c5b96ae188d7fdd65fb/Out of the Silent Planet",
+        "duration_seconds": 390.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "DogBronson",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Out of the Silent Planet/album.png",
+          "name": "album.png",
+          "sha256": "c7ea578d0a215d026d3f954477d6d831abd72a97717d53aff01d00c604e45589"
+        },
+        {
+          "archive_name": "Iron Maiden - Out of the Silent Planet/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d567faaa308c9ba77297f64dcfcedccc42e15216e89f8e46aa32a8a962421148"
+        },
+        {
+          "archive_name": "Iron Maiden - Out of the Silent Planet/song.ini",
+          "name": "song.ini",
+          "sha256": "4715f1f32836ada3e2e6243a4b8429874fc0107a37d44981aed2da1038ecedc5"
+        },
+        {
+          "archive_name": "Iron Maiden - Out of the Silent Planet/song.ogg",
+          "name": "song.ogg",
+          "sha256": "26a3a2097847387e739269b9c7b5c3ec33bf2fd36462f2d74a7138a1baa58ebd"
+        }
+      ],
+      "archive_sha256": "0a46b6ac50c8edaff0499df605c0d91cc8811b8299d398cba004b795e3ad80ca",
+      "archive_bytes": 22564864,
+      "prepared_bytes": 8000371,
+      "qobuz_track_ids": [
+        "25120840"
+      ],
+      "playlist_track_ids": [
+        "12449352539"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Paschendale",
+      "file_id": "641c8736c46f4e52800e8a95b947dba0",
+      "source_url": "https://rhythmverse.co/songfile/641c8736c46f4e52800e8a95b947dba0",
+      "download_url": "https://rhythmverse.co/download_file/noobsalad/641c8736c46f4e52800e8a95b947dba0/Paschendale_rb3con",
+      "archive_format": "onyx",
+      "folder": "Iron Maiden - Paschendale [641c8736]",
+      "charter": "Noob Salad",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2623,
+          "kick_note_on_count": 606,
+          "tom_marker_count": 287,
+          "last_expert_onset_seconds": 496.555,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "641c8736c46f4e52800e8a95b947dba0",
+        "artist": "Iron Maiden",
+        "title": "Paschendale",
+        "album": "Dance of Death",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/641c8736c46f4e52800e8a95b947dba0",
+        "download_url": "https://rhythmverse.co/download_file/noobsalad/641c8736c46f4e52800e8a95b947dba0/Paschendale_rb3con",
+        "duration_seconds": 507.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "NoobSalad",
+        "notes": "Revised CAT Reductions for lower difficulties",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Paschendale/album.png",
+          "name": "album.png",
+          "sha256": "bcd1ef4509ebeb45e75d2d5b1d2777e6f37840711f8d9d2dce7b23d4399fcbc9"
+        },
+        {
+          "archive_name": "Iron Maiden - Paschendale/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "1493223b71cca084789bfe4510595cef8699ea5ee8d986861eec8e3fa4b62ade"
+        },
+        {
+          "archive_name": "Iron Maiden - Paschendale/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "7c5be95170c06c8ae4d60eb0e8cbdebdc13e9adfb00d226dc21169dfd3d765c4"
+        },
+        {
+          "archive_name": "Iron Maiden - Paschendale/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "534c9d082ed338245e5d702e1dc37057459e013c435f2bf04cd55a27edd281d6"
+        },
+        {
+          "archive_name": "Iron Maiden - Paschendale/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "a5df000661e5a09c09cc20f511ccd9b4107ef48084dcde42338f755b123d4283"
+        },
+        {
+          "archive_name": "Iron Maiden - Paschendale/notes.mid",
+          "name": "notes.mid",
+          "sha256": "89fea96609a285cabc6658477e79ce349fa745c9a3109b0827344f795f7a7ea9"
+        },
+        {
+          "archive_name": "Iron Maiden - Paschendale/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "e2aee09d3c3b3f453ba246f416dcb742ee986263dbf3e4441830f076b77638e8"
+        },
+        {
+          "archive_name": "Iron Maiden - Paschendale/song.ini",
+          "name": "song.ini",
+          "sha256": "47bd6b95087edf8cf95b674d86ab14482d68501a913682536745d916f97f27b2"
+        },
+        {
+          "archive_name": "Iron Maiden - Paschendale/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c11c8d62d2bf57f3be272eee2306309c656ffb3e2e93625ed270a027d6d04379"
+        },
+        {
+          "archive_name": "Iron Maiden - Paschendale/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "f5c1209a0483f3831696dffdb61f91384d51146f920c110365aa8020ac617a6a"
+        }
+      ],
+      "archive_sha256": "b8031b41348a564912a6af846d2f6c73df72314177c79c93c2ebfadbcfe28763",
+      "archive_bytes": 48799744,
+      "prepared_bytes": 49500777,
+      "qobuz_track_ids": [
+        "3605042"
+      ],
+      "playlist_track_ids": [
+        "12449352549"
+      ]
+    }
+  ]
+}

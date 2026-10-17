@@ -339,33 +339,46 @@ See song-library/README.md for scope, evidence and the continuation prompt.
 - [x] **DCF-LIB-001 [P0]** Create a portable library area, private-data ignore rule,
   metadata templates and a documented staged workflow. No downloader is implied.
 - [-] **DCF-LIB-002 [P0]** Import the real playlist and inventory existing songs.
-  Public Qobuz playlist 69773629 exported completely: 681 entries, CSV/XLSX/JSON,
+  Public Qobuz playlist 69773629 refreshed completely: 744 entries, CSV/XLSX/JSON,
   original order and version metadata preserved. Reusable metadata exporter and
   pagination safeguards verified. Existing-library inventory is still not supplied.
-- [-] **DCF-LIB-003 [P0]** Inspect RhythmVerse search/download behavior for drums
+- [x] **DCF-LIB-003 [P0]** Inspect RhythmVerse search/download behavior for drums
   and implement matching with recorded sources and reviewable ambiguous versions.
-  Network blocker resolved after unrestricted publication: catalog HTTP 200.
-  Public native-CH search and direct ZIP downloads were exercised. Twelve manually
-  selected playlist matches have recorded sources and checksums; general matching,
-  provider handling and incremental search integration remain outstanding.
+  Cached CH/PS/RB3/all searches, conservative version/duration matching and source
+  receipts implemented. Public ZIP/RAR/7z, Drive files/folders, MediaFire, short links
+  and authenticated public MEGA downloads exercised. Unavailable/ambiguous sources
+  are recorded rather than counted as prepared.
 - [-] **DCF-LIB-004 [P0]** Validate a small pilot, choose conversion by actual input
   format, verify drums/Pro Drums and obtain the user's Scan Songs/playtest result.
   Twelve native songs prepared: Expert four-lane drums and Pro Drums evidence,
   40 audio assets decoded, ZIP extracted and hashes checked. Heart-Shaped Box's
-  five-lane candidate was replaced with Dumb. User's Scan Songs/playtest pending.
-- [-] **DCF-LIB-005 [P1]** Implement resumable acquisition/preparation, preserve
+  five-lane candidate was replaced with Dumb. User confirmed pilot delivery;
+  explicit Scan Songs/playtest acceptance remains pending.
+- [x] **DCF-LIB-005 [P1]** Implement resumable acquisition/preparation, preserve
   existing files, and export a ZIP of song folders with a missing/blocked report.
-  Pilot ZIP and safe, atomic single-song preparation helper delivered. Original
-  archives retained, existing destinations never overwritten, pilot catalog saved.
-  General batch acquisition and update automation remain outstanding.
-- [ ] **DCF-LIB-006 [P1]** Support incremental playlist updates without losing
+  Resumable batch acquisition, atomic preparation, pinned standalone PC recovery,
+  separate Pro/ordinary Drums batches, original retention, local edit preservation,
+  partial ZIP/failure handling and a complete coverage CSV delivered. Linux checks
+  passed; new Windows conversions/game acceptance still need user execution.
+- [-] **DCF-LIB-006 [P1]** Support incremental playlist updates without losing
   selections or repeating verified downloads; check space and Windows path limits.
+  Immutable append-only recipes preserve Qobuz selections; repeat-run source/assets
+  and ZIP checks, disk budgeting and Windows path guards implemented. Offline
+  snapshot-extension regression passed. Whole-workflow updates against the user's
+  existing library and native Windows conversion checks remain pending.
 - [x] **DCF-LIB-007 [P0]** Recover the missing pilot and provide a durable local
   download/preparation route after cloud files disappeared. Twelve sources and
   all 78 runtime files revalidated; pinned metadata recipe and standalone Python
   recovery tested without external libraries, including repeat-run preservation.
   Windows user instructions are in song-library/BAIXAR.md. Browser download from
   the cloud UI and native Windows execution are not claimed as verified.
+- [x] **DCF-LIB-008 [P0]** Process the remaining public playlist snapshot and
+  deliver every validated selection with durable recovery and explicit gaps.
+  254 additional charts: 246 Pro Drums, eight ordinary four-lane Drums, 11 ZIPs,
+  1,449 runtime assets and 629 decoded audio files. With the pilot, 266 charts cover
+  275 of 744 entries. The remaining 469 comprise 358 not found conservatively,
+  50 version reviews and 61 access/preparation blockers. This completes this bulk
+  preparation pass, not full-playlist coverage or game acceptance.
 
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
@@ -378,6 +391,12 @@ On 2026-10-17 the cloud link failed because ignored outputs were absent after a
 machine restart. The pilot was reconstructed and a PC recovery recipe delivered;
 user Scan Songs/playtest remains pending. Do not treat an ignored workspace path
 as a persistent download or as a file that GitHub will restore.
+
+The user subsequently confirmed successful delivery and authorized the remainder.
+The 2026-10-17 bulk pass and recovery instructions are in song-library/CONTINUACAO.md;
+metadata-only recipes and reports are versioned. No media/models entered Git and
+the transcription phases were not advanced. Provider quotas, unavailable sources,
+uncertain editions and game acceptance keep the overall workstream open.
 
 # Immediate next milestone
 

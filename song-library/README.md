@@ -1,6 +1,7 @@
 # Biblioteca de músicas — MixDrumRock
 
-**Para baixar o lote no seu Windows, use [BAIXAR.md](BAIXAR.md).** O baixador e
+**Para baixar os 254 charts novos, use [CONTINUACAO.md](CONTINUACAO.md).** Para
+recuperar somente o piloto de 12, use [BAIXAR.md](BAIXAR.md). O baixador e
 a receita estão no GitHub; a pasta `data` é gerada localmente e não é versionada.
 Links de arquivos da máquina da nuvem não garantem disponibilidade após retomadas.
 
@@ -12,9 +13,20 @@ O pipeline de MP3 → transcrição do Drum Chart Forge continua independente.
 O exportador de metadados do Qobuz já está implementado em
 `src/drumforge/library/qobuz.py`. A MixDrumRock foi exportada com 681 faixas,
 preservando ordem, versões e identificadores, em CSV, Excel e um snapshot JSON.
-Um primeiro lote privado de 12 músicas já foi obtido pelo RhythmVerse e preparado
-com áudio e bateria Expert de quatro pistas. A integração geral de busca/download
-para as 681 faixas continua pendente; o lote foi selecionado e conferido manualmente.
+O snapshot atualizado de 2026-10-17 contém **744 entradas**. A busca/preparação em
+lotes está implementada e acrescentou **254 charts**: 246 Pro Drums e oito Drums
+comuns, em 11 lotes separados do piloto. São 266 charts incluindo as 12 originais,
+cobrindo 275 entradas da playlist. As outras 469 têm motivos registrados no
+[CSV completo](reports/cobertura.csv): 358 sem correspondência conservadora,
+50 versões incertas e 61 casos bloqueados. Não há promessa de cobertura integral.
+
+As receitas duráveis `src/drumforge/library/collection_02.json` até `collection_12.json`
+guardam fontes, autores, hashes e IDs do Qobuz. O índice e o baixador conferem a
+identidade dessas receitas; novas atualizações acrescentam lotes sem reescrever
+os anteriores. Os ZIPs atuais ficam em
+`/workspace/shared/downloads/MixDrumRock-continuacao/`, mas o caminho durável de
+entrega é o comando para Windows em CONTINUACAO.md. Os novos charts ainda precisam
+de Scan Songs/playtest. O usuário confirmou que conseguiu receber o piloto.
 
 ## Lote de teste 01 — 12 músicas
 
@@ -198,11 +210,14 @@ identifica sozinho qual gravação da música foi chartada.
 | `game_verified` | Usuário confirmou Scan Songs e drums/Pro Drums jogáveis. |
 | `blocked` | Link, acesso, formato ou outra falha identificada; motivo em `notes`. |
 
-Esses estados são uma proposta de contrato; o catálogo de charts ainda não foi
-preenchido a partir da lista real.
-O backlog oficial permanece em [BACKLOG.md](../BACKLOG.md), itens DCF-LIB-001–006.
+O CSV real em reports/cobertura.csv usa esses estados de preparação e mantém uma
+linha por entrada do Qobuz; `drum_mode` distingue Pro Drums e Drums comuns.
+O backlog oficial permanece em [BACKLOG.md](../BACKLOG.md), itens DCF-LIB-001–008.
 
 ## Evidência e pendências desta sessão
+
+O histórico abaixo descreve a captura inicial. A continuação de 2026-10-17 está
+registrada em [library-bulk-verification.md](../docs/library-bulk-verification.md).
 
 O bloqueio HTTP CONNECT 403 observado no início de 2026-10-16 foi resolvido após
 o usuário publicar acesso sem restrições. Qobuz e o catálogo RhythmVerse
@@ -226,24 +241,22 @@ localmente, sem necessidade de arquivo do Drive ou assinatura de exportação.
 ## Prompt para continuar
 
 > Leia AGENTS.md, CODEX_KICKOFF.md, CONTEXT.md, BACKLOG.md e lessons.md, depois
-> song-library/README.md. Continue apenas a frente MixDrumRock, sem avançar fases
-> de transcrição. Audite Git e runtime e use uma branch dedicada conforme as
-> instruções do projeto. A playlist de 681 faixas está no snapshot privado
-> song-library/data/mixdrumrock/inbox/qobuz-2026-10-16/; atualize com o exportador
-> se necessário. Faça o inventário incremental a partir da biblioteca existente
-> quando sua lista for fornecida. Preserve versões e escolhas, não altere músicas
-> existentes. O lote de 12 faixas está em exports/MixDrumRock-piloto-12.zip e o
-> catálogo privado em catalog/pilot-01.csv, dentro da coleção original. Esses
-> dados podem estar ausentes após uma retomada. A receita durável é
-> src/drumforge/library/pilot_01.json; recupere o lote com recover_pilot.py conforme
-> BAIXAR.md, mantendo a verificação de hashes. Uma cópia reconstruída nesta sessão
-> está em /workspace/shared/downloads/MixDrumRock/. Receba o resultado
-> do Scan Songs/playtest antes de marcar game_verified. O endpoint público de
-> busca observado é POST https://rhythmverse.co/api/ch/songfiles/search/live,
-> com instrument[]=drums, text, data_type=full, page e records (máximo 100).
-> Resultados privados e plano estão em reports/rv-search/ e pilot-selection.json.
-> Continue a integração incremental de busca/download e trate ambiguidades de
-> versões. Use os helpers packages/inspect_song para pacotes nativos; conversão
-> de console ou de cinco pistas ainda exige investigação própria. Atualize os
-> DCF-LIB no backlog com evidências, execute os gates pertinentes e siga o fluxo
-> de commit, merge --no-ff e push sem descartar trabalho em caso de falha.
+> song-library/README.md e docs/library-bulk-verification.md. Continue somente a
+> biblioteca MixDrumRock, em uma branch a partir de main, sem avançar transcrição.
+> O usuário confirmou o recebimento do piloto e autorizou o restante. O snapshot
+> público de 2026-10-17 tem 744 entradas; 254 charts novos em 11 lotes, mais os
+> 12 do piloto, cobrem 275 entradas. Não marque game_verified sem Scan Songs/playtest.
+> Consulte song-library/reports/cobertura.csv para as 469 pendências. Preserve versões
+> e escolhas; não substitua áudio, não apague arquivos locais nem repita downloads
+> verificados. Receitas/índice em src/drumforge/library são duráveis; dados ignorados
+> e ZIPs de /workspace/shared/downloads podem desaparecer. CONTINUACAO.md oferece
+> recuperação no PC. Para atualizar, exporte Qobuz para diretório novo, execute o
+> coletor drumforge.library.batch com Mido 1.3.3/gdown 5.2.1 opcionais e o Onyx
+> 20261016 oficial verificado. Gere receitas com drumforge.library.delivery,
+> acrescentando lotes sem modificar os existentes; confira todos os hashes e
+> atualize COLLECTION_SHA256 do baixador quando o índice mudar. Separe Pro Drums e
+> Drums comuns; cinco pistas ainda precisam de conversão real validada. Confira
+> se provedores indisponíveis mudaram antes de repetir tentativas. A biblioteca
+> pré-existente do usuário não foi inventariada. Documente evidências e pendências,
+> execute os gates configurados e conclua com commit, merge --no-ff, push e
+> verificação de sincronização, preservando o trabalho se a publicação falhar.

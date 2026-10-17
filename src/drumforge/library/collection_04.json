@@ -1,0 +1,2260 @@
+{
+  "schema_version": 1,
+  "batch_number": 4,
+  "collection_folder": "MixDrumRock - Lote 04",
+  "archive_name": "MixDrumRock-lote-04.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "songs": [
+    {
+      "artist": "System of a Down",
+      "title": "Chop Suey",
+      "file_id": "be01d7ce04014fbba0ba47a0155b42ac",
+      "source_url": "https://rhythmverse.co/songfile/be01d7ce04014fbba0ba47a0155b42ac",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/be01d7ce04014fbba0ba47a0155b42ac/System%20of%20a%20Down%20-%20Chop%20Suey.zip",
+      "archive_format": "zip",
+      "folder": "System of a Down - Chop Suey [be01d7ce]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1300,
+          "kick_note_on_count": 335,
+          "tom_marker_count": 115,
+          "last_expert_onset_seconds": 201.957,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 8,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "be01d7ce04014fbba0ba47a0155b42ac",
+        "artist": "System of a Down",
+        "title": "Chop Suey",
+        "album": "Toxicity",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/be01d7ce04014fbba0ba47a0155b42ac",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/be01d7ce04014fbba0ba47a0155b42ac/System of a Down - Chop Suey.zip",
+        "duration_seconds": 213.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "System of a Down - Chop Suey/album.png",
+          "name": "album.png",
+          "sha256": "ecbadad42a8b056568f3fea0162e4195d16d6a95b6d8b67ddd87ce57fd630216"
+        },
+        {
+          "archive_name": "System of a Down - Chop Suey/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "4dcd5f8988bcd2f0c80527b303eec1dfe248f9acbe54a73ce5873420b2cfed35"
+        },
+        {
+          "archive_name": "System of a Down - Chop Suey/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "befa53b53f300b5b982df13b5b56a548f88f226ec2cd7a806aab22d7c4664748"
+        },
+        {
+          "archive_name": "System of a Down - Chop Suey/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "5a52e5becbaa03ca8dc7f0afc1d62c48432f0c866d4d8425e637c722b64270fd"
+        },
+        {
+          "archive_name": "System of a Down - Chop Suey/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "6d17db0d56031c027e37adc74518a1350ade6d72c70d0514d81afebde9827ca9"
+        },
+        {
+          "archive_name": "System of a Down - Chop Suey/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "620db33f91cc0080f62d8edac8046d6ba0d41202697269d7f0df9984f346faf8"
+        },
+        {
+          "archive_name": "System of a Down - Chop Suey/notes.mid",
+          "name": "notes.mid",
+          "sha256": "fdb996d7ebe19013c4bdafacc1cfd35904c3f8181390fb8ce73623a7270ab198"
+        },
+        {
+          "archive_name": "System of a Down - Chop Suey/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "c00f4692cbd4716e1943d5630996d3d957d9433ca8f977714039b0fca882d9ca"
+        },
+        {
+          "archive_name": "System of a Down - Chop Suey/song.ini",
+          "name": "song.ini",
+          "sha256": "2db816aaeefb300d8dc9d04da26eba97f0d20c49209ccdfe94a31d211661e846"
+        },
+        {
+          "archive_name": "System of a Down - Chop Suey/song.ogg",
+          "name": "song.ogg",
+          "sha256": "143fdb6f2a1f1691bf6eae3b4640b0f05b0664ae37a79ffa247315e0ea9e5e4c"
+        },
+        {
+          "archive_name": "System of a Down - Chop Suey/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "0d40aed3548e7a2b5bf4a343f86dc377307a84c75149e4ddc938344aa79a1e4b"
+        }
+      ],
+      "archive_sha256": "622a99e122ade7f13fba2837994f39c05d7aed690b583e9347688bee79a15f73",
+      "archive_bytes": 30990243,
+      "prepared_bytes": 31186173,
+      "qobuz_track_ids": [
+        "12983955"
+      ],
+      "playlist_track_ids": [
+        "12221847166"
+      ]
+    },
+    {
+      "artist": "VIOLENT VIRA",
+      "title": "S.E.X. Narcissist",
+      "file_id": "d8b2446a0735432b8cffca49df45e858",
+      "source_url": "https://rhythmverse.co/songfile/d8b2446a0735432b8cffca49df45e858",
+      "download_url": "https://rhythmverse.co/download_file/bedfastshrimp/d8b2446a0735432b8cffca49df45e858/S.E.X.%20Narcissist.zip",
+      "archive_format": "zip",
+      "folder": "VIOLENT VIRA - S.E.X. Narcissist [d8b2446a]",
+      "charter": "BedfastShrimp",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1139,
+          "kick_note_on_count": 427,
+          "cymbal_marker_count": 466,
+          "last_expert_onset_seconds": 202.462,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d8b2446a0735432b8cffca49df45e858",
+        "artist": "VIOLENT VIRA",
+        "title": "S.E.X. Narcissist",
+        "album": "Lover of a Ghost",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/d8b2446a0735432b8cffca49df45e858",
+        "download_url": "https://rhythmverse.co/download_file/bedfastshrimp/d8b2446a0735432b8cffca49df45e858/S.E.X. Narcissist.zip",
+        "duration_seconds": 221.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "BedfastShrimp",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "S.E.X. Narcissist/album.jpg",
+          "name": "album.jpg",
+          "sha256": "f2d51bf4c083c1270497d3d09dbd341297c7a96051d216fa5c9ce55b1bda7338"
+        },
+        {
+          "archive_name": "S.E.X. Narcissist/notes.chart",
+          "name": "notes.chart",
+          "sha256": "9589b1661ab68b58fee9121a1901765387972d7dcd6e1c314a59bdaa26517216"
+        },
+        {
+          "archive_name": "S.E.X. Narcissist/song.ini",
+          "name": "song.ini",
+          "sha256": "ac4866dddf35f8607a3e500179fd2add71bea83607801bd89047f0eae6e6e23a"
+        },
+        {
+          "archive_name": "S.E.X. Narcissist/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7fe07a3c806e088dc06b2677563d7bbf9159702e6322f467cab9aea6cffe362d"
+        }
+      ],
+      "archive_sha256": "6b2b40ef584329065abcaf8fd52f1383146988cee542d9c88bd51ecabfc44226",
+      "archive_bytes": 5815654,
+      "prepared_bytes": 5886351,
+      "qobuz_track_ids": [
+        "368269402"
+      ],
+      "playlist_track_ids": [
+        "12221847128"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Buried Alive",
+      "file_id": "7cb2d2f776064fe29faee83ff4d57418",
+      "source_url": "https://rhythmverse.co/songfile/7cb2d2f776064fe29faee83ff4d57418",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1y-cIAiVjA-xrwj5Nzm-Zll5h7s-D_Y1Q",
+      "archive_format": "files",
+      "folder": "Avenged Sevenfold - Buried Alive [7cb2d2f7]",
+      "charter": "metalli3212",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2118,
+          "kick_note_on_count": 697,
+          "cymbal_marker_count": 813,
+          "last_expert_onset_seconds": 403.168,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7cb2d2f776064fe29faee83ff4d57418",
+        "artist": "Avenged Sevenfold",
+        "title": "Buried Alive",
+        "album": "Nightmare",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/7cb2d2f776064fe29faee83ff4d57418",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1y-cIAiVjA-xrwj5Nzm-Zll5h7s-D_Y1Q",
+        "duration_seconds": 408.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "9ab778de228dc3323858018681fce21160684965a461e0cabdb2bb69a139dbd1",
+          "download_url": "https://drive.google.com/uc?export=download&id=1LrpQ4j5ijtsAs1wqpzy7gbBP1M3HYW87",
+          "source_sha256": "9ab778de228dc3323858018681fce21160684965a461e0cabdb2bb69a139dbd1",
+          "bytes": 83302
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "a1ea116bc7b96d188c5bf5544599c536722ddeb566f336094cb46323980d485b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1IBDJYKegKN3A-IoW54QWpiyXWNDhXdJR",
+          "source_sha256": "a1ea116bc7b96d188c5bf5544599c536722ddeb566f336094cb46323980d485b",
+          "bytes": 345132
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "767926f29287e003b26f5202cbb9080798abb4f38fe990588578c350ba5f34d9",
+          "download_url": "https://drive.google.com/uc?export=download&id=1ZeNxUVeaIFVP-tay5VXc3PJsYJMUmxtF",
+          "source_sha256": "767926f29287e003b26f5202cbb9080798abb4f38fe990588578c350ba5f34d9",
+          "bytes": 10145997
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "1175061ec7e94b15415cbc24465257db8cdbbec3ea7c0de66a4582d551cedfa2",
+          "download_url": "https://drive.google.com/uc?export=download&id=1bA9xlGBYrgCfvIz0kioodLBYo9zTHPGw",
+          "source_sha256": "1175061ec7e94b15415cbc24465257db8cdbbec3ea7c0de66a4582d551cedfa2",
+          "bytes": 55765
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "f56bc2b67753226582c9730d3c0823dab66b520be293b1b31b1ef8d4b2efdab1",
+          "download_url": "https://drive.google.com/uc?export=download&id=1yTFaW5wDu0PSPRbtXJlSLhHvXPBXdxwa",
+          "source_sha256": "d34f980c2604d293dd3f31d3f9b52a02dae60389c9ea8209b9dbdcb0040e8ead",
+          "bytes": 589
+        }
+      ],
+      "prepared_bytes": 10630756,
+      "qobuz_track_ids": [
+        "2270595"
+      ],
+      "playlist_track_ids": [
+        "12433542491"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Coming Home",
+      "file_id": "034ed5ec55644ff49d719a821138d2e9",
+      "source_url": "https://rhythmverse.co/songfile/034ed5ec55644ff49d719a821138d2e9",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1Ui5ENcc_bx9KC-TCqZIjPoB8AtCIMSjY",
+      "archive_format": "files",
+      "folder": "Avenged Sevenfold - Coming Home [034ed5ec]",
+      "charter": "metalli3212",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2784,
+          "kick_note_on_count": 1017,
+          "cymbal_marker_count": 1095,
+          "last_expert_onset_seconds": 384.909,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "034ed5ec55644ff49d719a821138d2e9",
+        "artist": "Avenged Sevenfold",
+        "title": "Coming Home",
+        "album": "Hail to the King",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/034ed5ec55644ff49d719a821138d2e9",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1Ui5ENcc_bx9KC-TCqZIjPoB8AtCIMSjY",
+        "duration_seconds": 386.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "fb9a0f10bcf28d03027ada1b20662bf2fd0b7bb63852e78238dc117504eb8908",
+          "download_url": "https://drive.google.com/uc?export=download&id=1ED2CW3j64PH0ByFJGTjnG5y_lkvEzybN",
+          "source_sha256": "fb9a0f10bcf28d03027ada1b20662bf2fd0b7bb63852e78238dc117504eb8908",
+          "bytes": 41533
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "68730e723634a36cb97ba399b1bf01afd43a5be3506bf07cad003cfa791f0167",
+          "download_url": "https://drive.google.com/uc?export=download&id=1HAwCrpck1t6rx03dCrBI2jDUHgKQ_H0T",
+          "source_sha256": "68730e723634a36cb97ba399b1bf01afd43a5be3506bf07cad003cfa791f0167",
+          "bytes": 334832
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "abb7ede1213de23850d1f3064bb147e12be318e287924caa3462af21f5102ea9",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Au_jWEzbkOAZOQpRIIBgxoOb1NlxM_S4",
+          "source_sha256": "abb7ede1213de23850d1f3064bb147e12be318e287924caa3462af21f5102ea9",
+          "bytes": 10026483
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "5863f009aec9c06f598ec1f742f9203a5100e117da3b369b96efa49c9f7e7228",
+          "download_url": "https://drive.google.com/uc?export=download&id=18iNYSGu8kczDbWC1CASKUiuFkA3U-hsc",
+          "source_sha256": "5863f009aec9c06f598ec1f742f9203a5100e117da3b369b96efa49c9f7e7228",
+          "bytes": 70854
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "6e8e56fc83f39a08198cba26d8cfc2a0ebf28b7e2dadeda5acdfcb9d25884618",
+          "download_url": "https://drive.google.com/uc?export=download&id=1RbHqlv4VJCrTXO2w2rzd2oUeEFuplKjY",
+          "source_sha256": "6e8e56fc83f39a08198cba26d8cfc2a0ebf28b7e2dadeda5acdfcb9d25884618",
+          "bytes": 601
+        }
+      ],
+      "prepared_bytes": 10474303,
+      "qobuz_track_ids": [
+        "13112404"
+      ],
+      "playlist_track_ids": [
+        "12449396037"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Critical Acclaim",
+      "file_id": "c775a8e4e3ef4c22a9c3589bdb53fc66",
+      "source_url": "https://rhythmverse.co/songfile/c775a8e4e3ef4c22a9c3589bdb53fc66",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1utOXOeA1UE1K125AUPPr7cRmZqhDzhKC",
+      "archive_format": "files",
+      "folder": "Avenged Sevenfold - Critical Acclaim [c775a8e4]",
+      "charter": "metalli3212",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2555,
+          "kick_note_on_count": 1188,
+          "cymbal_marker_count": 891,
+          "last_expert_onset_seconds": 316.034,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c775a8e4e3ef4c22a9c3589bdb53fc66",
+        "artist": "Avenged Sevenfold",
+        "title": "Critical Acclaim",
+        "album": "Avenged Sevenfold",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/c775a8e4e3ef4c22a9c3589bdb53fc66",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1utOXOeA1UE1K125AUPPr7cRmZqhDzhKC",
+        "duration_seconds": 320.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "38c238efa42aa4d0b21bc2e557250f07698980946b30c3fc1a2bf26b5ccebd29",
+          "download_url": "https://drive.google.com/uc?export=download&id=1aEXcwWtwdG8alyG_tB_5xpxKM5wtG3Xr",
+          "source_sha256": "38c238efa42aa4d0b21bc2e557250f07698980946b30c3fc1a2bf26b5ccebd29",
+          "bytes": 17522
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "d438d56770e002fd3d972bae23873e8ede30d7a4c1f2dc6521cdb0b28aa701d9",
+          "download_url": "https://drive.google.com/uc?export=download&id=18qy-VQlzj5ff7osOOgm4vDLvLDM_ZIov",
+          "source_sha256": "d438d56770e002fd3d972bae23873e8ede30d7a4c1f2dc6521cdb0b28aa701d9",
+          "bytes": 322505
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "99ca17d7de6190344e90a2bb8ee3b188d9d77bb22ec213d6816e2a44ca07f358",
+          "download_url": "https://drive.google.com/uc?export=download&id=1WN46odKs4DK4hSY5ABGx2kyCsVSwSx4p",
+          "source_sha256": "99ca17d7de6190344e90a2bb8ee3b188d9d77bb22ec213d6816e2a44ca07f358",
+          "bytes": 8488247
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "1e1511bca1ecbf86f3da8ccea861a35f54dc7d1770201633eb0c35713508ce5e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1o8ClxwrOmCU4ead3fCwK0hNklTT6LO77",
+          "source_sha256": "1e1511bca1ecbf86f3da8ccea861a35f54dc7d1770201633eb0c35713508ce5e",
+          "bytes": 63920
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "ee1bedbd5581596a6cf86ef86b53e47b0f376d3e25ab0316bffa97449b6de63c",
+          "download_url": "https://drive.google.com/uc?export=download&id=1ZraEtzoCR2qIc9o_77IkjhwTmw2uR8YD",
+          "source_sha256": "69c954fec7fbfcf14d50a8cd54e11bd7015c7493743f4cada0be34f79e2279b1",
+          "bytes": 601
+        }
+      ],
+      "prepared_bytes": 8892766,
+      "qobuz_track_ids": [
+        "4689329"
+      ],
+      "playlist_track_ids": [
+        "12449394400"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Danger Line",
+      "file_id": "c1f7bd54d2b845b2a46d6b090224a84b",
+      "source_url": "https://rhythmverse.co/songfile/c1f7bd54d2b845b2a46d6b090224a84b",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1ZhSJTY0-4Caf8lf78Z64r20TAu88MxFM",
+      "archive_format": "files",
+      "folder": "Avenged Sevenfold - Danger Line [c1f7bd54]",
+      "charter": "metalli3212",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2664,
+          "kick_note_on_count": 905,
+          "cymbal_marker_count": 825,
+          "last_expert_onset_seconds": 322.755,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c1f7bd54d2b845b2a46d6b090224a84b",
+        "artist": "Avenged Sevenfold",
+        "title": "Danger Line",
+        "album": "Nightmare",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/c1f7bd54d2b845b2a46d6b090224a84b",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1ZhSJTY0-4Caf8lf78Z64r20TAu88MxFM",
+        "duration_seconds": 327.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "9ab778de228dc3323858018681fce21160684965a461e0cabdb2bb69a139dbd1",
+          "download_url": "https://drive.google.com/uc?export=download&id=1j-ZwMcRs1Gqt0UzrZcQKx90drRKwMfH4",
+          "source_sha256": "9ab778de228dc3323858018681fce21160684965a461e0cabdb2bb69a139dbd1",
+          "bytes": 83302
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "a1ea116bc7b96d188c5bf5544599c536722ddeb566f336094cb46323980d485b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1khRhkOYVhEu23eANviBB5lku5SV9pZiH",
+          "source_sha256": "a1ea116bc7b96d188c5bf5544599c536722ddeb566f336094cb46323980d485b",
+          "bytes": 345132
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "216b52175cfb878c58a0c951b55e9d36521b23ed419e86aa13522250ddfa5e6f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1bzrIzbZedJkQV7o7YfNln5GgJeThv-fE",
+          "source_sha256": "216b52175cfb878c58a0c951b55e9d36521b23ed419e86aa13522250ddfa5e6f",
+          "bytes": 8211960
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "bdccf693d52cfe432f0d52a0eaa68af50956dbd7f901df52ae3d8ea4bb0b29b6",
+          "download_url": "https://drive.google.com/uc?export=download&id=1CWUnih4DXM6s68wD4yaVozisToKf_oF3",
+          "source_sha256": "bdccf693d52cfe432f0d52a0eaa68af50956dbd7f901df52ae3d8ea4bb0b29b6",
+          "bytes": 62364
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "93ffe8f0a5e2b8c60807d7f5526c878a2a57624a2c8e162841410df1eee06e2f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1etREiUjPystK2AZdtJO6aTPsPl6TMPPj",
+          "source_sha256": "93ffe8f0a5e2b8c60807d7f5526c878a2a57624a2c8e162841410df1eee06e2f",
+          "bytes": 594
+        }
+      ],
+      "prepared_bytes": 8703352,
+      "qobuz_track_ids": [
+        "2270594"
+      ],
+      "playlist_track_ids": [
+        "12449393647"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Doing Time",
+      "file_id": "638d1e1f37e146f6aab9a7967c06da4e",
+      "source_url": "https://rhythmverse.co/songfile/638d1e1f37e146f6aab9a7967c06da4e",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1rvdzLuzhku48ZNi4gnJbOHynwoWp2Sl3",
+      "archive_format": "files",
+      "folder": "Avenged Sevenfold - Doing Time [638d1e1f]",
+      "charter": "metalli3212",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1267,
+          "kick_note_on_count": 445,
+          "cymbal_marker_count": 491,
+          "last_expert_onset_seconds": 203.649,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "638d1e1f37e146f6aab9a7967c06da4e",
+        "artist": "Avenged Sevenfold",
+        "title": "Doing Time",
+        "album": "Hail to the King",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/638d1e1f37e146f6aab9a7967c06da4e",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1rvdzLuzhku48ZNi4gnJbOHynwoWp2Sl3",
+        "duration_seconds": 206.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "fb9a0f10bcf28d03027ada1b20662bf2fd0b7bb63852e78238dc117504eb8908",
+          "download_url": "https://drive.google.com/uc?export=download&id=11qhkuxzJ73zEngUAbg95vuyPPbQtoh0x",
+          "source_sha256": "fb9a0f10bcf28d03027ada1b20662bf2fd0b7bb63852e78238dc117504eb8908",
+          "bytes": 41533
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "68730e723634a36cb97ba399b1bf01afd43a5be3506bf07cad003cfa791f0167",
+          "download_url": "https://drive.google.com/uc?export=download&id=15HGO4O5JK49TX7Ucc7HrvEaRC89f1Zwb",
+          "source_sha256": "68730e723634a36cb97ba399b1bf01afd43a5be3506bf07cad003cfa791f0167",
+          "bytes": 334832
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "4dd1af45bb914bf304d2d63877c07e2f73e51497718d5b4d1570db94418ebf13",
+          "download_url": "https://drive.google.com/uc?export=download&id=1lqOywxcw1AW1IBT8n1cKpIHUcG9yH9QC",
+          "source_sha256": "4dd1af45bb914bf304d2d63877c07e2f73e51497718d5b4d1570db94418ebf13",
+          "bytes": 5192360
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "9da9fb98f80585789cf676df9f0333837861ab471e02b35b2f02da97ffba322d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1B4yz4elNm28tazmpTHC0LeUp65xfmRLm",
+          "source_sha256": "9da9fb98f80585789cf676df9f0333837861ab471e02b35b2f02da97ffba322d",
+          "bytes": 31455
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "2acbc71da297ef7cf6de2cd15f9fa7c61d6718f9a58410e023f240407985f54a",
+          "download_url": "https://drive.google.com/uc?export=download&id=1lrKNC_BvL6uDi_ZJK2l_ZXYgen6JH-Ao",
+          "source_sha256": "2acbc71da297ef7cf6de2cd15f9fa7c61d6718f9a58410e023f240407985f54a",
+          "bytes": 600
+        }
+      ],
+      "prepared_bytes": 5600780,
+      "qobuz_track_ids": [
+        "13112398"
+      ],
+      "playlist_track_ids": [
+        "12449396032"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "God Hates Us",
+      "file_id": "c2d287ffecd54ed6b5c59cbb23e94d6d",
+      "source_url": "https://rhythmverse.co/songfile/c2d287ffecd54ed6b5c59cbb23e94d6d",
+      "download_url": "https://drive.google.com/drive/u/0/folders/16CmSFYHaQ61qk7VuFDiLC7wcc7uayoS9",
+      "archive_format": "files",
+      "folder": "Avenged Sevenfold - God Hates Us [c2d287ff]",
+      "charter": "SanicStudios",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1538,
+          "kick_note_on_count": 567,
+          "cymbal_marker_count": 517,
+          "last_expert_onset_seconds": 279.261,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c2d287ffecd54ed6b5c59cbb23e94d6d",
+        "artist": "Avenged Sevenfold",
+        "title": "God Hates Us",
+        "album": "Nightmare",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/c2d287ffecd54ed6b5c59cbb23e94d6d",
+        "download_url": "https://drive.google.com/drive/u/0/folders/16CmSFYHaQ61qk7VuFDiLC7wcc7uayoS9",
+        "duration_seconds": 321.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "SanicStudios",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "6e278e4c5427a402008de1f3a5bfb66df88ba95483ca3b56c9e2369c924af2b6",
+          "download_url": "https://drive.google.com/uc?export=download&id=15Geb877m1wrkFrEUmLBjDwzYJRncmmXN",
+          "source_sha256": "6e278e4c5427a402008de1f3a5bfb66df88ba95483ca3b56c9e2369c924af2b6",
+          "bytes": 45735
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "e4311ae6d0160b5c0d6cde335ed041e323224cb814a456ae439237c8ad209fea",
+          "download_url": "https://drive.google.com/uc?export=download&id=1h_cAXfGjs1HRhXXZfOIWmFcxR3lDfYqg",
+          "source_sha256": "e4311ae6d0160b5c0d6cde335ed041e323224cb814a456ae439237c8ad209fea",
+          "bytes": 184301
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "54e2faaea88f7d2ef12b66fc721d9376774194c1d8eb621d2af4b014a86a0249",
+          "download_url": "https://drive.google.com/uc?export=download&id=1iw3nNUikZzWG0EZh4s24sgnwvuoxk-kS",
+          "source_sha256": "54e2faaea88f7d2ef12b66fc721d9376774194c1d8eb621d2af4b014a86a0249",
+          "bytes": 260513
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "b21f2b3ac551dcc815f76240929fb19e3cbeb95ba4a83df8c9ffcae3a1afb280",
+          "download_url": "https://drive.google.com/uc?export=download&id=1S6TLPcRokeq4G9aEZKmIw0XVCO27BHU7",
+          "source_sha256": "08341907069753b56304c01ea71bef742d556377b80ce9c494b929491d509375",
+          "bytes": 491
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "0c3b418f5dd57a253c25ae463520119c7a096c4576f6e030aaf3655952426b4e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1DgN4P6yL53GYR5ZCELPmuuVGnrLlz87m",
+          "source_sha256": "0c3b418f5dd57a253c25ae463520119c7a096c4576f6e030aaf3655952426b4e",
+          "bytes": 10361623
+        }
+      ],
+      "prepared_bytes": 10852634,
+      "qobuz_track_ids": [
+        "2270598"
+      ],
+      "playlist_track_ids": [
+        "12449393650"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Natural Born Killer",
+      "file_id": "311ffe0cb85042568c822fde4285fdea",
+      "source_url": "https://rhythmverse.co/songfile/311ffe0cb85042568c822fde4285fdea",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1B1XKvKNwul04UhIK68R2hkFQ4d_NgK28",
+      "archive_format": "files",
+      "folder": "Avenged Sevenfold - Natural Born Killer [311ffe0c]",
+      "charter": "metalli3212",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2838,
+          "kick_note_on_count": 1220,
+          "cymbal_marker_count": 912,
+          "last_expert_onset_seconds": 314.139,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "311ffe0cb85042568c822fde4285fdea",
+        "artist": "Avenged Sevenfold",
+        "title": "Natural Born Killer",
+        "album": "Nightmare",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/311ffe0cb85042568c822fde4285fdea",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1B1XKvKNwul04UhIK68R2hkFQ4d_NgK28",
+        "duration_seconds": 316.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "9ab778de228dc3323858018681fce21160684965a461e0cabdb2bb69a139dbd1",
+          "download_url": "https://drive.google.com/uc?export=download&id=1yB0EqiWaAwjwtYss8zRfiuSA1p04Ynwv",
+          "source_sha256": "9ab778de228dc3323858018681fce21160684965a461e0cabdb2bb69a139dbd1",
+          "bytes": 83302
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "a1ea116bc7b96d188c5bf5544599c536722ddeb566f336094cb46323980d485b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1KbxJDlVqTK-AHA34M_2Htk0t0Iw4DugU",
+          "source_sha256": "a1ea116bc7b96d188c5bf5544599c536722ddeb566f336094cb46323980d485b",
+          "bytes": 345132
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "856823dbed3a39ed3b0aeb758a39134066825c8d9a33cd7ce30433918cb8aba3",
+          "download_url": "https://drive.google.com/uc?export=download&id=1NX0VBDdBGsAyVhBIBPFCeOBxRNSl9coh",
+          "source_sha256": "856823dbed3a39ed3b0aeb758a39134066825c8d9a33cd7ce30433918cb8aba3",
+          "bytes": 8031633
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "4389cad300a5df44697c802ee3a30a3da4766c5b62402eaa61f80d7b4eb9d91d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1i1KtXZN0aXoK0wKBjR0enDmYX04KKf_v",
+          "source_sha256": "4389cad300a5df44697c802ee3a30a3da4766c5b62402eaa61f80d7b4eb9d91d",
+          "bytes": 67420
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "dbb3157c70646f6ce571427a994c77ed516d96b7cf1f4e93008fc34db2d3a3fc",
+          "download_url": "https://drive.google.com/uc?export=download&id=1TmF05F-j7lQ1I0QAnannr9DDuLc9VFXW",
+          "source_sha256": "eea2784a70e71503a17192c2350489066a45f6a59cab93e55ed52121f532b5cb",
+          "bytes": 602
+        }
+      ],
+      "prepared_bytes": 8528060,
+      "qobuz_track_ids": [
+        "2270596"
+      ],
+      "playlist_track_ids": [
+        "12449393648"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Save Me",
+      "file_id": "cba4eed77c74435ca920eee2661defa5",
+      "source_url": "https://rhythmverse.co/songfile/cba4eed77c74435ca920eee2661defa5",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1J_CwqouZ5NZptoaIg4K63tFDoDDdDCp-",
+      "archive_format": "files",
+      "folder": "Avenged Sevenfold - Save Me [cba4eed7]",
+      "charter": "SanicStudios",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 4985,
+          "kick_note_on_count": 1718,
+          "cymbal_marker_count": 2101,
+          "last_expert_onset_seconds": 655.579,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "cba4eed77c74435ca920eee2661defa5",
+        "artist": "Avenged Sevenfold",
+        "title": "Save Me",
+        "album": "Nightmare",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/cba4eed77c74435ca920eee2661defa5",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1J_CwqouZ5NZptoaIg4K63tFDoDDdDCp-",
+        "duration_seconds": 660.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "SanicStudios",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "6e278e4c5427a402008de1f3a5bfb66df88ba95483ca3b56c9e2369c924af2b6",
+          "download_url": "https://drive.google.com/uc?export=download&id=1I3QK40TjbWO14OuJuyvaUVlAtj7R0q4S",
+          "source_sha256": "6e278e4c5427a402008de1f3a5bfb66df88ba95483ca3b56c9e2369c924af2b6",
+          "bytes": 45735
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "e4311ae6d0160b5c0d6cde335ed041e323224cb814a456ae439237c8ad209fea",
+          "download_url": "https://drive.google.com/uc?export=download&id=1dZpxYa3rnTzozuRgH_QXS6oeK_zaMV6b",
+          "source_sha256": "e4311ae6d0160b5c0d6cde335ed041e323224cb814a456ae439237c8ad209fea",
+          "bytes": 184301
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "e570afa19f1c762429acf3856f3b5ef720b45956a149f48c6968eb218e750fb4",
+          "download_url": "https://drive.google.com/uc?export=download&id=1_ELN9SNjH_6uQsckPEMJ-z9EhRu_0qtu",
+          "source_sha256": "e570afa19f1c762429acf3856f3b5ef720b45956a149f48c6968eb218e750fb4",
+          "bytes": 704775
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "0521cd984b4e3068736943a541995e16f79a4559202a1c52cb69b50045a9941e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1kmXwt7a35WcydQfDwfOjzHXhO98W5qU0",
+          "source_sha256": "2b20bc538a740f769d25b88467d7bae5d73f73ecaf7197903cf37af0b3080fec",
+          "bytes": 502
+        },
+        {
+          "archive_name": "song.opus",
+          "name": "song.opus",
+          "sha256": "dadf1a2cfd8d67b8cfa435575f5cfdfd8eb67e3be57aa976baeda417529de3e5",
+          "download_url": "https://drive.google.com/uc?export=download&id=1DA2LanvagYoKdl3IMYCJerYBMkphN-at",
+          "source_sha256": "dadf1a2cfd8d67b8cfa435575f5cfdfd8eb67e3be57aa976baeda417529de3e5",
+          "bytes": 8003914
+        }
+      ],
+      "prepared_bytes": 8939201,
+      "qobuz_track_ids": [
+        "2270602"
+      ],
+      "playlist_track_ids": [
+        "12449393654"
+      ]
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "This Means War",
+      "file_id": "112129e789344b56a2a1922aee0134bd",
+      "source_url": "https://rhythmverse.co/songfile/112129e789344b56a2a1922aee0134bd",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1eplLNV-FGHVSV9KE00GkamNjxBj5xFTI",
+      "archive_format": "files",
+      "folder": "Avenged Sevenfold - This Means War [112129e7]",
+      "charter": "metalli3212",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1662,
+          "kick_note_on_count": 386,
+          "cymbal_marker_count": 876,
+          "last_expert_onset_seconds": 364.169,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "112129e789344b56a2a1922aee0134bd",
+        "artist": "Avenged Sevenfold",
+        "title": "This Means War",
+        "album": "Hail to the King",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/112129e789344b56a2a1922aee0134bd",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1eplLNV-FGHVSV9KE00GkamNjxBj5xFTI",
+        "duration_seconds": 366.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "8804e5fa329820215971f5edd6e2d85b17b0ac5bb5f3c5f7239dd3b7d2c4993b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1nnS-MPkk8Ndh_Z07JP6FnJ8rVHRnBDLs",
+          "source_sha256": "8804e5fa329820215971f5edd6e2d85b17b0ac5bb5f3c5f7239dd3b7d2c4993b",
+          "bytes": 45303
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "68730e723634a36cb97ba399b1bf01afd43a5be3506bf07cad003cfa791f0167",
+          "download_url": "https://drive.google.com/uc?export=download&id=1zhHZvZK3pYA4WD1aUj4_cniXO6YCswpW",
+          "source_sha256": "68730e723634a36cb97ba399b1bf01afd43a5be3506bf07cad003cfa791f0167",
+          "bytes": 334832
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "7393a62302d91988f71d8d35296704a82c3d44a86b10054d968123483c63ea94",
+          "download_url": "https://drive.google.com/uc?export=download&id=1LaASdwYEBiX-f08WKVS0I9ssJ3lnlYpR",
+          "source_sha256": "7393a62302d91988f71d8d35296704a82c3d44a86b10054d968123483c63ea94",
+          "bytes": 9734332
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "e3d1ad367a31aabb81311f815ac459b0d53124b2c334336d6146089fb0769a9e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1JHzrudjYmegpMfxS-NEkDCokugs1l-1I",
+          "source_sha256": "e3d1ad367a31aabb81311f815ac459b0d53124b2c334336d6146089fb0769a9e",
+          "bytes": 45461
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "30ee2eb756037ea94b18cfec8dce33f51dfca991b763085080caff456f6e0e91",
+          "download_url": "https://drive.google.com/uc?export=download&id=1kIcqRNVEPIUgh98VunuZ_WrCNe10ZKj4",
+          "source_sha256": "30ee2eb756037ea94b18cfec8dce33f51dfca991b763085080caff456f6e0e91",
+          "bytes": 603
+        }
+      ],
+      "prepared_bytes": 10160531,
+      "qobuz_track_ids": [
+        "13112400"
+      ],
+      "playlist_track_ids": [
+        "12449396033"
+      ]
+    },
+    {
+      "artist": "Elena Siegman",
+      "title": "115",
+      "file_id": "6c3a879f249043c4b3bc4efce3aa162d",
+      "source_url": "https://rhythmverse.co/songfile/6c3a879f249043c4b3bc4efce3aa162d",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1brNu2kj5UCOie5qsC6vGso6l0xE-FG6S",
+      "archive_format": "files",
+      "folder": "Elena Siegman - 115 [6c3a879f]",
+      "charter": "metalli3212",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2240,
+          "kick_note_on_count": 1305,
+          "cymbal_marker_count": 506,
+          "last_expert_onset_seconds": 222.354,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6c3a879f249043c4b3bc4efce3aa162d",
+        "artist": "Elena Siegman",
+        "title": "115",
+        "album": "Call of Duty: Black Ops – Zombies",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/6c3a879f249043c4b3bc4efce3aa162d",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1brNu2kj5UCOie5qsC6vGso6l0xE-FG6S",
+        "duration_seconds": 228.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "6e3f6ceee9d486265af943600d6835c58749789bc5e91cc2cb9a6b029917bbba",
+          "download_url": "https://drive.google.com/uc?export=download&id=1zQFz2gdloVpQiTsnWsbQCBIVjDb7hAug",
+          "source_sha256": "6e3f6ceee9d486265af943600d6835c58749789bc5e91cc2cb9a6b029917bbba",
+          "bytes": 110091
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "b29c7c202eac3322a89d320230913c6840b5af2b6106d9d39d1ec976b9c90417",
+          "download_url": "https://drive.google.com/uc?export=download&id=1OuWvTfWw-ws0v_ExrQjZl2yKCgElp1EP",
+          "source_sha256": "b29c7c202eac3322a89d320230913c6840b5af2b6106d9d39d1ec976b9c90417",
+          "bytes": 259068
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c2e6202edd301eea406a3f15f3a158e45896f80ca1f4979e2aeeda62c0b30f50",
+          "download_url": "https://drive.google.com/uc?export=download&id=1JtkErCDX-3yBXBcQoQyJzUh135PD4KXb",
+          "source_sha256": "c2e6202edd301eea406a3f15f3a158e45896f80ca1f4979e2aeeda62c0b30f50",
+          "bytes": 6221204
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "41850efb36d6d935513544f65035d3070a5b835f354eaf7e7d2463f53ace536a",
+          "download_url": "https://drive.google.com/uc?export=download&id=1qZVUFkO6IMPiXf-KaMJaFNy1NpBizxIc",
+          "source_sha256": "41850efb36d6d935513544f65035d3070a5b835f354eaf7e7d2463f53ace536a",
+          "bytes": 60085
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "e1bbdb9f6d0a5d2fb0bd75a58e99e542d563229dd496dfc296162723ef329ecb",
+          "download_url": "https://drive.google.com/uc?export=download&id=14iZrV-wYUcV2R2XYyTWKUo2eygdeyAWZ",
+          "source_sha256": "e1bbdb9f6d0a5d2fb0bd75a58e99e542d563229dd496dfc296162723ef329ecb",
+          "bytes": 608
+        }
+      ],
+      "prepared_bytes": 6651056,
+      "qobuz_track_ids": [
+        "107357404"
+      ],
+      "playlist_track_ids": [
+        "12221847095"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "Born In Winter",
+      "file_id": "d1747b9c85834ab19d4b8d86c8fddb9d",
+      "source_url": "https://rhythmverse.co/songfile/d1747b9c85834ab19d4b8d86c8fddb9d",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1DBWtUkmoCTmuYxCc_wM4WA9FqeNyF-fE",
+      "archive_format": "files",
+      "folder": "Gojira - Born In Winter [d1747b9c]",
+      "charter": "Bounty, Miscellany",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2037,
+          "kick_note_on_count": 462,
+          "tom_marker_count": 11,
+          "last_expert_onset_seconds": 227.612,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d1747b9c85834ab19d4b8d86c8fddb9d",
+        "artist": "Gojira",
+        "title": "Born In Winter",
+        "album": "L'Enfant Sauvage",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/d1747b9c85834ab19d4b8d86c8fddb9d",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1DBWtUkmoCTmuYxCc_wM4WA9FqeNyF-fE",
+        "duration_seconds": 232.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Bounty, Miscellany",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "241265b0d40ab93f16eb8d3d79a9ba2b8a15cb46e11733433891af0d235c4a9a",
+          "download_url": "https://drive.google.com/uc?export=download&id=1eAswmyOuzxSDL6Pk0PxIXfRfPEmeisdy",
+          "source_sha256": "241265b0d40ab93f16eb8d3d79a9ba2b8a15cb46e11733433891af0d235c4a9a",
+          "bytes": 657119
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "cdb5344af4b18d28fae0736a887bc5a83876b3c145e5afbc965d6f1bb9e6112b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1HMX8G4zoUdTHjTywDaEB7jeBxBxKFAF0",
+          "source_sha256": "cdb5344af4b18d28fae0736a887bc5a83876b3c145e5afbc965d6f1bb9e6112b",
+          "bytes": 38003
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "71978419e7fa9f7c7c9f465b5da2d4eda7b0fe8f916770f8393782a63b01856d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1UO_3XrnGuXlLdklPE0fi1clNIbeAdXJT",
+          "source_sha256": "cf8b1e43d8006c211d1db43aa748c094297f6939f9c54440ddbc9e25dd28719c",
+          "bytes": 389
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "608c2e0db6b852a554446580ee1cd8c8cbfdb9e38ebd73e4440f3b5e1f126575",
+          "download_url": "https://drive.google.com/uc?export=download&id=1NQ_3MX3BC2yX-FP7ZI2-47aAL0uaf_kg",
+          "source_sha256": "608c2e0db6b852a554446580ee1cd8c8cbfdb9e38ebd73e4440f3b5e1f126575",
+          "bytes": 4936473
+        }
+      ],
+      "prepared_bytes": 5631978,
+      "qobuz_track_ids": [
+        "5650388"
+      ],
+      "playlist_track_ids": [
+        "12451169780"
+      ]
+    },
+    {
+      "artist": "Gojira",
+      "title": "Flying Whales",
+      "file_id": "0727d1a7e80f42a780eb658fc551af73",
+      "source_url": "https://rhythmverse.co/songfile/0727d1a7e80f42a780eb658fc551af73",
+      "download_url": "https://drive.google.com/drive/u/0/folders/13_d8HInRN9czp-e_TsFmbIoQjImIRy4Z",
+      "archive_format": "files",
+      "folder": "Gojira - Flying Whales [0727d1a7]",
+      "charter": "Halcyon",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3104,
+          "kick_note_on_count": 912,
+          "cymbal_marker_count": 1299,
+          "last_expert_onset_seconds": 461.961,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "0727d1a7e80f42a780eb658fc551af73",
+        "artist": "Gojira",
+        "title": "Flying Whales",
+        "album": "From Mars To Sirius",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/0727d1a7e80f42a780eb658fc551af73",
+        "download_url": "https://drive.google.com/drive/u/0/folders/13_d8HInRN9czp-e_TsFmbIoQjImIRy4Z",
+        "duration_seconds": 466.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Halcyon",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "91881bc82c59ea114b3fe77859b2d8c22273d384ce4c87f050c1f94523df353c",
+          "download_url": "https://drive.google.com/uc?export=download&id=1FAh1EoByexJzH3dFmD0_nf7unkaZkSL6",
+          "source_sha256": "91881bc82c59ea114b3fe77859b2d8c22273d384ce4c87f050c1f94523df353c",
+          "bytes": 45257
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "2221fb945a499c253686a61e4323df7a4284b686139561737030df8258fbffd2",
+          "download_url": "https://drive.google.com/uc?export=download&id=1NEI-pM-DNY8ACbBJBbAPQMjI6GbBEX3k",
+          "source_sha256": "2221fb945a499c253686a61e4323df7a4284b686139561737030df8258fbffd2",
+          "bytes": 1038091
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "958d73d989cb687fcc954aea2fda6b966ec1546b5a23336c2513d62fafd75790",
+          "download_url": "https://drive.google.com/uc?export=download&id=1p_lIFCHOB4N6ZxeUMvypSAff3nXXqRBH",
+          "source_sha256": "958d73d989cb687fcc954aea2fda6b966ec1546b5a23336c2513d62fafd75790",
+          "bytes": 19699413
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "da515566544d16dafca653e6d16cf131a304ab8e0a0b75b2c479b985a964e2d3",
+          "download_url": "https://drive.google.com/uc?export=download&id=1T7xuwIFf1rEELUopAGRWlamyLNRa0iNy",
+          "source_sha256": "da515566544d16dafca653e6d16cf131a304ab8e0a0b75b2c479b985a964e2d3",
+          "bytes": 161458
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "2a710aa608299b732f709dffb10691eea9d05d470a3b7d22c281717a98e6ef50",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Q4NfJNfyApPn5mHHgRRjTL_SL9Jw9kjF",
+          "source_sha256": "d4b4de808c0896d1042b81ec09e9956a4afe35994ef89a85c78fa7aa273fc496",
+          "bytes": 502
+        }
+      ],
+      "prepared_bytes": 20944714,
+      "qobuz_track_ids": [
+        "14195455"
+      ],
+      "playlist_track_ids": [
+        "12451169771"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Charlotte The Harlot",
+      "file_id": "96ff27edd0e9480f8ec3e3c31d343e1c",
+      "source_url": "https://rhythmverse.co/songfile/96ff27edd0e9480f8ec3e3c31d343e1c",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1WDDLNzpRZn5PqM5SyBXTry4T8pH2gmY_",
+      "archive_format": "files",
+      "folder": "Iron Maiden - Charlotte The Harlot [96ff27ed]",
+      "charter": "highfine",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2114,
+          "kick_note_on_count": 481,
+          "cymbal_marker_count": 893,
+          "last_expert_onset_seconds": 250.165,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "96ff27edd0e9480f8ec3e3c31d343e1c",
+        "artist": "Iron Maiden",
+        "title": "Charlotte The Harlot",
+        "album": "Iron Maiden",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/96ff27edd0e9480f8ec3e3c31d343e1c",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1WDDLNzpRZn5PqM5SyBXTry4T8pH2gmY_",
+        "duration_seconds": 254.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "highfine",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "4000607a05d21889226ba9ef716ec578982d3286ca86d99170875d279d073ae7",
+          "download_url": "https://drive.google.com/uc?export=download&id=15eZ3UGy6oLzcnTJz5V9SQ9R_ER_6ESaB",
+          "source_sha256": "4000607a05d21889226ba9ef716ec578982d3286ca86d99170875d279d073ae7",
+          "bytes": 220104
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "fc31e1cb01b222255b9c1b25bd110f824699b4b42881e99c675e33f53bb898f2",
+          "download_url": "https://drive.google.com/uc?export=download&id=1qqZ3hzOmZJs6jR5IkH2zzs9US1kWlMM-",
+          "source_sha256": "fc31e1cb01b222255b9c1b25bd110f824699b4b42881e99c675e33f53bb898f2",
+          "bytes": 480647
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "c65ed2fe66125123bf309773b209ff87a51f72b67e40f19d1632f1b48767adff",
+          "download_url": "https://drive.google.com/uc?export=download&id=1hEe6OHt5xQx-FAKfRdAhZk_ZgxOXfvea",
+          "source_sha256": "c65ed2fe66125123bf309773b209ff87a51f72b67e40f19d1632f1b48767adff",
+          "bytes": 119977
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "d7c7c95701f889b3f7647d823279655070989a5f15845b02333d27a3581d96b4",
+          "download_url": "https://drive.google.com/uc?export=download&id=1JJnwCeRLHkcpi0t0K0yGDBMI_AhEF9I0",
+          "source_sha256": "c873228af76cc9800ccb170099770d4dd31ff3fb40c392c47b83a017f328a7c4",
+          "bytes": 472
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "64554fe6fe221551b384036ef401b011b6dc3bb0d7c347f1cd6a2a071deb6a00",
+          "download_url": "https://drive.google.com/uc?export=download&id=1BJR4CZ7qtj24zhLqQZXCyhVht5EO_tMt",
+          "source_sha256": "64554fe6fe221551b384036ef401b011b6dc3bb0d7c347f1cd6a2a071deb6a00",
+          "bytes": 8593804
+        }
+      ],
+      "prepared_bytes": 9415005,
+      "qobuz_track_ids": [
+        "25104466"
+      ],
+      "playlist_track_ids": [
+        "12449352528"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Killers",
+      "file_id": "87ba44ba0081440083628c0832f82529",
+      "source_url": "https://rhythmverse.co/songfile/87ba44ba0081440083628c0832f82529",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1Lu94TIGw1_IqRZdArRPRgdAnZ4pds0uc",
+      "archive_format": "files",
+      "folder": "Iron Maiden - Killers [87ba44ba]",
+      "charter": "highfine",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3058,
+          "kick_note_on_count": 782,
+          "cymbal_marker_count": 1214,
+          "last_expert_onset_seconds": 299.14,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "87ba44ba0081440083628c0832f82529",
+        "artist": "Iron Maiden",
+        "title": "Killers",
+        "album": "Killers",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/87ba44ba0081440083628c0832f82529",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1Lu94TIGw1_IqRZdArRPRgdAnZ4pds0uc",
+        "duration_seconds": 301.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "highfine",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "eee35dc5493a4d94d7eb1cc8acba978b3ca218718dff43206c8e10a962db9712",
+          "download_url": "https://drive.google.com/uc?export=download&id=1yPVQI7xE5apdSokpSIvtJKB0_mCI_8-R",
+          "source_sha256": "eee35dc5493a4d94d7eb1cc8acba978b3ca218718dff43206c8e10a962db9712",
+          "bytes": 571973
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "b609a29c1a245ef6521c5556caf373deb89bfb87e4d61cac76aca593aca37282",
+          "download_url": "https://drive.google.com/uc?export=download&id=1U1OLDRmJe5nTpS0dKbBAe6Bfok70Bj8g",
+          "source_sha256": "b609a29c1a245ef6521c5556caf373deb89bfb87e4d61cac76aca593aca37282",
+          "bytes": 1049969
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "406348e81dd8d4a2670074f5126dee651009d0b3a5cba9ecd91244646abfd55a",
+          "download_url": "https://drive.google.com/uc?export=download&id=19poOjwhTOF-ar3UcClDeKQeDE_9kFtn2",
+          "source_sha256": "406348e81dd8d4a2670074f5126dee651009d0b3a5cba9ecd91244646abfd55a",
+          "bytes": 171287
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "39afec8e829ca96114e384d15a4e938f072868a3bc4bb890bd8ea4bb665d7091",
+          "download_url": "https://drive.google.com/uc?export=download&id=1vKcO_FmxRB4vs3IxvAbeH9BqeZXFNXbB",
+          "source_sha256": "5e535e84409b0fd2a5f122cfee6476146b7e3983fda2b4170cd21c82a1d56f12",
+          "bytes": 281
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "c0ce7d5cfb1bf8a3a8e4b9c0cf8e238644ee4f3f1f0b7c57e7aaa17b018d73ab",
+          "download_url": "https://drive.google.com/uc?export=download&id=1rCqWvheT9uhn9P8BpYiT0sH4NOMEJRN9",
+          "source_sha256": "c0ce7d5cfb1bf8a3a8e4b9c0cf8e238644ee4f3f1f0b7c57e7aaa17b018d73ab",
+          "bytes": 10821332
+        }
+      ],
+      "prepared_bytes": 12614843,
+      "qobuz_track_ids": [
+        "25104443"
+      ],
+      "playlist_track_ids": [
+        "12449352519"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Murders in the Rue Morgue",
+      "file_id": "183edc904bff47019667708a2439c492",
+      "source_url": "https://rhythmverse.co/songfile/183edc904bff47019667708a2439c492",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1cbnfG4emH2bZCiHyTNcCuu9e0vmO2EFt",
+      "archive_format": "files",
+      "folder": "Iron Maiden - Murders in the Rue Morgue [183edc90]",
+      "charter": "metalli3212",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2021,
+          "kick_note_on_count": 572,
+          "cymbal_marker_count": 813,
+          "last_expert_onset_seconds": 255.251,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "183edc904bff47019667708a2439c492",
+        "artist": "Iron Maiden",
+        "title": "Murders in the Rue Morgue",
+        "album": "Killers",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/183edc904bff47019667708a2439c492",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1cbnfG4emH2bZCiHyTNcCuu9e0vmO2EFt",
+        "duration_seconds": 262.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "d87f2e2f4c89239d9e57df6cec21a8ddb17883f4d6e49dbfd5354b6d70f33c02",
+          "download_url": "https://drive.google.com/uc?export=download&id=1DKA2eOZHv7n7KYAQtioFnhdigG_ny17Q",
+          "source_sha256": "d87f2e2f4c89239d9e57df6cec21a8ddb17883f4d6e49dbfd5354b6d70f33c02",
+          "bytes": 259032
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "e7b375f4be7a39662dc534e7d04d3545fb84aa6bab21d13c0699d39194ddf6c0",
+          "download_url": "https://drive.google.com/uc?export=download&id=111H77AlJgVOFwr9DiPSajBCoqSAtXxZz",
+          "source_sha256": "e7b375f4be7a39662dc534e7d04d3545fb84aa6bab21d13c0699d39194ddf6c0",
+          "bytes": 557318
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "316e153715d3c729d5f7c46adaf68e5fba72a5be448671b1915c5754e805555e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1qM_2Srrc5tpEmKEz4KOBDj2hDDT2CHi5",
+          "source_sha256": "316e153715d3c729d5f7c46adaf68e5fba72a5be448671b1915c5754e805555e",
+          "bytes": 7780055
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "c2de6f230a5bd261881817387aa1db813b45ecadba2bbb67620ab153d3d4dfb7",
+          "download_url": "https://drive.google.com/uc?export=download&id=1e1aX_1pKGiUTsVjaZgnpO3MsRMRGQlAf",
+          "source_sha256": "c2de6f230a5bd261881817387aa1db813b45ecadba2bbb67620ab153d3d4dfb7",
+          "bytes": 95408
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "ecc258b74301ee16d45ec71d4f01ae7c0178fe2be9788037069124fb58136b5d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1mGQIj1j127b6eC-9PScxtih2GqNQkO32",
+          "source_sha256": "99c975a71252632285c5126961bf685fb63142d4a5e9db7c257abb23cb42a386",
+          "bytes": 598
+        }
+      ],
+      "prepared_bytes": 8692382,
+      "qobuz_track_ids": [
+        "25104437"
+      ],
+      "playlist_track_ids": [
+        "12449352529"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Wastelands",
+      "file_id": "85dcfc605c154f4f8ef14a055fe1acb2",
+      "source_url": "https://rhythmverse.co/songfile/85dcfc605c154f4f8ef14a055fe1acb2",
+      "download_url": "https://drive.google.com/drive/u/0/folders/156wQEwqlD3zPnO1HtALIWalN0w-XQuyp",
+      "archive_format": "files",
+      "folder": "Linkin Park - Wastelands [85dcfc60]",
+      "charter": "Youngblood",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1027,
+          "kick_note_on_count": 327,
+          "cymbal_marker_count": 442,
+          "last_expert_onset_seconds": 189.731,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "85dcfc605c154f4f8ef14a055fe1acb2",
+        "artist": "Linkin Park",
+        "title": "Wastelands",
+        "album": "The Hunting Party",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/85dcfc605c154f4f8ef14a055fe1acb2",
+        "download_url": "https://drive.google.com/drive/u/0/folders/156wQEwqlD3zPnO1HtALIWalN0w-XQuyp",
+        "duration_seconds": 197.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "d49b1f1bbf7240174ca36a3481bd24273080bef2beec0baf23776bbb559141ab",
+          "download_url": "https://drive.google.com/uc?export=download&id=1JQvZ-ZkHSSaCq8fWFPaq6s1sj7QFzy67",
+          "source_sha256": "d49b1f1bbf7240174ca36a3481bd24273080bef2beec0baf23776bbb559141ab",
+          "bytes": 1557073
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "34ac8eb1bf9f359f41bf7709384356f561c43f815947306ce50d6d5b3c667fc2",
+          "download_url": "https://drive.google.com/uc?export=download&id=1WGu_KmpIyo7gQMtf8cKblyizUQKLBw1T",
+          "source_sha256": "34ac8eb1bf9f359f41bf7709384356f561c43f815947306ce50d6d5b3c667fc2",
+          "bytes": 121198
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "c252d358f77ae9a52d798becd795ce0852ff78481b7ea985aea3233b3df5940f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1FWrb6NQ1WH3AL2M8HC9L2nEHR2LF5GCQ",
+          "source_sha256": "c252d358f77ae9a52d798becd795ce0852ff78481b7ea985aea3233b3df5940f",
+          "bytes": 40322
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "307f2de0bdcacd525c51b78ffb0dc9bfae4dd8d265e2d0cfb4a52cbbbe7fe0b2",
+          "download_url": "https://drive.google.com/uc?export=download&id=1G1AQrhbW5EMPiNIkVM8Ua5R5BHxxmtU7",
+          "source_sha256": "307f2de0bdcacd525c51b78ffb0dc9bfae4dd8d265e2d0cfb4a52cbbbe7fe0b2",
+          "bytes": 411
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "74e170c675fdf7cc4c8ace2886e2683dd18b98eb1fe29e0b652ef3d91491968f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1qn0UHSa6PXx9qsJH7Q56-LpwmahXdX3W",
+          "source_sha256": "74e170c675fdf7cc4c8ace2886e2683dd18b98eb1fe29e0b652ef3d91491968f",
+          "bytes": 5509765
+        }
+      ],
+      "prepared_bytes": 7228769,
+      "qobuz_track_ids": [
+        "40848161"
+      ],
+      "playlist_track_ids": [
+        "12450473464"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "The Sick, The Dying… And The Dead!",
+      "file_id": "be79984d40184fe78929560a480d7012",
+      "source_url": "https://rhythmverse.co/songfile/be79984d40184fe78929560a480d7012",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1jc82EgK3N-Jov_VR1bsgELroa0BJ4oro",
+      "archive_format": "files",
+      "folder": "Megadeth - The Sick, The Dying… And The Dead! [be79984d]",
+      "charter": "CH1BACA_BR",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1980,
+          "kick_note_on_count": 670,
+          "cymbal_marker_count": 798,
+          "last_expert_onset_seconds": 300.434,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "be79984d40184fe78929560a480d7012",
+        "artist": "Megadeth",
+        "title": "The Sick, The Dying… And The Dead!",
+        "album": "The Sick, The Dying… And The Dead!",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/be79984d40184fe78929560a480d7012",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1jc82EgK3N-Jov_VR1bsgELroa0BJ4oro",
+        "duration_seconds": 306.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "CH1BACA_BR",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "92ecc4132aae137b8bd47c6fff2f8486d7b67d5015ed53832c02b53da9383bef",
+          "download_url": "https://drive.google.com/uc?export=download&id=10JppCj3sSTiGbq4O6i_nbh9Bniq-470X",
+          "source_sha256": "92ecc4132aae137b8bd47c6fff2f8486d7b67d5015ed53832c02b53da9383bef",
+          "bytes": 325304
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "6a974525df6ade5b9aca65601697418f6fb037e12b79330d1ea5dc3cf4bdcc04",
+          "download_url": "https://drive.google.com/uc?export=download&id=1XmuteP66korQasn7OXgQB4Mpnwih-OVm",
+          "source_sha256": "6a974525df6ade5b9aca65601697418f6fb037e12b79330d1ea5dc3cf4bdcc04",
+          "bytes": 79831
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "de36930899a93a4480cdc64c1b46555017bedb75b94bf17d8e2a0527c43fc392",
+          "download_url": "https://drive.google.com/uc?export=download&id=17ruG0yBmnlRujNGo5EAcYsZ0wemNH6Ko",
+          "source_sha256": "c668594f5877227c869176c91610ef20d6ed209c5eb96ed7dc357f40f7d53f46",
+          "bytes": 462
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "4ca6385bc6facdc2a34aece2d3ae61a6c2012f47d6783bbcc35fc9eccfb52397",
+          "download_url": "https://drive.google.com/uc?export=download&id=1tFk4izgQ4p7o6rtAZUztNkHwvMibHake",
+          "source_sha256": "4ca6385bc6facdc2a34aece2d3ae61a6c2012f47d6783bbcc35fc9eccfb52397",
+          "bytes": 9782014
+        }
+      ],
+      "prepared_bytes": 10187603,
+      "qobuz_track_ids": [
+        "159325219"
+      ],
+      "playlist_track_ids": [
+        "12450478628"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Battery",
+      "file_id": "36deeb98af964d37af7973167daa0609",
+      "source_url": "https://rhythmverse.co/songfile/36deeb98af964d37af7973167daa0609",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1PsaskChLeJXmua9EySOGjX-FtI19F26I",
+      "archive_format": "files",
+      "folder": "Metallica - Battery [36deeb98]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2749,
+          "kick_note_on_count": 726,
+          "cymbal_marker_count": 1291,
+          "last_expert_onset_seconds": 310.135,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "36deeb98af964d37af7973167daa0609",
+        "artist": "Metallica",
+        "title": "Battery",
+        "album": "Master Of Puppets",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/36deeb98af964d37af7973167daa0609",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1PsaskChLeJXmua9EySOGjX-FtI19F26I",
+        "duration_seconds": 314.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "8e8af0447b079f372714db984a34d60c223b2ff20eba38539f37d96b7556f4ad",
+          "download_url": "https://drive.google.com/uc?export=download&id=1goEQZeg_ho8h-D953woioS9lJjCYBdu0",
+          "source_sha256": "8e8af0447b079f372714db984a34d60c223b2ff20eba38539f37d96b7556f4ad",
+          "bytes": 401798
+        },
+        {
+          "archive_name": "background.jpeg",
+          "name": "background.jpeg",
+          "sha256": "98cfd4d17641fc7fc085edd37366e71ba23e12516400e956460482e2aec1e4a6",
+          "download_url": "https://drive.google.com/uc?export=download&id=1ymEVQ9bE2Fe9c76qQPA7cn23fASxz6q-",
+          "source_sha256": "98cfd4d17641fc7fc085edd37366e71ba23e12516400e956460482e2aec1e4a6",
+          "bytes": 503944
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "3b43085025ae08c9fe84535265c61c8378cc600a02e9a1e7de2272e0e0361b40",
+          "download_url": "https://drive.google.com/uc?export=download&id=14P0MTSTy4weI6Bxue0R33EIXFzWmloxo",
+          "source_sha256": "3b43085025ae08c9fe84535265c61c8378cc600a02e9a1e7de2272e0e0361b40",
+          "bytes": 95072
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "663b87331321de53b13c475fba7f3a222e5dc91c8a204d11400e85a57b486542",
+          "download_url": "https://drive.google.com/uc?export=download&id=1KSpI09F_Tvmjd_KXJeR2WduUJnYl_KEM",
+          "source_sha256": "87c2af0638235306f3f5b4262781697e4091fdccaf0e431bb2a004ad052ca5d3",
+          "bytes": 911
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "0c073de94260275b746dcaefd31dd7cdb096fc80767f2eac0b88a35e34e669b6",
+          "download_url": "https://drive.google.com/uc?export=download&id=1MQMefbs8sFFZrhWrXU4bFnq3LBjH7kZa",
+          "source_sha256": "0c073de94260275b746dcaefd31dd7cdb096fc80767f2eac0b88a35e34e669b6",
+          "bytes": 9979959
+        }
+      ],
+      "prepared_bytes": 10981688,
+      "qobuz_track_ids": [
+        "95787403"
+      ],
+      "playlist_track_ids": [
+        "12449350432"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "For Whom The Bell Tolls",
+      "file_id": "348ecabbd21a43ddaaa31845f2a3eb30",
+      "source_url": "https://rhythmverse.co/songfile/348ecabbd21a43ddaaa31845f2a3eb30",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1ne_0wIwPd6yFmoMweq7dTPvMWIjcmuy2",
+      "archive_format": "files",
+      "folder": "Metallica - For Whom The Bell Tolls [348ecabb]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1186,
+          "kick_note_on_count": 264,
+          "cymbal_marker_count": 427,
+          "last_expert_onset_seconds": 300.132,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "348ecabbd21a43ddaaa31845f2a3eb30",
+        "artist": "Metallica",
+        "title": "For Whom The Bell Tolls",
+        "album": "Ride The Lightning",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/348ecabbd21a43ddaaa31845f2a3eb30",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1ne_0wIwPd6yFmoMweq7dTPvMWIjcmuy2",
+        "duration_seconds": 312.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "bb246cb7d74a12465b6a5e544c3755a292d2e14236b157a8df3bf7ffdc22df0d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1QnGR87EE1luLmS2n2yQrcLriBblEgAwj",
+          "source_sha256": "bb246cb7d74a12465b6a5e544c3755a292d2e14236b157a8df3bf7ffdc22df0d",
+          "bytes": 362336
+        },
+        {
+          "archive_name": "background.jpeg",
+          "name": "background.jpeg",
+          "sha256": "7fd9747353ff083c8697007f82ff5d36e2b95d8da024af29e48e30a27bc9613d",
+          "download_url": "https://drive.google.com/uc?export=download&id=14cQv_VSIR7NtWowUprV7Kt1fR-kKZJEI",
+          "source_sha256": "7fd9747353ff083c8697007f82ff5d36e2b95d8da024af29e48e30a27bc9613d",
+          "bytes": 357612
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "aa350e17b98e12c1cc2664f2929d2f10e53e305c6517ffc754d748e8a3db0699",
+          "download_url": "https://drive.google.com/uc?export=download&id=19KBMO73qmIV9GnZASR3JqE1bbgS0IXC_",
+          "source_sha256": "aa350e17b98e12c1cc2664f2929d2f10e53e305c6517ffc754d748e8a3db0699",
+          "bytes": 39925
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "d412bb165510e8abf3477cf7b045c240a84f3bbcdbe125c6f389603708f358d7",
+          "download_url": "https://drive.google.com/uc?export=download&id=1pyFN4r8HvupBlVY898Yl2guuYRa6lQvL",
+          "source_sha256": "4414645ed61b90cc1f300c2dea28113521c709d9740a263d64cfe2605781c7b5",
+          "bytes": 608
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "b0b4f6d6aefd36e3b17dcb616c2a8f3ba024adb604cf3c2964af80d3c900219a",
+          "download_url": "https://drive.google.com/uc?export=download&id=1-D9YzW3NpOZNMBYrUrvqzgeNPW17x8DQ",
+          "source_sha256": "b0b4f6d6aefd36e3b17dcb616c2a8f3ba024adb604cf3c2964af80d3c900219a",
+          "bytes": 9453713
+        }
+      ],
+      "prepared_bytes": 10214200,
+      "qobuz_track_ids": [
+        "95786171"
+      ],
+      "playlist_track_ids": [
+        "12449350400"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Master Of Puppets",
+      "file_id": "aef9b1146cb349c1b723ffaa7c17177b",
+      "source_url": "https://rhythmverse.co/songfile/aef9b1146cb349c1b723ffaa7c17177b",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1jZ6O_fJrXja3OjMsg1b3PExieAnYtYPB",
+      "archive_format": "files",
+      "folder": "Metallica - Master Of Puppets [aef9b114]",
+      "charter": "Youngblood",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 3318,
+          "kick_note_on_count": 883,
+          "cymbal_marker_count": 1204,
+          "last_expert_onset_seconds": 499.718,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "aef9b1146cb349c1b723ffaa7c17177b",
+        "artist": "Metallica",
+        "title": "Master Of Puppets",
+        "album": "Master Of Puppets",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/aef9b1146cb349c1b723ffaa7c17177b",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1jZ6O_fJrXja3OjMsg1b3PExieAnYtYPB",
+        "duration_seconds": 517.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "8e8af0447b079f372714db984a34d60c223b2ff20eba38539f37d96b7556f4ad",
+          "download_url": "https://drive.google.com/uc?export=download&id=1trHNGWbYn7k1BnNW2lMyfBQVBMTA-9oJ",
+          "source_sha256": "8e8af0447b079f372714db984a34d60c223b2ff20eba38539f37d96b7556f4ad",
+          "bytes": 401798
+        },
+        {
+          "archive_name": "background.jpeg",
+          "name": "background.jpeg",
+          "sha256": "98cfd4d17641fc7fc085edd37366e71ba23e12516400e956460482e2aec1e4a6",
+          "download_url": "https://drive.google.com/uc?export=download&id=1NR_EGFCNe3XK5k5oVj1pIlCL84FFEcOm",
+          "source_sha256": "98cfd4d17641fc7fc085edd37366e71ba23e12516400e956460482e2aec1e4a6",
+          "bytes": 503944
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "ac9932dd3f72e417c43f35e841f2c369ce53470f7fe088d880c4a8a46f7ee1af",
+          "download_url": "https://drive.google.com/uc?export=download&id=1XO7YjZrtXMPEPrvPfXHH-rMn4xHzROJa",
+          "source_sha256": "ac9932dd3f72e417c43f35e841f2c369ce53470f7fe088d880c4a8a46f7ee1af",
+          "bytes": 115383
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "857a98c03fd9fd1c193b34c06a47ce5905decf55cbe2e8f1a6bc6c9d574ff9a5",
+          "download_url": "https://drive.google.com/uc?export=download&id=1BtpADEsqsprodXvcbl0D67c4RJC6NMXh",
+          "source_sha256": "857a98c03fd9fd1c193b34c06a47ce5905decf55cbe2e8f1a6bc6c9d574ff9a5",
+          "bytes": 427
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "f9cead689707587aec7771cb2c34c4d4bdc7bc31630d86150353c8fb096cb65d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1hD6dwO3jhnOJJs9LEcFxmEZnxUIH6CNm",
+          "source_sha256": "f9cead689707587aec7771cb2c34c4d4bdc7bc31630d86150353c8fb096cb65d",
+          "bytes": 16663523
+        }
+      ],
+      "prepared_bytes": 17685075,
+      "qobuz_track_ids": [
+        "95787404"
+      ],
+      "playlist_track_ids": [
+        "12449343965"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Prince Charming",
+      "file_id": "e30e413c42aa4b7bb404cdb6d3087ae5",
+      "source_url": "https://rhythmverse.co/songfile/e30e413c42aa4b7bb404cdb6d3087ae5",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1aqvzpRs9EGbmykLB0EUqj7Kk-a_p1OZk",
+      "archive_format": "files",
+      "folder": "Metallica - Prince Charming [e30e413c]",
+      "charter": "Youngblood",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2506,
+          "kick_note_on_count": 753,
+          "cymbal_marker_count": 902,
+          "last_expert_onset_seconds": 360.491,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "e30e413c42aa4b7bb404cdb6d3087ae5",
+        "artist": "Metallica",
+        "title": "Prince Charming",
+        "album": "Reload",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/e30e413c42aa4b7bb404cdb6d3087ae5",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1aqvzpRs9EGbmykLB0EUqj7Kk-a_p1OZk",
+        "duration_seconds": 367.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "1ed6999ecba4d065fc0dc56b00c21514c006f089224d0c8ee878b9b0b8f1dec9",
+          "download_url": "https://drive.google.com/uc?export=download&id=1aaFPALeu-8Ii9k9NcsGdDlMKDXchpS-P",
+          "source_sha256": "1ed6999ecba4d065fc0dc56b00c21514c006f089224d0c8ee878b9b0b8f1dec9",
+          "bytes": 33871
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "de29f245f9f98733bfe71343d408d74850a497c07023453db908ee3232a81e0f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1pIrX8yBNpMl_Ep6_KLDQZLZRB4iTg9Yp",
+          "source_sha256": "de29f245f9f98733bfe71343d408d74850a497c07023453db908ee3232a81e0f",
+          "bytes": 220251
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "d4e93de6310984332500ee3b69741f6d712f8af2e785b6c1eabc4ee5ff4b410e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1KQW-mpFK9fQiAb0UHlp8ohUhrCg1CP8w",
+          "source_sha256": "d4e93de6310984332500ee3b69741f6d712f8af2e785b6c1eabc4ee5ff4b410e",
+          "bytes": 80796
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "589633a313e182e1ae306a67ce84d4003de9c7d4620afaa38f32df9ddc1c2ffc",
+          "download_url": "https://drive.google.com/uc?export=download&id=1uSxUQtqT1NOvTIrB_xmSBU-BjCgqHBZs",
+          "source_sha256": "56f7330eaf16e7a641b1ad5c6dbfaed61448be1f795df797e519e6356e1a45cc",
+          "bytes": 355
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "b3c0c461a579a8b54a1b2e38d3966035acb288375f75a748e8bb41e7423964d8",
+          "download_url": "https://drive.google.com/uc?export=download&id=1vaTPo6fZFjgUUGSNNo5R1xMoDmP-WD3l",
+          "source_sha256": "b3c0c461a579a8b54a1b2e38d3966035acb288375f75a748e8bb41e7423964d8",
+          "bytes": 10926057
+        }
+      ],
+      "prepared_bytes": 11261335,
+      "qobuz_track_ids": [
+        "95785448"
+      ],
+      "playlist_track_ids": [
+        "12449350416"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Milk It",
+      "file_id": "a90f973b6baf4ec699aad655ff1138c2",
+      "source_url": "https://rhythmverse.co/songfile/a90f973b6baf4ec699aad655ff1138c2",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1OiPPr5tGMNbKM3jNcVlDXJdISB0ZIdOM",
+      "archive_format": "files",
+      "folder": "Nirvana - Milk It [a90f973b]",
+      "charter": "metalli3212",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1363,
+          "kick_note_on_count": 454,
+          "cymbal_marker_count": 690,
+          "last_expert_onset_seconds": 232.807,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a90f973b6baf4ec699aad655ff1138c2",
+        "artist": "Nirvana",
+        "title": "Milk It",
+        "album": "In Utero",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a90f973b6baf4ec699aad655ff1138c2",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1OiPPr5tGMNbKM3jNcVlDXJdISB0ZIdOM",
+        "duration_seconds": 235.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "ba05c74367ea616539b095f2f5c28c5cc81965f94749a7b6d1bb810a5758fb4b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1u7dROy_WtFKx4yEktm2aws06lJWidmPZ",
+          "source_sha256": "ba05c74367ea616539b095f2f5c28c5cc81965f94749a7b6d1bb810a5758fb4b",
+          "bytes": 76036
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "1260f99d70f08d433ec3027e92f7cf842f7369f936fe0996e3943fcf39d5d9b0",
+          "download_url": "https://drive.google.com/uc?export=download&id=1T5RBZ9XIx7edtEcooddYpPTFlRxwWDJ3",
+          "source_sha256": "1260f99d70f08d433ec3027e92f7cf842f7369f936fe0996e3943fcf39d5d9b0",
+          "bytes": 6457128
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "6d3ca9e5368900f3bbc0afd6dc21fbbf28b3a121702fef45ff872df566c60be7",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Ovbfeb3lS7sJdzPaBXPRaU_rGYrP_m0I",
+          "source_sha256": "6d3ca9e5368900f3bbc0afd6dc21fbbf28b3a121702fef45ff872df566c60be7",
+          "bytes": 87380
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "d431c181e177a21fa732b95bb6c86293bb5f3670db7a17f9910a367d950463b5",
+          "download_url": "https://drive.google.com/uc?export=download&id=1EOtgb5ekz0F7zAw0095dXh7wbTQo4ebV",
+          "source_sha256": "f679a40b082f1f122b4c3302cd3a4d2dcc3a08a848003ab3fa2c4ed2f284cf20",
+          "bytes": 695
+        }
+      ],
+      "prepared_bytes": 6621214,
+      "qobuz_track_ids": [
+        "11395735"
+      ],
+      "playlist_track_ids": [
+        "12433542499"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "You Know You're Right",
+      "file_id": "27d3f43a1a3b427492c83a4da4ea13fa",
+      "source_url": "https://rhythmverse.co/songfile/27d3f43a1a3b427492c83a4da4ea13fa",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1V2IU1m1FM92rUBHH6keSg6-bZdg-JUG2",
+      "archive_format": "files",
+      "folder": "Nirvana - You Know You're Right [27d3f43a]",
+      "charter": "highfine",
+      "set_pro_drums": true,
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1422,
+          "kick_note_on_count": 445,
+          "cymbal_marker_count": 350,
+          "last_expert_onset_seconds": 214.037,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "27d3f43a1a3b427492c83a4da4ea13fa",
+        "artist": "Nirvana",
+        "title": "You Know You're Right",
+        "album": "Nirvana",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/27d3f43a1a3b427492c83a4da4ea13fa",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1V2IU1m1FM92rUBHH6keSg6-bZdg-JUG2",
+        "duration_seconds": 222.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "highfine",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "e2d985367d108aad809b1c2da18cac1e5b5445dc18f1bb419da9932e646cd433",
+          "download_url": "https://drive.google.com/uc?export=download&id=1_jTViwTMawO0iQ1Tx0oB7SezOD-Wmhg8",
+          "source_sha256": "e2d985367d108aad809b1c2da18cac1e5b5445dc18f1bb419da9932e646cd433",
+          "bytes": 20091
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "b745fcdd8ec07299ffcade80582e54991a767955708133735bc220d68175c313",
+          "download_url": "https://drive.google.com/uc?export=download&id=1UhQaa8bCybKuCdINFfpj_eL_0IEzbPSK",
+          "source_sha256": "b745fcdd8ec07299ffcade80582e54991a767955708133735bc220d68175c313",
+          "bytes": 220463
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "9748f4b79bc27203cce31103ed8f1c836dc9134e36c496cd72e8f55bc85de413",
+          "download_url": "https://drive.google.com/uc?export=download&id=1lzudXKJjBFJ4FAFY7HiUsb_eFh_8w9xp",
+          "source_sha256": "9748f4b79bc27203cce31103ed8f1c836dc9134e36c496cd72e8f55bc85de413",
+          "bytes": 85041
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "e568d503df4f212c8ecf063d48fcf4136a3d14d8b0789b227b0580901aee4f08",
+          "download_url": "https://drive.google.com/uc?export=download&id=1fElkxf3WJ1CW8DRO4po2ynQzlSjoA6PA",
+          "source_sha256": "2900bc1eb1a872981e0a8f18901b44de996de8320a7aee28b39f97cebbd13bdc",
+          "bytes": 632
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "a286c9549f63ab93edbde881db653a6a6ce187a9ed0ea126854506070168c1b4",
+          "download_url": "https://drive.google.com/uc?export=download&id=1R_EDuVUQqkHJi3uLEam65foY32fXEa1h",
+          "source_sha256": "a286c9549f63ab93edbde881db653a6a6ce187a9ed0ea126854506070168c1b4",
+          "bytes": 6641568
+        }
+      ],
+      "prepared_bytes": 6967795,
+      "qobuz_track_ids": [
+        "51892854"
+      ],
+      "playlist_track_ids": [
+        "12449354336"
+      ]
+    }
+  ]
+}

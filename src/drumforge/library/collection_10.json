@@ -1,0 +1,2025 @@
+{
+  "schema_version": 1,
+  "batch_number": 10,
+  "collection_folder": "MixDrumRock - Lote 10",
+  "archive_name": "MixDrumRock-lote-10.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "songs": [
+    {
+      "artist": "Metallica",
+      "title": "Crash Course in Brain Surgery",
+      "file_id": "5cbd52ae393fb3.79248344",
+      "source_url": "https://rhythmverse.co/songfile/5cbd52ae393fb3.79248344",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/5cbd52ae393fb3.79248344/CCIBS_rb3con",
+      "archive_format": "onyx",
+      "folder": "Metallica - Crash Course in Brain Surgery [5cbd52ae]",
+      "charter": "AJFOne23, jdamillio",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1086,
+          "kick_note_on_count": 365,
+          "tom_marker_count": 75,
+          "last_expert_onset_seconds": 186.543,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5cbd52ae393fb3.79248344",
+        "artist": "Metallica",
+        "title": "Crash Course in Brain Surgery",
+        "album": "The $5.98 E.P. Garage Days Re-Revisited",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5cbd52ae393fb3.79248344",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/5cbd52ae393fb3.79248344/CCIBS_rb3con",
+        "duration_seconds": 192.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>GUITAR: jdamillio</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Crash Course in Brain Surgery/album.png",
+          "name": "album.png",
+          "sha256": "fde0b228fbfad843144e4e2e1508a77ee9f246b8fe0d289663bb54df77a9c559"
+        },
+        {
+          "archive_name": "Metallica - Crash Course in Brain Surgery/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f4ee0f2022c325cc9a367979a8db782593a5057854a916ff05ab920da9758752"
+        },
+        {
+          "archive_name": "Metallica - Crash Course in Brain Surgery/song.ini",
+          "name": "song.ini",
+          "sha256": "8b1d16a5972c160ac0cde6f2a9655540ce3d315359d740118e294ca01ad92881"
+        },
+        {
+          "archive_name": "Metallica - Crash Course in Brain Surgery/song.ogg",
+          "name": "song.ogg",
+          "sha256": "578474c4c7e52469ae9164586e207e08b2e9011e4b73ef7cea48665928f58d24"
+        }
+      ],
+      "archive_sha256": "3a85c5098b121f1c9f208a1c2ab3c90b009d7948648fe85db513be795cfde9a2",
+      "archive_bytes": 4460544,
+      "prepared_bytes": 3688445,
+      "qobuz_track_ids": [
+        "95787082"
+      ],
+      "playlist_track_ids": [
+        "12449350437"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Motorbreath",
+      "file_id": "59296fb7e41bd5.64729143",
+      "source_url": "https://rhythmverse.co/songfile/59296fb7e41bd5.64729143",
+      "download_url": "https://rhythmverse.co/download_file/sideshow/59296fb7e41bd5.64729143/MotorBreath1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Metallica - Motorbreath [59296fb7]",
+      "charter": "Sideshow, Beard216",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1728,
+          "kick_note_on_count": 447,
+          "tom_marker_count": 108,
+          "last_expert_onset_seconds": 186.76,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59296fb7e41bd5.64729143",
+        "artist": "Metallica",
+        "title": "Motorbreath",
+        "album": "Kill Em All",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59296fb7e41bd5.64729143",
+        "download_url": "https://rhythmverse.co/download_file/sideshow/59296fb7e41bd5.64729143/MotorBreath1x_rb3con",
+        "duration_seconds": 189.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sideshow",
+        "notes": "<p>Originally a guitar only custom by I have no idea.&#160; I decided to add bass, drums, vocals to this amazing Metallica shredder.&#160; I also had an incredible difficult time compiling this song to the point where I needed a buddy to do it.&#160; Thanks to AJFOne for compiling the song and to Beard216 for doing CAT reductions.&#160;</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Motorbreath/album.png",
+          "name": "album.png",
+          "sha256": "1796455b59bd9f4af7b1e7c971308fb9b914ea7a9ca4ac916ce8698ff02f532f"
+        },
+        {
+          "archive_name": "Metallica - Motorbreath/notes.mid",
+          "name": "notes.mid",
+          "sha256": "14115a02278183057b906f121c0e317d8bda510cf4dc2b4eb8cacdc8148212b5"
+        },
+        {
+          "archive_name": "Metallica - Motorbreath/song.ini",
+          "name": "song.ini",
+          "sha256": "f206b6e3a8835814f4a357baee9e9954502d3a7ded0413b71bb6668655ae92de"
+        },
+        {
+          "archive_name": "Metallica - Motorbreath/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0dac6eda44b6ff9215b67f16a51b49973884be6427ba7de4608ce2de7dd30f48"
+        }
+      ],
+      "archive_sha256": "1e6694d852256f4df10ded6f70d94923915e86d67332780f39f86d839604f022",
+      "archive_bytes": 5279744,
+      "prepared_bytes": 2992722,
+      "qobuz_track_ids": [
+        "95787422"
+      ],
+      "playlist_track_ids": [
+        "12450490319"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "One",
+      "file_id": "5c2071062f2389.78340055",
+      "source_url": "https://rhythmverse.co/songfile/5c2071062f2389.78340055",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/5c2071062f2389.78340055/One1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Metallica - One [5c207106]",
+      "charter": "AJFOne23",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2616,
+          "kick_note_on_count": 836,
+          "tom_marker_count": 50,
+          "last_expert_onset_seconds": 437.021,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5c2071062f2389.78340055",
+        "artist": "Metallica",
+        "title": "One",
+        "album": "...And Justice for All",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5c2071062f2389.78340055",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/5c2071062f2389.78340055/One1x_rb3con",
+        "duration_seconds": 442.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>UPDATE:<br />\n&#160;<br />\nMy sincerest apologies for the missing Overdrive and other general fuck ups. Figures the most popular song in the pack would have so many issues. Let me know if I missed anything this time. Both 1x and 2x are fixed and updated.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - One/album.png",
+          "name": "album.png",
+          "sha256": "ebeac8b32cd8085c19d99e43f6f3003cd4f28b893f902a12accebb890c9b298e"
+        },
+        {
+          "archive_name": "Metallica - One/notes.mid",
+          "name": "notes.mid",
+          "sha256": "99ce1747aa613ebbbfcfa4d1cbaa41ab4355603511760d47a3b4e15fcf3222bd"
+        },
+        {
+          "archive_name": "Metallica - One/song.ini",
+          "name": "song.ini",
+          "sha256": "3f12281ebba86d1b07e1b9a94d396e87d4b6bf0095c699195bd97b7fe7c15cf2"
+        },
+        {
+          "archive_name": "Metallica - One/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6768ae23ac8f88accde021ac90e03670af3fc55361f5a102734b158882f86acb"
+        }
+      ],
+      "archive_sha256": "00aed30e7ce2fa00821dedda76750212db322086b030ecdbf3027da6ad2552df",
+      "archive_bytes": 9916416,
+      "prepared_bytes": 8352538,
+      "qobuz_track_ids": [
+        "95785754"
+      ],
+      "playlist_track_ids": [
+        "12449350431"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "So What?",
+      "file_id": "59297498cf7dc1.99240276",
+      "source_url": "https://rhythmverse.co/songfile/59297498cf7dc1.99240276",
+      "download_url": "https://rhythmverse.co/download_file/sideshow/59297498cf7dc1.99240276/SideSoWhatv1",
+      "archive_format": "onyx",
+      "folder": "Metallica - So What_ [59297498]",
+      "charter": "Sideshow, Beard216",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1788,
+          "kick_note_on_count": 342,
+          "tom_marker_count": 42,
+          "last_expert_onset_seconds": 187.886,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59297498cf7dc1.99240276",
+        "artist": "Metallica",
+        "title": "So What?",
+        "album": "Metallica",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59297498cf7dc1.99240276",
+        "download_url": "https://rhythmverse.co/download_file/sideshow/59297498cf7dc1.99240276/SideSoWhatv1",
+        "duration_seconds": 191.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sideshow",
+        "notes": "<p>Original custom by I have no idea.&#160; They charted guitar.&#160; I charted drums, bass, vocals.&#160; Beard216 did the CAT reductions.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - So What_/album.png",
+          "name": "album.png",
+          "sha256": "50f10078f3bc2e198b0b09d6471992474ab444f693ea5883a52cfaa29e18ace9"
+        },
+        {
+          "archive_name": "Metallica - So What_/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2cc7571f03002ef984ab474d15c2dbaa67b5d042b80ac3f439ae3450b6aa8c34"
+        },
+        {
+          "archive_name": "Metallica - So What_/song.ini",
+          "name": "song.ini",
+          "sha256": "3660d8b882babbb8f9d900574d9ea94a1e51e411190e18baa12caded2ce938b2"
+        },
+        {
+          "archive_name": "Metallica - So What_/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1ccfbe6fbeca282b37a7607bf5da162bd8f8a3f7b97f003b68f979b3c0a8790c"
+        }
+      ],
+      "archive_sha256": "662ac5cba5c81a0423c11376e4ad94b368088e9c86c76ed0f5626938b2553536",
+      "archive_bytes": 4235264,
+      "prepared_bytes": 2401054,
+      "qobuz_track_ids": [
+        "95786864"
+      ],
+      "playlist_track_ids": [
+        "12449350445"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Whiskey in the Jar",
+      "file_id": "53d91dc101e30",
+      "source_url": "https://rhythmverse.co/songfile/53d91dc101e30",
+      "download_url": "https://rhythmverse.co/download_file/lowlander/53d91dc101e30/LL2_WhiskeyInTheJar",
+      "archive_format": "onyx",
+      "folder": "Metallica - Whiskey in the Jar [53d91dc1]",
+      "charter": "Colonel32dll and TLITD31 feat. Lowlander",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2043,
+          "kick_note_on_count": 432,
+          "tom_marker_count": 40,
+          "last_expert_onset_seconds": 303.221,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "53d91dc101e30",
+        "artist": "Metallica",
+        "title": "Whiskey in the Jar",
+        "album": "Garage Inc.",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/53d91dc101e30",
+        "download_url": "https://rhythmverse.co/download_file/lowlander/53d91dc101e30/LL2_WhiskeyInTheJar",
+        "duration_seconds": 307.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Lowlander2",
+        "notes": "<p>This custom was auto-converted from the C3 database. Please let the author know if something is wrong. If you ARE the author, and this song is not correctly assigned to you, please contact pksage.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Whiskey in the Jar/album.png",
+          "name": "album.png",
+          "sha256": "cb5b8b6407fa02d7eab0fd3ee97dc863912239405c7eb6e8b2606df6b93a4b98"
+        },
+        {
+          "archive_name": "Metallica - Whiskey in the Jar/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c2fd48cafd2306dc506487149d244c1f221269d649d868d3c3d5fd4fe206d3bc"
+        },
+        {
+          "archive_name": "Metallica - Whiskey in the Jar/song.ini",
+          "name": "song.ini",
+          "sha256": "7af631d485e18906ba668ace5d65c484c21465331212c0ca6621d40344edd24e"
+        },
+        {
+          "archive_name": "Metallica - Whiskey in the Jar/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5036fc7ebc072decad710d51015487052adf84d69a46ed57df37b91308ab68a9"
+        }
+      ],
+      "archive_sha256": "0a1cd671684141cbe04de5834b98cd119a2303afd1daac993effc75710924669",
+      "archive_bytes": 7155712,
+      "prepared_bytes": 5878004,
+      "qobuz_track_ids": [
+        "95786851"
+      ],
+      "playlist_track_ids": [
+        "12449350433"
+      ]
+    },
+    {
+      "artist": "Miley Cyrus",
+      "title": "Nothing Else Matters",
+      "file_id": "541392459cae4a418928cd50dde38312",
+      "source_url": "https://rhythmverse.co/songfile/541392459cae4a418928cd50dde38312",
+      "download_url": "https://rhythmverse.co/download_file/basssinger313/541392459cae4a418928cd50dde38312/NothingElseMatters_MC_rb3con",
+      "archive_format": "onyx",
+      "folder": "Miley Cyrus - Nothing Else Matters [54139245]",
+      "charter": "Professor Bass",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1356,
+          "kick_note_on_count": 359,
+          "tom_marker_count": 112,
+          "last_expert_onset_seconds": 311.987,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 9,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "541392459cae4a418928cd50dde38312",
+        "artist": "Miley Cyrus",
+        "title": "Nothing Else Matters",
+        "album": "The Metallica Blacklist",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/541392459cae4a418928cd50dde38312",
+        "download_url": "https://rhythmverse.co/download_file/basssinger313/541392459cae4a418928cd50dde38312/NothingElseMatters_MC_rb3con",
+        "duration_seconds": 403.0,
+        "duration_difference_seconds": 8.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Professor Bass",
+        "notes": "This track is part of the Covers Mixtap '26 Event.",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/album.png",
+          "name": "album.png",
+          "sha256": "aa66a10baefdb9fd254965df79763ee64b10019dc05627c0650a70af1010c570"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "98e08bd258a1e74bcc80953043e310332bd0d0f03bcaf320642d2a9198265d70"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "3d70a5404556ea402447a1790e62433fd28189c65cd45a7f8be15cacba4de67e"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "ba1cdaffe8ae6d4255d219e6dba92d7b322a021f608dd71d51ac213c0182ec5a"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "0016a61fc89c45fe8aad7857429d01449709e2c07f6911ccf2a60e9bbf871256"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "9cd435a182b0f459b7b380a3717ae2c1a28ee63c7112d0d5881330b17dd10e1a"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "4eae70ffbcf954be4d7cc67fdb4631f64ca512b7d27a65285013dd5eafc1dd82"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1dbefd72788f28e8ffca487162ffe946a8e955995d704f0a5adb0d4c75ea3436"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "c0a92cbb32e1e797d2b4f7eedccf2345bab9959f180d9bb2b9bf214a1169c458"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/song.ini",
+          "name": "song.ini",
+          "sha256": "795996e96812e58cd67df2c0f7144cbda9f830b8a6a075519447ac9c0c206c05"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/song.ogg",
+          "name": "song.ogg",
+          "sha256": "face61d42339ca1d540f1c9fefa49379de04ea93f359a677aff3077933fb3c90"
+        },
+        {
+          "archive_name": "Miley Cyrus - Nothing Else Matters/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "4f57e27d95691676fb858da746caa80400e350be7364b90d65f3950b84f1931c"
+        }
+      ],
+      "archive_sha256": "8f71fba8ed19531f07f30fd5b0be5126c7a7d27384785d91ae5a888fb8996a9d",
+      "archive_bytes": 47284224,
+      "prepared_bytes": 51720952,
+      "qobuz_track_ids": [
+        "124120887"
+      ],
+      "playlist_track_ids": [
+        "12449350399"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Big Cheese",
+      "file_id": "5a70a494b54f76.19164655",
+      "source_url": "https://rhythmverse.co/songfile/5a70a494b54f76.19164655",
+      "download_url": "https://rhythmverse.co/download_file/nunchuck/5a70a494b54f76.19164655/N_BigCheese_Full2x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Nirvana - Big Cheese [5a70a494]",
+      "charter": "Nunchuk & Sygenysis",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1684,
+          "kick_note_on_count": 592,
+          "tom_marker_count": 117,
+          "last_expert_onset_seconds": 221.918,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5a70a494b54f76.19164655",
+        "artist": "Nirvana",
+        "title": "Big Cheese",
+        "album": "Bleach",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5a70a494b54f76.19164655",
+        "download_url": "https://rhythmverse.co/download_file/nunchuck/5a70a494b54f76.19164655/N_BigCheese_Full2x_rb3con",
+        "duration_seconds": 224.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nunchuck",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Big Cheese/album.png",
+          "name": "album.png",
+          "sha256": "70cc59c7da2af63c38558662869715962ea51e96d349942597d72e8a040033c0"
+        },
+        {
+          "archive_name": "Nirvana - Big Cheese/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9e6074170a2904d20c2c45040542bb5d9b2b6e541c0acd72b80285d75e15bcc4"
+        },
+        {
+          "archive_name": "Nirvana - Big Cheese/song.ini",
+          "name": "song.ini",
+          "sha256": "d704b0345a5eed19e033ec36b1088c09194bb0277dde23ae0b2dd524379f223e"
+        },
+        {
+          "archive_name": "Nirvana - Big Cheese/song.ogg",
+          "name": "song.ogg",
+          "sha256": "645ab2feb819e77fc51069d8873489a422bde52147c03c9c12a7cc4be075ce55"
+        }
+      ],
+      "archive_sha256": "42add6a88c0fcd0d154d7984ee1b31690d369bcf4b23eb619e30163bf396a610",
+      "archive_bytes": 5152768,
+      "prepared_bytes": 3906988,
+      "qobuz_track_ids": [
+        "407819442"
+      ],
+      "playlist_track_ids": [
+        "12449354352"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Endless, Nameless",
+      "file_id": "60ef8143a26301.37936371",
+      "source_url": "https://rhythmverse.co/songfile/60ef8143a26301.37936371",
+      "download_url": "https://rhythmverse.co/download_file/slade535/60ef8143a26301.37936371/Nirvana%20-%20Endless,%20Nameless",
+      "archive_format": "onyx",
+      "folder": "Nirvana - Endless, Nameless [60ef8143]",
+      "charter": "highfine",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2909,
+          "kick_note_on_count": 1370,
+          "tom_marker_count": 338,
+          "last_expert_onset_seconds": 388.63,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "60ef8143a26301.37936371",
+        "artist": "Nirvana",
+        "title": "Endless, Nameless",
+        "album": "Nevermind",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/60ef8143a26301.37936371",
+        "download_url": "https://rhythmverse.co/download_file/slade535/60ef8143a26301.37936371/Nirvana - Endless, Nameless",
+        "duration_seconds": 403.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": "",
+        "uploader": "slade535",
+        "notes": "",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Endless, Nameless/album.png",
+          "name": "album.png",
+          "sha256": "59ffdd90bf1bff14d7673ac20b4f41ce9e300b44ed2b1bd87d551cb28db977d9"
+        },
+        {
+          "archive_name": "Nirvana - Endless, Nameless/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a78788573ca61a663b55e575551c6d0468b71f173e1da6474e4b6504b84b6291"
+        },
+        {
+          "archive_name": "Nirvana - Endless, Nameless/song.ini",
+          "name": "song.ini",
+          "sha256": "f0e3a78aef5d1e2b5228bbb09b130a34d5be1d525e0974d4c5680188c1291f46"
+        },
+        {
+          "archive_name": "Nirvana - Endless, Nameless/song.ogg",
+          "name": "song.ogg",
+          "sha256": "eb69b300fcb8b4fe823387c63d298ab5ada32b58a92bfa2b186e34db689201a8"
+        }
+      ],
+      "archive_sha256": "ef4c358ef0a6ca708a1a63c98554182258e993920c718822f3522ad5d9520bd4",
+      "archive_bytes": 7950336,
+      "prepared_bytes": 7507252,
+      "qobuz_track_ids": [
+        "14158562"
+      ],
+      "playlist_track_ids": [
+        "12433542504"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Lithium",
+      "file_id": "594ae544a85500.79414245",
+      "source_url": "https://rhythmverse.co/songfile/594ae544a85500.79414245",
+      "download_url": "https://rhythmverse.co/download_file/missingelements/594ae544a85500.79414245/me_lithium_v5",
+      "archive_format": "onyx",
+      "folder": "Nirvana - Lithium [594ae544]",
+      "charter": "MissingElements",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1490,
+          "kick_note_on_count": 357,
+          "tom_marker_count": 172,
+          "last_expert_onset_seconds": 253.327,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "594ae544a85500.79414245",
+        "artist": "Nirvana",
+        "title": "Lithium",
+        "album": "Nevermind",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/594ae544a85500.79414245",
+        "download_url": "https://rhythmverse.co/download_file/missingelements/594ae544a85500.79414245/me_lithium_v5",
+        "duration_seconds": 258.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "MissingElements",
+        "notes": "<p>Unpitched vocals<br />\n&#160;<br />\nA big thanks to DemonUnicorns for CAT reductions, and AJFOne23 for drum fixes<br />\n&#160;<br />\nThis is NOT the same version that is already released as Rock Band DLC. This is the offical album version, rather than a live version.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Lithium/album.png",
+          "name": "album.png",
+          "sha256": "7c66bc71ae87d45c724df7024d9678c81841f4ed5d85eb28df05112a3875b4a1"
+        },
+        {
+          "archive_name": "Nirvana - Lithium/notes.mid",
+          "name": "notes.mid",
+          "sha256": "728d48ac3aedb369f9d38fb0bfa54e2474ba0827248ce7668d6083d25475147a"
+        },
+        {
+          "archive_name": "Nirvana - Lithium/song.ini",
+          "name": "song.ini",
+          "sha256": "b39d2dce0a8a1deb84d1311745aa2122b462cedc0ac33c7b1f3c95668d4ddacc"
+        },
+        {
+          "archive_name": "Nirvana - Lithium/song.ogg",
+          "name": "song.ogg",
+          "sha256": "e981c09fa3b991d8a1431ceda01386542b455892f8ff439920546be2c94a17b7"
+        }
+      ],
+      "archive_sha256": "8dfa958ba1559de5cc74fac6f9a1ca6fb07c9a94a10e511e125a4eeea57a7ef2",
+      "archive_bytes": 5464064,
+      "prepared_bytes": 4449304,
+      "qobuz_track_ids": [
+        "14158550"
+      ],
+      "playlist_track_ids": [
+        "12449354335"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Love Buzz",
+      "file_id": "5a70a493ed84b3.88372931",
+      "source_url": "https://rhythmverse.co/songfile/5a70a493ed84b3.88372931",
+      "download_url": "https://rhythmverse.co/download_file/nunchuck/5a70a493ed84b3.88372931/N_LoveBuzz_Full_rb3con",
+      "archive_format": "onyx",
+      "folder": "Nirvana - Love Buzz [5a70a493]",
+      "charter": "Nunchuk & Sygenysis",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1766,
+          "kick_note_on_count": 479,
+          "tom_marker_count": 6,
+          "last_expert_onset_seconds": 214.979,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5a70a493ed84b3.88372931",
+        "artist": "Nirvana",
+        "title": "Love Buzz",
+        "album": "Bleach",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5a70a493ed84b3.88372931",
+        "download_url": "https://rhythmverse.co/download_file/nunchuck/5a70a493ed84b3.88372931/N_LoveBuzz_Full_rb3con",
+        "duration_seconds": 222.0,
+        "duration_difference_seconds": 7.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nunchuck",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Love Buzz/album.png",
+          "name": "album.png",
+          "sha256": "70cc59c7da2af63c38558662869715962ea51e96d349942597d72e8a040033c0"
+        },
+        {
+          "archive_name": "Nirvana - Love Buzz/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ee605480508baed57cb783adbb83fe331eaee4e24983be538b919ca137754284"
+        },
+        {
+          "archive_name": "Nirvana - Love Buzz/song.ini",
+          "name": "song.ini",
+          "sha256": "8541e75e4826c07bb5278de1e0f9ef9b3ec459367be4a83193cbcb6a42ef8c35"
+        },
+        {
+          "archive_name": "Nirvana - Love Buzz/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2c2fa46e311e0b09ef827de418460baa94b8728268df52f7a19fcecb1eb68c77"
+        }
+      ],
+      "archive_sha256": "a8353e394338677979fa926d621cbc4d08371b9cc234e6870fb152a32765bf03",
+      "archive_bytes": 4857856,
+      "prepared_bytes": 3864471,
+      "qobuz_track_ids": [
+        "407819435"
+      ],
+      "playlist_track_ids": [
+        "12449354346"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Sliver",
+      "file_id": "516393c648320",
+      "source_url": "https://rhythmverse.co/songfile/516393c648320",
+      "download_url": "https://rhythmverse.co/download_file/ghtorb3/516393c648320/GHDLCSl",
+      "archive_format": "onyx",
+      "folder": "Nirvana - Sliver [516393c6]",
+      "charter": "Unknown",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 900,
+          "kick_note_on_count": 284,
+          "tom_marker_count": 14,
+          "last_expert_onset_seconds": 126.35,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "516393c648320",
+        "artist": "Nirvana",
+        "title": "Sliver",
+        "album": "Incesticide",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/516393c648320",
+        "download_url": "https://rhythmverse.co/download_file/ghtorb3/516393c648320/GHDLCSl",
+        "duration_seconds": 135.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Activision",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Sliver/album.png",
+          "name": "album.png",
+          "sha256": "09f9d0f75075462f43b76568b27fd83ea0794772ced88aee1cbf6c48e702c14e"
+        },
+        {
+          "archive_name": "Nirvana - Sliver/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "de43e5f8bbb935c92d1b2f24945d504e98b389ce3beb829faf9124be01b84786"
+        },
+        {
+          "archive_name": "Nirvana - Sliver/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "535a3052da9ca7df29be7306e15d007a8f739f4b801a4c3a831b505cc901e8d6"
+        },
+        {
+          "archive_name": "Nirvana - Sliver/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "9194efcdb9baafad44bc7034a38f448641b783b0f556a89b8eba12fa01e9c230"
+        },
+        {
+          "archive_name": "Nirvana - Sliver/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "885eb20fa405b95bad612d92c687f8fc3f0284033f66630405af135766563ef1"
+        },
+        {
+          "archive_name": "Nirvana - Sliver/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6f334260590b128caa0bdbbb14c927a609fa04a3bee1d4d84da4673ade9a2611"
+        },
+        {
+          "archive_name": "Nirvana - Sliver/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "e9857e01ab5dde7217c31d38d4d6a259c885ddf1d11628a983e1c8b164dde852"
+        },
+        {
+          "archive_name": "Nirvana - Sliver/song.ini",
+          "name": "song.ini",
+          "sha256": "422d8897ca49ec6169876e923b82267da8001a8fe9c2c206ba6d7dd22ce77895"
+        },
+        {
+          "archive_name": "Nirvana - Sliver/song.ogg",
+          "name": "song.ogg",
+          "sha256": "394972b0fa923412f062767c28f8e22b448e11d918bf9c202750172c04ff02b9"
+        },
+        {
+          "archive_name": "Nirvana - Sliver/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "feab7273f4d0e9d6ec715e9478fa4b084e2b9c86453644bf6c486717a8bb228e"
+        }
+      ],
+      "archive_sha256": "a798cabbeef1da31ac53324d4a733ab3d54112b29154e61a02b0f44ebaf09279",
+      "archive_bytes": 14905344,
+      "prepared_bytes": 12378734,
+      "qobuz_track_ids": [
+        "51892857"
+      ],
+      "playlist_track_ids": [
+        "12449354341"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Stain",
+      "file_id": "6018acfbbb9778.19662517",
+      "source_url": "https://rhythmverse.co/songfile/6018acfbbb9778.19662517",
+      "download_url": "https://rhythmverse.co/download_file/unknownsoldier2300/6018acfbbb9778.19662517/Stain_rb3con",
+      "archive_format": "onyx",
+      "folder": "Nirvana - Stain [6018acfb]",
+      "charter": "UnknownSoldier2300",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1366,
+          "kick_note_on_count": 421,
+          "tom_marker_count": 2,
+          "last_expert_onset_seconds": 159.359,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6018acfbbb9778.19662517",
+        "artist": "Nirvana",
+        "title": "Stain",
+        "album": "Incesticide",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6018acfbbb9778.19662517",
+        "download_url": "https://rhythmverse.co/download_file/unknownsoldier2300/6018acfbbb9778.19662517/Stain_rb3con",
+        "duration_seconds": 160.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "UnknownSoldier2300",
+        "notes": "",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Stain/album.png",
+          "name": "album.png",
+          "sha256": "ab9cbd03db96efaba581ead477eca740c50eafe939df96f30d4721b60f0ea2e2"
+        },
+        {
+          "archive_name": "Nirvana - Stain/notes.mid",
+          "name": "notes.mid",
+          "sha256": "505f2d68307c2c8c4668ea8bb2199ee6a099a9642126bd00e5bd96f05b2209a8"
+        },
+        {
+          "archive_name": "Nirvana - Stain/song.ini",
+          "name": "song.ini",
+          "sha256": "b59a9e6149c6b67b783784cecc0daf1e4e32a1952c73260f1c3ebbec0b364a0b"
+        },
+        {
+          "archive_name": "Nirvana - Stain/song.ogg",
+          "name": "song.ogg",
+          "sha256": "fe682685fe4b7e6cf4d51f2d5ab1b73460d1b0d5453846ef1f976b7525d4e991"
+        }
+      ],
+      "archive_sha256": "1ba03fd7871f294f04d4c1c33a82c2bf5c8281c9a532d628fee75214d1afb7e0",
+      "archive_bytes": 3448832,
+      "prepared_bytes": 2850067,
+      "qobuz_track_ids": [
+        "53118862"
+      ],
+      "playlist_track_ids": [
+        "12449354347"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Tourette's",
+      "file_id": "5be9712b58d916.92052377",
+      "source_url": "https://rhythmverse.co/songfile/5be9712b58d916.92052377",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5be9712b58d916.92052377/tourettes1xx",
+      "archive_format": "onyx",
+      "folder": "Nirvana - Tourette's [5be9712b]",
+      "charter": "AllFleshIsEqualWhenBurnt",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 515,
+          "kick_note_on_count": 186,
+          "tom_marker_count": 4,
+          "last_expert_onset_seconds": 86.269,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5be9712b58d916.92052377",
+        "artist": "Nirvana",
+        "title": "Tourette's",
+        "album": "In Utero",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5be9712b58d916.92052377",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5be9712b58d916.92052377/tourettes1xx",
+        "duration_seconds": 97.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Tourette's/album.png",
+          "name": "album.png",
+          "sha256": "618a117b9f274df8c6fe7c04b592126780542632b3bf3a1b9a6c7736a2af6c2a"
+        },
+        {
+          "archive_name": "Nirvana - Tourette's/notes.mid",
+          "name": "notes.mid",
+          "sha256": "187cb27538bd128a55bd3695952ad40ddb168c64082ebaf79a006ceabed2b6ab"
+        },
+        {
+          "archive_name": "Nirvana - Tourette's/song.ini",
+          "name": "song.ini",
+          "sha256": "15f3acb5d3cb07610c0a8b799f685150e0548999e77b9291b223ee589ddab204"
+        },
+        {
+          "archive_name": "Nirvana - Tourette's/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2394184a278616f54870df4299a6b88bff546f53645d87536f4156c16883a73a"
+        }
+      ],
+      "archive_sha256": "be3b67270a19af52f4453ecada89991258085fd8664fd7a778a11aafdc429549",
+      "archive_bytes": 5738496,
+      "prepared_bytes": 1883321,
+      "qobuz_track_ids": [
+        "11395738"
+      ],
+      "playlist_track_ids": [
+        "12433542502"
+      ]
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Very Ape",
+      "file_id": "59829613a45a18.13664673",
+      "source_url": "https://rhythmverse.co/songfile/59829613a45a18.13664673",
+      "download_url": "https://rhythmverse.co/download_file/kloporte/59829613a45a18.13664673/klop_veryape_rb3con",
+      "archive_format": "onyx",
+      "folder": "Nirvana - Very Ape [59829613]",
+      "charter": "Kloporte, Neversoft",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1006,
+          "kick_note_on_count": 366,
+          "tom_marker_count": 9,
+          "last_expert_onset_seconds": 115.606,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59829613a45a18.13664673",
+        "artist": "Nirvana",
+        "title": "Very Ape",
+        "album": "In Utero",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59829613a45a18.13664673",
+        "download_url": "https://rhythmverse.co/download_file/kloporte/59829613a45a18.13664673/klop_veryape_rb3con",
+        "duration_seconds": 118.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Kloporte",
+        "notes": "<p>GH:WT DLC convert with drum animations, venue etc.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Nirvana - Very Ape/album.png",
+          "name": "album.png",
+          "sha256": "f24a301c10bc4c9340a4490756a597ece0dd2e36de519e9a0e4c04779183c122"
+        },
+        {
+          "archive_name": "Nirvana - Very Ape/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "dfa303855799324b32d6439b86de80615b0ce613c67a442fae2c7b9f590c4295"
+        },
+        {
+          "archive_name": "Nirvana - Very Ape/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "36895464c00ad709cfa829f3eb3e4213c17b0e5dbf59668c6f5e656648b91e09"
+        },
+        {
+          "archive_name": "Nirvana - Very Ape/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "ab44c70308b20b2eceeedbdcfd1b0da5bb7e1a94088d3d055d336eb6a458e8ee"
+        },
+        {
+          "archive_name": "Nirvana - Very Ape/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "38090825c536dafe2761520729feb7282e9e1a32e081be38b051a4a0ff9167cd"
+        },
+        {
+          "archive_name": "Nirvana - Very Ape/notes.mid",
+          "name": "notes.mid",
+          "sha256": "16c13cf67eb16e27fa34754b0ea7c34005948f81f8cf43441fcbdff3434c6756"
+        },
+        {
+          "archive_name": "Nirvana - Very Ape/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "13cf2a352aea5904af4c4c3aba7d84ae44479f6031138b3f0ed3fdd8b11c293a"
+        },
+        {
+          "archive_name": "Nirvana - Very Ape/song.ini",
+          "name": "song.ini",
+          "sha256": "23280390a7f0393b6c09c1e7133815b18be6e41cca05a08b5a782cbefcd4dd55"
+        },
+        {
+          "archive_name": "Nirvana - Very Ape/song.ogg",
+          "name": "song.ogg",
+          "sha256": "39dd850b18a1c49f99d40479fca983092e6a1b0bdbbfc7e3701622894769de31"
+        },
+        {
+          "archive_name": "Nirvana - Very Ape/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "124ba062645daa9c6ac43a0ebf4f965006c5bed1ebe44319f7b2f2e3cad3f61a"
+        }
+      ],
+      "archive_sha256": "79c024b06e5110df0ed1eb57cdb0267c4816c1dc07811e77add91e388c6e3bf6",
+      "archive_bytes": 14618624,
+      "prepared_bytes": 11239377,
+      "qobuz_track_ids": [
+        "11395734"
+      ],
+      "playlist_track_ids": [
+        "12433542498"
+      ]
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Dead Embryonic Cells",
+      "file_id": "5955cf5047dea1.02811823",
+      "source_url": "https://rhythmverse.co/songfile/5955cf5047dea1.02811823",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5955cf5047dea1.02811823/deadembryoniccells1xx",
+      "archive_format": "onyx",
+      "folder": "Sepultura - Dead Embryonic Cells [5955cf50]",
+      "charter": "AllFleshIsEqualWhenBurnt",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2409,
+          "kick_note_on_count": 753,
+          "tom_marker_count": 115,
+          "last_expert_onset_seconds": 292.015,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5955cf5047dea1.02811823",
+        "artist": "Sepultura",
+        "title": "Dead Embryonic Cells",
+        "album": "Arise",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5955cf5047dea1.02811823",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5955cf5047dea1.02811823/deadembryoniccells1xx",
+        "duration_seconds": 295.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": "<p>update - 1.2 5/17/2018<br />\nmy bad ... i screwed up on one of the lyrics this has now been fixed.<br />\n&#160;<br />\n&#160;<br />\nupdate - 1 5/17/2018<br />\nmisc fixes<br />\nmisc changes to drums and guitar<br />\nunpitched vocals added</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Sepultura - Dead Embryonic Cells/album.png",
+          "name": "album.png",
+          "sha256": "028dc2e767f82d63f0b68000a1559e4371818b66b7cac587f459802cb26e7cf1"
+        },
+        {
+          "archive_name": "Sepultura - Dead Embryonic Cells/notes.mid",
+          "name": "notes.mid",
+          "sha256": "51d1d6e886301d546543321cc53a7fa2c8d8b67b64f426428838477f53f9cf5a"
+        },
+        {
+          "archive_name": "Sepultura - Dead Embryonic Cells/song.ini",
+          "name": "song.ini",
+          "sha256": "4c2b95eff7013642f0efb43a82721f8b0eaddff67b2c9440fbfd26e0b22622a6"
+        },
+        {
+          "archive_name": "Sepultura - Dead Embryonic Cells/song.ogg",
+          "name": "song.ogg",
+          "sha256": "bf06a94af6e13042caee597acab59290411a016e78be0e71a6fc4162cf66ff13"
+        }
+      ],
+      "archive_sha256": "dab532e2bb7c459c07cdc1c825c6b17ff667b1d5526666cde124653c5b1a01f3",
+      "archive_bytes": 16711680,
+      "prepared_bytes": 6904947,
+      "qobuz_track_ids": [
+        "50290827"
+      ],
+      "playlist_track_ids": [
+        "12449405369"
+      ]
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Infected Voice",
+      "file_id": "5b14975f2daa97.09662927",
+      "source_url": "https://rhythmverse.co/songfile/5b14975f2daa97.09662927",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5b14975f2daa97.09662927/infectedvoice1xx",
+      "archive_format": "onyx",
+      "folder": "Sepultura - Infected Voice [5b14975f]",
+      "charter": "AllFleshIsEqualWhenBurnt",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2410,
+          "kick_note_on_count": 572,
+          "tom_marker_count": 66,
+          "last_expert_onset_seconds": 196.968,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b14975f2daa97.09662927",
+        "artist": "Sepultura",
+        "title": "Infected Voice",
+        "album": "Arise",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b14975f2daa97.09662927",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5b14975f2daa97.09662927/infectedvoice1xx",
+        "duration_seconds": 200.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Sepultura - Infected Voice/album.png",
+          "name": "album.png",
+          "sha256": "028dc2e767f82d63f0b68000a1559e4371818b66b7cac587f459802cb26e7cf1"
+        },
+        {
+          "archive_name": "Sepultura - Infected Voice/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b6b92e9106733badcb97c0affb37642a996cc5e95de9209e12e7454d40695559"
+        },
+        {
+          "archive_name": "Sepultura - Infected Voice/song.ini",
+          "name": "song.ini",
+          "sha256": "608935b8004e66660573e82e649d80fbd12c57af96fa7198b71685bdbc009c1f"
+        },
+        {
+          "archive_name": "Sepultura - Infected Voice/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b36fa3c6b8ff8c5182f3ae7cd64bb4371274c78b23ff762a99d32858f8809ceb"
+        }
+      ],
+      "archive_sha256": "1718a607595f4a06de7deba5fdaec4ba7adf4436efc47975daeee761fa33d672",
+      "archive_bytes": 12894208,
+      "prepared_bytes": 4359662,
+      "qobuz_track_ids": [
+        "50290834"
+      ],
+      "playlist_track_ids": [
+        "12449405414"
+      ]
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Meaningless Movements",
+      "file_id": "5b1687ae770bd5.29744976",
+      "source_url": "https://rhythmverse.co/songfile/5b1687ae770bd5.29744976",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5b1687ae770bd5.29744976/meaninglessmovements1xx",
+      "archive_format": "onyx",
+      "folder": "Sepultura - Meaningless Movements [5b1687ae]",
+      "charter": "AllFleshIsEqualWhenBurnt",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2552,
+          "kick_note_on_count": 816,
+          "tom_marker_count": 180,
+          "last_expert_onset_seconds": 280.306,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b1687ae770bd5.29744976",
+        "artist": "Sepultura",
+        "title": "Meaningless Movements",
+        "album": "Arise",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b1687ae770bd5.29744976",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5b1687ae770bd5.29744976/meaninglessmovements1xx",
+        "duration_seconds": 283.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Sepultura - Meaningless Movements/album.png",
+          "name": "album.png",
+          "sha256": "028dc2e767f82d63f0b68000a1559e4371818b66b7cac587f459802cb26e7cf1"
+        },
+        {
+          "archive_name": "Sepultura - Meaningless Movements/notes.mid",
+          "name": "notes.mid",
+          "sha256": "4e5e90a98e1d78f63fcf2317862724af0401402dd46e0f1a21cb9dc6bacbca5f"
+        },
+        {
+          "archive_name": "Sepultura - Meaningless Movements/song.ini",
+          "name": "song.ini",
+          "sha256": "a39fad45db361d35fa8317fd05f5b3389cace2a554a0303b9aad3eedd9c0155f"
+        },
+        {
+          "archive_name": "Sepultura - Meaningless Movements/song.ogg",
+          "name": "song.ogg",
+          "sha256": "aecb0e20f1a5eb0dbab48dc451aef2b567e9ae47f2baf26a4dfea0bc4184688c"
+        }
+      ],
+      "archive_sha256": "8fdaedfa59f7d821550ebfe00b0fae2fe9bb7e89bead17b12630d51968f8c9a6",
+      "archive_bytes": 18104320,
+      "prepared_bytes": 6206245,
+      "qobuz_track_ids": [
+        "50290833"
+      ],
+      "playlist_track_ids": [
+        "12449405412"
+      ]
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Murder",
+      "file_id": "5b076385c1de50.77623530",
+      "source_url": "https://rhythmverse.co/songfile/5b076385c1de50.77623530",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5b076385c1de50.77623530/murder1xx",
+      "archive_format": "onyx",
+      "folder": "Sepultura - Murder [5b076385]",
+      "charter": "AllFleshIsEqualWhenBurnt",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2123,
+          "kick_note_on_count": 561,
+          "tom_marker_count": 106,
+          "last_expert_onset_seconds": 207.055,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b076385c1de50.77623530",
+        "artist": "Sepultura",
+        "title": "Murder",
+        "album": "Arise",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b076385c1de50.77623530",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5b076385c1de50.77623530/murder1xx",
+        "duration_seconds": 210.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Sepultura - Murder/album.png",
+          "name": "album.png",
+          "sha256": "028dc2e767f82d63f0b68000a1559e4371818b66b7cac587f459802cb26e7cf1"
+        },
+        {
+          "archive_name": "Sepultura - Murder/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ca39bef037c447dfaa0bc277ba25fb414c66cab4e2367d5f73486ff9357cd233"
+        },
+        {
+          "archive_name": "Sepultura - Murder/song.ini",
+          "name": "song.ini",
+          "sha256": "f7cc36471c6c22f0d1d98fb439fc344c827d21cbf427618e85aefa654044c175"
+        },
+        {
+          "archive_name": "Sepultura - Murder/song.ogg",
+          "name": "song.ogg",
+          "sha256": "393819eb31f228285586cfbee75a665117551573ad35658543af82d7f62a2a95"
+        }
+      ],
+      "archive_sha256": "a2db4e41790f068836f01d60b6076e5929d10c8830329fa2cdf5adcf91c4c65d",
+      "archive_bytes": 13152256,
+      "prepared_bytes": 4597679,
+      "qobuz_track_ids": [
+        "50290829"
+      ],
+      "playlist_track_ids": [
+        "12449405381"
+      ]
+    },
+    {
+      "artist": "Sepultura",
+      "title": "RefuseResist",
+      "file_id": "5969dc94a6d6c6.83865324",
+      "source_url": "https://rhythmverse.co/songfile/5969dc94a6d6c6.83865324",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5969dc94a6d6c6.83865324/refuseresist1xx",
+      "archive_format": "onyx",
+      "folder": "Sepultura - RefuseResist [5969dc94]",
+      "charter": "furiouss",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1563,
+          "kick_note_on_count": 545,
+          "tom_marker_count": 96,
+          "last_expert_onset_seconds": 201.593,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5969dc94a6d6c6.83865324",
+        "artist": "Sepultura",
+        "title": "RefuseResist",
+        "album": "Chaos A.D.",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5969dc94a6d6c6.83865324",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5969dc94a6d6c6.83865324/refuseresist1xx",
+        "duration_seconds": 204.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Sepultura - RefuseResist/album.png",
+          "name": "album.png",
+          "sha256": "032fd12f5785e9278149873b017207638b1fde163e26e3286ddf4927f97a0691"
+        },
+        {
+          "archive_name": "Sepultura - RefuseResist/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6f0acbf0063ee3196bd597a0aa3956bee655669d39f57c7fabbf3320e19fa434"
+        },
+        {
+          "archive_name": "Sepultura - RefuseResist/song.ini",
+          "name": "song.ini",
+          "sha256": "6820dd15450ac636d948dd78eb495477bd9d81d3d99fd8183f0022fdf1b70ddb"
+        },
+        {
+          "archive_name": "Sepultura - RefuseResist/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a7db1f503dfd73a17b84e38c8b0bbcf8f4302e9804a4aa16292c06160cb05217"
+        }
+      ],
+      "archive_sha256": "590d1cf691373fd0b7c174673250143b2d42470bdf0eb814482d3969f6b1b266",
+      "archive_bytes": 4562944,
+      "prepared_bytes": 4340096,
+      "qobuz_track_ids": [
+        "44048107"
+      ],
+      "playlist_track_ids": [
+        "12449405364"
+      ]
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Subtraction",
+      "file_id": "5b1496d021e388.11895907",
+      "source_url": "https://rhythmverse.co/songfile/5b1496d021e388.11895907",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5b1496d021e388.11895907/subtraction1xx",
+      "archive_format": "onyx",
+      "folder": "Sepultura - Subtraction [5b1496d0]",
+      "charter": "AllFleshIsEqualWhenBurnt",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2899,
+          "kick_note_on_count": 814,
+          "tom_marker_count": 140,
+          "last_expert_onset_seconds": 279.486,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b1496d021e388.11895907",
+        "artist": "Sepultura",
+        "title": "Subtraction",
+        "album": "Arise",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b1496d021e388.11895907",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5b1496d021e388.11895907/subtraction1xx",
+        "duration_seconds": 282.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": "<p>theres a second guitar solo thats about 7 secs long towards the end.thats left out. i could not find one tab of this solo. and i can't quite make it out by ear. so that may be updated in the future.<br />\nshouldnt affect the fun.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Sepultura - Subtraction/album.png",
+          "name": "album.png",
+          "sha256": "028dc2e767f82d63f0b68000a1559e4371818b66b7cac587f459802cb26e7cf1"
+        },
+        {
+          "archive_name": "Sepultura - Subtraction/notes.mid",
+          "name": "notes.mid",
+          "sha256": "83671d2a94519bfc839df29e34f39c61a175db4e893e7d77c1a10afecfe87ab0"
+        },
+        {
+          "archive_name": "Sepultura - Subtraction/song.ini",
+          "name": "song.ini",
+          "sha256": "4515125c1399c579b58b78d169cf7ce921562608064577222789607607778f58"
+        },
+        {
+          "archive_name": "Sepultura - Subtraction/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ca7ca066388e5220ecf948f2c33acafbf39fa4df1ceae5d70d88afe26b5bdd4d"
+        }
+      ],
+      "archive_sha256": "8ee878ca007e97771f0588d3bbfe6fe2b99d78ac2a6a76e716506ef693d38a90",
+      "archive_bytes": 18104320,
+      "prepared_bytes": 6138476,
+      "qobuz_track_ids": [
+        "50290830"
+      ],
+      "playlist_track_ids": [
+        "12449405410"
+      ]
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Territory",
+      "file_id": "59d5e3d7793da6.42819302",
+      "source_url": "https://rhythmverse.co/songfile/59d5e3d7793da6.42819302",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/59d5e3d7793da6.42819302/Territory1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Sepultura - Territory [59d5e3d7]",
+      "charter": "AJFOne23, Puppetz, EchoOfMystery",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1982,
+          "kick_note_on_count": 680,
+          "tom_marker_count": 403,
+          "last_expert_onset_seconds": 290.028,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59d5e3d7793da6.42819302",
+        "artist": "Sepultura",
+        "title": "Territory",
+        "album": "Chaos A.D.",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59d5e3d7793da6.42819302",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/59d5e3d7793da6.42819302/Territory1x_rb3con",
+        "duration_seconds": 289.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>GUITAR: Puppetz<br />\nBASS/VOCALS: EchoOfMystery<br />\n&#160;<br />\nIn the opening of &#8220;Territory,&#8221; Igor Cavalera's drumming pushes Sepultura into a torrent of thrash before he slows the tempo with a pulverizing tom groove. While Kisser and bassist Paulo Xisto Pinto Jr. trudge through mud, Max Cavalera screams about racist politicians and the plague-like effects of hate and discrimination. Although the song&#8217;s video deals with Israeli violence against the Lebanese and Palestinians, &#8220;Territory&#8221; pertains to every situation in which a government uses xenophobia to justify cruelty. After an earthquake breakdown that will force you to smash something, Cavalera barks, &#8220;Dumb asshole&#8217;s speech&#8230; / Racist human being.&#8221;</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Sepultura - Territory/album.png",
+          "name": "album.png",
+          "sha256": "d5987c13ab5859b830336699e756f8a4e1ba73cf4125200e206daa16173aaaf2"
+        },
+        {
+          "archive_name": "Sepultura - Territory/notes.mid",
+          "name": "notes.mid",
+          "sha256": "071c66ea05a288567e847fc2775683a15baa9d3a6ec6da0f29fc6f0d97dbdcb8"
+        },
+        {
+          "archive_name": "Sepultura - Territory/song.ini",
+          "name": "song.ini",
+          "sha256": "6b4539702c0b9a315717b71a2c7b243312ac36de2fd78c1d5a20e95c3858cdd5"
+        },
+        {
+          "archive_name": "Sepultura - Territory/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b56d327e856149795d9b4d29c4733ecd77cba295ebeadc315a038e071413933c"
+        }
+      ],
+      "archive_sha256": "14b328e55d3f621c2209d4c46a1e36bdb19b44c9506ed62942394ed7a169c3dc",
+      "archive_bytes": 6459392,
+      "prepared_bytes": 5832545,
+      "qobuz_track_ids": [
+        "44048108"
+      ],
+      "playlist_track_ids": [
+        "12449405367"
+      ]
+    },
+    {
+      "artist": "Skillet",
+      "title": "Awake and Alive",
+      "file_id": "592979cc314ce8.51752247",
+      "source_url": "https://rhythmverse.co/songfile/592979cc314ce8.51752247",
+      "download_url": "https://rhythmverse.co/download_file/deadcanadian/592979cc314ce8.51752247/awakeandalive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Awake and Alive [592979cc]",
+      "charter": "Unknown",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 892,
+          "kick_note_on_count": 340,
+          "tom_marker_count": 41,
+          "last_expert_onset_seconds": 211.567,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "592979cc314ce8.51752247",
+        "artist": "Skillet",
+        "title": "Awake and Alive",
+        "album": "Awake",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/592979cc314ce8.51752247",
+        "download_url": "https://rhythmverse.co/download_file/deadcanadian/592979cc314ce8.51752247/awakeandalive_rb3con",
+        "duration_seconds": 209.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "DeadCanadian",
+        "notes": "<p>pre-C3 song</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Awake and Alive/album.png",
+          "name": "album.png",
+          "sha256": "3eed01c78516bf81989aa3fcab859eba3fc0b0bf9a8f7dce60b0c612308d6cfa"
+        },
+        {
+          "archive_name": "Skillet - Awake and Alive/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "5b8c78f28eee1992ee743aee9212596827f93e00a6113b5d1541698a894068f9"
+        },
+        {
+          "archive_name": "Skillet - Awake and Alive/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "5b8c78f28eee1992ee743aee9212596827f93e00a6113b5d1541698a894068f9"
+        },
+        {
+          "archive_name": "Skillet - Awake and Alive/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9c2d65a125a6dbeb7bfc1ea7e1c4ffa623b94c076385635e40fb76dcf89bb34e"
+        },
+        {
+          "archive_name": "Skillet - Awake and Alive/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "5b8c78f28eee1992ee743aee9212596827f93e00a6113b5d1541698a894068f9"
+        },
+        {
+          "archive_name": "Skillet - Awake and Alive/song.ini",
+          "name": "song.ini",
+          "sha256": "670bc0328de67bffd741e2d6f40501e65ef13a6b22bda657320744217f3e96e0"
+        },
+        {
+          "archive_name": "Skillet - Awake and Alive/song.ogg",
+          "name": "song.ogg",
+          "sha256": "85dbeeb688b8c59f9ea2482006361e94288d4a817d46d6925be47821e1022d15"
+        },
+        {
+          "archive_name": "Skillet - Awake and Alive/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "5b8c78f28eee1992ee743aee9212596827f93e00a6113b5d1541698a894068f9"
+        }
+      ],
+      "archive_sha256": "51dc86a3ffe271314cc4f5a3d5d51730f759a520deff5a7c5083425f031619f5",
+      "archive_bytes": 5947392,
+      "prepared_bytes": 6552610,
+      "qobuz_track_ids": [
+        "2929471"
+      ],
+      "playlist_track_ids": [
+        "12221847135"
+      ]
+    },
+    {
+      "artist": "Skillet",
+      "title": "Comatose",
+      "file_id": "af4077832e4e4bc48cb6129086062385",
+      "source_url": "https://rhythmverse.co/songfile/af4077832e4e4bc48cb6129086062385",
+      "download_url": "https://rhythmverse.co/download_file/sergeanttimbo12/af4077832e4e4bc48cb6129086062385/SKcomatose_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Comatose [af407783]",
+      "charter": "SergeantTimbo12",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1063,
+          "kick_note_on_count": 387,
+          "tom_marker_count": 18,
+          "last_expert_onset_seconds": 223.059,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "af4077832e4e4bc48cb6129086062385",
+        "artist": "Skillet",
+        "title": "Comatose",
+        "album": "Comatose",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/af4077832e4e4bc48cb6129086062385",
+        "download_url": "https://rhythmverse.co/download_file/sergeanttimbo12/af4077832e4e4bc48cb6129086062385/SKcomatose_rb3con",
+        "duration_seconds": 235.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "SergeantTimbo12",
+        "notes": "Added pro parts and fixed song id-- should work with rb3 leaderboards now. ",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Comatose/album.png",
+          "name": "album.png",
+          "sha256": "916c3dbb3c15feacc9a06e887e9bc4e041deaf12dedd0feccf15bb1c2ae3af61"
+        },
+        {
+          "archive_name": "Skillet - Comatose/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "94daf57116918df947307d85aa1b4d0c62235d328213e7836c942dd21cc9e5a0"
+        },
+        {
+          "archive_name": "Skillet - Comatose/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "28139dacd341c5277e106739ab1bf9a3b2f86164934b702bf011d1c7944b44a7"
+        },
+        {
+          "archive_name": "Skillet - Comatose/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "57bbf40ae4b85482da9cf1337d251aff1866f2c180c770b6f6ef6cf822d12ee8"
+        },
+        {
+          "archive_name": "Skillet - Comatose/notes.mid",
+          "name": "notes.mid",
+          "sha256": "5f40cb7ea510885f1dbed145903cb2a8217cd827d05bc2870becc0e0aaf878b4"
+        },
+        {
+          "archive_name": "Skillet - Comatose/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "561634861e1493c8ae91c780f4f312c33c55e84ad4ea206c93ba4f5b7dd43ba0"
+        },
+        {
+          "archive_name": "Skillet - Comatose/song.ini",
+          "name": "song.ini",
+          "sha256": "76633edd4aae669adfe6fa00ddbbb35069e9947c9a52b87e7136a9ac63dad69a"
+        },
+        {
+          "archive_name": "Skillet - Comatose/song.ogg",
+          "name": "song.ogg",
+          "sha256": "371704262f9e82619730bd93db9394e38d6d5061ca77d0eac4f80f2c023fc457"
+        },
+        {
+          "archive_name": "Skillet - Comatose/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "401ec2f5f55e6e37909f7036d891887182f5e1614e0a5dca4110cce91f4d4ab2"
+        }
+      ],
+      "archive_sha256": "65d8d3d7afe6fd73dac0fa3e848724762e6b3661aec6a63ef28586f72e9fc37d",
+      "archive_bytes": 18874368,
+      "prepared_bytes": 19888319,
+      "qobuz_track_ids": [
+        "2928687"
+      ],
+      "playlist_track_ids": [
+        "12221847134"
+      ]
+    },
+    {
+      "artist": "Skillet",
+      "title": "Hero",
+      "file_id": "d759012446cc43cb91c643173ccef3f2",
+      "source_url": "https://rhythmverse.co/songfile/d759012446cc43cb91c643173ccef3f2",
+      "download_url": "https://rhythmverse.co/download_file/platinumconsole5409/d759012446cc43cb91c643173ccef3f2/IneedaheroV1_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Hero [d7590124]",
+      "charter": "Platinumconsole",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1054,
+          "kick_note_on_count": 393,
+          "tom_marker_count": 117,
+          "last_expert_onset_seconds": 185.493,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d759012446cc43cb91c643173ccef3f2",
+        "artist": "Skillet",
+        "title": "Hero",
+        "album": "Awake",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/d759012446cc43cb91c643173ccef3f2",
+        "download_url": "https://rhythmverse.co/download_file/platinumconsole5409/d759012446cc43cb91c643173ccef3f2/IneedaheroV1_rb3con",
+        "duration_seconds": 186.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Platinumconsole",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Hero/album.png",
+          "name": "album.png",
+          "sha256": "e93bd53382100b24a62ead2278726f107eae56d38df66d69e9e9de37e94cfbbd"
+        },
+        {
+          "archive_name": "Skillet - Hero/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "2638f8961ebbd5d356c6180fab782f029f399b2fbd4d3057964551174044d348"
+        },
+        {
+          "archive_name": "Skillet - Hero/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "baad50156d5a5b169672e3470e2376b8d76b9ec345a718337758a9c57ad5f74c"
+        },
+        {
+          "archive_name": "Skillet - Hero/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "34f2d909c28c4dc0bc956fece714eea342f648796596135529b99a1776f084b0"
+        },
+        {
+          "archive_name": "Skillet - Hero/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c88a8016c06207be922c0c2472a128474daa06a1df229785c18dedc373698a5b"
+        },
+        {
+          "archive_name": "Skillet - Hero/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "5e9e899290d979861e36492d79e11fca67692f8e6298c201f39800aca71452c0"
+        },
+        {
+          "archive_name": "Skillet - Hero/song.ini",
+          "name": "song.ini",
+          "sha256": "8432cccda0af95273330f7d455fe89713118b8f98df559a8ba369891502fe8ff"
+        },
+        {
+          "archive_name": "Skillet - Hero/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1e05d5cfad93537261cde31a497a3099350be13f0431eb3c876000edc9ae2458"
+        },
+        {
+          "archive_name": "Skillet - Hero/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "de357da95084b7e2c7ffdb83076662ad5707bf89802cd76c5136eb36d8cf5165"
+        }
+      ],
+      "archive_sha256": "95f176a44edc97f31d2dec574a166b2afd85e80a0ae4875a597b07c26da764a9",
+      "archive_bytes": 16904192,
+      "prepared_bytes": 15591160,
+      "qobuz_track_ids": [
+        "2929921"
+      ],
+      "playlist_track_ids": [
+        "12221847133"
+      ]
+    },
+    {
+      "artist": "Skillet",
+      "title": "Not Gonna Die",
+      "file_id": "9ea440dbd57843beb926d8b38cdca980",
+      "source_url": "https://rhythmverse.co/songfile/9ea440dbd57843beb926d8b38cdca980",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/9ea440dbd57843beb926d8b38cdca980/Skillet%20-%20Not%20Gonna%20Die_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Not Gonna Die [9ea440db]",
+      "charter": "GeeForce11, smash252",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1290,
+          "kick_note_on_count": 378,
+          "tom_marker_count": 130,
+          "last_expert_onset_seconds": 227.227,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "9ea440dbd57843beb926d8b38cdca980",
+        "artist": "Skillet",
+        "title": "Not Gonna Die",
+        "album": "Rise",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/9ea440dbd57843beb926d8b38cdca980",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/9ea440dbd57843beb926d8b38cdca980/Skillet - Not Gonna Die_rb3con",
+        "duration_seconds": 231.0,
+        "duration_difference_seconds": 7.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "GeeForce11",
+        "notes": "The chart preview video doesn't load automatically, click on the link below to open it manually ",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Not Gonna Die/album.png",
+          "name": "album.png",
+          "sha256": "ea64ccbaebd5c2771ae5394c26a3b52764447408ba08d7313c4f8fa6ac2e9458"
+        },
+        {
+          "archive_name": "Skillet - Not Gonna Die/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "33f35c51067943f54c1a0145f3e670ce570e09ca4a82370a1a80b5552f39a451"
+        },
+        {
+          "archive_name": "Skillet - Not Gonna Die/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "9ea4db8352b07a0110aa96049ab96f836714044c57ce031e3aef2d31fbeb7479"
+        },
+        {
+          "archive_name": "Skillet - Not Gonna Die/notes.mid",
+          "name": "notes.mid",
+          "sha256": "03d63755c5ab244015d28d5285946a5013cda8db364eaaba6e40dd9520545ade"
+        },
+        {
+          "archive_name": "Skillet - Not Gonna Die/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "2adb6108eb47629387611d58d007738435b0b38f3fab5fb16f4255a0afc0d737"
+        },
+        {
+          "archive_name": "Skillet - Not Gonna Die/song.ini",
+          "name": "song.ini",
+          "sha256": "a6ff9358c94937a1b353e4339fb64b73fd056c1a331635d2619620a272ded0f1"
+        },
+        {
+          "archive_name": "Skillet - Not Gonna Die/song.ogg",
+          "name": "song.ogg",
+          "sha256": "eec8583d65219a06651137045bc8976c0ad692cf853db394eff77b363c859421"
+        },
+        {
+          "archive_name": "Skillet - Not Gonna Die/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "45ab022af1abca5a642a9c780d96aa4d385d5cb614e32cfdb354d50257f8fcdc"
+        }
+      ],
+      "archive_sha256": "83ddf1d4491dc66817505004b5b9460a424d506b3cad3aaf652716f3a1462e3a",
+      "archive_bytes": 27348992,
+      "prepared_bytes": 20785136,
+      "qobuz_track_ids": [
+        "9971657"
+      ],
+      "playlist_track_ids": [
+        "12221847132"
+      ]
+    }
+  ]
+}

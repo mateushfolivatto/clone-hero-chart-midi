@@ -1,0 +1,2138 @@
+{
+  "schema_version": 1,
+  "batch_number": 9,
+  "collection_folder": "MixDrumRock - Lote 09",
+  "archive_name": "MixDrumRock-lote-09.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "songs": [
+    {
+      "artist": "Iron Maiden",
+      "title": "Prowler",
+      "file_id": "59f5f10d79e1f6.53070284",
+      "source_url": "https://rhythmverse.co/songfile/59f5f10d79e1f6.53070284",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/59f5f10d79e1f6.53070284/TheProwler_rb3con",
+      "archive_format": "onyx",
+      "folder": "Iron Maiden - Prowler [59f5f10d]",
+      "charter": "AJFOne23, EchoOfMystery, Trunks252",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1813,
+          "kick_note_on_count": 503,
+          "tom_marker_count": 120,
+          "last_expert_onset_seconds": 234.946,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59f5f10d79e1f6.53070284",
+        "artist": "Iron Maiden",
+        "title": "Prowler",
+        "album": "Iron Maiden",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59f5f10d79e1f6.53070284",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/59f5f10d79e1f6.53070284/TheProwler_rb3con",
+        "duration_seconds": 236.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>GUITAR: Trunks252<br />\nBASS/VOCALS: EchoOfMystery<br />\n&#160;<br />\nIron Maiden's debut album begins with Prowler. A powerful opener, Prowler displays a ton of raw energy that the band carries throughout the album. With excellent melodic leads, a strong rhythm section from each of the bands members, and catchy, memorable vocals from Paul, Prowler is a great track, and a very clear indicative of what the band played at the time. Each musician can be heard at work very clearly, which displays the talents and potential of the band superbly. The lyrics are quite shallow, but Prowler is a fun song nonetheless.&#160;</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Prowler/album.png",
+          "name": "album.png",
+          "sha256": "0bc934dbfac0740a987a3276bd802cf5ec288869ec58af5fbe526d5d4fe8fbee"
+        },
+        {
+          "archive_name": "Iron Maiden - Prowler/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b65d0a3787ca5ab16e4242bd533b56a7fba5e5d151034052afbf71481fabcb77"
+        },
+        {
+          "archive_name": "Iron Maiden - Prowler/song.ini",
+          "name": "song.ini",
+          "sha256": "d67913c2453f6f5873013ec7e55a5ea85c0c238d42b994fd3edf391e782e9898"
+        },
+        {
+          "archive_name": "Iron Maiden - Prowler/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6fbcc2753f9c8b8e6837dd6f37a1d8dfc833d396d292b625e80261aa33371ab7"
+        }
+      ],
+      "archive_sha256": "d2ff9771d27bee3699604a9ba847f79e3465e216ec63d010063da5a706701697",
+      "archive_bytes": 5267456,
+      "prepared_bytes": 4368237,
+      "qobuz_track_ids": [
+        "25104460"
+      ],
+      "playlist_track_ids": [
+        "12449352520"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Rainmaker",
+      "file_id": "6205f2d711bca4.90867771",
+      "source_url": "https://rhythmverse.co/songfile/6205f2d711bca4.90867771",
+      "download_url": "https://rhythmverse.co/download_file/rubydanger/6205f2d711bca4.90867771/IronMaidenRainmaker",
+      "archive_format": "onyx",
+      "folder": "Iron Maiden - Rainmaker [6205f2d7]",
+      "charter": "RubyDanger",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1703,
+          "kick_note_on_count": 596,
+          "tom_marker_count": 103,
+          "last_expert_onset_seconds": 226.223,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6205f2d711bca4.90867771",
+        "artist": "Iron Maiden",
+        "title": "Rainmaker",
+        "album": "Dance Of Death",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6205f2d711bca4.90867771",
+        "download_url": "https://rhythmverse.co/download_file/rubydanger/6205f2d711bca4.90867771/IronMaidenRainmaker",
+        "duration_seconds": 234.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "rubydanger",
+        "notes": "",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Rainmaker/album.png",
+          "name": "album.png",
+          "sha256": "bd3aff17df05f2a8800056dd22a9519e0913310b652cc40790da0d0ba65d4952"
+        },
+        {
+          "archive_name": "Iron Maiden - Rainmaker/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0230fc6c4f21f39ae08334b56fafac99699df6205ba2cbddc6d5ffe42b6538dc"
+        },
+        {
+          "archive_name": "Iron Maiden - Rainmaker/song.ini",
+          "name": "song.ini",
+          "sha256": "b61267d011c1189c23f3d1b5941248e3e7199f6bfffe705112ed606d04a6166a"
+        },
+        {
+          "archive_name": "Iron Maiden - Rainmaker/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ff69bc647c30355193c37f1c169a0c5e3e0c9be18e9175c4696904990b8203d4"
+        }
+      ],
+      "archive_sha256": "abd2f3064e5876cb4e074816914390710f741cb22545515ed9f2b2126e0add39",
+      "archive_bytes": 4767744,
+      "prepared_bytes": 4871323,
+      "qobuz_track_ids": [
+        "3605047"
+      ],
+      "playlist_track_ids": [
+        "12449352550"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Running Free",
+      "file_id": "5a4ef049d8ed26.61285201",
+      "source_url": "https://rhythmverse.co/songfile/5a4ef049d8ed26.61285201",
+      "download_url": "https://rhythmverse.co/download_file/sideshow/5a4ef049d8ed26.61285201/SideIMRFv1",
+      "archive_format": "onyx",
+      "folder": "Iron Maiden - Running Free [5a4ef049]",
+      "charter": "Sideshow, Gyoo, Beard216",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1862,
+          "kick_note_on_count": 473,
+          "tom_marker_count": 811,
+          "last_expert_onset_seconds": 195.931,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5a4ef049d8ed26.61285201",
+        "artist": "Iron Maiden",
+        "title": "Running Free",
+        "album": "Iron Maiden",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5a4ef049d8ed26.61285201",
+        "download_url": "https://rhythmverse.co/download_file/sideshow/5a4ef049d8ed26.61285201/SideIMRFv1",
+        "duration_seconds": 201.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sideshow",
+        "notes": "<p>Original custom by Gyoo who authored guitar and drums.&#160; I authored bass, vocals, and made changes to the drums.&#160; Beard216 the one and only provided CAT reductions for the difficulties.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - Running Free/album.png",
+          "name": "album.png",
+          "sha256": "999b326ef6f221e899dde4a33d5f53870ea006d4c8a94cfcbcb943312fb77820"
+        },
+        {
+          "archive_name": "Iron Maiden - Running Free/notes.mid",
+          "name": "notes.mid",
+          "sha256": "bec32babff424a193428ffa588863b34926e5705697fcf0441145172148c2fb3"
+        },
+        {
+          "archive_name": "Iron Maiden - Running Free/song.ini",
+          "name": "song.ini",
+          "sha256": "c6577c095996c9ce9a6617e68bab675cdcd2963fc4b4c66b917537fcb11a194a"
+        },
+        {
+          "archive_name": "Iron Maiden - Running Free/song.ogg",
+          "name": "song.ogg",
+          "sha256": "102d2398669f6468a28e85084126bfe29837510b99ea5e3eef21dce0438fbee2"
+        }
+      ],
+      "archive_sha256": "cd529c9dfd3d2e9c147bd9333742106f3db9205592c35f98989a8a8076376719",
+      "archive_bytes": 5468160,
+      "prepared_bytes": 4686288,
+      "qobuz_track_ids": [
+        "25104462"
+      ],
+      "playlist_track_ids": [
+        "12449352521"
+      ]
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "The Writing On The Wall",
+      "file_id": "61408b5d480372.43008161",
+      "source_url": "https://rhythmverse.co/songfile/61408b5d480372.43008161",
+      "download_url": "https://rhythmverse.co/download_file/someoldguys/61408b5d480372.43008161/IronMaidenWriting",
+      "archive_format": "onyx",
+      "folder": "Iron Maiden - The Writing On The Wall [61408b5d]",
+      "charter": "SomeOldGuys",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1893,
+          "kick_note_on_count": 455,
+          "tom_marker_count": 153,
+          "last_expert_onset_seconds": 361.728,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "61408b5d480372.43008161",
+        "artist": "Iron Maiden",
+        "title": "The Writing On The Wall",
+        "album": "Senjutsu",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/61408b5d480372.43008161",
+        "download_url": "https://rhythmverse.co/download_file/someoldguys/61408b5d480372.43008161/IronMaidenWriting",
+        "duration_seconds": 375.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "SomeOldGuys",
+        "notes": "",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Iron Maiden - The Writing On The Wall/album.png",
+          "name": "album.png",
+          "sha256": "5ccca9ff862e5177e10937c7625e29d0ed1f397640db47812a60279465a4edc8"
+        },
+        {
+          "archive_name": "Iron Maiden - The Writing On The Wall/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "b819e8bede5b65643214f2486b20564cb500b04c3a4455d19fe150e0fcc6adad"
+        },
+        {
+          "archive_name": "Iron Maiden - The Writing On The Wall/notes.mid",
+          "name": "notes.mid",
+          "sha256": "50f81b0c584f3346ffa89bf848c10ad07168490c5620659c6ec3bc6b7ffb536a"
+        },
+        {
+          "archive_name": "Iron Maiden - The Writing On The Wall/song.ini",
+          "name": "song.ini",
+          "sha256": "af3381d9bc605db7344d53c3da14f2c9724beff0de8389d924b8e880c312a093"
+        },
+        {
+          "archive_name": "Iron Maiden - The Writing On The Wall/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7dc80cd5edd4ba0ee2f95689804b3252940de3cc3a1095df5c226b28998359cb"
+        }
+      ],
+      "archive_sha256": "548e72e87bd38b026dffc8b0897d171ba00abf8c901e02d7a0f8db45cfe4cd8a",
+      "archive_bytes": 7503872,
+      "prepared_bytes": 7582790,
+      "qobuz_track_ids": [
+        "126472044"
+      ],
+      "playlist_track_ids": [
+        "12449352508"
+      ]
+    },
+    {
+      "artist": "Katy Perry",
+      "title": "I Kissed a Girl",
+      "file_id": "57f6ec812d5317.37687090",
+      "source_url": "https://rhythmverse.co/songfile/57f6ec812d5317.37687090",
+      "download_url": "https://rhythmverse.co/download_file/farottone/57f6ec812d5317.37687090/KissedaGirlV2_rb3con",
+      "archive_format": "onyx",
+      "folder": "Katy Perry - I Kissed a Girl [57f6ec81]",
+      "charter": "Ultimate_MANG0",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 961,
+          "kick_note_on_count": 235,
+          "tom_marker_count": 377,
+          "last_expert_onset_seconds": 180.489,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "57f6ec812d5317.37687090",
+        "artist": "Katy Perry",
+        "title": "I Kissed a Girl",
+        "album": "One of the Boys",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/57f6ec812d5317.37687090",
+        "download_url": "https://rhythmverse.co/download_file/farottone/57f6ec812d5317.37687090/KissedaGirlV2_rb3con",
+        "duration_seconds": 185.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Farottone",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Katy Perry - I Kissed a Girl/album.png",
+          "name": "album.png",
+          "sha256": "a01648b27e9c5acbfe74444b2fd9cc920bdf07872a5ebabf811271bd29833e39"
+        },
+        {
+          "archive_name": "Katy Perry - I Kissed a Girl/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e77d67c14d6ab6d433f1e8c912f1eb53e6f9d4564d68512e4ddc3e0b24f417ce"
+        },
+        {
+          "archive_name": "Katy Perry - I Kissed a Girl/song.ini",
+          "name": "song.ini",
+          "sha256": "dc103245ed1cd03d9b5a6473420bc076380bd6eb94e81c6cd48cb7d997b73fff"
+        },
+        {
+          "archive_name": "Katy Perry - I Kissed a Girl/song.ogg",
+          "name": "song.ogg",
+          "sha256": "93f5003411ef90210e907149c4e5d6c2a2c1649a91e2d79d17676eb9a5b66e97"
+        }
+      ],
+      "archive_sha256": "7101ceb688122e0862ea9f1a85121baef81e232be655f7aedca8a195b94aad63",
+      "archive_bytes": 4612096,
+      "prepared_bytes": 3498495,
+      "qobuz_track_ids": [
+        "4462181"
+      ],
+      "playlist_track_ids": [
+        "12409025256"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Battle Symphony",
+      "file_id": "5b4a1761120c40cfb1138e5240816f78",
+      "source_url": "https://rhythmverse.co/songfile/5b4a1761120c40cfb1138e5240816f78",
+      "download_url": "https://rhythmverse.co/download_file/r0bd0g/5b4a1761120c40cfb1138e5240816f78/battlesymph0ny_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Battle Symphony [5b4a1761]",
+      "charter": "r0bd0g",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1231,
+          "kick_note_on_count": 305,
+          "tom_marker_count": 46,
+          "last_expert_onset_seconds": 216.645,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 8,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b4a1761120c40cfb1138e5240816f78",
+        "artist": "Linkin Park",
+        "title": "Battle Symphony",
+        "album": "One More Light",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b4a1761120c40cfb1138e5240816f78",
+        "download_url": "https://rhythmverse.co/download_file/r0bd0g/5b4a1761120c40cfb1138e5240816f78/battlesymph0ny_rb3con",
+        "duration_seconds": 219.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "r0bd0g",
+        "notes": "<i>If I fall, get knocked down<br>\r\nPick myself up off the ground</i><br><br>Note: 2x kick support is provided using the Rock Band 3 Enhanced 2x kick modifier.",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Battle Symphony/album.png",
+          "name": "album.png",
+          "sha256": "c8aa6d5704b8a97078bac51defd5c0da3d02e7ecd12534fd2d9948c3eaafd3e4"
+        },
+        {
+          "archive_name": "Linkin Park - Battle Symphony/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "a33a1cc4ae1a8abd959d2a1a39bc8750884d3024718d4e31615d0d347db2a6c5"
+        },
+        {
+          "archive_name": "Linkin Park - Battle Symphony/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "16125b7e3064f75a0c219e79048c945709ae6341b1925992637fd8bee5f48f60"
+        },
+        {
+          "archive_name": "Linkin Park - Battle Symphony/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "cf43ea83f207f2cec95b5e8ede1d32d3b49c8586f67a48fc7bcca3b2b7064b6f"
+        },
+        {
+          "archive_name": "Linkin Park - Battle Symphony/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f245a5345523c68da26e061b2ee5c00afe09937a86dbe90ddd07ecbef9bcdbed"
+        },
+        {
+          "archive_name": "Linkin Park - Battle Symphony/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "d0f993023b93302d0a95b91dd4ba144c48b9d04e1ad7e9e9d0431a48a983fd86"
+        },
+        {
+          "archive_name": "Linkin Park - Battle Symphony/notes.mid",
+          "name": "notes.mid",
+          "sha256": "beb431e54ad228d734eeada1b60e2a1996c9325a98fe02ea8b7ce348da258c9b"
+        },
+        {
+          "archive_name": "Linkin Park - Battle Symphony/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "60b86d84629045179ce93ed58f8d472ba0b4b7c37cd4fbebefd93325ca7a1992"
+        },
+        {
+          "archive_name": "Linkin Park - Battle Symphony/song.ini",
+          "name": "song.ini",
+          "sha256": "9fa920a76fbdaa26d00326e99aaa871a6c66078c11b83b08bca25966c085dcc8"
+        },
+        {
+          "archive_name": "Linkin Park - Battle Symphony/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c472d748591b2a64e234b99914ffc4a80d1c33618404deb948204f249d2b25f7"
+        },
+        {
+          "archive_name": "Linkin Park - Battle Symphony/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "2b12a84c9cb35c4b467bf7fdbec3a373082c5056bc5aff640fa9a4765d85af72"
+        }
+      ],
+      "archive_sha256": "08e5f1b6bdb783f9a2fc45b6419b8a106270afa7d9fce86fc1eb239ca6b5f6c6",
+      "archive_bytes": 29593600,
+      "prepared_bytes": 29980770,
+      "qobuz_track_ids": [
+        "38572826"
+      ],
+      "playlist_track_ids": [
+        "12450473459"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Don't Stay",
+      "file_id": "ec6832981b214cfebaa2130bc87e94dd",
+      "source_url": "https://rhythmverse.co/songfile/ec6832981b214cfebaa2130bc87e94dd",
+      "download_url": "https://rhythmverse.co/download_file/luna2/ec6832981b214cfebaa2130bc87e94dd/DontStay_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Don't Stay [ec683298]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1140,
+          "kick_note_on_count": 295,
+          "tom_marker_count": 20,
+          "last_expert_onset_seconds": 189.252,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ec6832981b214cfebaa2130bc87e94dd",
+        "artist": "Linkin Park",
+        "title": "Don't Stay",
+        "album": "Meteora",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/ec6832981b214cfebaa2130bc87e94dd",
+        "download_url": "https://rhythmverse.co/download_file/luna2/ec6832981b214cfebaa2130bc87e94dd/DontStay_rb3con",
+        "duration_seconds": 194.0,
+        "duration_difference_seconds": 6.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "notes": "In March 2003, Mike Shinoda did a track-by-track of Meteora for ShoutWeb. About \"Don't Stay\", he said, \"That song started off as almost a Spanish or reggae style sound with the guitar. The first time I heard it, I almost thought it sounded like some kind of Latin dancing thing. And it was funny because it didn't sound that way. It just gave me that idea in my head so Brad and I worked on it. Brad ended up coming up with the final thing, which is what you hear there. The nice thing about the song is that it's written really heavy. It's got an interesting bounce to it and that Spanish guitar thing is gone now. Because it came from that place, it has a different vibe to the rhythm of it. I think it's a really fun song. It's going to be a really fun song to play live. It's really energetic.\"\r\n\r\nOn the Meteora booklet, the band wrote, \"Mike and Brad's original guitar parts for this song had a Reggae-Style vibe. After numerous transformations (Probably 5 or 6 different guitar variations), Brad developed the final recorded version. Under the working title \"Sick,\" this song was one of the first tracks finished for this album... Notably, Joe recorded the opening scratch solo on the first take.\" ",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Don't Stay/album.png",
+          "name": "album.png",
+          "sha256": "34ee713eee1a7fc67122ea9e46a6d98db50f6b16c7cc02fd85272a122f445c91"
+        },
+        {
+          "archive_name": "Linkin Park - Don't Stay/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "30cbc25fb5cb7f8613a05500ebca89b40218a5d536b14d16937969da83b5bcc9"
+        },
+        {
+          "archive_name": "Linkin Park - Don't Stay/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "b0341499532f3b5e2a4522a091d3bb0cbee06b6f462fea885b46d246912ee0d4"
+        },
+        {
+          "archive_name": "Linkin Park - Don't Stay/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "2e4160053c464f337169365d40026e777f5a1cb74bf33839af3185b2ee3248bb"
+        },
+        {
+          "archive_name": "Linkin Park - Don't Stay/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3f236ea9d2439915b9b8814184823a7d8e75a16e2b46eff7ae1ea7c01a2f7d69"
+        },
+        {
+          "archive_name": "Linkin Park - Don't Stay/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "ad59cddfc7d8719f81995d62bf658eda4fe038d7f320eccbf481d97f03f72f40"
+        },
+        {
+          "archive_name": "Linkin Park - Don't Stay/song.ini",
+          "name": "song.ini",
+          "sha256": "fbddcff323d60afd1608c03dd7658bd423d7e741359664f3dcfb45bdb095bac5"
+        },
+        {
+          "archive_name": "Linkin Park - Don't Stay/song.ogg",
+          "name": "song.ogg",
+          "sha256": "90ac53de5477ff7b1fb525eb75663d560d38a0559148dc1ef14961fccdce0712"
+        },
+        {
+          "archive_name": "Linkin Park - Don't Stay/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "0e40b9f3c5aaf352911db669130fe98312e0c760218562d3d03c13377adb4789"
+        }
+      ],
+      "archive_sha256": "08a7e3f7eb92cb3a7ead9bcfca4ddb26c9434a60a030a263b82aca0bff793e1b",
+      "archive_bytes": 16990208,
+      "prepared_bytes": 14361292,
+      "qobuz_track_ids": [
+        "7020274"
+      ],
+      "playlist_track_ids": [
+        "12221847112"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Fighting Myself",
+      "file_id": "9378cfeae4ab404fac06ad490c5cf68c",
+      "source_url": "https://rhythmverse.co/songfile/9378cfeae4ab404fac06ad490c5cf68c",
+      "download_url": "https://rhythmverse.co/download_file/luna2/9378cfeae4ab404fac06ad490c5cf68c/FightingMyself_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Fighting Myself [9378cfea]",
+      "charter": "KupatMen, Luna, Geeforce11",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1098,
+          "kick_note_on_count": 217,
+          "tom_marker_count": 46,
+          "last_expert_onset_seconds": 199.857,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "9378cfeae4ab404fac06ad490c5cf68c",
+        "artist": "Linkin Park",
+        "title": "Fighting Myself",
+        "album": "Meteora (20th Anniversary Edition)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/9378cfeae4ab404fac06ad490c5cf68c",
+        "download_url": "https://rhythmverse.co/download_file/luna2/9378cfeae4ab404fac06ad490c5cf68c/FightingMyself_rb3con",
+        "duration_seconds": 204.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "notes": "The song was seen in the first LPTV Episode of Season 1 titled \"The Writing Process\", in early 2003, when the band is recording demos at Mike's home studio. There is a clip of Mike recording the guitar riff of the song with Chester sitting next to him.\r\n\r\nWhen looking for material for Meteora 20, Mike Shinoda said that he was looking for a copy of \"Fighting Myself\" but stumbled upon \"Lost\" which he forgot existed. Mike said that he thought only a version without Chester existed. \"I thought all we had was a demo and me rapping verse one and verse two and that was it, but Ryan from management found a version where Chester was singing and then we found the session of that song and I went into the multitracks and found different chorus ideas. It went from a rough sketch to a finished chorus, so now we have a full song with vocals. I remember writing it and working on it but it didn't make the cut so we just stopped working on it, so now I found the sessions for it.\" When the song debuted, he said that he layered the Chester vocals on the bridge and ending of the song as well when he was rebuilding it.\r\n\r\nHe added, \"I got to take them into the computer and pick through what was there and we had the makings of a chorus that was like 90% done.\" So he went back in and picked through the multitracks to put a chorus together. He said that the chorus was \"90% finished\" and he would still change some things to finish the song if it were for the album, but that fans will think it sounds completely finished. \r\nPhoenix said that Linkin Park intended to release the extra songs from Meteora at some point. He said, \"I vaguely remember after Hybrid Theory, we had a couple of different things that popped up that needed an extra track or something that was previously unreleased. There was a specialty album maybe for Japan and with that also we did \"My December\" for a KROQ release, and all this stuff. I remember thinking a little at Meteora, even if this song or a couple of songs, even if we don't put them on the album, there's always going to be spots where it's going to be awesome to use them. And then I think that we just never used it, we just pressed forward and it never circled back to that.\"\r\n\r\nIn terms of why it didn't make the album, Mike said, \"we had to draw the line somewhere. 12 songs was the number\"\r\nBrad Delson did a track-by-track commentary of the Lost Demos disc for the \"Super Deluxe Box Set\" book on which the song is listed as \"Shortcut/Fighting Myself\". He wrote:\r\n\r\n\"We thought this was an epic, unfinished instrumental. In the summer of 2022, a dusty drive was excavated from the deepest recesses of the LP treasure trove. On it were \"Shortcut\" stems: one labeled \"MS Vox,\" on \"CB Vox.\" Mike flew them into the instrumental, gave it a deft mix, and the song magically emerged.\r\n\r\nP.S. The stacked guitars are epic. We would've played it live if we had seven guitarists.\"",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Fighting Myself/album.png",
+          "name": "album.png",
+          "sha256": "3f10fb3f6cadb87febbc54f518de3710fbc925a3cae949a34efeaf3ab9f30818"
+        },
+        {
+          "archive_name": "Linkin Park - Fighting Myself/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "e9b730026225ac2cad79f9c07a76edd60a6a7f15af14a2b81c71862597256e23"
+        },
+        {
+          "archive_name": "Linkin Park - Fighting Myself/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "14e7e0ef59c05683e05f28b43c858394f0a0caf5769f05681cf3fb1eec7fa963"
+        },
+        {
+          "archive_name": "Linkin Park - Fighting Myself/notes.mid",
+          "name": "notes.mid",
+          "sha256": "5ecebf0bb616436496d7302f60e7a13e4ee50ba14f3331b601de08a6e1727b3e"
+        },
+        {
+          "archive_name": "Linkin Park - Fighting Myself/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "2ef1eebcace73fe3af773e67ec82aac136462d5ba085870381927f5cd4f51d6b"
+        },
+        {
+          "archive_name": "Linkin Park - Fighting Myself/song.ini",
+          "name": "song.ini",
+          "sha256": "43127d1d2f101bcc94f741834cc3754db3d1863e0b359ccb333987ef6abaabdf"
+        },
+        {
+          "archive_name": "Linkin Park - Fighting Myself/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d77820b19cdbb113982c19d2adc7e6641912615b268e0a7dff4cc9088c83f989"
+        },
+        {
+          "archive_name": "Linkin Park - Fighting Myself/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "f2f287d2fdafcebf00bb8f62339c590634ca73c58ec680e1c5e342929fd99e6f"
+        }
+      ],
+      "archive_sha256": "12aa1c806260cd807b2cb09d78596e24efdc94e41d4fa4d771c2315552b794fa",
+      "archive_bytes": 16592896,
+      "prepared_bytes": 14240191,
+      "qobuz_track_ids": [
+        "196273994"
+      ],
+      "playlist_track_ids": [
+        "12450473445"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Friendly Fire",
+      "file_id": "38ddf509167a4987a88b2256d87ad9f6",
+      "source_url": "https://rhythmverse.co/songfile/38ddf509167a4987a88b2256d87ad9f6",
+      "download_url": "https://rhythmverse.co/download_file/luna2/38ddf509167a4987a88b2256d87ad9f6/FriendlyFire_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Friendly Fire [38ddf509]",
+      "charter": "GeeForce11, Geryon, Luna",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 701,
+          "kick_note_on_count": 188,
+          "tom_marker_count": 52,
+          "last_expert_onset_seconds": 160.606,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "38ddf509167a4987a88b2256d87ad9f6",
+        "artist": "Linkin Park",
+        "title": "Friendly Fire",
+        "album": "Papercuts",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/38ddf509167a4987a88b2256d87ad9f6",
+        "download_url": "https://rhythmverse.co/download_file/luna2/38ddf509167a4987a88b2256d87ad9f6/FriendlyFire_rb3con",
+        "duration_seconds": 177.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "notes": "In a stream on June 17, 2020, Mike confirmed \"Friendly Fire\" was completely finished and had vocals from Chester on it. \"There was a song, a One More Light song, that we mixed. We mixed more than the finished album and we mixed a couple other songs just to see if one of them would make the cut or if we would use it for a b-side. And it was Friendly Fire. A Jon Green co-write. I wrote that with Jon, I think it was me, Jon, and Brad mostly. I still love that song.\" He went on to say that the song wouldn't be coming out soon, but would likely be released. This was the first public mention of Jon collaborating on the track. \"Friendly Fire\" was finally released in 2024 as part of the greatest hits album Papercuts - Singles Collection 2000-2023. Upon release, Brad Delson said:\r\n\r\n“‘Friendly Fire’ was always one of our favorite songs from the One More Light sessions. Something about it wasn’t quite right so as close as it got to the finish line, we chose to set it aside for later. When we started looking for an unreleased track to include on our greatest hits collection, I was blown away by the power of the song, the power of the storytelling, the power of the vocal, the sonic landscape and I actually thought that it was closer than maybe we had realized at the time.\r\n\r\nWe got together to work on it and connect some of the missing pieces that for whatever reason hadn’t revealed themselves during the recording of One More Light. I can’t wait for people to hear it. It’s such a beautiful, compelling, heartbreaking, hopeful story and it really resonates with me today.”",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Friendly Fire/album.png",
+          "name": "album.png",
+          "sha256": "27fc22b0f0f92ba8e922d4061e031c599e52c231f2b0814a412fa9ca60895d8f"
+        },
+        {
+          "archive_name": "Linkin Park - Friendly Fire/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "e036a436b976d9a8b11692edc08f5cebba5411357f9a95d7d93da59a3e3f4eb6"
+        },
+        {
+          "archive_name": "Linkin Park - Friendly Fire/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "ee3f2eb83111ebe1a038189b1c9f283e62d8408d7b4e97e8dd29470905dc4486"
+        },
+        {
+          "archive_name": "Linkin Park - Friendly Fire/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "edc116b6bf1485e560dc2cfc8be02adc6a10bae814d56ee5273ea5fb537ad525"
+        },
+        {
+          "archive_name": "Linkin Park - Friendly Fire/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e54304d3327b10c0031b30226871c025aa98e6d594ae94df47b18486df60b2f4"
+        },
+        {
+          "archive_name": "Linkin Park - Friendly Fire/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "d845ab091f796a53c8bf154660956693c11a35a93c3151fa3638be7fb3269d44"
+        },
+        {
+          "archive_name": "Linkin Park - Friendly Fire/song.ini",
+          "name": "song.ini",
+          "sha256": "f4156d5f8f1deda91b655297a9f1164aa5672ab761ac5dfcecbea1d4b3aedc03"
+        },
+        {
+          "archive_name": "Linkin Park - Friendly Fire/song.ogg",
+          "name": "song.ogg",
+          "sha256": "374841875bc1d03d5501635d63697b9d4b2779c3dd8cf6b9596fb010ced84f85"
+        },
+        {
+          "archive_name": "Linkin Park - Friendly Fire/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "2c214ae0fa2050271b578ddeab80d85651d7ab5c3223efaf81caa2ca8bd330c4"
+        }
+      ],
+      "archive_sha256": "28e3dff15bd681a81ec7a19cc09af399d96f9c4ec5590337bbe5294b764d1358",
+      "archive_bytes": 17477632,
+      "prepared_bytes": 15717009,
+      "qobuz_track_ids": [
+        "253356111"
+      ],
+      "playlist_track_ids": [
+        "12450473458"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Heavy (feat. Kiiara)",
+      "file_id": "4edbd04101424fa4990b50ce26ba3926",
+      "source_url": "https://rhythmverse.co/songfile/4edbd04101424fa4990b50ce26ba3926",
+      "download_url": "https://rhythmverse.co/download_file/zepyrrx/4edbd04101424fa4990b50ce26ba3926/NoSoyYuriHeavy_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Heavy (feat. Kiiara) [4edbd041]",
+      "charter": "No_Soy_Yuri, ZepyrRX",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 737,
+          "kick_note_on_count": 239,
+          "tom_marker_count": 7,
+          "last_expert_onset_seconds": 165.236,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "4edbd04101424fa4990b50ce26ba3926",
+        "artist": "Linkin Park",
+        "title": "Heavy (feat. Kiiara)",
+        "album": "One More Light",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/4edbd04101424fa4990b50ce26ba3926",
+        "download_url": "https://rhythmverse.co/download_file/zepyrrx/4edbd04101424fa4990b50ce26ba3926/NoSoyYuriHeavy_rb3con",
+        "duration_seconds": 173.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ZepyrRX",
+        "notes": "Song authored by Marcos. I added some improvements to this song, which are as follows:\r\n1. Correctly placed an overdrive unison bonus, which is why the Song ID was changed.\r\n2. Added a custom venue, with manual cameras and automatic lights.\r\n3. The guitarist and bassist will sing the vocal harmonies (Harm 2 and Harm 3).\r\n4. Added multitrack to the song.",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Heavy (feat. Kiiara)/album.png",
+          "name": "album.png",
+          "sha256": "c8aa6d5704b8a97078bac51defd5c0da3d02e7ecd12534fd2d9948c3eaafd3e4"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy (feat. Kiiara)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "a67b26327e11fcf53aab29bd869d0d40ce531656dd56433b969d64061ec0919e"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy (feat. Kiiara)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "e5630584929fc35b6e952d911b1958221abef8c9293d8a5879abb46cd9be0e23"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy (feat. Kiiara)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "555dc3a7787bbb07f469041545e20286b53c6ac47240460d9f09acf998e014b5"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy (feat. Kiiara)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "8db61c0f3666561b27ded92ec3b1b0e57071144c50f62fecfc756229b310cf12"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy (feat. Kiiara)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "2a0cbae1c4cf88a2a326742e5d59f17a7144188f8aa5eecab2e222a3b7f44899"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy (feat. Kiiara)/song.ini",
+          "name": "song.ini",
+          "sha256": "f6a9fdac8838f2183350fa7d1e8f5deed4496e0f2259388981e4f76cabb179f0"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy (feat. Kiiara)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c9f30a8e24699b2e6d7a520f9f40775110ad678e64387eaf86b8d2e29ad3229b"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy (feat. Kiiara)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "73408f00ea72a68c35465474d5732b30f681ccd4aab74011b6b1646117633009"
+        }
+      ],
+      "archive_sha256": "929dc0cf194482cab7fcec68b7d472871a3c2c53423f595e3eed5b4fdf601751",
+      "archive_bytes": 19533824,
+      "prepared_bytes": 16300351,
+      "qobuz_track_ids": [
+        "38572828"
+      ],
+      "playlist_track_ids": [
+        "12450473444"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Heavy Is the Crown",
+      "file_id": "a743dd222f624ff18364c5f0d711747d",
+      "source_url": "https://rhythmverse.co/songfile/a743dd222f624ff18364c5f0d711747d",
+      "download_url": "https://rhythmverse.co/download_file/underoath628/a743dd222f624ff18364c5f0d711747d/LP%20-%20Heavy%20is%20the%20Crown%20(RB3)v1",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Heavy Is the Crown [a743dd22]",
+      "charter": "U628, TypeOPositive",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 932,
+          "kick_note_on_count": 206,
+          "tom_marker_count": 3,
+          "last_expert_onset_seconds": 159.375,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a743dd222f624ff18364c5f0d711747d",
+        "artist": "Linkin Park",
+        "title": "Heavy Is the Crown",
+        "album": "From Zero",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/a743dd222f624ff18364c5f0d711747d",
+        "download_url": "https://rhythmverse.co/download_file/underoath628/a743dd222f624ff18364c5f0d711747d/LP - Heavy is the Crown (RB3)v1",
+        "duration_seconds": 167.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Underoath628",
+        "notes": "OG Gtr Chart by TypeOPositive,\r\nRB3CON This time around, RB2 Version will be hidden from RB3 library so u don't get any dupes on there:) Get RB2 Version here: https://drive.google.com/file/d/1_OSlsjW558uJTsG_iIqTnUuIm3HEXhI7/view?usp=drive_link",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Heavy Is the Crown/album.png",
+          "name": "album.png",
+          "sha256": "d353e2acf610c65d8346c03bb37ec52f7a006058703dd8c1f41183f1510d2da7"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy Is the Crown/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "7f48ef0cef4099b4683ab9b9adb4cea0d6bae8cbfa8977fd5647d7eed7f931e5"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy Is the Crown/notes.mid",
+          "name": "notes.mid",
+          "sha256": "20955ed944188271b75c04d5e2dad296d6f2f2cbb8499bdafa76471c2f573e1f"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy Is the Crown/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "aa13f130448ae81ed386f52afa600ee0ffb0d4062f97c13731ea8c8f287d0052"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy Is the Crown/song.ini",
+          "name": "song.ini",
+          "sha256": "4cb11be201fed7869f3c10b9e7f28cfd20fa70ac4d7645af80beec267fd1d2db"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy Is the Crown/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d85af08e1641658549d2fddbe230b2f31846d4ddcb79e1582e05f5104ab4d51d"
+        },
+        {
+          "archive_name": "Linkin Park - Heavy Is the Crown/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "0cb9a2c24ff1a3fabe73e1b695955833e4ff0b0809636ddfb7fb735919e3f824"
+        }
+      ],
+      "archive_sha256": "435cadd86e7813209320cbb50ef706b15b03d30ead070f7fa30067cdbdc7eb7b",
+      "archive_bytes": 14114816,
+      "prepared_bytes": 12088664,
+      "qobuz_track_ids": [
+        "287336645"
+      ],
+      "playlist_track_ids": [
+        "12450473437"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Lost in the Echo",
+      "file_id": "adec5063d1a9421fb2fe6873f9165084",
+      "source_url": "https://rhythmverse.co/songfile/adec5063d1a9421fb2fe6873f9165084",
+      "download_url": "https://rhythmverse.co/download_file/luna2/adec5063d1a9421fb2fe6873f9165084/LostintheEcho_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Lost in the Echo [adec5063]",
+      "charter": "Luna, Geeforce11, Nightmare Lyra",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1234,
+          "kick_note_on_count": 347,
+          "tom_marker_count": 139,
+          "last_expert_onset_seconds": 203.875,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "adec5063d1a9421fb2fe6873f9165084",
+        "artist": "Linkin Park",
+        "title": "Lost in the Echo",
+        "album": "Living Things",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/adec5063d1a9421fb2fe6873f9165084",
+        "download_url": "https://rhythmverse.co/download_file/luna2/adec5063d1a9421fb2fe6873f9165084/LostintheEcho_rb3con",
+        "duration_seconds": 206.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "notes": "According to Mike Shinoda, \"Lost In The Echo\", called \"Holding Company\" while being worked on, was a defining moment for the album, and helped them decide the direction of the album. Mike also discussed how it was the first time in years the band was opening to writing songs that sounded like traditional Linkin Park, stating \"The past two years, whenever I brought anything in that sounded very much like Linkin Park -- the thing that people think Linkin Park is supposed to be -- the guys in the band kind of really turned away from it. For an album, I bring in anywhere between twenty-five to seventy-five demos to arrive at what we end up choosing for the record. Especially on the last two albums, a lot of those rough ideas can be really similar to what end up on the album or they can be just the egg that it hatches from. The thing about \"Lost in the Echo\" was it sounded a lot like what the \"song\" sounds like, I think. When the guys heard it, I kind of said to them, \"What do you think about that?\" and their responses, for the first time in a few years, were pretty good. They were like, \"Yeah, we hear the merit. Let's develop that idea. Let's see what we want to do.\" I said to them, \"You know, this is like a real moment for us, now, on this album.\" On the last two albums, if I brought in something like this, not everyone would've given it the green light; they would've said, \"Oh, this sounds too predictable.\" But clearly, we're at a moment where we're bridging a gap between what we've been doing and the future of the band, so that was one of those songs that kind of set the bar.\"\r\n\r\nIn a Reddit AMA on August 12, 2015, Mike talked about the beginnings of \"Lost In The Echo\": \"I'm constantly writing--on my phone, laptop, in my studio. From hundreds of demos, a handful of songs stand out, and we flesh those out. They can start from anything--Lost In The Echo began with an iphone recording of a children's cat keyboard toy, which I put in iMaschine (an iPhone sampler app), then took to the studio.\"'",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Lost in the Echo/album.png",
+          "name": "album.png",
+          "sha256": "fae4ef11ff3aaec57eeed12af3cbc1ce65fd076eb215e34535a7e562e33fe633"
+        },
+        {
+          "archive_name": "Linkin Park - Lost in the Echo/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "88400eef5aa9147b0537984646eb1c6ca3e312fecbd1c3739e965c64ff796eaf"
+        },
+        {
+          "archive_name": "Linkin Park - Lost in the Echo/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c6278dfecc95ba77893e91cc132c06191255c0f2a34d0ac313dfd3203166eb0b"
+        },
+        {
+          "archive_name": "Linkin Park - Lost in the Echo/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "318b7c2bb8532c4e78a1afcaca498fd86ef90031ffb89d4c09e8fc22569b42c4"
+        },
+        {
+          "archive_name": "Linkin Park - Lost in the Echo/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7f368595548c321ba5436440191634087671a147a92fa143ef13add8cb7ce00b"
+        },
+        {
+          "archive_name": "Linkin Park - Lost in the Echo/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "35c773fd20b05f1dacd3dff36b78b0d8a9dce81f43212cface1a41f6a22968d8"
+        },
+        {
+          "archive_name": "Linkin Park - Lost in the Echo/song.ini",
+          "name": "song.ini",
+          "sha256": "374b5095a5203fbb9263f33b7c2f71b4ae90b94ccc920338f6620b1e7de78538"
+        },
+        {
+          "archive_name": "Linkin Park - Lost in the Echo/song.ogg",
+          "name": "song.ogg",
+          "sha256": "73ab873b635497dd75686c774da60c57f21093ecfe63a0163a5050d8d6429613"
+        },
+        {
+          "archive_name": "Linkin Park - Lost in the Echo/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "a510c669fe1532df6a592aa656610e2b1e56d61ec03f9279d63779b24eb8eb77"
+        }
+      ],
+      "archive_sha256": "7f975e9a18b0482101c89ae0787500a5214397383c0ea703cbd23774ad294637",
+      "archive_bytes": 23531520,
+      "prepared_bytes": 17491037,
+      "qobuz_track_ids": [
+        "11092330"
+      ],
+      "playlist_track_ids": [
+        "12450473466"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Over Each Other",
+      "file_id": "a46a26014af5457b9b65434b18310fe0",
+      "source_url": "https://rhythmverse.co/songfile/a46a26014af5457b9b65434b18310fe0",
+      "download_url": "https://rhythmverse.co/download_file/luna2/a46a26014af5457b9b65434b18310fe0/OverEachOther_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Over Each Other [a46a2601]",
+      "charter": "mjey, Luna, GeeForce11",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 791,
+          "kick_note_on_count": 154,
+          "tom_marker_count": 87,
+          "last_expert_onset_seconds": 166.758,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a46a26014af5457b9b65434b18310fe0",
+        "artist": "Linkin Park",
+        "title": "Over Each Other",
+        "album": "From Zero",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/a46a26014af5457b9b65434b18310fe0",
+        "download_url": "https://rhythmverse.co/download_file/luna2/a46a26014af5457b9b65434b18310fe0/OverEachOther_rb3con",
+        "duration_seconds": 175.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "notes": "Talking about the creation of the song, Mike said, \"The original demo was all me, and then as we were writing, in the process we played with different iterations/ways of presenting it. Some of the tracks, it was just like, I wrote the demo and then it kind of like stayed very similar to that. Other ones were more of a collaborative process and I think this one fell into that category more. It had its different twists and turns with friends of ours and at the end of the day, when we did this version with Emily singing it all the way down, it like the song - it felt the most like what it was supposed to be.\"\r\n\r\nEmily said, \"I had to take a few stabs at it on different days, finding a little different melody changes to make it my own. Originally I was singing it just as it was written and it was a little tough to crack it.\" She said it was the hardest song on the album because it had its own identity before she was introduced to the track. The track originally had an R&B vibe to it and she sang the song a lot of times.\r\n\r\nAbout the \"get your screamy pants on\" clip at the end of the song, Mike said, \"This song leads into another song on the record called 'Casualty' and... I'll leave it there.\"[3] Mike referenced the line when they debuted 'Casualty' live in Arlington, Texas, teasing the audience before the song, \"this is what happens when Em puts her screamy pants on.\" ",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Over Each Other/album.png",
+          "name": "album.png",
+          "sha256": "f0434eb421688b274dcdb910582e09935fb5d1f8f9060ef620aed16e9e380a93"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "acd65897bd053224c35f02153672c5fac55be87541e0b3da255cff286bc33747"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "1641ebbd9b5b7e744fa4c4633eb68a51684ae88e75fa50d12ce61f6f3981ebf8"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "49b5ac6a98a337934f1fa5231b9f91d0b2deb9276527d9d5112e93e21e12f539"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0e164a6b35f30fe89c696ff3f8c4bbbfd1e9c662f931934d89d022cad3fb9241"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "679f637c79a4409e1de86f2db81eaf445a628072a3264dbaee4598241126c8d9"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other/song.ini",
+          "name": "song.ini",
+          "sha256": "fca4ab8ce8b8bd9bb6766e8041ce44c0223ddcae301183665b9b7313697a1c53"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other/song.ogg",
+          "name": "song.ogg",
+          "sha256": "275dab5d7e668c56329c9c4c59726525343c6bf9643380baca75050639e783ad"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "21e9d0ee925ec3a10c93f0c76c2d3982132d76a0228c28cf65cdb0e66f390f8a"
+        }
+      ],
+      "archive_sha256": "49397b1cfd4b90a24aa0ca1ff7cb53707b9639e3d8b2d36fdc4220c63e4390f6",
+      "archive_bytes": 17342464,
+      "prepared_bytes": 15053148,
+      "qobuz_track_ids": [
+        "287336646"
+      ],
+      "playlist_track_ids": [
+        "12450473446"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Pts.Of.Athrty",
+      "file_id": "bdbd5fcbc35444d199b5b84ff2a74696",
+      "source_url": "https://rhythmverse.co/songfile/bdbd5fcbc35444d199b5b84ff2a74696",
+      "download_url": "https://rhythmverse.co/download_file/luna2/bdbd5fcbc35444d199b5b84ff2a74696/Pts.Of.Athrty_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Pts.Of.Athrty [bdbd5fcb]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1302,
+          "kick_note_on_count": 436,
+          "tom_marker_count": 148,
+          "last_expert_onset_seconds": 200.367,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "bdbd5fcbc35444d199b5b84ff2a74696",
+        "artist": "Linkin Park",
+        "title": "Pts.Of.Athrty",
+        "album": "Reanimation",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/bdbd5fcbc35444d199b5b84ff2a74696",
+        "download_url": "https://rhythmverse.co/download_file/luna2/bdbd5fcbc35444d199b5b84ff2a74696/Pts.Of.Athrty_rb3con",
+        "duration_seconds": 227.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "notes": "The remix was created by Orgy vocalist Jay Gordon and Sins Of A Divine Mother drummer John Magness (credited as \"Nova For The Astro Americans\"), who also handled the programming. Doug Trantow worked on the remix as an additional programmer, additional producer, and engineer. Brad Delson also did some additional production on the remix.\r\n\r\nThe band met Orgy when they were working on their second record, Vapor Transmission, at NRG Recording Studios at the same time Linkin Park was recording Hybrid Theory. Phoenix said the idea to do remixes came from Jay Gordon. Phoenix said about Reanimation, \"It came together haphazardly. Originally, Mike and Joe, back when we were still in the studio writing Hybrid Theory, were talking to the singer for Orgy. He was saying he would like to hear this and later said he would like to do \"Points of Authority\" as a remix. So that kind of planted a seed for Joe and Mike. \"Maybe we should have people do remixes. Maybe we'll put them online, we’ll give them out to our fan club.\"\r\n\r\nWhen describing the remix to MTV, Mike Shinoda said, \"It’s kind of an industrial type of song. It’s beat heavy, but it’s pretty much all samples, or it’s samples of live instruments, and it’s heavy. It’s like robotic-sounding.\"\r\n\r\nAn early version of the remix was released by PanoraManiacal Soundscapes (a representation company that worked with Jay Gordon) in 2007. ",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Pts.Of.Athrty/album.png",
+          "name": "album.png",
+          "sha256": "fd97d063304dfa7ffe0e1e3b8b453ed68a0e047b94d5babf95fbc3f570f4f3c4"
+        },
+        {
+          "archive_name": "Linkin Park - Pts.Of.Athrty/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "ce5cb73213c0736128dd689920dd47df098cddba68cc31556d7510a2de75a11b"
+        },
+        {
+          "archive_name": "Linkin Park - Pts.Of.Athrty/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f4c3471942aea99c1b064b6007d6118f01be3a4ef5293967d8bc4d6544902404"
+        },
+        {
+          "archive_name": "Linkin Park - Pts.Of.Athrty/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "123afc08e91378e0b2318f84c3ec89bef2274b82104dece677a33353117df0ed"
+        },
+        {
+          "archive_name": "Linkin Park - Pts.Of.Athrty/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f9cfe2ec11ac6298f630cdd5e5cf4c42da0d802caf52130f9870926aabfc2f0b"
+        },
+        {
+          "archive_name": "Linkin Park - Pts.Of.Athrty/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "f2a86e7636d908f146ae1e06e50cd23d00f8be5a95d36384b6123cd97c4cf448"
+        },
+        {
+          "archive_name": "Linkin Park - Pts.Of.Athrty/song.ini",
+          "name": "song.ini",
+          "sha256": "7a9af67222230f5a7e025785a393217820b1d774ab5667d4e4089f5c4c6efa6d"
+        },
+        {
+          "archive_name": "Linkin Park - Pts.Of.Athrty/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0228328698926e5d2f65541c6563e3b9f276703d26520eba3c1340ce10732cf8"
+        },
+        {
+          "archive_name": "Linkin Park - Pts.Of.Athrty/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "8db5e1811164b6b764243f3ac027d39910669c6348ac31ea2e1d64663f1b967d"
+        }
+      ],
+      "archive_sha256": "8304b5aac141e3d550a0f218c1bc8bcf681435f85dad7d0807d245861459d698",
+      "archive_bytes": 23670784,
+      "prepared_bytes": 19395816,
+      "qobuz_track_ids": [
+        "11092264"
+      ],
+      "playlist_track_ids": [
+        "12450473448"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Qwerty",
+      "file_id": "609c1c60428db3.91293553",
+      "source_url": "https://rhythmverse.co/songfile/609c1c60428db3.91293553",
+      "download_url": "https://rhythmverse.co/download_file/no_soy_yuri/609c1c60428db3.91293553/NoSoyYuriQwerty_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Qwerty [609c1c60]",
+      "charter": "No_Soy_Yuri",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1165,
+          "kick_note_on_count": 411,
+          "tom_marker_count": 109,
+          "last_expert_onset_seconds": 200.225,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "609c1c60428db3.91293553",
+        "artist": "Linkin Park",
+        "title": "Qwerty",
+        "album": "Underground 6",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/609c1c60428db3.91293553",
+        "download_url": "https://rhythmverse.co/download_file/no_soy_yuri/609c1c60428db3.91293553/NoSoyYuriQwerty_rb3con",
+        "duration_seconds": 206.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "Marcos",
+        "notes": "",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Qwerty/album.png",
+          "name": "album.png",
+          "sha256": "d4e6cffc819543f714ac633c8749f73abda43258325509939f84fe22172a785f"
+        },
+        {
+          "archive_name": "Linkin Park - Qwerty/notes.mid",
+          "name": "notes.mid",
+          "sha256": "753907f7d515bed6b64a682e0e7ce21b15637767be1656288e97c8dedf763c79"
+        },
+        {
+          "archive_name": "Linkin Park - Qwerty/song.ini",
+          "name": "song.ini",
+          "sha256": "2104ea47ed9f806ba44a21cd5c4ceda42b8c17ad65f64ef4ebce147331d1bda3"
+        },
+        {
+          "archive_name": "Linkin Park - Qwerty/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f3925fe049e33962d9d328c2a066095a2895631280ada275eb7c46459f78d532"
+        }
+      ],
+      "archive_sha256": "af630dc80278886dfdcd72d07e4d7f435bba24f363e8a4ecef0f6733c9083d99",
+      "archive_bytes": 3911680,
+      "prepared_bytes": 3374079,
+      "qobuz_track_ids": [
+        "265691906"
+      ],
+      "playlist_track_ids": [
+        "12450473470"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "She Couldn't",
+      "file_id": "ef93e2f13d7d4ffebf1ad0960093298d",
+      "source_url": "https://rhythmverse.co/songfile/ef93e2f13d7d4ffebf1ad0960093298d",
+      "download_url": "https://rhythmverse.co/download_file/marksempe/ef93e2f13d7d4ffebf1ad0960093298d/LPsc_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - She Couldn't [ef93e2f1]",
+      "charter": "GeeForce11, Luna, Big Gucci, MarkSempe",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1624,
+          "kick_note_on_count": 576,
+          "tom_marker_count": 14,
+          "last_expert_onset_seconds": 309.183,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ef93e2f13d7d4ffebf1ad0960093298d",
+        "artist": "Linkin Park",
+        "title": "She Couldn't",
+        "album": "Hybrid Theory (20th Anniversary Edition)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/ef93e2f13d7d4ffebf1ad0960093298d",
+        "download_url": "https://rhythmverse.co/download_file/marksempe/ef93e2f13d7d4ffebf1ad0960093298d/LPsc_rb3con",
+        "duration_seconds": 313.0,
+        "duration_difference_seconds": 8.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "MarkSempe",
+        "notes": "“She Couldn’t” is a song recorded by Linkin Park in 1999 during the early Hybrid Theory sessions, originally created as one of the first collaborations with Chester Bennington and developed from an earlier demo titled “Flower.” Despite being recorded during that period, it was never officially released at the time. In 2009, the track surfaced when a demo CD containing it was sold online and later shared by fans, prompting Mike Shinoda to confirm its origin while noting legal limitations around the song. Years later, on August 13, 2020, it received its official release as part of the Hybrid Theory 20th Anniversary Edition, where it was included among previously unreleased demos and preserved in its original form through mastering rather than remixing. Over time, the song underwent several changes, evolving from the earlier “Flower” demo into its final version, with intermediate versions such as instrumental demos featuring slight differences like added guitar elements and variations in structure before reaching the officially released form.",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - She Couldn't/album.png",
+          "name": "album.png",
+          "sha256": "6c2c6ca8b30c8487734d5662669f7fb2f765c5f6b3a43d1409faa8791b8fe353"
+        },
+        {
+          "archive_name": "Linkin Park - She Couldn't/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "394e4a2a87d2701cee0bd0e553a367d9aba971bdebca5b038be721360619d177"
+        },
+        {
+          "archive_name": "Linkin Park - She Couldn't/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "e3c0f110bf788456dc659ff9b53b2c6d0442fa3f6891babb9c9758804e110f97"
+        },
+        {
+          "archive_name": "Linkin Park - She Couldn't/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "09e96b68100b4bc41e8a8811ea0badb048cfcde8c9f432f819c6a58105d22a92"
+        },
+        {
+          "archive_name": "Linkin Park - She Couldn't/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0aaa0296f087b7916950822628f51f3a6596c1ad48f3335e22571627130384ec"
+        },
+        {
+          "archive_name": "Linkin Park - She Couldn't/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "bda10d9dd7b9b1d9147ee61e217b77c8f66a46156a5b87c1e7904c52fde2ab73"
+        },
+        {
+          "archive_name": "Linkin Park - She Couldn't/song.ini",
+          "name": "song.ini",
+          "sha256": "a2c4ba279df1858837b6917944088f2ef37d20d32b37fce4cdfddfcefeaf3a50"
+        },
+        {
+          "archive_name": "Linkin Park - She Couldn't/song.ogg",
+          "name": "song.ogg",
+          "sha256": "e82f6551837c99e3adfff99f6724c2dfa1eccf20bef7d13c1ffbb2400ef3e373"
+        },
+        {
+          "archive_name": "Linkin Park - She Couldn't/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "ccb75ae03026c06e7231162c23ca08f57f64f5656259da7d2f4cb0acfd9bbded"
+        }
+      ],
+      "archive_sha256": "b831bc16a344078519b25586c918655929ffb017ab0cde671fa2b6915eaa92f1",
+      "archive_bytes": 22851584,
+      "prepared_bytes": 21559017,
+      "qobuz_track_ids": [
+        "99543523"
+      ],
+      "playlist_track_ids": [
+        "12450473463"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "The Catalyst",
+      "file_id": "5b947dad32d728.42301370",
+      "source_url": "https://rhythmverse.co/songfile/5b947dad32d728.42301370",
+      "download_url": "https://mega.nz/#!95cHjIBY!aSsRr7QHMwQVEnQxwAc_fqbEmXP3XhDq28w2z2h8GfU",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - The Catalyst [5b947dad]",
+      "charter": "iPodwithnomusic",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1785,
+          "kick_note_on_count": 312,
+          "tom_marker_count": 65,
+          "last_expert_onset_seconds": 302.221,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947dad32d728.42301370",
+        "artist": "Linkin Park",
+        "title": "The Catalyst",
+        "album": "",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b947dad32d728.42301370",
+        "download_url": "https://mega.nz/#!95cHjIBY!aSsRr7QHMwQVEnQxwAc_fqbEmXP3XhDq28w2z2h8GfU",
+        "duration_seconds": 344.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "iPodwithnomusic",
+        "notes": "<p>Updated 2015-11-09 to fix audio sync<br />\nUpdated 2015-11-24 to improve harmonies, venue animations, and lip sync</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - The Catalyst/album.png",
+          "name": "album.png",
+          "sha256": "5bba71b42e53056ac06734c45acfa7bf88c50807d39c0d04aa82bbd5caa30b77"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "75c46c8ad4628269945550c4090713ae318eff8630d2ddf34939991ff3e441b5"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7fd94509f205ef86d9870f0cf7ad3ddf1f7c4c800b04311d45f9368295f7a205"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "ca80c150e34c1288251beee50a257f964a887cf7a32051c2632f26df5686e4f2"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst/song.ini",
+          "name": "song.ini",
+          "sha256": "e0fd445da7d4cb40c593adb1557e59d8c67872a15731d124d296dcf6f4b3fbd7"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst/song.ogg",
+          "name": "song.ogg",
+          "sha256": "fff61170aa18f6f7b5d96974a1312e0eaa9569c10f7ad0761f1963fc5b72ffe3"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "c66b2f0142d92a11270e06186ac8574b14c63cfeaf91ab5dc3ecdff04b8bed9d"
+        }
+      ],
+      "archive_sha256": "58e582455782f22f5fd3d829bb6669b4058a2956c0eba85d49c3bbdebdb8998e",
+      "archive_bytes": 24412160,
+      "prepared_bytes": 20024027,
+      "qobuz_track_ids": [
+        "6907098"
+      ],
+      "playlist_track_ids": [
+        "12450473440"
+      ]
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Two Faced",
+      "file_id": "b16431f317cb44648538bc84887c7424",
+      "source_url": "https://rhythmverse.co/songfile/b16431f317cb44648538bc84887c7424",
+      "download_url": "https://rhythmverse.co/download_file/luna2/b16431f317cb44648538bc84887c7424/TwoFaced_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Two Faced [b16431f3]",
+      "charter": "U628, Platinumconsole, Luna",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1001,
+          "kick_note_on_count": 376,
+          "tom_marker_count": 11,
+          "last_expert_onset_seconds": 179.674,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b16431f317cb44648538bc84887c7424",
+        "artist": "Linkin Park",
+        "title": "Two Faced",
+        "album": "From Zero",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/b16431f317cb44648538bc84887c7424",
+        "download_url": "https://rhythmverse.co/download_file/luna2/b16431f317cb44648538bc84887c7424/TwoFaced_rb3con",
+        "duration_seconds": 183.0,
+        "duration_difference_seconds": 0.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "notes": "Released on November 13th 2024, two days before the release of Linkin Park’s comeback record “From Zero”, “Two Faced” is the fourth single out of the album. Focusing fully in nu-metal, it is arguably one of the heaviest tracks on the record. It touches on topics such as betrayal and deceit, and it also contains references to their song “One Step Closer”.",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Two Faced/album.png",
+          "name": "album.png",
+          "sha256": "a826b466e1e864ce8338c3023ac7f21a8e080f6f8270d00913cc14f6a8bb25dc"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "7be1573041f063cdfca8e760b01e7aac7e5124bd6f217b6790b7a8f1db91ca36"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "8438ebbeba0e20da59990ab78effe242a9bec968123af8f7332acb7d68c4161f"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "8fa997e1de10e95f41dc70ba988b58a5c6b4e90a89f2440f00f85df28760d7c0"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced/notes.mid",
+          "name": "notes.mid",
+          "sha256": "fd26730d915a492cd4ec4371c8bd6b50cd5d21d1b81764ce04d661b40c63942c"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "b37259ee2a3b5b651a95a30a14b22ae6506ea27ac408489299db9aa7c42dd35b"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced/song.ini",
+          "name": "song.ini",
+          "sha256": "44a1a72c6d8d93c92991666ede2f5cc0dea104afa8294ce354c90d198dd75bc4"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced/song.ogg",
+          "name": "song.ogg",
+          "sha256": "13e60a912fc4fb776ab6ca68afc86d2e263d8e00d19032851e70b373f6002309"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "373878f7a172bd9f159d9eba357acd71405956e86df88883ee45f8bccb5f512d"
+        }
+      ],
+      "archive_sha256": "fb729a6d4a98a20cdedc20d4866955f4d12a37eb7fbd42cece38746b2877f8e5",
+      "archive_bytes": 17760256,
+      "prepared_bytes": 15038112,
+      "qobuz_track_ids": [
+        "287336649"
+      ],
+      "playlist_track_ids": [
+        "12450473442"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Back In The Day",
+      "file_id": "5b1e59a3de9310.51818889",
+      "source_url": "https://rhythmverse.co/songfile/5b1e59a3de9310.51818889",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5b1e59a3de9310.51818889/backintheday1xx",
+      "archive_format": "onyx",
+      "folder": "Megadeth - Back In The Day [5b1e59a3]",
+      "charter": "AllFleshIsEqualWhenBurnt",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2057,
+          "kick_note_on_count": 752,
+          "tom_marker_count": 203,
+          "last_expert_onset_seconds": 206.291,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b1e59a3de9310.51818889",
+        "artist": "Megadeth",
+        "title": "Back In The Day",
+        "album": "The System Has Failed",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b1e59a3de9310.51818889",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5b1e59a3de9310.51818889/backintheday1xx",
+        "duration_seconds": 208.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - Back In The Day/album.png",
+          "name": "album.png",
+          "sha256": "dbbc28002ce8be4cb5b7312dea034779e06ab06c3af6e7c791373cd54086ef93"
+        },
+        {
+          "archive_name": "Megadeth - Back In The Day/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1470de8c2bdd8474c3a76f29465ab00283161067f65582f4c9d5e5c8ea31384c"
+        },
+        {
+          "archive_name": "Megadeth - Back In The Day/song.ini",
+          "name": "song.ini",
+          "sha256": "186bdd7457baf81a6454d91febd3295e68d848f44effec35278a0caba9a2bf27"
+        },
+        {
+          "archive_name": "Megadeth - Back In The Day/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f14f08f7f6c55dc7072f62d429b61b04064bc0fd358f7899544071eed0e9d1ac"
+        }
+      ],
+      "archive_sha256": "f8c8f822d30b27eefed256b3eb1e762141521e7390233c81e844c2184b912d17",
+      "archive_bytes": 11968512,
+      "prepared_bytes": 4740188,
+      "qobuz_track_ids": [
+        "385338287"
+      ],
+      "playlist_track_ids": [
+        "12450478638"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Countdown to Extinction",
+      "file_id": "5b223c59140270.26517883",
+      "source_url": "https://rhythmverse.co/songfile/5b223c59140270.26517883",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5b223c59140270.26517883/countdowntoextiction1xx",
+      "archive_format": "onyx",
+      "folder": "Megadeth - Countdown to Extinction [5b223c59]",
+      "charter": "AllFleshIsEqualWhenBurnt",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1734,
+          "kick_note_on_count": 352,
+          "tom_marker_count": 101,
+          "last_expert_onset_seconds": 252.981,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b223c59140270.26517883",
+        "artist": "Megadeth",
+        "title": "Countdown to Extinction",
+        "album": "Countdown to Extinction",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b223c59140270.26517883",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5b223c59140270.26517883/countdowntoextiction1xx",
+        "duration_seconds": 261.0,
+        "duration_difference_seconds": 4.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": "<p>theres only one triple bass drum section. if this is too hard to hit single pedal then i will make a 2x file and reupdate. also prolly be upping guitar difficulty up to 2. idk im conflicted</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - Countdown to Extinction/album.png",
+          "name": "album.png",
+          "sha256": "cdba79d03add7a6aa5bdd6484a2b7a7ad144bdde59489e715fdc2a0063fba4a7"
+        },
+        {
+          "archive_name": "Megadeth - Countdown to Extinction/notes.mid",
+          "name": "notes.mid",
+          "sha256": "bb5ab8fdd4f567735bed5f0ab69619c1e880ad95c88adc1e70801ce10bbb6525"
+        },
+        {
+          "archive_name": "Megadeth - Countdown to Extinction/song.ini",
+          "name": "song.ini",
+          "sha256": "bf7bf5eed7625bd186348631da22906a550b016957d51fad001065bb31d76a00"
+        },
+        {
+          "archive_name": "Megadeth - Countdown to Extinction/song.ogg",
+          "name": "song.ogg",
+          "sha256": "cba41f96c3753d7c416c76e06874a7fdda7af0a6f0e943e0d6c5600cc614385f"
+        }
+      ],
+      "archive_sha256": "4c192a08cf085625e56445dd769d10c8f6900b60dca50b1d65d26625239c5922",
+      "archive_bytes": 14413824,
+      "prepared_bytes": 5712475,
+      "qobuz_track_ids": [
+        "6817285",
+        "4743526"
+      ],
+      "playlist_track_ids": [
+        "12450478641",
+        "12450478655"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "No More Mr. Nice Guy",
+      "file_id": "5b3993d8dfff68.90681857",
+      "source_url": "https://rhythmverse.co/songfile/5b3993d8dfff68.90681857",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5b3993d8dfff68.90681857/nomoremrniceguy2xx",
+      "archive_format": "onyx",
+      "folder": "Megadeth - No More Mr. Nice Guy [5b3993d8]",
+      "charter": "AllFleshIsEqualWhenBurnt",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1289,
+          "kick_note_on_count": 324,
+          "tom_marker_count": 93,
+          "last_expert_onset_seconds": 181.673,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b3993d8dfff68.90681857",
+        "artist": "Megadeth",
+        "title": "No More Mr. Nice Guy",
+        "album": "Hidden Treasures",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b3993d8dfff68.90681857",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5b3993d8dfff68.90681857/nomoremrniceguy2xx",
+        "duration_seconds": 186.0,
+        "duration_difference_seconds": 5.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": "<p>sorry to the 2 people who downloaded first. i didnt catch the e e e an parts until i made the video. i forgot to put in the #'s lol ...<br />\n&#160;<br />\nwas fixed immediately. so everyone else is fine<br />\n&#160;well scratch that...<br />\n&#160;<br />\nupdate 1.5 - the struggle is real<br />\nfixed the crash towards the end that was charted as a ride.<br />\n&#160;<br />\n&#160;</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - No More Mr. Nice Guy/album.png",
+          "name": "album.png",
+          "sha256": "46b87140b1dd5e682acaa6709831785717b3e6b99ecfbc9fa5ebd3eccd837d0c"
+        },
+        {
+          "archive_name": "Megadeth - No More Mr. Nice Guy/notes.mid",
+          "name": "notes.mid",
+          "sha256": "58d2c5c412208dc4c54e516b8b453c825225b2d7d3eb3fdbb4c7d8f239fcf280"
+        },
+        {
+          "archive_name": "Megadeth - No More Mr. Nice Guy/song.ini",
+          "name": "song.ini",
+          "sha256": "60671b366cd969573ea5a526310a0c339fd98eabfec889129051147cfa53e755"
+        },
+        {
+          "archive_name": "Megadeth - No More Mr. Nice Guy/song.ogg",
+          "name": "song.ogg",
+          "sha256": "050a19b0ca6f4c053b50f9562e91843e843ecd639a9a93949e799fa8b5606155"
+        }
+      ],
+      "archive_sha256": "e25a4f6fa6a60d7f2e84e8123f3e706410ff3cadf79cebd4f4baf27ff3e15891",
+      "archive_bytes": 11452416,
+      "prepared_bytes": 3823596,
+      "qobuz_track_ids": [
+        "4743435"
+      ],
+      "playlist_track_ids": [
+        "12450478640"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Paranoid",
+      "file_id": "5b36f573d95244.80203916",
+      "source_url": "https://rhythmverse.co/songfile/5b36f573d95244.80203916",
+      "download_url": "https://rhythmverse.co/download_file/furiouss/5b36f573d95244.80203916/paranoid1xx",
+      "archive_format": "onyx",
+      "folder": "Megadeth - Paranoid [5b36f573]",
+      "charter": "AllFleshIsEqualWhenBurnt",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1159,
+          "kick_note_on_count": 502,
+          "tom_marker_count": 40,
+          "last_expert_onset_seconds": 148.579,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b36f573d95244.80203916",
+        "artist": "Megadeth",
+        "title": "Paranoid",
+        "album": "Hidden Treasures",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b36f573d95244.80203916",
+        "download_url": "https://rhythmverse.co/download_file/furiouss/5b36f573d95244.80203916/paranoid1xx",
+        "duration_seconds": 154.0,
+        "duration_difference_seconds": 3.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AllFleshIsEqualWhenBurnt",
+        "notes": "<p>Can you help me? occupy my brain</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - Paranoid/album.png",
+          "name": "album.png",
+          "sha256": "46b87140b1dd5e682acaa6709831785717b3e6b99ecfbc9fa5ebd3eccd837d0c"
+        },
+        {
+          "archive_name": "Megadeth - Paranoid/notes.mid",
+          "name": "notes.mid",
+          "sha256": "87e60f6b1c3a5ed43db83e93f7700157553236bdda141fa42bd0c509df9a15b1"
+        },
+        {
+          "archive_name": "Megadeth - Paranoid/song.ini",
+          "name": "song.ini",
+          "sha256": "9e9fccba8a96ecf147695aa169bb0819748c8be5406c7bb5af36dfca5af39572"
+        },
+        {
+          "archive_name": "Megadeth - Paranoid/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c9362fa26b763c4c6acbef920a6fad6e5010e68047670b47ef858e8484569e0d"
+        }
+      ],
+      "archive_sha256": "ee4d9895e7b6686bf94547216eeed0770c6bfad7d7f412ef165c59263700dda9",
+      "archive_bytes": 9310208,
+      "prepared_bytes": 3124559,
+      "qobuz_track_ids": [
+        "4743440"
+      ],
+      "playlist_track_ids": [
+        "12450478654"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Rattlehead",
+      "file_id": "59e30b4b1a7b18.40046567",
+      "source_url": "https://rhythmverse.co/songfile/59e30b4b1a7b18.40046567",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/59e30b4b1a7b18.40046567/Rattlehead1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Megadeth - Rattlehead [59e30b4b]",
+      "charter": "AJFOne23, sean2490, EchoOfMystery",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2464,
+          "kick_note_on_count": 669,
+          "tom_marker_count": 203,
+          "last_expert_onset_seconds": 219.729,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59e30b4b1a7b18.40046567",
+        "artist": "Megadeth",
+        "title": "Rattlehead",
+        "album": "Killing Is My Business...and Business is Good!",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59e30b4b1a7b18.40046567",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/59e30b4b1a7b18.40046567/Rattlehead1x_rb3con",
+        "duration_seconds": 220.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>GUITAR: sean2490<br />\nBASS/VOCALS: EchoOfMystery<br />\n&#160;<br />\n\"Rattlehead\" begins with an opening riff that is extremely fast. Then the random guitar soloing begins again. As I listened to the record I realized Megadeth completely threw song structure out the window. The chorus of the song is awesome and is probably my favorite from the album. The guitar solos are all extremely fast and ridiculous. The drumming in the song is so impressive as well. \"Rattlehead\" is one of my favorite songs from the entire album.</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - Rattlehead/album.png",
+          "name": "album.png",
+          "sha256": "51af28c83d8d7e844c533405e36796e932bde247055bb127f0134d5b0cb90fdc"
+        },
+        {
+          "archive_name": "Megadeth - Rattlehead/notes.mid",
+          "name": "notes.mid",
+          "sha256": "65da7aa56cc3207c8193ccae58247b6a64fad5ea9daa2037cce85311ec32485f"
+        },
+        {
+          "archive_name": "Megadeth - Rattlehead/song.ini",
+          "name": "song.ini",
+          "sha256": "8ed25986de47bcf4e0e4d46721a8901e3a9bd5172e6776db76dc822222db0681"
+        },
+        {
+          "archive_name": "Megadeth - Rattlehead/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d8317dc373dd35c902c4d1d936ece3fc2612001059db0dd3de476f5959a1231f"
+        }
+      ],
+      "archive_sha256": "e3c45eac88f96009290d8befea852ab12e9f953ffb872260772de0e56115b48c",
+      "archive_bytes": 5332992,
+      "prepared_bytes": 4637190,
+      "qobuz_track_ids": [
+        "48322801"
+      ],
+      "playlist_track_ids": [
+        "12450478658"
+      ]
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Set The World Afire",
+      "file_id": "59297452ef7c93.55642368",
+      "source_url": "https://rhythmverse.co/songfile/59297452ef7c93.55642368",
+      "download_url": "https://rhythmverse.co/download_file/ajfone23/59297452ef7c93.55642368/SetTheWorldAfire1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Megadeth - Set The World Afire [59297452]",
+      "charter": "AJFOne23, Henk",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2117,
+          "kick_note_on_count": 728,
+          "tom_marker_count": 47,
+          "last_expert_onset_seconds": 341.876,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59297452ef7c93.55642368",
+        "artist": "Megadeth",
+        "title": "Set The World Afire",
+        "album": "So Far, So Good... So What!",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59297452ef7c93.55642368",
+        "download_url": "https://rhythmverse.co/download_file/ajfone23/59297452ef7c93.55642368/SetTheWorldAfire1x_rb3con",
+        "duration_seconds": 349.0,
+        "duration_difference_seconds": 1.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "AJFOne23",
+        "notes": "<p>GUITAR: Henk<br />\n&#160;<br />\n&#8220;Set the World Afire&#8221; was the first song Mustaine wrote after being fired from Metallica. Not only did he pen the lyrics on the back of a political pamphlet from California Senator Alan Cranston, he was inspired to name the band Megadeth after reading a term in Cranston&#8217;s pamphlet. &#8220;It said, &#8216;The arsenal of Megadeath can&#8217;t be rid,&#8217; Mustaine told Louder Than Hell: The Definitive Oral History of Metal. &#8220; I thought, &#8216;What a fantastic song title.&#8217; That song later became &#8216;Set the World Afire.&#8217;&#160;</p>",
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Megadeth - Set The World Afire/album.png",
+          "name": "album.png",
+          "sha256": "d2e8e7a35c8e7a207eb003329040d41c2e50b2062924106520689a49bdf0ad1e"
+        },
+        {
+          "archive_name": "Megadeth - Set The World Afire/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3e1ea0b8e5c90680bd7be3b6f0e2e4e0e6ade9496cf6d3e2554b8e9cd9596304"
+        },
+        {
+          "archive_name": "Megadeth - Set The World Afire/song.ini",
+          "name": "song.ini",
+          "sha256": "8c17a4cdad9927b19fbd15b373142058190e0b05e529ed562bd230679ee4a36b"
+        },
+        {
+          "archive_name": "Megadeth - Set The World Afire/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b734a2f1d3c5535e70f1a8b6d70bfc18b1971e84c8fc900e0fec2b9d122d2d86"
+        }
+      ],
+      "archive_sha256": "bcf07f7617348689c7e79a70302a3e304bfe64b8557b4865db5901faf1b8665f",
+      "archive_bytes": 7712768,
+      "prepared_bytes": 6234881,
+      "qobuz_track_ids": [
+        "52699381"
+      ],
+      "playlist_track_ids": [
+        "12450478647"
+      ]
+    },
+    {
+      "artist": "Metallica",
+      "title": "Ain't My Bitch",
+      "file_id": "5930aeefa9b527.01420547",
+      "source_url": "https://rhythmverse.co/songfile/5930aeefa9b527.01420547",
+      "download_url": "https://rhythmverse.co/download_file/js43599/5930aeefa9b527.01420547/Metallica%20-%20Aint%20My%20Bitch",
+      "archive_format": "onyx",
+      "folder": "Metallica - Ain't My Bitch [5930aeef]",
+      "charter": "Unknown",
+      "set_pro_drums": false,
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2012,
+          "kick_note_on_count": 402,
+          "tom_marker_count": 31,
+          "last_expert_onset_seconds": 304.695,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 3,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5930aeefa9b527.01420547",
+        "artist": "Metallica",
+        "title": "Ain't My Bitch",
+        "album": "Load",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5930aeefa9b527.01420547",
+        "download_url": "https://rhythmverse.co/download_file/js43599/5930aeefa9b527.01420547/Metallica - Aint My Bitch",
+        "duration_seconds": 306.0,
+        "duration_difference_seconds": 2.0,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "js43599",
+        "notes": null,
+        "match_basis": "artist/title/version labels and duration; master not established"
+      },
+      "files": [
+        {
+          "archive_name": "Metallica - Ain't My Bitch/album.png",
+          "name": "album.png",
+          "sha256": "e81af4a32d1fdd77cedb34ec38cb2d97eb478d72503082a0dca4a6125a4a5fb4"
+        },
+        {
+          "archive_name": "Metallica - Ain't My Bitch/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "7e2e35547555a19af5dc0ee0144ecd7af06d4927210db4022842f5531570880c"
+        },
+        {
+          "archive_name": "Metallica - Ain't My Bitch/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "7e2e35547555a19af5dc0ee0144ecd7af06d4927210db4022842f5531570880c"
+        },
+        {
+          "archive_name": "Metallica - Ain't My Bitch/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e0b4f3f0e08933f216d76352b22a8a61632e85c46850f47cfb50dfcf339a515b"
+        },
+        {
+          "archive_name": "Metallica - Ain't My Bitch/song.ini",
+          "name": "song.ini",
+          "sha256": "d23017f9a7023611a1229c61f1c40d72478acbc42fa562eb155077ad6a2553de"
+        },
+        {
+          "archive_name": "Metallica - Ain't My Bitch/song.ogg",
+          "name": "song.ogg",
+          "sha256": "415cede98009428d4dce277d55dc1f68fd9d88d2fd2b804eb30a6d10e49c9c8a"
+        }
+      ],
+      "archive_sha256": "dd26c03c7618be6ea798d41db65a8b33df979778f2625431f47e61819cda3279",
+      "archive_bytes": 8515584,
+      "prepared_bytes": 15163290,
+      "qobuz_track_ids": [
+        "338343336"
+      ],
+      "playlist_track_ids": [
+        "12449350411"
+      ]
+    }
+  ]
+}

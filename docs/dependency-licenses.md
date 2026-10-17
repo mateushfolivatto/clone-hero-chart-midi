@@ -96,3 +96,19 @@ Downloaded charts/media retain their original terms and credits; source, uploade
 and the chart's own author field are recorded separately in private manifests.
 They remain ignored by Git and excluded from project distributions. This private
 preparation task does not infer redistribution permission from a wrapper or uploader.
+
+## Bulk library tools — 2026-10-17
+
+| Component | Verified terms/source | Use here |
+| --- | --- | --- |
+| Onyx 20261016 | GPLv3; release-tag README at https://github.com/mtolly/onyx/tree/20261016 | Invoke official CLI for public console-song conversion; preserve its distributed notices. No binary/code is vendored into this repository. |
+| 7-Zip 26.04 | LGPL 2.1-or-later, BSD portions and unRAR restriction; official release's License.txt, https://github.com/ip7z/7zip/releases/tag/26.04 | Invoke pinned portable readers; download from upstream, retain License.txt. No RAR compression implementation or model weights. |
+| gdown 5.2.1 | MIT, copyright Kentaro Wada; https://github.com/wkentaro/gdown/blob/v5.2.1/LICENSE | Optional developer-side listing of public Drive folders, via uv --with; not needed by the standalone PC downloader. |
+| OpenSSL supplied with Python/system | OpenSSL 3 Apache-2.0; https://www.openssl.org/source/license.html | Standard-library ctypes calls for normal public MEGA link AES/MAC handling. No OpenSSL binary or third-party MEGA Python client is redistributed. |
+
+Release asset size/SHA256 checks remain enabled. The MEGA implementation uses the
+key supplied in the public link, HTTPS metadata/transfers and the provider MAC,
+then pinned plaintext hashes; it does not retrieve account credentials or bypass
+provider quotas. No third-party MEGA client implementation was copied or installed.
+All song media stays private. Existing model/checkpoint licensing decisions are
+unchanged, and no model was downloaded for the library workstream.
