@@ -188,6 +188,19 @@ The collection should preserve source audio/chart pairing, existing songs and
 manual choices, use relative paths, and distinguish structural checks from actual
 user-confirmed game compatibility. See DCF-LIB items in BACKLOG.md for status.
 
+### Pilot delivery recovery (2026-10-17)
+
+The resumed cloud machine had the original checkout and no ignored collection
+data, so the old workspace ZIP link failed. Latest source was recovered from
+origin/main without discarding local work. All twelve pilot sources were fetched
+and inspected again. The durable, metadata-only recipe is now packaged as
+`drumforge/library/pilot_01.json`, with pinned archive/asset hashes. A standalone
+standard-library downloader, recover_pilot.py, reconstructs the same runtime files
+on the user's PC without uv, FFmpeg or Mido, and preserves existing local edits.
+See song-library/BAIXAR.md for the PowerShell instructions. A reconstructed cloud
+copy lives in /workspace/shared/downloads/MixDrumRock/, but it is not a permanent
+download URL. Media remains outside Git; game acceptance still needs user testing.
+
 ## Do not do yet
 
 - GUI

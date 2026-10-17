@@ -82,3 +82,12 @@ and refused an existing destination. Mido 1.3.3 is optional through uv --with;
 core development dependencies and lockfile are unchanged. Other instruments,
 native Windows execution, perceived synchronization and game acceptance are not
 established by these cloud checks. User Scan Songs/playtest remains required.
+
+Pilot recovery adds six tests (52 total including the concurrent ADTOF fix):
+changed/truncated download rejection, standalone recovery/resume without network,
+existing edit preservation, atomic cleanup after a bad extracted hash, manifest
+identity/path checks and byte-stable INI patching. Fixtures are synthetic.
+The real recipe was also exercised with `python -I -S` outside the checkout,
+downloading all twelve sources and reproducing 78 verified runtime files plus ZIP.
+A second execution validated the existing collection and ZIP. This verifies
+reconstruction on cloud Linux/Python 3.12, not Windows or the browser download UI.

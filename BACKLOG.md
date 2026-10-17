@@ -360,6 +360,12 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   General batch acquisition and update automation remain outstanding.
 - [ ] **DCF-LIB-006 [P1]** Support incremental playlist updates without losing
   selections or repeating verified downloads; check space and Windows path limits.
+- [x] **DCF-LIB-007 [P0]** Recover the missing pilot and provide a durable local
+  download/preparation route after cloud files disappeared. Twelve sources and
+  all 78 runtime files revalidated; pinned metadata recipe and standalone Python
+  recovery tested without external libraries, including repeat-run preservation.
+  Windows user instructions are in song-library/BAIXAR.md. Browser download from
+  the cloud UI and native Windows execution are not claimed as verified.
 
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
@@ -368,6 +374,10 @@ download audio or prepare charts. The workstream remains in progress.
 The user then explicitly authorized at least ten songs for a later playtest.
 That preparation slice delivered twelve in a private ZIP; game acceptance and
 the full-playlist workflow remain incomplete.
+On 2026-10-17 the cloud link failed because ignored outputs were absent after a
+machine restart. The pilot was reconstructed and a PC recovery recipe delivered;
+user Scan Songs/playtest remains pending. Do not treat an ignored workspace path
+as a persistent download or as a file that GitHub will restore.
 
 # Immediate next milestone
 

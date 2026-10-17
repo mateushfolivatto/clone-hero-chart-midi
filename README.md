@@ -60,6 +60,8 @@ Plots do not classify every note; real-song accuracy still needs measurement.
 
 ## Project navigation
 
+- [Baixar o lote de 12 músicas no Windows](song-library/BAIXAR.md): recuperação
+  direta das fontes, independente dos arquivos temporários da nuvem.
 - [Biblioteca MixDrumRock](song-library/README.md): exportação da playlist do
   Qobuz para CSV/Excel e planejamento de charts com bateria para Clone Hero.
 - [CONTEXT.md](CONTEXT.md): mission and decisions.

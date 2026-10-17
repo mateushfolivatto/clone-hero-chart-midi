@@ -1,5 +1,30 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-17 — Recover the pilot after failed download
+
+The user reported an artifact-download error and could not find data/. The resumed
+machine was on the original work/83be509 checkout, with no song-library directory
+or ignored outputs. origin/main contained later work (including concurrent hi-hat
+diagnostics), which was fetched and preserved. Runtime policy was current,
+unrestricted and enforced; sources were still publicly reachable.
+
+All twelve original sources were recovered and checked again: 11 drum/conductor
+MIDI, one ExpertDrums chart and all 40 decoded audio assets. A metadata-only
+recipe records archive and per-file hashes, original archive paths and the one
+INI adjustment. recover_pilot.py works as a standalone Python script, with no
+project installation, FFmpeg, Mido, credentials or model download required on the
+user's PC. The public GitHub instructions download the script/recipe and create
+Downloads/MixDrumRock locally. Existing verified songs are reused; edits are
+preserved and mismatched archives fail instead of being accepted.
+
+The full standalone flow ran outside the checkout with site-packages disabled,
+creating /workspace/shared/downloads/MixDrumRock/MixDrumRock-piloto-12.zip
+(145,329,929 bytes). All 78 runtime files match the inspected recipe. A repeat run
+preserved the completed ZIP. All 52 tests, Ruff, mypy, lock check and build passed;
+recipe JSON is present in distributions and private media is absent. Native Windows,
+client artifact download, game scanning and gameplay remain unverified. The
+durable recovery path does not depend on future availability of this cloud copy.
+
 ## 2026-10-16 — Hi-hat diagnostic support
 
 The project-local drum-audio-diagnostics skill provides a separately locked,
