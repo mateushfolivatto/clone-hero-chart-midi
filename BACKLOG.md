@@ -391,6 +391,12 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   reviews, immutable inputs, ZIP64 export and CSV/JSON reports implemented.
   Thirteen regressions and standalone real-collection checks passed on Linux;
   the user's actual inventory, Windows run and game acceptance remain pending.
+- [x] **DCF-LIB-011 [P0]** Clarify silent Onyx waits and Ctrl+C behavior after
+  the user's Windows report. Print stage/deadline/log and periodic elapsed waits;
+  close child stdin and report interruption/resume without a traceback. Same-source
+  Linux import succeeded in 1.35 s; full conversion/MIDI/local hashes/resume also
+  checked. Two regressions bring the suite to 85 tests. The native log contains
+  only import-start text; the cause of Windows slowness remains under investigation.
 
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.

@@ -8,10 +8,12 @@ import json
 import subprocess
 import sys
 import tempfile
+import threading
+import time
 import zipfile
 from functools import cache
 from pathlib import Path
-from typing import Any
+from typing import Any, TextIO
 
 recovery = importlib.import_module(
     "drumforge.library.recover_pilot" if __package__ else "recover_pilot"
@@ -21,6 +23,34 @@ ONYX_URL = (
     "onyx-command-line-20261016-windows-x64.zip"
 )
 ONYX_SHA256 = "d6131d67cef8d442590a618bcc2d582f5332fd0aa7077547a02f02d34958288c"
+PROGRESS_SECONDS = 15.0
+
+
+def run_logged(command: list[str], log: TextIO, stage: str, timeout: int, path: Path) -> None:
+    started = time.monotonic()
+    finished = threading.Event()
+    print(f"  Onyx {stage}: iniciando; limite {timeout}s. Log: {path}", flush=True)
+
+    def report() -> None:
+        while not finished.wait(PROGRESS_SECONDS):
+            elapsed = int(time.monotonic() - started)
+            print(f"  Onyx {stage}: aguardando ha {elapsed}s (limite {timeout}s)...", flush=True)
+
+    reporter = threading.Thread(target=report, name="onyx-elapsed-feedback", daemon=True)
+    reporter.start()
+    try:
+        subprocess.run(
+            command,
+            stdin=subprocess.DEVNULL,
+            stdout=log,
+            stderr=subprocess.STDOUT,
+            check=True,
+            timeout=timeout,
+        )
+    finally:
+        finished.set()
+        reporter.join()
+    print(f"  Onyx {stage}: terminou em {time.monotonic() - started:.1f}s.", flush=True)
 
 
 def build(
@@ -38,12 +68,12 @@ def build(
     stage = "importacao"
     try:
         with log_path.open("w", encoding="utf-8") as log:
-            subprocess.run(
+            run_logged(
                 [str(executable), "import", str(source), "--to", str(project), *runtime],
-                stdout=log,
-                stderr=subprocess.STDOUT,
-                check=True,
-                timeout=180,
+                log,
+                stage,
+                180,
+                log_path,
             )
             yaml = project / "song.yml"
             content = yaml.read_text(encoding="utf-8")
@@ -52,7 +82,7 @@ def build(
             content = content.replace("targets:\n", "targets:\n  clonehero:\n    game: ps\n", 1)
             yaml.write_text(content, encoding="utf-8", newline="\n")
             stage = "exportacao"
-            subprocess.run(
+            run_logged(
                 [
                     str(executable),
                     "build",
@@ -63,10 +93,10 @@ def build(
                     str(target),
                     *runtime,
                 ],
-                stdout=log,
-                stderr=subprocess.STDOUT,
-                check=True,
-                timeout=900,
+                log,
+                stage,
+                900,
+                log_path,
             )
     except (OSError, ValueError, subprocess.SubprocessError) as exc:
         detail = str(exc)

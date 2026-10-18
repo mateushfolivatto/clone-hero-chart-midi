@@ -84,6 +84,36 @@ separada: a retomada tenta baixar essa origem novamente.
 
 ## Escolher lote e usar no jogo
 
+### Durante as conversões do Onyx
+
+O baixador informa se está na importação ou exportação, mostra o caminho do log
+e imprime o tempo de espera a cada 15 segundos. Isso indica espera pelo processo;
+não é porcentagem nem comprovação de avanço interno do conversor. Os limites são
+**180 segundos na importação** e **900 segundos na exportação**, por música.
+Ao esgotar o limite, registra a pendência e tenta as outras músicas.
+
+**Ctrl+C encerra a execução; não serve para passar à próxima música.** A nova
+mensagem de interrupção informa como retomar, sem traceback. As músicas prontas,
+ZIPs e downloads concluídos são reaproveitados pelo mesmo comando. Para atualizar,
+use o bloco de três arquivos em “Se o Onyx parou na importação”, acima.
+
+No PowerShell clássico, se houver seleção de texto ativa (modo Marcar/Selecionar),
+use **Esc** para sair desse modo. A seleção pode pausar a saída do console.
+Isso é uma verificação possível, não a causa confirmada do relato.
+
+O relato de 2026-10-18 mostra o lote 09 concluído e as sete primeiras músicas do
+lote 10 conferidas, seguido de interrupção por teclado durante a importação de
+Endless, Nameless. A mesma fonte importou em 1,35 s no Linux; esse tempo não prevê
+o desempenho no Windows. O log local da música ainda é necessário para investigar
+a demora. O usuário esclareceu que interrompeu essa importação antes de três
+minutos; esse traceback não prova que o prazo venceu ou que o conversor falhou.
+A música anterior esperou cerca de três minutos, sem etapa informada.
+Para ler o log do caminho informado pelo usuário, em uma linha:
+
+```powershell
+Get-Content -Path 'C:\Users\mateus\Downloads\MixDrumRock\Logs\Onyx\60ef8143a26301.37936371-*.log' -Tail 40
+```
+
 Se já tem músicas antigas, use [SEM-REPETIDAS.md](SEM-REPETIDAS.md) para gerar
 um complemento local, reconhecendo pastas renomeadas sem enviar áudios/ZIPs.
 Monte a biblioteca nova a partir dos lotes e desse complemento.

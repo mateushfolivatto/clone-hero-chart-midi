@@ -117,3 +117,15 @@ exclusive. Another stdlib-only subprocess exported two real exclusive songs
 plus a synthetic one (12,223,459 bytes) and checked every ZIP asset hash.
 The user's actual 4 GB collection, native Windows and game acceptance remain
 unverified; use song-library/SEM-REPETIDAS.md to run on the user's PC.
+
+Onyx wait feedback adds two regressions (85 tests total): a controlled blocking
+converter confirms elapsed notifications, closed stdin, actual log retention and
+reporter shutdown; KeyboardInterrupt exits 130 with a preservation/resume message.
+Existing import/export/timeout diagnostics and platform arguments still pass.
+The reported Endless, Nameless source imported in 1.35 s on Linux. An isolated
+stdlib-only full reconstruction then took 0.9 s import and 23.3 s export, showing
+elapsed feedback and verifying pinned MIDI, local hashes, persistent log and
+unchanged resume. These Linux timings do not diagnose native Windows slowness;
+the supplied Windows log records only import start, without completion/error.
+The user confirmed interrupting that import before its 180-second deadline;
+the traceback alone does not establish an actual timeout or hang.

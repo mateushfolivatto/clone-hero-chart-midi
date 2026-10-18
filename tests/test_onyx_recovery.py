@@ -1,13 +1,15 @@
 """Portable CLI invocation and diagnostics that survive conversion cleanup."""
 
+import builtins
 import subprocess
 import sys
+import threading
 from pathlib import Path
 from typing import Any
 
 import pytest
 
-from drumforge.library import onyx_recovery
+from drumforge.library import onyx_recovery, recover_pilot
 
 
 @pytest.mark.parametrize("platform", ["win32", "linux"])
@@ -81,3 +83,55 @@ def test_failure_keeps_converter_diagnostic_after_temporary_project_is_deleted(
     assert not destination.exists()
     assert not (tmp_path / "Verificacoes").exists()
     assert source.read_bytes() == b"synthetic source to preserve"
+
+
+def test_elapsed_feedback_during_wait_retains_log_and_stops_after_process(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+) -> None:
+    seen = threading.Event()
+    original_print = builtins.print
+
+    def observe(*values: object, **kwargs: Any) -> None:
+        original_print(*values, **kwargs)
+        if any("aguardando ha" in str(value) for value in values):
+            seen.set()
+
+    def run(command: list[str], **kwargs: Any) -> subprocess.CompletedProcess[str]:
+        assert kwargs["stdin"] == subprocess.DEVNULL
+        assert kwargs["timeout"] == 180
+        assert seen.wait(5), "No elapsed feedback while the converter was waiting"
+        kwargs["stdout"].write("Actual converter diagnostic\n")
+        return subprocess.CompletedProcess(command, 0)
+
+    monkeypatch.setattr(onyx_recovery, "PROGRESS_SECONDS", 0.001)
+    monkeypatch.setattr(builtins, "print", observe)
+    monkeypatch.setattr(subprocess, "run", run)
+    log_path = tmp_path / "persistent.log"
+    with log_path.open("w") as log:
+        onyx_recovery.run_logged(["converter"], log, "importacao", 180, log_path)
+    output = capsys.readouterr().out
+    assert "limite 180s" in output
+    assert "aguardando ha" in output
+    assert "terminou em" in output
+    assert str(log_path) in output
+    assert log_path.read_text() == "Actual converter diagnostic\n"
+    assert not [t for t in threading.enumerate() if t.name == "onyx-elapsed-feedback"]
+
+
+def test_ctrl_c_reports_interruption_and_resume_without_traceback(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
+) -> None:
+    def interrupt(*args: Any) -> None:
+        raise KeyboardInterrupt
+
+    monkeypatch.setattr(sys, "argv", ["recover_pilot.py", "--destino", str(tmp_path)])
+    monkeypatch.setattr(recover_pilot, "read_manifest", lambda *args: {})
+    monkeypatch.setattr(recover_pilot, "recover", interrupt)
+    with pytest.raises(SystemExit) as exit:
+        recover_pilot.main()
+    assert exit.value.code == 130
+    error = capsys.readouterr().err
+    assert "Ctrl+C encerra a execucao; nao pula a musica" in error
+    assert "foram preservados" in error
+    assert "retomar" in error
+    assert "Traceback" not in error
