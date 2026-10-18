@@ -233,6 +233,27 @@ and output verification stay unchanged. Only the helper/index identities change.
 See song-library/CONTINUACAO.md for the three-file update and resume command;
 docs/library-onyx-recovery-fix.md records evidence and native-validation limits.
 
+### Onyx elapsed feedback — 2026-10-18
+
+The user reported slow per-song recovery and supplied a Python 3.13 Windows
+KeyboardInterrupt while waiting in Onyx import for Endless, Nameless. Their output
+shows batch 09 completed and the first seven batch-10 songs ready; it does not
+establish game acceptance or why import was slow. The same source imported in
+1.35 s on Linux. Recovery now prints import/export stages, elapsed waits every
+15 seconds, existing deadlines and persistent log paths. Child stdin is closed
+for noninteractive conversion; Ctrl+C exits 130 with a resume message rather
+than a traceback. Deadlines, conversion inputs, pinned MIDI and recipes are
+unchanged. This improves visibility and interruption handling; Windows slowness
+still requires the local converter log, not a claim of faster conversion.
+The returned native log contains only the initial “Importing Rock Band song”
+line; no recorded completion or converter error. The import delay remains
+unexplained. A full isolated Linux conversion subsequently verified the pinned
+MIDI, local asset hashes and unchanged resume (0.9 s import, 23.3 s export).
+The user then clarified that this interrupted import had waited less than three
+minutes; a preceding song waited about three minutes, with its stage unspecified.
+The supplied traceback therefore does not demonstrate an expired import deadline
+or converter failure. Do not label it a proven hang or promise a speedup.
+
 ### Existing library complement
 
 The user authorized a local complement of an existing ~4 GB song collection,

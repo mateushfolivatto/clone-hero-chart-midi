@@ -184,3 +184,12 @@ finding. This file supplements the backlog; it does not redefine task completion
     recipes would hide an old song even when its new download failed. Use only
     locally present INI/chart/audio folders as references. The incomplete-new-song
     regression keeps the old track selected; rerun after later batches finish.
+
+## 2026-10-18 — Silent converter waits
+
+37. **A KeyboardInterrupt is not a converter failure or a skip.** The user saw
+    silent Onyx imports and pressed Ctrl+C; the supplied stack stopped in process
+    wait and returned to PowerShell. Report stages, elapsed waits, deadlines and
+    log paths while preserving the actual converter log. Handle intentional
+    interruption with a clear resume message; do not equate a heartbeat with
+    internal progress or a Linux timing with native Windows performance.

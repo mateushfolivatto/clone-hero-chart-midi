@@ -281,3 +281,11 @@ fora do ZIP para revisão, repetidas antigas registradas e destino novo a cada
 execução. Não confunda o inventário de teste com os arquivos reais do usuário;
 aguarde comparacao.csv/avisos.csv para revisar seu resultado. A nova biblioteca
 deve ser montada em pasta vazia, mantendo a antiga como backup.
+
+Em 2026-10-18, o usuário relatou demora no Onyx e enviou KeyboardInterrupt durante
+a importação de Endless, Nameless, após concluir o lote 09 e conferir sete faixas
+do lote 10. O baixador agora informa etapa/tempo/log a cada 15 segundos; Ctrl+C
+encerra com instruções de retomada. Leia CONTINUACAO.md. Isso não confirma a causa
+da demora nem aceleração: inspecione o log local do Windows antes de diagnosticar.
+O usuário esclareceu que interrompeu essa importação antes dos três minutos;
+o traceback não comprova travamento ou vencimento do limite.
