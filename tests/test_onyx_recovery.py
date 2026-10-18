@@ -1,9 +1,11 @@
 """Portable CLI invocation and diagnostics that survive conversion cleanup."""
 
 import builtins
+import json
 import subprocess
 import sys
 import threading
+import time
 from pathlib import Path
 from typing import Any
 
@@ -38,7 +40,11 @@ def test_conversion_uses_runtime_options_supported_by_its_distribution(
             target.write_bytes(b"synthetic converted archive")
         return subprocess.CompletedProcess(command, 0)
 
-    monkeypatch.setattr(subprocess, "run", run)
+    monkeypatch.setattr(
+        onyx_recovery,
+        "run_logged",
+        lambda command, log, stage, timeout, path: run(command, stdout=log, timeout=timeout),
+    )
     onyx_recovery.build(tmp_path / "onyx", tmp_path / "source.zip", project, target)
     assert stages == ["import", "build"]
     assert target.read_bytes() == b"synthetic converted archive"
@@ -65,7 +71,11 @@ def test_failure_keeps_converter_diagnostic_after_temporary_project_is_deleted(
         (project / "song.yml").write_text("targets:\n")
         return subprocess.CompletedProcess(command, 0)
 
-    monkeypatch.setattr(subprocess, "run", run)
+    monkeypatch.setattr(
+        onyx_recovery,
+        "run_logged",
+        lambda command, log, stage, timeout, path: run(command, stdout=log, timeout=timeout),
+    )
     song: dict[str, Any] = {"file_id": "fixture", "files": []}
     with pytest.raises(ValueError) as error:
         onyx_recovery.prepare(song, source, destination, tmp_path)
@@ -88,34 +98,126 @@ def test_failure_keeps_converter_diagnostic_after_temporary_project_is_deleted(
 def test_elapsed_feedback_during_wait_retains_log_and_stops_after_process(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch, capsys: pytest.CaptureFixture[str]
 ) -> None:
-    seen = threading.Event()
-    original_print = builtins.print
-
-    def observe(*values: object, **kwargs: Any) -> None:
-        original_print(*values, **kwargs)
-        if any("aguardando ha" in str(value) for value in values):
-            seen.set()
-
-    def run(command: list[str], **kwargs: Any) -> subprocess.CompletedProcess[str]:
-        assert kwargs["stdin"] == subprocess.DEVNULL
-        assert kwargs["timeout"] == 180
-        assert seen.wait(5), "No elapsed feedback while the converter was waiting"
-        kwargs["stdout"].write("Actual converter diagnostic\n")
-        return subprocess.CompletedProcess(command, 0)
-
-    monkeypatch.setattr(onyx_recovery, "PROGRESS_SECONDS", 0.001)
-    monkeypatch.setattr(builtins, "print", observe)
-    monkeypatch.setattr(subprocess, "run", run)
+    monkeypatch.setattr(onyx_recovery, "PROGRESS_SECONDS", 0.02)
     log_path = tmp_path / "persistent.log"
     with log_path.open("w") as log:
-        onyx_recovery.run_logged(["converter"], log, "importacao", 180, log_path)
+        onyx_recovery.run_logged(
+            [
+                sys.executable,
+                "-c",
+                "import time; print('Actual converter diagnostic'); time.sleep(.15)",
+            ],
+            log,
+            "importacao",
+            5,
+            log_path,
+        )
     output = capsys.readouterr().out
-    assert "limite 180s" in output
+    assert "limite de espera 5s" in output
     assert "aguardando ha" in output
-    assert "terminou em" in output
+    assert "processo terminou; espera" in output
     assert str(log_path) in output
     assert log_path.read_text() == "Actual converter diagnostic\n"
     assert not [t for t in threading.enumerate() if t.name == "onyx-elapsed-feedback"]
+
+
+def events(path: Path) -> list[dict[str, Any]]:
+    return [json.loads(line) for line in path.with_suffix(".tempos.jsonl").read_text().splitlines()]
+
+
+def test_real_child_exceeding_deadline_is_killed_reaped_and_recorded(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    original = subprocess.Popen
+    children: list[subprocess.Popen[str]] = []
+
+    def launch(*args: Any, **kwargs: Any) -> subprocess.Popen[str]:
+        child: subprocess.Popen[str] = original(*args, **kwargs)
+        children.append(child)
+        return child
+
+    monkeypatch.setattr(subprocess, "Popen", launch)
+    path = tmp_path / "timeout.log"
+    started = time.monotonic()
+    with path.open("w") as log, pytest.raises(subprocess.TimeoutExpired):
+        onyx_recovery.run_logged(
+            [sys.executable, "-c", "import time; time.sleep(60)"], log, "importacao", 0.25, path
+        )
+    assert time.monotonic() - started < 5
+    assert len(children) == 1
+    assert children[0].poll() is not None
+    result = events(path)[-1]
+    assert result["outcome"] == "timeout"
+    assert result["pid"] == children[0].pid
+    assert result["returncode"] is not None
+    assert result["wait_seconds"] >= 0.2
+
+
+def test_blocked_console_cannot_hold_up_process_supervision_or_inflate_wait(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    original_print = builtins.print
+    blocked, release = threading.Event(), threading.Event()
+
+    def console(*args: object, **kwargs: Any) -> None:
+        if threading.current_thread().name == "onyx-elapsed-feedback":
+            blocked.set()
+            release.wait(5)
+        original_print(*args, **kwargs)
+
+    monkeypatch.setattr(builtins, "print", console)
+    path = tmp_path / "blocked.log"
+    try:
+        started = time.monotonic()
+        with path.open("w") as log:
+            onyx_recovery.run_logged([sys.executable, "-c", "pass"], log, "importacao", 2, path)
+        assert blocked.is_set()
+        assert not release.is_set()
+        assert time.monotonic() - started < 3
+        result = events(path)[-1]
+        assert result["outcome"] == "ok"
+        assert result["wait_seconds"] < 2
+    finally:
+        release.set()
+        for reporter in threading.enumerate():
+            if reporter.name == "onyx-elapsed-feedback":
+                reporter.join(2)
+
+
+@pytest.mark.parametrize("delayed_launch", [True, False])
+def test_launch_delay_is_separate_and_late_success_is_not_reported_as_in_time(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, delayed_launch: bool
+) -> None:
+    clock = [0.0]
+
+    class Process:
+        pid = 12345
+        returncode = 0
+
+        def __init__(self, *args: Any, **kwargs: Any) -> None:
+            if delayed_launch:
+                clock[0] += 731
+
+        def wait(self, timeout: float) -> int:
+            clock[0] += 0.9 if delayed_launch else 731
+            return 0
+
+        def poll(self) -> int:
+            return 0
+
+    monkeypatch.setattr(subprocess, "Popen", Process)
+    monkeypatch.setattr(time, "monotonic", lambda: clock[0])
+    path = tmp_path / "timing.log"
+    with path.open("w") as log:
+        if delayed_launch:
+            onyx_recovery.run_logged(["fixture"], log, "importacao", 180, path)
+        else:
+            with pytest.raises(subprocess.TimeoutExpired):
+                onyx_recovery.run_logged(["fixture"], log, "importacao", 180, path)
+    result = events(path)[-1]
+    assert result["launch_seconds"] == (731 if delayed_launch else 0)
+    assert result["wait_seconds"] == pytest.approx(0.9 if delayed_launch else 731)
+    assert result["outcome"] == ("ok" if delayed_launch else "timeout")
 
 
 def test_ctrl_c_reports_interruption_and_resume_without_traceback(

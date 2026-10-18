@@ -193,3 +193,11 @@ finding. This file supplements the backlog; it does not redefine task completion
     log paths while preserving the actual converter log. Handle intentional
     interruption with a clear resume message; do not equate a heartbeat with
     internal progress or a Linux timing with native Windows performance.
+
+38. **Keep UI waits outside process measurements and supervision.** The runner
+    started timing before console output and stopped after an unbounded reporter
+    join. A delayed-print reproduction displayed success beyond the timeout even
+    for a fast child. Separate launch/wait/output; freeze timing before reporter
+    cleanup and bound its join. Test a real sleeping child that must be killed,
+    a blocked output sink, slow process creation and a late successful return.
+    A mocked TimeoutExpired alone does not validate real deadline enforcement.

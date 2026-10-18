@@ -289,3 +289,11 @@ encerra com instruções de retomada. Leia CONTINUACAO.md. Isso não confirma a 
 da demora nem aceleração: inspecione o log local do Windows antes de diagnosticar.
 O usuário esclareceu que interrompeu essa importação antes dos três minutos;
 o traceback não comprova travamento ou vencimento do limite.
+
+O relato posterior de Stain trouxe 731 s de importação com limite anunciado de
+180 s, sem seleção de texto/suspensão segundo o usuário. O runner foi corrigido
+para separar criação/espera/saída e supervisionar o próprio processo com prazo
+monotônico, sem join de console ilimitado. Logs `.tempos.jsonl` registram as etapas;
+leia CONTINUACAO.md antes de interpretar novos tempos. O defeito de medição foi
+reproduzido; a causa dos 731 s no Windows ainda não foi determinada. Preserve as
+receitas e verificações locais, e não atribua a demora a ações do usuário sem prova.

@@ -11,6 +11,7 @@ import tempfile
 import threading
 import time
 import zipfile
+from datetime import UTC, datetime
 from functools import cache
 from pathlib import Path
 from typing import Any, TextIO
@@ -24,33 +25,96 @@ ONYX_URL = (
 )
 ONYX_SHA256 = "d6131d67cef8d442590a618bcc2d582f5332fd0aa7077547a02f02d34958288c"
 PROGRESS_SECONDS = 15.0
+REPORT_JOIN_SECONDS = 0.05
 
 
-def run_logged(command: list[str], log: TextIO, stage: str, timeout: int, path: Path) -> None:
+def timing_event(path: Path, stage: str, event: str, **values: Any) -> None:
+    entry = {
+        "utc": datetime.now(UTC).isoformat(),
+        "stage": stage,
+        "event": event,
+        **values,
+    }
+    with path.with_suffix(".tempos.jsonl").open("a", encoding="utf-8") as file:
+        file.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+
+def run_logged(command: list[str], log: TextIO, stage: str, timeout: float, path: Path) -> None:
+    timing_event(path, stage, "launch_started", timeout_seconds=timeout)
+    launch_started = time.monotonic()
+    try:
+        process = subprocess.Popen(
+            command, stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT
+        )
+    except OSError as exc:
+        timing_event(path, stage, "launch_failed", error=str(exc))
+        raise
     started = time.monotonic()
+    launch_seconds = started - launch_started
     finished = threading.Event()
-    print(f"  Onyx {stage}: iniciando; limite {timeout}s. Log: {path}", flush=True)
+    elapsed = 0.0
+    outcome = "error"
 
     def report() -> None:
+        print(
+            f"  Onyx {stage}: processo {process.pid}; abertura {launch_seconds:.1f}s; "
+            f"limite de espera {timeout:g}s. Log: {path}",
+            flush=True,
+        )
         while not finished.wait(PROGRESS_SECONDS):
-            elapsed = int(time.monotonic() - started)
-            print(f"  Onyx {stage}: aguardando ha {elapsed}s (limite {timeout}s)...", flush=True)
+            waiting = int(time.monotonic() - started)
+            print(f"  Onyx {stage}: aguardando ha {waiting}s (limite {timeout:g}s)...", flush=True)
+        if outcome == "ok":
+            print(f"  Onyx {stage}: processo terminou; espera {elapsed:.1f}s.", flush=True)
 
     reporter = threading.Thread(target=report, name="onyx-elapsed-feedback", daemon=True)
-    reporter.start()
     try:
-        subprocess.run(
-            command,
-            stdin=subprocess.DEVNULL,
-            stdout=log,
-            stderr=subprocess.STDOUT,
-            check=True,
-            timeout=timeout,
-        )
+        timing_event(path, stage, "process_started", pid=process.pid, launch_seconds=launch_seconds)
+        reporter.start()
+        deadline = started + timeout
+        while True:
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                raise subprocess.TimeoutExpired(command, timeout)
+            try:
+                returncode = process.wait(timeout=min(0.5, remaining))
+            except subprocess.TimeoutExpired:
+                continue
+            if time.monotonic() > deadline:
+                raise subprocess.TimeoutExpired(command, timeout)
+            if returncode:
+                raise subprocess.CalledProcessError(returncode, command)
+            outcome = "ok"
+            break
+    except subprocess.TimeoutExpired:
+        outcome = "timeout"
+        raise
+    except KeyboardInterrupt:
+        outcome = "interrupted"
+        raise
     finally:
-        finished.set()
-        reporter.join()
-    print(f"  Onyx {stage}: terminou em {time.monotonic() - started:.1f}s.", flush=True)
+        elapsed = time.monotonic() - started
+        try:
+            if process.poll() is None:
+                process.kill()
+                process.wait(timeout=5)
+        finally:
+            try:
+                timing_event(
+                    path,
+                    stage,
+                    "finished",
+                    pid=process.pid,
+                    outcome=outcome,
+                    launch_seconds=launch_seconds,
+                    wait_seconds=elapsed,
+                    cleanup_seconds=time.monotonic() - started - elapsed,
+                    returncode=process.returncode,
+                )
+            finally:
+                finished.set()
+                if reporter.ident is not None:
+                    reporter.join(timeout=REPORT_JOIN_SECONDS)
 
 
 def build(

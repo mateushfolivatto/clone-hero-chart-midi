@@ -86,11 +86,30 @@ separada: a retomada tenta baixar essa origem novamente.
 
 ### Durante as conversões do Onyx
 
-O baixador informa se está na importação ou exportação, mostra o caminho do log
-e imprime o tempo de espera a cada 15 segundos. Isso indica espera pelo processo;
-não é porcentagem nem comprovação de avanço interno do conversor. Os limites são
-**180 segundos na importação** e **900 segundos na exportação**, por música.
-Ao esgotar o limite, registra a pendência e tenta as outras músicas.
+O baixador informa se está na importação ou exportação, mostra o PID e o caminho
+do log e imprime o tempo de espera a cada 15 segundos. Isso indica espera pelo
+processo; não é porcentagem nem comprovação de avanço interno do conversor.
+O tempo de **abertura do executável** aparece separado da **espera pelo processo**.
+Os limites da espera, após a criação do processo, são **180 segundos na importação**
+e **900 segundos na exportação**, por música. O supervisor verifica o prazo em
+intervalos de no máximo meio segundo, encerra e recolhe o próprio processo ao
+esgotá-lo e registra a pendência para continuar com outras músicas.
+
+Foi corrigido um defeito na atualização anterior: o contador começava antes da
+saída inicial e só terminava depois de aguardar a thread de mensagens. Um atraso
+de saída podia inflar o tempo mostrado, mesmo com o conversor rápido. Isso foi
+reproduzido em teste; não determina a causa específica dos 731 s reportados em Stain.
+O usuário informou que não selecionou texto nem suspendeu o computador.
+Agora a supervisão não espera indefinidamente a thread do console e a medição é
+capturada antes dessa espera. Uma conclusão observada após o prazo não é anunciada
+como sucesso dentro dele.
+
+Cada log recebe um arquivo vizinho **`.tempos.jsonl`**, com início de abertura,
+processo criado, PID, duração de abertura/espera/limpeza e resultado. Se voltar a
+demorar, envie somente esse arquivo pequeno e o `.log` correspondente. O Windows
+pode demorar para criar um processo: essa chamada do sistema não é cancelável
+pelo timeout de espera do Python. Por isso o tempo de abertura é registrado
+separadamente; não há promessa de um limite total enquanto o sistema está bloqueado.
 
 **Ctrl+C encerra a execução; não serve para passar à próxima música.** A nova
 mensagem de interrupção informa como retomar, sem traceback. As músicas prontas,

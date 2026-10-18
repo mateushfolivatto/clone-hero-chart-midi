@@ -129,3 +129,18 @@ unchanged resume. These Linux timings do not diagnose native Windows slowness;
 the supplied Windows log records only import start, without completion/error.
 The user confirmed interrupting that import before its 180-second deadline;
 the traceback alone does not establish an actual timeout or hang.
+
+Process supervision adds four regressions (89 tests total). A real sleeping Python
+child is killed/reaped after its short deadline, a blocked console reporter cannot
+hold up completion, a simulated 731-second process launch is separated from a
+0.9-second wait, and a late zero exit is treated as a timeout. Existing conversion
+argument/diagnostic tests target the build boundary; feedback now also runs a real
+child. The earlier delayed-print reproduction displayed success beyond the limit
+even though the child was fast, establishing a timing defect rather than the cause
+of the user's 731 s on Windows. Timing records are written before reporter cleanup.
+
+A full isolated stdlib-only Stain reconstruction used the pinned source and Linux
+Onyx: launch below 0.001 s, import wait 0.516 s, export wait 10.969 s, both outcomes
+ok. Pinned MIDI, local asset hashes, JSONL timing events, persistent log and unchanged
+resume passed. Native Windows timing, the exact source of its delay and game
+acceptance still require user-side verification. Source/tool/recipes are unchanged.

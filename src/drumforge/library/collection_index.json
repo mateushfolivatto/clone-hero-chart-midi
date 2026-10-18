@@ -99,7 +99,7 @@
     }
   ],
   "helpers": {
-    "onyx_recovery.py": "a8449d2ae21283e9977f96fe31ceeb5d559a47865a8dba59f58fad780e0f6dd5",
+    "onyx_recovery.py": "affb26b68f145a62a7834b33cf56f746dd8eacc63a1f918a046e7b8f69bfb1cb",
     "sevenzip.py": "822d12334b2ab821e3dfec5fcf38d99ce1dfc610c80cfae49170f8b83095da3a",
     "mega_recovery.py": "94149c758ca8f8d60989af41631fc4b2ba559a5f26039893f3704b52e9520191"
   }
