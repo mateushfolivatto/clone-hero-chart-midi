@@ -254,6 +254,23 @@ minutes; a preceding song waited about three minutes, with its stage unspecified
 The supplied traceback therefore does not demonstrate an expired import deadline
 or converter failure. Do not label it a proven hang or promise a speedup.
 
+### Process timing and deadline supervision correction
+
+The user's newer Windows output reports Stain import success after 731 s despite
+a 180 s label; they denied console selection and system suspension. A real defect
+was reproduced locally: timing began before initial console output and ended
+after an unbounded reporter join, allowing UI delay to inflate the displayed
+converter duration. This does not establish the source of the user's 731 s.
+The runner now separates process creation from waiting, polls the owned Popen
+process against a monotonic deadline, rejects a late observed success, and kills
+and reaps that child on timeout/interruption. Console reporting is independent
+and its join bounded; process-wait timing is frozen before reporting cleanup.
+Adjacent .tempos.jsonl diagnostics record launch/wait/cleanup and outcomes.
+OS process creation cannot be canceled by Python's wait timeout and remains
+explicitly separate. Source/tool/MIDI identities and song recipes do not change.
+Real-child timeout and blocked-console regressions are required; native Windows
+performance/root cause and game acceptance remain unverified.
+
 ### Existing library complement
 
 The user authorized a local complement of an existing ~4 GB song collection,

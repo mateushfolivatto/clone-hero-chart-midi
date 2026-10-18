@@ -397,6 +397,13 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   Linux import succeeded in 1.35 s; full conversion/MIDI/local hashes/resume also
   checked. Two regressions bring the suite to 85 tests. The native log contains
   only import-start text; the cause of Windows slowness remains under investigation.
+- [x] **DCF-LIB-012 [P0]** Correct misleading converter timing and supervise the
+  actual process deadline after a reported 731 s import with a 180 s label.
+  Separate creation/wait/reporting, bound reporter shutdown, record per-stage
+  timing events and kill/reap the owned child on timeout. Four regressions include
+  a real timed-out child and blocked output; full Stain conversion/pinned MIDI/
+  local hashes/resume verified on Linux. The specific cause of native Windows
+  delay and acceptance of the update there remain unestablished.
 
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
