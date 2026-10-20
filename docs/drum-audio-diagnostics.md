@@ -100,7 +100,10 @@ pode criar agudos. A interpretação exige áudio, ativação por classe e MIDI.
   foi recusado antes da geração. O relatório não contém áudio.
 
 Não foi medida melhora de transcrição real nem compatibilidade no jogo. DCF-114
-e DCF-116–122 continuam pendentes. O próximo experimento é receber um trecho
+e DCF-116/117/120–122 continuam pendentes. DCF-118/119 agora têm ferramenta e
+validação sintética: veja [inspeção do MIDI bruto](phase-1-midi-diagnostics.md).
+Use a skill em toda tarefa de música para chart, conforme a preferência do usuário.
+O próximo experimento é receber um trecho
 problemático e o MIDI correspondente, comparar mix/bateria/chimbal e variar só HH
 mantendo os outros quatro limiares fixos. Registre TP/FP/FN, precisão, recall,
 F1 e erro de tempo com correspondência um-para-um por classe. Confira o ajuste

@@ -201,3 +201,12 @@ finding. This file supplements the backlog; it does not redefine task completion
     cleanup and bound its join. Test a real sleeping child that must be killed,
     a blocked output sink, slow process creation and a late successful return.
     A mocked TimeoutExpired alone does not validate real deadline enforcement.
+
+## 2026-10-20 — MIDI diagnostic fixtures
+
+39. **Sort note-ons and note-offs together in synthetic MIDI.** An ad-hoc demo
+    generator appended a note-off before the next simultaneous note-on, creating
+    a negative delta and stalling an unchecked VLQ encoder. Build one tick-sorted
+    event schedule and bound VLQ inputs to 0..0x0fffffff. The corrected demo parses
+    all 22 expected attacks, including seven simultaneous pairs; independent
+    hand-authored regression bytes verify timing without relying on that generator.

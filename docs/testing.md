@@ -1,5 +1,16 @@
 # Quality gates
 
+The 2026-10-20 Phase 1 raw-MIDI inspector adds 15 cases (104 total), with Mido
+1.3.3 pinned in the dev group and optional diagnostics extra. Run the normal
+gates below and `drumforge inspect-midi --help`. Authored multitrack MIDI bytes
+check tempo changes, simultaneous HH/kick/tom events, running status, duplicates,
+velocities, unknown notes, channel filtering and unsupported input rejection.
+CLI/export checks cover JSON/CSV consistency, stable bytes, source preservation,
+existing output refusal and cleanup after a failed write. The authored signal/MIDI
+demo and optional-script offline limitation are recorded in
+[phase-1-midi-diagnostics.md](phase-1-midi-diagnostics.md). Native Windows, private
+song transcription and game acceptance remain pending.
+
 The hi-hat diagnostic slice added a regression, bringing its baseline to 38 tests;
 integration with the concurrent private-library pilot passed all 46 tests.
 The regression checks that the public hi-hat threshold reaches backend GM 42 and the tom

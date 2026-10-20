@@ -8,6 +8,9 @@ description: Investigar batidas ausentes ou falsas em transcrição de bateria p
 Use processamento de sinais e evidência do áudio para investigar falhas. Esta skill
 orienta o Codex e fornece um analisador local; ela não é um novo modelo treinado.
 Leia as instruções AGENTS.md do projeto e respeite a fase vigente antes de editar.
+Por preferência do usuário, aplique este procedimento em toda tarefa de música
+para chart, mesmo sem uma falha de chimbal relatada. A skill orienta diagnóstico;
+não substitui o transcritor nem transforma os candidatos espectrais em notas.
 Não substitua o modelo nem avance o exportador para resolver uma hipótese de áudio.
 
 ## Primeiro estabeleça os fatos
@@ -20,6 +23,27 @@ Não substitua o modelo nem avance o exportador para resolver uma hipótese de �
    simultâneos. Anote a origem absoluta do recorte, versão da música e configurações.
 4. Compare o MIDI bruto à exportação antes de culpar o detector. Uma nota pode ser
    perdida na classificação, no peak picking, na normalização ou no mapeamento.
+
+## Inspecione o MIDI bruto
+
+Após `transcribe`, gere os diagnósticos antes de ajustar limiares:
+
+```powershell
+uv --cache-dir .uv-cache sync --locked --extra diagnostics
+uv --cache-dir .uv-cache run --locked drumforge inspect-midi 'work/raw.mid' --out 'output/diagnostico-midi'
+```
+
+Adapte os caminhos e use uma pasta de saída nova. O extra opcional fixa Mido
+1.3.3; não instala ML. `report.json` contém SHA256 do MIDI, mapa de tempo e
+contagens por nota/grupo BD SD HH TT CY UNKNOWN. `events.csv` preserva tempos em
+segundos, notas GM, velocidades armazenadas e ataques simultâneos, sem deduplicar
+ou quantizar. Velocidade MIDI não é intensidade acústica estimada nem confiança.
+
+O comando espera percussão GM no canal 10 (índice 9). Ele rejeita `PART DRUMS`,
+formato 2 e divisão SMPTE, e informa notas ignoradas em outros canais. Não passe
+um `notes.mid` de Clone Hero: seus números de notas significam pistas do jogo.
+Os tempos partem do zero do MIDI; se a transcrição veio de um recorte, registre
+separadamente sua origem na música antes de comparar ao gráfico com `--start`.
 
 ## Gere os gráficos
 

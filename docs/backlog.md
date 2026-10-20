@@ -1,5 +1,15 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-20 — Raw MIDI diagnostics
+
+The music-to-chart work resumes within Phase 1 using the local diagnostic skill
+for every song. `inspect-midi` writes tempo-aware raw GM onset/velocity CSV and
+JSON counts, preserving simultaneous attacks. Fifteen regressions (104 total)
+and a synthetic skill-guided audio/MIDI demonstration passed. See
+[phase-1-midi-diagnostics.md](phase-1-midi-diagnostics.md) for scope and commands;
+root BACKLOG.md owns DCF-118/119 and the remaining private-song acceptance tasks.
+No canonical pipeline/exporter or game acceptance is completed by this slice.
+
 ## 2026-10-17 — Recover the pilot after failed download
 
 The user reported an artifact-download error and could not find data/. The resumed

@@ -1,9 +1,9 @@
 # Drum Chart Forge
 
 Local-first tooling to turn legally obtained music into Clone Hero Expert Pro
-Drums charts. **Phase 1 is in progress:** environment diagnostics and deterministic
-audio preparation work; transcription and chart generation are future slices. No
-music or model weights are included.
+Drums charts. **Phase 1 is in progress:** environment diagnostics, deterministic
+audio preparation, raw MIDI transcription and MIDI diagnostics are implemented.
+Chart export is a future phase. No music or model weights are included.
 
 Para a playlist MixDrumRock, veja [baixar os 254 charts novos](song-library/CONTINUACAO.md)
 e o [relatório das 744 entradas](song-library/reports/cobertura.csv). Essa biblioteca
@@ -28,12 +28,17 @@ uv --cache-dir .uv-cache run --locked drumforge prepare-audio INPUT --work-dir W
 uv --cache-dir .uv-cache run --locked drumforge transcribe WORK/audio.wav \
   --midi-out WORK/raw.mid --weights PATH_TO_ALLOWLISTED_WEIGHTS \
   --backend-python PATH_TO_ADTOF_PYTHON --skip-separation
+uv --cache-dir .uv-cache run --locked drumforge inspect-midi WORK/raw.mid \
+  --out output/midi-diagnostics
 ```
 
 This checkout has uv 0.12.13 in ignored `.tools/bin/uv.exe`; on this Windows host
 use `.\.tools\bin\uv.exe` in place of `uv`. To reproduce that local tool install:
 `py -3.12 -m pip install --target .tools uv==0.12.13`.
 The committed lock pins development dependencies; the core has no runtime packages.
+Raw MIDI inspection uses the locked optional `diagnostics` extra (Mido 1.3.3),
+also included in development dependencies. For a runtime-only installation use
+`uv --cache-dir .uv-cache sync --locked --no-dev --extra diagnostics`.
 
 Doctor distinguishes Windows, native Linux and WSL; it reports CPU and CUDA as
 separate checks. Missing CUDA is not an error. It also checks RAM, ffmpeg, PyTorch,
@@ -61,6 +66,12 @@ For missing hi-hats, use the project skill `$drum-audio-diagnostics`. It supplie
 a local spectrogram/report script and an experiment comparing full mix, drums
 and Moises component stems. See [the diagnostic guide](docs/drum-audio-diagnostics.md).
 Plots do not classify every note; real-song accuracy still needs measurement.
+
+Use that skill for every music-to-chart task. `inspect-midi` writes `report.json`
+and `events.csv` with GM drum counts, onset seconds and stored velocities, retaining
+simultaneous notes and tempo changes. It reads raw GM percussion on MIDI channel
+10, not an existing Clone Hero `PART DRUMS` chart, and refuses existing output
+folders. See [Phase 1 MIDI diagnostics](docs/phase-1-midi-diagnostics.md).
 
 ## Project navigation
 

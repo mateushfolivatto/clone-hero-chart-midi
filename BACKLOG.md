@@ -138,8 +138,8 @@ this is execution evidence, not musical-accuracy or private-song validation.
 
 - [ ] **DCF-116 [P0]** Run pipeline on local `Turn to Ashes` audio.
 - [ ] **DCF-117 [P0]** Verify generated MIDI opens in a DAW/MIDI inspector.
-- [ ] **DCF-118 [P0]** Count events by MIDI note/instrument.
-- [ ] **DCF-119 [P0]** Generate debug CSV.
+- [x] **DCF-118 [P0]** Count events by MIDI note/instrument.
+- [x] **DCF-119 [P0]** Generate debug CSV.
 - [ ] **DCF-120 [P1]** Listen/inspect first 30 seconds against audio.
 - [ ] **DCF-121 [P1]** Record obvious false positives/false negatives.
 - [ ] **DCF-122 [P0]** Document Phase 1 findings.
@@ -150,11 +150,23 @@ this is execution evidence, not musical-accuracy or private-song validation.
   spectrogram/report script; verify on authored synthetic signals. Correct public
   HH/TT threshold translation to pinned ADTOF class order and add regression coverage.
 
-This support slice does not complete DCF-114 or DCF-116–122. No failing private
+This 2026-10-16 support slice did not complete DCF-114 or DCF-116–122. No failing private
 audio, MIDI, stems or model checkpoint is available in this checkout. The core
 separator remains passthrough; Moises is an optional external stem source, not
 an implemented integration. See docs/drum-audio-diagnostics.md for evidence and
 the measured next experiment. Phase 1 remains in progress.
+
+### Phase 1 raw MIDI diagnostics — 2026-10-20
+
+DCF-118/119 now have `drumforge inspect-midi`: counts by GM note/group plus
+report.json/events.csv with onset seconds, stored MIDI velocities, source identity
+and tempo changes. It preserves simultaneous/duplicate attacks and the source,
+warns about ignored melodic channels/unknown notes and refuses unsafe outputs or
+game-format PART DRUMS inputs. Fifteen synthetic regressions and a skill-guided
+authored-audio/MIDI demonstration passed. See docs/phase-1-midi-diagnostics.md.
+These are implemented diagnostic capabilities; applying them to Turn to Ashes
+still depends on the unavailable private audio/checkpoint and native Windows run.
+DCF-113/114 and DCF-116/117/120–122 remain open. Phase 1 is not complete.
 
 ---
 
@@ -427,17 +439,11 @@ uncertain editions and game acceptance keep the overall workstream open.
 
 Do **not** work on the whole backlog.
 
-Start with:
-
-```text
-DCF-001 → DCF-042
-```
-
-Then the next session should target:
-
-```text
-DCF-100 → DCF-122
-```
+Phase 0 is complete. Continue Phase 1 with DCF-116/117/120–122 using the existing
+audio preparation/transcription and the DCF-118/119 inspector. Follow the local
+drum-audio-diagnostics skill for every music-to-chart task. Private audio,
+allowlisted local weights/backend and native Windows results are still needed.
+Do not advance the canonical-event pipeline or Clone Hero exporter in this slice.
 
 The first meaningful product checkpoint is:
 

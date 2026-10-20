@@ -162,6 +162,19 @@ private source audio/MIDI are unavailable. Phase 1 acceptance remains pending.
 See docs/drum-audio-diagnostics.md and DCF-123; keep the full-mix baseline and
 measure per-class precision/recall before choosing stems or fusion.
 
+## Raw MIDI diagnostics (2026-10-20)
+
+The user requested resuming music-to-chart development and using the local
+drum-audio-diagnostics skill throughout every such task. AGENTS.md now records
+that preference. Phase 1 gained `drumforge inspect-midi` for raw GM percussion:
+counts by note/group, tempo-aware onset seconds, stored velocities, source hash
+and JSON/CSV output in a new directory. Simultaneous notes and duplicates stay
+intact. Mido 1.3.3 is a locked optional diagnostics extra and a dev dependency;
+core runtime remains standard-library-only. This does not implement canonical
+events, ML activations, acoustic dynamics or the Clone Hero exporter.
+DCF-118/119 are implemented and synthetically verified; private Turn to Ashes
+validation and native Windows remain pending. See docs/phase-1-midi-diagnostics.md.
+
 ## Separate song-library workstream (2026-10-16)
 
 The user requested a separate, portable area for the growing MixDrumRock Qobuz
