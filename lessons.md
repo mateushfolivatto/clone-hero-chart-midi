@@ -201,3 +201,14 @@ finding. This file supplements the backlog; it does not redefine task completion
     cleanup and bound its join. Test a real sleeping child that must be killed,
     a blocked output sink, slow process creation and a late successful return.
     A mocked TimeoutExpired alone does not validate real deadline enforcement.
+
+## 2026-10-25 — Themed library additions
+
+39. **Keep curated additions separate from playlist coverage.** League of Legends,
+    Imagine Dragons and similar-band selections introduced songs outside the
+    captured Qobuz playlist. Reusing playlist counters or inventing track IDs would
+    misrepresent coverage. Append themed recipes with empty Qobuz/playlist ID lists,
+    retain the original coverage CSV and track curated totals separately. Verify
+    the unchanged snapshot and compare all old/new titles, source identities and
+    chart/audio hashes; Enemy belongs to only one theme and Heavy Is the Crown
+    remains in its already published batch.

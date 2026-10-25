@@ -404,6 +404,17 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   a real timed-out child and blocked output; full Stain conversion/pinned MIDI/
   local hashes/resume verified on Linux. The specific cause of native Windows
   delay and acceptance of the update there remain unestablished.
+- [x] **DCF-LIB-013 [P0]** Prepare nonrepeating themed drum batches for League of
+  Legends, Imagine Dragons and bands similar to Linkin Park. Batches 13–18 append
+  45 charts (39 Pro Drums, six ordinary Drums): 11 LoL/associated projects,
+  13 Imagine Dragons and 21 across seven similar bands. All 244 assets, 107 audio
+  files, 51,469 Expert gems and six ZIPs checked; index/novelty regressions bring
+  the suite to 91 passing tests. Old recipes, Qobuz coverage and Onyx helper bytes
+  preserved; standalone fresh-source recovery/resume checked for ZIP, Drive files
+  and Onyx. Windows selective recovery and song lists: song-library/TEMATICOS.md.
+  Nine attempted selections remain blocked, three theme titles were not found
+  conservatively and Heavy Is the Crown was excluded as already delivered.
+  Native Windows execution and Scan Songs/playtest remain pending.
 
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.

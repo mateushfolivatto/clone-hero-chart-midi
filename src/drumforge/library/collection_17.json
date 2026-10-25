@@ -1,0 +1,1596 @@
+{
+  "schema_version": 1,
+  "batch_number": 17,
+  "collection_folder": "MixDrumRock - Lote 17 - Semelhantes a Linkin Park",
+  "archive_name": "MixDrumRock-lote-17.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "similar",
+  "theme_label": "Semelhantes a Linkin Park",
+  "songs": [
+    {
+      "artist": "Breaking Benjamin",
+      "title": "Blow Me Away",
+      "file_id": "a9896daddc5942fd90947faec5badbda",
+      "source_url": "https://rhythmverse.co/songfile/a9896daddc5942fd90947faec5badbda",
+      "download_url": "https://rhythmverse.co/download_file/ryan-gemmell/a9896daddc5942fd90947faec5badbda/Breaking%20Benjamin%20-%20Blow%20Me%20Away%20(x2%20bass%20pedal).zip",
+      "archive_format": "zip",
+      "folder": "Breaking Benjamin - Blow Me Away [a9896dad]",
+      "charter": "",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1198,
+          "kick_note_on_count": 435,
+          "cymbal_marker_count": 541,
+          "last_expert_onset_seconds": 202.483,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a9896daddc5942fd90947faec5badbda",
+        "artist": "Breaking Benjamin",
+        "title": "Blow Me Away",
+        "album": "Halo 2 Original Soundtrack",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/a9896daddc5942fd90947faec5badbda",
+        "download_url": "https://rhythmverse.co/download_file/ryan-gemmell/a9896daddc5942fd90947faec5badbda/Breaking Benjamin - Blow Me Away (x2 bass pedal).zip",
+        "duration_seconds": 205.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Pacifica1113",
+        "notes": "This is an attempt to chart a different interpretation of the drum and guitar parts. This song is tricky to hear what is going on exactly and I think the band might have dual tracks for those instruments. So I went for what other versions of this have not just to provide something different to the community even if it may not exactly be right. Enjoy!\r\n- x2 kick pedal supported and separated",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Breaking Benjamin - Blow Me Away (x2 bass pedal)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "45694acac946acbf8019888083b7be6137dce53ed4a0cc4381788c6ff8dfe7ad"
+        },
+        {
+          "archive_name": "Breaking Benjamin - Blow Me Away (x2 bass pedal)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "267bdc0fbcec96d965f4531095d36aebfe610b8d9c8fc982394d6e04825a8c4a"
+        },
+        {
+          "archive_name": "Breaking Benjamin - Blow Me Away (x2 bass pedal)/song.ini",
+          "name": "song.ini",
+          "sha256": "b6ad19fc597bf15ed724089be72873f218d87775a4e3f35be999a4a07141837a"
+        },
+        {
+          "archive_name": "Breaking Benjamin - Blow Me Away (x2 bass pedal)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "e033716c9bfddb6d5752ce06de66998f5f201c8932d7c05de3d8c1f64051905c"
+        }
+      ],
+      "archive_sha256": "b83369272817a1c26e05830a790fcdce53442949a01ad0a684840db5f96ab57d",
+      "archive_bytes": 5731526,
+      "prepared_bytes": 5892563,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Breaking Benjamin",
+      "title": "Dance With the Devil",
+      "file_id": "5b947db89d6ed7.60158688",
+      "source_url": "https://rhythmverse.co/songfile/5b947db89d6ed7.60158688",
+      "download_url": "https://www.mediafire.com/file/gieu6bdrx05m6aa/BBDanceDevil",
+      "archive_format": "onyx",
+      "folder": "Breaking Benjamin - Dance With the Devil [5b947db8]",
+      "charter": "bernie",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1176,
+          "kick_note_on_count": 390,
+          "tom_marker_count": 132,
+          "last_expert_onset_seconds": 212.771,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947db89d6ed7.60158688",
+        "artist": "Breaking Benjamin",
+        "title": "Dance With the Devil",
+        "album": "",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b947db89d6ed7.60158688",
+        "download_url": "http://www.mediafire.com/file/gieu6bdrx05m6aa/BBDanceDevil",
+        "duration_seconds": 0.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "beard216",
+        "notes": "<p>Frets: bernie<br />\nConversion/Vox OD/Fills/Drum Animations: beard216</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Breaking Benjamin - Dance With the Devil/album.png",
+          "name": "album.png",
+          "sha256": "e3c6b0d8a267feb3a1cff57cc0efc2e16447d23fe29b09e58829af6f5c46f558"
+        },
+        {
+          "archive_name": "Breaking Benjamin - Dance With the Devil/notes.mid",
+          "name": "notes.mid",
+          "sha256": "dea2d7ab666552779584bcaf32a86a33fab7adf072891dce5628f4c609b4d99b"
+        },
+        {
+          "archive_name": "Breaking Benjamin - Dance With the Devil/song.ini",
+          "name": "song.ini",
+          "sha256": "7d61d325a3b5f9b013518d470e999d6d763feaba63c027e185a7001d02e6d9e2"
+        },
+        {
+          "archive_name": "Breaking Benjamin - Dance With the Devil/song.ogg",
+          "name": "song.ogg",
+          "sha256": "01e9dbac99275a8430978322e72cbd6f5797dc0a7fc6b18f8b4d3b97bb02e6b7"
+        }
+      ],
+      "archive_sha256": "5e26386fe1bfe37073ee14c18b052e470b4cc049a672c90e4113918d5c7729e2",
+      "archive_bytes": 5050368,
+      "prepared_bytes": 4087546,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Bring Me the Horizon",
+      "title": "Can You Feel My Heart",
+      "file_id": "5b9491d68a5252.27466187",
+      "source_url": "https://rhythmverse.co/songfile/5b9491d68a5252.27466187",
+      "download_url": "https://rhythmverse.co/download_file/realcheese/5b9491d68a5252.27466187/CHEESE_BMTH_CYFMH",
+      "archive_format": "onyx",
+      "folder": "Bring Me the Horizon - Can You Feel My Heart [5b9491d6]",
+      "charter": "RealCheese",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1283,
+          "kick_note_on_count": 189,
+          "tom_marker_count": 66,
+          "last_expert_onset_seconds": 221.314,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b9491d68a5252.27466187",
+        "artist": "Bring Me the Horizon",
+        "title": "Can You Feel My Heart",
+        "album": "Sempiternal",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b9491d68a5252.27466187",
+        "download_url": "https://rhythmverse.co/download_file/realcheese/5b9491d68a5252.27466187/CHEESE_BMTH_CYFMH",
+        "duration_seconds": 233.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "RealCheese",
+        "notes": "<p>This song was released as part of Kickoff Night for the first leg of the first tour of C3X. Enjoy!</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Bring Me the Horizon - Can You Feel My Heart_/album.png",
+          "name": "album.png",
+          "sha256": "10f784b38831af17bb00f95ed495b1080404051741bc75736b12404c72c05825"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Can You Feel My Heart_/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "b11cc54f6ec0877422cfcf17e5795f609b8017bdd7f67d215e0e9529529f92c7"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Can You Feel My Heart_/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c88f56a46f2b8d7c9d6664d0d591f91532cc40a2d37dd785d1d95b46262b53ce"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Can You Feel My Heart_/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "46f3405e5c12f9e4fe059bf2efc88f5492ba614a2296b3d120861c542cbd46e2"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Can You Feel My Heart_/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f9889118880196cbc75ba3857bf9c5ddf1d99899f16cafdda52055d4edafcff8"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Can You Feel My Heart_/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "a4fb501a1b768e95ad991d1d5e68e70f9921905639d19486b4ad790f841586f0"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Can You Feel My Heart_/song.ini",
+          "name": "song.ini",
+          "sha256": "e003aae2f44c570a466c5b55a8d25a116766a4a78b50e33573494b58dcaa0ec6"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Can You Feel My Heart_/song.ogg",
+          "name": "song.ogg",
+          "sha256": "967a3eb265794574d6a9c7d42c5abd5893435d212030de71d2936c032d85ded6"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Can You Feel My Heart_/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "52859300a76854cd53079dd06b19d8defa4caae57f94e87447eff0f0f1d1464b"
+        }
+      ],
+      "archive_sha256": "a45cdf22630222af9e20a14129406f97d5a21676c3d864e5bb92273900adb51b",
+      "archive_bytes": 24920064,
+      "prepared_bytes": 19844331,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Bring Me The Horizon",
+      "title": "Drown",
+      "file_id": "59295f707e9de0.51000449",
+      "source_url": "https://rhythmverse.co/songfile/59295f707e9de0.51000449",
+      "download_url": "https://rhythmverse.co/download_file/nyoxide/59295f707e9de0.51000449/Drown_rb3con",
+      "archive_format": "onyx",
+      "folder": "Bring Me The Horizon - Drown [59295f70]",
+      "charter": "TheBrownOneJT, Nyoxide, beard216",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1384,
+          "kick_note_on_count": 395,
+          "tom_marker_count": 65,
+          "last_expert_onset_seconds": 208.531,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59295f707e9de0.51000449",
+        "artist": "Bring Me The Horizon",
+        "title": "Drown",
+        "album": "Thats The Spirit",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59295f707e9de0.51000449",
+        "download_url": "https://rhythmverse.co/download_file/nyoxide/59295f707e9de0.51000449/Drown_rb3con",
+        "duration_seconds": 222.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nyoxide",
+        "notes": "<p>Credits<br />\nTheBrownOneJT: Guitar, bass, tempo mapping, some drums<br />\nbeard216: Guitar and bass reductions<br />\nNyoxide: Added vocals, overdrive, and practice sections. Recharted 80% of drums and updated the drum reductions, made slight modifications to guitar chart, upgraded song audio quality, removed portion of song audio that is only present in the music video and has no charted notes.</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Bring Me The Horizon - Drown/album.png",
+          "name": "album.png",
+          "sha256": "aa4a7c28ab2a62e245047b1b5929decef1fc60dc82f2aeaef305d611975c1fa0"
+        },
+        {
+          "archive_name": "Bring Me The Horizon - Drown/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ad7dc4cb4f26cbf694b8ae7829357707c3ebf3c32d7ff8de8f35957c0ed517e9"
+        },
+        {
+          "archive_name": "Bring Me The Horizon - Drown/song.ini",
+          "name": "song.ini",
+          "sha256": "2392dfecdd2d0e5f8bcf80b79f9b6dcab23498d75046cd3b1b741ed6d724bf91"
+        },
+        {
+          "archive_name": "Bring Me The Horizon - Drown/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c5abd4fff6265e081cc845701334742ebe2c6e6f02120e535b2a645689c62c1b"
+        }
+      ],
+      "archive_sha256": "ae9d59bd89fed8b5c1b60a7c0a8366c32e4fec091872fcd94c8cd27a85450cf1",
+      "archive_bytes": 4923392,
+      "prepared_bytes": 4043754,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Bring Me the Horizon",
+      "title": "Sleepwalking",
+      "file_id": "5b94927442a188.74790350",
+      "source_url": "https://rhythmverse.co/songfile/5b94927442a188.74790350",
+      "download_url": "https://rhythmverse.co/download_file/realcheese/5b94927442a188.74790350/CHEESE_BMTH_SW",
+      "archive_format": "onyx",
+      "folder": "Bring Me the Horizon - Sleepwalking [5b949274]",
+      "charter": "RealCheese",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1741,
+          "kick_note_on_count": 544,
+          "tom_marker_count": 31,
+          "last_expert_onset_seconds": 227.748,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b94927442a188.74790350",
+        "artist": "Bring Me the Horizon",
+        "title": "Sleepwalking",
+        "album": "Sempiternal",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b94927442a188.74790350",
+        "download_url": "https://rhythmverse.co/download_file/realcheese/5b94927442a188.74790350/CHEESE_BMTH_SW",
+        "duration_seconds": 232.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "RealCheese",
+        "notes": "<p>This song was released as part of Kickoff Night for the first leg of the first tour of C3X. Enjoy!</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Bring Me the Horizon - Sleepwalking/album.png",
+          "name": "album.png",
+          "sha256": "10f784b38831af17bb00f95ed495b1080404051741bc75736b12404c72c05825"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Sleepwalking/notes.mid",
+          "name": "notes.mid",
+          "sha256": "31e48d947d75586e78a0279828383953456046a5a253953a68172ebc42792acb"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Sleepwalking/song.ini",
+          "name": "song.ini",
+          "sha256": "e74965fb1594cf3ccdbcd764249fcebb651b1824877fc470d1c38377c0aa00f5"
+        },
+        {
+          "archive_name": "Bring Me the Horizon - Sleepwalking/song.ogg",
+          "name": "song.ogg",
+          "sha256": "83ae9155b3201ae7810b95b96e48294f5b7775412492ea89d06f082125326d4a"
+        }
+      ],
+      "archive_sha256": "30e7f033daa18b9b641cb1429b9a3609717f9a8743024164a5859e2ed841b0fc",
+      "archive_bytes": 5599232,
+      "prepared_bytes": 5218103,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Evanescence",
+      "title": "My Heart is Broken",
+      "file_id": "594e78039ec389.01256500",
+      "source_url": "https://rhythmverse.co/songfile/594e78039ec389.01256500",
+      "download_url": "https://rhythmverse.co/download_file/beard216/594e78039ec389.01256500/EvScHeartBroken",
+      "archive_format": "onyx",
+      "folder": "Evanescence - My Heart is Broken [594e7803]",
+      "charter": "FbS-13",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1533,
+          "kick_note_on_count": 522,
+          "tom_marker_count": 102,
+          "last_expert_onset_seconds": 270.29,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "594e78039ec389.01256500",
+        "artist": "Evanescence",
+        "title": "My Heart is Broken",
+        "album": "Evanescence",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/594e78039ec389.01256500",
+        "download_url": "https://rhythmverse.co/download_file/beard216/594e78039ec389.01256500/EvScHeartBroken",
+        "duration_seconds": 275.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "beard216",
+        "notes": "<p>Frets: FbS-13<br />\nConversion/Reductions/Drum Fills/Drum Animations: beard216</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Evanescence - My Heart is Broken/album.png",
+          "name": "album.png",
+          "sha256": "7d8d04c302fdb8fb0dafb5e745180492ee94122429637da1708460431c540951"
+        },
+        {
+          "archive_name": "Evanescence - My Heart is Broken/notes.mid",
+          "name": "notes.mid",
+          "sha256": "46429f46349c60645fe0eb91ca99b7d4eb23a628302b7b6edd28cb775f911bce"
+        },
+        {
+          "archive_name": "Evanescence - My Heart is Broken/song.ini",
+          "name": "song.ini",
+          "sha256": "323ac6bab3d9aa604b8871cc1104e902c2e7a0b2fc372ee6c479c8dc09faa34f"
+        },
+        {
+          "archive_name": "Evanescence - My Heart is Broken/song.ogg",
+          "name": "song.ogg",
+          "sha256": "42b5001a59ebfe1df310bb56732e3cbbff37ada85f1606e53ed4112dee43c6c7"
+        }
+      ],
+      "archive_sha256": "65b032eefd12c5bb1af3b956d09b02c277da22f414af048d286ef4d52e90bdc9",
+      "archive_bytes": 5763072,
+      "prepared_bytes": 5189902,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Evanescence",
+      "title": "Sweet Sacrifice",
+      "file_id": "5b947dbda91929.72503425",
+      "source_url": "https://rhythmverse.co/songfile/5b947dbda91929.72503425",
+      "download_url": "https://www.mediafire.com/file/s5igy1y83rpdf1a/evswtsac1x_rb3con",
+      "archive_format": "onyx",
+      "folder": "Evanescence - Sweet Sacrifice [5b947dbd]",
+      "charter": "diogoblader",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1112,
+          "kick_note_on_count": 337,
+          "tom_marker_count": 56,
+          "last_expert_onset_seconds": 182.897,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b947dbda91929.72503425",
+        "artist": "Evanescence",
+        "title": "Sweet Sacrifice",
+        "album": "",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b947dbda91929.72503425",
+        "download_url": "http://www.mediafire.com/file/s5igy1y83rpdf1a/evswtsac1x_rb3con",
+        "duration_seconds": 182.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "diogoblader",
+        "notes": "<p>Guitar and Bass chart : my brother<br />\nDrums and Harmonies: Raphaelgoulart<br />\nVocal and Harmonies: Ruggy<br />\n&#160;<br />\nEnjoy!<br />\n&#160;</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Evanescence - Sweet Sacrifice/album.png",
+          "name": "album.png",
+          "sha256": "d74b49eff70b26fba5208524ffef053a471bef15900fbe54837ec9cff95a362a"
+        },
+        {
+          "archive_name": "Evanescence - Sweet Sacrifice/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3749eaff86e9d7ea3ccb602cd54a10dcf2b7e1b7ae2002bf0979491a3b12f621"
+        },
+        {
+          "archive_name": "Evanescence - Sweet Sacrifice/song.ini",
+          "name": "song.ini",
+          "sha256": "e2710ec2bd08b96d53e1c5d170cac39471771850a237d365292f42a029b92c16"
+        },
+        {
+          "archive_name": "Evanescence - Sweet Sacrifice/song.ogg",
+          "name": "song.ogg",
+          "sha256": "fbf2d169a2de0856e862f54a8389a2f0d78045972df7463b37d8aedb1a4fa58e"
+        }
+      ],
+      "archive_sha256": "b29920cdb121b4f0dd4ba132da8413b0c9b41458753ae31e59d02f8aea02d51a",
+      "archive_bytes": 4587520,
+      "prepared_bytes": 3644506,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Evanescence",
+      "title": "Tourniquet",
+      "file_id": "c9613cee236f419d835aa82634905ed6",
+      "source_url": "https://rhythmverse.co/songfile/c9613cee236f419d835aa82634905ed6",
+      "download_url": "https://rhythmverse.co/download_file/marcos-elme-ghoul-travezano/c9613cee236f419d835aa82634905ed6/evanescence_tourniquet_rb3con",
+      "archive_format": "onyx",
+      "folder": "Evanescence - Tourniquet [c9613cee]",
+      "charter": "Marcocopter07, smash252",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1365,
+          "kick_note_on_count": 475,
+          "tom_marker_count": 10,
+          "last_expert_onset_seconds": 229.956,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c9613cee236f419d835aa82634905ed6",
+        "artist": "Evanescence",
+        "title": "Tourniquet",
+        "album": "Fallen",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/c9613cee236f419d835aa82634905ed6",
+        "download_url": "https://rhythmverse.co/download_file/marcos-elme-ghoul-travezano/c9613cee236f419d835aa82634905ed6/evanescence_tourniquet_rb3con",
+        "duration_seconds": 281.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Marcocopter07",
+        "notes": "-Some of the file names were clashing with other songs from Milohax’s DLC pack, so I renamed them to avoid any issues",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Evanescence - Tourniquet/album.png",
+          "name": "album.png",
+          "sha256": "8d2b40ff4fa8f73164799b48b8762abcb8388778c0694f93e201c18581afcff1"
+        },
+        {
+          "archive_name": "Evanescence - Tourniquet/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "44466ef7e8863b293c904384c963e7c67b4a56b5ff5ca5a165aedd67241e52fb"
+        },
+        {
+          "archive_name": "Evanescence - Tourniquet/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "adec00e10ab5cef8a78c09b9d81cd21566dfed7be4115f01dec0250e69b43307"
+        },
+        {
+          "archive_name": "Evanescence - Tourniquet/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "bef83719ef8ba05b1c18336862c20227e66048d6c751ee31c4615b0c2b6bf827"
+        },
+        {
+          "archive_name": "Evanescence - Tourniquet/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b48939cc9bf4cd0a21dfd0dbf7f860a6890d14cdb79bae6ee499a37efa379738"
+        },
+        {
+          "archive_name": "Evanescence - Tourniquet/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "8c9b55be1c4409eaa710b7dbfb5bac9c36c87a12dabb61147c35d3d20601e428"
+        },
+        {
+          "archive_name": "Evanescence - Tourniquet/song.ini",
+          "name": "song.ini",
+          "sha256": "9bc879cccab7e4aaa32c96c208cabf1af07d8ee2a412b5157ffc443664e090b3"
+        },
+        {
+          "archive_name": "Evanescence - Tourniquet/song.ogg",
+          "name": "song.ogg",
+          "sha256": "75713a1d4b98c427418b6ee4ad35f13ddf4f5bf843e7acf3d2eb2335804390ba"
+        },
+        {
+          "archive_name": "Evanescence - Tourniquet/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "98a3342a4fa813c2d429d1577281d582b3a56a5bef428980bbaebee5a17c6d8b"
+        }
+      ],
+      "archive_sha256": "6f1a36ad675acea42945ef6b9d2e9cc8f72a60493a5af2de9aa0da8bb3c38ceb",
+      "archive_bytes": 22839296,
+      "prepared_bytes": 23423462,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Limp Bizkit",
+      "title": "Break Stuff",
+      "file_id": "5d0074e703ad30.49532352",
+      "source_url": "https://rhythmverse.co/songfile/5d0074e703ad30.49532352",
+      "download_url": "https://rhythmverse.co/download_file/chainsaw-octopus/5d0074e703ad30.49532352/breakstuffv1_rb3con",
+      "archive_format": "onyx",
+      "folder": "Limp Bizkit - Break Stuff [5d0074e7]",
+      "charter": "Chainsaw Octopus",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1140,
+          "kick_note_on_count": 298,
+          "tom_marker_count": 8,
+          "last_expert_onset_seconds": 168.413,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5d0074e703ad30.49532352",
+        "artist": "Limp Bizkit",
+        "title": "Break Stuff",
+        "album": "Significant Other",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5d0074e703ad30.49532352",
+        "download_url": "https://rhythmverse.co/download_file/chainsaw-octopus/5d0074e703ad30.49532352/breakstuffv1_rb3con",
+        "duration_seconds": 177.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Chainsaw Octopus",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Limp Bizkit - Break Stuff/album.png",
+          "name": "album.png",
+          "sha256": "f7314730ebae225083da5c3d91abef9250e3e52a05a781c6c88fa768870c6bb2"
+        },
+        {
+          "archive_name": "Limp Bizkit - Break Stuff/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9d66bd6253534ac445eb11696ea77049b988b976a0a7a18f421fe43fcf6258cd"
+        },
+        {
+          "archive_name": "Limp Bizkit - Break Stuff/song.ini",
+          "name": "song.ini",
+          "sha256": "1a25729fe11ecf5be6b6ff7006f7e30ea41b339ed3e1bd02ae47c4310c00e32f"
+        },
+        {
+          "archive_name": "Limp Bizkit - Break Stuff/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ed9edcaa0a92e9e323d360c392d62621b9b30910b77c625b8cbc3a9c6a0a2077"
+        }
+      ],
+      "archive_sha256": "94ca04151f6609cb6ef5287084748f04748a76fb70d2c35d71442bd5a245a578",
+      "archive_bytes": 4169728,
+      "prepared_bytes": 3530548,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Limp Bizkit",
+      "title": "My Way",
+      "file_id": "590173dcf4754fa7b772bf07f1de7e59",
+      "source_url": "https://rhythmverse.co/songfile/590173dcf4754fa7b772bf07f1de7e59",
+      "download_url": "https://rhythmverse.co/download_file/daniel-lugo/590173dcf4754fa7b772bf07f1de7e59/Limp%20Bizkit%20-%20My%20Way.zip",
+      "archive_format": "zip",
+      "folder": "Limp Bizkit - My Way [590173dc]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1375,
+          "kick_note_on_count": 375,
+          "tom_marker_count": 78,
+          "last_expert_onset_seconds": 242.708,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 8,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "590173dcf4754fa7b772bf07f1de7e59",
+        "artist": "Limp Bizkit",
+        "title": "My Way",
+        "album": "Chocolate Starfish and the Hot Dog Flavored Water",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/590173dcf4754fa7b772bf07f1de7e59",
+        "download_url": "https://rhythmverse.co/download_file/daniel-lugo/590173dcf4754fa7b772bf07f1de7e59/Limp Bizkit - My Way.zip",
+        "duration_seconds": 269.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nickmein",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Limp Bizkit - My Way/album.png",
+          "name": "album.png",
+          "sha256": "89f9405c10311602ebc5ac1384b1c75e90a2431cc9dec0444fec4a99e809444c"
+        },
+        {
+          "archive_name": "Limp Bizkit - My Way/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "463172ac953f3d9e31d08532ef90563f48f3a1f752859d6a2bfbd48255ac4f46"
+        },
+        {
+          "archive_name": "Limp Bizkit - My Way/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "9a5bb552715304bb9ef055a4d072c08b3ab823d0c9828f0d9fed3a4a4e0c7ecc"
+        },
+        {
+          "archive_name": "Limp Bizkit - My Way/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "d3588d49b9b7163d02f0bc2b58fb4c80547172dbd9b7c2f322cb5422c3661f33"
+        },
+        {
+          "archive_name": "Limp Bizkit - My Way/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "e6bf0aec6babc78766c83a0229be0806c62384b9f8dd6c46f84ff0e004512223"
+        },
+        {
+          "archive_name": "Limp Bizkit - My Way/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "f8ae2c6cd8488f2131a34cd814ff8a997d8793e90b5ed1e0ce300eb1d2f77517"
+        },
+        {
+          "archive_name": "Limp Bizkit - My Way/notes.mid",
+          "name": "notes.mid",
+          "sha256": "11fba229524b649dcadcefede9a0bd284a5381a2f6e6808d3a74635133bd9a91"
+        },
+        {
+          "archive_name": "Limp Bizkit - My Way/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "72ed70051fd5c4d1fe26f885bb4c19460a5e2c5d9e2b60f6bca0e41f1c76dcc9"
+        },
+        {
+          "archive_name": "Limp Bizkit - My Way/song.ini",
+          "name": "song.ini",
+          "sha256": "f41ca65e4b53992429ff2be87d561cedc0a1b4901416bd4ef645814508c71533"
+        },
+        {
+          "archive_name": "Limp Bizkit - My Way/song.ogg",
+          "name": "song.ogg",
+          "sha256": "94ce3a5662070370ac1c2973eae8326af4af0403405a17b39c210da6b70ca8b2"
+        },
+        {
+          "archive_name": "Limp Bizkit - My Way/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "9f7a0e27137f65524bffb05c9366198a7e07c143eeba6e8f3661504842b0704c"
+        }
+      ],
+      "archive_sha256": "c8cd1dcf08cabf149819f3a841248eb7f354dd29c3d42ed483ff07ace0e339f2",
+      "archive_bytes": 39193604,
+      "prepared_bytes": 39568896,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "P.O.D.",
+      "title": "Satellite",
+      "file_id": "5929741fef7c00.14068061",
+      "source_url": "https://rhythmverse.co/songfile/5929741fef7c00.14068061",
+      "download_url": "https://rhythmverse.co/download_file/beard216/5929741fef7c00.14068061/Satellite_rb3con",
+      "archive_format": "onyx",
+      "folder": "P.O.D. - Satellite [5929741f]",
+      "charter": "Unknown",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1630,
+          "kick_note_on_count": 397,
+          "tom_marker_count": 107,
+          "last_expert_onset_seconds": 206.365,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5929741fef7c00.14068061",
+        "artist": "P.O.D.",
+        "title": "Satellite",
+        "album": "Satellite",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5929741fef7c00.14068061",
+        "download_url": "https://rhythmverse.co/download_file/beard216/5929741fef7c00.14068061/Satellite_rb3con",
+        "duration_seconds": 215.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "beard216",
+        "notes": "<p>Frets: Avarice<br />\nReductions: beard216</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "P.O.D. - Satellite/album.png",
+          "name": "album.png",
+          "sha256": "e60573015af0ace7751fc8b1586c2ee8ace8d9425c835f8981dd15474f346f9e"
+        },
+        {
+          "archive_name": "P.O.D. - Satellite/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "d9568d522438675a9c94dfab57ad2ac0c68c2f6baeafe9573fc9ebe6f6a9f78b"
+        },
+        {
+          "archive_name": "P.O.D. - Satellite/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d9568d522438675a9c94dfab57ad2ac0c68c2f6baeafe9573fc9ebe6f6a9f78b"
+        },
+        {
+          "archive_name": "P.O.D. - Satellite/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0f2b1f32cdbd6abae4bb28b967144bcc661bb68128a18119729dab1a56b9bdbc"
+        },
+        {
+          "archive_name": "P.O.D. - Satellite/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "b390a7349e25e104a8a78b030f9ef6a74812bd3ee28e363c9ae5b1e594cc10f0"
+        },
+        {
+          "archive_name": "P.O.D. - Satellite/song.ini",
+          "name": "song.ini",
+          "sha256": "cec2c6ae956f09014c42dc6b10791f2f774a67914ea97a8a6ad9139dddffe482"
+        },
+        {
+          "archive_name": "P.O.D. - Satellite/song.ogg",
+          "name": "song.ogg",
+          "sha256": "78e78ae8b037d0be149e1f3c16d57f440cb56a9678dad7053feeb099b7d9e828"
+        },
+        {
+          "archive_name": "P.O.D. - Satellite/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "d9568d522438675a9c94dfab57ad2ac0c68c2f6baeafe9573fc9ebe6f6a9f78b"
+        }
+      ],
+      "archive_sha256": "250f8f77b63b2b4cbe7b71fa4ff5ab41228ae69fa4b778b8cfa9ac2967c138cb",
+      "archive_bytes": 4464640,
+      "prepared_bytes": 4965357,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "P.O.D.",
+      "title": "Sleeping Awake",
+      "file_id": "5e9c0cfc6fd3a5.86629124",
+      "source_url": "https://rhythmverse.co/songfile/5e9c0cfc6fd3a5.86629124",
+      "download_url": "https://rhythmverse.co/download_file/chainsaw-octopus/5e9c0cfc6fd3a5.86629124/sleepingawakev1_rb3con",
+      "archive_format": "onyx",
+      "folder": "P.O.D. - Sleeping Awake [5e9c0cfc]",
+      "charter": "Chainsaw Octopus",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1220,
+          "kick_note_on_count": 342,
+          "tom_marker_count": 102,
+          "last_expert_onset_seconds": 201.7,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5e9c0cfc6fd3a5.86629124",
+        "artist": "P.O.D.",
+        "title": "Sleeping Awake",
+        "album": "The Matrix Reloaded: The Album",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5e9c0cfc6fd3a5.86629124",
+        "download_url": "https://rhythmverse.co/download_file/chainsaw-octopus/5e9c0cfc6fd3a5.86629124/sleepingawakev1_rb3con",
+        "duration_seconds": 209.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Chainsaw Octopus",
+        "notes": "<p>Version 1 (2020.04.19)<br />\n&#8226; Vocals/harmonies charted by Atruejedi</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "P.O.D. - Sleeping Awake/album.png",
+          "name": "album.png",
+          "sha256": "5e84adeff1d1bb9e58402b867f03cc0f8d5a5435c89c6b4ce4b67bfc9b3fc122"
+        },
+        {
+          "archive_name": "P.O.D. - Sleeping Awake/notes.mid",
+          "name": "notes.mid",
+          "sha256": "794d5cf106d893a233823e920eefdba5fb38297095e3b3e0f0ff1c56061772d2"
+        },
+        {
+          "archive_name": "P.O.D. - Sleeping Awake/song.ini",
+          "name": "song.ini",
+          "sha256": "b53aa52c554e0710b7bca2a3f6d36232db37e297e68da202e6c87ac6be08d0d3"
+        },
+        {
+          "archive_name": "P.O.D. - Sleeping Awake/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1e5d9b506adfbd3e993ad1510636ac1dd1017ef1f2bb413caa0a132f74340111"
+        }
+      ],
+      "archive_sha256": "1dc310bb13dedf14eee8404c29ef6ad02220aafb7fc3dcf6c060a3bba0576361",
+      "archive_bytes": 5058560,
+      "prepared_bytes": 4642311,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "P.O.D.",
+      "title": "Southtown",
+      "file_id": "7f38ca6feeb244ae8f1dcadddba79e6c",
+      "source_url": "https://rhythmverse.co/songfile/7f38ca6feeb244ae8f1dcadddba79e6c",
+      "download_url": "https://rhythmverse.co/download_file/biggucci/7f38ca6feeb244ae8f1dcadddba79e6c/P.O.D%20-%20Southtown",
+      "archive_format": "onyx",
+      "folder": "P.O.D. - Southtown [7f38ca6f]",
+      "charter": "Big Gucci",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1443,
+          "kick_note_on_count": 517,
+          "tom_marker_count": 120,
+          "last_expert_onset_seconds": 249.322,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7f38ca6feeb244ae8f1dcadddba79e6c",
+        "artist": "P.O.D.",
+        "title": "Southtown",
+        "album": "The Fundamental Elements of Southtown",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/7f38ca6feeb244ae8f1dcadddba79e6c",
+        "download_url": "https://rhythmverse.co/download_file/biggucci/7f38ca6feeb244ae8f1dcadddba79e6c/P.O.D - Southtown",
+        "duration_seconds": 253.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "BigGucci",
+        "notes": "GH5 DLC converted to RB3. Original conversation by garba84 had the drums under charted. I corrected that and made a new venue.\r\n\r\n\r\n\r\n\r\nLmk if there are any issues",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "P.O.D. - Southtown/album.png",
+          "name": "album.png",
+          "sha256": "34c5e10ab534881dd66e0dd99ba4aa8167e27f3ed3e4cbbd2a06fb703158075d"
+        },
+        {
+          "archive_name": "P.O.D. - Southtown/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "4e3af9f74b3be1f8737df9fd199201cfd33d1cd5ec0078aae274382829577531"
+        },
+        {
+          "archive_name": "P.O.D. - Southtown/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "968ae075207d0ad7cd481288f57bdcbb09c857f4b199dbc23d81b2817875db39"
+        },
+        {
+          "archive_name": "P.O.D. - Southtown/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "e0456b2c80e9118cb2cf8fdab804aa2ca70999b5143c9072c0e3424ac0e22708"
+        },
+        {
+          "archive_name": "P.O.D. - Southtown/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "9a66976ae3747be62659dad435af5e69b5459554ff16ae946aee5b64c4a8a2d2"
+        },
+        {
+          "archive_name": "P.O.D. - Southtown/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0342ad19a86de85aa0d3971986677d248f749d63b6b0d19cb03309dee4467f36"
+        },
+        {
+          "archive_name": "P.O.D. - Southtown/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "52c7d3d50c8658e6313e450112408db9eba84eb452de1c6eeadc0e1640608be7"
+        },
+        {
+          "archive_name": "P.O.D. - Southtown/song.ini",
+          "name": "song.ini",
+          "sha256": "675db1e7c81e26e4f1a688dac579c23de67e381b10a766aa66d8e5a0a8610264"
+        },
+        {
+          "archive_name": "P.O.D. - Southtown/song.ogg",
+          "name": "song.ogg",
+          "sha256": "76304b16ae702d743c3d51258743ce1c36031bf77bd830bea5d23efaad174a3e"
+        },
+        {
+          "archive_name": "P.O.D. - Southtown/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "003976727ee364a020e11553aea41133fc5acff72a6e2cd2b2761bf9fad8e0b3"
+        }
+      ],
+      "archive_sha256": "4249849701964a9f23f6feeaf72b198de365a664c940285be158671300a7e436",
+      "archive_bytes": 29302784,
+      "prepared_bytes": 24532228,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Papa Roach",
+      "title": "Getting Away with Murder",
+      "file_id": "59297159e47e71.74208988",
+      "source_url": "https://rhythmverse.co/songfile/59297159e47e71.74208988",
+      "download_url": "https://rhythmverse.co/download_file/colonel-32dll/59297159e47e71.74208988/Papa%20Roach%20gettingawaywith",
+      "archive_format": "onyx",
+      "folder": "Papa Roach - Getting Away with Murder [59297159]",
+      "charter": "Colonel 32dll, Drums by CrazyCanuck",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1380,
+          "kick_note_on_count": 380,
+          "tom_marker_count": 101,
+          "last_expert_onset_seconds": 193.522,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59297159e47e71.74208988",
+        "artist": "Papa Roach",
+        "title": "Getting Away with Murder",
+        "album": "Getting Away with Murder",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59297159e47e71.74208988",
+        "download_url": "https://rhythmverse.co/download_file/colonel-32dll/59297159e47e71.74208988/Papa Roach gettingawaywith",
+        "duration_seconds": 192.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": null,
+        "notes": "<p>Drums authored by DenVaktare</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Papa Roach - Getting Away with Murder/album.png",
+          "name": "album.png",
+          "sha256": "c00a5b71bc5153633b8c9c546f94d6f050cd205daa092efe42611381d0f3eede"
+        },
+        {
+          "archive_name": "Papa Roach - Getting Away with Murder/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b70f869ce83cec1bf6fe3abe6850cc1bd8baf03a007d510dae1653693f9404da"
+        },
+        {
+          "archive_name": "Papa Roach - Getting Away with Murder/song.ini",
+          "name": "song.ini",
+          "sha256": "9f1d323bc5391d3a37be741984c81d9b028d41d99dacce0c99bb1909d050a68c"
+        },
+        {
+          "archive_name": "Papa Roach - Getting Away with Murder/song.ogg",
+          "name": "song.ogg",
+          "sha256": "e1b46bc1ef05cb8fce005b0c91ec008e8a248a6721d7d39a467797ad32d36443"
+        }
+      ],
+      "archive_sha256": "6f642a40b5d8f8be713039d6dbeaf5387878fcdae702e2eecaefdb0d0083856b",
+      "archive_bytes": 4640768,
+      "prepared_bytes": 4300068,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Papa Roach",
+      "title": "Last Resort",
+      "file_id": "3343e8e29c8e4fdc967c01fd613f01f9",
+      "source_url": "https://rhythmverse.co/songfile/3343e8e29c8e4fdc967c01fd613f01f9",
+      "download_url": "https://drive.google.com/drive/u/0/folders/182ZRVH7nucY_bWA3Uf2gBwXmEFo1rNEP",
+      "archive_format": "files",
+      "folder": "Papa Roach - Last Resort [3343e8e2]",
+      "charter": "metalli3212",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1191,
+          "kick_note_on_count": 351,
+          "cymbal_marker_count": 445,
+          "last_expert_onset_seconds": 201.094,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3343e8e29c8e4fdc967c01fd613f01f9",
+        "artist": "Papa Roach",
+        "title": "Last Resort",
+        "album": "Infest",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/3343e8e29c8e4fdc967c01fd613f01f9",
+        "download_url": "https://drive.google.com/drive/u/0/folders/182ZRVH7nucY_bWA3Uf2gBwXmEFo1rNEP",
+        "duration_seconds": 204.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "metalli3212",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "8a35b8d5b3c09bb32b5d1ddc3d213d8865e123dba7756fbc4868a115ad95fb23",
+          "download_url": "https://drive.google.com/uc?export=download&id=1whbR4EHQrj_hfUC_8HBSUcJ1Loe9MiJb",
+          "source_sha256": "8a35b8d5b3c09bb32b5d1ddc3d213d8865e123dba7756fbc4868a115ad95fb23",
+          "bytes": 56812
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "8279ca484f213d06a70a79e6285b4d2d94e1d635f0384aa02e08008175510c99",
+          "download_url": "https://drive.google.com/uc?export=download&id=1AecmoKDnmfoZl3ARN6oyct73BneN103X",
+          "source_sha256": "8279ca484f213d06a70a79e6285b4d2d94e1d635f0384aa02e08008175510c99",
+          "bytes": 307918
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "eb44706c3dd1c932edec50cdde847dc31645bf9b27a685aa0826096007daad56",
+          "download_url": "https://drive.google.com/uc?export=download&id=1nOr_h5_rgq1RcvT_hBAx8l6UdeZQTlAe",
+          "source_sha256": "eb44706c3dd1c932edec50cdde847dc31645bf9b27a685aa0826096007daad56",
+          "bytes": 5534526
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "7df8f150396f809fa0d559b705ffa5295cd6cf6ff1604a7cbdae36a93609d947",
+          "download_url": "https://drive.google.com/uc?export=download&id=1YMjl4th_r8EgL-0wV4YZPFT3RvxhQQ4f",
+          "source_sha256": "7df8f150396f809fa0d559b705ffa5295cd6cf6ff1604a7cbdae36a93609d947",
+          "bytes": 92495
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "89aba07792c698cd8910ffe7c407f53897b3ee47a9feb872aa7b97774ba6ccf1",
+          "download_url": "https://drive.google.com/uc?export=download&id=1bM2YN_gKMNl3LHWH4-nv1GbL4flw_UpP",
+          "source_sha256": "89aba07792c698cd8910ffe7c407f53897b3ee47a9feb872aa7b97774ba6ccf1",
+          "bytes": 593
+        }
+      ],
+      "prepared_bytes": 5992344,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Papa Roach",
+      "title": "Scars",
+      "file_id": "6319750636fb42.87708884",
+      "source_url": "https://rhythmverse.co/songfile/6319750636fb42.87708884",
+      "download_url": "https://rhythmverse.co/download_file/underoath628/6319750636fb42.87708884/Papa%20Roach%20%20-%20Scars%20v2",
+      "archive_format": "onyx",
+      "folder": "Papa Roach - Scars [63197506]",
+      "charter": "U628",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1043,
+          "kick_note_on_count": 321,
+          "tom_marker_count": 45,
+          "last_expert_onset_seconds": 208.283,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6319750636fb42.87708884",
+        "artist": "Papa Roach",
+        "title": "Scars",
+        "album": "Getting Away With Murder",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6319750636fb42.87708884",
+        "download_url": "https://rhythmverse.co/download_file/underoath628/6319750636fb42.87708884/Papa Roach  - Scars v2",
+        "duration_seconds": 213.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": "",
+        "uploader": "Underoath628",
+        "notes": "2/26/24 UPDATE: There has been multiple updates to the chart.\r\n- Major Drum chart fixes and some minor gtr and bass tweaks\r\n- New Tempo Map\r\n- New Venue\r\n- Higher quality album cover\r\n- Last but not least, Harmonies have finally been added :D\r\n\r\nTHIS IS AN RB2con, Includes Harmonies and Pro Drums for RB3 :)\r\n",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Papa Roach - Scars/album.png",
+          "name": "album.png",
+          "sha256": "f7153624a13dead05888b23ebbb0a7bd78f697e5646bd7e4aca22f745f03d940"
+        },
+        {
+          "archive_name": "Papa Roach - Scars/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "0306ff98272b5caf577ef80833d4d5c2aaa647c51ef638035ff81038aea5bc3d"
+        },
+        {
+          "archive_name": "Papa Roach - Scars/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "be932ada99ca9b17b6ae57f1d031a5cb5a774b4c36aa60a4cb487b0da0c58b69"
+        },
+        {
+          "archive_name": "Papa Roach - Scars/notes.mid",
+          "name": "notes.mid",
+          "sha256": "99617a7a94166d97dbbeb53a9caf54466d52545061cb29b1655028caeeb402ab"
+        },
+        {
+          "archive_name": "Papa Roach - Scars/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "c97f2bc4724eba98261b41576299358b55f904bb10eb1eafcc8eb4c006522c5c"
+        },
+        {
+          "archive_name": "Papa Roach - Scars/song.ini",
+          "name": "song.ini",
+          "sha256": "f8192cd2d7af3b593105c9031c380bac8b1f855a765a3f8c7e026392a7d0899a"
+        },
+        {
+          "archive_name": "Papa Roach - Scars/song.ogg",
+          "name": "song.ogg",
+          "sha256": "52b34d04b06abda00f340e8fed89dfa04f7e09acb57b4a6f96ea10a98f044efb"
+        },
+        {
+          "archive_name": "Papa Roach - Scars/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "04fa6c4a52328e296cba4f998cd9a253405bf16ada7956dc00306f5f1d573dd3"
+        }
+      ],
+      "archive_sha256": "b319992a0f7d6e76a2d008591fb71d8e6a4855e54c334d24c59cda7f8c2c1231",
+      "archive_bytes": 15659008,
+      "prepared_bytes": 15469245,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Three Days Grace",
+      "title": "I Hate Everything About You",
+      "file_id": "2a055b02c530423a8b725522fad30a5b",
+      "source_url": "https://rhythmverse.co/songfile/2a055b02c530423a8b725522fad30a5b",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1uFAd0-TrR-32maGQ4OyI8LbQbHVhdOeP",
+      "archive_format": "files",
+      "folder": "Three Days Grace - I Hate Everything About You [2a055b02]",
+      "charter": "Harmonix (FB), Yhughu (6 Fret)",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1266,
+          "kick_note_on_count": 496,
+          "tom_marker_count": 70,
+          "last_expert_onset_seconds": 225.028,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "2a055b02c530423a8b725522fad30a5b",
+        "artist": "Three Days Grace",
+        "title": "I Hate Everything About You",
+        "album": "Three Days Grace",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/2a055b02c530423a8b725522fad30a5b",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1uFAd0-TrR-32maGQ4OyI8LbQbHVhdOeP",
+        "duration_seconds": 235.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Harmonix (FB), Yhughu (6 Fret)",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "f942557a5683968febb22e9e15b3906dd10f76a90a357f5e318fe73e10d144d9",
+          "download_url": "https://drive.google.com/uc?export=download&id=16szPzUu_JxD2nNP_NtFWb3fyTx_xb1XA",
+          "source_sha256": "f942557a5683968febb22e9e15b3906dd10f76a90a357f5e318fe73e10d144d9",
+          "bytes": 51738
+        },
+        {
+          "archive_name": "drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "00680992852b9a7595991d50b0b1027e780a8d2db2164786e11b2c231055a0a0",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Qcm6BNLGIY0oLj6zvEo2kPVx0q7Kmv5P",
+          "source_sha256": "00680992852b9a7595991d50b0b1027e780a8d2db2164786e11b2c231055a0a0",
+          "bytes": 2470119
+        },
+        {
+          "archive_name": "drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "3ec4b13765477260436ff75bd23e45a8f6ca90f3b60dbc2e2d7401cfd2ab06f7",
+          "download_url": "https://drive.google.com/uc?export=download&id=1QPWn0y76VUgRbVxpGNsUkCwElHRb5slE",
+          "source_sha256": "3ec4b13765477260436ff75bd23e45a8f6ca90f3b60dbc2e2d7401cfd2ab06f7",
+          "bytes": 5173964
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "9f9986543550034f2006d7ac823c544a80156c57bcca242bd1ab80ee9b356d18",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Wi9tiI_TSKhqre25JOUSAYLbUu_rxtA6",
+          "source_sha256": "9f9986543550034f2006d7ac823c544a80156c57bcca242bd1ab80ee9b356d18",
+          "bytes": 5175575
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "b412ee5783b4cae446a25fa82618af15346a78528f6b322708eecf631d1d3ab9",
+          "download_url": "https://drive.google.com/uc?export=download&id=1o8MJ3T1sXhoQmd6E31RIPd9e8dWCzUEg",
+          "source_sha256": "b412ee5783b4cae446a25fa82618af15346a78528f6b322708eecf631d1d3ab9",
+          "bytes": 71210
+        },
+        {
+          "archive_name": "rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "0650cb30c9666ce2111095d2dbebb3217af0a6fbc453ca34923473b4035b5696",
+          "download_url": "https://drive.google.com/uc?export=download&id=1CvPPWi4Y_HenINcJW_xE04xM_Zv-meCq",
+          "source_sha256": "0650cb30c9666ce2111095d2dbebb3217af0a6fbc453ca34923473b4035b5696",
+          "bytes": 2390119
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "35befc63ceb9e9117cf7c421ad5af5f757b0653d7c422af9f58225099acb55e6",
+          "download_url": "https://drive.google.com/uc?export=download&id=1bhQYPCEA0ez76FCV2RI_cLyWpKDaXk5h",
+          "source_sha256": "35befc63ceb9e9117cf7c421ad5af5f757b0653d7c422af9f58225099acb55e6",
+          "bytes": 901
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "281e8f31dff9f89d269d5a3cf3c0f5a13db6090582d5670a190ef7af33f1aa5e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1P2hVsZqlQnpoZLAFhCO2i-0NnC4lG08S",
+          "source_sha256": "281e8f31dff9f89d269d5a3cf3c0f5a13db6090582d5670a190ef7af33f1aa5e",
+          "bytes": 5045209
+        }
+      ],
+      "prepared_bytes": 20378835,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Three Days Grace",
+      "title": "Never Too Late",
+      "file_id": "a7fd77d5c5c645e58aae48b3f815ce01",
+      "source_url": "https://rhythmverse.co/songfile/a7fd77d5c5c645e58aae48b3f815ce01",
+      "download_url": "https://rhythmverse.co/download_file/brandon-satina/a7fd77d5c5c645e58aae48b3f815ce01/Three%20Days%20Grace%20-%20Never%20Too%20Late_rb3con",
+      "archive_format": "onyx",
+      "folder": "Three Days Grace - Never Too Late [a7fd77d5]",
+      "charter": "Harmonix, Rhythm Authors",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 845,
+          "kick_note_on_count": 220,
+          "tom_marker_count": 23,
+          "last_expert_onset_seconds": 193.2,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a7fd77d5c5c645e58aae48b3f815ce01",
+        "artist": "Three Days Grace",
+        "title": "Never Too Late",
+        "album": "One-X",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/a7fd77d5c5c645e58aae48b3f815ce01",
+        "download_url": "https://rhythmverse.co/download_file/brandon-satina/a7fd77d5c5c645e58aae48b3f815ce01/Three Days Grace - Never Too Late_rb3con",
+        "duration_seconds": 213.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Brandon Satina",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Three Days Grace - Never Too Late/album.png",
+          "name": "album.png",
+          "sha256": "6962a180fb293aa52fd06637e779b5945bed7ecd74f0c33d41f1c109664cfedc"
+        },
+        {
+          "archive_name": "Three Days Grace - Never Too Late/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "b081dc4b0d0daf92190beaa5f105fb89e249c0a2fbac36835cfae3a17cecb7eb"
+        },
+        {
+          "archive_name": "Three Days Grace - Never Too Late/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "37cd19b13aad85c3420881152d3669089d428585fb5e116d30f9c546679ca105"
+        },
+        {
+          "archive_name": "Three Days Grace - Never Too Late/notes.mid",
+          "name": "notes.mid",
+          "sha256": "698d28a856b68d801cb6023fca98e5604cbb873a858be4ea73d06cfcd8b7326c"
+        },
+        {
+          "archive_name": "Three Days Grace - Never Too Late/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "e0f6bc7f75a004c19f6f9f3a51eb674c4438effe6e1086b8432e0ebcd80fd184"
+        },
+        {
+          "archive_name": "Three Days Grace - Never Too Late/song.ini",
+          "name": "song.ini",
+          "sha256": "07b57ac0622526fc5366441c08432ca27e84f911ae53e25fb608baa86060bf86"
+        },
+        {
+          "archive_name": "Three Days Grace - Never Too Late/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d172846477bfbfb7f3ae9786ea272733ee4690c6bc97eecd7a0cc4076142a370"
+        },
+        {
+          "archive_name": "Three Days Grace - Never Too Late/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "b11b1b273b02743a2e391134dd7290c1322f0b19833a362bc9e8bbdd9a7a887b"
+        }
+      ],
+      "archive_sha256": "23177771494cfba7250cdeae8c6740596f2a33abb1e7bd627f24a5e8f796eaa7",
+      "archive_bytes": 17899520,
+      "prepared_bytes": 17782018,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Three Days Grace",
+      "title": "Riot",
+      "file_id": "ef4ffadebd2545ac9d2aee2b32bdd570",
+      "source_url": "https://rhythmverse.co/songfile/ef4ffadebd2545ac9d2aee2b32bdd570",
+      "download_url": "https://rhythmverse.co/download_file/itscerulean/ef4ffadebd2545ac9d2aee2b32bdd570/Three%20Days%20Grace%20-%20Riot.zip",
+      "archive_format": "zip",
+      "folder": "Three Days Grace - Riot [ef4ffade]",
+      "charter": "<color=#5F55E7>C</color><color=#5C4FE7>e</color><color=#5A49E7>r</color><color=#5843E7>u</color><color=#563EE7>l</color><color=#5438E7>e</color><color=#5232E7>a</color><color=#502CE7>n</color>",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1040,
+          "kick_note_on_count": 361,
+          "tom_marker_count": 35,
+          "last_expert_onset_seconds": 190.531,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ef4ffadebd2545ac9d2aee2b32bdd570",
+        "artist": "Three Days Grace",
+        "title": "Riot",
+        "album": "One-X",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/ef4ffadebd2545ac9d2aee2b32bdd570",
+        "download_url": "https://rhythmverse.co/download_file/itscerulean/ef4ffadebd2545ac9d2aee2b32bdd570/Three Days Grace - Riot.zip",
+        "duration_seconds": 210.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "cerulean",
+        "notes": "If you'd like to commission a drum chart, head on over here for more info: https://ceruleanight.com/charting",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "7c4df1707d903e3e56215757cbe67324b0a412de6ffcec055761a190d94c472a"
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "e8708e0140be7019c412014ec8fef158eee2673f1a3500293c62e6ba2da9a7f1"
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "f1b32e91e0620d647fffc2bc78259dde85a34d3a548dd668c3c062255748b3eb"
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "0f66ba05b8dd91990c8b9b6910d8edf3fda1f78002282f79883c7c4ba6a2e0e1"
+        }
+      ],
+      "archive_sha256": "6eba20cefc9d58577fd967a3ea1257c54074eff51bde3a761e43804600853377",
+      "archive_bytes": 6840336,
+      "prepared_bytes": 6885929,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    }
+  ]
+}

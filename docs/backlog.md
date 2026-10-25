@@ -177,3 +177,13 @@ backend converted a synthetic two-second WAV to parseable MIDI on CPU in about
 4.6 seconds. Private-song quality, velocities/confidences and debug inspection
 remain open. An initial unpinned Linux resolution attempted CUDA packages; it was
 stopped and replaced with the explicit PyTorch 2.12.0 CPU index.
+
+## 2026-10-25 — Themed library batches
+
+The separate library workstream appended batches 13–18 with 45 structurally
+verified charts for LoL, Imagine Dragons and seven bands similar to Linkin Park.
+Old recipes, Qobuz coverage and Onyx conversion behavior remain unchanged.
+See [library-themed-verification.md](library-themed-verification.md) for evidence,
+[../song-library/TEMATICOS.md](../song-library/TEMATICOS.md) for selective Windows
+recovery/song lists and BACKLOG.md DCF-LIB-013 for authoritative task status.
+Native Windows execution and Scan Songs/playtest still require user feedback.

@@ -1,6 +1,10 @@
 # Biblioteca de músicas — MixDrumRock
 
-**Para baixar os 254 charts novos, use [CONTINUACAO.md](CONTINUACAO.md).** Para
+**45 charts novos nos lotes 13–18:** [TEMATICOS.md](TEMATICOS.md), com League of
+Legends, Imagine Dragons e sete bandas próximas de Linkin Park. A curadoria
+temática tem recuperação seletiva e não altera a cobertura da playlist Qobuz.
+
+**Para recuperar os 254 charts dos lotes 02–12, veja [CONTINUACAO.md](CONTINUACAO.md).** Para
 recuperar somente o piloto de 12, use [BAIXAR.md](BAIXAR.md). O baixador e
 a receita estão no GitHub; a pasta `data` é gerada localmente e não é versionada.
 Links de arquivos da máquina da nuvem não garantem disponibilidade após retomadas.
