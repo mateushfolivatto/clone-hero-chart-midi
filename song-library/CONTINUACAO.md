@@ -1,5 +1,13 @@
 # Baixar a continuação da MixDrumRock
 
+**Novos lotes temáticos 13–18:** [TEMATICOS.md](TEMATICOS.md) traz 45 charts
+adicionais de League of Legends, Imagine Dragons e bandas semelhantes a Linkin Park,
+sem repetir o piloto/lotes 02–12. Use o bloco dessa página para baixar somente
+os novos lotes. O comando geral abaixo agora percorre todos os lotes 02–18 e
+reaproveita os já conferidos. As receitas antigas e correções do Onyx foram mantidas.
+
+Os números a seguir descrevem a preparação anterior da playlist Qobuz:
+
 Foram preparados **254 charts novos em 11 lotes**: 246 Pro Drums nos lotes 02–11
 e oito Drums comuns no lote 12. O piloto de 12 músicas permanece separado.
 A playlist atual tem 744 entradas; as repetições compartilham um chart quando
@@ -11,6 +19,10 @@ Os downloads originais somam aproximadamente **3,7 GiB**. Reserve pelo menos
 **13 GB livres** para originais, pastas, ZIPs e conversão temporária. Os ZIPs finais
 somam aproximadamente 3,1 GiB. Alguns originais incluem vídeo/arquivos extras que
 ficam fora das pastas entregues ao jogo.
+
+Para executar o comando geral com **todos os lotes 02–18**, incluindo a curadoria
+temática, reserve **15 GB livres**. Para somente os novos lotes, TEMATICOS.md
+oferece o comando seletivo e recomenda 4 GB livres.
 
 Use a mesma pasta do piloto. As novas músicas ficam em `Songs\MixDrumRock - Lote XX`,
 com até 25 charts por lote. O piloto permanece na pasta dele. Cada lote também gera

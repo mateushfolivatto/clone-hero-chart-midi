@@ -284,6 +284,30 @@ See song-library/SEM-REPETIDAS.md. The user must assemble batches plus complemen
 in an empty library, retaining the old folder as backup. The user's actual local
 inventory, native Windows run and game acceptance remain pending.
 
+### Themed library additions — 2026-10-25
+
+The user requested new drum batches for League of Legends, Imagine Dragons and
+bands similar to Linkin Park. Batches 13–18 add 45 charts: 11 LoL/associated
+projects, 13 Imagine Dragons and three each from Papa Roach, Breaking Benjamin,
+Three Days Grace, Evanescence, P.O.D., Limp Bizkit and Bring Me the Horizon.
+There are 39 Pro Drums and six ordinary Drums, separated by theme and mode.
+The collection now has 311 charts including the unchanged 266 earlier songs.
+
+This is independent curation, not an updated Qobuz snapshot. The original
+744-entry coverage CSV and active playlist counts remain unchanged; new recipes
+have empty Qobuz/playlist ID lists, theme metadata and separate curated_* index
+totals. Compare future selections against all recipes by artist/title, source and
+chart/audio identity. Enemy appears only in the LoL theme; Heavy Is the Crown
+remains in batch 09. Previously published recipes and Onyx helper bytes remain
+unchanged. recover_pilot.py updates only its collection-index hash pin.
+
+See song-library/TEMATICOS.md for the selective Windows command, song lists and
+next-session prompt; docs/library-themed-verification.md records checks and
+limits. Six ZIPs, 244 assets and 107 decoded audio files passed structural/hash
+checks; fresh isolated ZIP/Drive/Onyx recovery and unchanged offline resume passed
+on Linux. Native Windows execution, game acceptance and the cause of prior Windows
+Onyx delays remain unverified. No ML or transcription scope was advanced.
+
 ## Do not do yet
 
 - GUI

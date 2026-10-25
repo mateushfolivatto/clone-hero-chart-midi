@@ -1,0 +1,691 @@
+{
+  "schema_version": 1,
+  "batch_number": 13,
+  "collection_folder": "MixDrumRock - Lote 13 - League of Legends",
+  "archive_name": "MixDrumRock-lote-13.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "lol",
+  "theme_label": "League of Legends",
+  "songs": [
+    {
+      "artist": "Imagine Dragons",
+      "title": "Enemy (feat. JID)",
+      "file_id": "62a040e4b09cb4.98383120",
+      "source_url": "https://rhythmverse.co/songfile/62a040e4b09cb4.98383120",
+      "download_url": "https://rhythmverse.co/download_file/theoreo/62a040e4b09cb4.98383120/ImagineDragonsEnemyV7_rb3con",
+      "archive_format": "onyx",
+      "folder": "Imagine Dragons - Enemy (feat. JID) [62a040e4]",
+      "charter": "TheOreo, ReaDeck",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 461,
+          "kick_note_on_count": 117,
+          "tom_marker_count": 15,
+          "last_expert_onset_seconds": 170.701,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "62a040e4b09cb4.98383120",
+        "artist": "Imagine Dragons",
+        "title": "Enemy (feat. JID)",
+        "album": "Enemy (Single)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/62a040e4b09cb4.98383120",
+        "download_url": "https://rhythmverse.co/download_file/theoreo/62a040e4b09cb4.98383120/ImagineDragonsEnemyV7_rb3con",
+        "duration_seconds": 179.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": "",
+        "uploader": "TheOreo",
+        "notes": "12/12/23 Update: Fixed some elements of the vocal chart and added ReaDeck's Venue chart he graciously made. Minor update. ",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - Enemy (feat. JID)/album.png",
+          "name": "album.png",
+          "sha256": "847052181f46f615373fa93433eb2edd62af51ae24dad4c01cea8007622e26a1"
+        },
+        {
+          "archive_name": "Imagine Dragons - Enemy (feat. JID)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c5a3d233a583aa05ac43077085a6ed25d82df713c306a7a95dd89f82e91a5075"
+        },
+        {
+          "archive_name": "Imagine Dragons - Enemy (feat. JID)/song.ini",
+          "name": "song.ini",
+          "sha256": "1cdbb2b7119b1be6f5e9da8b138f644bd0c285708cfa054886d729d1df8a0e6a"
+        },
+        {
+          "archive_name": "Imagine Dragons - Enemy (feat. JID)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d6ce5db04bc2746095f577c5f407de419b51326e157a33f896c1c674a8a25318"
+        }
+      ],
+      "archive_sha256": "7ad1a8d157681109824c69ecd35bc8f78cd3c1984dcbca765d53017c5ac59552",
+      "archive_bytes": 4214784,
+      "prepared_bytes": 3438001,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "K/DA",
+      "title": "PopStars (ft Madison Beer, (G)I-DLE, Jaira Burns)",
+      "file_id": "5d19402147d814.59493704",
+      "source_url": "https://rhythmverse.co/songfile/5d19402147d814.59493704",
+      "download_url": "https://rhythmverse.co/download_file/skydown/5d19402147d814.59493704/Sky_PopStars_Down",
+      "archive_format": "onyx",
+      "folder": "K_DA - PopStars (ft Madison Beer, (G)I-DLE, Jaira Burns) [5d194021]",
+      "charter": "SkyDown",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1216,
+          "kick_note_on_count": 264,
+          "tom_marker_count": 116,
+          "last_expert_onset_seconds": 190.228,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5d19402147d814.59493704",
+        "artist": "K/DA",
+        "title": "PopStars (ft Madison Beer, (G)I-DLE, Jaira Burns)",
+        "album": "Single",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5d19402147d814.59493704",
+        "download_url": "https://rhythmverse.co/download_file/skydown/5d19402147d814.59493704/Sky_PopStars_Down",
+        "duration_seconds": 197.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "SkyDown",
+        "notes": "<p>[background=rgb(248,249,250)]Update 07/13/19: Song ID fixed[/background]</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "K_DA - PopStars (ft Madison Beer, (G)I-DLE, Jaira Burns)/album.png",
+          "name": "album.png",
+          "sha256": "722aa3ba558114f93bdbe2da1feeebd4afc32892d6776395ecf3941236f97bd4"
+        },
+        {
+          "archive_name": "K_DA - PopStars (ft Madison Beer, (G)I-DLE, Jaira Burns)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9f7d8d8eff13ab8e58f8fbb5b7fa77b024d1ef13a35b785e1663134438fe88fc"
+        },
+        {
+          "archive_name": "K_DA - PopStars (ft Madison Beer, (G)I-DLE, Jaira Burns)/song.ini",
+          "name": "song.ini",
+          "sha256": "8b7f7c83cce87ac672129c926cfc69f044f164ff22c8c1124a8969d9fed6ed1f"
+        },
+        {
+          "archive_name": "K_DA - PopStars (ft Madison Beer, (G)I-DLE, Jaira Burns)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "4b91996ec6d27ff5f6fa1e1f35e2aea06e1cc41221cddd93eeecb204e8c117aa"
+        },
+        {
+          "archive_name": "K_DA - PopStars (ft Madison Beer, (G)I-DLE, Jaira Burns)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "bfb6e6f6e42d19670803731d177bf31e8df60426fd806476780658940f5b627a"
+        }
+      ],
+      "archive_sha256": "d01dfaa0610c277ebff3ec1d21369ee24a06025171304d43d37f29974dfa4af3",
+      "archive_bytes": 21307392,
+      "prepared_bytes": 7787967,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "League of Legends",
+      "title": "Legends Never Die",
+      "file_id": "60fdf1dd7b4fe2.37790080",
+      "source_url": "https://rhythmverse.co/songfile/60fdf1dd7b4fe2.37790080",
+      "download_url": "https://www.mediafire.com/file/y6058iox7q1ts4d/LegendsNeverDieMrMet_rb3con/file",
+      "archive_format": "onyx",
+      "folder": "League of Legends - Legends Never Die [60fdf1dd]",
+      "charter": "MrMet2087",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 905,
+          "kick_note_on_count": 263,
+          "tom_marker_count": 170,
+          "last_expert_onset_seconds": 209.704,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "60fdf1dd7b4fe2.37790080",
+        "artist": "League of Legends",
+        "title": "Legends Never Die",
+        "album": "League of Legends",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/60fdf1dd7b4fe2.37790080",
+        "download_url": "https://www.mediafire.com/file/y6058iox7q1ts4d/LegendsNeverDieMrMet_rb3con/file",
+        "duration_seconds": 243.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "mrmet2087",
+        "notes": "All instruments kinda mix and match what they follow to keep it fun. 3 part Harmonies are charted what's audible.",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "League of Legends - Legends Never Die/album.png",
+          "name": "album.png",
+          "sha256": "a87b94f372a3513fb3bcdabb3dc5d1b08befdea43290119f99ce1abecf24b679"
+        },
+        {
+          "archive_name": "League of Legends - Legends Never Die/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b0f5c91f25e5defba388957c35147e471db340f93d1d9ed02a1b28ad37e06bd4"
+        },
+        {
+          "archive_name": "League of Legends - Legends Never Die/song.ini",
+          "name": "song.ini",
+          "sha256": "e0414c3edd016e8b1c00a1888a2a3a35a484d09eedbbd6db7fe3a23464b7fe84"
+        },
+        {
+          "archive_name": "League of Legends - Legends Never Die/song.ogg",
+          "name": "song.ogg",
+          "sha256": "9f7ccb648a13a59d975255c48f4c2cff3c99a4908a00052a78250206f25652c6"
+        }
+      ],
+      "archive_sha256": "4477f295fe9219a0eb58412ae25f11e1cb3d7d4c9522247523de154f05af2966",
+      "archive_bytes": 4993024,
+      "prepared_bytes": 4106821,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "League of Legends, Cailin Russo, Chrissy Costanza",
+      "title": "Phoenix",
+      "file_id": "6207e0ccf336d5.91384748",
+      "source_url": "https://rhythmverse.co/songfile/6207e0ccf336d5.91384748",
+      "download_url": "https://rhythmverse.co/download_file/djkefo/6207e0ccf336d5.91384748/phoenix_LOL_DJ_kefo_rb3con",
+      "archive_format": "onyx",
+      "folder": "League of Legends, Cailin Russo, Chrissy Costanza - Phoenix [6207e0cc]",
+      "charter": "DJ_kefo",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 387,
+          "kick_note_on_count": 228,
+          "tom_marker_count": 103,
+          "last_expert_onset_seconds": 193.202,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6207e0ccf336d5.91384748",
+        "artist": "League of Legends, Cailin Russo, Chrissy Costanza",
+        "title": "Phoenix",
+        "album": "Phoenix",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6207e0ccf336d5.91384748",
+        "download_url": "https://rhythmverse.co/download_file/djkefo/6207e0ccf336d5.91384748/phoenix_LOL_DJ_kefo_rb3con",
+        "duration_seconds": 202.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "DJ_kefo",
+        "notes": "",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "League of Legends, Cailin Russo, Chrissy Costanza - Phoenix/album.png",
+          "name": "album.png",
+          "sha256": "6aefc1f3a567feecc7f1132ac5581ba9a5534670b1732b3dcb352cdca4e11020"
+        },
+        {
+          "archive_name": "League of Legends, Cailin Russo, Chrissy Costanza - Phoenix/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a23eb420a6e89de5fc0ffb103429540ff877498cb1d42e823c74c846b35d89b2"
+        },
+        {
+          "archive_name": "League of Legends, Cailin Russo, Chrissy Costanza - Phoenix/song.ini",
+          "name": "song.ini",
+          "sha256": "2058e45f84c93c3ea8ab0037502c5e20c3e116fb3289a9fc8ef498307b834bd4"
+        },
+        {
+          "archive_name": "League of Legends, Cailin Russo, Chrissy Costanza - Phoenix/song.ogg",
+          "name": "song.ogg",
+          "sha256": "362ac5777aa4c40c11da35346ba019086d2909d13d077ae661224da6ec176bee"
+        }
+      ],
+      "archive_sha256": "2a5d91377c5c59fd8225bfa620ea798e6e30f44b5440f0deadfd00cd34ce3364",
+      "archive_bytes": 4239360,
+      "prepared_bytes": 3738861,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Nicki Taylor",
+      "title": "Here Comes Vi",
+      "file_id": "592969df7b6fa1.79436843",
+      "source_url": "https://rhythmverse.co/songfile/592969df7b6fa1.79436843",
+      "download_url": "https://rhythmverse.co/download_file/sygenysis/592969df7b6fa1.79436843/HereComesVi_V1_rb3con",
+      "archive_format": "onyx",
+      "folder": "Nicki Taylor - Here Comes Vi [592969df]",
+      "charter": "Nunchuk & Sygenysis",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 923,
+          "kick_note_on_count": 272,
+          "tom_marker_count": 72,
+          "last_expert_onset_seconds": 157.819,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "592969df7b6fa1.79436843",
+        "artist": "Nicki Taylor",
+        "title": "Here Comes Vi",
+        "album": "League of Legends",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/592969df7b6fa1.79436843",
+        "download_url": "https://rhythmverse.co/download_file/sygenysis/592969df7b6fa1.79436843/HereComesVi_V1_rb3con",
+        "duration_seconds": 163.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sygenysis",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Nicki Taylor - Here Comes Vi/album.png",
+          "name": "album.png",
+          "sha256": "a314b91b9a6e614a699c6b8eeba8ec7a18923418e671d87c1ddba59f8a0eb291"
+        },
+        {
+          "archive_name": "Nicki Taylor - Here Comes Vi/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c35e1c53e54092eaf6b5690e035e0b8915641b5c667011ad2dc3adab75ecd0fd"
+        },
+        {
+          "archive_name": "Nicki Taylor - Here Comes Vi/song.ini",
+          "name": "song.ini",
+          "sha256": "f4067c4db790dda5bc3195a35b136c1883412239ad3b1fb038671b3c3c90e359"
+        },
+        {
+          "archive_name": "Nicki Taylor - Here Comes Vi/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ea0e46d8d04af486483d7d2ab17baad767866c21d77c259ca2b6fe129f4219e2"
+        }
+      ],
+      "archive_sha256": "2bd5b04e203fa3416b91d5a4f0b3409022cba0900bc0a7ce4f3a4d5acd660970",
+      "archive_bytes": 4173824,
+      "prepared_bytes": 3463618,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Pentakill",
+      "title": "Lightbringer",
+      "file_id": "dc6f182707ec454c8fbedb686cabdf04",
+      "source_url": "https://rhythmverse.co/songfile/dc6f182707ec454c8fbedb686cabdf04",
+      "download_url": "https://drive.google.com/drive/u/0/folders/15GA51CeUQddg8lWDrt84vUdYNxbNLaM5",
+      "archive_format": "files",
+      "folder": "Pentakill - Lightbringer [dc6f1827]",
+      "charter": "Hubbubble",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1749,
+          "kick_note_on_count": 502,
+          "tom_marker_count": 233,
+          "last_expert_onset_seconds": 289.5,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "dc6f182707ec454c8fbedb686cabdf04",
+        "artist": "Pentakill",
+        "title": "Lightbringer",
+        "album": "Smite and Ignite",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/dc6f182707ec454c8fbedb686cabdf04",
+        "download_url": "https://drive.google.com/drive/u/0/folders/15GA51CeUQddg8lWDrt84vUdYNxbNLaM5",
+        "duration_seconds": 298.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Hubbubble",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "24913b6ecfcf90307349ebcc3f378c3ab70df3702b7218d7f359eb65e19a8183",
+          "download_url": "https://drive.google.com/uc?export=download&id=1-Mrbxie_dEf_fE-wIn29RqlZZaDVuGbX",
+          "source_sha256": "24913b6ecfcf90307349ebcc3f378c3ab70df3702b7218d7f359eb65e19a8183",
+          "bytes": 457522
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "bb7e05769b40e561ef18801fba4791161963e4be1b60b0b880f6b76473b050a1",
+          "download_url": "https://drive.google.com/uc?export=download&id=1dz8WJSRmY_X8AmgJbAsbzO1YayPbSVzh",
+          "source_sha256": "bb7e05769b40e561ef18801fba4791161963e4be1b60b0b880f6b76473b050a1",
+          "bytes": 56455
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "db2f5d87441f8dd99d99cf1a54957db48f8add680b193b67a012ef0d58567413",
+          "download_url": "https://drive.google.com/uc?export=download&id=1h2BleiTmrCiaT-31dkS-MR7jURhsfv80",
+          "source_sha256": "4a9bbfd0e3e7fe6a39b3aa2d8d27955c1f3aebb31ec5eead6279152e71211442",
+          "bytes": 352
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "e261bfd76ac8ff77249e04c2f7be48b5a823c81e61e851d8b10ab8b66e5d7c85",
+          "download_url": "https://drive.google.com/uc?export=download&id=1fM30Ev1lENI7Kx5cjkH7jn1ojrHesVJa",
+          "source_sha256": "e261bfd76ac8ff77249e04c2f7be48b5a823c81e61e851d8b10ab8b66e5d7c85",
+          "bytes": 9497347
+        }
+      ],
+      "prepared_bytes": 10011674,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Pentakill",
+      "title": "Lost Chapter",
+      "file_id": "38f44dd2757c4e76977b40427ea72f15",
+      "source_url": "https://rhythmverse.co/songfile/38f44dd2757c4e76977b40427ea72f15",
+      "download_url": "https://drive.google.com/drive/u/0/folders/10iOl5Zdr28bUyno9ApDn2cbiyzJQs5cb",
+      "archive_format": "files",
+      "folder": "Pentakill - Lost Chapter [38f44dd2]",
+      "charter": "<color=#ff0000>A</color><color=#e80000>p</color><color=#d20000>i</color><color=#bc0000>l</color><color=#a60000>l</color><color=#920000>i</color><color=#7e0000>n</color><color=#6b0000>g</color><color=#000000>e</color>",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1308,
+          "kick_note_on_count": 494,
+          "cymbal_marker_count": 447,
+          "last_expert_onset_seconds": 226.698,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "38f44dd2757c4e76977b40427ea72f15",
+        "artist": "Pentakill",
+        "title": "Lost Chapter",
+        "album": "Pentakill III: Lost Chapers",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/38f44dd2757c4e76977b40427ea72f15",
+        "download_url": "https://drive.google.com/drive/u/0/folders/10iOl5Zdr28bUyno9ApDn2cbiyzJQs5cb",
+        "duration_seconds": 231.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Apillinge",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "976c57bb23525ad241a4f2756b5ae230ba491bdf6dd003f42e59c7884760185d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1lr6Hk487PjoG6PeQYB-gyrB4fiYCy9Us",
+          "source_sha256": "976c57bb23525ad241a4f2756b5ae230ba491bdf6dd003f42e59c7884760185d",
+          "bytes": 55904
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "b20d73738fc8d8b8887e457f7c8d9b554786bfb09251bf837df89d53dc5c6d67",
+          "download_url": "https://drive.google.com/uc?export=download&id=1NwY_w4YkUAr-wwJJJGOYUCveKpXsa94-",
+          "source_sha256": "b20d73738fc8d8b8887e457f7c8d9b554786bfb09251bf837df89d53dc5c6d67",
+          "bytes": 156611
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "55c6c283dd27ca79f257e38e81e16d7aee5f843a4d093e27df169af2f7f622b4",
+          "download_url": "https://drive.google.com/uc?export=download&id=1vg9SNYxADXJGe2ySkDFy9EEH3ThC43oW",
+          "source_sha256": "2677aa0517ae1d0a2e3c0aa79e62a4e1c56282ad1e6f0b1b8297b76ebc7080d0",
+          "bytes": 853
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "b8e6e225a1a1ae9a17786f73a5c13cb0828fff2769c485d7e8690ca1d18690cf",
+          "download_url": "https://drive.google.com/uc?export=download&id=1KlPQE6FllI91JM-5tnU0XxOBVY94b_Jf",
+          "source_sha256": "b8e6e225a1a1ae9a17786f73a5c13cb0828fff2769c485d7e8690ca1d18690cf",
+          "bytes": 4475969
+        }
+      ],
+      "prepared_bytes": 4689306,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Pentakill",
+      "title": "Mortal Reminder",
+      "file_id": "5e57905b10974c1f8ecc47069c561386",
+      "source_url": "https://rhythmverse.co/songfile/5e57905b10974c1f8ecc47069c561386",
+      "download_url": "https://rhythmverse.co/download_file/sandalman3000/5e57905b10974c1f8ecc47069c561386/Mortal%20Reminder.zip",
+      "archive_format": "zip",
+      "folder": "Pentakill - Mortal Reminder [5e57905b]",
+      "charter": "Sandalman3000",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1665,
+          "kick_note_on_count": 695,
+          "tom_marker_count": 150,
+          "last_expert_onset_seconds": 236.535,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5e57905b10974c1f8ecc47069c561386",
+        "artist": "Pentakill",
+        "title": "Mortal Reminder",
+        "album": "II: Grasp of the Undying",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/5e57905b10974c1f8ecc47069c561386",
+        "download_url": "https://rhythmverse.co/download_file/sandalman3000/5e57905b10974c1f8ecc47069c561386/Mortal Reminder.zip",
+        "duration_seconds": 243.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Sandalman3000",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Mortal Reminder/album.png",
+          "name": "album.png",
+          "sha256": "0485a95d31b1f3370c8af0374744b3dfe1b14bd69da69e8221d6b642482814a1"
+        },
+        {
+          "archive_name": "Mortal Reminder/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a98fa2c2118f743061aacfbd108da7b4912a47c529ad83e5c18fcee4029a987d"
+        },
+        {
+          "archive_name": "Mortal Reminder/song.ini",
+          "name": "song.ini",
+          "sha256": "2cf08c5860fabdd81ddbaf881dd76ab9e3552ba0e6787f318c62d87d045f7c22"
+        },
+        {
+          "archive_name": "Mortal Reminder/song.ogg",
+          "name": "song.ogg",
+          "sha256": "4f4cf2576b30aea6fe98b2a407b58a9bfb06ff0153940dd149339e5fe1fefc2f"
+        }
+      ],
+      "archive_sha256": "08ce643672001bfc8cf33b83e8adb44a87dc2fee58a6cc78c6a8181b65b7dac7",
+      "archive_bytes": 8526863,
+      "prepared_bytes": 9904344,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Pentakill",
+      "title": "Tear of the Goddess",
+      "file_id": "1bd8c7b9d84c4a4dab4cad80dc83e44f",
+      "source_url": "https://rhythmverse.co/songfile/1bd8c7b9d84c4a4dab4cad80dc83e44f",
+      "download_url": "https://rhythmverse.co/download_file/koke-orellana-flores/1bd8c7b9d84c4a4dab4cad80dc83e44f/Pentakill%20-%20Tear%20of%20the%20Goddess%20[K].zip",
+      "archive_format": "zip",
+      "folder": "Pentakill - Tear of the Goddess [1bd8c7b9]",
+      "charter": "K",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1613,
+          "kick_note_on_count": 573,
+          "cymbal_marker_count": 756,
+          "last_expert_onset_seconds": 236.677,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "1bd8c7b9d84c4a4dab4cad80dc83e44f",
+        "artist": "Pentakill",
+        "title": "Tear of the Goddess",
+        "album": "II: Grasp of the Undying",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/1bd8c7b9d84c4a4dab4cad80dc83e44f",
+        "download_url": "https://rhythmverse.co/download_file/koke-orellana-flores/1bd8c7b9d84c4a4dab4cad80dc83e44f/Pentakill - Tear of the Goddess [K].zip",
+        "duration_seconds": 242.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "K",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Pentakill - Tear of the Goddess [K]/album.png",
+          "name": "album.png",
+          "sha256": "6dbf68331b86c8784c4164b3ee806c6fdae01d6836d2448f92a5b93e0c2aa037"
+        },
+        {
+          "archive_name": "Pentakill - Tear of the Goddess [K]/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "4ebc15cba674f4cf27b8bf2d05d567d5b3bc77b01f666ccb6223d7fa409e433c"
+        },
+        {
+          "archive_name": "Pentakill - Tear of the Goddess [K]/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "50edd4fde97d2e6fbd29e8dd6b7f9f6780e715bda3460f1e7ef742beaa0d23b3"
+        },
+        {
+          "archive_name": "Pentakill - Tear of the Goddess [K]/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "55acc30d9d225583c584c94a61f33e45c0e60e205395fed75738623ba6ec8447"
+        },
+        {
+          "archive_name": "Pentakill - Tear of the Goddess [K]/notes.chart",
+          "name": "notes.chart",
+          "sha256": "5ce68a4e55c9e01f9ca7964f8aa320d95ef48ab2f297dcd21e05595ccf8f7759"
+        },
+        {
+          "archive_name": "Pentakill - Tear of the Goddess [K]/song.ini",
+          "name": "song.ini",
+          "sha256": "3d5a60e916b6197f9e63600705ff4fb5dea88bea581b26dec4766087c842402e"
+        },
+        {
+          "archive_name": "Pentakill - Tear of the Goddess [K]/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "860dcaa9352427dfb24dac0d3efd3580838a193240fdc0508e45ef560b3124bb"
+        }
+      ],
+      "archive_sha256": "3bb0fbd81aa3753b51fc3611be40c4a4b46ab6fc4a140da917a72c02cbfb2d65",
+      "archive_bytes": 23954524,
+      "prepared_bytes": 24190524,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    }
+  ]
+}

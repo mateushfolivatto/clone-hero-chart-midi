@@ -1,0 +1,886 @@
+{
+  "schema_version": 1,
+  "batch_number": 15,
+  "collection_folder": "MixDrumRock - Lote 15 - Imagine Dragons",
+  "archive_name": "MixDrumRock-lote-15.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "imagine",
+  "theme_label": "Imagine Dragons",
+  "songs": [
+    {
+      "artist": "Imagine Dragons",
+      "title": "Amsterdam",
+      "file_id": "5996797ef16101.93043190",
+      "source_url": "https://rhythmverse.co/songfile/5996797ef16101.93043190",
+      "download_url": "https://rhythmverse.co/download_file/realcheese/5996797ef16101.93043190/Imagine_Dragons_-_Amsterdam",
+      "archive_format": "onyx",
+      "folder": "Imagine Dragons - Amsterdam [5996797e]",
+      "charter": "RealCheese, ATrueJedi",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1872,
+          "kick_note_on_count": 378,
+          "tom_marker_count": 130,
+          "last_expert_onset_seconds": 233.843,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5996797ef16101.93043190",
+        "artist": "Imagine Dragons",
+        "title": "Amsterdam",
+        "album": "Night Visions",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5996797ef16101.93043190",
+        "download_url": "https://rhythmverse.co/download_file/realcheese/5996797ef16101.93043190/Imagine_Dragons_-_Amsterdam",
+        "duration_seconds": 247.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "RealCheese",
+        "notes": "<p>UPDATE 09/04/2017:<br />\n&#8203;I fixed some minor drum animation and vocal note issues<br />\nHarmonies added by Atruejedi<br />\nVenue, lipsync, and preview video added by FatHa1p3rt<br />\n&#160;<br />\nThere is one drum note in the video that is wrong and it has been fixed.</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - Amsterdam/album.png",
+          "name": "album.png",
+          "sha256": "ea5db6a799b3513eb1707a87fbb3b602aa5f1dd528e4bc17950ad6f1f6c3b98e"
+        },
+        {
+          "archive_name": "Imagine Dragons - Amsterdam/notes.mid",
+          "name": "notes.mid",
+          "sha256": "29431b387d2e79854302151721f47279bbb9c1b179fd99eee22c285cdf69620e"
+        },
+        {
+          "archive_name": "Imagine Dragons - Amsterdam/song.ini",
+          "name": "song.ini",
+          "sha256": "0856c0aac3ebec754dceccc08a990f99019da22a78b386f2bf3be6f7b637cc76"
+        },
+        {
+          "archive_name": "Imagine Dragons - Amsterdam/song.ogg",
+          "name": "song.ogg",
+          "sha256": "694fa1f647797ecf606095e78f2559f9b01c127105b29a73e464b8092ca5e799"
+        }
+      ],
+      "archive_sha256": "5266c9c56504a047fbd12183c329f7f841f2a385b7ec0687e0c59a0561ba0ae2",
+      "archive_bytes": 5599232,
+      "prepared_bytes": 5439582,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Battle Cry",
+      "file_id": "6356411d0617f0.18917592",
+      "source_url": "https://rhythmverse.co/songfile/6356411d0617f0.18917592",
+      "download_url": "https://rhythmverse.co/download_file/knight-rider/6356411d0617f0.18917592/Imagine%20Dragons%20-%20Battle%20Cry",
+      "archive_format": "onyx",
+      "folder": "Imagine Dragons - Battle Cry [6356411d]",
+      "charter": "Knight Rider",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 807,
+          "kick_note_on_count": 161,
+          "tom_marker_count": 378,
+          "last_expert_onset_seconds": 231.761,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6356411d0617f0.18917592",
+        "artist": "Imagine Dragons",
+        "title": "Battle Cry",
+        "album": "Smoke + Mirrors (Deluxe)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6356411d0617f0.18917592",
+        "download_url": "https://rhythmverse.co/download_file/knight-rider/6356411d0617f0.18917592/Imagine Dragons - Battle Cry",
+        "duration_seconds": 276.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": "",
+        "uploader": "Knight Rider",
+        "notes": "",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - Battle Cry/album.png",
+          "name": "album.png",
+          "sha256": "f272fce1cf454fcfd4d18b41394fc76f685db219fd766f93d6bdf7a769862060"
+        },
+        {
+          "archive_name": "Imagine Dragons - Battle Cry/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "17d6fcb0520a04cf507622f922b9c7feee4616c25e58a75c7b070f33254901ce"
+        },
+        {
+          "archive_name": "Imagine Dragons - Battle Cry/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "4e497fcadbec33910a595f207c4d63c439906d26b0571e5aeebffe02461561d7"
+        },
+        {
+          "archive_name": "Imagine Dragons - Battle Cry/notes.mid",
+          "name": "notes.mid",
+          "sha256": "8625a27663aa697729259ed621eb93c8eb8eab6290b11d34055a414412b9a8d0"
+        },
+        {
+          "archive_name": "Imagine Dragons - Battle Cry/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "ddd8d23ba4a5300ef8ee714c67b56357444404256ac863f145f8adfb1d4d55df"
+        },
+        {
+          "archive_name": "Imagine Dragons - Battle Cry/song.ini",
+          "name": "song.ini",
+          "sha256": "a4b42a7bc11b4560255b450fa0d5163136eacdf9462b469a950c625b05392ead"
+        },
+        {
+          "archive_name": "Imagine Dragons - Battle Cry/song.ogg",
+          "name": "song.ogg",
+          "sha256": "00c16dfaabe68848c7a6a3c0dbb8b70cf98863e0b3101b2a5e768610a68b12ad"
+        },
+        {
+          "archive_name": "Imagine Dragons - Battle Cry/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "ae90cb904726b2652fdd7c7905a8a53db4628a6bd4b5986ab1b79ac4b1dbd305"
+        }
+      ],
+      "archive_sha256": "0daf80b813e7badfc225f23850da7be5976cab1dfade7a62a4f33148c6cf599b",
+      "archive_bytes": 18034688,
+      "prepared_bytes": 17461906,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Bones",
+      "file_id": "62ccab656fbdd7.81419031",
+      "source_url": "https://rhythmverse.co/songfile/62ccab656fbdd7.81419031",
+      "download_url": "https://rhythmverse.co/download_file/zayedsonic/62ccab656fbdd7.81419031/Bones_ImagineD_rb3con",
+      "archive_format": "onyx",
+      "folder": "Imagine Dragons - Bones [62ccab65]",
+      "charter": "custom",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 525,
+          "kick_note_on_count": 158,
+          "tom_marker_count": 11,
+          "last_expert_onset_seconds": 155.25,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "62ccab656fbdd7.81419031",
+        "artist": "Imagine Dragons",
+        "title": "Bones",
+        "album": "Mercury Act 2",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/62ccab656fbdd7.81419031",
+        "download_url": "https://rhythmverse.co/download_file/zayedsonic/62ccab656fbdd7.81419031/Bones_ImagineD_rb3con",
+        "duration_seconds": 166.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "supeersoonic",
+        "notes": "",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - Bones/album.png",
+          "name": "album.png",
+          "sha256": "c9aaa07b38f0aab18146bf2a9a300fed45fe8c37b39fa10a38b8a70b560deef2"
+        },
+        {
+          "archive_name": "Imagine Dragons - Bones/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1e1f16689183a69efad48cf1711602e937ae75b8182d3ce891b5f0dbcc28f716"
+        },
+        {
+          "archive_name": "Imagine Dragons - Bones/song.ini",
+          "name": "song.ini",
+          "sha256": "3a992c6c8f4b5e95e4d4266d59872d7d70c85248697456aa69f5fda18424c83a"
+        },
+        {
+          "archive_name": "Imagine Dragons - Bones/song.ogg",
+          "name": "song.ogg",
+          "sha256": "11d084d86cb9c7a2d5302d52a0cecfe25dfc08bb58ed6c1d2b31898af9267e71"
+        }
+      ],
+      "archive_sha256": "20b38ee42ec6d57d61a9475eea775e90980c5cd0311945ee331689b26b71b93d",
+      "archive_bytes": 4276224,
+      "prepared_bytes": 3439734,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Demons",
+      "file_id": "91859138fe1645f398792f2c5a868a13",
+      "source_url": "https://rhythmverse.co/songfile/91859138fe1645f398792f2c5a868a13",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1BUrHp9CjhaX6oddAK3UyepaFs3LtyOKP",
+      "archive_format": "files",
+      "folder": "Imagine Dragons - Demons [91859138]",
+      "charter": "Youngblood",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 320,
+          "kick_note_on_count": 130,
+          "cymbal_marker_count": 125,
+          "last_expert_onset_seconds": 173.276,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "91859138fe1645f398792f2c5a868a13",
+        "artist": "Imagine Dragons",
+        "title": "Demons",
+        "album": "Night Visions",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/91859138fe1645f398792f2c5a868a13",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1BUrHp9CjhaX6oddAK3UyepaFs3LtyOKP",
+        "duration_seconds": 179.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Youngblood",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "80d73484e4361458377b69874f4881907bfe025b3c521e797bcd2d87b16aea3d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Kr4fjcgfbyU_jQ6AMhtu_ogo-zmfKU1t",
+          "source_sha256": "80d73484e4361458377b69874f4881907bfe025b3c521e797bcd2d87b16aea3d",
+          "bytes": 1275944
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "e8780cac492ca1b4e0a2f6d23676d16c3f49a0788ec213570ba83a53ccf6f589",
+          "download_url": "https://drive.google.com/uc?export=download&id=1hl4tMCrgTqJ8p8oTAf1FBYvf-1jk-kHd",
+          "source_sha256": "e8780cac492ca1b4e0a2f6d23676d16c3f49a0788ec213570ba83a53ccf6f589",
+          "bytes": 1238867
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "f25fc7cab946128bdc0a9d0907185c3e42c4f8b3e9c23b435828e2ec0f1dc216",
+          "download_url": "https://drive.google.com/uc?export=download&id=1rh_nim5tbXzob1BUp-7zsHwywLcL-JDT",
+          "source_sha256": "f25fc7cab946128bdc0a9d0907185c3e42c4f8b3e9c23b435828e2ec0f1dc216",
+          "bytes": 20500
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "4de8a65866180a2aa02063382dd231945334d449c511bce306dd647b5933870b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1-soNriRRiXxAFc1OOnlnGI1oDoCnPEgM",
+          "source_sha256": "4de8a65866180a2aa02063382dd231945334d449c511bce306dd647b5933870b",
+          "bytes": 506
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "de479364b93432f6c5e1593319d1894c579df78f010ddec116e13754aab516c8",
+          "download_url": "https://drive.google.com/uc?export=download&id=17cN5npQ49qTKe-_RaUr_EShWYmkKCjo8",
+          "source_sha256": "de479364b93432f6c5e1593319d1894c579df78f010ddec116e13754aab516c8",
+          "bytes": 4498967
+        }
+      ],
+      "prepared_bytes": 7034784,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "It's Time",
+      "file_id": "5930ae5ac36cf1.89824256",
+      "source_url": "https://rhythmverse.co/songfile/5930ae5ac36cf1.89824256",
+      "download_url": "https://rhythmverse.co/download_file/fieldy92/5930ae5ac36cf1.89824256/itstimeimaginedragonsv3_rb3con",
+      "archive_format": "onyx",
+      "folder": "Imagine Dragons - It's Time [5930ae5a]",
+      "charter": "ShadowMaurix & Fieldy92",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1432,
+          "kick_note_on_count": 428,
+          "tom_marker_count": 734,
+          "last_expert_onset_seconds": 232.572,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5930ae5ac36cf1.89824256",
+        "artist": "Imagine Dragons",
+        "title": "It's Time",
+        "album": "Night Visions",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5930ae5ac36cf1.89824256",
+        "download_url": "https://rhythmverse.co/download_file/fieldy92/5930ae5ac36cf1.89824256/itstimeimaginedragonsv3_rb3con",
+        "duration_seconds": 245.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Fieldy92",
+        "notes": "<p>UPDATE 4/13<br />\n&#160;<br />\nHarmonies and pro keys courtesy of ShadowMaurix!</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - It's Time/album.png",
+          "name": "album.png",
+          "sha256": "b9c7c903af65d43980ec15ae4ea70193015f6813d8da922b0f568d032dfa1f0b"
+        },
+        {
+          "archive_name": "Imagine Dragons - It's Time/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a749af5ece1ad007cce3dd5e9e820848c3fd28a34f9a73a721c821a35a446a6f"
+        },
+        {
+          "archive_name": "Imagine Dragons - It's Time/song.ini",
+          "name": "song.ini",
+          "sha256": "10b4832fda7c7ded037d571c1d813e5b96413de2b3942299e822ce67224d8d98"
+        },
+        {
+          "archive_name": "Imagine Dragons - It's Time/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a0694aa1eec2fa249cef5a065645a29849d15b02e039e4b81353225b796f449c"
+        }
+      ],
+      "archive_sha256": "714821188e152a2fcf9b5601c75b65090683d609cbbd52be9e0ffd5a4e1855a9",
+      "archive_bytes": 6082560,
+      "prepared_bytes": 5007275,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Lonely",
+      "file_id": "cbed7ff35b39466ab1e65797896b0ca3",
+      "source_url": "https://rhythmverse.co/songfile/cbed7ff35b39466ab1e65797896b0ca3",
+      "download_url": "https://rhythmverse.co/download_file/mario-siguenza/cbed7ff35b39466ab1e65797896b0ca3/LonelyImagineDragons_rb3con",
+      "archive_format": "onyx",
+      "folder": "Imagine Dragons - Lonely [cbed7ff3]",
+      "charter": "Makoto_uwu_",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 561,
+          "kick_note_on_count": 163,
+          "tom_marker_count": 16,
+          "last_expert_onset_seconds": 159.183,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "cbed7ff35b39466ab1e65797896b0ca3",
+        "artist": "Imagine Dragons",
+        "title": "Lonely",
+        "album": "Mercury - Act I",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/cbed7ff35b39466ab1e65797896b0ca3",
+        "download_url": "https://rhythmverse.co/download_file/mario-siguenza/cbed7ff35b39466ab1e65797896b0ca3/LonelyImagineDragons_rb3con",
+        "duration_seconds": 161.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Makoto_uwu_",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - Lonely/album.png",
+          "name": "album.png",
+          "sha256": "d52222ec55d0550fc2c2003c738f132b7f849a8defbb729ca1a04b00243436fc"
+        },
+        {
+          "archive_name": "Imagine Dragons - Lonely/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "a4ea1f9b843f32103c2d0fb0ea1c2172b688bf1081d17805f19e36a155330f7c"
+        },
+        {
+          "archive_name": "Imagine Dragons - Lonely/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "65182e63c8ad855ffbaf7f9b56d66b74964402903cbf68e2bb9012b17144d016"
+        },
+        {
+          "archive_name": "Imagine Dragons - Lonely/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6bbc0e8136cf96f73576aac4c71fd1e46c5fd8a2a131df4810a426542aaa2cf6"
+        },
+        {
+          "archive_name": "Imagine Dragons - Lonely/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "8a3115169bad9b7446081980114fac8fa784bb819a01a92270cad114dc19af1e"
+        },
+        {
+          "archive_name": "Imagine Dragons - Lonely/song.ini",
+          "name": "song.ini",
+          "sha256": "5883a649760670070d7e393f0e8f1359fa04242dc83af3bced6a4c09342be86f"
+        },
+        {
+          "archive_name": "Imagine Dragons - Lonely/song.ogg",
+          "name": "song.ogg",
+          "sha256": "263958febab19cef106fd65c9750eb678e45e6a876fef5a0d9284b83f7f7a8c6"
+        },
+        {
+          "archive_name": "Imagine Dragons - Lonely/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "caec7662ee87aaafa741788b97ecd69f7d0c7b7cb9e39ab8e657ff1153acbc64"
+        }
+      ],
+      "archive_sha256": "11053d0554b91a03c3f23fce24c137d88844b7fbbb0128615d79bb4a59c1ab0e",
+      "archive_bytes": 14233600,
+      "prepared_bytes": 10990155,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Nothing Left to Say/Rocks",
+      "file_id": "921ed81054ac4750b0971883046101c4",
+      "source_url": "https://rhythmverse.co/songfile/921ed81054ac4750b0971883046101c4",
+      "download_url": "https://rhythmverse.co/download_file/overlandink37/921ed81054ac4750b0971883046101c4/nothinglefttosay_rb3con",
+      "archive_format": "onyx",
+      "folder": "Imagine Dragons - Nothing Left to Say_Rocks [921ed810]",
+      "charter": "Overlandink37",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1724,
+          "kick_note_on_count": 476,
+          "tom_marker_count": 724,
+          "last_expert_onset_seconds": 534.913,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "921ed81054ac4750b0971883046101c4",
+        "artist": "Imagine Dragons",
+        "title": "Nothing Left to Say/Rocks",
+        "album": "Night Visions",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/921ed81054ac4750b0971883046101c4",
+        "download_url": "https://rhythmverse.co/download_file/overlandink37/921ed81054ac4750b0971883046101c4/nothinglefttosay_rb3con",
+        "duration_seconds": 541.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Overlandink37",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - Nothing Left to Say_Rocks/album.png",
+          "name": "album.png",
+          "sha256": "a2be282e38a96149bccf78f255df078ba07f351cfc4e9f1683301821adfaceaa"
+        },
+        {
+          "archive_name": "Imagine Dragons - Nothing Left to Say_Rocks/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b49946c3253ba363e06f497c047a3a64860a4a3246d07a0070551a59cb270fb9"
+        },
+        {
+          "archive_name": "Imagine Dragons - Nothing Left to Say_Rocks/song.ini",
+          "name": "song.ini",
+          "sha256": "da99679d1f1a0e0ee02394730a956039872978b4b87bf77fdf34bba1fdd9d30b"
+        },
+        {
+          "archive_name": "Imagine Dragons - Nothing Left to Say_Rocks/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d6438bcc7b404c913abdf3951b51bc8ea561163bd91d54038124ce4e28816bad"
+        }
+      ],
+      "archive_sha256": "0a0834cfe70a1d54438ebfa1c777df652d09afa62a2f475a5fa8a62bab229f7f",
+      "archive_bytes": 10342400,
+      "prepared_bytes": 11424646,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Sharks",
+      "file_id": "864bf99ac8e045d1be161411f7c82ff0",
+      "source_url": "https://rhythmverse.co/songfile/864bf99ac8e045d1be161411f7c82ff0",
+      "download_url": "https://drive.google.com/drive/folders/1Np1WL1QRy-x8W49nXeCu8UttrCz-5v2K?usp=drive_link",
+      "archive_format": "files",
+      "folder": "Imagine Dragons - Sharks [864bf99a]",
+      "charter": "TheDiaBeatles",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1115,
+          "kick_note_on_count": 316,
+          "cymbal_marker_count": 623,
+          "last_expert_onset_seconds": 185.084,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "864bf99ac8e045d1be161411f7c82ff0",
+        "artist": "Imagine Dragons",
+        "title": "Sharks",
+        "album": "Sharks",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/864bf99ac8e045d1be161411f7c82ff0",
+        "download_url": "https://drive.google.com/drive/folders/1Np1WL1QRy-x8W49nXeCu8UttrCz-5v2K?usp=drive_link",
+        "duration_seconds": 192.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "TheDiaBeatles",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "e0fdcae32696eec08b8d5b6e20400ddb2a251927f3143fd47f8a06798d437bd9",
+          "download_url": "https://drive.google.com/uc?export=download&id=1zzyO13axfs3iaBKyBQOYwxQ5eoiWtwQe",
+          "source_sha256": "e0fdcae32696eec08b8d5b6e20400ddb2a251927f3143fd47f8a06798d437bd9",
+          "bytes": 60305
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "9e21288f4699b2d5051d967e5309992ca425458bc66b0f4d6257a592e4ac23c9",
+          "download_url": "https://drive.google.com/uc?export=download&id=1uilFm7sLzP4zscm6dzewdgjJkrWfhfHI",
+          "source_sha256": "9e21288f4699b2d5051d967e5309992ca425458bc66b0f4d6257a592e4ac23c9",
+          "bytes": 47701
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "3d1e654470b3187b2544a485482b73797642c06f223b5cb4caa17e22d53d3b67",
+          "download_url": "https://drive.google.com/uc?export=download&id=11NjC-XaBeQdW9oPe93Yyshdp3DTfb8yP",
+          "source_sha256": "c3cf58aa7bb34e7ec679afac3ebb50d41c564317d0efb807c1487bf3899dfe1e",
+          "bytes": 406
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "cbcb148d4f42da357920d9a49c144155075d3f67378773bc6608f439c4de94a7",
+          "download_url": "https://drive.google.com/uc?export=download&id=1HVlAmt8kO21ljXo9Wf6RndfhP3r7Ddjq",
+          "source_sha256": "cbcb148d4f42da357920d9a49c144155075d3f67378773bc6608f439c4de94a7",
+          "bytes": 6310009
+        }
+      ],
+      "prepared_bytes": 6418415,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Shots",
+      "file_id": "59297479ad4e21.80133803",
+      "source_url": "https://rhythmverse.co/songfile/59297479ad4e21.80133803",
+      "download_url": "https://rhythmverse.co/download_file/fieldy92/59297479ad4e21.80133803/ShotsCAT_rb3con",
+      "archive_format": "onyx",
+      "folder": "Imagine Dragons - Shots [59297479]",
+      "charter": "Unknown",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1387,
+          "kick_note_on_count": 336,
+          "tom_marker_count": 22,
+          "last_expert_onset_seconds": 227.825,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59297479ad4e21.80133803",
+        "artist": "Imagine Dragons",
+        "title": "Shots",
+        "album": "Smoke + Mirrors",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59297479ad4e21.80133803",
+        "download_url": "https://rhythmverse.co/download_file/fieldy92/59297479ad4e21.80133803/ShotsCAT_rb3con",
+        "duration_seconds": 237.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Fieldy92",
+        "notes": "<p>CAT reductions courtesy of beard216. Thanks beard!</p>",
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - Shots/album.png",
+          "name": "album.png",
+          "sha256": "0fd81c7c17bd3d4755cc746e13eb37a2a77c32921e3c2d03328d1ac04e19535a"
+        },
+        {
+          "archive_name": "Imagine Dragons - Shots/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d12c41da48ebd287ffab71f7ed5982d1f89d26425efd438ff298e23330240e1d"
+        },
+        {
+          "archive_name": "Imagine Dragons - Shots/song.ini",
+          "name": "song.ini",
+          "sha256": "af64d651697c2ccab589fce0d5edd1c3e6eb81248bc9c5a1cce3b87395ff79eb"
+        },
+        {
+          "archive_name": "Imagine Dragons - Shots/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5b4838122f4bd4db978d5dfdd58815570ac56c5ad89a6cd3591de50a86cbe9f4"
+        }
+      ],
+      "archive_sha256": "a28f306f52e47311146c7db4bdec0d88b73960c1ebbf366a4264c905e416936e",
+      "archive_bytes": 5398528,
+      "prepared_bytes": 4836210,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Tiptoe",
+      "file_id": "5999ad8f9fbaf9.46916034",
+      "source_url": "https://rhythmverse.co/songfile/5999ad8f9fbaf9.46916034",
+      "download_url": "https://rhythmverse.co/download_file/realcheese/5999ad8f9fbaf9.46916034/RC_ID_TT",
+      "archive_format": "onyx",
+      "folder": "Imagine Dragons - Tiptoe [5999ad8f]",
+      "charter": "RealCheese",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1258,
+          "kick_note_on_count": 232,
+          "tom_marker_count": 80,
+          "last_expert_onset_seconds": 189.975,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5999ad8f9fbaf9.46916034",
+        "artist": "Imagine Dragons",
+        "title": "Tiptoe",
+        "album": "Night Visions",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5999ad8f9fbaf9.46916034",
+        "download_url": "https://rhythmverse.co/download_file/realcheese/5999ad8f9fbaf9.46916034/RC_ID_TT",
+        "duration_seconds": 197.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "RealCheese",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - Tiptoe/album.png",
+          "name": "album.png",
+          "sha256": "a37c70bbbf7439c773826ed8effa50367a86178b9d9cefb059e5045fc2d86845"
+        },
+        {
+          "archive_name": "Imagine Dragons - Tiptoe/notes.mid",
+          "name": "notes.mid",
+          "sha256": "29858869fbc258f5e7c315c69fe2730acacc4ff10dd1e69c3ad30326ede87275"
+        },
+        {
+          "archive_name": "Imagine Dragons - Tiptoe/song.ini",
+          "name": "song.ini",
+          "sha256": "a424252f52c5055a9988db4511b49f9de915d123e7894865c9899ba254144c8e"
+        },
+        {
+          "archive_name": "Imagine Dragons - Tiptoe/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ee9e342736d3d234dfe01296e599b4ff3c54d7c03c4dfb1a27550ebfb0294909"
+        }
+      ],
+      "archive_sha256": "397695e449a1d30550ab31a7e9181196ed73cf58db3703718d1a37c7a91f08c7",
+      "archive_bytes": 4390912,
+      "prepared_bytes": 4436448,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Whatever It Takes",
+      "file_id": "bf9780d5eb614aa89a227fca74076c18",
+      "source_url": "https://rhythmverse.co/songfile/bf9780d5eb614aa89a227fca74076c18",
+      "download_url": "https://rhythmverse.co/download_file/austin-roosa/bf9780d5eb614aa89a227fca74076c18/Whatever%20It%20Takes.zip",
+      "archive_format": "zip",
+      "folder": "Imagine Dragons - Whatever It Takes [bf9780d5]",
+      "charter": "Awesomer",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 838,
+          "kick_note_on_count": 155,
+          "cymbal_marker_count": 603,
+          "last_expert_onset_seconds": 196.949,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "bf9780d5eb614aa89a227fca74076c18",
+        "artist": "Imagine Dragons",
+        "title": "Whatever It Takes",
+        "album": "Evolve",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/bf9780d5eb614aa89a227fca74076c18",
+        "download_url": "https://rhythmverse.co/download_file/austin-roosa/bf9780d5eb614aa89a227fca74076c18/Whatever It Takes.zip",
+        "duration_seconds": 201.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Awesomer",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Whatever It Takes/album.jpg",
+          "name": "album.jpg",
+          "sha256": "cefaba36a64acbe293bee1f43177b7a791c42b393f925662edc33c853d6a83e6"
+        },
+        {
+          "archive_name": "Whatever It Takes/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "2d9a5f855d21b5a38dd73d19b28e5548e2581a67cdea142d7e0cb06a19a1032a"
+        },
+        {
+          "archive_name": "Whatever It Takes/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "7b89cfef1593cc34e290596ed536cc7c73276c58cc263a7795a2ae7b014e4661"
+        },
+        {
+          "archive_name": "Whatever It Takes/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "1b34e4e6ff5171feb31601656316ef8f1e49b12ece2f972205b8df07f2117c4a"
+        },
+        {
+          "archive_name": "Whatever It Takes/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "cc2477ffdad4260a32ea9454cb044297348916093f06b8bd2dff4bf27cb45f90"
+        },
+        {
+          "archive_name": "Whatever It Takes/notes.chart",
+          "name": "notes.chart",
+          "sha256": "89f372483e8c2001dbc4eb9694f73fe15c37bad0fe982a343c42e61437fa1555"
+        },
+        {
+          "archive_name": "Whatever It Takes/song.ini",
+          "name": "song.ini",
+          "sha256": "9d4b5176d1f57bf70d18bfee8d363f0a3ae01eb6a12c0b11bb2bdab6c02a1b13"
+        },
+        {
+          "archive_name": "Whatever It Takes/song.ogg",
+          "name": "song.ogg",
+          "sha256": "8f0ab1be334e276a40486e91813134eb7df8d0224fc5d74fd6625c1989fe4fde"
+        },
+        {
+          "archive_name": "Whatever It Takes/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "fcf16f7d89e99572de5f614048136855589c3c6a321838486d9a1468c901bf8e"
+        }
+      ],
+      "archive_sha256": "1bd5738a45c4cc2921977755a37568ea87f320d12cf608ee610f788eb6492bc0",
+      "archive_bytes": 19591895,
+      "prepared_bytes": 20091409,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "batch_number": 16,
+  "collection_folder": "MixDrumRock - Drums - Lote 16 - Imagine Dragons",
+  "archive_name": "MixDrumRock-lote-16.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "theme": "imagine",
+  "theme_label": "Imagine Dragons",
+  "songs": [
+    {
+      "artist": "Imagine Dragons",
+      "title": "On Top of the World",
+      "file_id": "26c3e5ec22fb41c8a2a1a7e5672e950a",
+      "source_url": "https://rhythmverse.co/songfile/26c3e5ec22fb41c8a2a1a7e5672e950a",
+      "download_url": "https://rhythmverse.co/download_file/zdoesgaming/26c3e5ec22fb41c8a2a1a7e5672e950a/Imagine%20Dragons%20-%20On%20Top%20of%20the%20World.zip",
+      "archive_format": "zip",
+      "folder": "Imagine Dragons - On Top of the World [26c3e5ec]",
+      "charter": "ZDoesGaming",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 750,
+          "kick_note_on_count": 265,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 184.945,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "26c3e5ec22fb41c8a2a1a7e5672e950a",
+        "artist": "Imagine Dragons",
+        "title": "On Top of the World",
+        "album": "Night Visions",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/26c3e5ec22fb41c8a2a1a7e5672e950a",
+        "download_url": "https://rhythmverse.co/download_file/zdoesgaming/26c3e5ec22fb41c8a2a1a7e5672e950a/Imagine Dragons - On Top of the World.zip",
+        "duration_seconds": 199.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "ZDoesGaming",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - On Top of the World/album.png",
+          "name": "album.png",
+          "sha256": "295a6fa0f3e68d02c9ae812009e968ff3c959edadf0112112b2b33cdc3826e61"
+        },
+        {
+          "archive_name": "Imagine Dragons - On Top of the World/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "4313d116f2ade6ca455bb5f1b16e63dd8321a7f9819ae8bab0389a12f2db8556"
+        },
+        {
+          "archive_name": "Imagine Dragons - On Top of the World/notes.mid",
+          "name": "notes.mid",
+          "sha256": "478ad5d7a0bacc8a7c3db7185663cc58a92390c5c1905b1a6144204d62afd979"
+        },
+        {
+          "archive_name": "Imagine Dragons - On Top of the World/song.ini",
+          "name": "song.ini",
+          "sha256": "c4cad3af1891b9f1e5741424425b0bf275247d40cb39ebcd61e4c51beb993c27"
+        }
+      ],
+      "archive_sha256": "eeabf6f1576b6615cbdc79655d046249565c2624824e90df3d81fa376b281273",
+      "archive_bytes": 9318038,
+      "prepared_bytes": 9369830,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Radioactive",
+      "file_id": "53003a3f903f1",
+      "source_url": "https://rhythmverse.co/songfile/53003a3f903f1",
+      "download_url": "https://rhythmverse.co/download_file/ghtorb3/53003a3f903f1/CUSTRadioactive",
+      "archive_format": "onyx",
+      "folder": "Imagine Dragons - Radioactive [53003a3f]",
+      "charter": "Unknown",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 191,
+          "kick_note_on_count": 110,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 185.347,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "53003a3f903f1",
+        "artist": "Imagine Dragons",
+        "title": "Radioactive",
+        "album": "Night Visions",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/53003a3f903f1",
+        "download_url": "https://rhythmverse.co/download_file/ghtorb3/53003a3f903f1/CUSTRadioactive",
+        "duration_seconds": 188.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Activision",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Imagine Dragons - Radioactive/album.png",
+          "name": "album.png",
+          "sha256": "ea5db6a799b3513eb1707a87fbb3b602aa5f1dd528e4bc17950ad6f1f6c3b98e"
+        },
+        {
+          "archive_name": "Imagine Dragons - Radioactive/notes.mid",
+          "name": "notes.mid",
+          "sha256": "88510faa4ed08b2f69c626361384889fe1e52d0639a08699092b6ef626cb5496"
+        },
+        {
+          "archive_name": "Imagine Dragons - Radioactive/song.ini",
+          "name": "song.ini",
+          "sha256": "8828c7924d0f4d3acf4b18d5a73ac8e9da14662e95ef2a2fd98a679904b5474e"
+        },
+        {
+          "archive_name": "Imagine Dragons - Radioactive/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0b08843cbdd2d4693c6a306ef3d66aedfec82e6adb66f813dd1ce626c2cadcfb"
+        }
+      ],
+      "archive_sha256": "83a2ef6609a7b47bf411d1ada9fcc31faad5d115c530724b98e15fe6babc83a3",
+      "archive_bytes": 3776512,
+      "prepared_bytes": 3719485,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    }
+  ]
+}

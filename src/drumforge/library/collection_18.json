@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "batch_number": 18,
+  "collection_folder": "MixDrumRock - Drums - Lote 18 - Semelhantes a Linkin Park",
+  "archive_name": "MixDrumRock-lote-18.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "theme": "similar",
+  "theme_label": "Semelhantes a Linkin Park",
+  "songs": [
+    {
+      "artist": "Breaking Benjamin",
+      "title": "The Diary of Jane",
+      "file_id": "83710ccbb7e94cac84ea3fcd56a67f4d",
+      "source_url": "https://rhythmverse.co/songfile/83710ccbb7e94cac84ea3fcd56a67f4d",
+      "download_url": "https://drive.google.com/drive/u/0/folders/14-c3OF7bSiN3tGZzy-R97Rm4MQ109l-7",
+      "archive_format": "files",
+      "folder": "Breaking Benjamin - The Diary of Jane [83710ccb]",
+      "charter": "DatNinty, Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1174,
+          "kick_note_on_count": 365,
+          "cymbal_marker_count": 0,
+          "last_expert_onset_seconds": 194.012,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "83710ccbb7e94cac84ea3fcd56a67f4d",
+        "artist": "Breaking Benjamin",
+        "title": "The Diary of Jane",
+        "album": "Phobia",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/83710ccbb7e94cac84ea3fcd56a67f4d",
+        "download_url": "https://drive.google.com/drive/u/0/folders/14-c3OF7bSiN3tGZzy-R97Rm4MQ109l-7",
+        "duration_seconds": 204.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "DatNinty, Harmonix",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "11390c5f5f183e2a3d45691e1b14b02ea948adfa6dd1249f5de936a2e3bdb734",
+          "download_url": "https://drive.google.com/uc?export=download&id=1KwooJRtrjFyjZHtr69CrmXPnV2LkliKB",
+          "source_sha256": "11390c5f5f183e2a3d45691e1b14b02ea948adfa6dd1249f5de936a2e3bdb734",
+          "bytes": 25248
+        },
+        {
+          "archive_name": "drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "f87e990b063774ef2a5eeed5dc70f7467483e18b541157ab64a2d48e5febbfb3",
+          "download_url": "https://drive.google.com/uc?export=download&id=1oL2Jnj1YxHUo8x3CJ65xPE8k5ZjJ5gdw",
+          "source_sha256": "f87e990b063774ef2a5eeed5dc70f7467483e18b541157ab64a2d48e5febbfb3",
+          "bytes": 2021961
+        },
+        {
+          "archive_name": "drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "420312e3a7188915e9a9b46dbddb7f2ed5dd0a04e9e49f7f062b43d1b1bb2ad9",
+          "download_url": "https://drive.google.com/uc?export=download&id=10o5W5vGNih1FOsj6V5su36I3mK-XSPly",
+          "source_sha256": "420312e3a7188915e9a9b46dbddb7f2ed5dd0a04e9e49f7f062b43d1b1bb2ad9",
+          "bytes": 3909960
+        },
+        {
+          "archive_name": "drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "d62fe4b43f9e821ac901a7751dbf8291dafdb269016fe0eb7d3ee8057db3857a",
+          "download_url": "https://drive.google.com/uc?export=download&id=1FadYxjAKJkCmtyBKHqEMMsTBYoZ1GFEz",
+          "source_sha256": "d62fe4b43f9e821ac901a7751dbf8291dafdb269016fe0eb7d3ee8057db3857a",
+          "bytes": 4913966
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "32c7978c2d41c7872456c265e004d4447e439beaf50858043a8464565fbc7db1",
+          "download_url": "https://drive.google.com/uc?export=download&id=1RlG404zo4xXZBBG9bwRkj2s5nvc60Joa",
+          "source_sha256": "32c7978c2d41c7872456c265e004d4447e439beaf50858043a8464565fbc7db1",
+          "bytes": 3994857
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "901e120b8dc18fe088724306d84c28525cc9b444cdd7ccc69aa26d19fa2c4194",
+          "download_url": "https://drive.google.com/uc?export=download&id=1uLvheX--2_AdfsGayjCeOAeytISdQdlS",
+          "source_sha256": "901e120b8dc18fe088724306d84c28525cc9b444cdd7ccc69aa26d19fa2c4194",
+          "bytes": 177837
+        },
+        {
+          "archive_name": "rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "fdf2cf6a016248ada9877dd712617de5a4ac10b71a4b62ab4dbdc79c25cc5f41",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Mw-t4dwqv6CQRXt8ig-LBl9XhgzM0Nz6",
+          "source_sha256": "fdf2cf6a016248ada9877dd712617de5a4ac10b71a4b62ab4dbdc79c25cc5f41",
+          "bytes": 1588732
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "b7c4a53e09a84f1b57a8c6bc6b48b9d9c39fd869411e8ecede78e948230cae81",
+          "download_url": "https://drive.google.com/uc?export=download&id=1U-fbDJA6_2eMVhYVA50sIxlIfTtBnudI",
+          "source_sha256": "b7c4a53e09a84f1b57a8c6bc6b48b9d9c39fd869411e8ecede78e948230cae81",
+          "bytes": 937
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "685e50ac930a8ce22240691bb9929a333d5381299426dc186fafc01dd6003213",
+          "download_url": "https://drive.google.com/uc?export=download&id=1L2AQkgAeZUgpss3klgP82Co2S6GxBt3S",
+          "source_sha256": "685e50ac930a8ce22240691bb9929a333d5381299426dc186fafc01dd6003213",
+          "bytes": 3911242
+        },
+        {
+          "archive_name": "vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "357a79b95f8fc4bbbad30543ade99bd97c5dc930e600134544141ae2fb7804a4",
+          "download_url": "https://drive.google.com/uc?export=download&id=1cCXD2MaGx8Gncvrz0JMnVX5UvgTg96rz",
+          "source_sha256": "357a79b95f8fc4bbbad30543ade99bd97c5dc930e600134544141ae2fb7804a4",
+          "bytes": 3909062
+        }
+      ],
+      "prepared_bytes": 24453802,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "Limp Bizkit",
+      "title": "Rollin' (Air Raid Vehicle)",
+      "file_id": "53d2c00fdf42d",
+      "source_url": "https://rhythmverse.co/songfile/53d2c00fdf42d",
+      "download_url": "https://rhythmverse.co/download_file/nightmarelyre/53d2c00fdf42d/Rollin_rb3con",
+      "archive_format": "onyx",
+      "folder": "Limp Bizkit - Rollin' (Air Raid Vehicle) [53d2c00f]",
+      "charter": "Convour, Nightmare Lyra",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1350,
+          "kick_note_on_count": 414,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 209.344,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "53d2c00fdf42d",
+        "artist": "Limp Bizkit",
+        "title": "Rollin' (Air Raid Vehicle)",
+        "album": "Chocolate Starfish and the Hot Dog Flavored Water",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/53d2c00fdf42d",
+        "download_url": "https://rhythmverse.co/download_file/nightmarelyre/53d2c00fdf42d/Rollin_rb3con",
+        "duration_seconds": 222.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Nightmare Lyra",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Limp Bizkit - Rollin' (Air Raid Vehicle)/album.png",
+          "name": "album.png",
+          "sha256": "0550ccc2aa8bfef70af196d66180512d4969eb6cd4dc36047c56a48305111992"
+        },
+        {
+          "archive_name": "Limp Bizkit - Rollin' (Air Raid Vehicle)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "047aae8d0fbc612bb49fc4020a7be62970996c9e8df2589f489d49c4b8387b6a"
+        },
+        {
+          "archive_name": "Limp Bizkit - Rollin' (Air Raid Vehicle)/song.ini",
+          "name": "song.ini",
+          "sha256": "1357a5d9935760d3d7e2ecd33461d96ef4ebaac1992f3d34882f17e91d8ca9ab"
+        },
+        {
+          "archive_name": "Limp Bizkit - Rollin' (Air Raid Vehicle)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2e7615fb66da5c9285d8f6eed166af60fc5416a1aa84bf121a415b7d61d2dd3d"
+        }
+      ],
+      "archive_sha256": "4011b51cf0425a4796544921232984fe81ce1879de7c5aba8b1f58151a7a035a",
+      "archive_bytes": 5332992,
+      "prepared_bytes": 4294226,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    }
+  ]
+}
