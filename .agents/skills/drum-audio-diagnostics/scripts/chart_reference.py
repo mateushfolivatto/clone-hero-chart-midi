@@ -430,7 +430,17 @@ def main():
     evaluation.add_argument("--profile", type=Path, required=True)
     evaluation.add_argument("--training-recipe", type=Path, required=True)
     evaluation.add_argument("--library-root", type=Path, required=True)
-    for command in (research, forward, evaluation):
+    components = commands.add_parser(
+        "predict-components", help="Use existing aligned stems without a chart"
+    )
+    components.add_argument("--kick", type=Path, required=True)
+    components.add_argument("--snare", type=Path, required=True)
+    components.add_argument("--high-percussion", type=Path, required=True)
+    components.add_argument("--profile", type=Path, required=True)
+    components.add_argument("--rules", choices=("baseline", "frozen"), default="baseline")
+    components.add_argument("--start", type=float, default=0)
+    components.add_argument("--duration", type=float, default=20)
+    for command in (research, forward, evaluation, components):
         command.add_argument("--out", type=Path, required=True)
         command.add_argument("--ffmpeg-path", default="ffmpeg")
     args = parser.parse_args()
@@ -441,6 +451,10 @@ def main():
             from reference_holdout import evaluate
 
             evaluate(args, sys.modules[__name__])
+        elif args.command == "predict-components":
+            from component_predict import predict_components
+
+            predict_components(args, sys.modules[__name__])
         else:
             (study if args.command == "study" else predict)(args)
     except (OSError, ValueError, KeyError, RuntimeError) as exc:

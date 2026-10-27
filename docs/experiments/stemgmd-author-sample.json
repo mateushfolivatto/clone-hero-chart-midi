@@ -1,0 +1,86 @@
+{
+  "receipt": {
+    "repository": "polimi-ispl/larsnet",
+    "revision": "a5f75326ebcc4c253bce75cb74e029f5b75cfa88",
+    "files": [
+      {
+        "path": "audio/LarsNet/1_funk-groove1_138_beat_4-4/bluebird/1_funk-groove1_138_beat_4-4_bluebird_HIHAT_pred.mp3",
+        "name": "1_funk-groove1_138_beat_4-4_bluebird_HIHAT_pred.mp3",
+        "size": 479234,
+        "git_blob_sha1": "b3be1e3ddaf5a8b215ed85bf026c06cd6793081d",
+        "sha256": "501580783c7266ea9562686533525ec5beae9c527cb272bd0f9b516586236cec"
+      },
+      {
+        "path": "audio/LarsNet/1_funk-groove1_138_beat_4-4/bluebird/1_funk-groove1_138_beat_4-4_bluebird_HIHAT_true.mp3",
+        "name": "1_funk-groove1_138_beat_4-4_bluebird_HIHAT_true.mp3",
+        "size": 479234,
+        "git_blob_sha1": "135ed0a24c16486c730e2900a74828ca0a0e6d43",
+        "sha256": "fcc31fce040ecefe4aa0d3ffa6077e9ed132d6f5a61be3ef21f89ab30f55cdfb"
+      },
+      {
+        "path": "audio/LarsNet/1_funk-groove1_138_beat_4-4/bluebird/1_funk-groove1_138_beat_4-4_bluebird_KICK_pred.mp3",
+        "name": "1_funk-groove1_138_beat_4-4_bluebird_KICK_pred.mp3",
+        "size": 479234,
+        "git_blob_sha1": "eaff8e49a755094a9fd25320a332fc48959f53fe",
+        "sha256": "3d8b78f5dd66199f8cc69e2ae077ae64c7703b0f06b52f4bc30f47cd581219a1"
+      },
+      {
+        "path": "audio/LarsNet/1_funk-groove1_138_beat_4-4/bluebird/1_funk-groove1_138_beat_4-4_bluebird_KICK_true.mp3",
+        "name": "1_funk-groove1_138_beat_4-4_bluebird_KICK_true.mp3",
+        "size": 479234,
+        "git_blob_sha1": "65d3d0c70a6c2523b595664abe12bc9e21061fbb",
+        "sha256": "aecb2953a634b01bd13786baa5c6e51a27982f0d4a4bcff21d12232fdc597d7f"
+      },
+      {
+        "path": "audio/LarsNet/1_funk-groove1_138_beat_4-4/bluebird/1_funk-groove1_138_beat_4-4_bluebird_MIX.mp3",
+        "name": "1_funk-groove1_138_beat_4-4_bluebird_MIX.mp3",
+        "size": 479234,
+        "git_blob_sha1": "68dc77377dd89c1f2d887b2f3aea24cef87b794d",
+        "sha256": "70ba243d89d44c318dfb6e9501320508835f7c178b91e973dd5f4960017491d8"
+      },
+      {
+        "path": "audio/LarsNet/1_funk-groove1_138_beat_4-4/bluebird/1_funk-groove1_138_beat_4-4_bluebird_SNARE_pred.mp3",
+        "name": "1_funk-groove1_138_beat_4-4_bluebird_SNARE_pred.mp3",
+        "size": 479234,
+        "git_blob_sha1": "fe444de838fcd6ade0161977bdb5379e085b6c93",
+        "sha256": "0bcb14955708661bf8f26baf781c06582c52b8612bdb05b6a5b753a4a967a708"
+      },
+      {
+        "path": "audio/LarsNet/1_funk-groove1_138_beat_4-4/bluebird/1_funk-groove1_138_beat_4-4_bluebird_SNARE_true.mp3",
+        "name": "1_funk-groove1_138_beat_4-4_bluebird_SNARE_true.mp3",
+        "size": 479234,
+        "git_blob_sha1": "9e3bed0344a59b1e0c6cec8275716ecae0afc75f",
+        "sha256": "9e669929b8470fbb54dd0608527647c543192d42eb713e2e868b517aaa97bf27"
+      }
+    ]
+  },
+  "comparison": {
+    "schema_version": 1,
+    "method": "SI-SDR, flattened stereo, zero mean, optimal scalar projection; no shift or independent normalization",
+    "start_seconds": 2,
+    "duration_seconds": 10,
+    "comparison_kind": "precomputed author demonstration, MP3 copies; not local inference or song chart accuracy",
+    "local_model_inference_performed": false,
+    "midi_ground_truth_used": false,
+    "results": [
+      {
+        "component": "KICK",
+        "mixture_si_sdr_db": 4.488753788569956,
+        "authors_larsnet_si_sdr_db": 27.82718681100857,
+        "improvement_db": 23.338433022438615
+      },
+      {
+        "component": "SNARE",
+        "mixture_si_sdr_db": -4.673718636170958,
+        "authors_larsnet_si_sdr_db": 17.014607356042042,
+        "improvement_db": 21.688325992213
+      },
+      {
+        "component": "HIHAT",
+        "mixture_si_sdr_db": -30.40789169234003,
+        "authors_larsnet_si_sdr_db": -5.327219405306524,
+        "improvement_db": 25.080672287033508
+      }
+    ]
+  }
+}

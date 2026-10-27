@@ -1,5 +1,19 @@
 # Quality gates
 
+The component-source slice adds five optional DSP tests (13 total; core remains
+141). They distinguish digital silence from very quiet signals, reject invalid
+sources/shapes, preserve simultaneous chart-free candidates, reject changing
+inputs and verify partial coverage without scoring missing components. Run all
+optional regressions with the diagnostic dependencies installed:
+
+```text
+python -m unittest discover -s .agents/skills/drum-audio-diagnostics/scripts -p 'test_*.py'
+```
+
+Real checks include the seven-song source comparison, chart-free Crawling stems
+and seven source-verified public author MP3s. No model was downloaded or run.
+See [stem-component-study.md](stem-component-study.md).
+
 The Linkin Park study adds 12 core disco-flip regressions (141 total), covering
 MIDI/.chart state boundaries, simultaneous notes, dnoflip and other reset flags,
 other difficulties, yellow toms, conflicting/unsupported mix events and source

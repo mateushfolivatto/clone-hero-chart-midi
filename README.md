@@ -83,6 +83,10 @@ drum stems. It records per-song failures and does not recalibrate on test data.
 The [Faint/Crawling study](docs/linkin-park-hihat.md) examines timekeeping hi-hat
 and fixes disco-flip interpretation in Pro reference charts. It retains original
 note data and compares mix/drums using the same frozen detector profile.
+The [component-source follow-up](docs/stem-component-study.md) audits silent
+stems, compares explicit kick/snare/kit sources and adds chart-free component
+candidates. It also inspects a small free StemGMD/LarsNet author demonstration;
+local model inference and game-chart export remain pending.
 
 ## Project navigation
 
