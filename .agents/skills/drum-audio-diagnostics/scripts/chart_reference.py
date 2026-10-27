@@ -430,6 +430,9 @@ def main():
     evaluation.add_argument("--profile", type=Path, required=True)
     evaluation.add_argument("--training-recipe", type=Path, required=True)
     evaluation.add_argument("--library-root", type=Path, required=True)
+    evaluation.add_argument(
+        "--no-plots", action="store_true", help="Skip waveform figures in batch studies"
+    )
     components = commands.add_parser(
         "predict-components", help="Use existing aligned stems without a chart"
     )
@@ -440,11 +443,27 @@ def main():
     components.add_argument("--rules", choices=("baseline", "frozen"), default="baseline")
     components.add_argument("--start", type=float, default=0)
     components.add_argument("--duration", type=float, default=20)
-    for command in (research, forward, evaluation, components):
+    planning = commands.add_parser("survey-plan", help="Select diverse new songs before scoring")
+    planning.add_argument("--library-root", type=Path, required=True)
+    planning.add_argument("--profile", type=Path, required=True)
+    planning.add_argument("--exclude-recipe", type=Path, nargs="+", required=True)
+    planning.add_argument("--count", type=int, default=64)
+    planning.add_argument("--per-artist", type=int, default=5)
+    planning.add_argument("--seed", default="drumforge-survey-20261027-v1")
+    survey = commands.add_parser("survey", help="Run bounded frozen comparisons on up to 80 songs")
+    survey.add_argument("--recipe", type=Path, required=True)
+    survey.add_argument("--profile", type=Path, required=True)
+    survey.add_argument("--training-recipe", type=Path, required=True)
+    survey.add_argument("--library-root", type=Path, required=True)
+    survey.add_argument("--jobs", type=int, default=2)
+    survey.add_argument("--resume", action="store_true")
+    for command in (research, forward, evaluation, components, planning, survey):
         command.add_argument("--out", type=Path, required=True)
         command.add_argument("--ffmpeg-path", default="ffmpeg")
     args = parser.parse_args()
-    if args.out.exists() or args.out.is_symlink():
+    if (args.out.exists() or args.out.is_symlink()) and not (
+        args.command == "survey" and args.resume and not args.out.is_symlink()
+    ):
         parser.error("output directory exists; choose a new directory")
     try:
         if args.command == "evaluate":
@@ -455,6 +474,11 @@ def main():
             from component_predict import predict_components
 
             predict_components(args, sys.modules[__name__])
+        elif args.command in {"survey-plan", "survey"}:
+            from survey_plan import plan
+            from survey_runner import run
+
+            (plan if args.command == "survey-plan" else run)(args, sys.modules[__name__])
         else:
             (study if args.command == "study" else predict)(args)
     except (OSError, ValueError, KeyError, RuntimeError) as exc:

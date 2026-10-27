@@ -255,3 +255,23 @@ finding. This file supplements the backlog; it does not redefine task completion
     references or precomputed estimates. Compare those signals without claiming
     model execution, MIDI accuracy or performance on our songs. Keep E-GMD's
     unused status and the remaining weight/runtime work explicit.
+
+46. **A two-song source gain needs broader paired validation.** Component yellow
+    F1 improved strongly on Afterlife/Crawling, but twelve new song pairs changed
+    only .501→.505 with a gain interval crossing zero; snare improvement persisted.
+    Plan artist-balanced unseen songs before scoring, preserve negative/silent
+    cases and compare sources on the same excerpts. Recompute scores from CSV,
+    resample whole songs with methods paired, and report recall/precision as well
+    as F1. Density and coincidence controls reveal opportunities for matching;
+    they do not establish acoustic instrument identity or a causal masking effect.
+
+## 2026-10-25 — Themed library additions
+
+47. **Keep curated additions separate from playlist coverage.** League of Legends,
+    Imagine Dragons and similar-band selections introduced songs outside the
+    captured Qobuz playlist. Reusing playlist counters or inventing track IDs would
+    misrepresent coverage. Append themed recipes with empty Qobuz/playlist ID lists,
+    retain the original coverage CSV and track curated totals separately. Verify
+    the unchanged snapshot and compare all old/new titles, source identities and
+    chart/audio hashes; Enemy belongs to only one theme and Heavy Is the Crown
+    remains in its already published batch.

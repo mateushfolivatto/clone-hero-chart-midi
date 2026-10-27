@@ -1,5 +1,22 @@
 # Quality gates
 
+The combined broad-survey/themed-library tree passes 146 core tests and 19 optional
+DSP tests on Linux/Python 3.12. The survey adds three core and six optional cases;
+the remote library additions contribute two core metadata cases. They cover order-independent
+artist selection, duplicate-note identity, paired excerpt coverage, song-bootstrap
+units, absent-reference false alarms, circular controls and modified-cache refusal.
+Real checks: 64 completed songs, 128 byte-identical CSVs on full rerun, verified
+resume of all reports, independent CSV score recomputation and six diagnostic
+gallery reruns with matching metrics. See [broad-song-survey.md](broad-song-survey.md).
+Project/script lock checks, Ruff lint/format, strict mypy (44 source files), CLI
+help/doctor, wheel/sdist build and archive hygiene pass. ML is absent in this
+environment; doctor reports it as optional, not as an inference success.
+Also check the new summary script lock:
+
+```text
+uv --cache-dir .uv-cache lock --check --script .agents/skills/drum-audio-diagnostics/scripts/survey_summary.py
+```
+
 The component-source slice adds five optional DSP tests (13 total; core remains
 141). They distinguish digital silence from very quiet signals, reject invalid
 sources/shapes, preserve simultaneous chart-free candidates, reject changing
@@ -200,3 +217,14 @@ Onyx: launch below 0.001 s, import wait 0.516 s, export wait 10.969 s, both outc
 ok. Pinned MIDI, local asset hashes, JSONL timing events, persistent log and unchanged
 resume passed. Native Windows timing, the exact source of its delay and game
 acceptance still require user-side verification. Source/tool/recipes are unchanged.
+
+The themed additions (2026-10-25) append 45 charts in six batches, with 244 runtime
+assets, 107 decoded audio files and 51,469 Expert gems. Six ZIPs passed CRC and
+all extracted asset hashes. Two metadata regressions bring the suite to 91 tests:
+index/recipe/helper pins, batch counts/modes and absence of duplicate old/new
+artist/title, package and chart/audio identities. Existing Onyx supervision and
+Windows argument tests still pass; onyx_recovery.py is byte-identical to cc69229.
+Fresh isolated stdlib ZIP/Drive/Onyx reconstruction and unchanged offline resume
+passed; Onyx preserved pinned MIDI, local Ogg hashes, persistent logs and timing
+events. Qobuz coverage and prior recipes remain unchanged. Native Windows/game
+acceptance still require user feedback. See library-themed-verification.md.

@@ -87,6 +87,10 @@ The [component-source follow-up](docs/stem-component-study.md) audits silent
 stems, compares explicit kick/snare/kit sources and adds chart-free component
 candidates. It also inspects a small free StemGMD/LarsNet author demonstration;
 local model inference and game-chart export remain pending.
+The [64-song survey](docs/broad-song-survey.md) checks new artist-balanced song
+excerpts with frozen rules, paired source comparisons, song-level uncertainty
+and negative controls. It retains failures and documents which earlier patterns
+generalized, without claiming instrument recognition from chart agreement.
 
 ## Project navigation
 

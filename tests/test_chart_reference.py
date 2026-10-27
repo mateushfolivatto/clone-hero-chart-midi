@@ -8,7 +8,8 @@ import pytest
 
 from drumforge.diagnostics.chart_reference import playback_assets, read_chart_reference
 from drumforge.diagnostics.holdout import validate_holdout
-from drumforge.diagnostics.matching import score_onsets, training_indices
+from drumforge.diagnostics.matching import match_onsets, score_onsets, training_indices
+from drumforge.diagnostics.survey import balanced_selection
 
 
 def _chart(tmp_path: Path, *, delay: str = "125", broken_marker: bool = False) -> Path:
@@ -137,6 +138,48 @@ def test_invalid_metrics_inputs_are_rejected() -> None:
         score_onsets([], [], tolerance=0)
     assert score_onsets([], [1])["precision"] == 0
     assert score_onsets([], [])["f1"] is None
+
+
+def test_matching_retains_original_indices_for_unsorted_duplicate_references() -> None:
+    assert match_onsets([2, 1, 1], [1.01, 2.01]) == [(1, 0), (0, 1)]
+
+
+def test_survey_selection_is_order_independent_balanced_and_deduplicated() -> None:
+    rows = [
+        {
+            "artist": artist,
+            "title": str(i),
+            "chart_sha256": artist + str(i),
+            "has_drum_files": False,
+        }
+        for artist in ["A", "B", "C"]
+        for i in range(5)
+    ]
+    rows.append({**rows[0], "artist": "a", "chart_sha256": "duplicate"})
+    selected = balanced_selection(rows, count=6, per_artist=2, seed="fixed")
+    assert selected == balanced_selection(list(reversed(rows)), count=6, per_artist=2, seed="fixed")
+    assert {
+        artist: sum(s["artist"].casefold() == artist for s in selected)
+        for artist in ["a", "b", "c"]
+    } == {"a": 2, "b": 2, "c": 2}
+    assert len({(s["artist"].casefold(), s["title"]) for s in selected}) == 6
+
+
+def test_survey_prioritizes_declared_components_before_unlabelled_stems() -> None:
+    rows = [
+        {"artist": "A", "title": "mix", "chart_sha256": "a", "has_drum_files": False},
+        {"artist": "A", "title": "kit", "chart_sha256": "b", "has_drum_files": True},
+        {
+            "artist": "A",
+            "title": "parts",
+            "chart_sha256": "c",
+            "has_drum_files": True,
+            "component_sources": {"KICK": "drums_1.ogg"},
+        },
+    ]
+    assert balanced_selection(rows, count=2, per_artist=2, seed="fixed") == [rows[2], rows[1]]
+    with pytest.raises(ValueError, match="not enough"):
+        balanced_selection(rows, count=4, per_artist=2, seed="fixed")
 
 
 def _text_reference(tmp_path: Path, *, notes: str = "") -> Path:

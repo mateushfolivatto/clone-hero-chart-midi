@@ -254,6 +254,31 @@ or music upload was used.
 See docs/stem-component-study.md and DCF-127. ML separation/transcription,
 native Windows and game validation remain pending; Phase 1 stays open.
 
+## Broad frozen survey (2026-10-27)
+
+The user authorized analyzing many additional existing songs to check patterns.
+The survey planned 64 new songs across 20 normalized artists before scoring:
+128 fixed excerpts, 2,560 nominal seconds, 352 pinned files and 14,534 mix target
+references. It excludes earlier songs/chart identities, balances artists and
+keeps all planned failures/negative cases visible. All 64 completed. Thirty songs
+provide non-silent drums, twelve have explicitly declared component layouts.
+Whole-song bootstrap and per-song medians supplement pooled F1; source comparisons
+use only identical available song/excerpt/class pairs.
+
+With unchanged rules, mix F1 baseline→frozen is .420→.533 kick, .426→.526 snare
+proxy and .417→.441 yellow proxy, with substantial recall loss. Component snare
+gain persisted on twelve new pairs; the earlier strong HH gain did not (.501→.505,
+interval crosses zero). Sparse/absent yellow references produce many extras.
+Yellow recall is higher at charted kick/snare coincidences; that is not proof of
+HH identification or universal masking. A post-score exploratory circular-shift
+control checks timing opportunity without modifying real predictions.
+
+New survey-plan/survey tools provide bounded workers and hash-verified resume;
+survey_summary.py independently recomputes scores and plots patterns. The local
+diagnostic skill records these findings for future music tasks. No model was
+trained/downloaded/run and no game exporter or acceptance was advanced. See
+docs/broad-song-survey.md and DCF-128; Phase 1 remains open.
+
 ## Separate song-library workstream (2026-10-16)
 
 The user requested a separate, portable area for the growing MixDrumRock Qobuz
@@ -375,6 +400,30 @@ exports ZIP64 plus CSV/JSON without altering inputs or overwriting earlier outpu
 See song-library/SEM-REPETIDAS.md. The user must assemble batches plus complement
 in an empty library, retaining the old folder as backup. The user's actual local
 inventory, native Windows run and game acceptance remain pending.
+
+### Themed library additions — 2026-10-25
+
+The user requested new drum batches for League of Legends, Imagine Dragons and
+bands similar to Linkin Park. Batches 13–18 add 45 charts: 11 LoL/associated
+projects, 13 Imagine Dragons and three each from Papa Roach, Breaking Benjamin,
+Three Days Grace, Evanescence, P.O.D., Limp Bizkit and Bring Me the Horizon.
+There are 39 Pro Drums and six ordinary Drums, separated by theme and mode.
+The collection now has 311 charts including the unchanged 266 earlier songs.
+
+This is independent curation, not an updated Qobuz snapshot. The original
+744-entry coverage CSV and active playlist counts remain unchanged; new recipes
+have empty Qobuz/playlist ID lists, theme metadata and separate curated_* index
+totals. Compare future selections against all recipes by artist/title, source and
+chart/audio identity. Enemy appears only in the LoL theme; Heavy Is the Crown
+remains in batch 09. Previously published recipes and Onyx helper bytes remain
+unchanged. recover_pilot.py updates only its collection-index hash pin.
+
+See song-library/TEMATICOS.md for the selective Windows command, song lists and
+next-session prompt; docs/library-themed-verification.md records checks and
+limits. Six ZIPs, 244 assets and 107 decoded audio files passed structural/hash
+checks; fresh isolated ZIP/Drive/Onyx recovery and unchanged offline resume passed
+on Linux. Native Windows execution, game acceptance and the cause of prior Windows
+Onyx delays remain unverified. No ML or transcription scope was advanced.
 
 ## Do not do yet
 

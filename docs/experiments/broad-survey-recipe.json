@@ -1,0 +1,1842 @@
+{
+  "schema_version": 1,
+  "title": "64 músicas novas — regras congeladas",
+  "purpose": "Broad frozen survey; no recalibration or test-label offset fitting",
+  "frozen_profile_sha256": "57986ca5e92f8b258d30035dbae4c8a3807f59d945b87ee77ff25fa9873f8b0b",
+  "songs": [
+    {
+      "id": "survey-cdb5344af4b18d28",
+      "artist": "Gojira",
+      "title": "Born In Winter",
+      "genre": "rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Gojira - Born In Winter [d1747b9c]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "71978419e7fa9f7c7c9f465b5da2d4eda7b0fe8f916770f8393782a63b01856d",
+        "notes.mid": "cdb5344af4b18d28fae0736a887bc5a83876b3c145e5afbc965d6f1bb9e6112b",
+        "song.ogg": "608c2e0db6b852a554446580ee1cd8c8cbfdb9e38ebd73e4440f3b5e1f126575"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-9d71c08c1e6e2d15",
+      "artist": "Slayer",
+      "title": "Behind The Crooked Cross",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slayer - Behind The Crooked Cross [5b947da9]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "b62e1dfe2fcb9fc46742cef00ab637b2c83c642e2b5d9d04bf42c0f3ff2c80a4",
+        "notes.mid": "9d71c08c1e6e2d15067aa9e643d7fccc0f9473eff673fa6dba7ea6fb6ce6b00b",
+        "drums.ogg": "2e4a1f4fca8a60307dbf40961aa37fd34ee694194033af01e6c3661e0f5bde2b",
+        "guitar.ogg": "2e4a1f4fca8a60307dbf40961aa37fd34ee694194033af01e6c3661e0f5bde2b",
+        "rhythm.ogg": "2e4a1f4fca8a60307dbf40961aa37fd34ee694194033af01e6c3661e0f5bde2b",
+        "song.ogg": "71efd67e65693e933eecb587d626a510af644a1699be1192299be221ee2ed69d",
+        "vocals.ogg": "2e4a1f4fca8a60307dbf40961aa37fd34ee694194033af01e6c3661e0f5bde2b"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-d52e86965684e8ac",
+      "artist": "VIOLENT VIRA",
+      "title": "Burn Me With A Bible",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/VIOLENT VIRA - Burn Me With A Bible [3c64c1ef]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "dd145d874b1308b6e87f09950ab869402b684cf994cd376834bbef867554d06d",
+        "notes.mid": "d52e86965684e8ac85151ea98ceed68569889b7d2cf93669c86dacab727deb9c",
+        "song.ogg": "719d8e8b765b8fcad0061d757c8f6af49634efbe676cbe5b91937b102b660617"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-10598801d2b39022",
+      "artist": "Slipknot",
+      "title": "Duality",
+      "genre": "Nu Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Slipknot - Duality [8fcc861f]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums1]"
+      ],
+      "assets_sha256": {
+        "song.ini": "a043df462da5e7217cd09736363d92309219d769ea84fc8fae7e76698b699f7e",
+        "notes.mid": "10598801d2b390224a61fa5b805b0d80fe39868ba5487bda9a3158007bd7e8cf",
+        "drums_1.ogg": "f62065b0667b3d4caf2bc03d1154cf47927afeab84935b6e4bf9e4d2ce8296ff",
+        "drums_2.ogg": "4f132444cf1e169515ac44be4f99c7af4595c9f2ef4a519540d5b79be95eb0fc",
+        "drums_3.ogg": "339d0a19572c3e570e724e907a8c9c86b68d52e6815d5c025a23bb36878d3eea",
+        "guitar.ogg": "9bd13e9848f809aa0c34ae496db21ea4280a72da62f5738840370c55e6d45a96",
+        "rhythm.ogg": "c006d18516ff54d63cba75487c8785ffca9df6d051670c4e0e17a13edc39499d",
+        "song.ogg": "d5b473ad6f99acf528e6c3ccc477b218c6bad3f81c9d2a123331a2ea21ad7fa0"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-8dd3560704c528fe",
+      "artist": "Thousand Foot Krutch",
+      "title": "Courtesy Call",
+      "genre": "Christian Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Thousand Foot Krutch - Courtesy Call [030872c3]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "76c3d21985e83def174e183d3e9a6a2b11ccadb3072a1aa571163fd0363ab349",
+        "notes.chart": "8dd3560704c528fe273daa790303b85b13df26b90ff1187f38fb99488f199cbc",
+        "song.ogg": "dc41570d5fd5cfe2ce18aa49e5723b7ee2d240f335151b03f09f56ba2653a2cd"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-3139c2f7c733af1a",
+      "artist": "Exodus",
+      "title": "Good Day To Die",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Exodus - Good Day To Die [594d7c8e]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "187cb13d2530b7b1850f937f3f5a55dda6f48b629bfc71a6fe11be5919909ef0",
+        "notes.mid": "3139c2f7c733af1a27140463755d8044c247a3b6e681b3004743d3775da2279b",
+        "song.ogg": "3038a286e8501dd601bc235ee0a637672db479d473f354e91d1f6b19f870c9b5"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-e77d67c14d6ab6d4",
+      "artist": "Katy Perry",
+      "title": "I Kissed a Girl",
+      "genre": "Pop-Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Katy Perry - I Kissed a Girl [57f6ec81]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "dc103245ed1cd03d9b5a6473420bc076380bd6eb94e81c6cd48cb7d997b73fff",
+        "notes.mid": "e77d67c14d6ab6d433f1e8c912f1eb53e6f9d4564d68512e4ddc3e0b24f417ce",
+        "song.ogg": "93f5003411ef90210e907149c4e5d6c2a2c1649a91e2d79d17676eb9a5b66e97"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-fdb996d7ebe19013",
+      "artist": "System of a Down",
+      "title": "Chop Suey",
+      "genre": "Nu Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/System of a Down - Chop Suey [be01d7ce]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums3]"
+      ],
+      "assets_sha256": {
+        "song.ini": "2db816aaeefb300d8dc9d04da26eba97f0d20c49209ccdfe94a31d211661e846",
+        "notes.mid": "fdb996d7ebe19013c4bdafacc1cfd35904c3f8181390fb8ce73623a7270ab198",
+        "drums_1.ogg": "befa53b53f300b5b982df13b5b56a548f88f226ec2cd7a806aab22d7c4664748",
+        "drums_2.ogg": "5a52e5becbaa03ca8dc7f0afc1d62c48432f0c866d4d8425e637c722b64270fd",
+        "drums_3.ogg": "6d17db0d56031c027e37adc74518a1350ade6d72c70d0514d81afebde9827ca9",
+        "guitar.ogg": "620db33f91cc0080f62d8edac8046d6ba0d41202697269d7f0df9984f346faf8",
+        "rhythm.ogg": "c00f4692cbd4716e1943d5630996d3d957d9433ca8f977714039b0fca882d9ca",
+        "song.ogg": "143fdb6f2a1f1691bf6eae3b4640b0f05b0664ae37a79ffa247315e0ea9e5e4c",
+        "vocals.ogg": "0d40aed3548e7a2b5bf4a343f86dc377307a84c75149e4ddc938344aa79a1e4b"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-ef1f90209ea6e752",
+      "artist": "Dream Theater",
+      "title": "Take the Time",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Dream Theater - Take the Time [5334d0e6]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "479529df1dacb4137980275f95dead145ed64b99c1441d3b2b48750e4d6f2f74",
+        "notes.mid": "ef1f90209ea6e7524e90004db800260e633248817f53a92a7268509c614a86a3",
+        "drums.ogg": "2d2ee961abd7624dfae41db9aa1fae9f302c7d55b0325e2243ec1457cf7a6601",
+        "guitar.ogg": "291a31758a57512d6d8f181a7c7ae293eb20b0a6de60bc50f6ad768209a07bbb",
+        "keys.ogg": "57af7925da50768772a85e14424dca804c78f79ffb9f52208489df344753dc63",
+        "rhythm.ogg": "1cf8ce7935282c21520b4e6b138ba6ca621b89b27c96b0c76323ea45a5bc2169",
+        "song.ogg": "d6b9a9dd5062b2fed214702a65d8436e700d109a61c63e762446bfda569709f9",
+        "vocals.ogg": "7cfe3ac0dff482ca8cb657d4a8080d788dc002ad42a25846a5530ab0263b5fd4"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-1dbefd72788f28e8",
+      "artist": "Miley Cyrus",
+      "title": "Nothing Else Matters",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Miley Cyrus - Nothing Else Matters [54139245]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums3]"
+      ],
+      "assets_sha256": {
+        "song.ini": "795996e96812e58cd67df2c0f7144cbda9f830b8a6a075519447ac9c0c206c05",
+        "notes.mid": "1dbefd72788f28e8ffca487162ffe946a8e955995d704f0a5adb0d4c75ea3436",
+        "drums_1.ogg": "3d70a5404556ea402447a1790e62433fd28189c65cd45a7f8be15cacba4de67e",
+        "drums_2.ogg": "ba1cdaffe8ae6d4255d219e6dba92d7b322a021f608dd71d51ac213c0182ec5a",
+        "drums_3.ogg": "0016a61fc89c45fe8aad7857429d01449709e2c07f6911ccf2a60e9bbf871256",
+        "guitar.ogg": "9cd435a182b0f459b7b380a3717ae2c1a28ee63c7112d0d5881330b17dd10e1a",
+        "keys.ogg": "4eae70ffbcf954be4d7cc67fdb4631f64ca512b7d27a65285013dd5eafc1dd82",
+        "rhythm.ogg": "c0a92cbb32e1e797d2b4f7eedccf2345bab9959f180d9bb2b9bf214a1169c458",
+        "song.ogg": "face61d42339ca1d540f1c9fefa49379de04ea93f359a677aff3077933fb3c90",
+        "vocals.ogg": "4f57e27d95691676fb858da746caa80400e350be7364b90d65f3950b84f1931c"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-beb431e54ad228d7",
+      "artist": "Linkin Park",
+      "title": "Battle Symphony",
+      "genre": "Pop-Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Battle Symphony [5b4a1761]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums3]",
+        "[mix 3 drums3easy]"
+      ],
+      "assets_sha256": {
+        "song.ini": "9fa920a76fbdaa26d00326e99aaa871a6c66078c11b83b08bca25966c085dcc8",
+        "notes.mid": "beb431e54ad228d734eeada1b60e2a1996c9325a98fe02ea8b7ce348da258c9b",
+        "drums_1.ogg": "a33a1cc4ae1a8abd959d2a1a39bc8750884d3024718d4e31615d0d347db2a6c5",
+        "drums_2.ogg": "16125b7e3064f75a0c219e79048c945709ae6341b1925992637fd8bee5f48f60",
+        "drums_3.ogg": "cf43ea83f207f2cec95b5e8ede1d32d3b49c8586f67a48fc7bcca3b2b7064b6f",
+        "guitar.ogg": "f245a5345523c68da26e061b2ee5c00afe09937a86dbe90ddd07ecbef9bcdbed",
+        "keys.ogg": "d0f993023b93302d0a95b91dd4ba144c48b9d04e1ad7e9e9d0431a48a983fd86",
+        "rhythm.ogg": "60b86d84629045179ce93ed58f8d472ba0b4b7c37cd4fbebefd93325ca7a1992",
+        "song.ogg": "c472d748591b2a64e234b99914ffc4a80d1c33618404deb948204f249d2b25f7",
+        "vocals.ogg": "2b12a84c9cb35c4b467bf7fdbec3a373082c5056bc5aff640fa9a4765d85af72"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-9ac47a4fdb4d5175",
+      "artist": "Metallica",
+      "title": "Ride The Lightning",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Ride The Lightning [413fbe5c]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums3]"
+      ],
+      "assets_sha256": {
+        "song.ini": "bf51bff1c0b09b63cd797cc6351bea0fe63f8495961a04cc6f85c3b5e98006a9",
+        "notes.mid": "9ac47a4fdb4d5175ee51e599d178cf722168db3e4d25cbcbb3a9abcd7d4b08cd",
+        "bass.ogg": "07b0f36fef9d6603d3ba7955c0325c844a9639d9aa7447867d542711700ffcb9",
+        "drums_1.ogg": "94ef491a7ff8006d42b6a89c35987f3d31bb369e582c6d55602912566f7151b8",
+        "drums_2.ogg": "03f61e31957f6d01a00dba630e7b88fb83982f22906c61397c06ffda33fccc1b",
+        "drums_3.ogg": "57228b1426b1a2e687cd7bd1155ddb0a09f8a5e916ad4029e6047da14cc604df",
+        "guitar.ogg": "0eac1544bcdffca0c0bdab86508c7695432a654c71b4f1ab171b7f0284d53160",
+        "rhythm.ogg": "3aeeae0d07a971b7a66d588d53badecd07a9418a1d18f9e76d9087259ed7c25f",
+        "vocals.ogg": "20331e89868b7980089c799557e240fb5e336ba861367c8eac112eab420a6d27"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-89fea96609a285ca",
+      "artist": "Iron Maiden",
+      "title": "Paschendale",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Iron Maiden - Paschendale [641c8736]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums3]"
+      ],
+      "assets_sha256": {
+        "song.ini": "47bd6b95087edf8cf95b674d86ab14482d68501a913682536745d916f97f27b2",
+        "notes.mid": "89fea96609a285cabc6658477e79ce349fa745c9a3109b0827344f795f7a7ea9",
+        "drums_1.ogg": "1493223b71cca084789bfe4510595cef8699ea5ee8d986861eec8e3fa4b62ade",
+        "drums_2.ogg": "7c5be95170c06c8ae4d60eb0e8cbdebdc13e9adfb00d226dc21169dfd3d765c4",
+        "drums_3.ogg": "534c9d082ed338245e5d702e1dc37057459e013c435f2bf04cd55a27edd281d6",
+        "guitar.ogg": "a5df000661e5a09c09cc20f511ccd9b4107ef48084dcde42338f755b123d4283",
+        "rhythm.ogg": "e2aee09d3c3b3f453ba246f416dcb742ee986263dbf3e4441830f076b77638e8",
+        "song.ogg": "c11c8d62d2bf57f3be272eee2306309c656ffb3e2e93625ed270a027d6d04379",
+        "vocals.ogg": "f5c1209a0483f3831696dffdb61f91384d51146f920c110365aa8020ac617a6a"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-83671d2a94519bfc",
+      "artist": "Sepultura",
+      "title": "Subtraction",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - Subtraction [5b1496d0]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "4515125c1399c579b58b78d169cf7ce921562608064577222789607607778f58",
+        "notes.mid": "83671d2a94519bfc839df29e34f39c61a175db4e893e7d77c1a10afecfe87ab0",
+        "song.ogg": "ca7ca066388e5220ecf948f2c33acafbf39fa4df1ceae5d70d88afe26b5bdd4d"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-44c8c8f6b2ecd2ac",
+      "artist": "Skillet",
+      "title": "Sick Of It",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Skillet - Sick Of It [6414b2fc]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "705805597c4925e43c58feb72bb30cc6811ed27b0cfda0b5653d2c86347a27dd",
+        "notes.mid": "44c8c8f6b2ecd2acd647a132a71fd1c71daf2626a00b9fa221364d99e59c1e00",
+        "drums.ogg": "e5252ccd6cd1ee7d7af721764537a0b895cf8326516cbb0e0206e1af5b6b09e6",
+        "guitar.ogg": "81ef243b5fc26856b2dae2541e69a38ae4c8d2e18c3248782254ba5000f383a2",
+        "rhythm.ogg": "b60030724641fee5de2051189a67f12e2a85c156c17617b90dd1f9498def4738",
+        "song.ogg": "446f85270fb1ae62a507348407653d130c0a16aaf5f30c180412daf127eac93f",
+        "vocals.ogg": "ff3a77eb506488dabebba3a7e772debce6289010976336c73dd94c58793f55dd"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-c5eaa37713a1879e",
+      "artist": "Nirvana",
+      "title": "Blew",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - Blew [910fbf38]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums2]"
+      ],
+      "assets_sha256": {
+        "song.ini": "5fa14ec1a0dff9cbb05d1e035a97598dee734fdf1aba2b344bd5a5ed0be808f4",
+        "notes.mid": "c5eaa37713a1879e7a9a8d1608d37b7e9b75b0e6377c7ce939628fff96ff1b1a",
+        "drums_1.ogg": "2acbffb28ec7e2f94cb6bca9d1d94695f0f159cb63c30781792d25451e0d90e3",
+        "drums_2.ogg": "e889b54031d0b9d0514d0297879f4602367660e347f02acea6618a3d49dfe43a",
+        "drums_3.ogg": "14e090ebddd99a76913365b15c7dcff2e2c0e5c4736605c0307b4faf5d426a6b",
+        "guitar.ogg": "9b551a67d7f4a1a6f7dcf896af24e055d79825a2784c54809b0c4a1c10b607a3",
+        "rhythm.ogg": "e86dcbfd27a77f05c53391f8b067b39a513bb15f813435ef14e1539d0b4c3d66",
+        "song.ogg": "5794a555db8fe342c4e4c3da65738997e018efe5a91f6c5644a40049bb9462f9",
+        "vocals.ogg": "8bfd08c97359934cb5060b7aed9e730524f08f2ba2f445f83d6991cc4fe1aeab"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-e1a4a1a912400aa4",
+      "artist": "The Beatles",
+      "title": "Ticket To Ride",
+      "genre": "Classic Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Ticket to Ride [551aa4de]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "e3f55ec1be8b4b482f1d11e33cbc0a79ee724c52213d6fa80c67eee21d04b654",
+        "notes.mid": "e1a4a1a912400aa42a2008993073b497be4b9a293e09b05eca4d2af424f4c987",
+        "drums.ogg": "53dedb340d1d9e35787a3e90a5bb0aa52e00da4bbfb08baee76540c642985eaa",
+        "guitar.ogg": "e8c6951b2705232959b8fc0063b6abab137fa00d45ae1eee97b929083911e5b9",
+        "rhythm.ogg": "68971a6e3036156f6958bd2f80c9fa8605bc584ba5e6925ad25ea0c1ab3d1474",
+        "song.ogg": "55082ef9c763a9081711d63a5ec015494133d3fee62aae0bbce32d3fe2ddf86e",
+        "vocals.ogg": "753e64b74ea4666a15a044d46cb8e956d4f47dbc76100ec1cd219aa0687d4f44"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-c9cd03756d6d8dbc",
+      "artist": "Megadeth",
+      "title": "Sweating Bullets",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Megadeth - Sweating Bullets [596f7c75]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "f5ad4e17e4489c8f3329f87bce8a5ad7814df3c74b5b86cadee0fc2dcac9d4b0",
+        "notes.mid": "c9cd03756d6d8dbc774bfd22b56b451ff19f9c9e87d5876964878c85ffdb5b08",
+        "drums.ogg": "51cadd622e158576b42063c6d32fb974e375cdc72a34c33d74bb969ec17095d1",
+        "guitar.ogg": "ddd9faab7d3aa3ee1451cd0f28f65b88ac245cd53d19ae673f49d1ca8b076470",
+        "rhythm.ogg": "9b85a605066d09cf9fef6207b864ce35a2730499344a9d00c33a25106b786b34",
+        "song.ogg": "c57467a97c1b89ee6b3301f3415ad11a02eef5d6a1337e48e9b8e49f0e523962",
+        "vocals.ogg": "6d91bef9544a64099fbece9fc7909a1b3581903ba2a01a36c1d9e9a4d7682293"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-7f383b348ad79e6a",
+      "artist": "Angra",
+      "title": "Nova Era",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Angra - Nova Era [8959218a]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "34e135a726eb0fc6ef0fb8fadfe9f4cb234b53273ad8cf8d39cd924fe9c1a6b1",
+        "notes.mid": "7f383b348ad79e6afebd3813722b19868f34a8cb1ae7a41cd5eaef8a8c14b490",
+        "bass.ogg": "cb96fa33f455fb38cf1b87a9dbaad42b8572d2ef18751516388f536d803eddb1",
+        "drums.ogg": "17785df7a561f97242d38af44f3e87c7308de2198b7a21e1279fdee4f313794a",
+        "guitar.ogg": "c3aaf6cee22c078b0f8d018f0d07845d98f57034d2091e40f985b2562accbdb8",
+        "song.ogg": "a9ff15c920812ca2adf5cb371b1922faded638f07a39d7c7206f68100358072b",
+        "vocals.ogg": "028ab50d100e125fdd856d8298728dcf1ce38b0ece3c53cf35cbf6c84bca054f"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-c8636fc338486b58",
+      "artist": "Avenged Sevenfold",
+      "title": "Victim",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Victim [5b947db8]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "9c42306cfc39d0b9da69498d0e050928bbe1492f690329e02a43c598abd9c191",
+        "notes.mid": "c8636fc338486b581726037f57ac826ae49374a506ba9ae49b7d40e534dd125e",
+        "song.ogg": "5d8909601daea29cad4c7b0e4bcbbff19fc5816ac2a29be031ab1ad7d0e59082"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-24d5b1d2279e69c6",
+      "artist": "Gojira",
+      "title": "The Heaviest Matter of the Universe",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Gojira - The Heaviest Matter of the Universe [3788a9a7]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "695b06d0493d85387115d741101011c05ec42df541ca127c1c3c98ed901ca43a",
+        "notes.mid": "24d5b1d2279e69c614424574fb3215c02588f5f2599d9b7900427a55e6bb5aef",
+        "guitar.ogg": "6b8d64e531c3842bbd1f947e07d5bad03bd93776aba90b637abac5aab0a34b33"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-d08ad56ba632998a",
+      "artist": "Slayer",
+      "title": "Spill the Blood",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Slayer - Spill the Blood [5ce6b927]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "d6ce2975df6e3de90fef2c9d4d14fa9ad473ae7a695d73457c645040da33107f",
+        "notes.chart": "d08ad56ba632998a0b407f54ab193add79852c043041b80ec7fc96865bd524b8",
+        "guitar.ogg": "2cdba34f5b3c80e2dcb77416cd6f964b0223034b38da846452a58d03f3c4a697"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-9589b1661ab68b58",
+      "artist": "Violent Vira",
+      "title": "S.E.X. Narcissist",
+      "genre": "Alternative Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/VIOLENT VIRA - S.E.X. Narcissist [d8b2446a]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "ac4866dddf35f8607a3e500179fd2add71bea83607801bd89047f0eae6e6e23a",
+        "notes.chart": "9589b1661ab68b58fee9121a1901765387972d7dcd6e1c314a59bdaa26517216",
+        "song.ogg": "7fe07a3c806e088dc06b2677563d7bbf9159702e6322f467cab9aea6cffe362d"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-2fd990319b54d55b",
+      "artist": "Slipknot",
+      "title": "Wait and Bleed",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Slipknot - Wait and Bleed [0e34aaa0]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "43dc87ca04e429c6e509fb9b8a214d8ceb22fcc9a451873b9bc4c2ebf624f21b",
+        "notes.mid": "2fd990319b54d55b0671395975973f3e01eded6721cc11167ae16cc446db36e7",
+        "bass.ogg": "4f75987215bf0b0ae521f1c0337dfc42571ddf28ff6c8897c53508d2f8c2ac8b",
+        "drums.ogg": "4761d215a1a1483a9725df4d9e3c08fd59736e1f06989bef6ecdf69c1c62a531",
+        "guitar.ogg": "fbaaf59a46bb95c9ca11aeb69d94428f7d6cc77316416b1d425750bf5cbbb602",
+        "vocals.ogg": "186d746ba37fc4ce107918cb45c01344f30e45c16143d1dccb703c07d5e986d5"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-8ae5533d5d75b64e",
+      "artist": "System of a Down",
+      "title": "Toxicity",
+      "genre": "Nu Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/System of a Down - Toxicity [94fb73d4]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "33059fd77e0c7b1d53fa5f902a907260352564b9743d9febb12ee1a1cc112e34",
+        "notes.chart": "8ae5533d5d75b64e4beedf3e77592d9c57976f795c721a8b66e6c204702023b8",
+        "song.ogg": "a4816a305dd6c2d39d340fa1ab14c7ff722688788967be908eeac75d1a6f903f"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-260017f9035be73c",
+      "artist": "Dream Theater",
+      "title": "Octavarium",
+      "genre": "Prog",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Dream Theater - Octavarium [5b947da5]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "3a17df74e88e90bc6d553ea957b2198c961cdd0fdf6852f821fef787d7bbbcee",
+        "notes.mid": "260017f9035be73c913b1f81b4cfa9bb059e2ab32bcd346d80b116a4f9f24401",
+        "drums.ogg": "8276553a1d77ee4fe75ad232dfb6c35d246e79df297249cc45aa6ff1b0f883c9",
+        "guitar.ogg": "cd096251a00315e913edbd82e5dd0dfc025905679ed8e1bf5e549b3523fb9174",
+        "keys.ogg": "46af967dcd70fff7ece5a6166ffaf59ea2e4490acb193bad70a73a4e063e2ec0",
+        "rhythm.ogg": "f15a9f2825e87ec22cb77c2c973aca8be10ee67bc10dc696d259cea65eea97d9",
+        "song.ogg": "e1e2d2cdde8619fbcc8aca3b8c24107bb694047a939062a02eaaf727049a6b60",
+        "vocals.ogg": "69210911ec61bbfaeb59f7fe2371b5ffc541fb63254c574c81474f736716ca7f"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-5d99d9c941c99e06",
+      "artist": "Linkin Park",
+      "title": "In The End",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - In The End [b6b97e67]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums1]"
+      ],
+      "assets_sha256": {
+        "song.ini": "733a3f27b2142d6b71e5f15d17effe90346dc649facae7609a71001c6d68a18c",
+        "notes.mid": "5d99d9c941c99e0606295d1f1cc821a2d5550520d21d594a91b93f1758780aca",
+        "drums_1.ogg": "aeb3661345ac9fe754339e9450c17dada039ec88cb3975ffa3f74a10645547d8",
+        "drums_2.ogg": "2d281c28a0e8471bdfb30cba2621a2de0cd57432f01746a2bbc122f0dc658da4",
+        "drums_3.ogg": "f578a7b0f3184d924b967f7d638348e10a439bd28dbecdff5a4c5aec6b502349",
+        "guitar.ogg": "d814447d8a1c17a41e8362fc4d4135956fc6f4e78351c82d8fd94a444951187a",
+        "keys.ogg": "cb4f78dcbf89e357e32430dede7acbf5d746410ee7a155ba96808a6b4c6a57ab",
+        "rhythm.ogg": "ec8e8b137ae29daa3db04ab4c49c0a70d54b4790141512cb0b056a3b0e781a51",
+        "song.ogg": "75bc8c3270409e6a571917fa5ffed58ba93b5f49589701d12785d94c29fba160",
+        "vocals.ogg": "2c355ac10197391b60b0cf58df9aa8ad82a98b4d4d15f1fc910dceb784f397d4"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-a67419c0a427a81c",
+      "artist": "Metallica",
+      "title": "Blackened",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Metallica - Blackened [b76dd301]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums1]"
+      ],
+      "assets_sha256": {
+        "song.ini": "b5772850c093749c470ff1f62c00ec1e23eb013086433f0e256c19ab4cd99d75",
+        "notes.mid": "a67419c0a427a81cc7bc0cd6206ffd307819ba965d45c942e5075c0da375908b",
+        "bass.ogg": "13076ec854e27519d01f2cab14ec07bf0f63c655fe211ff9072546bd1a19a4fb",
+        "drums_1.ogg": "62ce2a12172742f7c6c16dd92a4fe3a972162aef7851b1f5b4ae53fea5679437",
+        "drums_2.ogg": "3f32ff7a2baa69d2fd7847ccd41229eda0c9e5499bda7d0ad63528f9c70644e6",
+        "drums_3.ogg": "d63e2a43bc42521ad8bb2a9ce0c60fb6eb97596dcb9e8e26193333c6101678f4",
+        "guitar.ogg": "f9a9715d402983e989e446ae3c00088ec4df38bb1fb45bd60547ed141b225d63",
+        "song.ogg": "0e69147c639ed66675b3f0e68254bdbb6f399a03bf4f8f8614a0fa51ae261ba1",
+        "vocals.ogg": "fe608cab77cc4c40a108e4797440e584abb30631a2e9ce11ec27e826f8d4a296"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-c65ed2fe66125123",
+      "artist": "Iron Maiden",
+      "title": "Charlotte The Harlot",
+      "genre": "NWOBHM",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Iron Maiden - Charlotte The Harlot [96ff27ed]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "d7c7c95701f889b3f7647d823279655070989a5f15845b02333d27a3581d96b4",
+        "notes.chart": "c65ed2fe66125123bf309773b209ff87a51f72b67e40f19d1632f1b48767adff",
+        "song.ogg": "64554fe6fe221551b384036ef401b011b6dc3bb0d7c347f1cd6a2a071deb6a00"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-ca39bef037c447df",
+      "artist": "Sepultura",
+      "title": "Murder",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - Murder [5b076385]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "f7cc36471c6c22f0d1d98fb439fc344c827d21cbf427618e85aefa654044c175",
+        "notes.mid": "ca39bef037c447dfaa0bc277ba25fb414c66cab4e2367d5f73486ff9357cd233",
+        "song.ogg": "393819eb31f228285586cfbee75a665117551573ad35658543af82d7f62a2a95"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-d4131a6d6b533d88",
+      "artist": "Skillet",
+      "title": "Whispers In The Dark",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Skillet - Whispers In The Dark [5b947db2]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "34cd65a224d1af982ff1241f21d595dd77c0e815a42429c553fc751b76b5b387",
+        "notes.mid": "d4131a6d6b533d88425a2fedefaadaf20b29f1a7abd21a9bfea91a44efd11d34",
+        "drums.ogg": "63b6d41d8effafd4d897f1a0f91f689abb189fff65bbcdbfa1a6751521d5ae08",
+        "guitar.ogg": "a5a0938f21ef66688c31eebff64f8f3ac65c03fd5eddaed0baef8d528191282d",
+        "keys.ogg": "17a60dd7613de15e7ca7791966383704289d2b35b2d6a5d8d2d986706450e016",
+        "rhythm.ogg": "e31e36ae6b6384fd141cbeccb9060cc539f3b00b0b84e026fffdfc89a77ef249",
+        "song.ogg": "f64768f64fb1da9bb6aba32277f1b39801f8eaef8e4151c4c862487c631c327f",
+        "vocals.ogg": "de28f1e6a683479a7447087a357353ed594e7d5416b33b6bd2e837ff68119d4b"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-b5317d539ef93109",
+      "artist": "Nirvana",
+      "title": "Stay Away",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - Stay Away [15b37250]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums3]"
+      ],
+      "assets_sha256": {
+        "song.ini": "cd966a860a1905d6f5dbd857728c6b1fa9179b1fd89f84f3388a65adc741a987",
+        "notes.mid": "b5317d539ef93109a95576362f48c54642e376f5068ba4d1440122d6babf76ac",
+        "drums_1.ogg": "eb322611dd0931f7ad6c607c5a2d45cb3236cf32da7836870b7239780784812e",
+        "drums_2.ogg": "c44fbfe2b2ceb24004c541429ef25f093551a8388b74f990926d63380bfb8121",
+        "drums_3.ogg": "c881fe15f6216a50b1120a6f670c95765a5cf5201f94b82180e896e744445035",
+        "guitar.ogg": "4845af8fbf72b9c204638ade74d95dd0b77617121040d6a31625ecca6fd6fa7f",
+        "rhythm.ogg": "e1aa18a94aa53b5db36f1b6f12501b6f546e258e6bbcc827af0074b16f08a77a",
+        "song.ogg": "da40066d44577b6018dc9c00c9fdaba14cb5f3dba29296d36c0ce874b72b970d",
+        "vocals.ogg": "096a1ecc0200fd5fc5c95f786a8b2d6d922607682d43988b329587e7e7ebe5e4"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-e1605fef8e859c24",
+      "artist": "The Beatles",
+      "title": "Strawberry Fields Forever",
+      "genre": "Classic Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Strawberry Fields Forever [548b2d1b]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "fec31fb1b9ea6b1f2a8819f7f54028c8f5d7b5b3b40e2f67e924b8730d172422",
+        "notes.mid": "e1605fef8e859c245fb893cd5bb470b9784a6a81e8ba504c958a2a2bd38003e9",
+        "drums.ogg": "31208986fe0846d450e3494aad0d9dce5ac9bf84c6ba8c29a28f2c0d08405b38",
+        "guitar.ogg": "40a4cf70eb3bb4ed0f36f2d880e2abd4ee9774b9603feb2dbd3d8c9e9358b015",
+        "keys.ogg": "aa4c1415b1d6126170e0497f206b75d2d5885c74b5166f4d3e9c09dc98b1f4fa",
+        "rhythm.ogg": "fd0be933ba1313306b1e25fc5f0d2d1b5d84d6f8a8a4f8a878d43b5bf4019b83",
+        "song.ogg": "29920b30908ea741f95f8ae4b5a575240eafda2f01824ca10652b36593fcc542",
+        "vocals.ogg": "cf562c9916b639f66aea378492b736dba99906df7d73ddaf365ca30441196078"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-45dca4661a6a6699",
+      "artist": "Megadeth",
+      "title": "A Tout le Monde",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Megadeth - A Tout le Monde [a0cc6ac9]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "54c33e67ad3e9e52a2ee15c9889254a6c9c053ee30723bc91de7166b2993c4a3",
+        "notes.mid": "45dca4661a6a6699e3487ea821c93b7d2ca5f115f07d858ed3fae216b6339538",
+        "drums_1.ogg": "6b9299a2075e957ce578c64678617d4876be2fc28299522d7b607c1807170ded",
+        "drums_2.ogg": "2f5097fb000f35f4fc020d097347e2a6885bf03eace87f04dbbcf6dac6c2ddd8",
+        "guitar.ogg": "dc244ce89c49f7f3a24e3fa322e16542cd57ba2d031e5bfa0de26b25f3c68a4b",
+        "rhythm.ogg": "9780499097a29105a49de7abfaec2e35c4a46a1e2fe53d329cd033b4699bba80",
+        "song.ogg": "2a8315008e54bf11cc07676dbce11910e264ff800d71e260a7d31d4ef5e1480a",
+        "vocals.ogg": "57675609dd7ce22854bdfd34e3ae26f580072475b8f5fb570ff719fdb5890713"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-1cdfde4cb5332067",
+      "artist": "Angra",
+      "title": "Waiting Silence",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Angra - Waiting Silence [5929608f]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "00db52d8a94bd63dc90eadd423033866967da63a14986c893de70c161c902972",
+        "notes.mid": "1cdfde4cb5332067c7f5785235791531566317ef4ac9ec5a78c4c8446ccfb6ff",
+        "song.ogg": "dbc8d050f2d94c1a5cfc302d97e9208828e556db0aeb9a55c786add47d4d9d3d"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-5863f009aec9c06f",
+      "artist": "Avenged Sevenfold",
+      "title": "Coming Home",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - Coming Home [034ed5ec]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "6e8e56fc83f39a08198cba26d8cfc2a0ebf28b7e2dadeda5acdfcb9d25884618",
+        "notes.chart": "5863f009aec9c06f598ec1f742f9203a5100e117da3b369b96efa49c9f7e7228",
+        "guitar.ogg": "abb7ede1213de23850d1f3064bb147e12be318e287924caa3462af21f5102ea9"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-da515566544d16da",
+      "artist": "Gojira",
+      "title": "Flying Whales",
+      "genre": "Technical Death Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Gojira - Flying Whales [0727d1a7]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "2a710aa608299b732f709dffb10691eea9d05d470a3b7d22c281717a98e6ef50",
+        "notes.chart": "da515566544d16dafca653e6d16cf131a304ab8e0a0b75b2c479b985a964e2d3",
+        "guitar.ogg": "958d73d989cb687fcc954aea2fda6b966ec1546b5a23336c2513d62fafd75790"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-241f7fc866b8a529",
+      "artist": "Slayer",
+      "title": "Skeletons of Society",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Slayer - Skeletons of Society [606316d8]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "8f17cd35807b6b4d1946ce6394eda2439ad8a97673b80bf4ce2d2328ccdb647a",
+        "notes.mid": "241f7fc866b8a529f1a63e5ac9925f5b7e8700e7a270c39a0b4d57184e0461c8",
+        "guitar.ogg": "8d297f8c7bc3e9f90c0ea3d9697c1214914577b216c719d86c0b36f9d88bb4f1"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-1a84e51d0289377c",
+      "artist": "Slipknot",
+      "title": "Eyeless",
+      "genre": "unknown",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Slipknot - Eyeless [c175cab0]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "84c5678ebc153f9aa1e5cb49bdf29ccbdc821798f5e57f40c71e6f109e44ea5d",
+        "notes.mid": "1a84e51d0289377c452b6b23a8fd464f702a32cef86f5f36cfd744be168377aa",
+        "guitar.ogg": "b16afdd5c35ed9f0b728850a336570d2faa82ded055529b0df194728abd1a14b"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-6bcd506c6dc15a1d",
+      "artist": "Dream Theater",
+      "title": "The Mirror",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - The Mirror [c490b12a]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "067031b5ac947a19d9edda19f2ea3405fc5f6cf2345278b883f03bebd5555a95",
+        "notes.chart": "6bcd506c6dc15a1dab521c6e16f256bf75d14de85447d0780ae75972e756a0f9",
+        "song.ogg": "19fc7336a199f050edd222e67d8f6205aa197756037c0aee6096bcbf4f3b0b17"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-1726e5a2262905cb",
+      "artist": "Linkin Park",
+      "title": "Lying From You",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Linkin Park - Lying From You [3e2397b4]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "f6247018480861bddc91983ef1fc83e9141cd1eb5f8a72bd60491173dca58a9a",
+        "notes.mid": "1726e5a2262905cb29bf3d8f5aeff7f6b32da07a155c2563b2d31771c6ae654f",
+        "drums.ogg": "89bff4725e77e39ad2cb0cc1bac444c4bc14ec5c43f44b0312590f084cd1eecf",
+        "guitar.ogg": "db79c435524ac57c302e4cd8e17900a61fa1062a4899194623f0a00ff9531910",
+        "rhythm.ogg": "a2bb03806fadd520bd1b828db239b3e4251258e108f4113fc2d2ff30ab63d0c1",
+        "song.ogg": "db0d8060b4ab9a027aef890758376e646a4f70a19613a5cacff5c17dd3b59192",
+        "vocals.ogg": "abc03deb78381b86320df7f7b5894118ee9d5371cda4ff6ea47c79d7589fa39f"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-565a6dc2b59df650",
+      "artist": "Metallica",
+      "title": "72 Seasons",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Metallica - 72 Seasons [311119d8]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "08bbbff5f1be5347284fde696404eff862ff5da62a2993549452d8a8efb279ab",
+        "notes.mid": "565a6dc2b59df6503345bcbc97138523a12258237b96ec352845901d75967ffc",
+        "drums.ogg": "03ba4e23e2e2e8292bc28dba0855b5ffd0d2337785ed49dc805fb65760096875",
+        "guitar.ogg": "9de682f3d3ec1a97824e7b72cab3d30970bfff6b489396756e45bd55bbb1619f",
+        "rhythm.ogg": "397d8e0732d868cc71ddff9293175d50a3fb9a2dc0d0ccfb51b0827f240842d3",
+        "song.ogg": "1b92e391e98a3bcdd475ea9a7cad208845b1a168f0c3e8c6c5a39311c50a0fca",
+        "vocals.ogg": "897fca62917ad5b9bf259d36af319bf6172cc9b7cdf39e06c72d5d741cd7ed0e"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-f048044c6d3aa56b",
+      "artist": "Iron Maiden",
+      "title": "The Evil That Men Do",
+      "genre": "Heavy Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Iron Maiden - The Evil That Men Do [a2f57d41]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "35c3fa2aaeb0b7313866a4d2402c97a76a19b3132e4c4672e810f561c294297b",
+        "notes.mid": "f048044c6d3aa56bbcb9f02c63314d717a8b231f053a21d523bd0bc6e235f580",
+        "song.ogg": "9d35830f73909ef5ca0869feb61c5706c273bd85c048aedb2a25c93edf212e43"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-4e5e90a98e1d78f6",
+      "artist": "Sepultura",
+      "title": "Meaningless Movements",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - Meaningless Movements [5b1687ae]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "a39fad45db361d35fa8317fd05f5b3389cace2a554a0303b9aad3eedd9c0155f",
+        "notes.mid": "4e5e90a98e1d78f63fcf2317862724af0401402dd46e0f1a21cb9dc6bacbca5f",
+        "song.ogg": "aecb0e20f1a5eb0dbab48dc451aef2b567e9ae47f2baf26a4dfea0bc4184688c"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-03d63755c5ab2440",
+      "artist": "Skillet",
+      "title": "Not Gonna Die",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Skillet - Not Gonna Die [9ea440db]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "a6ff9358c94937a1b353e4339fb64b73fd056c1a331635d2619620a272ded0f1",
+        "notes.mid": "03d63755c5ab244015d28d5285946a5013cda8db364eaaba6e40dd9520545ade",
+        "drums.ogg": "33f35c51067943f54c1a0145f3e670ce570e09ca4a82370a1a80b5552f39a451",
+        "guitar.ogg": "9ea4db8352b07a0110aa96049ab96f836714044c57ce031e3aef2d31fbeb7479",
+        "rhythm.ogg": "2adb6108eb47629387611d58d007738435b0b38f3fab5fb16f4255a0afc0d737",
+        "song.ogg": "eec8583d65219a06651137045bc8976c0ad692cf853db394eff77b363c859421",
+        "vocals.ogg": "45ab022af1abca5a642a9c780d96aa4d385d5cb614e32cfdb354d50257f8fcdc"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-19c45d0549541a43",
+      "artist": "Nirvana",
+      "title": "Lounge Act",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - Lounge Act [56d65e91]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums3]"
+      ],
+      "assets_sha256": {
+        "song.ini": "c8f540928a7f64399d2e33d1098fcbb8efa1c695357eeb9d1c49e0694e5ec951",
+        "notes.mid": "19c45d0549541a435d190d3333aab2dc74f6a9aaec6068bae4dc3e17ba8c6297",
+        "drums_1.ogg": "f11f4a0ff519912d2dac503a938b554dfeddacda051c2af516816d094d299008",
+        "drums_2.ogg": "9fe61dc4cf810ceee5368026d3862f64c930e150832eabfaf5f758b9d822684c",
+        "drums_3.ogg": "c1faa2a92f7d9c8d42812097d4d36f1ea4b97baa5e1d33bb80069e7d2c559a49",
+        "guitar.ogg": "664b890abb87829c2accd964885555039233549e845ed112d79ac96dfba282b5",
+        "rhythm.ogg": "44e507dcc42fabdc1a018bc2a9b8c51b42c7aa21a03d28a885956a4152231f94",
+        "song.ogg": "08cbb9ca8929fff3c71192ffb7260a18d503a4345bde272d548d549b34851711",
+        "vocals.ogg": "1fdd97f33eeadc0d8345cba4075275c042de639eaac389bf113564e7e8748b64"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-7435df8159957e08",
+      "artist": "The Beatles",
+      "title": "Back in the U.S.S.R.",
+      "genre": "Classic Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Back in the U.S.S.R [43ed1ebb]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "26ecde5250c140a0758b024b70153710347ad70eb93e874dae4c68437c0e2f72",
+        "notes.mid": "7435df8159957e08f09e1c5a55c598a9e61e33c74ec6f411fd9662653de24266",
+        "drums.ogg": "644babe0f780eef50efcafe98abe4de0bc2640f4a25dcb7ccd55eb04c81b4de4",
+        "guitar.ogg": "da94c447816e0d62648623ff92ff7d6d26b7d1f0f6eabef0f653d96867d8ead5",
+        "rhythm.ogg": "3e84f5e73f8db1a8a0af7efb5189310aaa0946e6f5457b827b00c23346563a38",
+        "song.ogg": "28124b32eb069d586a0c41cae3ab18e32c600bbe0ff5e896a2da7f8dbf47791f",
+        "vocals.ogg": "e97c68bac5146d8c3e173abe105aad29fd3f1532615b3a98c884ea16435d6273"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-65da7aa56cc3207c",
+      "artist": "Megadeth",
+      "title": "Rattlehead",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Megadeth - Rattlehead [59e30b4b]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "8ed25986de47bcf4e0e4d46721a8901e3a9bd5172e6776db76dc822222db0681",
+        "notes.mid": "65da7aa56cc3207c8193ccae58247b6a64fad5ea9daa2037cce85311ec32485f",
+        "song.ogg": "d8317dc373dd35c902c4d1d936ece3fc2612001059db0dd3de476f5959a1231f"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-013a5cf5e6e09fa4",
+      "artist": "Angra",
+      "title": "Carolina IV",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Angra - Carolina IV [5f520f03]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "3d189dcc019dda8e0573a54f0370fa8a82c7240f8e26150b05737fce54846af8",
+        "notes.mid": "013a5cf5e6e09fa453a9e401ddb4793df23f1ec155f6fb6fc809cba48477fd4f",
+        "song.ogg": "211e713deb54659d40e8ac5d56e42aad623b3f29f7479360f0d61dff495b34a7"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-1b9445a5fd1cf627",
+      "artist": "Avenged Sevenfold",
+      "title": "Fiction",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Fiction [5b947dba]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "3e9f951d6d760b75c2c3562bd786def73fd29dc9a5fada39ac4c04001daddabd",
+        "notes.mid": "1b9445a5fd1cf62788de9fdc6aa785d1a45e6e246904ced5b73061bcbaf2bf05",
+        "song.ogg": "13cf2081e0b277613d5a75ff37f2f9328af9cc0c6d35ddf4f529237854f88b3e"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-18d5641bbf381be9",
+      "artist": "Gojira",
+      "title": "Vacuity",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Gojira - Vacuity [592977e1]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "c199c989146477e3c4902f7cd3dfbed9a389163aa6e1b925aec5b89e0b49fe52",
+        "notes.mid": "18d5641bbf381be96dc727b06ba867a47e21af61495ff07693b87077c8e54df8",
+        "song.ogg": "61026ba2430189bf878e59dc80c164f3bb9b86390491a0c7e85af366fe9d7f8c"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-0b1879611df89a98",
+      "artist": "Slayer",
+      "title": "Dead Skin Mask",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slayer - Dead Skin Mask [5bbce4f8]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "d0619d4a2c30b798ed45443e8d5446636ba7a868ae0089378ce0d3c06a91a978",
+        "notes.mid": "0b1879611df89a98b3e3b6a64fc7f616168be4df7d9ba5dfc4640e0cfecb3381",
+        "song.ogg": "cf90db0435760dd04258f6f1ccaa613c684a00cf2203cc84255569f4295fb2ce"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-d485c92f93876369",
+      "artist": "Slipknot",
+      "title": "Spit It Out",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slipknot - Spit It Out [cb61de26]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]",
+        "[mix 3 drums0d]"
+      ],
+      "assets_sha256": {
+        "song.ini": "a8404e2de52801759b9fc8ac75142caee806da4a77c510170d864b2b6dbe2067",
+        "notes.mid": "d485c92f938763696f5e75aa1972f109d1e43a4fcf032592613b039c71fb6b4d",
+        "song.ogg": "179ff9b3fc57d309a0eede6ffaf7555e5f02831f472c690f66f45f5ff1511c62"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-6a8d4538f08cdf05",
+      "artist": "Dream Theater",
+      "title": "Midnight Messiah",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Midnight Messiah [ed8fd3b1]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "39ab5c9eb7507e7c621a926dc40f6427d008a86000e3c42dcecfbfdfa112c19e",
+        "notes.chart": "6a8d4538f08cdf0573848cc411aab8102e32acec18323502a00df606d7d7e3a8",
+        "song.ogg": "36a25f7f8807c2c714f3f8d59376a4a28dcc335626daf960b74d8d9be98df34e"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-7f368595548c321b",
+      "artist": "Linkin Park",
+      "title": "Lost in the Echo",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Lost in the Echo [adec5063]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "374b5095a5203fbb9263f33b7c2f71b4ae90b94ccc920338f6620b1e7de78538",
+        "notes.mid": "7f368595548c321ba5436440191634087671a147a92fa143ef13add8cb7ce00b",
+        "drums.ogg": "88400eef5aa9147b0537984646eb1c6ca3e312fecbd1c3739e965c64ff796eaf",
+        "guitar.ogg": "c6278dfecc95ba77893e91cc132c06191255c0f2a34d0ac313dfd3203166eb0b",
+        "keys.ogg": "318b7c2bb8532c4e78a1afcaca498fd86ef90031ffb89d4c09e8fc22569b42c4",
+        "rhythm.ogg": "35c773fd20b05f1dacd3dff36b78b0d8a9dce81f43212cface1a41f6a22968d8",
+        "song.ogg": "73ab873b635497dd75686c774da60c57f21093ecfe63a0163a5050d8d6429613",
+        "vocals.ogg": "a510c669fe1532df6a592aa656610e2b1e56d61ec03f9279d63779b24eb8eb77"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-4cc1f429ad4615a9",
+      "artist": "Metallica",
+      "title": "Seek and Destroy",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Seek and Destroy [ac55a2ee]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "89ba7c04a87130abd8553f6ceca3e4455a79e28c1a20886bd2169e09fb02075e",
+        "notes.mid": "4cc1f429ad4615a9de99601bce0e4632701641388d24233209c6dd71b391d6a9",
+        "bass.ogg": "b7a1179dc0ff296f7204e702faa89390e75edb58c67a757d676b1fb55df125e2",
+        "drums_1.ogg": "761cdf52d35fca023036818dd23d2bd4ad707671ca25ae46695c3c7fa0255663",
+        "drums_2.ogg": "e3c00175d3a283094c067ac8dd7e8c6edb19acaa4b7151c6ad58b8d8e00b5595",
+        "drums_3.ogg": "cbdb742c31a70a70e9d813480083e0f565083150e0520cc478dba0de663aaf34",
+        "drums_4.ogg": "b49b09454dab91fe1b33ac196d20b76b2eb414a9a56c35d1c9e0afd6593a3012",
+        "guitar.ogg": "2d0ee8190927e25a35cf017f7dbdac5a05a719ec276065a97a360777839f2094",
+        "song.ogg": "7ec94411440f57d5b732e84d6813d640610449ff389c528229e6b55924abc287",
+        "vocals.ogg": "c99009ba87637c612234e631fd9b126168c3369a647d3b97d0c8a20d64c46677"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-d567faaa308c9ba7",
+      "artist": "Iron Maiden",
+      "title": "Out of the Silent Planet",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Iron Maiden - Out of the Silent Planet [58310ba3]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "4715f1f32836ada3e2e6243a4b8429874fc0107a37d44981aed2da1038ecedc5",
+        "notes.mid": "d567faaa308c9ba77297f64dcfcedccc42e15216e89f8e46aa32a8a962421148",
+        "song.ogg": "26a3a2097847387e739269b9c7b5c3ec33bf2fd36462f2d74a7138a1baa58ebd"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-6f0acbf0063ee319",
+      "artist": "Sepultura",
+      "title": "RefuseResist",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - RefuseResist [5969dc94]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "6820dd15450ac636d948dd78eb495477bd9d81d3d99fd8183f0022fdf1b70ddb",
+        "notes.mid": "6f0acbf0063ee3196bd597a0aa3956bee655669d39f57c7fabbf3320e19fa434",
+        "song.ogg": "a7db1f503dfd73a17b84e38c8b0bbcf8f4302e9804a4aa16292c06160cb05217"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-3b01fff55d18ed93",
+      "artist": "Skillet",
+      "title": "The Resistance",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Skillet - The Resistance [f543551d]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "14b7e3ee7b05a7d2f852fe81dd8029bbe3618c78481f1360ae840ff117a831b1",
+        "notes.chart": "3b01fff55d18ed933203bc623be9dcb5fe7b3dabc112ea838b79f1ea23c2f6be",
+        "bass.ogg": "c90825eff2dd5155e6c375b1b253c17e16295fe23ff04043719cb5461ef2ca43",
+        "drums.ogg": "089aace10f69234d4c30961847eed21dbf13b56a58e8598c0dd0873144070cbc",
+        "guitar.ogg": "c63b64e51f7e280900cc74d86d2aa5837a63b59921bbacc1f55bd66385067e47",
+        "keys.ogg": "231918163be2eab6ca9315f273a1df671aea50528e4ed0b608269d205ea59661",
+        "song.ogg": "6975bec4649545b033d006c5b75c9140a556ff110350f7dc750fd6159bc7aa1a",
+        "vocals.ogg": "91e6cc567d26f3953d3e7922d69a255f349c36dd04fe04194eeeb242fedae721"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-c8e0163eb12492ae",
+      "artist": "Nirvana",
+      "title": "Territorial Pissings",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Drums - Lote 12/Nirvana - Territorial Pissings [454e018f]",
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_basis": [
+        "[mix 3 drums3]"
+      ],
+      "assets_sha256": {
+        "song.ini": "c19592deaf51fc4d81a9017115f0164d00424bd4f8626316787f2b7d0749118d",
+        "notes.mid": "c8e0163eb12492aeececef6560939b763885089b76d1fc35b95d0f71a5ee57fe",
+        "drums_1.ogg": "efede4ba0ce34182703958cd18c48af918a64d08278a897703c4ec35193912ef",
+        "drums_2.ogg": "2d3255def7b2dfd010514b37d7a231524ae9c50bf99744c0ee83cb0b48814537",
+        "drums_3.ogg": "07097cf9535c1f5f05cb2af37cf5811732de8dd2a6bdcce8348d480acddb045e",
+        "guitar.ogg": "dd17ce91470c7bbb5490140cee4d2f31f69d76c76eefcc4be348b3e2e9da7240",
+        "rhythm.ogg": "852435eb10875782013841e2a69b00618ccfb14b198ae64d37a02940ebfaec2e",
+        "song.ogg": "03b8ebb55169b5c8b4fc7094a3747435be93c3b24a64eddadd4239d3b9a09020",
+        "vocals.ogg": "aebedecffa4621ba6d42b1ad141343d62cd8ab2d989dae9f680b0adac950b496"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-970ab20aa2fe3a29",
+      "artist": "The Beatles",
+      "title": "Ob-La-Di, Ob-La-Da",
+      "genre": "Pop-Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Ob-La-Di, Ob-La-Da [5b6d7333]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "1fdfff924d681ad580e03252b5813a60f9f950608c5b778f1219facf56362f92",
+        "notes.mid": "970ab20aa2fe3a29aad58eaaa13860ef5836631d546dc5611fc4bffff9d36c3f",
+        "drums.ogg": "772cf91f7a9b0c58fa74a30c1b89c983d069853666920fd0e41defc24557c97a",
+        "guitar.ogg": "0683d26cf5a74fd6826e4ee9686b79d1e6254aa3e36d3237ed1d221bfe2efb64",
+        "keys.ogg": "7a7afa3a3672af165156272372cfcc24bf43b256a9416346c513adc3aba0a472",
+        "rhythm.ogg": "658f1e11be56cb44d95d4e71f847cbbf19a9e2be6a6c89b463ad18cc5e283e67",
+        "song.ogg": "11fa69033c93f2a39f437607e050df5b03fe8a2d6a438d0c27927468e42a413c",
+        "vocals.ogg": "6c59d411378c192741865253fb70252d19dc66ec898af6477e277d32b45083c7"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-267f8f1d4239c236",
+      "artist": "Megadeth",
+      "title": "Tornado Of Souls (Remastered 2004)",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Megadeth - Tornado Of Souls (Remastered 2004) [9ce075a6]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "74d873ff0c327bd9459eae49d5e2d99848e8ce44e5ef1bd7699472390bbe6f4d",
+        "notes.mid": "267f8f1d4239c2368f7a81f306f752f2b5f1986dd3509d160f976838d932d160",
+        "guitar.ogg": "b40494ab040d891eb7f7490ad2e5a9f19645e15fcc019bd80853a6a4f16c2afd"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-75358480c1e25970",
+      "artist": "Angra",
+      "title": "Spread Your Fire",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Angra - Spread Your Fire [61f57343]",
+      "component_sources": {},
+      "component_basis": [
+        "[mix 3 drums0]"
+      ],
+      "assets_sha256": {
+        "song.ini": "2a41cd857e26de754017e9fe9262dc3e0ee7699d2df19f956a6645690c3bc08a",
+        "notes.mid": "75358480c1e25970602e9605e9d3b002a0da5361034381463327ac941242d770",
+        "song.ogg": "fc477c9c8d3cb5f69fed63caba52803b61ef2bd6efed7e7b86c1ee2a5026b853"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "survey-9da9fb98f8058578",
+      "artist": "Avenged Sevenfold",
+      "title": "Doing Time",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - Doing Time [638d1e1f]",
+      "component_sources": {},
+      "component_basis": [],
+      "assets_sha256": {
+        "song.ini": "2acbc71da297ef7cf6de2cd15f9fa7c61d6718f9a58410e023f240407985f54a",
+        "notes.chart": "9da9fb98f80585789cf676df9f0333837861ab471e02b35b2f02da97ffba322d",
+        "guitar.ogg": "4dd1af45bb914bf304d2d63877c07e2f73e51497718d5b4d1570db94418ebf13"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    }
+  ]
+}
