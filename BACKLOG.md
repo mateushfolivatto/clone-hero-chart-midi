@@ -201,6 +201,22 @@ unresolved poor match; 115's excerpts have zero yellow-cymbal references.
 This completes the requested external experiment, not acoustic annotation,
 ADTOF comparison, native Windows/game acceptance or overall Phase 1.
 
+### Phase 1 Linkin Park hi-hat reference study — 2026-10-27
+
+- [x] **DCF-126 [P1]** Inspect Faint/Crawling as timekeeping hi-hat references,
+  preserve the frozen-profile comparison and resolve disco-flip chart semantics.
+
+The user suggested these two local pairs. Four fixed excerpts supply 80 seconds,
+508 mix references and 40 seconds of Crawling drums. Expert disco-flip markers
+exposed incorrect red/yellow reference groups in Crawling. The reader now resolves
+MIDI/.chart states while retaining source notes/times/velocities; 422 full-song
+groups change, and the previous ten songs plus Faint keep identical events.
+Original yellow-Pro F1 exceeds the frozen profile on Faint/mix, Crawling/mix and
+Crawling/drums. All 141 core and eight optional DSP tests, static gates, locks
+and build passed on Linux. See docs/linkin-park-hihat.md.
+This support experiment does not complete acoustic annotation, ADTOF comparison,
+native Windows/game acceptance or overall Phase 1.
+
 ---
 
 ## Phase 2 — Canonical Event Pipeline

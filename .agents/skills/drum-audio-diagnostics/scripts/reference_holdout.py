@@ -30,6 +30,7 @@ def evaluate(args, shared):
     profile_hash = shared.digest(args.profile)
     profile = shared.load_profile(args.profile)
     recipe = json.loads(args.recipe.read_text(encoding="utf-8"))
+    report_title = str(recipe.get("title", "Teste externo do perfil congelado"))
     if recipe.get("frozen_profile_sha256") != profile_hash:
         raise ValueError("frozen profile identity differs from the evaluation recipe")
     songs = recipe["songs"]
@@ -253,10 +254,12 @@ def evaluate(args, shared):
         for p in pictures
     )
     page = (
-        "<!doctype html><meta charset='utf-8'><title>CoD e Avenged Sevenfold</title>"
+        "<!doctype html><meta charset='utf-8'><title>" + html.escape(report_title) + "</title>"
         "<style>body{font:16px system-ui;max-width:1200px;margin:32px auto;padding:16px}"
         "td,th{padding:8px;border:1px solid #bbb}table{border-collapse:collapse}</style>"
-        "<h1>CoD e Avenged Sevenfold — teste do perfil congelado</h1><p>"
+        "<h1>"
+        + html.escape(report_title)
+        + "</h1><p>"
         + html.escape(shared.WARNING)
         + "</p><p>Sem recalibrar ou ajustar offsets nas novas músicas. "
         "F1 contra os charts a ±30 ms. Stems ausentes não são inventados. "

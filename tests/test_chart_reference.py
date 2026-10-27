@@ -226,3 +226,97 @@ def test_frozen_holdout_rejects_reused_or_unverifiable_training_data(
         songs.append(songs[0].copy())
     with pytest.raises(ValueError):
         validate_holdout(profile, training, songs)
+
+
+def _disco_reference(tmp_path: Path, kind: str, mixes: list[tuple[int, str]]) -> Path:
+    folder = tmp_path / kind
+    folder.mkdir()
+    (folder / "song.ini").write_text("[song]\npro_drums=True\n")
+    notes = [(0, 97), (480, 96), (480, 97), (480, 98), (480, 99)] + [
+        (tick, note) for tick in (960, 1440) for note in (97, 98)
+    ]
+    if kind == "chart":
+        lines = [(tick, f"N {note - 96} 0") for tick, note in notes]
+        lines.extend([(480, "N 67 0"), (1440, "N 66 0")])
+        lines.extend((tick, f'E "{text}"') for tick, text in mixes)
+        (folder / "notes.chart").write_text(
+            "[Song]\n{\n Resolution = 480\n}\n[SyncTrack]\n{\n 0 = B 120000\n}\n"
+            "[ExpertDrums]\n{\n"
+            + "\n".join(f" {tick} = {text}" for tick, text in sorted(lines, key=lambda x: x[0]))
+            + "\n}\n"
+        )
+    else:
+        mido = importlib.import_module("mido")
+        midi = mido.MidiFile(type=1, ticks_per_beat=480)
+        conductor = mido.MidiTrack([mido.MetaMessage("set_tempo", tempo=500_000)])
+        schedule = [(tick, mido.Message("note_on", note=note, velocity=90)) for tick, note in notes]
+        # Events follow notes at identical ticks: status resolution must be order-independent.
+        schedule.extend(
+            [
+                (480, mido.Message("note_on", note=110, velocity=100)),
+                (1440, mido.Message("note_off", note=110)),
+            ]
+        )
+        schedule.extend((tick, mido.MetaMessage("text", text=text)) for tick, text in mixes)
+        track = mido.MidiTrack([mido.MetaMessage("track_name", name="PART DRUMS")])
+        previous = 0
+        for tick, msg in sorted(schedule, key=lambda x: x[0]):
+            track.append(msg.copy(time=tick - previous))
+            previous = tick
+        midi.tracks.extend([conductor, track])
+        midi.save(folder / "notes.mid")
+    return folder
+
+
+@pytest.mark.parametrize("kind", ["mid", "chart"])
+@pytest.mark.parametrize("reset", ["[mix 3 drums2]", "mix_3_drumsdnoflip", "mix 3 drums5easy"])
+def test_pro_reference_unflips_disco_and_resets_at_the_exact_tick(
+    tmp_path: Path, kind: str, reset: str
+) -> None:
+    folder = _disco_reference(
+        tmp_path, kind, [(480, "[mix 3 drums2d]"), (480, "mix_3_drums2d"), (960, reset)]
+    )
+    source = folder / f"notes.{kind}"
+    before = source.read_bytes()
+    events, meta = read_chart_reference(folder)
+    assert [(e.tick, e.midi_note, e.group) for e in events] == [
+        (0, 97, "SNARE_PROXY"),
+        (480, 96, "KICK"),
+        (480, 97, "YELLOW_CYMBAL_PROXY"),
+        (480, 98, "SNARE_PROXY"),
+        (480, 99, "BLUE_CYMBAL_PROXY"),
+        (960, 97, "SNARE_PROXY"),
+        (960, 98, "YELLOW_TOM"),
+        (1440, 97, "SNARE_PROXY"),
+        (1440, 98, "YELLOW_CYMBAL_PROXY"),
+    ]
+    assert [e.time_seconds for e in events] == [0, 0.5, 0.5, 0.5, 0.5, 1, 1, 1.5, 1.5]
+    assert all(e.velocity == (90 if kind == "mid" else None) for e in events)
+    assert meta["expert_disco_flip_starts"] == 1
+    assert meta["expert_disco_reclassified_notes"] == 2
+    assert source.read_bytes() == before
+
+
+@pytest.mark.parametrize("kind", ["mid", "chart"])
+def test_other_difficulty_mix_does_not_reset_expert_disco(tmp_path: Path, kind: str) -> None:
+    folder = _disco_reference(tmp_path, kind, [(480, "mix 3 drumsd"), (960, "mix 2 drums2")])
+    events, _ = read_chart_reference(folder)
+    assert [(e.midi_note, e.group) for e in events if e.tick == 1440] == [
+        (97, "YELLOW_CYMBAL_PROXY"),
+        (98, "SNARE_PROXY"),
+    ]
+
+
+@pytest.mark.parametrize("kind", ["mid", "chart"])
+@pytest.mark.parametrize(
+    ("commands", "message"),
+    [
+        ([(480, "mix 3 drums2d"), (480, "mix 3 drums2")], "conflicting"),
+        ([(480, "mix 3 drums2unexpected")], "unsupported Expert"),
+    ],
+)
+def test_ambiguous_expert_disco_states_are_rejected(
+    tmp_path: Path, kind: str, commands: list[tuple[int, str]], message: str
+) -> None:
+    with pytest.raises(ValueError, match=message):
+        read_chart_reference(_disco_reference(tmp_path, kind, commands))

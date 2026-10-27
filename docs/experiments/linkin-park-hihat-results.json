@@ -1,0 +1,989 @@
+{
+  "schema_version": 1,
+  "method": "frozen_profile_external_song_evaluation",
+  "warning": "Referência fraca de chart, não anotação acústica: prato amarelo pode ser chimbal, ride ou crash; pad vermelho é apenas proxy de caixa. Charts podem omitir ou simplificar ataques. Perfis espectrais não são ADTOF nem confiança calibrada; não há validação no jogo.",
+  "profile_sha256": "57986ca5e92f8b258d30035dbae4c8a3807f59d945b87ee77ff25fa9873f8b0b",
+  "training_recipe_sha256": "34744e0bae72ed1913d03c16bfae8fd2d9277280409df166768461ee7d62d24c",
+  "evaluation_recipe_sha256": "ec97d23833b2de3db9a26e2ad386f6fc6e9f39f9a76f5f5737e7e960e1fa9478",
+  "calibration_performed": false,
+  "offset_optimization_performed": false,
+  "tolerance_seconds": 0.03,
+  "edge_exclusion_seconds": 0.05,
+  "adtof_comparison_performed": false,
+  "versions": {
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "mido": "1.3.3"
+  },
+  "training_song_ids": [
+    "numb",
+    "all-apologies",
+    "come-together",
+    "number-of-the-beast",
+    "forsaken"
+  ],
+  "mode_coverage": {
+    "mix": [
+      "lp-faint",
+      "lp-crawling"
+    ],
+    "drums": [
+      "lp-crawling"
+    ]
+  },
+  "aggregate": {
+    "mix": {
+      "KICK": {
+        "baseline": {
+          "tp": 74,
+          "fp": 363,
+          "fn": 0,
+          "precision": 0.16933638443935928,
+          "recall": 1.0,
+          "f1": 0.2896281800391389
+        },
+        "frozen": {
+          "tp": 73,
+          "fp": 62,
+          "fn": 1,
+          "precision": 0.5407407407407407,
+          "recall": 0.9864864864864865,
+          "f1": 0.6985645933014354
+        }
+      },
+      "SNARE_PROXY": {
+        "baseline": {
+          "tp": 72,
+          "fp": 237,
+          "fn": 25,
+          "precision": 0.23300970873786409,
+          "recall": 0.7422680412371134,
+          "f1": 0.35467980295566504
+        },
+        "frozen": {
+          "tp": 41,
+          "fp": 72,
+          "fn": 56,
+          "precision": 0.36283185840707965,
+          "recall": 0.422680412371134,
+          "f1": 0.3904761904761905
+        }
+      },
+      "YELLOW_CYMBAL_PROXY": {
+        "baseline": {
+          "tp": 236,
+          "fp": 147,
+          "fn": 101,
+          "precision": 0.6161879895561357,
+          "recall": 0.7002967359050445,
+          "f1": 0.6555555555555556
+        },
+        "frozen": {
+          "tp": 170,
+          "fp": 94,
+          "fn": 167,
+          "precision": 0.6439393939393939,
+          "recall": 0.5044510385756676,
+          "f1": 0.5657237936772047
+        }
+      }
+    },
+    "drums": {
+      "KICK": {
+        "baseline": {
+          "tp": 39,
+          "fp": 173,
+          "fn": 0,
+          "precision": 0.18396226415094338,
+          "recall": 1.0,
+          "f1": 0.3107569721115538
+        },
+        "frozen": {
+          "tp": 38,
+          "fp": 19,
+          "fn": 1,
+          "precision": 0.6666666666666666,
+          "recall": 0.9743589743589743,
+          "f1": 0.7916666666666666
+        }
+      },
+      "SNARE_PROXY": {
+        "baseline": {
+          "tp": 28,
+          "fp": 198,
+          "fn": 0,
+          "precision": 0.12389380530973451,
+          "recall": 1.0,
+          "f1": 0.2204724409448819
+        },
+        "frozen": {
+          "tp": 28,
+          "fp": 99,
+          "fn": 0,
+          "precision": 0.2204724409448819,
+          "recall": 1.0,
+          "f1": 0.36129032258064514
+        }
+      },
+      "YELLOW_CYMBAL_PROXY": {
+        "baseline": {
+          "tp": 185,
+          "fp": 40,
+          "fn": 27,
+          "precision": 0.8222222222222222,
+          "recall": 0.8726415094339622,
+          "f1": 0.8466819221967964
+        },
+        "frozen": {
+          "tp": 173,
+          "fp": 35,
+          "fn": 39,
+          "precision": 0.8317307692307693,
+          "recall": 0.8160377358490566,
+          "f1": 0.8238095238095238
+        }
+      }
+    }
+  },
+  "songs": [
+    {
+      "song_id": "lp-faint",
+      "artist": "Linkin Park",
+      "title": "Faint",
+      "charter": "Debugmod12",
+      "ini_delay_seconds": 0.0,
+      "chart_offset_seconds": 0.0,
+      "chart_format": "chart",
+      "note_semantics": "stored Expert lanes 96-100; groups resolve Pro tom/disco markers",
+      "velocity_semantics": "stored MIDI velocity or null for .chart; not acoustic dynamics",
+      "reference_kind": "chart lane/tom-marker proxy, not manually verified acoustic labels",
+      "reference_semantics_version": 2,
+      "expert_disco_flip_starts": 0,
+      "expert_disco_reclassified_notes": 0,
+      "audio_files": [
+        "song.ogg"
+      ],
+      "audio_policy": "single stream as delivered, used as mix",
+      "modes": {
+        "mix": {
+          "KICK": {
+            "baseline": {
+              "tp": 35,
+              "fp": 175,
+              "fn": 0,
+              "precision": 0.16666666666666666,
+              "recall": 1.0,
+              "f1": 0.2857142857142857
+            },
+            "frozen": {
+              "tp": 35,
+              "fp": 45,
+              "fn": 0,
+              "precision": 0.4375,
+              "recall": 1.0,
+              "f1": 0.6086956521739131
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 44,
+              "fp": 94,
+              "fn": 25,
+              "precision": 0.3188405797101449,
+              "recall": 0.6376811594202898,
+              "f1": 0.4251207729468599
+            },
+            "frozen": {
+              "tp": 15,
+              "fp": 29,
+              "fn": 54,
+              "precision": 0.3409090909090909,
+              "recall": 0.21739130434782608,
+              "f1": 0.26548672566371684
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 93,
+              "fp": 83,
+              "fn": 32,
+              "precision": 0.5284090909090909,
+              "recall": 0.744,
+              "f1": 0.6179401993355482
+            },
+            "frozen": {
+              "tp": 73,
+              "fp": 50,
+              "fn": 52,
+              "precision": 0.5934959349593496,
+              "recall": 0.584,
+              "f1": 0.5887096774193549
+            }
+          }
+        }
+      },
+      "excerpt_metrics": {
+        "mix": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 22,
+                "fp": 84,
+                "fn": 0,
+                "precision": 0.20754716981132076,
+                "recall": 1.0,
+                "f1": 0.34375,
+                "mean_absolute_error_ms": 7.505069365011446,
+                "median_signed_error_ms": -7.798018381738103
+              },
+              {
+                "tp": 13,
+                "fp": 91,
+                "fn": 0,
+                "precision": 0.125,
+                "recall": 1.0,
+                "f1": 0.2222222222222222,
+                "mean_absolute_error_ms": 5.882834947650158,
+                "median_signed_error_ms": -4.961851169525744
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 22,
+                "fp": 18,
+                "fn": 0,
+                "precision": 0.55,
+                "recall": 1.0,
+                "f1": 0.7096774193548387,
+                "mean_absolute_error_ms": 7.505069365011446,
+                "median_signed_error_ms": -7.798018381738103
+              },
+              {
+                "tp": 13,
+                "fp": 27,
+                "fn": 0,
+                "precision": 0.325,
+                "recall": 1.0,
+                "f1": 0.49056603773584906,
+                "mean_absolute_error_ms": 5.882834947650158,
+                "median_signed_error_ms": -4.961851169525744
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 31,
+                "fp": 44,
+                "fn": 14,
+                "precision": 0.41333333333333333,
+                "recall": 0.6888888888888889,
+                "f1": 0.5166666666666667,
+                "mean_absolute_error_ms": 6.649688035607705,
+                "median_signed_error_ms": -6.152160536316842
+              },
+              {
+                "tp": 13,
+                "fp": 50,
+                "fn": 11,
+                "precision": 0.20634920634920634,
+                "recall": 0.5416666666666666,
+                "f1": 0.2988505747126437,
+                "mean_absolute_error_ms": 6.556766095125856,
+                "median_signed_error_ms": -6.775910126435747
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 13,
+                "fp": 14,
+                "fn": 32,
+                "precision": 0.48148148148148145,
+                "recall": 0.28888888888888886,
+                "f1": 0.3611111111111111,
+                "mean_absolute_error_ms": 7.8348980156984185,
+                "median_signed_error_ms": -8.307098551881609
+              },
+              {
+                "tp": 2,
+                "fp": 15,
+                "fn": 22,
+                "precision": 0.11764705882352941,
+                "recall": 0.08333333333333333,
+                "f1": 0.0975609756097561,
+                "mean_absolute_error_ms": 7.138721917826274,
+                "median_signed_error_ms": -7.138721917826274
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 64,
+                "fp": 28,
+                "fn": 16,
+                "precision": 0.6956521739130435,
+                "recall": 0.8,
+                "f1": 0.7441860465116279,
+                "mean_absolute_error_ms": 7.826057287602994,
+                "median_signed_error_ms": -6.3350336302434584
+              },
+              {
+                "tp": 29,
+                "fp": 55,
+                "fn": 16,
+                "precision": 0.34523809523809523,
+                "recall": 0.6444444444444445,
+                "f1": 0.4496124031007752,
+                "mean_absolute_error_ms": 7.129200949989432,
+                "median_signed_error_ms": -4.23622758674469
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 52,
+                "fp": 19,
+                "fn": 28,
+                "precision": 0.7323943661971831,
+                "recall": 0.65,
+                "f1": 0.6887417218543046,
+                "mean_absolute_error_ms": 7.635158200043927,
+                "median_signed_error_ms": -6.3350336302434584
+              },
+              {
+                "tp": 21,
+                "fp": 31,
+                "fn": 24,
+                "precision": 0.40384615384615385,
+                "recall": 0.4666666666666667,
+                "f1": 0.4329896907216495,
+                "mean_absolute_error_ms": 8.03004996813191,
+                "median_signed_error_ms": -4.780445273837586
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "song_id": "lp-crawling",
+      "artist": "Linkin Park",
+      "title": "Crawling",
+      "charter": "Harmonix",
+      "ini_delay_seconds": 0.0,
+      "chart_offset_seconds": 0.0,
+      "chart_format": "mid",
+      "note_semantics": "stored Expert lanes 96-100; groups resolve Pro tom/disco markers",
+      "velocity_semantics": "stored MIDI velocity or null for .chart; not acoustic dynamics",
+      "reference_kind": "chart lane/tom-marker proxy, not manually verified acoustic labels",
+      "reference_semantics_version": 2,
+      "expert_disco_flip_starts": 4,
+      "expert_disco_reclassified_notes": 422,
+      "audio_files": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "audio_policy": "technical equal-gain stem sum",
+      "modes": {
+        "mix": {
+          "KICK": {
+            "baseline": {
+              "tp": 39,
+              "fp": 188,
+              "fn": 0,
+              "precision": 0.17180616740088106,
+              "recall": 1.0,
+              "f1": 0.2932330827067669
+            },
+            "frozen": {
+              "tp": 38,
+              "fp": 17,
+              "fn": 1,
+              "precision": 0.6909090909090909,
+              "recall": 0.9743589743589743,
+              "f1": 0.8085106382978723
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 28,
+              "fp": 143,
+              "fn": 0,
+              "precision": 0.16374269005847952,
+              "recall": 1.0,
+              "f1": 0.2814070351758794
+            },
+            "frozen": {
+              "tp": 26,
+              "fp": 43,
+              "fn": 2,
+              "precision": 0.37681159420289856,
+              "recall": 0.9285714285714286,
+              "f1": 0.5360824742268041
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 143,
+              "fp": 64,
+              "fn": 69,
+              "precision": 0.6908212560386473,
+              "recall": 0.6745283018867925,
+              "f1": 0.6825775656324582
+            },
+            "frozen": {
+              "tp": 97,
+              "fp": 44,
+              "fn": 115,
+              "precision": 0.6879432624113475,
+              "recall": 0.45754716981132076,
+              "f1": 0.5495750708215298
+            }
+          }
+        },
+        "drums": {
+          "KICK": {
+            "baseline": {
+              "tp": 39,
+              "fp": 173,
+              "fn": 0,
+              "precision": 0.18396226415094338,
+              "recall": 1.0,
+              "f1": 0.3107569721115538
+            },
+            "frozen": {
+              "tp": 38,
+              "fp": 19,
+              "fn": 1,
+              "precision": 0.6666666666666666,
+              "recall": 0.9743589743589743,
+              "f1": 0.7916666666666666
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 28,
+              "fp": 198,
+              "fn": 0,
+              "precision": 0.12389380530973451,
+              "recall": 1.0,
+              "f1": 0.2204724409448819
+            },
+            "frozen": {
+              "tp": 28,
+              "fp": 99,
+              "fn": 0,
+              "precision": 0.2204724409448819,
+              "recall": 1.0,
+              "f1": 0.36129032258064514
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 185,
+              "fp": 40,
+              "fn": 27,
+              "precision": 0.8222222222222222,
+              "recall": 0.8726415094339622,
+              "f1": 0.8466819221967964
+            },
+            "frozen": {
+              "tp": 173,
+              "fp": 35,
+              "fn": 39,
+              "precision": 0.8317307692307693,
+              "recall": 0.8160377358490566,
+              "f1": 0.8238095238095238
+            }
+          }
+        }
+      },
+      "excerpt_metrics": {
+        "mix": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 19,
+                "fp": 97,
+                "fn": 0,
+                "precision": 0.16379310344827586,
+                "recall": 1.0,
+                "f1": 0.2814814814814815,
+                "mean_absolute_error_ms": 4.06748538021237,
+                "median_signed_error_ms": -0.01618140643699917
+              },
+              {
+                "tp": 20,
+                "fp": 91,
+                "fn": 0,
+                "precision": 0.18018018018018017,
+                "recall": 1.0,
+                "f1": 0.3053435114503817,
+                "mean_absolute_error_ms": 16.658922278000432,
+                "median_signed_error_ms": 16.2800907018692
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 18,
+                "fp": 11,
+                "fn": 1,
+                "precision": 0.6206896551724138,
+                "recall": 0.9473684210526315,
+                "f1": 0.75,
+                "mean_absolute_error_ms": 3.8995275888831475,
+                "median_signed_error_ms": 0.3472018134971222
+              },
+              {
+                "tp": 20,
+                "fp": 6,
+                "fn": 0,
+                "precision": 0.7692307692307693,
+                "recall": 1.0,
+                "f1": 0.8695652173913043,
+                "mean_absolute_error_ms": 16.22105107610068,
+                "median_signed_error_ms": 16.2800907018692
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 16,
+                "fp": 84,
+                "fn": 0,
+                "precision": 0.16,
+                "recall": 1.0,
+                "f1": 0.27586206896551724,
+                "mean_absolute_error_ms": 7.695562925462696,
+                "median_signed_error_ms": -8.680301020596914
+              },
+              {
+                "tp": 12,
+                "fp": 59,
+                "fn": 0,
+                "precision": 0.16901408450704225,
+                "recall": 1.0,
+                "f1": 0.2891566265060241,
+                "mean_absolute_error_ms": 7.775201151931792,
+                "median_signed_error_ms": 6.415676869941933
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 15,
+                "fp": 25,
+                "fn": 1,
+                "precision": 0.375,
+                "recall": 0.9375,
+                "f1": 0.5357142857142857,
+                "mean_absolute_error_ms": 7.920050680565775,
+                "median_signed_error_ms": -8.906478458214906
+              },
+              {
+                "tp": 11,
+                "fp": 18,
+                "fn": 1,
+                "precision": 0.3793103448275862,
+                "recall": 0.9166666666666666,
+                "f1": 0.5365853658536586,
+                "mean_absolute_error_ms": 7.2181676448934695,
+                "median_signed_error_ms": 6.778910430057294
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 74,
+                "fp": 34,
+                "fn": 25,
+                "precision": 0.6851851851851852,
+                "recall": 0.7474747474747475,
+                "f1": 0.714975845410628,
+                "mean_absolute_error_ms": 10.937579150866512,
+                "median_signed_error_ms": -11.582450113849063
+              },
+              {
+                "tp": 69,
+                "fp": 30,
+                "fn": 44,
+                "precision": 0.696969696969697,
+                "recall": 0.6106194690265486,
+                "f1": 0.6509433962264151,
+                "mean_absolute_error_ms": 8.488964630045132,
+                "median_signed_error_ms": 6.845314057784435
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 52,
+                "fp": 21,
+                "fn": 47,
+                "precision": 0.7123287671232876,
+                "recall": 0.5252525252525253,
+                "f1": 0.6046511627906976,
+                "mean_absolute_error_ms": 10.006277123943837,
+                "median_signed_error_ms": -10.585693877892766
+              },
+              {
+                "tp": 45,
+                "fp": 23,
+                "fn": 68,
+                "precision": 0.6617647058823529,
+                "recall": 0.39823008849557523,
+                "f1": 0.4972375690607735,
+                "mean_absolute_error_ms": 7.723834680616429,
+                "median_signed_error_ms": 5.322775509256417
+              }
+            ]
+          }
+        },
+        "drums": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 19,
+                "fp": 84,
+                "fn": 0,
+                "precision": 0.18446601941747573,
+                "recall": 1.0,
+                "f1": 0.3114754098360656,
+                "mean_absolute_error_ms": 8.056432032807498,
+                "median_signed_error_ms": -8.001768707771362
+              },
+              {
+                "tp": 20,
+                "fp": 89,
+                "fn": 0,
+                "precision": 0.1834862385321101,
+                "recall": 1.0,
+                "f1": 0.31007751937984496,
+                "mean_absolute_error_ms": 9.051705611436489,
+                "median_signed_error_ms": 7.948303854014682
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 19,
+                "fp": 5,
+                "fn": 0,
+                "precision": 0.7916666666666666,
+                "recall": 1.0,
+                "f1": 0.8837209302325582,
+                "mean_absolute_error_ms": 4.695649123153532,
+                "median_signed_error_ms": -5.094403628703503
+              },
+              {
+                "tp": 19,
+                "fp": 14,
+                "fn": 1,
+                "precision": 0.5757575757575758,
+                "recall": 0.95,
+                "f1": 0.7169811320754716,
+                "mean_absolute_error_ms": 12.064778671883328,
+                "median_signed_error_ms": 13.39948752752207
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 16,
+                "fp": 94,
+                "fn": 0,
+                "precision": 0.14545454545454545,
+                "recall": 1.0,
+                "f1": 0.25396825396825395,
+                "mean_absolute_error_ms": 8.794191539338136,
+                "median_signed_error_ms": -9.043534580712276
+              },
+              {
+                "tp": 12,
+                "fp": 104,
+                "fn": 0,
+                "precision": 0.10344827586206896,
+                "recall": 1.0,
+                "f1": 0.1875,
+                "mean_absolute_error_ms": 4.575119141601173,
+                "median_signed_error_ms": 3.903325395782531
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 16,
+                "fp": 46,
+                "fn": 0,
+                "precision": 0.25806451612903225,
+                "recall": 1.0,
+                "f1": 0.41025641025641024,
+                "mean_absolute_error_ms": 8.794191539338136,
+                "median_signed_error_ms": -9.043534580712276
+              },
+              {
+                "tp": 12,
+                "fp": 53,
+                "fn": 0,
+                "precision": 0.18461538461538463,
+                "recall": 1.0,
+                "f1": 0.3116883116883117,
+                "mean_absolute_error_ms": 4.575119141601173,
+                "median_signed_error_ms": 3.903325395782531
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 91,
+                "fp": 21,
+                "fn": 8,
+                "precision": 0.8125,
+                "recall": 0.9191919191919192,
+                "f1": 0.8625592417061612,
+                "mean_absolute_error_ms": 11.307775398414087,
+                "median_signed_error_ms": -12.627935374453614
+              },
+              {
+                "tp": 94,
+                "fp": 19,
+                "fn": 19,
+                "precision": 0.831858407079646,
+                "recall": 0.831858407079646,
+                "f1": 0.831858407079646,
+                "mean_absolute_error_ms": 6.659931513703042,
+                "median_signed_error_ms": 6.46023752748448
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 89,
+                "fp": 18,
+                "fn": 10,
+                "precision": 0.8317757009345794,
+                "recall": 0.898989898989899,
+                "f1": 0.8640776699029126,
+                "mean_absolute_error_ms": 11.603049886947009,
+                "median_signed_error_ms": -13.217346372172756
+              },
+              {
+                "tp": 84,
+                "fp": 17,
+                "fn": 29,
+                "precision": 0.8316831683168316,
+                "recall": 0.7433628318584071,
+                "f1": 0.7850467289719626,
+                "mean_absolute_error_ms": 6.497876578541432,
+                "median_signed_error_ms": 5.134753967304562
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "excerpts": [
+    {
+      "song_id": "lp-faint",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 0.9271541536269735,
+      "available_modes": [
+        "mix"
+      ],
+      "reference_counts": {
+        "KICK": 22,
+        "SNARE_PROXY": 45,
+        "YELLOW_CYMBAL_PROXY": 80
+      },
+      "context_counts": {
+        "TOMS": 1,
+        "OTHER_CYMBALS": 5
+      }
+    },
+    {
+      "song_id": "lp-faint",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 0.9235829072476406,
+      "available_modes": [
+        "mix"
+      ],
+      "reference_counts": {
+        "KICK": 13,
+        "SNARE_PROXY": 24,
+        "YELLOW_CYMBAL_PROXY": 45
+      },
+      "context_counts": {
+        "TOMS": 0,
+        "OTHER_CYMBALS": 4
+      }
+    },
+    {
+      "song_id": "lp-crawling",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886822,
+        886586,
+        886410,
+        886410,
+        886410,
+        886410,
+        886688,
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 1.0,
+      "available_modes": [
+        "mix",
+        "drums"
+      ],
+      "reference_counts": {
+        "KICK": 19,
+        "SNARE_PROXY": 16,
+        "YELLOW_CYMBAL_PROXY": 99
+      },
+      "context_counts": {
+        "TOMS": 5,
+        "OTHER_CYMBALS": 0
+      }
+    },
+    {
+      "song_id": "lp-crawling",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886822,
+        886822,
+        886822,
+        886410,
+        886410,
+        886410,
+        886822,
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 1.0,
+      "available_modes": [
+        "mix",
+        "drums"
+      ],
+      "reference_counts": {
+        "KICK": 20,
+        "SNARE_PROXY": 12,
+        "YELLOW_CYMBAL_PROXY": 113
+      },
+      "context_counts": {
+        "TOMS": 7,
+        "OTHER_CYMBALS": 0
+      }
+    }
+  ],
+  "user_context": {
+    "source": "conversation",
+    "instrument_recollection": "Linkin Park Faint and Crawling: hi-hat keeping time",
+    "per_event_acoustic_labels_verified": false,
+    "openness_verified": false
+  },
+  "cadence_method": "Consecutive Pro-resolved yellow-cymbal references within each fixed excerpt; median/max seconds and exact raw tick differences, never across excerpt boundaries. Simultaneity means equal chart tick. Describes the chart; does not fill missing notes.",
+  "chart_ticks_per_quarter": {
+    "lp-faint": 192,
+    "lp-crawling": 480
+  },
+  "yellow_chart_cadence": [
+    {
+      "song_id": "lp-faint",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "yellow_reference_count": 80,
+      "inter_onset_pairs": 79,
+      "median_inter_onset_seconds": 0.2221958878947703,
+      "max_inter_onset_seconds": 1.3331753273686076,
+      "tick_step_histogram": {
+        "96": 75,
+        "192": 2,
+        "288": 1,
+        "576": 1
+      },
+      "same_tick_kick_count": 17,
+      "same_tick_snare_count": 21,
+      "same_tick_kick_or_snare_count": 38
+    },
+    {
+      "song_id": "lp-faint",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "yellow_reference_count": 45,
+      "inter_onset_pairs": 44,
+      "median_inter_onset_seconds": 0.22222222222222854,
+      "max_inter_onset_seconds": 9.777777777777771,
+      "tick_step_histogram": {
+        "96": 41,
+        "192": 2,
+        "4224": 1
+      },
+      "same_tick_kick_count": 10,
+      "same_tick_snare_count": 12,
+      "same_tick_kick_or_snare_count": 22
+    },
+    {
+      "song_id": "lp-crawling",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "yellow_reference_count": 99,
+      "inter_onset_pairs": 98,
+      "median_inter_onset_seconds": 0.1429932500000035,
+      "max_inter_onset_seconds": 0.285986500000007,
+      "tick_step_histogram": {
+        "120": 59,
+        "240": 39
+      },
+      "same_tick_kick_count": 19,
+      "same_tick_snare_count": 7,
+      "same_tick_kick_or_snare_count": 26
+    },
+    {
+      "song_id": "lp-crawling",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "yellow_reference_count": 113,
+      "inter_onset_pairs": 112,
+      "median_inter_onset_seconds": 0.14285699999999224,
+      "max_inter_onset_seconds": 0.285986500000007,
+      "tick_step_histogram": {
+        "120": 87,
+        "240": 25
+      },
+      "same_tick_kick_count": 20,
+      "same_tick_snare_count": 3,
+      "same_tick_kick_or_snare_count": 23
+    }
+  ],
+  "parser_correction_audit": {
+    "previous_training_and_cod_a7x_songs_checked": 10,
+    "previous_song_onsets_or_groups_changed": 0,
+    "faint_onsets_or_groups_changed": 0,
+    "crawling_full_song_groups_changed": 422,
+    "raw_times_notes_velocities_unchanged": true,
+    "source_charts_modified": false
+  }
+}

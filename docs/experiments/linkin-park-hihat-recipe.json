@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "title": "Linkin Park — Faint e Crawling: chimbal e perfil congelado",
+  "purpose": "External frozen-profile evaluation, with user-reported hi-hat timekeeping as listening context; no recalibration",
+  "frozen_profile_sha256": "57986ca5e92f8b258d30035dbae4c8a3807f59d945b87ee77ff25fa9873f8b0b",
+  "songs": [
+    {
+      "id": "lp-faint",
+      "category": "Linkin Park / user-reported hi-hat timekeeping",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Linkin Park - Faint [d9000b31]",
+      "assets_sha256": {
+        "notes.chart": "df7f7110db0ef634ff34f4ac31beddad8b2e93773505161ab3add7f053d7ed97",
+        "song.ini": "e5753c16ccd061d1a90f18dd977ae554ffabc8dfe294d6edf08475cc9b31c1d4",
+        "song.ogg": "d1ad5cf03cf1339020e521d8ced5b089d9ef62a0a8dc88ba1373998a968161b8"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "lp-crawling",
+      "category": "Linkin Park / user-reported hi-hat timekeeping",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - Crawling [b0175606]",
+      "assets_sha256": {
+        "drums_1.ogg": "ada52d256c31556dc537b72f3fa46a3727cca007d6fe8e98b3de2c6b58fcbba3",
+        "drums_2.ogg": "995663e86b86ab94a27f327ca632a6c3bb967ac843f933f008255b513132ce68",
+        "drums_3.ogg": "1a7b7918abe44bfdeb5753d44f286414a281474a0b40f76164dd89d46a767633",
+        "guitar.ogg": "22c1e9f1a4b7a0197963cc001cb39e3409941baf67048d116a9c2440bbf28222",
+        "keys.ogg": "eb51f1af0807b43bb2c023237e0737a341739d930c1164126ad52edac72314c1",
+        "notes.mid": "2518a58aeddb83200dd9194a1ca983865baad970b114b3511393e6e0326e610e",
+        "rhythm.ogg": "d865a7a03578368a9e019bd36599dba5ce246ffcb49ef5be9077363c58da13dc",
+        "song.ini": "28f9e7d59f41ceb7797f6fc304c631d3781bb05a10960acc8100bb752a4c9dc1",
+        "song.ogg": "b5cc57d09ad1e776d80aaa6b7602845097edf2be47b895d97f7ed91975720935",
+        "vocals.ogg": "64c208d459a3a364a9a5659647970edd3a87dc699031686a916cc25cc69e073d"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    }
+  ]
+}

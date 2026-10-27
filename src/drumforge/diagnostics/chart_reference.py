@@ -4,7 +4,8 @@ from __future__ import annotations
 
 import math
 import re
-from dataclasses import dataclass
+from bisect import bisect_right
+from dataclasses import dataclass, replace
 from pathlib import Path
 
 from drumforge.library.inspect_song import read_config, read_drum_midi, truth
@@ -56,9 +57,10 @@ def read_chart_reference(folder: Path) -> tuple[list[ChartOnset], dict[str, str 
     path = chart_asset(folder)
     offset = 0.0
     if path.suffix == ".chart":
-        events, offset = _text_chart_events(path, delay)
+        events, offset, mixes = _text_chart_events(path, delay)
     else:
-        events = _midi_chart_events(path, delay)
+        events, mixes = _midi_chart_events(path, delay)
+    events, changed = _unflip_disco(events, mixes)
     return events, {
         "artist": config.get("artist", ""),
         "title": config.get("name", ""),
@@ -66,21 +68,60 @@ def read_chart_reference(folder: Path) -> tuple[list[ChartOnset], dict[str, str 
         "ini_delay_seconds": delay,
         "chart_offset_seconds": offset,
         "chart_format": path.suffix.lstrip("."),
-        "note_semantics": "Expert MIDI lanes 96-100; .chart lanes mapped only for comparison",
+        "note_semantics": "stored Expert lanes 96-100; groups resolve Pro tom/disco markers",
         "velocity_semantics": "stored MIDI velocity or null for .chart; not acoustic dynamics",
         "reference_kind": "chart lane/tom-marker proxy, not manually verified acoustic labels",
+        "reference_semantics_version": 2,
+        "expert_disco_flip_starts": sum(mixes.values()),
+        "expert_disco_reclassified_notes": changed,
     }
 
 
-def _midi_chart_events(path: Path, delay: float) -> list[ChartOnset]:
+def _expert_mixes(commands: list[tuple[int, str]]) -> dict[int, bool]:
+    changes: dict[int, bool] = {}
+    for tick, text in commands:
+        command = text.strip().removeprefix("[").removesuffix("]").replace("_", " ").strip()
+        if not re.match(r"mix\s+3\s+drums", command):
+            continue
+        match = re.fullmatch(r"mix\s+3\s+drums[0-5]?(d|dnoflip|easy|easynokick)?", command)
+        if match is None:
+            raise ValueError("unsupported Expert drum mix event")
+        flipped = match[1] == "d"
+        if tick in changes and changes[tick] != flipped:
+            raise ValueError("conflicting Expert drum mix events at the same tick")
+        changes[tick] = flipped
+    return changes
+
+
+def _unflip_disco(
+    events: list[ChartOnset], changes: dict[int, bool]
+) -> tuple[list[ChartOnset], int]:
+    ticks = sorted(changes)
+    result = []
+    changed = 0
+    for event in events:
+        index = bisect_right(ticks, event.tick) - 1
+        if index >= 0 and changes[ticks[index]] and event.midi_note in {97, 98}:
+            # Pro Drums reverses authored disco lanes, including yellow toms.
+            group = "YELLOW_CYMBAL_PROXY" if event.midi_note == 97 else "SNARE_PROXY"
+            event = replace(event, group=group)
+            changed += 1
+        result.append(event)
+    return result, changed
+
+
+def _midi_chart_events(path: Path, delay: float) -> tuple[list[ChartOnset], dict[int, bool]]:
     midi = read_drum_midi(path.read_bytes())
     track = next(t for t in midi.tracks if t.name == "PART DRUMS")
     # Resolve marker spans first, so onsets at the same tick are order-independent.
     intervals: dict[int, list[tuple[int, int]]] = {110: [], 111: [], 112: []}
     active: dict[int, int] = {}
+    commands = []
     tick = 0
     for msg in track:
         tick += msg.time
+        if msg.type == "text":
+            commands.append((tick, msg.text))
         if msg.type not in {"note_on", "note_off"}:
             continue
         if msg.type == "note_on" and msg.velocity > 0 and msg.note == 101:
@@ -129,10 +170,10 @@ def _midi_chart_events(path: Path, delay: float) -> list[ChartOnset]:
             events.append(ChartOnset(seconds + delay, tick, note, group, msg.velocity))
     if not events:
         raise ValueError("reference chart has no Expert drum notes")
-    return events
+    return events, _expert_mixes(commands)
 
 
-def _text_chart_events(path: Path, delay: float) -> tuple[list[ChartOnset], float]:
+def _text_chart_events(path: Path, delay: float) -> tuple[list[ChartOnset], float, dict[int, bool]]:
     pairs = re.findall(
         r"(?ms)^\[([^]]+)\]\s*\{\s*(.*?)^\s*\}", path.read_text(encoding="utf-8-sig")
     )
@@ -189,7 +230,13 @@ def _text_chart_events(path: Path, delay: float) -> tuple[list[ChartOnset], floa
         events.append(ChartOnset(seconds + delay + offset, tick, note + 96, group, None))
     if not events:
         raise ValueError("reference .chart has no ExpertDrums notes")
-    return events, offset
+    commands = [
+        (int(tick), text)
+        for tick, text in re.findall(
+            r'(?m)^\s*(\d+)\s*=\s*E\s+"?([^"\r\n]+)"?\s*$', sections.get("ExpertDrums", "")
+        )
+    ]
+    return events, offset, _expert_mixes(commands)
 
 
 def playback_assets(folder: Path, *, require_drums: bool = True) -> list[Path]:

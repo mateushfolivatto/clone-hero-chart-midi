@@ -232,3 +232,13 @@ finding. This file supplements the backlog; it does not redefine task completion
     A regression forbids calibration calls and verifies profile byte identity and
     absent drum output. Keep Carry On's poor result and 115's zero yellow-cymbal
     reference count visible; do not optimize offsets/windows after seeing test scores.
+
+43. **Resolve disco flip before interpreting Pro reference colors.** Crawling's
+    Expert mix events with flag d place timekeeping hi-hat on stored red and
+    snare on stored yellow. Ignoring them counted 52 instead of 212 Pro-yellow
+    references in the fixed excerpts. Resolve state by difficulty/tick before
+    scoring, distinguish dnoflip, preserve original note/timing/velocity and
+    version reference semantics. MIDI/.chart regressions cover same-tick order,
+    resets, toms, simultaneous notes and conflicts. Compare prior references:
+    all events in the previous ten songs and Faint remained unchanged. A changed
+    label score is not detector improvement.

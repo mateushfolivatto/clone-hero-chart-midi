@@ -140,6 +140,7 @@ class SignalReferenceTests(unittest.TestCase):
             recipe.write_text(
                 json.dumps(
                     {
+                        "title": "Linkin Park <teste> & perfil congelado",
                         "frozen_profile_sha256": hashlib.sha256(before).hexdigest(),
                         "songs": [
                             {
@@ -180,6 +181,9 @@ class SignalReferenceTests(unittest.TestCase):
             self.assertEqual(path.read_bytes(), before)
             self.assertEqual((args.out / "frozen-profile.json").read_bytes(), before)
             self.assertEqual(report["songs"][0]["chart_format"], "chart")
+            page = (args.out / "report.html").read_text()
+            self.assertIn("<h1>Linkin Park &lt;teste&gt; &amp; perfil congelado</h1>", page)
+            self.assertNotIn("CoD e Avenged Sevenfold", page)
 
 
 if __name__ == "__main__":

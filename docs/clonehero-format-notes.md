@@ -19,6 +19,14 @@ Roll markers 126/127 describe one-/two-lane roll phrases; kicks are excluded.
 These are format conventions; support of advanced mechanics in the user's Clone
 Hero version must be validated in later phases.
 
+For Pro reference interpretation, resolve Expert mix events as well as tom
+markers. The flag `d` in `[mix 3 drums2d]` swaps stored red into yellow cymbal
+and stored yellow (including tom) into red. The next Expert mix resets this
+state; `dnoflip` does not swap notes. Other difficulties have separate state.
+The same mix commands can appear as local .chart events, with spaces/underscores
+and optional brackets. Keep stored note numbers separate from resolved Pro groups.
+Crawling exposed this case; see [linkin-park-hihat.md](linkin-park-hihat.md).
+
 ## Timing and serialization decision
 
 Use a type-1 MIDI with a separate tempo track, PART DRUMS and end-of-track events.
