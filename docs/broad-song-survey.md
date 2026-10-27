@@ -133,6 +133,13 @@ Pissings. Ela ilustra controles, extremos e componentes, sem participar da sele�
 ou alteração de regras. Suas reexecuções reproduziram os mesmos scores. Nem todas
 as ondas foram inspecionadas visualmente e não alegamos escuta das 64 músicas.
 
+Nesta entrega, `output/64-musicas-padroes-bateria.zip` reúne o relatório HTML,
+quatro gráficos, a galeria, métricas CSV/JSON, receitas e os 64 relatórios por
+música com candidatos/referências e recibos de execução. Extraia e abra
+`report.html`; `LEIA-ME.md` explica o conteúdo. Não inclui áudio, MIDI original
+ou pesos. O ZIP é temporário no workspace; os scripts, agregados e receitas
+versionados permitem repetir o estudo com as entradas privadas correspondentes.
+
 ## Verificação e próxima decisão
 
 As 64 músicas concluíram sem falhas. Uma repetição integral produziu os mesmos
@@ -141,6 +148,11 @@ verificados sem recalcular áudio. O perfil e os 352 arquivos de entrada foram
 preservados. Novas regressões cobrem seleção independente da ordem, limite por
 artista, identidade de notas duplicadas, comparação de fontes no mesmo recorte,
 bootstrap por música, controle temporal e rejeição de cache adulterado.
+
+Passaram 146 testes do núcleo e 19 testes opcionais de DSP após integrar os
+lotes temáticos da biblioteca. Locks, Ruff, mypy, CLI e build passaram; wheel e
+sdist não contêm mídia/modelos privados. O ZIP de 14.732.657 bytes passou CRC e
+conferência dos 569 hashes de conteúdo, mais seu manifesto (570 arquivos).
 
 O estudo usa Linux/Python 3.12.14, NumPy 2.3.5, Matplotlib 3.10.8, Mido 1.3.3 e
 FFmpeg local. Verificações e contagens finais estão em docs/testing.md. Windows

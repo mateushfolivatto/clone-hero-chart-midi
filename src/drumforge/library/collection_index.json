@@ -2,11 +2,11 @@
   "schema_version": 1,
   "playlist_url": "https://open.qobuz.com/playlist/69773629",
   "playlist_entries": 744,
-  "unique_new_charts": 254,
+  "unique_new_charts": 299,
   "active_new_charts": 254,
   "drum_modes": {
-    "pro": 246,
-    "standard": 8
+    "pro": 285,
+    "standard": 14
   },
   "coverage_entries": {
     "prepared": 262,
@@ -15,9 +15,9 @@
     "pilot": 13,
     "blocked": 61
   },
-  "download_bytes": 3952089814,
-  "prepared_bytes": 3356044386,
-  "recommended_free_bytes": 12811662234,
+  "download_bytes": 4423822855,
+  "prepared_bytes": 3792563952,
+  "recommended_free_bytes": 14156434407,
   "game_verified": false,
   "batches": [
     {
@@ -96,11 +96,74 @@
       "sha256": "8314ed1e777d0700b670f10708064faa4a5bb475f37a1180ba0ee8acd9c4a707",
       "songs": 8,
       "drum_mode": "standard"
+    },
+    {
+      "number": 13,
+      "manifest": "collection_13.json",
+      "sha256": "bb4f37799376a11467c0c63985ef8228a2664caecd8bbf8f41996cd10a3c5594",
+      "songs": 9,
+      "drum_mode": "pro",
+      "theme": "lol",
+      "theme_label": "League of Legends"
+    },
+    {
+      "number": 14,
+      "manifest": "collection_14.json",
+      "sha256": "36579520e5dc41965a909d890111e1493aa2b3c8aedd08c1c3b6f52e60b61964",
+      "songs": 2,
+      "drum_mode": "standard",
+      "theme": "lol",
+      "theme_label": "League of Legends"
+    },
+    {
+      "number": 15,
+      "manifest": "collection_15.json",
+      "sha256": "d414d4dc64d09a0be96f5fd718cbe3dd722245ac03e27558bd3f522cd547a3d1",
+      "songs": 11,
+      "drum_mode": "pro",
+      "theme": "imagine",
+      "theme_label": "Imagine Dragons"
+    },
+    {
+      "number": 16,
+      "manifest": "collection_16.json",
+      "sha256": "8059008c92f811ede768a04689bfcbc91f0e212e8f1a6183d7a671189e88c7b1",
+      "songs": 2,
+      "drum_mode": "standard",
+      "theme": "imagine",
+      "theme_label": "Imagine Dragons"
+    },
+    {
+      "number": 17,
+      "manifest": "collection_17.json",
+      "sha256": "f82f4a91c2360d2f6e3f6903dd5fd617660accba77cc8c2c0e2ad9dbc6e97655",
+      "songs": 19,
+      "drum_mode": "pro",
+      "theme": "similar",
+      "theme_label": "Semelhantes a Linkin Park"
+    },
+    {
+      "number": 18,
+      "manifest": "collection_18.json",
+      "sha256": "051e7b70b4ea58afaada5be29fb2ce59ae49abcfda47ae4325eefba6419caf2f",
+      "songs": 2,
+      "drum_mode": "standard",
+      "theme": "similar",
+      "theme_label": "Semelhantes a Linkin Park"
     }
   ],
   "helpers": {
     "onyx_recovery.py": "affb26b68f145a62a7834b33cf56f746dd8eacc63a1f918a046e7b8f69bfb1cb",
     "sevenzip.py": "822d12334b2ab821e3dfec5fcf38d99ce1dfc610c80cfae49170f8b83095da3a",
     "mega_recovery.py": "94149c758ca8f8d60989af41631fc4b2ba559a5f26039893f3704b52e9520191"
-  }
+  },
+  "curated_charts": 45,
+  "curated_by_theme": {
+    "lol": 11,
+    "similar": 21,
+    "imagine": 13
+  },
+  "curated_download_bytes": 471733041,
+  "curated_prepared_bytes": 436519566,
+  "curated_recommended_free_bytes": 3492255821
 }

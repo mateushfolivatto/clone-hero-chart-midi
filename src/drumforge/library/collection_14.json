@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "batch_number": 14,
+  "collection_folder": "MixDrumRock - Drums - Lote 14 - League of Legends",
+  "archive_name": "MixDrumRock-lote-14.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "theme": "lol",
+  "theme_label": "League of Legends",
+  "songs": [
+    {
+      "artist": "Riot & Djerv",
+      "title": "Get Jinxed",
+      "file_id": "5930b887dbfd26.89474063",
+      "source_url": "https://rhythmverse.co/songfile/5930b887dbfd26.89474063",
+      "download_url": "https://rhythmverse.co/download_file/deadcanadian/5930b887dbfd26.89474063/getjinxed_rb3con",
+      "archive_format": "onyx",
+      "folder": "Riot & Djerv - Get Jinxed [5930b887]",
+      "charter": "deadcanadian",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 903,
+          "kick_note_on_count": 216,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 134.667,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5930b887dbfd26.89474063",
+        "artist": "Riot & Djerv",
+        "title": "Get Jinxed",
+        "album": "League of Legends",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5930b887dbfd26.89474063",
+        "download_url": "https://rhythmverse.co/download_file/deadcanadian/5930b887dbfd26.89474063/getjinxed_rb3con",
+        "duration_seconds": 157.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "DeadCanadian",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "Riot & Djerv - Get Jinxed/album.png",
+          "name": "album.png",
+          "sha256": "2da3d33db6726a23225d5fe1ccd6fb47ac04c8ef2695537c69617e499e2dd8e2"
+        },
+        {
+          "archive_name": "Riot & Djerv - Get Jinxed/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a8832ea5bf39a65599d98d0d7647cd3a62fa19a3771e3c4323f6e51765196821"
+        },
+        {
+          "archive_name": "Riot & Djerv - Get Jinxed/song.ini",
+          "name": "song.ini",
+          "sha256": "543cc4353e792701174a0a437bbe2626942e2798655448aa3ee96e1b967cb04d"
+        },
+        {
+          "archive_name": "Riot & Djerv - Get Jinxed/song.ogg",
+          "name": "song.ogg",
+          "sha256": "28245d72a53e810d57c59e6cfef101294caeea0a7d3ef5fc18ada10e0175b8ba"
+        }
+      ],
+      "archive_sha256": "c594c32047e4a00249f588f30a4d2c6ffe5e5c339240cccb8cf1acae5d707666",
+      "archive_bytes": 3678208,
+      "prepared_bytes": 2889126,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    },
+    {
+      "artist": "The Glitch Mob, Mako, and The Word Alive",
+      "title": "RISE",
+      "file_id": "5bbcd480222282.61891692",
+      "source_url": "https://rhythmverse.co/songfile/5bbcd480222282.61891692",
+      "download_url": "https://rhythmverse.co/download_file/inevitablend/5bbcd480222282.61891692/IE_RISE_v2",
+      "archive_format": "onyx",
+      "folder": "The Glitch Mob, Mako, and The Word Alive - RISE [5bbcd480]",
+      "charter": "InevitablEnd",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 670,
+          "kick_note_on_count": 129,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 191.055,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5bbcd480222282.61891692",
+        "artist": "The Glitch Mob, Mako, and The Word Alive",
+        "title": "RISE",
+        "album": "League of Legends",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5bbcd480222282.61891692",
+        "download_url": "https://rhythmverse.co/download_file/inevitablend/5bbcd480222282.61891692/IE_RISE_v2",
+        "duration_seconds": 196.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "InevitablEnd",
+        "notes": null,
+        "match_basis": "curated catalog edition; package artist/title, drums and audio inspected; no Qobuz or master identity claimed"
+      },
+      "files": [
+        {
+          "archive_name": "The Glitch Mob, Mako, and The Word Alive - RISE/album.png",
+          "name": "album.png",
+          "sha256": "3f74015fefc9c7aebd822a55155c1f7182c7d0a106605bcec9b34bc735e72831"
+        },
+        {
+          "archive_name": "The Glitch Mob, Mako, and The Word Alive - RISE/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f14f1cbab9ad6080672c7a84f3376b0e1e394c635e5160526853c8708a7a873a"
+        },
+        {
+          "archive_name": "The Glitch Mob, Mako, and The Word Alive - RISE/song.ini",
+          "name": "song.ini",
+          "sha256": "d46a0ebb34336006f64397398b10327edff4f379e216f832e17ebe0b13ed851c"
+        },
+        {
+          "archive_name": "The Glitch Mob, Mako, and The Word Alive - RISE/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6465eafda74657d92362cf131d7f9ca6eafe58b5757ec06cc673e5429163b070"
+        }
+      ],
+      "archive_sha256": "73fab936d373c4feff2d1fc634bb43d22c23468eadb73c0b17538ff7fd578045",
+      "archive_bytes": 4644864,
+      "prepared_bytes": 4489471,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Curadoria temática solicitada em 2026-10-25, independente da playlist Qobuz."
+    }
+  ]
+}

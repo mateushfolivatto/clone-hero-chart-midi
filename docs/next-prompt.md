@@ -118,7 +118,7 @@ ambiente/pesos locais verificados. Reporte TP/FP/FN, precisão/recall/F1 e erros
 Não declare identificação acústica por cores de chart ou acurácia por candidatos.
 
 Windows/Python 3.12 CPU continua primário. Os resultados de 2026-10-27 são Linux;
-144 testes do núcleo e 19 regressões opcionais de DSP passaram. Consulte
+146 testes do núcleo e 19 regressões opcionais de DSP passaram. Consulte
 docs/testing.md. Não instale WSL, Docker ou CUDA nem altere políticas do PC.
 O decoder do experimento usa guarda final de 100 ms e recorte por amostras,
 sem mover ataques ou preencher stems curtos. Charts/áudios originais permanecem
@@ -136,3 +136,9 @@ transcrição. Atualize documentos/backlog/lessons com evidências, execute gate
 inspecione artefatos e revise o diff exato. Faça commit da unidade verificada e
 siga o Git workflow de AGENTS.md; merge --no-ff/push quando a unidade estiver
 concluída, preservando commits e reportando bloqueios reais.
+
+As alterações de origin/main para os lotes temáticos 13–18 também foram integradas,
+preservando as receitas anteriores e os helpers Onyx. O prompt e os resultados
+dessa frente separada estão em song-library/TEMATICOS.md e
+docs/library-themed-verification.md. Não confunda os 45 charts temáticos preparados
+naquela frente com as 64 músicas novas medidas neste estudo espectral.
