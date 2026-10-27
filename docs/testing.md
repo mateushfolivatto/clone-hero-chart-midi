@@ -1,5 +1,12 @@
 # Quality gates
 
+The CoD/A7X frozen evaluation adds 12 core cases (129 total) and one optional
+integration case (eight DSP tests total). They cover .chart tempo/Offset/cymbal
+semantics, missing velocities, single-stream packages and calibration-data reuse
+guards. The optional integration rejects any calibration call, preserves profile
+bytes and verifies that absent drums are not fabricated. The existing optional
+unittest command below includes it. See [cod-a7x-heldout.md](cod-a7x-heldout.md).
+
 The five-song reference experiment adds 13 core cases (117 tests total) for
 tempo/delay and tom-marker boundaries, unsupported references, stem selection,
 one-to-one scoring and song-level holdout exclusion. The shared MIDI-track loader

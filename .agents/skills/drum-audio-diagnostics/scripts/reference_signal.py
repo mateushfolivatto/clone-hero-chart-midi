@@ -81,10 +81,21 @@ def calibrate(clips, group, score_onsets):
     return best_rule
 
 
-def render_comparison(destination, title, start, audios, powers, references, predictions):
+def render_comparison(
+    destination,
+    title,
+    start,
+    audios,
+    powers,
+    references,
+    predictions,
+    prediction_label="candidatos calibrados na mix (outras músicas)",
+):
     import matplotlib.pyplot as plt
 
-    fig, axes = plt.subplots(4, 1, figsize=(14, 10), sharex=True, layout="constrained")
+    fig, axes = plt.subplots(
+        len(powers) + 2, 1, figsize=(14, 10), sharex=True, layout="constrained"
+    )
     for label, audio in audios.items():
         width = max(1, len(audio) // 1800)
         blocks = audio[: len(audio) // width * width].reshape(-1, width, 2)
@@ -93,7 +104,7 @@ def render_comparison(destination, title, start, audios, powers, references, pre
     axes[0].set(title=title, ylabel="Envelope |amplitude|")
     axes[0].legend()
     vmax = max(float(10 * np.log10(np.maximum(p, 1e-16)).max()) for p in powers.values())
-    for axis, (label, power) in zip(axes[1:3], powers.items(), strict=True):
+    for axis, (label, power) in zip(axes[1:-1], powers.items(), strict=True):
         times = start + np.arange(len(power)) * spectral.HOP / spectral.RATE
         frequencies = np.fft.rfftfreq(spectral.N_FFT, 1 / spectral.RATE)
         axis.pcolormesh(
@@ -110,24 +121,24 @@ def render_comparison(destination, title, start, audios, powers, references, pre
     names = list(references)
     colors = ["#e07830", "#3b8fba", "#9159bd", "#67706a", "#a76648"]
     for index, (group, color) in enumerate(zip(names, colors, strict=True)):
-        axes[3].scatter(
+        axes[-1].scatter(
             references[group], [index] * len(references[group]), color=color, marker="|", s=180
         )
         candidate = predictions.get(group, [])
-        axes[3].scatter(
+        axes[-1].scatter(
             candidate,
             [index - 0.22] * len(candidate),
             color=color,
             marker="x",
             s=14,
         )
-    axes[3].set(
+    axes[-1].set(
         yticks=range(len(names)),
         yticklabels=names,
         xlabel="Tempo no áudio (s)",
-        title="Traços: chart de referência; x: candidatos calibrados na mix (outras músicas)",
+        title=f"Traços: chart de referência; x: {prediction_label}",
     )
-    axes[3].set_xlim(start, start + len(next(iter(audios.values()))) / spectral.RATE)
+    axes[-1].set_xlim(start, start + len(next(iter(audios.values()))) / spectral.RATE)
     for axis in axes:
         axis.grid(alpha=0.12)
     fig.savefig(destination, dpi=110)

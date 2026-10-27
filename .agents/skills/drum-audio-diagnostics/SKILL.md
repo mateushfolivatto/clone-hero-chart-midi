@@ -103,6 +103,35 @@ recomendado. Não complete colcheias nem chame todos os agudos de chimbal; anote
 um trecho por instrumento, incluindo outros pratos e simultaneidades, para a
 próxima comparação com ADTOF ou um método multibanda mais discriminativo.
 
+### Testar em outras músicas sem recalibrar
+
+Use o subcomando evaluate para medir a transferência do perfil já salvo. Ele
+confere o hash do perfil e a receita original, rejeita músicas/charts da calibração
+e não chama o calibrador. Não ajuste offsets ou faixas após olhar os rótulos de
+teste. O estudo externo CoD/Avenged Sevenfold está em docs/cod-a7x-heldout.md.
+
+```powershell
+uv --cache-dir .uv-cache run --no-project --locked --script .agents/skills/drum-audio-diagnostics/scripts/chart_reference.py evaluate --recipe docs/experiments/cod-a7x-heldout-recipe.json --profile docs/experiments/five-song-spectral-profile.json --training-recipe docs/experiments/five-song-chart-reference.json --library-root 'C:/caminho/downloads' --out 'output/cod-a7x-teste'
+```
+
+Não exija bateria isolada para avaliar a mixagem: um pacote pode ter somente
+guitar.ogg/song.ogg com o áudio completo. Registre a seleção efetiva; bateria só
+entra no agregado das músicas que têm seus stems. Não invente stems ou compare
+agregados de amostras diferentes como se fossem os mesmos pares.
+
+O leitor também aceita notes.chart: flags 66/67/68 no mesmo tick marcam pratos;
+sem esses flags as notas coloridas são pads/tons. Isso é diferente do MIDI, onde
+110/111/112 marcam tons e a ausência deles indica prato nas pistas amarelo/azul/
+verde. Preserve Resolution, mudanças de BPM, Offset e delay do INI. Não invente
+velocidade de MIDI para .chart: registre null e a convenção de números de pista.
+
+No teste CoD/A7X de 2026-10-27, sem recalibração, mix F1 foi 0,428→0,424 em bumbo,
+0,395→0,513 no proxy de caixa e 0,218→0,279 em prato amarelo. O perfil perdeu
+recall. Carry On falhou inclusive com a regra original; investigue pareamento,
+alinhamento e mascaramento antes de atribuir uma causa. Os trechos de 115 não
+têm prato amarelo no chart: não use esse F1 como recall de chimbal. Preserve
+os casos ruins no relatório e não troque janelas depois de ver os resultados.
+
 O script `scripts/inspect_audio.py`, relativo a esta skill, usa FFmpeg local,
 NumPy e Matplotlib. Não importa PyTorch, não baixa pesos e não envia áudio.
 O uv pode instalar as dependências Python declaradas e travadas no lock do script.

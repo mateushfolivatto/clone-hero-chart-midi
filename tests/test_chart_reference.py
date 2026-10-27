@@ -1,9 +1,13 @@
+import hashlib
 import importlib
+import json
 from pathlib import Path
+from typing import Any
 
 import pytest
 
 from drumforge.diagnostics.chart_reference import playback_assets, read_chart_reference
+from drumforge.diagnostics.holdout import validate_holdout
 from drumforge.diagnostics.matching import score_onsets, training_indices
 
 
@@ -133,3 +137,92 @@ def test_invalid_metrics_inputs_are_rejected() -> None:
         score_onsets([], [], tolerance=0)
     assert score_onsets([], [1])["precision"] == 0
     assert score_onsets([], [])["f1"] is None
+
+
+def _text_reference(tmp_path: Path, *, notes: str = "") -> Path:
+    folder = tmp_path / "chart text"
+    folder.mkdir()
+    (folder / "song.ini").write_text("[song]\npro_drums=True\ndelay=125\n")
+    (folder / "notes.chart").write_text(
+        "[Song]\n{\n Resolution = 192\n Offset = 0.25\n}\n"
+        "[SyncTrack]\n{\n 0 = B 120000\n 192 = B 60000\n}\n"
+        "[ExpertDrums]\n{\n" + notes + "\n}\n"
+    )
+    return folder
+
+
+def test_text_chart_cymbal_flags_tempo_and_offset_have_distinct_midi_semantics(
+    tmp_path: Path,
+) -> None:
+    folder = _text_reference(
+        tmp_path,
+        notes=(
+            " 0 = N 66 0\n 0 = N 2 0\n 0 = N 0 0\n 192 = N 2 0\n"
+            " 384 = N 1 0\n 384 = N 3 0\n 384 = N 67 0"
+        ),
+    )
+    events, meta = read_chart_reference(folder)
+    assert [(e.time_seconds, e.group) for e in events] == [
+        (0.375, "KICK"),
+        (0.375, "YELLOW_CYMBAL_PROXY"),
+        (0.875, "YELLOW_TOM"),
+        (1.875, "SNARE_PROXY"),
+        (1.875, "BLUE_CYMBAL_PROXY"),
+    ]
+    assert all(e.velocity is None for e in events)
+    assert meta["chart_format"] == "chart"
+    assert meta["chart_offset_seconds"] == 0.25
+
+
+@pytest.mark.parametrize(
+    ("old", "new", "message"),
+    [
+        ("0 = N 0 0", "0 = N 5 0", "five-lane"),
+        ("0 = N 0 0", "0 = N 66 0", "same-tick"),
+        ("Resolution = 192", "Resolution = 0", "Resolution"),
+        ("Offset = 0.25", "Offset = nan", "finite"),
+        ("0 = B 120000", "0 = B 0", "tempo"),
+        ("0 = B 120000", "96 = B 120000", "tick zero"),
+    ],
+)
+def test_invalid_text_references_are_refused(
+    tmp_path: Path, old: str, new: str, message: str
+) -> None:
+    folder = _text_reference(tmp_path, notes=" 0 = N 0 0")
+    path = folder / "notes.chart"
+    path.write_text(path.read_text().replace(old, new))
+    with pytest.raises(ValueError, match=message):
+        read_chart_reference(folder)
+
+
+def test_audio_only_package_does_not_invent_a_drums_stem(tmp_path: Path) -> None:
+    (tmp_path / "guitar.ogg").touch()
+    with pytest.raises(ValueError, match="drums stem"):
+        playback_assets(tmp_path)
+    assert [p.name for p in playback_assets(tmp_path, require_drums=False)] == ["guitar.ogg"]
+
+
+@pytest.mark.parametrize("change", ["same_id", "same_chart", "bad_recipe", "duplicate_id"])
+def test_frozen_holdout_rejects_reused_or_unverifiable_training_data(
+    tmp_path: Path, change: str
+) -> None:
+    training = tmp_path / "training.json"
+    training.write_text(
+        json.dumps({"songs": [{"id": "old", "assets_sha256": {"notes.mid": "aaa"}}]})
+    )
+    profile = {
+        "source_songs": ["old"],
+        "source_recipe_sha256": hashlib.sha256(training.read_bytes()).hexdigest(),
+    }
+    songs: list[dict[str, Any]] = [{"id": "new", "assets_sha256": {"notes.chart": "bbb"}}]
+    validate_holdout(profile, training, songs)
+    if change == "same_id":
+        songs[0]["id"] = "old"
+    elif change == "same_chart":
+        songs[0]["assets_sha256"]["notes.chart"] = "aaa"
+    elif change == "bad_recipe":
+        training.write_text(training.read_text() + " ")
+    else:
+        songs.append(songs[0].copy())
+    with pytest.raises(ValueError):
+        validate_holdout(profile, training, songs)

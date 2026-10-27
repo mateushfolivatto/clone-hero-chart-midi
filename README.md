@@ -77,6 +77,9 @@ The skill also supports [learning from five existing chart/audio pairs](docs/fiv
 That real-song experiment produced a reusable spectral profile and chart-overlaid
 spectrograms, with whole-song holdouts. Simple rules improved kick/snare chart
 agreement but did not improve the hi-hat proxy; the ADTOF baseline is unchanged.
+The [CoD/Avenged Sevenfold follow-up](docs/cod-a7x-heldout.md) tests that frozen
+profile on five other songs, including a .chart reference and packages without
+drum stems. It records per-song failures and does not recalibrate on test data.
 
 ## Project navigation
 

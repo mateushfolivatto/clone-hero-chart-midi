@@ -224,3 +224,11 @@ finding. This file supplements the backlog; it does not redefine task completion
     Decode a bounded tail guard and crop by exact sample count without shifting
     the start; refuse stems that do not cover the interval. A regression verifies
     exact cropping/start preservation, and the real rerun preserves scoring.
+
+42. **External tests must keep rules and coverage explicit.** CoD/A7X evaluation
+    found three single-stream packages, one .chart and only two drum-stem pairs.
+    Pin the frozen profile, reject calibration-data reuse, preserve .chart's
+    opposite pad/cymbal flag convention and report mode-specific sample sizes.
+    A regression forbids calibration calls and verifies profile byte identity and
+    absent drum output. Keep Carry On's poor result and 115's zero yellow-cymbal
+    reference count visible; do not optimize offsets/windows after seeing test scores.

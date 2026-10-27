@@ -35,6 +35,7 @@ from reference_signal import (
 sys.path.insert(0, str(Path(__file__).resolve().parents[4] / "src"))
 from drumforge.diagnostics.chart_reference import (  # noqa: E402
     TARGET_GROUPS,
+    chart_asset,
     playback_assets,
     read_chart_reference,
 )
@@ -102,7 +103,7 @@ def study(args):
         if not folder.is_relative_to(root):
             raise ValueError("song folder escapes library root")
         assets = playback_assets(folder)
-        names = {p.name for p in assets} | {"song.ini", "notes.mid"}
+        names = {p.name for p in assets} | {"song.ini", chart_asset(folder).name}
         if names != set(song["assets_sha256"]):
             raise ValueError(f"unexpected asset selection: {song['id']}")
         for name, expected in song["assets_sha256"].items():
@@ -342,9 +343,8 @@ def study(args):
     print(json.dumps({"output": str(args.out), "aggregate": aggregate}, indent=2))
 
 
-def predict(args):
-    interval(args.start, args.duration)
-    profile = json.loads(args.profile.read_text(encoding="utf-8"))
+def load_profile(path, modes=MODES):
+    profile = json.loads(path.read_text(encoding="utf-8"))
     if (
         profile.get("kind") != "experimental_spectral_peak_rules"
         or profile.get("schema_version") != 1
@@ -359,9 +359,19 @@ def predict(args):
         k: list(v) for k, v in BANDS.items()
     }:
         raise ValueError("profile spectral configuration differs from this script")
+    for mode in modes:
+        rules = profile["modes"][mode]
+        if set(rules) != set(TARGET_GROUPS) or any(
+            tuple(rule) not in GRID for rule in rules.values()
+        ):
+            raise ValueError("profile rule is outside the fixed calibration grid")
+    return profile
+
+
+def predict(args):
+    interval(args.start, args.duration)
+    profile = load_profile(args.profile, (args.mode,))
     rules = profile["modes"][args.mode]
-    if set(rules) != set(TARGET_GROUPS) or any(tuple(rule) not in GRID for rule in rules.values()):
-        raise ValueError("profile rule is outside the fixed calibration grid")
     audio, decoded_samples = exact_excerpt(args.audio, args.ffmpeg_path, args.start, args.duration)
     curves = features(spectral.spectrum(audio))
     rows = [
@@ -413,14 +423,26 @@ def main():
     forward.add_argument("--mode", choices=MODES, default="mix")
     forward.add_argument("--start", type=float, default=0)
     forward.add_argument("--duration", type=float, default=20)
-    for command in (research, forward):
+    evaluation = commands.add_parser(
+        "evaluate", help="Test a frozen profile on other chart/audio pairs"
+    )
+    evaluation.add_argument("--recipe", type=Path, required=True)
+    evaluation.add_argument("--profile", type=Path, required=True)
+    evaluation.add_argument("--training-recipe", type=Path, required=True)
+    evaluation.add_argument("--library-root", type=Path, required=True)
+    for command in (research, forward, evaluation):
         command.add_argument("--out", type=Path, required=True)
         command.add_argument("--ffmpeg-path", default="ffmpeg")
     args = parser.parse_args()
     if args.out.exists() or args.out.is_symlink():
         parser.error("output directory exists; choose a new directory")
     try:
-        (study if args.command == "study" else predict)(args)
+        if args.command == "evaluate":
+            from reference_holdout import evaluate
+
+            evaluate(args, sys.modules[__name__])
+        else:
+            (study if args.command == "study" else predict)(args)
     except (OSError, ValueError, KeyError, RuntimeError) as exc:
         parser.error(str(exc))
     return 0
