@@ -1,68 +1,57 @@
 # Próximo prompt completo
 
 Leia integralmente AGENTS.md, CODEX_KICKOFF.md, CONTEXT.md, BACKLOG.md e lessons.md.
-Releia lessons.md junto do backlog e depois de recuperar contexto. Leia também
-os relatórios em docs/environment.md, docs/phase-0-verification.md,
-docs/research-notes.md e docs/dependency-licenses.md.
+Releia lessons.md ao consultar o backlog e após recuperar contexto. Leia a skill
+`.agents/skills/drum-audio-diagnostics/SKILL.md` em toda tarefa de música para chart.
+Audite Git/ambiente antes de editar, preserve trabalho existente e use uma branch
+nova a partir de main para uma nova unidade. Continue a branch existente se a
+unidade ainda estiver aberta. Preserve a implementação inspect-midi.
 
-A Phase 0 e a auditoria de compatibilidade pré-Phase 1 estão concluídas em
-Windows nativo/Python 3.12 CPU. Audite Git e ambiente
-antes de editar. A continuação da Phase 1 está na branch
-`feat/raw-midi-diagnostics`: preserve e continue nela para a mesma unidade de
-trabalho. Crie outra branch a partir de main somente para uma nova unidade.
-Preserve trabalho local.
-Windows é primário para desenvolver, testar, executar e futuramente gerar charts.
-Linux/WSL é apenas portabilidade futura. Não instale WSL, use docker-desktop,
-introduza Docker ou modifique políticas administrativas. CUDA é opcional.
+O usuário autorizou estudar cinco músicas prontas como referências de áudio/chart
+e combinar o resultado em arquivo e na skill. DCF-124 entregou esse experimento;
+leia docs/five-song-chart-reference.md, a receita, resultados e perfil em
+docs/experiments/. Foram usadas Numb, All Apologies, Come Together, The Number of
+the Beast e Forsaken: 36 arquivos verificados, dois trechos de 20 s por música,
+200 s e 860 ataques das três classes por modo de áudio.
 
-Continue a Phase 1 a partir de DCF-113–114 e DCF-116/117/120–122.
-DCF-100–104/107/109–112/115 já
-implementam o preparo, interfaces e transcrição ADTOF, mas o fluxo ainda
-deve ser exercitado com FFmpeg e áudio privado no Windows nativo. Use a
-decisão de `docs/phase-1-windows-compatibility.md`: FFmpeg nativo como boundary de
-normalização, PyTorch CPU e ADTOF `85c192e`, sem separação inicialmente.
+A skill agora tem chart_reference.py com study/predict e lock próprio de
+NumPy 2.3.5, Matplotlib 3.10.8 e Mido 1.3.3. study interpreta tempo/delay e
+marcadores de tom, soma stems com ganho comum, calibra em quatro músicas e testa
+na quinta sem misturar trechos entre os lados. predict usa só áudio/perfil e
+exporta candidatos CSV; não gera chart de jogo. O perfil final foi calibrado
+nas cinco músicas, não testado numa sexta. Seu uso automático não é recomendado.
 
-DCF-118/119 agora têm implementação e evidência sintética no comando
-`drumforge inspect-midi 'work/raw.mid' --out 'output/diagnostico-midi'`. Leia
-docs/phase-1-midi-diagnostics.md. Mido 1.3.3 está no grupo dev e no extra opcional
-diagnostics, fixado no uv.lock; `uv sync --locked --extra diagnostics` prepara
-o parser. O comando preserva tempos, velocidades MIDI e notas simultâneas e gera
-report.json/events.csv em pasta nova. Ele espera percussão GM no canal 10, não um
-chart PART DRUMS existente. Não trate velocidade armazenada como dinâmica acústica
-estimada ou confiança; DCF-113/114 permanecem abertos.
+Resultados na mix, F1 contra o chart a ±30 ms: bumbo 0,385→0,599; proxy de caixa
+0,339→0,468; prato amarelo 0,472→0,456. Houve troca de recall por precisão e o
+chimbal não melhorou. Prato amarelo não é rótulo acústico garantido de chimbal;
+pad vermelho também é proxy. Não mude defaults ADTOF com base nesses números:
+ADTOF não foi executado/comparado. Preserve a mix de referência, os ataques
+simultâneos e tempos sem quantização.
 
-Faça primeiro a validação nativa com áudio privado e aplique as contagens/CSV à
-música real. Se os arquivos/ambiente não estiverem disponíveis, registre o bloqueio
-e não alegue inferência ou qualidade real. Esta cópia da nuvem não tem o áudio de
-Turn to Ashes, checkpoint ou ambiente ADTOF. Os 104 testes e a demonstração de
-22 ataques foram sintéticos; a Phase 1 continua em andamento.
+Próximo menor experimento: obter/anotar manualmente por instrumento um trecho
+reservado de outra música, com caixa+chimbal simultâneos, pausas, tons e ride/crash.
+Pode usar pares locais de outros lotes existentes, sem esperar só por Turn to
+Ashes. Registre versão, origem e offsets; não ajuste o método olhando rótulos
+do conjunto reservado. Compare o método espectral e ADTOF quando houver
+ambiente/pesos locais verificados. Reporte TP/FP/FN, precisão/recall/F1 e erros.
+Não declare identificação acústica por cores de chart ou acurácia por candidatos.
 
-Use sempre a skill local `.agents/skills/drum-audio-diagnostics/SKILL.md` em toda
-tarefa de música para chart, conforme solicitado pelo usuário e registrado em
-AGENTS.md. Aplique também seu procedimento para investigar
-chimbal ausente e comparar um trecho de 15–30 s da mixagem com stems locais de
-bateria/chimbal, quando fornecidos. Veja docs/drum-audio-diagnostics.md. O CLI
-mantém `--thresholds BD SD HH TT CY`; o adaptador agora traduz para a ordem
-upstream BD SD TT HH CY. Terceiro valor público = chimbal. Reavalie vetores
-explícitos antigos ajustados antes da correção. Preserve a mixagem de referência,
-varie só HH e meça TP/FP/FN e erro de tempo por classe; não suponha que a separação
-melhore tudo. O script espectral produz candidatos, não classes reconhecidas.
-Não faça upload ao Moises nem baixe modelos sem autorização específica; stems
-exportados pelo usuário podem ser preparados/transcritos no fluxo atual.
-Mantenha separação desativada no baseline por meio do passthrough existente e
-`--skip-separation`. Não instale WSL/Docker/CUDA e não torne
-separação um requisito. Mantenha dependências ML opcionais e travadas.
+Windows/Python 3.12 CPU continua primário. Os resultados de 2026-10-27 são Linux;
+117 testes do núcleo e sete regressões opcionais de DSP passaram. Consulte
+docs/testing.md. Não instale WSL, Docker ou CUDA nem altere políticas do PC.
+O decoder do experimento usa guarda final de 100 ms e recorte por amostras,
+sem mover ataques ou preencher stems curtos. Charts/áudios originais permanecem
+privados/ignorados; receitas, agregados e regras são versionados.
 
-A API ADTOF upstream pode continuar sem carregar pesos ausentes; o adaptador local
-já rejeita checkpoint ausente/incompatível, valida o SHA256 e força CPU. Não
-infira licença dos pesos a partir do wrapper. Não trate WSL como solução.
+Se executar ADTOF, use a revisão/peso auditados em
+docs/phase-1-windows-compatibility.md, CPU e --skip-separation. O adaptador valida
+SHA256 e carregamento estrito. --thresholds usa BD SD HH TT CY, traduzida uma vez
+para BD SD TT HH CY no backend. Não baixe modelos nem faça uploads ao Moises sem
+autorização específica. Velocidade MIDI não é confiança calibrada.
 
-Atualize documentos, backlog e lessons.md com evidências. Execute gates aplicáveis
-em docs/testing.md, revise artefatos e ausência de áudio/pesos rastreados, faça
-commit na branch. AGENTS.md exige manter uma fase incompleta na branch; a Phase 1
-ainda depende da validação privada. Quando os critérios estiverem satisfeitos,
-faça merge --no-ff em main, verifique árvore limpa e informe hashes.
-Tente push de main para origin após o merge e verifique sincronização; se falhar,
-preserve os commits e registre o erro real. Entregue apenas os DCFs realmente
-concluídos, medições e o próximo menor passo. Não avance a Phase 2/3 antes de
-verificar os critérios de aceitação da fase atual.
+Phase 1 continua em andamento: Turn to Ashes, DCF-113/114 e validação privada
+não foram concluídos. Não implemente exportador/GUI para contornar incertezas de
+transcrição. Atualize documentos/backlog/lessons com evidências, execute gates,
+inspecione artefatos e revise o diff exato. Faça commit da unidade verificada e
+siga o Git workflow de AGENTS.md; merge --no-ff/push quando a unidade estiver
+concluída, preservando commits e reportando bloqueios reais.

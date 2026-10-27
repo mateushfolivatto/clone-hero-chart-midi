@@ -73,6 +73,11 @@ simultaneous notes and tempo changes. It reads raw GM percussion on MIDI channel
 10, not an existing Clone Hero `PART DRUMS` chart, and refuses existing output
 folders. See [Phase 1 MIDI diagnostics](docs/phase-1-midi-diagnostics.md).
 
+The skill also supports [learning from five existing chart/audio pairs](docs/five-song-chart-reference.md).
+That real-song experiment produced a reusable spectral profile and chart-overlaid
+spectrograms, with whole-song holdouts. Simple rules improved kick/snare chart
+agreement but did not improve the hi-hat proxy; the ADTOF baseline is unchanged.
+
 ## Project navigation
 
 - [Baixar o lote de 12 músicas no Windows](song-library/BAIXAR.md): recuperação

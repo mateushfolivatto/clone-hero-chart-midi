@@ -168,6 +168,23 @@ These are implemented diagnostic capabilities; applying them to Turn to Ashes
 still depends on the unavailable private audio/checkpoint and native Windows run.
 DCF-113/114 and DCF-116/117/120–122 remain open. Phase 1 is not complete.
 
+### Phase 1 five-song chart-reference experiment — 2026-10-27
+
+- [x] **DCF-124 [P1]** Use five existing chart/audio pairs to study spectral
+  evidence, compare mix/drums, calibrate bounded rules with whole-song holdouts,
+  and retain profiles, metrics, reproducible recipes and the project skill workflow.
+
+Completed the explicitly requested reference experiment: Numb, All Apologies,
+Come Together, The Number of the Beast and Forsaken; 36 pinned input files,
+ten 20-second excerpts and 860 target proxy events per audio mode. Baseline and
+calibrated rules were tested leaving each song out in turn. Mix F1 improved for
+kick/snare proxies (0.385→0.599 / 0.339→0.468) but yellow-cymbal F1 fell
+(0.472→0.456). This does not establish hi-hat identification or ADTOF improvement.
+Code, seven optional DSP checks, thirteen core cases (117 total), reference PNGs,
+HTML/CSV/JSON, recipe, spectral profile and skill guidance delivered. See
+docs/five-song-chart-reference.md. Phase 1, acoustic annotation, ADTOF comparison,
+Turn to Ashes and native Windows/game acceptance remain open.
+
 ---
 
 ## Phase 2 — Canonical Event Pipeline

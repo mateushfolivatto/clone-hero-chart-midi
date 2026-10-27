@@ -1,5 +1,22 @@
 # Quality gates
 
+The five-song reference experiment adds 13 core cases (117 tests total) for
+tempo/delay and tom-marker boundaries, unsupported references, stem selection,
+one-to-one scoring and song-level holdout exclusion. The shared MIDI-track loader
+keeps existing package-inspection behavior; all library regressions still run.
+Seven optional DSP tests exercise exact baseline equivalence, silence, stereo
+phase, exact-length cropping, short-stem rejection, calibration and chart-free
+profile application. With the script dependencies installed, run:
+
+```text
+python -m unittest discover -s .agents/skills/drum-audio-diagnostics/scripts -p test_reference_signal.py
+uv --cache-dir .uv-cache lock --check --script .agents/skills/drum-audio-diagnostics/scripts/chart_reference.py
+```
+
+See [five-song-chart-reference.md](five-song-chart-reference.md) for the real
+200-second study and its weak-label/ADTOF/native-Windows limitations. Per-event
+outputs and graphics remain ignored; aggregate JSON and input hashes are versioned.
+
 The 2026-10-20 Phase 1 raw-MIDI inspector adds 15 cases (104 total), with Mido
 1.3.3 pinned in the dev group and optional diagnostics extra. Run the normal
 gates below and `drumforge inspect-midi --help`. Authored multitrack MIDI bytes

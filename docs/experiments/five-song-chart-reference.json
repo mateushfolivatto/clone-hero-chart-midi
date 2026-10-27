@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "purpose": "weak chart-reference calibration, not verified acoustic labels",
+  "songs": [
+    {
+      "id": "numb",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Linkin Park - Numb [6524a935]",
+      "assets_sha256": {
+        "drums.ogg": "e5ef1c45e621f0b52dee79d5d1e8ff3939960d85c79c83eca30965c5a03cf354",
+        "guitar.ogg": "d307f7d64b6928755bae92d3a3d2a9ac5caef072e4fb71b7ef0179f3a31a98a9",
+        "keys.ogg": "1122c6e548d894ccaacc0f07e4e1e9683659023646f269a30eb2e1a89b269337",
+        "notes.mid": "38f2d73be1a2c4860c4bd74dbbfcf82269d4746f73c902adeb4b8b5e7e69f062",
+        "rhythm.ogg": "ec456c7d35af5523890cfe64008e9abe8abd1419d4492c20d914e6e7bc9b6f3d",
+        "song.ini": "955a43ae97ed93947e505d02506f4e5401bba19233105f039a12f8d892a7c274",
+        "song.ogg": "3799361e638a68019915371a9ca950bafe65238b17d58a049912680dd86e2d3a",
+        "vocals.ogg": "cecb996c79e62285098aa3d718698024a4dd0d9bfa83e640ae64072a53eb76a2"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "all-apologies",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Nirvana - All Apologies [473f6755]",
+      "assets_sha256": {
+        "drums.ogg": "f13ecb8fdd4b18809346da79855d5f4abea391146fef1d7a3d1a66f04d004c1a",
+        "guitar.ogg": "d95a2a7d7e16837c5be353be62cd3d795cd0ed753c2b382afe0bc87a9eabf48d",
+        "keys.ogg": "c4308aef74e89704b656154aa971ae95739c4ecf11e89a411c31c57e8ff409c1",
+        "notes.mid": "de1da8c96ce4abfde5897693475b83c1677b4fefaf8e78c7842b581dc5f022b0",
+        "rhythm.ogg": "24ee05d913f015658d1cfb45eea7baebaee69fe7e779742ab3725da559ba8e14",
+        "song.ini": "0a6b5722fd27751934f2ede4f557b96723d2100412d4aefaa89d438d8b888777",
+        "song.ogg": "b2947f71324a916706dee5d1314d7c6aacff4c659247c9e4795cc9f0ba475ecb",
+        "vocals.ogg": "38165ee98431ff3c2fff0907149672abe1e910fccf8ad194a2ef1aeb6ce7d689"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "come-together",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/The Beatles - Come Together [c620c633]",
+      "assets_sha256": {
+        "drums.ogg": "6d4a93743566f70d483b14e03e467035169376ec435682f2a435ec182d7c1aee",
+        "guitar.ogg": "69ddc2f9654a7b7e18ceed619cb48d512861e5226dd3090ec4e3ac6ead289ac5",
+        "notes.mid": "dcbb8599d7175d255876629d94c053352839039451399417989a9411e44d87ed",
+        "rhythm.ogg": "5207d1dc564c76a8532d077155d4e82c6d40c34c8ce8b1a01035755afbcee88a",
+        "song.ini": "96a17af356df9eeb17afc420066a025af325b6e524e39df481e5f7d5e2d0d00d",
+        "song.ogg": "312d70bf93a9253512a6793d00f3f76c25d4e95c046d99e54b816868360bc155",
+        "vocals.ogg": "864476c84b7cf7f923e59019276bf5ca9aab8f37bde0df3776d826d981a0eba1"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "number-of-the-beast",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Iron Maiden - The Number of the Beast [19300087]",
+      "assets_sha256": {
+        "drums_1.ogg": "6c4abe917fdb79d1fdceaf23ca3635a18287d06746edc3b47fb12a16088b639d",
+        "drums_2.ogg": "9134ffb87a591eafc2bd1c3f8007078ceeb957ec7e66587c534b414ba5b4ae29",
+        "drums_3.ogg": "47bc8652bc5debd1bfca80969167a1c6d2e6eb1dd111854bcefc235c346c2044",
+        "guitar.ogg": "e9936fcd13079725096c05613609e082443198fe1e8f10bc2f5351a75debeada",
+        "notes.mid": "ab405433e415cc3636dccbae4225dcb2038074793725ad9a61938e8f1bc27c4a",
+        "rhythm.ogg": "7ccc68f5752e8e68f5b4d2eb051db779f1da8af2879eb932fd5f1297044d63ae",
+        "song.ini": "900ac8c82ca80a8908240c29227ed9014dcb79a5ab1beb5ad2d54462bb404091",
+        "song.ogg": "be8086298a7ed77171be0be079c619c66a437e79bbfe66b087b2be73a8076504",
+        "vocals.ogg": "d3cbd691cd5d82f0cb4b391d080aa7ab2fc06f692013afd2320164ebf6c1cd9c"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "forsaken",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Dream Theater - Forsaken [5b947daf]",
+      "assets_sha256": {
+        "drums.ogg": "3d03ac7326487b7314de82c953a6ca7dbe80807ae4a6c83826d2f4d1acc93d2c",
+        "notes.mid": "43c894ee8512bec96d90bc2e12fb000f092c4ceaf2d3397e707671d5ffb66728",
+        "song.ini": "4639a7717fee75d4f6accdc0d785638b2fb262000b99097cdad03269535a9ad0",
+        "song.ogg": "2b0ee3cbd5116acc9850614fbdce809b1d45e89755e70eadc8cb4ec7bcbc2f4a"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    }
+  ]
+}

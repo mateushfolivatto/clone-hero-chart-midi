@@ -1,0 +1,1559 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "warning": "Refer\u00eancia fraca de chart, n\u00e3o anota\u00e7\u00e3o ac\u00fastica: prato amarelo pode ser chimbal, ride ou crash; pad vermelho \u00e9 apenas proxy de caixa. Charts podem omitir ou simplificar ataques. Perfis espectrais n\u00e3o s\u00e3o ADTOF nem confian\u00e7a calibrada; n\u00e3o h\u00e1 valida\u00e7\u00e3o no jogo.",
+  "recipe_sha256": "34744e0bae72ed1913d03c16bfae8fd2d9277280409df166768461ee7d62d24c",
+  "versions": {
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "mido": "1.3.3"
+  },
+  "sampled_audio_seconds": 200,
+  "reference_attacks_per_audio_mode": 860,
+  "evaluation": "leave-one-song-out, two fixed excerpts per song, no held-out offset fitting",
+  "tolerance_seconds": 0.03,
+  "alignment_policy": "tempo map plus song.ini delay; no offset fitted from held-out chart",
+  "mix_policy": "sum listed playback stems equally; exclude preview/crowd; one common anti-clip gain; not a commercial master",
+  "adtof_comparison_performed": false,
+  "aggregate": {
+    "mix": {
+      "KICK": {
+        "baseline": {
+          "tp": 293,
+          "fp": 917,
+          "fn": 18,
+          "precision": 0.2421487603305785,
+          "recall": 0.9421221864951769,
+          "f1": 0.38527284681130836
+        },
+        "calibrated": {
+          "tp": 205,
+          "fp": 169,
+          "fn": 106,
+          "precision": 0.5481283422459893,
+          "recall": 0.6591639871382636,
+          "f1": 0.5985401459854015
+        }
+      },
+      "SNARE_PROXY": {
+        "baseline": {
+          "tp": 184,
+          "fp": 703,
+          "fn": 14,
+          "precision": 0.20744081172491544,
+          "recall": 0.9292929292929293,
+          "f1": 0.3391705069124424
+        },
+        "calibrated": {
+          "tp": 159,
+          "fp": 323,
+          "fn": 39,
+          "precision": 0.32987551867219916,
+          "recall": 0.803030303030303,
+          "f1": 0.4676470588235294
+        }
+      },
+      "YELLOW_CYMBAL_PROXY": {
+        "baseline": {
+          "tp": 284,
+          "fp": 569,
+          "fn": 67,
+          "precision": 0.33294255568581477,
+          "recall": 0.8091168091168092,
+          "f1": 0.4717607973421927
+        },
+        "calibrated": {
+          "tp": 242,
+          "fp": 468,
+          "fn": 109,
+          "precision": 0.3408450704225352,
+          "recall": 0.6894586894586895,
+          "f1": 0.45617342130065974
+        }
+      }
+    },
+    "drums": {
+      "KICK": {
+        "baseline": {
+          "tp": 305,
+          "fp": 856,
+          "fn": 6,
+          "precision": 0.26270456503014644,
+          "recall": 0.9807073954983923,
+          "f1": 0.41440217391304346
+        },
+        "calibrated": {
+          "tp": 272,
+          "fp": 274,
+          "fn": 39,
+          "precision": 0.4981684981684982,
+          "recall": 0.8745980707395499,
+          "f1": 0.6347724620770129
+        }
+      },
+      "SNARE_PROXY": {
+        "baseline": {
+          "tp": 195,
+          "fp": 672,
+          "fn": 3,
+          "precision": 0.22491349480968859,
+          "recall": 0.9848484848484849,
+          "f1": 0.36619718309859156
+        },
+        "calibrated": {
+          "tp": 186,
+          "fp": 459,
+          "fn": 12,
+          "precision": 0.28837209302325584,
+          "recall": 0.9393939393939394,
+          "f1": 0.4412811387900356
+        }
+      },
+      "YELLOW_CYMBAL_PROXY": {
+        "baseline": {
+          "tp": 316,
+          "fp": 557,
+          "fn": 35,
+          "precision": 0.3619702176403207,
+          "recall": 0.9002849002849003,
+          "f1": 0.5163398692810458
+        },
+        "calibrated": {
+          "tp": 218,
+          "fp": 408,
+          "fn": 133,
+          "precision": 0.34824281150159747,
+          "recall": 0.6210826210826211,
+          "f1": 0.44626407369498466
+        }
+      }
+    }
+  },
+  "folds": [
+    {
+      "held_out_song": "numb",
+      "training_songs": [
+        "all-apologies",
+        "come-together",
+        "number-of-the-beast",
+        "forsaken"
+      ],
+      "modes": {
+        "mix": {
+          "KICK": {
+            "rule": [
+              "low",
+              6,
+              0.02
+            ],
+            "baseline": {
+              "tp": 64,
+              "fp": 137,
+              "fn": 0,
+              "precision": 0.31840796019900497,
+              "recall": 1.0,
+              "f1": 0.4830188679245283
+            },
+            "calibrated": {
+              "tp": 61,
+              "fp": 28,
+              "fn": 3,
+              "precision": 0.6853932584269663,
+              "recall": 0.953125,
+              "f1": 0.7973856209150327
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 30,
+                "fp": 17,
+                "fn": 3,
+                "precision": 0.6382978723404256,
+                "recall": 0.9090909090909091,
+                "f1": 0.75,
+                "mean_absolute_error_ms": 2.3627121693763797,
+                "median_signed_error_ms": 0.2740521543991292
+              },
+              {
+                "tp": 31,
+                "fp": 11,
+                "fn": 0,
+                "precision": 0.7380952380952381,
+                "recall": 1.0,
+                "f1": 0.8493150684931506,
+                "mean_absolute_error_ms": 10.169911454300422,
+                "median_signed_error_ms": 10.223673468800598
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 48,
+              "fp": 122,
+              "fn": 1,
+              "precision": 0.2823529411764706,
+              "recall": 0.9795918367346939,
+              "f1": 0.4383561643835616
+            },
+            "calibrated": {
+              "tp": 48,
+              "fp": 61,
+              "fn": 1,
+              "precision": 0.44036697247706424,
+              "recall": 0.9795918367346939,
+              "f1": 0.6075949367088608
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 21,
+                "fp": 32,
+                "fn": 0,
+                "precision": 0.39622641509433965,
+                "recall": 1.0,
+                "f1": 0.5675675675675675,
+                "mean_absolute_error_ms": 4.817047780807319,
+                "median_signed_error_ms": -4.832400226547406
+              },
+              {
+                "tp": 27,
+                "fp": 29,
+                "fn": 1,
+                "precision": 0.48214285714285715,
+                "recall": 0.9642857142857143,
+                "f1": 0.6428571428571429,
+                "mean_absolute_error_ms": 3.917171579169997,
+                "median_signed_error_ms": 3.773882085624791
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "rule": [
+              "high",
+              2,
+              0.05
+            ],
+            "baseline": {
+              "tp": 120,
+              "fp": 119,
+              "fn": 3,
+              "precision": 0.502092050209205,
+              "recall": 0.975609756097561,
+              "f1": 0.6629834254143646
+            },
+            "calibrated": {
+              "tp": 121,
+              "fp": 127,
+              "fn": 2,
+              "precision": 0.4879032258064516,
+              "recall": 0.983739837398374,
+              "f1": 0.6522911051212938
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 68,
+                "fp": 55,
+                "fn": 2,
+                "precision": 0.5528455284552846,
+                "recall": 0.9714285714285714,
+                "f1": 0.7046632124352331,
+                "mean_absolute_error_ms": 6.9547936840356535,
+                "median_signed_error_ms": -3.9189297050299388
+              },
+              {
+                "tp": 53,
+                "fp": 72,
+                "fn": 0,
+                "precision": 0.424,
+                "recall": 1.0,
+                "f1": 0.5955056179775281,
+                "mean_absolute_error_ms": 6.979093183900886,
+                "median_signed_error_ms": 6.460560089948331
+              }
+            ]
+          }
+        },
+        "drums": {
+          "KICK": {
+            "rule": [
+              "low",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 64,
+              "fp": 151,
+              "fn": 0,
+              "precision": 0.29767441860465116,
+              "recall": 1.0,
+              "f1": 0.45878136200716846
+            },
+            "calibrated": {
+              "tp": 64,
+              "fp": 54,
+              "fn": 0,
+              "precision": 0.5423728813559322,
+              "recall": 1.0,
+              "f1": 0.7032967032967034
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 33,
+                "fp": 25,
+                "fn": 0,
+                "precision": 0.5689655172413793,
+                "recall": 1.0,
+                "f1": 0.7252747252747253,
+                "mean_absolute_error_ms": 4.193950284961589,
+                "median_signed_error_ms": -4.2422131518264905
+              },
+              {
+                "tp": 31,
+                "fp": 29,
+                "fn": 0,
+                "precision": 0.5166666666666667,
+                "recall": 1.0,
+                "f1": 0.6813186813186813,
+                "mean_absolute_error_ms": 3.615891997052432,
+                "median_signed_error_ms": 3.558947845306193
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 49,
+              "fp": 148,
+              "fn": 0,
+              "precision": 0.24873096446700507,
+              "recall": 1.0,
+              "f1": 0.3983739837398374
+            },
+            "calibrated": {
+              "tp": 48,
+              "fp": 105,
+              "fn": 1,
+              "precision": 0.3137254901960784,
+              "recall": 0.9795918367346939,
+              "f1": 0.4752475247524752
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 21,
+                "fp": 59,
+                "fn": 0,
+                "precision": 0.2625,
+                "recall": 1.0,
+                "f1": 0.4158415841584158,
+                "mean_absolute_error_ms": 8.687040222229806,
+                "median_signed_error_ms": -8.702980725459497
+              },
+              {
+                "tp": 27,
+                "fp": 46,
+                "fn": 1,
+                "precision": 0.3698630136986301,
+                "recall": 0.9642857142857143,
+                "f1": 0.5346534653465347,
+                "mean_absolute_error_ms": 1.9985511042048325,
+                "median_signed_error_ms": 0.9779727883483247
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 122,
+              "fp": 111,
+              "fn": 1,
+              "precision": 0.5236051502145923,
+              "recall": 0.991869918699187,
+              "f1": 0.6853932584269663
+            },
+            "calibrated": {
+              "tp": 80,
+              "fp": 73,
+              "fn": 43,
+              "precision": 0.5228758169934641,
+              "recall": 0.6504065040650406,
+              "f1": 0.5797101449275363
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 46,
+                "fp": 34,
+                "fn": 24,
+                "precision": 0.575,
+                "recall": 0.6571428571428571,
+                "f1": 0.6133333333333333,
+                "mean_absolute_error_ms": 6.286743468229864,
+                "median_signed_error_ms": -6.122887754941075
+              },
+              {
+                "tp": 34,
+                "fp": 39,
+                "fn": 19,
+                "precision": 0.4657534246575342,
+                "recall": 0.6415094339622641,
+                "f1": 0.5396825396825397,
+                "mean_absolute_error_ms": 3.0464251696508717,
+                "median_signed_error_ms": 1.9997925163508512
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "held_out_song": "all-apologies",
+      "training_songs": [
+        "numb",
+        "come-together",
+        "number-of-the-beast",
+        "forsaken"
+      ],
+      "modes": {
+        "mix": {
+          "KICK": {
+            "rule": [
+              "low",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 59,
+              "fp": 192,
+              "fn": 2,
+              "precision": 0.2350597609561753,
+              "recall": 0.9672131147540983,
+              "f1": 0.3782051282051282
+            },
+            "calibrated": {
+              "tp": 22,
+              "fp": 19,
+              "fn": 39,
+              "precision": 0.5365853658536586,
+              "recall": 0.36065573770491804,
+              "f1": 0.43137254901960786
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 14,
+                "fp": 9,
+                "fn": 23,
+                "precision": 0.6086956521739131,
+                "recall": 0.3783783783783784,
+                "f1": 0.4666666666666667,
+                "mean_absolute_error_ms": 13.344457483917438,
+                "median_signed_error_ms": 14.935286862172603
+              },
+              {
+                "tp": 8,
+                "fp": 10,
+                "fn": 16,
+                "precision": 0.4444444444444444,
+                "recall": 0.3333333333333333,
+                "f1": 0.38095238095238093,
+                "mean_absolute_error_ms": 13.53983607462439,
+                "median_signed_error_ms": 9.391195772835204
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 33,
+              "fp": 112,
+              "fn": 1,
+              "precision": 0.22758620689655173,
+              "recall": 0.9705882352941176,
+              "f1": 0.3687150837988827
+            },
+            "calibrated": {
+              "tp": 30,
+              "fp": 52,
+              "fn": 4,
+              "precision": 0.36585365853658536,
+              "recall": 0.8823529411764706,
+              "f1": 0.5172413793103449
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 18,
+                "fp": 32,
+                "fn": 1,
+                "precision": 0.36,
+                "recall": 0.9473684210526315,
+                "f1": 0.5217391304347826,
+                "mean_absolute_error_ms": 10.122174729089927,
+                "median_signed_error_ms": 9.360116213024128
+              },
+              {
+                "tp": 12,
+                "fp": 20,
+                "fn": 3,
+                "precision": 0.375,
+                "recall": 0.8,
+                "f1": 0.5106382978723404,
+                "mean_absolute_error_ms": 10.13086481062094,
+                "median_signed_error_ms": 4.8924512470378545
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "rule": [
+              "upper_high",
+              4,
+              0.05
+            ],
+            "baseline": {
+              "tp": 32,
+              "fp": 96,
+              "fn": 40,
+              "precision": 0.25,
+              "recall": 0.4444444444444444,
+              "f1": 0.32
+            },
+            "calibrated": {
+              "tp": 14,
+              "fp": 84,
+              "fn": 58,
+              "precision": 0.14285714285714285,
+              "recall": 0.19444444444444445,
+              "f1": 0.16470588235294117
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 10,
+                "fp": 40,
+                "fn": 32,
+                "precision": 0.2,
+                "recall": 0.23809523809523808,
+                "f1": 0.21739130434782608,
+                "mean_absolute_error_ms": 16.448412811681123,
+                "median_signed_error_ms": 16.26019897947728
+              },
+              {
+                "tp": 4,
+                "fp": 44,
+                "fn": 26,
+                "precision": 0.08333333333333333,
+                "recall": 0.13333333333333333,
+                "f1": 0.10256410256410256,
+                "mean_absolute_error_ms": 17.51788350327743,
+                "median_signed_error_ms": 9.05187074810243
+              }
+            ]
+          }
+        },
+        "drums": {
+          "KICK": {
+            "rule": [
+              "sub_bass",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 61,
+              "fp": 149,
+              "fn": 0,
+              "precision": 0.2904761904761905,
+              "recall": 1.0,
+              "f1": 0.45018450184501846
+            },
+            "calibrated": {
+              "tp": 57,
+              "fp": 28,
+              "fn": 4,
+              "precision": 0.6705882352941176,
+              "recall": 0.9344262295081968,
+              "f1": 0.7808219178082192
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 35,
+                "fp": 17,
+                "fn": 2,
+                "precision": 0.6730769230769231,
+                "recall": 0.9459459459459459,
+                "f1": 0.7865168539325843,
+                "mean_absolute_error_ms": 10.853175899460155,
+                "median_signed_error_ms": 11.087124716482322
+              },
+              {
+                "tp": 22,
+                "fp": 11,
+                "fn": 2,
+                "precision": 0.6666666666666666,
+                "recall": 0.9166666666666666,
+                "f1": 0.7719298245614035,
+                "mean_absolute_error_ms": 13.991968309821605,
+                "median_signed_error_ms": 13.636479591632167
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 34,
+              "fp": 119,
+              "fn": 0,
+              "precision": 0.2222222222222222,
+              "recall": 1.0,
+              "f1": 0.36363636363636365
+            },
+            "calibrated": {
+              "tp": 33,
+              "fp": 72,
+              "fn": 1,
+              "precision": 0.3142857142857143,
+              "recall": 0.9705882352941176,
+              "f1": 0.4748201438848921
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 19,
+                "fp": 41,
+                "fn": 0,
+                "precision": 0.31666666666666665,
+                "recall": 1.0,
+                "f1": 0.4810126582278481,
+                "mean_absolute_error_ms": 7.526320563268179,
+                "median_signed_error_ms": 3.6346734692997984
+              },
+              {
+                "tp": 14,
+                "fp": 31,
+                "fn": 1,
+                "precision": 0.3111111111111111,
+                "recall": 0.9333333333333333,
+                "f1": 0.4666666666666667,
+                "mean_absolute_error_ms": 10.240179705147868,
+                "median_signed_error_ms": 2.440897958983612
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "rule": [
+              "upper_high",
+              4,
+              0.05
+            ],
+            "baseline": {
+              "tp": 43,
+              "fp": 106,
+              "fn": 29,
+              "precision": 0.28859060402684567,
+              "recall": 0.5972222222222222,
+              "f1": 0.3891402714932127
+            },
+            "calibrated": {
+              "tp": 21,
+              "fp": 95,
+              "fn": 51,
+              "precision": 0.1810344827586207,
+              "recall": 0.2916666666666667,
+              "f1": 0.22340425531914893
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 14,
+                "fp": 43,
+                "fn": 28,
+                "precision": 0.24561403508771928,
+                "recall": 0.3333333333333333,
+                "f1": 0.2828282828282828,
+                "mean_absolute_error_ms": 17.256100421016235,
+                "median_signed_error_ms": 14.87907256229093
+              },
+              {
+                "tp": 7,
+                "fp": 52,
+                "fn": 23,
+                "precision": 0.11864406779661017,
+                "recall": 0.23333333333333334,
+                "f1": 0.15730337078651685,
+                "mean_absolute_error_ms": 13.72446452848562,
+                "median_signed_error_ms": 7.753039682256713
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "held_out_song": "come-together",
+      "training_songs": [
+        "numb",
+        "all-apologies",
+        "number-of-the-beast",
+        "forsaken"
+      ],
+      "modes": {
+        "mix": {
+          "KICK": {
+            "rule": [
+              "low",
+              6,
+              0.02
+            ],
+            "baseline": {
+              "tp": 46,
+              "fp": 193,
+              "fn": 6,
+              "precision": 0.19246861924686193,
+              "recall": 0.8846153846153846,
+              "f1": 0.3161512027491409
+            },
+            "calibrated": {
+              "tp": 36,
+              "fp": 56,
+              "fn": 16,
+              "precision": 0.391304347826087,
+              "recall": 0.6923076923076923,
+              "f1": 0.5
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 16,
+                "fp": 30,
+                "fn": 13,
+                "precision": 0.34782608695652173,
+                "recall": 0.5517241379310345,
+                "f1": 0.4266666666666667,
+                "mean_absolute_error_ms": 13.230827097489684,
+                "median_signed_error_ms": -13.665548752822332
+              },
+              {
+                "tp": 20,
+                "fp": 26,
+                "fn": 3,
+                "precision": 0.43478260869565216,
+                "recall": 0.8695652173913043,
+                "f1": 0.5797101449275363,
+                "mean_absolute_error_ms": 7.153815476208081,
+                "median_signed_error_ms": 0.23176530640256487
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 10,
+              "fp": 176,
+              "fn": 1,
+              "precision": 0.053763440860215055,
+              "recall": 0.9090909090909091,
+              "f1": 0.10152284263959391
+            },
+            "calibrated": {
+              "tp": 10,
+              "fp": 114,
+              "fn": 1,
+              "precision": 0.08064516129032258,
+              "recall": 0.9090909090909091,
+              "f1": 0.14814814814814814
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 2,
+                "fp": 52,
+                "fn": 1,
+                "precision": 0.037037037037037035,
+                "recall": 0.6666666666666666,
+                "f1": 0.07017543859649122,
+                "mean_absolute_error_ms": 14.850776643953623,
+                "median_signed_error_ms": -14.850776643953623
+              },
+              {
+                "tp": 8,
+                "fp": 62,
+                "fn": 0,
+                "precision": 0.11428571428571428,
+                "recall": 1.0,
+                "f1": 0.20512820512820512,
+                "mean_absolute_error_ms": 6.534652210930858,
+                "median_signed_error_ms": -0.6433582763349932
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "rule": [
+              "high",
+              6,
+              0.02
+            ],
+            "baseline": {
+              "tp": 7,
+              "fp": 146,
+              "fn": 1,
+              "precision": 0.0457516339869281,
+              "recall": 0.875,
+              "f1": 0.08695652173913043
+            },
+            "calibrated": {
+              "tp": 5,
+              "fp": 110,
+              "fn": 3,
+              "precision": 0.043478260869565216,
+              "recall": 0.625,
+              "f1": 0.08130081300813008
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 0,
+                "fp": 52,
+                "fn": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              },
+              {
+                "tp": 5,
+                "fp": 58,
+                "fn": 3,
+                "precision": 0.07936507936507936,
+                "recall": 0.625,
+                "f1": 0.14084507042253522,
+                "mean_absolute_error_ms": 17.464478911375636,
+                "median_signed_error_ms": -15.566170067756957
+              }
+            ]
+          }
+        },
+        "drums": {
+          "KICK": {
+            "rule": [
+              "sub_bass",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 46,
+              "fp": 206,
+              "fn": 6,
+              "precision": 0.18253968253968253,
+              "recall": 0.8846153846153846,
+              "f1": 0.3026315789473684
+            },
+            "calibrated": {
+              "tp": 18,
+              "fp": 71,
+              "fn": 34,
+              "precision": 0.20224719101123595,
+              "recall": 0.34615384615384615,
+              "f1": 0.2553191489361702
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 14,
+                "fp": 41,
+                "fn": 15,
+                "precision": 0.2545454545454545,
+                "recall": 0.4827586206896552,
+                "f1": 0.3333333333333333,
+                "mean_absolute_error_ms": 19.69696015546469,
+                "median_signed_error_ms": -19.485635345752428
+              },
+              {
+                "tp": 4,
+                "fp": 30,
+                "fn": 19,
+                "precision": 0.11764705882352941,
+                "recall": 0.17391304347826086,
+                "f1": 0.14035087719298245,
+                "mean_absolute_error_ms": 7.3447386622582655,
+                "median_signed_error_ms": 3.2980736964276502
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 11,
+              "fp": 136,
+              "fn": 0,
+              "precision": 0.07482993197278912,
+              "recall": 1.0,
+              "f1": 0.13924050632911392
+            },
+            "calibrated": {
+              "tp": 10,
+              "fp": 89,
+              "fn": 1,
+              "precision": 0.10101010101010101,
+              "recall": 0.9090909090909091,
+              "f1": 0.18181818181818182
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 2,
+                "fp": 43,
+                "fn": 1,
+                "precision": 0.044444444444444446,
+                "recall": 0.6666666666666666,
+                "f1": 0.08333333333333333,
+                "mean_absolute_error_ms": 17.75327097501389,
+                "median_signed_error_ms": -17.75327097501389
+              },
+              {
+                "tp": 8,
+                "fp": 46,
+                "fn": 0,
+                "precision": 0.14814814814814814,
+                "recall": 1.0,
+                "f1": 0.25806451612903225,
+                "mean_absolute_error_ms": 7.260275793697701,
+                "median_signed_error_ms": -0.6433582763349932
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "rule": [
+              "high",
+              6,
+              0.02
+            ],
+            "baseline": {
+              "tp": 8,
+              "fp": 135,
+              "fn": 0,
+              "precision": 0.055944055944055944,
+              "recall": 1.0,
+              "f1": 0.10596026490066225
+            },
+            "calibrated": {
+              "tp": 6,
+              "fp": 118,
+              "fn": 2,
+              "precision": 0.04838709677419355,
+              "recall": 0.75,
+              "f1": 0.09090909090909091
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 0,
+                "fp": 63,
+                "fn": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              },
+              {
+                "tp": 6,
+                "fp": 55,
+                "fn": 2,
+                "precision": 0.09836065573770492,
+                "recall": 0.75,
+                "f1": 0.17391304347826086,
+                "mean_absolute_error_ms": 17.790889455563768,
+                "median_signed_error_ms": -16.339783446433387
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "held_out_song": "number-of-the-beast",
+      "training_songs": [
+        "numb",
+        "all-apologies",
+        "come-together",
+        "forsaken"
+      ],
+      "modes": {
+        "mix": {
+          "KICK": {
+            "rule": [
+              "low",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 50,
+              "fp": 213,
+              "fn": 9,
+              "precision": 0.19011406844106463,
+              "recall": 0.847457627118644,
+              "f1": 0.3105590062111801
+            },
+            "calibrated": {
+              "tp": 15,
+              "fp": 15,
+              "fn": 44,
+              "precision": 0.5,
+              "recall": 0.2542372881355932,
+              "f1": 0.33707865168539325
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 1,
+                "fp": 7,
+                "fn": 0,
+                "precision": 0.125,
+                "recall": 1.0,
+                "f1": 0.2222222222222222,
+                "mean_absolute_error_ms": 6.173757369111854,
+                "median_signed_error_ms": 6.173757369111854
+              },
+              {
+                "tp": 14,
+                "fp": 8,
+                "fn": 44,
+                "precision": 0.6363636363636364,
+                "recall": 0.2413793103448276,
+                "f1": 0.35,
+                "mean_absolute_error_ms": 5.862685374055892,
+                "median_signed_error_ms": 0.6060731286368082
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 49,
+              "fp": 152,
+              "fn": 11,
+              "precision": 0.24378109452736318,
+              "recall": 0.8166666666666667,
+              "f1": 0.37547892720306514
+            },
+            "calibrated": {
+              "tp": 27,
+              "fp": 36,
+              "fn": 33,
+              "precision": 0.42857142857142855,
+              "recall": 0.45,
+              "f1": 0.43902439024390244
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 0,
+                "fp": 25,
+                "fn": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              },
+              {
+                "tp": 27,
+                "fp": 11,
+                "fn": 33,
+                "precision": 0.7105263157894737,
+                "recall": 0.45,
+                "f1": 0.5510204081632653,
+                "mean_absolute_error_ms": 7.214621861235869,
+                "median_signed_error_ms": -1.992505669647926
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "rule": [
+              "high",
+              4,
+              0.05
+            ],
+            "baseline": {
+              "tp": 88,
+              "fp": 88,
+              "fn": 18,
+              "precision": 0.5,
+              "recall": 0.8301886792452831,
+              "f1": 0.624113475177305
+            },
+            "calibrated": {
+              "tp": 67,
+              "fp": 56,
+              "fn": 39,
+              "precision": 0.5447154471544715,
+              "recall": 0.6320754716981132,
+              "f1": 0.5851528384279476
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 28,
+                "fp": 28,
+                "fn": 15,
+                "precision": 0.5,
+                "recall": 0.6511627906976745,
+                "f1": 0.5656565656565656,
+                "mean_absolute_error_ms": 13.463872610979319,
+                "median_signed_error_ms": -13.69879081634906
+              },
+              {
+                "tp": 39,
+                "fp": 28,
+                "fn": 24,
+                "precision": 0.582089552238806,
+                "recall": 0.6190476190476191,
+                "f1": 0.6,
+                "mean_absolute_error_ms": 9.120499098740673,
+                "median_signed_error_ms": 0.6536734688040724
+              }
+            ]
+          }
+        },
+        "drums": {
+          "KICK": {
+            "rule": [
+              "low",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 59,
+              "fp": 218,
+              "fn": 0,
+              "precision": 0.21299638989169675,
+              "recall": 1.0,
+              "f1": 0.35119047619047616
+            },
+            "calibrated": {
+              "tp": 58,
+              "fp": 74,
+              "fn": 1,
+              "precision": 0.4393939393939394,
+              "recall": 0.9830508474576272,
+              "f1": 0.6073298429319371
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 1,
+                "fp": 45,
+                "fn": 0,
+                "precision": 0.021739130434782608,
+                "recall": 1.0,
+                "f1": 0.0425531914893617,
+                "mean_absolute_error_ms": 6.173757369111854,
+                "median_signed_error_ms": 6.173757369111854
+              },
+              {
+                "tp": 57,
+                "fp": 29,
+                "fn": 1,
+                "precision": 0.6627906976744186,
+                "recall": 0.9827586206896551,
+                "f1": 0.7916666666666666,
+                "mean_absolute_error_ms": 7.745456597876311,
+                "median_signed_error_ms": -0.5754648532558804
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 57,
+              "fp": 155,
+              "fn": 3,
+              "precision": 0.2688679245283019,
+              "recall": 0.95,
+              "f1": 0.41911764705882354
+            },
+            "calibrated": {
+              "tp": 51,
+              "fp": 108,
+              "fn": 9,
+              "precision": 0.32075471698113206,
+              "recall": 0.85,
+              "f1": 0.4657534246575342
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 0,
+                "fp": 50,
+                "fn": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              },
+              {
+                "tp": 51,
+                "fp": 58,
+                "fn": 9,
+                "precision": 0.46788990825688076,
+                "recall": 0.85,
+                "f1": 0.6035502958579881,
+                "mean_absolute_error_ms": 8.074195945105917,
+                "median_signed_error_ms": -3.2908117918566404
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "rule": [
+              "high",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 105,
+              "fp": 75,
+              "fn": 1,
+              "precision": 0.5833333333333334,
+              "recall": 0.9905660377358491,
+              "f1": 0.7342657342657343
+            },
+            "calibrated": {
+              "tp": 75,
+              "fp": 24,
+              "fn": 31,
+              "precision": 0.7575757575757576,
+              "recall": 0.7075471698113207,
+              "f1": 0.7317073170731707
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 31,
+                "fp": 13,
+                "fn": 12,
+                "precision": 0.7045454545454546,
+                "recall": 0.7209302325581395,
+                "f1": 0.7126436781609196,
+                "mean_absolute_error_ms": 13.40019325591845,
+                "median_signed_error_ms": -14.412446712341875
+              },
+              {
+                "tp": 44,
+                "fp": 11,
+                "fn": 19,
+                "precision": 0.8,
+                "recall": 0.6984126984126984,
+                "f1": 0.7457627118644068,
+                "mean_absolute_error_ms": 7.629878221064827,
+                "median_signed_error_ms": -1.8372199551848212
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "held_out_song": "forsaken",
+      "training_songs": [
+        "numb",
+        "all-apologies",
+        "come-together",
+        "number-of-the-beast"
+      ],
+      "modes": {
+        "mix": {
+          "KICK": {
+            "rule": [
+              "low",
+              6,
+              0.02
+            ],
+            "baseline": {
+              "tp": 74,
+              "fp": 182,
+              "fn": 1,
+              "precision": 0.2890625,
+              "recall": 0.9866666666666667,
+              "f1": 0.4471299093655589
+            },
+            "calibrated": {
+              "tp": 71,
+              "fp": 51,
+              "fn": 4,
+              "precision": 0.5819672131147541,
+              "recall": 0.9466666666666667,
+              "f1": 0.7208121827411168
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 27,
+                "fp": 38,
+                "fn": 2,
+                "precision": 0.4153846153846154,
+                "recall": 0.9310344827586207,
+                "f1": 0.574468085106383,
+                "mean_absolute_error_ms": 9.587495317887303,
+                "median_signed_error_ms": -0.213193877584672
+              },
+              {
+                "tp": 44,
+                "fp": 13,
+                "fn": 2,
+                "precision": 0.7719298245614035,
+                "recall": 0.9565217391304348,
+                "f1": 0.8543689320388349,
+                "mean_absolute_error_ms": 8.763191429546875,
+                "median_signed_error_ms": 2.6445513034758505
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 44,
+              "fp": 141,
+              "fn": 0,
+              "precision": 0.23783783783783785,
+              "recall": 1.0,
+              "f1": 0.38427947598253276
+            },
+            "calibrated": {
+              "tp": 44,
+              "fp": 60,
+              "fn": 0,
+              "precision": 0.4230769230769231,
+              "recall": 1.0,
+              "f1": 0.5945945945945946
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 26,
+                "fp": 37,
+                "fn": 0,
+                "precision": 0.4126984126984127,
+                "recall": 1.0,
+                "f1": 0.5842696629213483,
+                "mean_absolute_error_ms": 12.286622994085295,
+                "median_signed_error_ms": 0.42797675730099627
+              },
+              {
+                "tp": 18,
+                "fp": 23,
+                "fn": 0,
+                "precision": 0.43902439024390244,
+                "recall": 1.0,
+                "f1": 0.6101694915254238,
+                "mean_absolute_error_ms": 8.459357930131576,
+                "median_signed_error_ms": 5.320441609697468
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "rule": [
+              "high",
+              4,
+              0.05
+            ],
+            "baseline": {
+              "tp": 37,
+              "fp": 120,
+              "fn": 5,
+              "precision": 0.2356687898089172,
+              "recall": 0.8809523809523809,
+              "f1": 0.37185929648241206
+            },
+            "calibrated": {
+              "tp": 35,
+              "fp": 91,
+              "fn": 7,
+              "precision": 0.2777777777777778,
+              "recall": 0.8333333333333334,
+              "f1": 0.4166666666666667
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 19,
+                "fp": 49,
+                "fn": 6,
+                "precision": 0.27941176470588236,
+                "recall": 0.76,
+                "f1": 0.40860215053763443,
+                "mean_absolute_error_ms": 11.839991347386558,
+                "median_signed_error_ms": 9.351469387681277
+              },
+              {
+                "tp": 16,
+                "fp": 42,
+                "fn": 1,
+                "precision": 0.27586206896551724,
+                "recall": 0.9411764705882353,
+                "f1": 0.4266666666666667,
+                "mean_absolute_error_ms": 9.443268778286829,
+                "median_signed_error_ms": 2.6649002262928434
+              }
+            ]
+          }
+        },
+        "drums": {
+          "KICK": {
+            "rule": [
+              "sub_bass",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 75,
+              "fp": 132,
+              "fn": 0,
+              "precision": 0.36231884057971014,
+              "recall": 1.0,
+              "f1": 0.5319148936170213
+            },
+            "calibrated": {
+              "tp": 75,
+              "fp": 47,
+              "fn": 0,
+              "precision": 0.6147540983606558,
+              "recall": 1.0,
+              "f1": 0.7614213197969543
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 29,
+                "fp": 37,
+                "fn": 0,
+                "precision": 0.4393939393939394,
+                "recall": 1.0,
+                "f1": 0.6105263157894737,
+                "mean_absolute_error_ms": 10.241027934173593,
+                "median_signed_error_ms": -2.2488968254634756
+              },
+              {
+                "tp": 46,
+                "fp": 10,
+                "fn": 0,
+                "precision": 0.8214285714285714,
+                "recall": 1.0,
+                "f1": 0.9019607843137255,
+                "mean_absolute_error_ms": 8.586482130530603,
+                "median_signed_error_ms": -0.8569112815592916
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "rule": [
+              "mid",
+              6,
+              0.05
+            ],
+            "baseline": {
+              "tp": 44,
+              "fp": 114,
+              "fn": 0,
+              "precision": 0.27848101265822783,
+              "recall": 1.0,
+              "f1": 0.43564356435643564
+            },
+            "calibrated": {
+              "tp": 44,
+              "fp": 85,
+              "fn": 0,
+              "precision": 0.34108527131782945,
+              "recall": 1.0,
+              "f1": 0.5086705202312138
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 26,
+                "fp": 36,
+                "fn": 0,
+                "precision": 0.41935483870967744,
+                "recall": 1.0,
+                "f1": 0.5909090909090909,
+                "mean_absolute_error_ms": 11.617644841300363,
+                "median_signed_error_ms": -3.571528344743058
+              },
+              {
+                "tp": 18,
+                "fp": 49,
+                "fn": 0,
+                "precision": 0.26865671641791045,
+                "recall": 1.0,
+                "f1": 0.4235294117647059,
+                "mean_absolute_error_ms": 7.567094135817835,
+                "median_signed_error_ms": 1.3385895688244887
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "rule": [
+              "high",
+              4,
+              0.05
+            ],
+            "baseline": {
+              "tp": 38,
+              "fp": 130,
+              "fn": 4,
+              "precision": 0.2261904761904762,
+              "recall": 0.9047619047619048,
+              "f1": 0.3619047619047619
+            },
+            "calibrated": {
+              "tp": 36,
+              "fp": 98,
+              "fn": 6,
+              "precision": 0.26865671641791045,
+              "recall": 0.8571428571428571,
+              "f1": 0.4090909090909091
+            },
+            "excerpt_metrics": [
+              {
+                "tp": 20,
+                "fp": 48,
+                "fn": 5,
+                "precision": 0.29411764705882354,
+                "recall": 0.8,
+                "f1": 0.43010752688172044,
+                "mean_absolute_error_ms": 12.190245124693888,
+                "median_signed_error_ms": 8.772374716478737
+              },
+              {
+                "tp": 16,
+                "fp": 50,
+                "fn": 1,
+                "precision": 0.24242424242424243,
+                "recall": 0.9411764705882353,
+                "f1": 0.3855421686746988,
+                "mean_absolute_error_ms": 9.443268778286829,
+                "median_signed_error_ms": 1.6171201809385138
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

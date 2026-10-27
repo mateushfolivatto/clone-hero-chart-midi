@@ -175,6 +175,22 @@ events, ML activations, acoustic dynamics or the Clone Hero exporter.
 DCF-118/119 are implemented and synthetically verified; private Turn to Ashes
 validation and native Windows remain pending. See docs/phase-1-midi-diagnostics.md.
 
+## Existing charts as audio references (2026-10-27)
+
+The user explicitly authorized studying five existing song packages to relate
+charts to waves and retain a reusable file/skill. This is a Phase 1 reference
+experiment, not a requirement to wait solely for private Turn to Ashes assets.
+The five-artist recipe samples 60–80 and 120–140 seconds, with pinned chart/INI/audio
+hashes. The skill now supplies study/predict commands and a saved spectral-rule
+profile. Comparison uses technical full mixes versus existing drum stems, chart
+tempo/delay, tom-marker intervals, simultaneous notes and whole-song holdouts.
+Game lanes are weak references: yellow cymbal is not a verified hi-hat label.
+Simple calibration improved chart agreement for kick/snare but worsened yellow
+cymbal agreement. No ADTOF/model training or weights were used; automatic adoption
+is not recommended. Keep original ADTOF defaults and full-mix baseline until an
+independent, manually annotated instrument test supports a change. See
+docs/five-song-chart-reference.md and DCF-124; overall Phase 1 remains in progress.
+
 ## Separate song-library workstream (2026-10-16)
 
 The user requested a separate, portable area for the growing MixDrumRock Qobuz

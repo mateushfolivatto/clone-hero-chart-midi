@@ -27,7 +27,7 @@ def truth(value: str | None) -> bool:
     return (value or "").strip().casefold() in {"true", "1", "yes"}
 
 
-def midi_drums(data: bytes) -> dict[str, Any]:
+def read_drum_midi(data: bytes) -> Any:
     """Parse the original conductor and PART DRUMS chunks with strict mido.
 
     Other instrument tracks can contain Phase Shift's extended SysEx bytes,
@@ -62,6 +62,18 @@ def midi_drums(data: bytes) -> dict[str, Any]:
     drum_tracks = [track for track in midi.tracks if track.name == "PART DRUMS"]
     if len(drum_tracks) != 1:
         raise ValueError("Expected exactly one PART DRUMS track")
+    if midi.ticks_per_beat <= 0:
+        raise ValueError("Expected positive PPQN, not SMPTE time division")
+    if midi.tracks[0].name != "PART DRUMS" and any(
+        message.type == "note_on" for message in midi.tracks[0]
+    ):
+        raise ValueError("Unexpected note events in the conductor track")
+    return midi
+
+
+def midi_drums(data: bytes) -> dict[str, Any]:
+    midi = read_drum_midi(data)
+    drum_tracks = [track for track in midi.tracks if track.name == "PART DRUMS"]
     counts = Counter(
         message.note
         for message in drum_tracks[0]
@@ -69,11 +81,6 @@ def midi_drums(data: bytes) -> dict[str, Any]:
     )
     if counts[101]:
         raise ValueError("Five-lane Expert note 101 requires a separate conversion")
-    # The isolated conductor must not introduce another instrument's notes.
-    if midi.tracks[0].name != "PART DRUMS" and any(
-        message.type == "note_on" for message in midi.tracks[0]
-    ):
-        raise ValueError("Unexpected note events in the conductor track")
     seconds = last_onset = 0.0
     for message in midi:
         seconds += message.time
