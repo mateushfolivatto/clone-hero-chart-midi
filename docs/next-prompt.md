@@ -22,6 +22,13 @@ mascaramento antes de escolher uma causa. Os trechos de 115 têm zero notas de
 prato amarelo, portanto não medem recall de chimbal. Preserve casos ruins e não
 recalibre após olhar o teste e depois chame a nova medição de independente.
 
+O usuário lembra que o amarelo nas músicas de CoD/A7X discutidas era chimbal,
+geralmente aberto. Use como hipótese principal com proveniência no relato,
+preservando as classes/métricas congeladas. Revise ataque e cauda sobreposta,
+compare aberto/fechado e outros pratos, e confira no áudio a ausência de
+referências amarelas nos recortes de 115. O detector atual não classifica abertura;
+não apresente essa hipótese como anotação por evento ou ganho medido.
+
 O usuário autorizou estudar cinco músicas prontas como referências de áudio/chart
 e combinar o resultado em arquivo e na skill. DCF-124 entregou esse experimento;
 leia docs/five-song-chart-reference.md, a receita, resultados e perfil em

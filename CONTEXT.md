@@ -205,6 +205,14 @@ F1 improved with lost recall. Carry On had poor agreement even with the original
 rule and needs pairing/alignment/masking investigation. No acoustic ground truth
 or ADTOF improvement is established. See docs/cod-a7x-heldout.md and DCF-125.
 
+The user subsequently recalled that the yellow notes in the discussed CoD/A7X
+songs were hi-hat, usually open. Retain this as user-provided song-level context
+and the leading hypothesis for audio review, not per-event acoustic annotation.
+The next review should inspect attacks and overlapping decay, check 115's absent
+yellow references against audible hi-hat, and distinguish open/closed hi-hat from
+other cymbals. The current band-flux detector does not classify hi-hat openness.
+Keep frozen proxy labels, profile and reported metrics unchanged.
+
 ## Separate song-library workstream (2026-10-16)
 
 The user requested a separate, portable area for the growing MixDrumRock Qobuz

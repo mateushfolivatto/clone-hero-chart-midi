@@ -72,6 +72,24 @@ Um F1 zero nesses casos não mede recall de chimbal real. Charts usam cores como
 convenções de jogo, podem simplificar a bateria e não são anotações acústicas
 independentes. Tons e outros pratos aparecem como contexto nos gráficos.
 
+## Identificação informada pelo usuário
+
+Após o teste, o usuário esclareceu: “Nas músicas do cod e avenged eu me lembro
+q era tudo chimbal, normalmente aberto”. Registramos o relato como referência
+de escuta/jogo para os pares discutidos: chimbal, geralmente aberto, é a hipótese
+principal para interpretar o amarelo dessas músicas. A lembrança não fornece
+tempos por evento nem confirma a articulação em cada ataque. Os nomes de classe,
+resultados e perfil congelados permanecem como foram medidos.
+
+Isso orienta uma revisão de ataque e cauda sonora. Chimbal aberto costuma
+sustentar energia por mais tempo que o fechado; ataques próximos podem se
+sobrepor. O método atual procura picos de fluxo espectral por faixa e não
+classifica abertura nem modela explicitamente esse decaimento. É preciso
+confrontar os ataques do chart com o áudio, incluindo chimbal fechado e outros
+pratos como comparação, antes de atribuir erros a essa característica. A ausência
+de prato amarelo nos recortes de 115 tampouco demonstra ausência de chimbal no
+áudio. Essa discrepância merece revisão do trecho e da referência.
+
 ## Suporte acrescentado
 
 `chart_reference.py evaluate` aplica o perfil congelado a novos pares chart/áudio.
