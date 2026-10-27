@@ -7,29 +7,39 @@ import statistics
 from collections.abc import Sequence
 
 
-def score_onsets(
+def match_onsets(
     reference: Sequence[float], predictions: Sequence[float], *, tolerance: float = 0.03
-) -> dict[str, int | float | None]:
+) -> list[tuple[int, int]]:
+    """Return original reference/prediction indices, preserving duplicate identity."""
     if not math.isfinite(tolerance) or tolerance <= 0:
         raise ValueError("tolerance must be finite and positive")
     if any(not math.isfinite(value) for value in (*reference, *predictions)):
         raise ValueError("onset times must be finite")
-    expected, detected = sorted(reference), sorted(predictions)
+    expected = sorted(enumerate(reference), key=lambda pair: pair[1])
+    detected = sorted(enumerate(predictions), key=lambda pair: pair[1])
     i = j = 0
-    errors = []
+    pairs = []
     # Earliest compatible pair maximizes the number of matches within a fixed window.
     while i < len(expected) and j < len(detected):
-        error = detected[j] - expected[i]
+        error = detected[j][1] - expected[i][1]
         if error < -tolerance - 1e-12:
             j += 1
         elif error > tolerance + 1e-12:
             i += 1
         else:
-            errors.append(error)
+            pairs.append((expected[i][0], detected[j][0]))
             i += 1
             j += 1
-    tp = len(errors)
-    fp, fn = len(detected) - tp, len(expected) - tp
+    return pairs
+
+
+def score_onsets(
+    reference: Sequence[float], predictions: Sequence[float], *, tolerance: float = 0.03
+) -> dict[str, int | float | None]:
+    pairs = match_onsets(reference, predictions, tolerance=tolerance)
+    errors = [predictions[p] - reference[r] for r, p in pairs]
+    tp = len(pairs)
+    fp, fn = len(predictions) - tp, len(reference) - tp
     return {
         "tp": tp,
         "fp": fp,

@@ -1,0 +1,1852 @@
+{
+  "schema_version": 1,
+  "method": "frozen_song_survey",
+  "analysis_source_sha256": {
+    "survey_summary.py": "53bf0915d55cf90f4c40c4c8245b42ac8ecea8cd363ab7d527e6191aa8a9b601",
+    "survey_statistics.py": "3079a520a463c5d4e354b1a113ff305b0efa0975ac0076170327592fa7d455e0"
+  },
+  "recipe_sha256": "d9651a82f9b23f7d8b34df97bb6cdc113d7c7bb750a8e47d90c7293e95a91adf",
+  "processing_state": {
+    "recipe_sha256": "d9651a82f9b23f7d8b34df97bb6cdc113d7c7bb750a8e47d90c7293e95a91adf",
+    "profile_sha256": "57986ca5e92f8b258d30035dbae4c8a3807f59d945b87ee77ff25fa9873f8b0b",
+    "training_recipe_sha256": "34744e0bae72ed1913d03c16bfae8fd2d9277280409df166768461ee7d62d24c",
+    "source_sha256": {
+      ".agents/skills/drum-audio-diagnostics/scripts/chart_reference.py": "4bc14c2f12433bfd79893ca5eff2b6b8720035df836112b81197bf322f54e27d",
+      ".agents/skills/drum-audio-diagnostics/scripts/reference_holdout.py": "b9c2c6277b42337b685f268905b20b38e409070920ba673f91a86de1803ae0c7",
+      ".agents/skills/drum-audio-diagnostics/scripts/component_audio.py": "61dad1d0e7817cb461244f738d92d0cb8ab17ebb6281e0fb5ce68c73240c12f1",
+      ".agents/skills/drum-audio-diagnostics/scripts/reference_signal.py": "ab908b368ad9ee87100dcec21302d38927ed33df9baa810ff111932e6f9d4a96",
+      ".agents/skills/drum-audio-diagnostics/scripts/inspect_audio.py": "f4cb66e300acb61fd9ed34d34caebc4406f390029d7c35760de6e1cb7c764565",
+      ".agents/skills/drum-audio-diagnostics/scripts/survey_runner.py": "c1d4ee1e0148187f5b8cdf74109dc158299b91e2f59aa497453cf515cdfbe922",
+      "src/drumforge/diagnostics/chart_reference.py": "9ae24af94d650453fc8da88d0b9acc279dbbbf385f3d5c29888ebf2caff85e7a",
+      "src/drumforge/diagnostics/__init__.py": "ebf842d142dd643a2802b1dca121578567822c607fa656930c954109cde6fb4c",
+      "src/drumforge/diagnostics/matching.py": "7d38fa9f75edaf38ca0d5ed7d9e25b6a57f49ed3e4c77be4a9fd9b0491cdbf4d",
+      "src/drumforge/diagnostics/holdout.py": "1b60e1224032ae214d945d16ec85611a07328c87c7a3354202a7aaa75721c599",
+      "src/drumforge/diagnostics/survey.py": "3c2a8c3982697e493cc78e1e2af650e0a8eedb1947692be8926ff803adc7e148",
+      "src/drumforge/library/inspect_song.py": "bc3db989e394cdd69d90e8b9b1161614822b13956b5275f58d72a441da0f2fad"
+    },
+    "python": "3.12.14",
+    "versions": {
+      "numpy": "2.3.5",
+      "matplotlib": "3.10.8",
+      "mido": "1.3.3"
+    },
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "songs": 64,
+  "artists": 20,
+  "nominal_mix_seconds": 2560,
+  "calibration_performed": false,
+  "offset_fitting_performed": false,
+  "model_inference_performed": false,
+  "warning": "Referência fraca de chart, não anotação acústica: prato amarelo pode ser chimbal, ride ou crash; pad vermelho é apenas proxy de caixa. Charts podem omitir ou simplificar ataques. Perfis espectrais não são ADTOF nem confiança calibrada; não há validação no jogo.",
+  "summary": {
+    "cells": {
+      "components": {
+        "KICK": {
+          "baseline": {
+            "tp": 1054,
+            "fp": 1989,
+            "fn": 99,
+            "precision": 0.3463687150837989,
+            "recall": 0.9141370338248048,
+            "f1": 0.5023832221163013,
+            "songs": 12,
+            "excerpts": 24,
+            "duration_seconds": 480,
+            "median_song_f1_with_references": 0.49473163449520896,
+            "positive_reference_songs": 12
+          },
+          "frozen": {
+            "tp": 1000,
+            "fp": 574,
+            "fn": 153,
+            "precision": 0.6353240152477764,
+            "recall": 0.8673026886383348,
+            "f1": 0.7334066740007334,
+            "songs": 12,
+            "excerpts": 24,
+            "duration_seconds": 480,
+            "median_song_f1_with_references": 0.7250687901275744,
+            "positive_reference_songs": 12
+          },
+          "uncertainty": {
+            "draws": 1000,
+            "seed": 20261027,
+            "unit": "whole_song",
+            "delta_f1_ci95": [
+              0.19148564684336583,
+              0.2626178487809619
+            ]
+          }
+        },
+        "SNARE_PROXY": {
+          "baseline": {
+            "tp": 694,
+            "fp": 1277,
+            "fn": 131,
+            "precision": 0.35210553018772195,
+            "recall": 0.8412121212121212,
+            "f1": 0.49642346208869814,
+            "songs": 12,
+            "excerpts": 24,
+            "duration_seconds": 480,
+            "median_song_f1_with_references": 0.5057942057942058,
+            "positive_reference_songs": 12
+          },
+          "frozen": {
+            "tp": 631,
+            "fp": 590,
+            "fn": 194,
+            "precision": 0.5167895167895168,
+            "recall": 0.7648484848484849,
+            "f1": 0.6168132942326491,
+            "songs": 12,
+            "excerpts": 24,
+            "duration_seconds": 480,
+            "median_song_f1_with_references": 0.6284272866856767,
+            "positive_reference_songs": 12
+          },
+          "uncertainty": {
+            "draws": 1000,
+            "seed": 20261027,
+            "unit": "whole_song",
+            "delta_f1_ci95": [
+              0.06790916808742851,
+              0.16925621476491173
+            ]
+          }
+        },
+        "YELLOW_CYMBAL_PROXY": {
+          "baseline": {
+            "tp": 688,
+            "fp": 1001,
+            "fn": 407,
+            "precision": 0.4073416222616933,
+            "recall": 0.628310502283105,
+            "f1": 0.4942528735632184,
+            "songs": 12,
+            "excerpts": 24,
+            "duration_seconds": 480,
+            "median_song_f1_with_references": 0.42438251221767265,
+            "positive_reference_songs": 12
+          },
+          "frozen": {
+            "tp": 580,
+            "fp": 620,
+            "fn": 515,
+            "precision": 0.48333333333333334,
+            "recall": 0.5296803652968036,
+            "f1": 0.5054466230936819,
+            "songs": 12,
+            "excerpts": 24,
+            "duration_seconds": 480,
+            "median_song_f1_with_references": 0.42838428969098696,
+            "positive_reference_songs": 12
+          },
+          "uncertainty": {
+            "draws": 1000,
+            "seed": 20261027,
+            "unit": "whole_song",
+            "delta_f1_ci95": [
+              -0.02834430923792552,
+              0.06636234466070066
+            ]
+          }
+        }
+      },
+      "drums": {
+        "KICK": {
+          "baseline": {
+            "tp": 2385,
+            "fp": 5236,
+            "fn": 204,
+            "precision": 0.31295105629182524,
+            "recall": 0.9212050984936269,
+            "f1": 0.4671890303623898,
+            "songs": 30,
+            "excerpts": 60,
+            "duration_seconds": 1200,
+            "median_song_f1_with_references": 0.4369747899159664,
+            "positive_reference_songs": 29
+          },
+          "frozen": {
+            "tp": 2040,
+            "fp": 1485,
+            "fn": 549,
+            "precision": 0.5787234042553191,
+            "recall": 0.7879490150637312,
+            "f1": 0.6673209028459274,
+            "songs": 30,
+            "excerpts": 60,
+            "duration_seconds": 1200,
+            "median_song_f1_with_references": 0.6763285024154589,
+            "positive_reference_songs": 29
+          },
+          "uncertainty": {
+            "draws": 1000,
+            "seed": 20261027,
+            "unit": "whole_song",
+            "delta_f1_ci95": [
+              0.1493757248760687,
+              0.2501729996146846
+            ]
+          }
+        },
+        "SNARE_PROXY": {
+          "baseline": {
+            "tp": 1542,
+            "fp": 4369,
+            "fn": 153,
+            "precision": 0.2608695652173913,
+            "recall": 0.9097345132743363,
+            "f1": 0.40546936628977126,
+            "songs": 30,
+            "excerpts": 60,
+            "duration_seconds": 1200,
+            "median_song_f1_with_references": 0.40418118466898956,
+            "positive_reference_songs": 29
+          },
+          "frozen": {
+            "tp": 1450,
+            "fp": 2755,
+            "fn": 245,
+            "precision": 0.3448275862068966,
+            "recall": 0.855457227138643,
+            "f1": 0.4915254237288136,
+            "songs": 30,
+            "excerpts": 60,
+            "duration_seconds": 1200,
+            "median_song_f1_with_references": 0.49122807017543857,
+            "positive_reference_songs": 29
+          },
+          "uncertainty": {
+            "draws": 1000,
+            "seed": 20261027,
+            "unit": "whole_song",
+            "delta_f1_ci95": [
+              0.05838902256688214,
+              0.1133738068867449
+            ]
+          }
+        },
+        "YELLOW_CYMBAL_PROXY": {
+          "baseline": {
+            "tp": 1777,
+            "fp": 3792,
+            "fn": 497,
+            "precision": 0.3190878075058359,
+            "recall": 0.7814423922603342,
+            "f1": 0.45314293000127503,
+            "songs": 30,
+            "excerpts": 60,
+            "duration_seconds": 1200,
+            "median_song_f1_with_references": 0.4292237442922374,
+            "positive_reference_songs": 27
+          },
+          "frozen": {
+            "tp": 1512,
+            "fp": 2248,
+            "fn": 762,
+            "precision": 0.4021276595744681,
+            "recall": 0.6649076517150396,
+            "f1": 0.5011600928074246,
+            "songs": 30,
+            "excerpts": 60,
+            "duration_seconds": 1200,
+            "median_song_f1_with_references": 0.41245136186770426,
+            "positive_reference_songs": 27
+          },
+          "uncertainty": {
+            "draws": 1000,
+            "seed": 20261027,
+            "unit": "whole_song",
+            "delta_f1_ci95": [
+              0.00692163011155784,
+              0.08529021421156814
+            ]
+          }
+        }
+      },
+      "mix": {
+        "KICK": {
+          "baseline": {
+            "tp": 4726,
+            "fp": 11847,
+            "fn": 1190,
+            "precision": 0.28516261389006214,
+            "recall": 0.7988505747126436,
+            "f1": 0.4202943661345547,
+            "songs": 64,
+            "excerpts": 128,
+            "duration_seconds": 2560,
+            "median_song_f1_with_references": 0.41131105398457585,
+            "positive_reference_songs": 63
+          },
+          "frozen": {
+            "tp": 2783,
+            "fp": 1739,
+            "fn": 3133,
+            "precision": 0.6154356479433879,
+            "recall": 0.4704192021636241,
+            "f1": 0.5332439164590917,
+            "songs": 64,
+            "excerpts": 128,
+            "duration_seconds": 2560,
+            "median_song_f1_with_references": 0.5425531914893617,
+            "positive_reference_songs": 63
+          },
+          "uncertainty": {
+            "draws": 1000,
+            "seed": 20261027,
+            "unit": "whole_song",
+            "delta_f1_ci95": [
+              0.06248316086989791,
+              0.16043340947261273
+            ]
+          }
+        },
+        "SNARE_PROXY": {
+          "baseline": {
+            "tp": 3190,
+            "fp": 7866,
+            "fn": 732,
+            "precision": 0.28853111432706224,
+            "recall": 0.8133605303416624,
+            "f1": 0.4259580718386968,
+            "songs": 64,
+            "excerpts": 128,
+            "duration_seconds": 2560,
+            "median_song_f1_with_references": 0.4041095890410959,
+            "positive_reference_songs": 63
+          },
+          "frozen": {
+            "tp": 2166,
+            "fp": 2143,
+            "fn": 1756,
+            "precision": 0.5026688326757949,
+            "recall": 0.5522692503824579,
+            "f1": 0.5263030008504435,
+            "songs": 64,
+            "excerpts": 128,
+            "duration_seconds": 2560,
+            "median_song_f1_with_references": 0.5098039215686274,
+            "positive_reference_songs": 63
+          },
+          "uncertainty": {
+            "draws": 1000,
+            "seed": 20261027,
+            "unit": "whole_song",
+            "delta_f1_ci95": [
+              0.06058147638359073,
+              0.14248585265104552
+            ]
+          }
+        },
+        "YELLOW_CYMBAL_PROXY": {
+          "baseline": {
+            "tp": 3516,
+            "fp": 8657,
+            "fn": 1180,
+            "precision": 0.2888359484104165,
+            "recall": 0.7487223168654173,
+            "f1": 0.41685932776098167,
+            "songs": 64,
+            "excerpts": 128,
+            "duration_seconds": 2560,
+            "median_song_f1_with_references": 0.4187103174603175,
+            "positive_reference_songs": 60
+          },
+          "frozen": {
+            "tp": 2990,
+            "fp": 5871,
+            "fn": 1706,
+            "precision": 0.33743369822819097,
+            "recall": 0.6367120954003407,
+            "f1": 0.44110053846721253,
+            "songs": 64,
+            "excerpts": 128,
+            "duration_seconds": 2560,
+            "median_song_f1_with_references": 0.4541742979242979,
+            "positive_reference_songs": 60
+          },
+          "uncertainty": {
+            "draws": 1000,
+            "seed": 20261027,
+            "unit": "whole_song",
+            "delta_f1_ci95": [
+              0.007829210153467972,
+              0.038925957751693635
+            ]
+          }
+        }
+      }
+    },
+    "paired_sources": [
+      {
+        "left": "mix",
+        "right": "drums",
+        "group": "KICK",
+        "method": "baseline",
+        "left_metrics": {
+          "tp": 2160,
+          "fp": 5562,
+          "fn": 429,
+          "precision": 0.27972027972027974,
+          "recall": 0.8342989571263036,
+          "f1": 0.4189700320046552,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.3870967741935484,
+          "positive_reference_songs": 29
+        },
+        "right_metrics": {
+          "tp": 2385,
+          "fp": 5236,
+          "fn": 204,
+          "precision": 0.31295105629182524,
+          "recall": 0.9212050984936269,
+          "f1": 0.4671890303623898,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.4369747899159664,
+          "positive_reference_songs": 29
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            0.018807209669631363,
+            0.07753636975386591
+          ]
+        }
+      },
+      {
+        "left": "mix",
+        "right": "drums",
+        "group": "KICK",
+        "method": "frozen",
+        "left_metrics": {
+          "tp": 1264,
+          "fp": 749,
+          "fn": 1325,
+          "precision": 0.6279185295578739,
+          "recall": 0.48821938972576284,
+          "f1": 0.5493263798348544,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.5263157894736842,
+          "positive_reference_songs": 29
+        },
+        "right_metrics": {
+          "tp": 2040,
+          "fp": 1485,
+          "fn": 549,
+          "precision": 0.5787234042553191,
+          "recall": 0.7879490150637312,
+          "f1": 0.6673209028459274,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.6763285024154589,
+          "positive_reference_songs": 29
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            0.05008146307155958,
+            0.19041321788245452
+          ]
+        }
+      },
+      {
+        "left": "mix",
+        "right": "drums",
+        "group": "SNARE_PROXY",
+        "method": "baseline",
+        "left_metrics": {
+          "tp": 1462,
+          "fp": 3653,
+          "fn": 233,
+          "precision": 0.2858260019550342,
+          "recall": 0.8625368731563422,
+          "f1": 0.4293685756240822,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.4041095890410959,
+          "positive_reference_songs": 29
+        },
+        "right_metrics": {
+          "tp": 1542,
+          "fp": 4369,
+          "fn": 153,
+          "precision": 0.2608695652173913,
+          "recall": 0.9097345132743363,
+          "f1": 0.40546936628977126,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.40418118466898956,
+          "positive_reference_songs": 29
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            -0.05044033963801326,
+            0.0033149750954647086
+          ]
+        }
+      },
+      {
+        "left": "mix",
+        "right": "drums",
+        "group": "SNARE_PROXY",
+        "method": "frozen",
+        "left_metrics": {
+          "tp": 1002,
+          "fp": 915,
+          "fn": 693,
+          "precision": 0.5226917057902973,
+          "recall": 0.5911504424778761,
+          "f1": 0.5548172757475083,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.5050505050505051,
+          "positive_reference_songs": 29
+        },
+        "right_metrics": {
+          "tp": 1450,
+          "fp": 2755,
+          "fn": 245,
+          "precision": 0.3448275862068966,
+          "recall": 0.855457227138643,
+          "f1": 0.4915254237288136,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.49122807017543857,
+          "positive_reference_songs": 29
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            -0.11921882110918514,
+            -0.004843808332263805
+          ]
+        }
+      },
+      {
+        "left": "mix",
+        "right": "drums",
+        "group": "YELLOW_CYMBAL_PROXY",
+        "method": "baseline",
+        "left_metrics": {
+          "tp": 1722,
+          "fp": 3853,
+          "fn": 552,
+          "precision": 0.30887892376681614,
+          "recall": 0.7572559366754618,
+          "f1": 0.43878201044719073,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.4642857142857143,
+          "positive_reference_songs": 27
+        },
+        "right_metrics": {
+          "tp": 1777,
+          "fp": 3792,
+          "fn": 497,
+          "precision": 0.3190878075058359,
+          "recall": 0.7814423922603342,
+          "f1": 0.45314293000127503,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.4292237442922374,
+          "positive_reference_songs": 27
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            -0.009961200902397032,
+            0.036474695818077704
+          ]
+        }
+      },
+      {
+        "left": "mix",
+        "right": "drums",
+        "group": "YELLOW_CYMBAL_PROXY",
+        "method": "frozen",
+        "left_metrics": {
+          "tp": 1456,
+          "fp": 2511,
+          "fn": 818,
+          "precision": 0.36702798084194604,
+          "recall": 0.6402814423922604,
+          "f1": 0.4665918923249479,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.45714285714285713,
+          "positive_reference_songs": 27
+        },
+        "right_metrics": {
+          "tp": 1512,
+          "fp": 2248,
+          "fn": 762,
+          "precision": 0.4021276595744681,
+          "recall": 0.6649076517150396,
+          "f1": 0.5011600928074246,
+          "songs": 30,
+          "excerpts": 60,
+          "duration_seconds": 1200,
+          "median_song_f1_with_references": 0.41245136186770426,
+          "positive_reference_songs": 27
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            0.0008326637520091678,
+            0.06745885797804968
+          ]
+        }
+      },
+      {
+        "left": "drums",
+        "right": "components",
+        "group": "KICK",
+        "method": "baseline",
+        "left_metrics": {
+          "tp": 1056,
+          "fp": 2080,
+          "fn": 97,
+          "precision": 0.336734693877551,
+          "recall": 0.9158716392020815,
+          "f1": 0.4924224761016554,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.46528301886792456,
+          "positive_reference_songs": 12
+        },
+        "right_metrics": {
+          "tp": 1054,
+          "fp": 1989,
+          "fn": 99,
+          "precision": 0.3463687150837989,
+          "recall": 0.9141370338248048,
+          "f1": 0.5023832221163013,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.49473163449520896,
+          "positive_reference_songs": 12
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            -0.013570180547592797,
+            0.044474017027177244
+          ]
+        }
+      },
+      {
+        "left": "drums",
+        "right": "components",
+        "group": "KICK",
+        "method": "frozen",
+        "left_metrics": {
+          "tp": 953,
+          "fp": 523,
+          "fn": 200,
+          "precision": 0.6456639566395664,
+          "recall": 0.826539462272333,
+          "f1": 0.7249904906808673,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.6904497060225647,
+          "positive_reference_songs": 12
+        },
+        "right_metrics": {
+          "tp": 1000,
+          "fp": 574,
+          "fn": 153,
+          "precision": 0.6353240152477764,
+          "recall": 0.8673026886383348,
+          "f1": 0.7334066740007334,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.7250687901275744,
+          "positive_reference_songs": 12
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            -0.020394469536568233,
+            0.04183555773764108
+          ]
+        }
+      },
+      {
+        "left": "drums",
+        "right": "components",
+        "group": "SNARE_PROXY",
+        "method": "baseline",
+        "left_metrics": {
+          "tp": 726,
+          "fp": 1808,
+          "fn": 99,
+          "precision": 0.2865035516969219,
+          "recall": 0.88,
+          "f1": 0.432271509377791,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.41261690812396845,
+          "positive_reference_songs": 12
+        },
+        "right_metrics": {
+          "tp": 694,
+          "fp": 1277,
+          "fn": 131,
+          "precision": 0.35210553018772195,
+          "recall": 0.8412121212121212,
+          "f1": 0.49642346208869814,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.5057942057942058,
+          "positive_reference_songs": 12
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            -0.008175124749854937,
+            0.13719746450898812
+          ]
+        }
+      },
+      {
+        "left": "drums",
+        "right": "components",
+        "group": "SNARE_PROXY",
+        "method": "frozen",
+        "left_metrics": {
+          "tp": 685,
+          "fp": 1217,
+          "fn": 140,
+          "precision": 0.3601472134595163,
+          "recall": 0.8303030303030303,
+          "f1": 0.5023835716905024,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.5177389779159691,
+          "positive_reference_songs": 12
+        },
+        "right_metrics": {
+          "tp": 631,
+          "fp": 590,
+          "fn": 194,
+          "precision": 0.5167895167895168,
+          "recall": 0.7648484848484849,
+          "f1": 0.6168132942326491,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.6284272866856767,
+          "positive_reference_songs": 12
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            0.023460944475935226,
+            0.20386013120558089
+          ]
+        }
+      },
+      {
+        "left": "drums",
+        "right": "components",
+        "group": "YELLOW_CYMBAL_PROXY",
+        "method": "baseline",
+        "left_metrics": {
+          "tp": 825,
+          "fp": 1416,
+          "fn": 270,
+          "precision": 0.36813922356091033,
+          "recall": 0.7534246575342466,
+          "f1": 0.49460431654676257,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.46550792949378894,
+          "positive_reference_songs": 12
+        },
+        "right_metrics": {
+          "tp": 688,
+          "fp": 1001,
+          "fn": 407,
+          "precision": 0.4073416222616933,
+          "recall": 0.628310502283105,
+          "f1": 0.4942528735632184,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.42438251221767265,
+          "positive_reference_songs": 12
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            -0.07251610625683601,
+            0.07519128879302409
+          ]
+        }
+      },
+      {
+        "left": "drums",
+        "right": "components",
+        "group": "YELLOW_CYMBAL_PROXY",
+        "method": "frozen",
+        "left_metrics": {
+          "tp": 652,
+          "fp": 858,
+          "fn": 443,
+          "precision": 0.43178807947019865,
+          "recall": 0.5954337899543379,
+          "f1": 0.5005758157389635,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.41938706454835484,
+          "positive_reference_songs": 12
+        },
+        "right_metrics": {
+          "tp": 580,
+          "fp": 620,
+          "fn": 515,
+          "precision": 0.48333333333333334,
+          "recall": 0.5296803652968036,
+          "f1": 0.5054466230936819,
+          "songs": 12,
+          "excerpts": 24,
+          "duration_seconds": 480,
+          "median_song_f1_with_references": 0.42838428969098696,
+          "positive_reference_songs": 12
+        },
+        "uncertainty": {
+          "draws": 1000,
+          "seed": 20261027,
+          "unit": "whole_song",
+          "delta_f1_ci95": [
+            -0.04823283686907147,
+            0.07563418090042127
+          ]
+        }
+      }
+    ],
+    "hh_density": [
+      {
+        "mode": "components",
+        "method": "baseline",
+        "density_bin": "none",
+        "shift_control_f1": 0.0,
+        "tp": 0,
+        "fp": 139,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": null,
+        "f1": 0.0,
+        "songs": 2,
+        "excerpts": 2,
+        "duration_seconds": 40,
+        "median_song_f1_with_references": null,
+        "positive_reference_songs": 0
+      },
+      {
+        "mode": "components",
+        "method": "baseline",
+        "density_bin": "low",
+        "shift_control_f1": 0.06841592132592937,
+        "tp": 138,
+        "fp": 446,
+        "fn": 39,
+        "precision": 0.2363013698630137,
+        "recall": 0.7796610169491526,
+        "f1": 0.36268068331143233,
+        "songs": 7,
+        "excerpts": 10,
+        "duration_seconds": 200,
+        "median_song_f1_with_references": 0.3076923076923077,
+        "positive_reference_songs": 7
+      },
+      {
+        "mode": "components",
+        "method": "baseline",
+        "density_bin": "medium",
+        "shift_control_f1": 0.1925828395874479,
+        "tp": 406,
+        "fp": 384,
+        "fn": 274,
+        "precision": 0.5139240506329114,
+        "recall": 0.5970588235294118,
+        "f1": 0.5523809523809524,
+        "songs": 7,
+        "excerpts": 10,
+        "duration_seconds": 200,
+        "median_song_f1_with_references": 0.4819277108433735,
+        "positive_reference_songs": 7
+      },
+      {
+        "mode": "components",
+        "method": "baseline",
+        "density_bin": "high",
+        "shift_control_f1": 0.30434782608695654,
+        "tp": 144,
+        "fp": 32,
+        "fn": 94,
+        "precision": 0.8181818181818182,
+        "recall": 0.6050420168067226,
+        "f1": 0.6956521739130435,
+        "songs": 1,
+        "excerpts": 2,
+        "duration_seconds": 40,
+        "median_song_f1_with_references": 0.6956521739130435,
+        "positive_reference_songs": 1
+      },
+      {
+        "mode": "components",
+        "method": "frozen",
+        "density_bin": "none",
+        "shift_control_f1": 0.0,
+        "tp": 0,
+        "fp": 45,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": null,
+        "f1": 0.0,
+        "songs": 2,
+        "excerpts": 2,
+        "duration_seconds": 40,
+        "median_song_f1_with_references": null,
+        "positive_reference_songs": 0
+      },
+      {
+        "mode": "components",
+        "method": "frozen",
+        "density_bin": "low",
+        "shift_control_f1": 0.06516453233911493,
+        "tp": 128,
+        "fp": 292,
+        "fn": 49,
+        "precision": 0.3047619047619048,
+        "recall": 0.7231638418079096,
+        "f1": 0.4288107202680067,
+        "songs": 7,
+        "excerpts": 10,
+        "duration_seconds": 200,
+        "median_song_f1_with_references": 0.2826086956521739,
+        "positive_reference_songs": 7
+      },
+      {
+        "mode": "components",
+        "method": "frozen",
+        "density_bin": "medium",
+        "shift_control_f1": 0.1653382948231212,
+        "tp": 340,
+        "fp": 263,
+        "fn": 340,
+        "precision": 0.5638474295190713,
+        "recall": 0.5,
+        "f1": 0.5300077942322681,
+        "songs": 7,
+        "excerpts": 10,
+        "duration_seconds": 200,
+        "median_song_f1_with_references": 0.4608294930875576,
+        "positive_reference_songs": 7
+      },
+      {
+        "mode": "components",
+        "method": "frozen",
+        "density_bin": "high",
+        "shift_control_f1": 0.25806451612903225,
+        "tp": 112,
+        "fp": 20,
+        "fn": 126,
+        "precision": 0.8484848484848485,
+        "recall": 0.47058823529411764,
+        "f1": 0.6054054054054054,
+        "songs": 1,
+        "excerpts": 2,
+        "duration_seconds": 40,
+        "median_song_f1_with_references": 0.6054054054054054,
+        "positive_reference_songs": 1
+      },
+      {
+        "mode": "drums",
+        "method": "baseline",
+        "density_bin": "none",
+        "shift_control_f1": 0.0,
+        "tp": 0,
+        "fp": 772,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": null,
+        "f1": 0.0,
+        "songs": 6,
+        "excerpts": 9,
+        "duration_seconds": 180,
+        "median_song_f1_with_references": null,
+        "positive_reference_songs": 0
+      },
+      {
+        "mode": "drums",
+        "method": "baseline",
+        "density_bin": "low",
+        "shift_control_f1": 0.07227553602857105,
+        "tp": 321,
+        "fp": 1802,
+        "fn": 67,
+        "precision": 0.15120113047574188,
+        "recall": 0.8273195876288659,
+        "f1": 0.25567502986857826,
+        "songs": 17,
+        "excerpts": 24,
+        "duration_seconds": 480,
+        "median_song_f1_with_references": 0.2445414847161572,
+        "positive_reference_songs": 17
+      },
+      {
+        "mode": "drums",
+        "method": "baseline",
+        "density_bin": "medium",
+        "shift_control_f1": 0.21435358839709925,
+        "tp": 1197,
+        "fp": 1127,
+        "fn": 349,
+        "precision": 0.5150602409638554,
+        "recall": 0.7742561448900388,
+        "f1": 0.6186046511627907,
+        "songs": 17,
+        "excerpts": 24,
+        "duration_seconds": 480,
+        "median_song_f1_with_references": 0.6111111111111112,
+        "positive_reference_songs": 17
+      },
+      {
+        "mode": "drums",
+        "method": "baseline",
+        "density_bin": "high",
+        "shift_control_f1": 0.33482935951379145,
+        "tp": 259,
+        "fp": 91,
+        "fn": 81,
+        "precision": 0.74,
+        "recall": 0.7617647058823529,
+        "f1": 0.7507246376811594,
+        "songs": 2,
+        "excerpts": 3,
+        "duration_seconds": 60,
+        "median_song_f1_with_references": 0.7488365883429966,
+        "positive_reference_songs": 2
+      },
+      {
+        "mode": "drums",
+        "method": "frozen",
+        "density_bin": "none",
+        "shift_control_f1": 0.0,
+        "tp": 0,
+        "fp": 412,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": null,
+        "f1": 0.0,
+        "songs": 6,
+        "excerpts": 9,
+        "duration_seconds": 180,
+        "median_song_f1_with_references": null,
+        "positive_reference_songs": 0
+      },
+      {
+        "mode": "drums",
+        "method": "frozen",
+        "density_bin": "low",
+        "shift_control_f1": 0.06841505131128849,
+        "tp": 279,
+        "fp": 1087,
+        "fn": 109,
+        "precision": 0.2042459736456808,
+        "recall": 0.7190721649484536,
+        "f1": 0.3181299885974915,
+        "songs": 17,
+        "excerpts": 24,
+        "duration_seconds": 480,
+        "median_song_f1_with_references": 0.27450980392156865,
+        "positive_reference_songs": 17
+      },
+      {
+        "mode": "drums",
+        "method": "frozen",
+        "density_bin": "medium",
+        "shift_control_f1": 0.18989615825008885,
+        "tp": 1012,
+        "fp": 710,
+        "fn": 534,
+        "precision": 0.5876887340301974,
+        "recall": 0.6545924967658473,
+        "f1": 0.6193390452876377,
+        "songs": 17,
+        "excerpts": 24,
+        "duration_seconds": 480,
+        "median_song_f1_with_references": 0.5627376425855514,
+        "positive_reference_songs": 17
+      },
+      {
+        "mode": "drums",
+        "method": "frozen",
+        "density_bin": "high",
+        "shift_control_f1": 0.2866666666666667,
+        "tp": 221,
+        "fp": 39,
+        "fn": 119,
+        "precision": 0.85,
+        "recall": 0.65,
+        "f1": 0.7366666666666667,
+        "songs": 2,
+        "excerpts": 3,
+        "duration_seconds": 60,
+        "median_song_f1_with_references": 0.733532026672055,
+        "positive_reference_songs": 2
+      },
+      {
+        "mode": "mix",
+        "method": "baseline",
+        "density_bin": "none",
+        "shift_control_f1": 0.0,
+        "tp": 0,
+        "fp": 1017,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": null,
+        "f1": 0.0,
+        "songs": 8,
+        "excerpts": 12,
+        "duration_seconds": 240,
+        "median_song_f1_with_references": null,
+        "positive_reference_songs": 0
+      },
+      {
+        "mode": "mix",
+        "method": "baseline",
+        "density_bin": "low",
+        "shift_control_f1": 0.0870901542448057,
+        "tp": 907,
+        "fp": 4756,
+        "fn": 252,
+        "precision": 0.16016245806109836,
+        "recall": 0.7825711820534944,
+        "f1": 0.26590442685429494,
+        "songs": 43,
+        "excerpts": 62,
+        "duration_seconds": 1240,
+        "median_song_f1_with_references": 0.2523364485981308,
+        "positive_reference_songs": 43
+      },
+      {
+        "mode": "mix",
+        "method": "baseline",
+        "density_bin": "medium",
+        "shift_control_f1": 0.2194783903439646,
+        "tp": 2286,
+        "fp": 2776,
+        "fn": 798,
+        "precision": 0.4516001580403003,
+        "recall": 0.7412451361867705,
+        "f1": 0.5612570586791064,
+        "songs": 36,
+        "excerpts": 50,
+        "duration_seconds": 1000,
+        "median_song_f1_with_references": 0.5636155087223959,
+        "positive_reference_songs": 36
+      },
+      {
+        "mode": "mix",
+        "method": "baseline",
+        "density_bin": "high",
+        "shift_control_f1": 0.31688804554079697,
+        "tp": 323,
+        "fp": 108,
+        "fn": 130,
+        "precision": 0.7494199535962877,
+        "recall": 0.7130242825607064,
+        "f1": 0.7307692307692307,
+        "songs": 3,
+        "excerpts": 4,
+        "duration_seconds": 80,
+        "median_song_f1_with_references": 0.7644444444444445,
+        "positive_reference_songs": 3
+      },
+      {
+        "mode": "mix",
+        "method": "frozen",
+        "density_bin": "none",
+        "shift_control_f1": 0.0,
+        "tp": 0,
+        "fp": 691,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": null,
+        "f1": 0.0,
+        "songs": 8,
+        "excerpts": 12,
+        "duration_seconds": 240,
+        "median_song_f1_with_references": null,
+        "positive_reference_songs": 0
+      },
+      {
+        "mode": "mix",
+        "method": "frozen",
+        "density_bin": "low",
+        "shift_control_f1": 0.08430303923012718,
+        "tp": 784,
+        "fp": 3313,
+        "fn": 375,
+        "precision": 0.19135953136441297,
+        "recall": 0.6764452113891286,
+        "f1": 0.2983257229832572,
+        "songs": 43,
+        "excerpts": 62,
+        "duration_seconds": 1240,
+        "median_song_f1_with_references": 0.2857142857142857,
+        "positive_reference_songs": 43
+      },
+      {
+        "mode": "mix",
+        "method": "frozen",
+        "density_bin": "medium",
+        "shift_control_f1": 0.1958741443860379,
+        "tp": 1941,
+        "fp": 1799,
+        "fn": 1143,
+        "precision": 0.5189839572192514,
+        "recall": 0.6293774319066148,
+        "f1": 0.5688745603751465,
+        "songs": 36,
+        "excerpts": 50,
+        "duration_seconds": 1000,
+        "median_song_f1_with_references": 0.54983922829582,
+        "positive_reference_songs": 36
+      },
+      {
+        "mode": "mix",
+        "method": "frozen",
+        "density_bin": "high",
+        "shift_control_f1": 0.276614955265534,
+        "tp": 265,
+        "fp": 68,
+        "fn": 188,
+        "precision": 0.7957957957957958,
+        "recall": 0.5849889624724062,
+        "f1": 0.6743002544529262,
+        "songs": 3,
+        "excerpts": 4,
+        "duration_seconds": 80,
+        "median_song_f1_with_references": 0.7448979591836735,
+        "positive_reference_songs": 3
+      }
+    ],
+    "hh_simultaneity": [
+      {
+        "mode": "components",
+        "method": "baseline",
+        "condition": "with_other",
+        "references": 735,
+        "tp": 465,
+        "recall": 0.6326530612244898
+      },
+      {
+        "mode": "components",
+        "method": "baseline",
+        "condition": "without_other",
+        "references": 360,
+        "tp": 223,
+        "recall": 0.6194444444444445
+      },
+      {
+        "mode": "components",
+        "method": "frozen",
+        "condition": "with_other",
+        "references": 735,
+        "tp": 401,
+        "recall": 0.545578231292517
+      },
+      {
+        "mode": "components",
+        "method": "frozen",
+        "condition": "without_other",
+        "references": 360,
+        "tp": 179,
+        "recall": 0.49722222222222223
+      },
+      {
+        "mode": "drums",
+        "method": "baseline",
+        "condition": "with_other",
+        "references": 1453,
+        "tp": 1262,
+        "recall": 0.868547832071576
+      },
+      {
+        "mode": "drums",
+        "method": "baseline",
+        "condition": "without_other",
+        "references": 821,
+        "tp": 515,
+        "recall": 0.6272838002436053
+      },
+      {
+        "mode": "drums",
+        "method": "frozen",
+        "condition": "with_other",
+        "references": 1453,
+        "tp": 1046,
+        "recall": 0.7198898830006882
+      },
+      {
+        "mode": "drums",
+        "method": "frozen",
+        "condition": "without_other",
+        "references": 821,
+        "tp": 466,
+        "recall": 0.5676004872107187
+      },
+      {
+        "mode": "mix",
+        "method": "baseline",
+        "condition": "with_other",
+        "references": 3194,
+        "tp": 2608,
+        "recall": 0.8165309956167814
+      },
+      {
+        "mode": "mix",
+        "method": "baseline",
+        "condition": "without_other",
+        "references": 1502,
+        "tp": 908,
+        "recall": 0.6045272969374168
+      },
+      {
+        "mode": "mix",
+        "method": "frozen",
+        "condition": "with_other",
+        "references": 3194,
+        "tp": 2287,
+        "recall": 0.7160300563556669
+      },
+      {
+        "mode": "mix",
+        "method": "frozen",
+        "condition": "without_other",
+        "references": 1502,
+        "tp": 703,
+        "recall": 0.46804260985352863
+      }
+    ],
+    "hh_absent_in_chart": [
+      {
+        "mode": "components",
+        "method": "baseline",
+        "excerpts": 2,
+        "fp": 139,
+        "fp_per_minute": 208.5
+      },
+      {
+        "mode": "components",
+        "method": "frozen",
+        "excerpts": 2,
+        "fp": 45,
+        "fp_per_minute": 67.5
+      },
+      {
+        "mode": "drums",
+        "method": "baseline",
+        "excerpts": 9,
+        "fp": 772,
+        "fp_per_minute": 257.3333333333333
+      },
+      {
+        "mode": "drums",
+        "method": "frozen",
+        "excerpts": 9,
+        "fp": 412,
+        "fp_per_minute": 137.33333333333334
+      },
+      {
+        "mode": "mix",
+        "method": "baseline",
+        "excerpts": 12,
+        "fp": 1017,
+        "fp_per_minute": 254.25
+      },
+      {
+        "mode": "mix",
+        "method": "frozen",
+        "excerpts": 12,
+        "fp": 691,
+        "fp_per_minute": 172.75
+      }
+    ],
+    "temporal_control_method": "exploratory: mean of 31 circular shifts per excerpt, seeded by song/excerpt, shared offsets across methods/sources, no prediction retiming"
+  },
+  "source_exclusions": {
+    "drums:all": 2
+  },
+  "songs_with_silent_exclusions": [
+    "survey-9d71c08c1e6e2d15"
+  ],
+  "songs_with_duplicate_audio_hashes": [
+    "survey-9d71c08c1e6e2d15"
+  ],
+  "ranking_for_inspection_only": [
+    {
+      "song_id": "survey-013a5cf5e6e09fa4",
+      "artist": "Angra",
+      "title": "Carolina IV",
+      "mean_class_f1": 0.10972427988639065
+    },
+    {
+      "song_id": "survey-75358480c1e25970",
+      "artist": "Angra",
+      "title": "Spread Your Fire",
+      "mean_class_f1": 0.18855239707410387
+    },
+    {
+      "song_id": "survey-24d5b1d2279e69c6",
+      "artist": "Gojira",
+      "title": "The Heaviest Matter of the Universe",
+      "mean_class_f1": 0.2097048570496102
+    },
+    {
+      "song_id": "survey-cdb5344af4b18d28",
+      "artist": "Gojira",
+      "title": "Born In Winter",
+      "mean_class_f1": 0.22643572927760444
+    },
+    {
+      "song_id": "survey-da515566544d16da",
+      "artist": "Gojira",
+      "title": "Flying Whales",
+      "mean_class_f1": 0.2868844052436273
+    },
+    {
+      "song_id": "survey-89fea96609a285ca",
+      "artist": "Iron Maiden",
+      "title": "Paschendale",
+      "mean_class_f1": 0.3150616042242897
+    },
+    {
+      "song_id": "survey-d485c92f93876369",
+      "artist": "Slipknot",
+      "title": "Spit It Out",
+      "mean_class_f1": 0.320359722836503
+    },
+    {
+      "song_id": "survey-18d5641bbf381be9",
+      "artist": "Gojira",
+      "title": "Vacuity",
+      "mean_class_f1": 0.3214804063860668
+    },
+    {
+      "song_id": "survey-65da7aa56cc3207c",
+      "artist": "Megadeth",
+      "title": "Rattlehead",
+      "mean_class_f1": 0.3244529591791114
+    },
+    {
+      "song_id": "survey-2fd990319b54d55b",
+      "artist": "Slipknot",
+      "title": "Wait and Bleed",
+      "mean_class_f1": 0.32558550159618044
+    },
+    {
+      "song_id": "survey-7f383b348ad79e6a",
+      "artist": "Angra",
+      "title": "Nova Era",
+      "mean_class_f1": 0.33810010214504593
+    },
+    {
+      "song_id": "survey-03d63755c5ab2440",
+      "artist": "Skillet",
+      "title": "Not Gonna Die",
+      "mean_class_f1": 0.35845240154529207
+    },
+    {
+      "song_id": "survey-c65ed2fe66125123",
+      "artist": "Iron Maiden",
+      "title": "Charlotte The Harlot",
+      "mean_class_f1": 0.3781025370783005
+    },
+    {
+      "song_id": "survey-e1605fef8e859c24",
+      "artist": "The Beatles",
+      "title": "Strawberry Fields Forever",
+      "mean_class_f1": 0.38037825059101654
+    },
+    {
+      "song_id": "survey-d567faaa308c9ba7",
+      "artist": "Iron Maiden",
+      "title": "Out of the Silent Planet",
+      "mean_class_f1": 0.384937445807011
+    },
+    {
+      "song_id": "survey-1a84e51d0289377c",
+      "artist": "Slipknot",
+      "title": "Eyeless",
+      "mean_class_f1": 0.3941761170487612
+    },
+    {
+      "song_id": "survey-1cdfde4cb5332067",
+      "artist": "Angra",
+      "title": "Waiting Silence",
+      "mean_class_f1": 0.3960802347899122
+    },
+    {
+      "song_id": "survey-3b01fff55d18ed93",
+      "artist": "Skillet",
+      "title": "The Resistance",
+      "mean_class_f1": 0.40890930813511456
+    },
+    {
+      "song_id": "survey-44c8c8f6b2ecd2ac",
+      "artist": "Skillet",
+      "title": "Sick Of It",
+      "mean_class_f1": 0.417594373530726
+    },
+    {
+      "song_id": "survey-d4131a6d6b533d88",
+      "artist": "Skillet",
+      "title": "Whispers In The Dark",
+      "mean_class_f1": 0.43196441554441917
+    },
+    {
+      "song_id": "survey-7435df8159957e08",
+      "artist": "The Beatles",
+      "title": "Back in the U.S.S.R.",
+      "mean_class_f1": 0.4429270540381651
+    },
+    {
+      "song_id": "survey-9d71c08c1e6e2d15",
+      "artist": "Slayer",
+      "title": "Behind The Crooked Cross",
+      "mean_class_f1": 0.4435545319192857
+    },
+    {
+      "song_id": "survey-1dbefd72788f28e8",
+      "artist": "Miley Cyrus",
+      "title": "Nothing Else Matters",
+      "mean_class_f1": 0.4515969297737254
+    },
+    {
+      "song_id": "survey-8dd3560704c528fe",
+      "artist": "Thousand Foot Krutch",
+      "title": "Courtesy Call",
+      "mean_class_f1": 0.4626200487444507
+    },
+    {
+      "song_id": "survey-9ac47a4fdb4d5175",
+      "artist": "Metallica",
+      "title": "Ride The Lightning",
+      "mean_class_f1": 0.4653034148691195
+    },
+    {
+      "song_id": "survey-267f8f1d4239c236",
+      "artist": "Megadeth",
+      "title": "Tornado Of Souls (Remastered 2004)",
+      "mean_class_f1": 0.4660714285714285
+    },
+    {
+      "song_id": "survey-ef1f90209ea6e752",
+      "artist": "Dream Theater",
+      "title": "Take the Time",
+      "mean_class_f1": 0.4664906948221618
+    },
+    {
+      "song_id": "survey-10598801d2b39022",
+      "artist": "Slipknot",
+      "title": "Duality",
+      "mean_class_f1": 0.46650305235837397
+    },
+    {
+      "song_id": "survey-7f368595548c321b",
+      "artist": "Linkin Park",
+      "title": "Lost in the Echo",
+      "mean_class_f1": 0.469899797869356
+    },
+    {
+      "song_id": "survey-c8636fc338486b58",
+      "artist": "Avenged Sevenfold",
+      "title": "Victim",
+      "mean_class_f1": 0.47168118847508156
+    },
+    {
+      "song_id": "survey-0b1879611df89a98",
+      "artist": "Slayer",
+      "title": "Dead Skin Mask",
+      "mean_class_f1": 0.4813156378559227
+    },
+    {
+      "song_id": "survey-c5eaa37713a1879e",
+      "artist": "Nirvana",
+      "title": "Blew",
+      "mean_class_f1": 0.4897121700400389
+    },
+    {
+      "song_id": "survey-45dca4661a6a6699",
+      "artist": "Megadeth",
+      "title": "A Tout le Monde",
+      "mean_class_f1": 0.4914205344585092
+    },
+    {
+      "song_id": "survey-6f0acbf0063ee319",
+      "artist": "Sepultura",
+      "title": "RefuseResist",
+      "mean_class_f1": 0.49205061648280335
+    },
+    {
+      "song_id": "survey-e1a4a1a912400aa4",
+      "artist": "The Beatles",
+      "title": "Ticket To Ride",
+      "mean_class_f1": 0.4966230501114222
+    },
+    {
+      "song_id": "survey-8ae5533d5d75b64e",
+      "artist": "System of a Down",
+      "title": "Toxicity",
+      "mean_class_f1": 0.504414469147509
+    },
+    {
+      "song_id": "survey-9589b1661ab68b58",
+      "artist": "Violent Vira",
+      "title": "S.E.X. Narcissist",
+      "mean_class_f1": 0.5051190550248931
+    },
+    {
+      "song_id": "survey-e77d67c14d6ab6d4",
+      "artist": "Katy Perry",
+      "title": "I Kissed a Girl",
+      "mean_class_f1": 0.5374895451328573
+    },
+    {
+      "song_id": "survey-6a8d4538f08cdf05",
+      "artist": "Dream Theater",
+      "title": "Midnight Messiah",
+      "mean_class_f1": 0.5430157845128573
+    },
+    {
+      "song_id": "survey-5d99d9c941c99e06",
+      "artist": "Linkin Park",
+      "title": "In The End",
+      "mean_class_f1": 0.5431039923581438
+    },
+    {
+      "song_id": "survey-b5317d539ef93109",
+      "artist": "Nirvana",
+      "title": "Stay Away",
+      "mean_class_f1": 0.5449433768194144
+    },
+    {
+      "song_id": "survey-f048044c6d3aa56b",
+      "artist": "Iron Maiden",
+      "title": "The Evil That Men Do",
+      "mean_class_f1": 0.5507767781854328
+    },
+    {
+      "song_id": "survey-1b9445a5fd1cf627",
+      "artist": "Avenged Sevenfold",
+      "title": "Fiction",
+      "mean_class_f1": 0.5669699476151089
+    },
+    {
+      "song_id": "survey-565a6dc2b59df650",
+      "artist": "Metallica",
+      "title": "72 Seasons",
+      "mean_class_f1": 0.572346154220006
+    },
+    {
+      "song_id": "survey-fdb996d7ebe19013",
+      "artist": "System of a Down",
+      "title": "Chop Suey",
+      "mean_class_f1": 0.5758878802357064
+    },
+    {
+      "song_id": "survey-4cc1f429ad4615a9",
+      "artist": "Metallica",
+      "title": "Seek and Destroy",
+      "mean_class_f1": 0.5834179059812379
+    },
+    {
+      "song_id": "survey-beb431e54ad228d7",
+      "artist": "Linkin Park",
+      "title": "Battle Symphony",
+      "mean_class_f1": 0.5864625302175664
+    },
+    {
+      "song_id": "survey-c8e0163eb12492ae",
+      "artist": "Nirvana",
+      "title": "Territorial Pissings",
+      "mean_class_f1": 0.5956511278134595
+    },
+    {
+      "song_id": "survey-ca39bef037c447df",
+      "artist": "Sepultura",
+      "title": "Murder",
+      "mean_class_f1": 0.6027462531092946
+    },
+    {
+      "song_id": "survey-19c45d0549541a43",
+      "artist": "Nirvana",
+      "title": "Lounge Act",
+      "mean_class_f1": 0.6057247249905314
+    },
+    {
+      "song_id": "survey-5863f009aec9c06f",
+      "artist": "Avenged Sevenfold",
+      "title": "Coming Home",
+      "mean_class_f1": 0.6058109849051356
+    },
+    {
+      "song_id": "survey-c9cd03756d6d8dbc",
+      "artist": "Megadeth",
+      "title": "Sweating Bullets",
+      "mean_class_f1": 0.6194333372767065
+    },
+    {
+      "song_id": "survey-d52e86965684e8ac",
+      "artist": "VIOLENT VIRA",
+      "title": "Burn Me With A Bible",
+      "mean_class_f1": 0.6196678113998143
+    },
+    {
+      "song_id": "survey-6bcd506c6dc15a1d",
+      "artist": "Dream Theater",
+      "title": "The Mirror",
+      "mean_class_f1": 0.631339810987784
+    },
+    {
+      "song_id": "survey-4e5e90a98e1d78f6",
+      "artist": "Sepultura",
+      "title": "Meaningless Movements",
+      "mean_class_f1": 0.6446783097623017
+    },
+    {
+      "song_id": "survey-241f7fc866b8a529",
+      "artist": "Slayer",
+      "title": "Skeletons of Society",
+      "mean_class_f1": 0.6543247159307558
+    },
+    {
+      "song_id": "survey-3139c2f7c733af1a",
+      "artist": "Exodus",
+      "title": "Good Day To Die",
+      "mean_class_f1": 0.6724599065411129
+    },
+    {
+      "song_id": "survey-970ab20aa2fe3a29",
+      "artist": "The Beatles",
+      "title": "Ob-La-Di, Ob-La-Da",
+      "mean_class_f1": 0.6741837919485588
+    },
+    {
+      "song_id": "survey-83671d2a94519bfc",
+      "artist": "Sepultura",
+      "title": "Subtraction",
+      "mean_class_f1": 0.675323959194927
+    },
+    {
+      "song_id": "survey-d08ad56ba632998a",
+      "artist": "Slayer",
+      "title": "Spill the Blood",
+      "mean_class_f1": 0.7028960703379307
+    },
+    {
+      "song_id": "survey-1726e5a2262905cb",
+      "artist": "Linkin Park",
+      "title": "Lying From You",
+      "mean_class_f1": 0.7487193075428369
+    },
+    {
+      "song_id": "survey-a67419c0a427a81c",
+      "artist": "Metallica",
+      "title": "Blackened",
+      "mean_class_f1": 0.7628183097907869
+    },
+    {
+      "song_id": "survey-9da9fb98f8058578",
+      "artist": "Avenged Sevenfold",
+      "title": "Doing Time",
+      "mean_class_f1": 0.7794956378281631
+    }
+  ],
+  "zero_target_songs": [
+    {
+      "song_id": "survey-260017f9035be73c",
+      "artist": "Dream Theater",
+      "title": "Octavarium",
+      "mean_class_f1": null
+    }
+  ],
+  "artist_counts": {
+    "gojira": 4,
+    "slayer": 4,
+    "violentvira": 2,
+    "slipknot": 4,
+    "thousandfootkrutch": 1,
+    "exodus": 1,
+    "katyperry": 1,
+    "systemofadown": 2,
+    "dreamtheater": 4,
+    "mileycyrus": 1,
+    "linkinpark": 4,
+    "metallica": 4,
+    "ironmaiden": 4,
+    "sepultura": 4,
+    "skillet": 4,
+    "nirvana": 4,
+    "thebeatles": 4,
+    "megadeth": 4,
+    "angra": 4,
+    "avengedsevenfold": 4
+  },
+  "per_song_metrics_file": "broad-survey-song-metrics.csv"
+}

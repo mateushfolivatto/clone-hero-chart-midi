@@ -1,5 +1,14 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-27 — Broad frozen song survey
+
+64 additional songs across 20 artists completed 128 fixed excerpts and 14,534
+mix references. Selection, bounded execution/resume and independent CSV scoring
+are reproducible; source comparisons use matching excerpts. Component snare
+benefits persisted while the earlier HH benefit did not generalize to twelve
+new pairs. Density, simultaneous notes, negative cases and a temporal control
+are retained in [broad-song-survey.md](broad-song-survey.md) and DCF-128.
+
 ## 2026-10-27 — Explicit components and free public reference
 
 The follow-up audits actual stem samples, omits exactly silent drum/component

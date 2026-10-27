@@ -1,5 +1,18 @@
 # Quality gates
 
+The broad survey adds three core cases (144 total before integrating other library
+work) and six optional cases (19 DSP tests total). They cover order-independent
+artist selection, duplicate-note identity, paired excerpt coverage, song-bootstrap
+units, absent-reference false alarms, circular controls and modified-cache refusal.
+Real checks: 64 completed songs, 128 byte-identical CSVs on full rerun, verified
+resume of all reports, independent CSV score recomputation and six diagnostic
+gallery reruns with matching metrics. See [broad-song-survey.md](broad-song-survey.md).
+Also check the new summary script lock:
+
+```text
+uv --cache-dir .uv-cache lock --check --script .agents/skills/drum-audio-diagnostics/scripts/survey_summary.py
+```
+
 The component-source slice adds five optional DSP tests (13 total; core remains
 141). They distinguish digital silence from very quiet signals, reject invalid
 sources/shapes, preserve simultaneous chart-free candidates, reject changing

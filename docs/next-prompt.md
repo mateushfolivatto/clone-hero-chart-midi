@@ -7,6 +7,29 @@ Audite Git/ambiente antes de editar, preserve trabalho existente e use uma branc
 nova a partir de main para uma nova unidade. Continue a branch existente se a
 unidade ainda estiver aberta. Preserve a implementação inspect-midi.
 
+DCF-128 ampliou a avaliação para 64 músicas novas de 20 artistas: 128 recortes
+fixos, 42 min 40 s nominais e 14.534 referências-alvo na mix. Leia
+docs/broad-song-survey.md e broad-survey-* em docs/experiments/. survey-plan
+seleciona antes de pontuar, sem repetir as músicas anteriores; survey usa até
+dois workers e uma música por processo. Resume verifica entradas/receita/perfil/
+código/runtime e recibos de report/CSV. survey_summary.py recalcula tudo dos CSV,
+compara fontes nos mesmos recortes e usa bootstrap de músicas inteiras.
+
+Na mix, F1 original→congelado: bumbo .420→.533, caixa .426→.526, amarelo
+.417→.441. O recall caiu bastante; precisão de amarelo é só 33,7%. Nos 12 novos
+pares bateria/componentes, caixa .502→.617, amarelo .501→.505 com intervalo
+incluindo zero: o ganho HH anterior em duas músicas não se generalizou. Preserve
+casos sem referência (Octavarium) e stems zero (Behind The Crooked Cross).
+Coincidência com caixa/bumbo teve recall de amarelo maior; não declare causa de
+mascaramento ou identificação de HH por isso. O controle temporal exploratório
+usa deslocamentos somente para comparação, sem retimar as predições reais.
+
+Próximo avanço: rótulos acústicos por instrumento num conjunto reservado,
+comparação de transcritor/separador à mix com pausas, outros pratos e simultâneos.
+Não reajuste o perfil nas 64 músicas e chame o resultado de teste independente.
+Nenhum modelo novo foi instalado/executado nesse estudo; as saídas são candidatas
+espectrais e acordo com charts. Continue atualizando a skill após cada experimento.
+
 DCF-127 comparou fontes explícitas em sete músicas já discutidas e adicionou
 predict-components sem chart. Leia docs/stem-component-study.md e suas receitas.
 O usuário quer rota sem assinatura e atualização contínua da skill com evidências
@@ -95,7 +118,7 @@ ambiente/pesos locais verificados. Reporte TP/FP/FN, precisão/recall/F1 e erros
 Não declare identificação acústica por cores de chart ou acurácia por candidatos.
 
 Windows/Python 3.12 CPU continua primário. Os resultados de 2026-10-27 são Linux;
-141 testes do núcleo e 13 regressões opcionais de DSP passaram. Consulte
+144 testes do núcleo e 19 regressões opcionais de DSP passaram. Consulte
 docs/testing.md. Não instale WSL, Docker ou CUDA nem altere políticas do PC.
 O decoder do experimento usa guarda final de 100 ms e recorte por amostras,
 sem mover ataques ou preencher stems curtos. Charts/áudios originais permanecem

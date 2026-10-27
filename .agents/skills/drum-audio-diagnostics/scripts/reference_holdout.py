@@ -161,6 +161,8 @@ def evaluate(args, shared):
                     "context_counts": {g: len(t) for g, t in context.items()},
                 }
             )
+            if getattr(args, "no_plots", False):
+                continue
             path = args.out / f"{len(pictures) + 1:02d}-{song['id']}.png"
             plotted_mode, plotted_rule = "mix", "frozen"
             if "YELLOW_CYMBAL_PROXY" in views.get("components", {}):

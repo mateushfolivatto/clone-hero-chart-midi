@@ -233,6 +233,22 @@ this is not local model inference. All 141 core and 13 optional DSP tests, locks
 static gates and build passed; input/profile hashes and archive hygiene verified.
 See docs/stem-component-study.md. DCF-105/106, ML/game/native acceptance remain open.
 
+### Phase 1 broad song survey — 2026-10-27
+
+- [-] **DCF-128 [P1]** Survey many additional chart/audio pairs with frozen rules,
+  artist-balanced selection, source/coverage audits, per-song uncertainty and
+  reusable pattern findings in the project skill.
+
+64 new songs/20 artists completed 128 fixed excerpts: 2,560 nominal seconds,
+352 pinned inputs and 14,534 mix references. There are 30 useful drum-source pairs
+and 12 component-source pairs. Mix F1 improves with major recall losses; component
+snare gains persist but the earlier strong HH gain does not generalize. Density,
+simultaneity and absent-reference cases are reported, with a post-score temporal
+control. Full rerun reproduces all candidate/reference CSVs; real resume reuses
+64 verified reports. Final gates/Git integration remain to finish. See
+docs/broad-song-survey.md. This does not complete ML, acoustic labels, exporter,
+native Windows/game acceptance or overall Phase 1.
+
 ---
 
 ## Phase 2 — Canonical Event Pipeline

@@ -215,6 +215,53 @@ gera CSV experimental. `--rules frozen` usa o perfil salvo de bateria. Os stems
 precisam já estar alinhados; duração igual não comprova isso. Não há separação,
 identificação de aberto/fechado, MIDI ou chart de jogo nesse comando.
 
+### Ampliar a amostra sem ajustar sobre o teste
+
+O estudo em `docs/broad-song-survey.md` avaliou 64 músicas novas/20 artistas,
+128 recortes fixos e 14.534 referências na mix. A receita exclui as 12 músicas
+anteriores por chart e artista/título normalizados. Planeje antes de pontuar:
+survey-plan seleciona em rodadas por artista com seed e teto explícitos, dando
+prioridade a componentes documentados e depois a arquivos de bateria. Isso é uma
+amostra da coleção local, não de toda a música; não exclua falhas após ver F1.
+
+Use survey com até dois workers CPU, uma música por processo, e o perfil congelado.
+Resume exige as mesmas entradas, receita, perfil, código e versões, além de recibos
+dos relatórios/CSV. Pasta incompleta não é sucesso. O resumo por survey_summary.py
+tem lock próprio, recalcula scores dos CSV e exige igualdade com os relatórios.
+Compare fontes somente nos mesmos pares música/recorte/classe disponíveis.
+Preserve as notas duplicadas como identidades distintas ao fazer correspondência.
+
+Resultados da mix original→perfil: bumbo F1 0,420→0,533, caixa 0,426→0,526 e
+amarelo 0,417→0,441. Recall caiu em todas as classes; no bumbo, 79,9%→47,0%.
+Reportar apenas F1 esconderia ataques perdidos. A precisão de amarelo ainda é 33,7%.
+Não adote o perfil como transcritor de produção nem interprete cor como instrumento
+acusticamente confirmado.
+
+Nos 30 pares mix/bateria, o perfil melhorou bumbo (0,549→0,667), piorou caixa
+(0,555→0,492) e melhorou pouco amarelo (0,467→0,501). Nos 12 pares de bateria/
+componentes, caixa melhorou 0,502→0,617; amarelo ficou 0,501→0,505, com intervalo
+de ganho incluindo zero. O benefício de HH visto em Afterlife/Crawling não se
+generalizou a estes novos pares. Fonte vencedora depende da classe e da amostra.
+
+Inclua recortes sem notas-alvo. Em 12 recortes sem amarelo no chart houve 691
+candidatos congelados. Octavarium não tinha nenhuma das três classes nos dois
+recortes: pontue notas extras, sem inventar recall ou colocá-lo no ranking positivo.
+Behind The Crooked Cross tinha bateria digitalmente silenciosa em ambos; preserve
+a mix e exclua apenas a fonte indisponível. Registre esses casos, não os substitua.
+
+Meça densidade e simultaneidades como associações descritivas. Na mix, amarelos
+com caixa/bumbo no mesmo tick tiveram recall 71,6%, contra 46,8% sem eles. Isso
+não comprova isolamento de HH nem confirma mascaramento como causa universal.
+Charts densos também oferecem mais oportunidades de coincidência. Um controle
+exploratório com 31 deslocamentos circulares preservou contagens e confirmou
+informação temporal acima do controle, com efeito de densidade em ambos.
+Deslocamentos são somente para controle: nunca retime predições reais para ganhar
+score. Não complete padrões rítmicos ou infira aberto/fechado por esses números.
+
+Para o próximo avanço, reserve outra amostra com rótulos acústicos por instrumento
+e compare o transcritor/separador à mix, incluindo pausas, outros pratos e ataques
+simultâneos. Não recalibre nestas 64 músicas e chame o resultado de independente.
+
 ### Recursos externos: distinguir acesso de inferência
 
 Não é necessária assinatura para os ensaios locais. Em 2026-10-27 obtivemos sete
