@@ -80,6 +80,9 @@ agreement but did not improve the hi-hat proxy; the ADTOF baseline is unchanged.
 The [CoD/Avenged Sevenfold follow-up](docs/cod-a7x-heldout.md) tests that frozen
 profile on five other songs, including a .chart reference and packages without
 drum stems. It records per-song failures and does not recalibrate on test data.
+The [Faint/Crawling study](docs/linkin-park-hihat.md) examines timekeeping hi-hat
+and fixes disco-flip interpretation in Pro reference charts. It retains original
+note data and compares mix/drums using the same frozen detector profile.
 
 ## Project navigation
 

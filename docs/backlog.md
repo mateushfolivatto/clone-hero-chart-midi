@@ -1,5 +1,14 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-27 — Linkin Park timekeeping hi-hat
+
+Faint and Crawling were inspected using the frozen profile and 13 pinned files.
+Crawling exposed ignored disco-flip markers: Pro reference groups now resolve
+the authored lane swap without altering original notes or detector parameters.
+The original HH detector outperformed the restrictive profile on both songs;
+Crawling drums recovered more attacks than its mix. See
+[linkin-park-hihat.md](linkin-park-hihat.md) and canonical DCF-126.
+
 ## 2026-10-27 — Frozen profile on CoD and Avenged Sevenfold
 
 The requested five-song external test used 25 pinned files, unchanged profile

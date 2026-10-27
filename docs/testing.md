@@ -1,5 +1,12 @@
 # Quality gates
 
+The Linkin Park study adds 12 core disco-flip regressions (141 total), covering
+MIDI/.chart state boundaries, simultaneous notes, dnoflip and other reset flags,
+other difficulties, yellow toms, conflicting/unsupported mix events and source
+preservation. The eight optional DSP tests also verify an escaped recipe-specific
+HTML title. Ten earlier real-song references and Faint were compared against the
+previous reader: identical events. See [linkin-park-hihat.md](linkin-park-hihat.md).
+
 The CoD/A7X frozen evaluation adds 12 core cases (129 total) and one optional
 integration case (eight DSP tests total). They cover .chart tempo/Offset/cymbal
 semantics, missing velocities, single-stream packages and calibration-data reuse

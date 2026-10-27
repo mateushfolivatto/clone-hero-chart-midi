@@ -55,8 +55,18 @@ está em `docs/five-song-chart-reference.md`, com receita e resultados agregados
 `docs/experiments/`. Ele usa dois trechos de 20 s por música, mix reconstruída e
 stems de bateria já presentes, sem baixar ou treinar modelos.
 
-Leia os marcadores de tom 110/111/112 por seus intervalos antes de interpretar as
-notas Expert 96–100. Nota 98 com marcador 110 é tom amarelo; sem ele, prato amarelo.
+Resolva eventos de mix Expert antes de usar cores como referências. O flag `d`
+em `[mix 3 drums2d]` (ou eventos locais equivalentes em .chart) indica disco flip:
+em Pro, vermelho armazenado vira prato amarelo e amarelo armazenado vira caixa,
+inclusive se era tom. Vale desde o tick do evento até o próximo mix Expert;
+`dnoflip` e mix sem flag não trocam notas. Outras dificuldades não resetam Expert.
+O leitor resolve estados no mesmo tick independentemente da ordem, recusa conflitos
+e mantém números de nota/tempos/velocidades de origem. `group` é a pista Pro
+resolvida; `midi_note` continua sendo a pista armazenada, não uma nota GM.
+
+Fora do disco flip, leia marcadores de tom 110/111/112 por seus intervalos antes de
+interpretar notas Expert 96–100. Nota 98 com marcador 110 é tom amarelo; sem ele,
+prato amarelo.
 Prato amarelo é **proxy de possível chimbal**, não identificação acústica garantida.
 O mesmo vale para o pad vermelho como proxy de caixa. Charts podem simplificar
 ataques; não copie MIDI do jogo como se já fosse percussão GM de um transcritor.
@@ -146,6 +156,28 @@ simultâneos de caixa/bumbo. Duração isolada não identifica o prato. O detect
 atual usa picos de fluxo por faixa, sem classificar aberto/fechado nem modelar
 explicitamente o decaimento. Esta é uma hipótese para o próximo experimento,
 não uma melhora já medida ou motivo para retocar o perfil congelado.
+
+### Chimbal mantendo a pulsação: Faint e Crawling
+
+O usuário indicou essas músicas de Linkin Park como exemplos. O estudo está em
+`docs/linkin-park-hihat.md`, com receita e resultados em docs/experiments/.
+Para reproduzir, use evaluate com `linkin-park-hihat-recipe.json`, o mesmo perfil
+e a receita original de calibração. Mantenha 60–80 s e 120–140 s sem recalibrar.
+Faint tem mix; Crawling tem mix e bateria. Não atribua a ambas a lembrança de
+chimbal geralmente aberto relatada antes para CoD/A7X: abertura aqui não foi anotada.
+
+Crawling revelou o disco flip ignorado: o amarelo Pro passou de 52 para 212
+referências nos recortes após corrigir a leitura, sem alterar o detector. O leitor
+registra versão semântica 2 e notas reclassificadas. Compare referências antigas
+antes de atribuir uma diferença de score ao algoritmo de áudio. Os eventos dos
+dez charts anteriores e Faint ficaram idênticos após esta correção.
+
+Nas sequências chartadas, Faint tem passos típicos de 222 ms; Crawling alterna
+286/143 ms. Meça diferenças consecutivas dentro do recorte, com PPQN explícito,
+sem completar notas. O detector original de agudos superou o perfil restritivo:
+F1 de amarelo 0,618→0,589 em Faint/mix, 0,683→0,550 em Crawling/mix e
+0,847→0,824 em Crawling/bateria. A bateria recuperou ataques neste exemplo;
+não generalize nem mude defaults ADTOF sem outra avaliação independente.
 
 O script `scripts/inspect_audio.py`, relativo a esta skill, usa FFmpeg local,
 NumPy e Matplotlib. Não importa PyTorch, não baixa pesos e não envia áudio.

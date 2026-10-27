@@ -213,6 +213,23 @@ yellow references against audible hi-hat, and distinguish open/closed hi-hat fro
 other cymbals. The current band-flux detector does not classify hi-hat openness.
 Keep frozen proxy labels, profile and reported metrics unchanged.
 
+## Linkin Park hi-hat references and disco-flip correction (2026-10-27)
+
+The user suggested Faint and Crawling for timekeeping hi-hat. Both local pairs
+were evaluated over the same fixed excerpts with the frozen profile: 80 seconds
+of music, 508 mix target references; Crawling alone supplies 40 seconds of drums.
+Inspection found Expert disco-flip events in Crawling. The reference reader now
+resolves these MIDI/.chart mix states before scoring Pro lanes, keeps raw source
+notes/timing/velocity and records semantics version 2. It reclassifies 422 notes
+in the full Crawling chart; all events in the previous ten songs and Faint were
+verified unchanged. This corrects labels, not audio inference or original charts.
+Charted hi-hat steps are typically 222 ms in Faint and 286/143 ms in Crawling.
+The original high-band detector outperformed the restrictive frozen profile on
+yellow-Pro F1 in both songs; Crawling drums recovered more attacks than its mix.
+Do not infer openness, fill rhythm gaps, retune on these test labels or generalize
+stem superiority. See docs/linkin-park-hihat.md and DCF-126. No ADTOF defaults,
+canonical pipeline, exporter or game acceptance changed; Phase 1 remains open.
+
 ## Separate song-library workstream (2026-10-16)
 
 The user requested a separate, portable area for the growing MixDrumRock Qobuz

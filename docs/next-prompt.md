@@ -7,6 +7,20 @@ Audite Git/ambiente antes de editar, preserve trabalho existente e use uma branc
 nova a partir de main para uma nova unidade. Continue a branch existente se a
 unidade ainda estiver aberta. Preserve a implementação inspect-midi.
 
+DCF-126 inspecionou Faint e Crawling, indicadas pelo usuário como exemplos de
+chimbal marcando tempo. Leia docs/linkin-park-hihat.md e sua receita/resultados.
+O leitor antigo ignorava disco flip de Crawling. Agora resolve mix Expert com
+flag d em MIDI/.chart: vermelho vira prato amarelo, amarelo (até tom) vira caixa;
+dnoflip/outro mix Expert encerra a troca. A semântica v2 mantém origem/tempos e
+registra reclassificações. Não interprete midi_note armazenada como group já
+resolvido. Foram corrigidas 422 notas na música; dez charts anteriores e Faint
+mantiveram eventos idênticos. Nos recortes de Crawling há 212 amarelos Pro.
+O perfil permaneceu congelado. F1 do amarelo original→perfil: Faint/mix
+0,618→0,589; Crawling/mix 0,683→0,550; Crawling/bateria 0,847→0,824.
+Use o detector original de HH como referência no próximo teste independente;
+não complete a cadência nem infira aberto/fechado pelo relato genérico ou cor.
+As sequências chartadas têm passos de 222 ms (Faint) e 286/143 ms (Crawling).
+
 DCF-125 também foi executado: leia docs/cod-a7x-heldout.md e os arquivos
 cod-a7x-heldout-* em docs/experiments/. O perfil das cinco músicas anteriores
 ficou congelado e foi aplicado a 115, Carry On, Not Ready To Die, Afterlife e
@@ -41,7 +55,8 @@ NumPy 2.3.5, Matplotlib 3.10.8 e Mido 1.3.3. study interpreta tempo/delay e
 marcadores de tom, soma stems com ganho comum, calibra em quatro músicas e testa
 na quinta sem misturar trechos entre os lados. predict usa só áudio/perfil e
 exporta candidatos CSV; não gera chart de jogo. O perfil final foi calibrado
-nas cinco músicas, não testado numa sexta. Seu uso automático não é recomendado.
+nas cinco músicas e depois avaliado nos conjuntos externos descritos acima.
+Seu uso automático não é recomendado.
 
 Resultados na mix, F1 contra o chart a ±30 ms: bumbo 0,385→0,599; proxy de caixa
 0,339→0,468; prato amarelo 0,472→0,456. Houve troca de recall por precisão e o
@@ -59,7 +74,7 @@ ambiente/pesos locais verificados. Reporte TP/FP/FN, precisão/recall/F1 e erros
 Não declare identificação acústica por cores de chart ou acurácia por candidatos.
 
 Windows/Python 3.12 CPU continua primário. Os resultados de 2026-10-27 são Linux;
-129 testes do núcleo e oito regressões opcionais de DSP passaram. Consulte
+141 testes do núcleo e oito regressões opcionais de DSP passaram. Consulte
 docs/testing.md. Não instale WSL, Docker ou CUDA nem altere políticas do PC.
 O decoder do experimento usa guarda final de 100 ms e recorte por amostras,
 sem mover ataques ou preencher stems curtos. Charts/áudios originais permanecem
