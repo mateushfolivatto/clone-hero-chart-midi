@@ -8,6 +8,9 @@ description: Investigar batidas ausentes ou falsas em transcrição de bateria p
 Use processamento de sinais e evidência do áudio para investigar falhas. Esta skill
 orienta o Codex e fornece um analisador local; ela não é um novo modelo treinado.
 Leia as instruções AGENTS.md do projeto e respeite a fase vigente antes de editar.
+Por preferência do usuário, aplique este procedimento em toda tarefa de música
+para chart, mesmo sem uma falha de chimbal relatada. A skill orienta diagnóstico;
+não substitui o transcritor nem transforma os candidatos espectrais em notas.
 Não substitua o modelo nem avance o exportador para resolver uma hipótese de áudio.
 
 ## Primeiro estabeleça os fatos
@@ -21,7 +24,84 @@ Não substitua o modelo nem avance o exportador para resolver uma hipótese de �
 4. Compare o MIDI bruto à exportação antes de culpar o detector. Uma nota pode ser
    perdida na classificação, no peak picking, na normalização ou no mapeamento.
 
+## Inspecione o MIDI bruto
+
+Após `transcribe`, gere os diagnósticos antes de ajustar limiares:
+
+```powershell
+uv --cache-dir .uv-cache sync --locked --extra diagnostics
+uv --cache-dir .uv-cache run --locked drumforge inspect-midi 'work/raw.mid' --out 'output/diagnostico-midi'
+```
+
+Adapte os caminhos e use uma pasta de saída nova. O extra opcional fixa Mido
+1.3.3; não instala ML. `report.json` contém SHA256 do MIDI, mapa de tempo e
+contagens por nota/grupo BD SD HH TT CY UNKNOWN. `events.csv` preserva tempos em
+segundos, notas GM, velocidades armazenadas e ataques simultâneos, sem deduplicar
+ou quantizar. Velocidade MIDI não é intensidade acústica estimada nem confiança.
+
+O comando espera percussão GM no canal 10 (índice 9). Ele rejeita `PART DRUMS`,
+formato 2 e divisão SMPTE, e informa notas ignoradas em outros canais. Não passe
+um `notes.mid` de Clone Hero: seus números de notas significam pistas do jogo.
+Os tempos partem do zero do MIDI; se a transcrição veio de um recorte, registre
+separadamente sua origem na música antes de comparar ao gráfico com `--start`.
+
 ## Gere os gráficos
+
+### Aprender com charts existentes e ondas
+
+Quando houver músicas já chartadas, use-as como referências fracas de tempo e
+pistas, em vez de esperar somente por Turn to Ashes. O experimento de cinco músicas
+está em `docs/five-song-chart-reference.md`, com receita e resultados agregados em
+`docs/experiments/`. Ele usa dois trechos de 20 s por música, mix reconstruída e
+stems de bateria já presentes, sem baixar ou treinar modelos.
+
+Leia os marcadores de tom 110/111/112 por seus intervalos antes de interpretar as
+notas Expert 96–100. Nota 98 com marcador 110 é tom amarelo; sem ele, prato amarelo.
+Prato amarelo é **proxy de possível chimbal**, não identificação acústica garantida.
+O mesmo vale para o pad vermelho como proxy de caixa. Charts podem simplificar
+ataques; não copie MIDI do jogo como se já fosse percussão GM de um transcritor.
+
+Na raiz do repositório, ajuste a raiz dos lotes já extraídos:
+
+```powershell
+uv --cache-dir .uv-cache run --no-project --locked --script .agents/skills/drum-audio-diagnostics/scripts/chart_reference.py study --recipe docs/experiments/five-song-chart-reference.json --library-root 'C:/caminho/downloads' --out 'output/referencia-cinco-musicas'
+```
+
+O script fixa NumPy/Matplotlib/Mido em lock próprio e reutiliza o espectrograma e
+fluxo desta skill. Confere os hashes dos 36 arquivos da receita, aplica tempo MIDI
+e delay explícito, preserva ataques simultâneos e soma os stems com ganho comum.
+`song.ogg` de um pacote multitrack pode conter somente acompanhamento: não o chame
+sozinho de mixagem completa. Prévia/crowd e codificações duplicadas são excluídas.
+O decoder usa guarda final de 100 ms e corta ao número exato de amostras do trecho;
+isso corrige a sobra de quadros, sem mover ataques ou preencher stems curtos.
+
+Calibre regras de faixa/limiar em quatro músicas e teste na quinta. Todos os
+trechos da quinta devem ficar fora da calibração. Correspondência uma a uma a
+±30 ms, excluindo 50 ms de cada borda; reporte TP/FP/FN, precisão, recall, F1 e
+erro temporal. Não ajuste offsets ou limiares usando os rótulos da música de teste.
+Este benchmark mede coincidência com charts, não acurácia acústica independente.
+
+Inspecione `report.html`, dez PNGs, `report.json`, `chart-events.csv`,
+`held-out-candidates.csv` e `spectral-profile.json`. Os gráficos também mostram
+tons e outros pratos como contexto. O perfil final é calibrado nas cinco músicas;
+as métricas independentes são as dos cinco folds, não um teste desse perfil final.
+
+Resultado em 2026-10-27: na mix, F1 de bumbo 0,385→0,599 e proxy de caixa
+0,339→0,468; prato amarelo 0,472→0,456. O ajuste não melhorou o chimbal e o stem
+de bateria não foi superior em toda classe/música. Não substitua defaults ADTOF
+com esses números: ADTOF não foi comparado neste experimento.
+
+Para propor candidatos em outro áudio, sem fornecer um chart:
+
+```powershell
+uv --cache-dir .uv-cache run --no-project --locked --script .agents/skills/drum-audio-diagnostics/scripts/chart_reference.py predict 'audio/musica.wav' --profile docs/experiments/five-song-spectral-profile.json --start 30 --duration 20 --out 'output/candidatos-experimentais'
+```
+
+Essa saída é CSV de candidatos experimentais e proveniência, ainda sem chart de
+jogo ou dinâmica/confiança estimadas. O perfil declara uso automático não
+recomendado. Não complete colcheias nem chame todos os agudos de chimbal; anote
+um trecho por instrumento, incluindo outros pratos e simultaneidades, para a
+próxima comparação com ADTOF ou um método multibanda mais discriminativo.
 
 O script `scripts/inspect_audio.py`, relativo a esta skill, usa FFmpeg local,
 NumPy e Matplotlib. Não importa PyTorch, não baixa pesos e não envia áudio.

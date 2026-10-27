@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "kind": "experimental_spectral_peak_rules",
+  "automatic_use_recommended": false,
+  "reference_kind": "Refer\u00eancia fraca de chart, n\u00e3o anota\u00e7\u00e3o ac\u00fastica: prato amarelo pode ser chimbal, ride ou crash; pad vermelho \u00e9 apenas proxy de caixa. Charts podem omitir ou simplificar ataques. Perfis espectrais n\u00e3o s\u00e3o ADTOF nem confian\u00e7a calibrada; n\u00e3o h\u00e1 valida\u00e7\u00e3o no jogo.",
+  "bands_hz": {
+    "low": [
+      40,
+      200
+    ],
+    "mid": [
+      200,
+      4000
+    ],
+    "high": [
+      4000,
+      16000
+    ],
+    "sub_bass": [
+      40,
+      120
+    ],
+    "upper_mid": [
+      1000,
+      4000
+    ],
+    "upper_high": [
+      8000,
+      16000
+    ]
+  },
+  "source_songs": [
+    "numb",
+    "all-apologies",
+    "come-together",
+    "number-of-the-beast",
+    "forsaken"
+  ],
+  "fft_size": 2048,
+  "hop_samples": 256,
+  "sample_rate_hz": 44100,
+  "evaluation": "leave-one-song-out; final profile fitted on all sources is not independently tested",
+  "modes": {
+    "mix": {
+      "KICK": [
+        "low",
+        6,
+        0.02
+      ],
+      "SNARE_PROXY": [
+        "mid",
+        6,
+        0.05
+      ],
+      "YELLOW_CYMBAL_PROXY": [
+        "high",
+        4,
+        0.05
+      ]
+    },
+    "drums": {
+      "KICK": [
+        "sub_bass",
+        6,
+        0.05
+      ],
+      "SNARE_PROXY": [
+        "mid",
+        6,
+        0.05
+      ],
+      "YELLOW_CYMBAL_PROXY": [
+        "upper_high",
+        4,
+        0.05
+      ]
+    }
+  },
+  "source_recipe_sha256": "34744e0bae72ed1913d03c16bfae8fd2d9277280409df166768461ee7d62d24c"
+}

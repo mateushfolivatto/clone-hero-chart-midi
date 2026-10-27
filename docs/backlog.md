@@ -1,5 +1,26 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-27 — Five chart/audio pairs
+
+The user authorized a real-song inverse reference experiment. Five existing
+Pro Drums packages supplied ten excerpts, mixes/drum stems and 860 target proxy
+events. Whole-song holdout calibration improved kick/snare agreement and worsened
+the yellow-cymbal proxy. Reproducible recipes, results, profile, study/predict
+scripts and the existing skill now retain that evidence. See
+[five-song-chart-reference.md](five-song-chart-reference.md); root BACKLOG.md owns
+DCF-124 and the still-open Phase 1 acceptance. No ADTOF improvement or game
+acceptance is claimed.
+
+## 2026-10-20 — Raw MIDI diagnostics
+
+The music-to-chart work resumes within Phase 1 using the local diagnostic skill
+for every song. `inspect-midi` writes tempo-aware raw GM onset/velocity CSV and
+JSON counts, preserving simultaneous attacks. Fifteen regressions (104 total)
+and a synthetic skill-guided audio/MIDI demonstration passed. See
+[phase-1-midi-diagnostics.md](phase-1-midi-diagnostics.md) for scope and commands;
+root BACKLOG.md owns DCF-118/119 and the remaining private-song acceptance tasks.
+No canonical pipeline/exporter or game acceptance is completed by this slice.
+
 ## 2026-10-17 — Recover the pilot after failed download
 
 The user reported an artifact-download error and could not find data/. The resumed

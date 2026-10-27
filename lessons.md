@@ -201,3 +201,26 @@ finding. This file supplements the backlog; it does not redefine task completion
     cleanup and bound its join. Test a real sleeping child that must be killed,
     a blocked output sink, slow process creation and a late successful return.
     A mocked TimeoutExpired alone does not validate real deadline enforcement.
+
+## 2026-10-20 — MIDI diagnostic fixtures
+
+39. **Sort note-ons and note-offs together in synthetic MIDI.** An ad-hoc demo
+    generator appended a note-off before the next simultaneous note-on, creating
+    a negative delta and stalling an unchecked VLQ encoder. Build one tick-sorted
+    event schedule and bound VLQ inputs to 0..0x0fffffff. The corrected demo parses
+    all 22 expected attacks, including seven simultaneous pairs; independent
+    hand-authored regression bytes verify timing without relying on that generator.
+
+## 2026-10-27 — Existing chart/audio pairs
+
+40. **A game lane is a weak instrument label.** In five real songs, yellow-cymbal
+    tuning worsened held-out F1 even while kick/snare improved. Come Together has
+    many blue toms and few yellow cymbals. Preserve marker intervals and label
+    proxies honestly; exclude all excerpts of the test song from calibration.
+    Verify TP/FP/FN and individual song results before adopting a spectral profile;
+    agreement with charts is not independently annotated acoustic accuracy.
+41. **FFmpeg -t can leave a codec tail beyond the requested sample count.** At
+    120 s, two Numb Vorbis stems returned 352/448 extra samples for a 20 s request.
+    Decode a bounded tail guard and crop by exact sample count without shifting
+    the start; refuse stems that do not cover the interval. A regression verifies
+    exact cropping/start preservation, and the real rerun preserves scoring.

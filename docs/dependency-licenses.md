@@ -88,6 +88,9 @@ Mido 1.3.3 is an optional metadata/MIDI inspection tool under MIT, verified from
 installed package metadata; source: https://github.com/mido/mido/blob/main/LICENSE.
 It is invoked through `uv run --locked --with mido==1.3.3`, not embedded in the
 project wheel or the song ZIP. It has no weights. Preserve notices if redistributed.
+As of 2026-10-20, the raw-MIDI inspector also declares Mido 1.3.3 in the locked
+optional `diagnostics` extra and development group. It is loaded lazily and remains
+outside the core's mandatory runtime dependencies. No Mido code is copied or vendored.
 The existing FFmpeg build reports GPL terms via `ffmpeg -L`; it is invoked locally
 for probing/decoding, and its executable is not included in the song delivery.
 No upstream implementation was copied and no model was installed for the pilot.
