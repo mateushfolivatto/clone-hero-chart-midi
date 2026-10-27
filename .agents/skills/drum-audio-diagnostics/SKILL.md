@@ -132,6 +132,21 @@ alinhamento e mascaramento antes de atribuir uma causa. Os trechos de 115 não
 têm prato amarelo no chart: não use esse F1 como recall de chimbal. Preserve
 os casos ruins no relatório e não troque janelas depois de ver os resultados.
 
+O usuário lembra que, nas músicas de CoD/Avenged discutidas, o amarelo corresponde
+a chimbal, geralmente aberto. Use essa informação como hipótese principal para
+revisar esses pares, com origem explícita no relato do usuário; não a estenda a
+todo o catálogo nem atribua abertura a cada nota sem conferir o trecho. Preserve
+YELLOW_CYMBAL_PROXY nas métricas congeladas. Zero notas dessa classe em um recorte
+não comprova ausência de chimbal audível, como no caso a revisar de 115.
+
+Na revisão do chimbal aberto, examine ataque e cauda de energia no espectrograma
+e no envelope. A cauda pode sobrepor o ataque seguinte; sustentar energia não
+significa um novo golpe. Compare também chimbal fechado, ride/crash e ataques
+simultâneos de caixa/bumbo. Duração isolada não identifica o prato. O detector
+atual usa picos de fluxo por faixa, sem classificar aberto/fechado nem modelar
+explicitamente o decaimento. Esta é uma hipótese para o próximo experimento,
+não uma melhora já medida ou motivo para retocar o perfil congelado.
+
 O script `scripts/inspect_audio.py`, relativo a esta skill, usa FFmpeg local,
 NumPy e Matplotlib. Não importa PyTorch, não baixa pesos e não envia áudio.
 O uv pode instalar as dependências Python declaradas e travadas no lock do script.
