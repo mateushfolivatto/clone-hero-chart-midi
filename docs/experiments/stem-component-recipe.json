@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "title": "CoD, Avenged e Linkin Park — mix, bateria e componentes existentes",
+  "purpose": "Follow-up on previously evaluated songs with unchanged rules; not a new independent test set",
+  "frozen_profile_sha256": "57986ca5e92f8b258d30035dbae4c8a3807f59d945b87ee77ff25fa9873f8b0b",
+  "songs": [
+    {
+      "id": "cod-115",
+      "category": "Call of Duty: Black Ops Zombies",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Elena Siegman - 115 [6c3a879f]",
+      "assets_sha256": {
+        "guitar.ogg": "c2e6202edd301eea406a3f15f3a158e45896f80ca1f4979e2aeeda62c0b30f50",
+        "notes.chart": "41850efb36d6d935513544f65035d3070a5b835f354eaf7e7d2463f53ace536a",
+        "song.ini": "e1bbdb9f6d0a5d2fb0bd75a58e99e542d563229dd496dfc296162723ef329ecb"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "a7x-carry-on",
+      "category": "Avenged Sevenfold / Call of Duty: Black Ops II",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Avenged Sevenfold - Carry On [5ae67425]",
+      "assets_sha256": {
+        "guitar.ogg": "2595e67e94690924912ee97998f593b1089a90e76f1558e79573c818ca53c56f",
+        "notes.mid": "3e6a05b4e6e711cde1e79d08879a6d0ed4ca8fc47bc8caea9bbdc4b96c7b2f0d",
+        "song.ini": "1d3dd9ef357ec71d756ee8db78abd9019b92f3fa2d8f838226bff122916585be"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "a7x-not-ready-to-die",
+      "category": "Avenged Sevenfold / Call of Duty: Black Ops Zombies",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Not Ready To Die [59297cef]",
+      "assets_sha256": {
+        "notes.mid": "07db9862a1761b5ff5e5ec6d74496cf55645c34852ef681d1e09c27df6f76484",
+        "song.ini": "547229b47fc44b07e049a7a27c2be59bf7b4c765354eda0ba38150dd89d56c19",
+        "song.ogg": "70fe789933365d179b13ea8a4081658dc8dd39bb126df043445dfa4a17d4cc83"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "a7x-afterlife",
+      "category": "Avenged Sevenfold",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Avenged Sevenfold - Afterlife [3f02fba9]",
+      "assets_sha256": {
+        "drums_1.ogg": "f7ed052654d8e84cfede8c9de66f23a1ca9a024859c2c297f3fc4e31f69410fe",
+        "drums_2.ogg": "dc0e5895d297bad0e67a5712963f662defb92fffa899642c5f9419a02b311309",
+        "drums_3.ogg": "6c5786a9e17a863a1831d12ea85b396fa53bc2d8340a78611c3940bae526736c",
+        "guitar.ogg": "09f2715565346b7ef0e4cfea49693b95d4b04450e8f902340a293baecb09fa1c",
+        "notes.mid": "58635ebad94863a783f8dabab8fe5768c717d14fc75532751dacae7125cbfbee",
+        "rhythm.ogg": "c935df2beb82af4fb33fd357b31d91c98ba30bcc361a80b87159ac1395d77059",
+        "song.ini": "209086be43077af5ad02ae029b9801069cc5dce154d29f30688ab61efcc17f2d",
+        "song.ogg": "cb715d8bd262e61f1c104627154d3b14f68fd3e236ef8c0c87a78fef27cef46f",
+        "vocals.ogg": "e4d3a02a5b7c6e248aeb837023bd276e732b9465c9f8c7c84874951573a5bea3"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_semantics": "kick, snare, remaining kit from package; remaining kit is not isolated hi-hat"
+    },
+    {
+      "id": "a7x-brompton-cocktail",
+      "category": "Avenged Sevenfold",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Brompton Cocktail [59295b37]",
+      "assets_sha256": {
+        "drums.ogg": "cb2270bd08f194f12e8ceca2013f90a20aa5644d665bc62634105c38279252e7",
+        "guitar.ogg": "cb2270bd08f194f12e8ceca2013f90a20aa5644d665bc62634105c38279252e7",
+        "notes.mid": "75d1f59fd0270342170a12c231e023b8f522bee07805cb79f3298ce4a00e98b2",
+        "rhythm.ogg": "cb2270bd08f194f12e8ceca2013f90a20aa5644d665bc62634105c38279252e7",
+        "song.ini": "6a5318f3bed83228c2d85a2016efc2f6c9f8460ac93c472d0e047a154a1f12f1",
+        "song.ogg": "ffc8e27c1ca3cd63128e5e7060077645528c5d9671d36203287a9769bb5897c1",
+        "vocals.ogg": "cb2270bd08f194f12e8ceca2013f90a20aa5644d665bc62634105c38279252e7"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "lp-faint",
+      "category": "Linkin Park / user-reported hi-hat timekeeping",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Linkin Park - Faint [d9000b31]",
+      "assets_sha256": {
+        "notes.chart": "df7f7110db0ef634ff34f4ac31beddad8b2e93773505161ab3add7f053d7ed97",
+        "song.ini": "e5753c16ccd061d1a90f18dd977ae554ffabc8dfe294d6edf08475cc9b31c1d4",
+        "song.ogg": "d1ad5cf03cf1339020e521d8ced5b089d9ef62a0a8dc88ba1373998a968161b8"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ]
+    },
+    {
+      "id": "lp-crawling",
+      "category": "Linkin Park / user-reported hi-hat timekeeping",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - Crawling [b0175606]",
+      "assets_sha256": {
+        "drums_1.ogg": "ada52d256c31556dc537b72f3fa46a3727cca007d6fe8e98b3de2c6b58fcbba3",
+        "drums_2.ogg": "995663e86b86ab94a27f327ca632a6c3bb967ac843f933f008255b513132ce68",
+        "drums_3.ogg": "1a7b7918abe44bfdeb5753d44f286414a281474a0b40f76164dd89d46a767633",
+        "guitar.ogg": "22c1e9f1a4b7a0197963cc001cb39e3409941baf67048d116a9c2440bbf28222",
+        "keys.ogg": "eb51f1af0807b43bb2c023237e0737a341739d930c1164126ad52edac72314c1",
+        "notes.mid": "2518a58aeddb83200dd9194a1ca983865baad970b114b3511393e6e0326e610e",
+        "rhythm.ogg": "d865a7a03578368a9e019bd36599dba5ce246ffcb49ef5be9077363c58da13dc",
+        "song.ini": "28f9e7d59f41ceb7797f6fc304c631d3781bb05a10960acc8100bb752a4c9dc1",
+        "song.ogg": "b5cc57d09ad1e776d80aaa6b7602845097edf2be47b895d97f7ed91975720935",
+        "vocals.ogg": "64c208d459a3a364a9a5659647970edd3a87dc699031686a916cc25cc69e073d"
+      },
+      "excerpts": [
+        {
+          "start": 60,
+          "duration": 20
+        },
+        {
+          "start": 120,
+          "duration": 20
+        }
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "component_semantics": "kick, snare, remaining kit from package; remaining kit is not isolated hi-hat"
+    }
+  ]
+}

@@ -1,5 +1,15 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-27 — Explicit components and free public reference
+
+The follow-up audits actual stem samples, omits exactly silent drum/component
+excerpts and reports coverage by class. Seven existing songs are compared with
+unchanged rules; Afterlife/Crawling components improve snare/yellow agreement
+and worsen kick. A chart-free component-candidate command was exercised. Seven
+small author StemGMD/LarsNet demonstration MP3s were source/hash verified and
+compared; no local model inference or paid service was used. See
+[stem-component-study.md](stem-component-study.md) and canonical DCF-127.
+
 ## 2026-10-27 — Linkin Park timekeeping hi-hat
 
 Faint and Crawling were inspected using the frozen profile and 13 pinned files.

@@ -1,0 +1,3468 @@
+{
+  "schema_version": 2,
+  "method": "frozen_profile_external_song_evaluation",
+  "warning": "Refer\u00eancia fraca de chart, n\u00e3o anota\u00e7\u00e3o ac\u00fastica: prato amarelo pode ser chimbal, ride ou crash; pad vermelho \u00e9 apenas proxy de caixa. Charts podem omitir ou simplificar ataques. Perfis espectrais n\u00e3o s\u00e3o ADTOF nem confian\u00e7a calibrada; n\u00e3o h\u00e1 valida\u00e7\u00e3o no jogo.",
+  "profile_sha256": "57986ca5e92f8b258d30035dbae4c8a3807f59d945b87ee77ff25fa9873f8b0b",
+  "training_recipe_sha256": "34744e0bae72ed1913d03c16bfae8fd2d9277280409df166768461ee7d62d24c",
+  "evaluation_recipe_sha256": "84c8e9ece3a971c012b9ab828c47b83b4777642a071eb35e69388b2fbe52f6da",
+  "calibration_performed": false,
+  "offset_optimization_performed": false,
+  "tolerance_seconds": 0.03,
+  "edge_exclusion_seconds": 0.05,
+  "adtof_comparison_performed": false,
+  "versions": {
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "mido": "1.3.3"
+  },
+  "training_song_ids": [
+    "numb",
+    "all-apologies",
+    "come-together",
+    "number-of-the-beast",
+    "forsaken"
+  ],
+  "mode_coverage": {
+    "mix": [
+      "cod-115",
+      "a7x-carry-on",
+      "a7x-not-ready-to-die",
+      "a7x-afterlife",
+      "a7x-brompton-cocktail",
+      "lp-faint",
+      "lp-crawling"
+    ],
+    "drums": [
+      "a7x-afterlife",
+      "lp-crawling"
+    ],
+    "components": [
+      "a7x-afterlife",
+      "lp-crawling"
+    ]
+  },
+  "class_coverage": {
+    "mix": {
+      "KICK": {
+        "songs": [
+          "a7x-afterlife",
+          "a7x-brompton-cocktail",
+          "a7x-carry-on",
+          "a7x-not-ready-to-die",
+          "cod-115",
+          "lp-crawling",
+          "lp-faint"
+        ],
+        "excerpts": 14,
+        "duration_seconds": 280,
+        "reference_count": 754
+      },
+      "SNARE_PROXY": {
+        "songs": [
+          "a7x-afterlife",
+          "a7x-brompton-cocktail",
+          "a7x-carry-on",
+          "a7x-not-ready-to-die",
+          "cod-115",
+          "lp-crawling",
+          "lp-faint"
+        ],
+        "excerpts": 14,
+        "duration_seconds": 280,
+        "reference_count": 432
+      },
+      "YELLOW_CYMBAL_PROXY": {
+        "songs": [
+          "a7x-afterlife",
+          "a7x-brompton-cocktail",
+          "a7x-carry-on",
+          "a7x-not-ready-to-die",
+          "cod-115",
+          "lp-crawling",
+          "lp-faint"
+        ],
+        "excerpts": 14,
+        "duration_seconds": 280,
+        "reference_count": 479
+      }
+    },
+    "drums": {
+      "KICK": {
+        "songs": [
+          "a7x-afterlife",
+          "lp-crawling"
+        ],
+        "excerpts": 4,
+        "duration_seconds": 80,
+        "reference_count": 155
+      },
+      "SNARE_PROXY": {
+        "songs": [
+          "a7x-afterlife",
+          "lp-crawling"
+        ],
+        "excerpts": 4,
+        "duration_seconds": 80,
+        "reference_count": 119
+      },
+      "YELLOW_CYMBAL_PROXY": {
+        "songs": [
+          "a7x-afterlife",
+          "lp-crawling"
+        ],
+        "excerpts": 4,
+        "duration_seconds": 80,
+        "reference_count": 237
+      }
+    },
+    "components": {
+      "KICK": {
+        "songs": [
+          "a7x-afterlife",
+          "lp-crawling"
+        ],
+        "excerpts": 4,
+        "duration_seconds": 80,
+        "reference_count": 155
+      },
+      "SNARE_PROXY": {
+        "songs": [
+          "a7x-afterlife",
+          "lp-crawling"
+        ],
+        "excerpts": 4,
+        "duration_seconds": 80,
+        "reference_count": 119
+      },
+      "YELLOW_CYMBAL_PROXY": {
+        "songs": [
+          "a7x-afterlife",
+          "lp-crawling"
+        ],
+        "excerpts": 4,
+        "duration_seconds": 80,
+        "reference_count": 237
+      }
+    }
+  },
+  "component_policy": "explicit existing source per class; drums-profile rules unchanged",
+  "silence_policy": "omit exactly-zero drum/component excerpts; never gate quiet audio",
+  "aggregate": {
+    "mix": {
+      "KICK": {
+        "baseline": {
+          "tp": 511,
+          "fp": 1290,
+          "fn": 243,
+          "precision": 0.28373126041088287,
+          "recall": 0.6777188328912467,
+          "f1": 0.4
+        },
+        "frozen": {
+          "tp": 305,
+          "fp": 245,
+          "fn": 449,
+          "precision": 0.5545454545454546,
+          "recall": 0.40450928381962864,
+          "f1": 0.4677914110429448
+        }
+      },
+      "SNARE_PROXY": {
+        "baseline": {
+          "tp": 303,
+          "fp": 840,
+          "fn": 129,
+          "precision": 0.2650918635170604,
+          "recall": 0.7013888888888888,
+          "f1": 0.38476190476190475
+        },
+        "frozen": {
+          "tp": 194,
+          "fp": 180,
+          "fn": 238,
+          "precision": 0.5187165775401069,
+          "recall": 0.44907407407407407,
+          "f1": 0.4813895781637717
+        }
+      },
+      "YELLOW_CYMBAL_PROXY": {
+        "baseline": {
+          "tp": 353,
+          "fp": 963,
+          "fn": 126,
+          "precision": 0.2682370820668693,
+          "recall": 0.7369519832985386,
+          "f1": 0.3933147632311978
+        },
+        "frozen": {
+          "tp": 278,
+          "fp": 618,
+          "fn": 201,
+          "precision": 0.31026785714285715,
+          "recall": 0.5803757828810021,
+          "f1": 0.40436363636363637
+        }
+      }
+    },
+    "drums": {
+      "KICK": {
+        "baseline": {
+          "tp": 122,
+          "fp": 349,
+          "fn": 33,
+          "precision": 0.25902335456475584,
+          "recall": 0.7870967741935484,
+          "f1": 0.38977635782747605
+        },
+        "frozen": {
+          "tp": 119,
+          "fp": 86,
+          "fn": 36,
+          "precision": 0.5804878048780487,
+          "recall": 0.7677419354838709,
+          "f1": 0.6611111111111111
+        }
+      },
+      "SNARE_PROXY": {
+        "baseline": {
+          "tp": 112,
+          "fp": 356,
+          "fn": 7,
+          "precision": 0.23931623931623933,
+          "recall": 0.9411764705882353,
+          "f1": 0.38160136286201024
+        },
+        "frozen": {
+          "tp": 109,
+          "fp": 224,
+          "fn": 10,
+          "precision": 0.32732732732732733,
+          "recall": 0.9159663865546218,
+          "f1": 0.4823008849557522
+        }
+      },
+      "YELLOW_CYMBAL_PROXY": {
+        "baseline": {
+          "tp": 208,
+          "fp": 242,
+          "fn": 29,
+          "precision": 0.4622222222222222,
+          "recall": 0.8776371308016878,
+          "f1": 0.6055312954876274
+        },
+        "frozen": {
+          "tp": 188,
+          "fp": 123,
+          "fn": 49,
+          "precision": 0.6045016077170418,
+          "recall": 0.7932489451476793,
+          "f1": 0.6861313868613139
+        }
+      }
+    },
+    "components": {
+      "KICK": {
+        "baseline": {
+          "tp": 135,
+          "fp": 342,
+          "fn": 20,
+          "precision": 0.2830188679245283,
+          "recall": 0.8709677419354839,
+          "f1": 0.4272151898734177
+        },
+        "frozen": {
+          "tp": 119,
+          "fp": 116,
+          "fn": 36,
+          "precision": 0.5063829787234042,
+          "recall": 0.7677419354838709,
+          "f1": 0.6102564102564103
+        }
+      },
+      "SNARE_PROXY": {
+        "baseline": {
+          "tp": 116,
+          "fp": 220,
+          "fn": 3,
+          "precision": 0.34523809523809523,
+          "recall": 0.9747899159663865,
+          "f1": 0.5098901098901099
+        },
+        "frozen": {
+          "tp": 110,
+          "fp": 60,
+          "fn": 9,
+          "precision": 0.6470588235294118,
+          "recall": 0.9243697478991597,
+          "f1": 0.7612456747404844
+        }
+      },
+      "YELLOW_CYMBAL_PROXY": {
+        "baseline": {
+          "tp": 212,
+          "fp": 154,
+          "fn": 25,
+          "precision": 0.5792349726775956,
+          "recall": 0.8945147679324894,
+          "f1": 0.703150912106136
+        },
+        "frozen": {
+          "tp": 196,
+          "fp": 72,
+          "fn": 41,
+          "precision": 0.7313432835820896,
+          "recall": 0.8270042194092827,
+          "f1": 0.7762376237623763
+        }
+      }
+    }
+  },
+  "songs": [
+    {
+      "song_id": "cod-115",
+      "artist": "Elena Siegman",
+      "title": "115",
+      "charter": "metalli3212",
+      "ini_delay_seconds": 0.0,
+      "chart_offset_seconds": 0.0,
+      "chart_format": "chart",
+      "note_semantics": "stored Expert lanes 96-100; groups resolve Pro tom/disco markers",
+      "velocity_semantics": "stored MIDI velocity or null for .chart; not acoustic dynamics",
+      "reference_kind": "chart lane/tom-marker proxy, not manually verified acoustic labels",
+      "reference_semantics_version": 2,
+      "expert_disco_flip_starts": 0,
+      "expert_disco_reclassified_notes": 0,
+      "audio_files": [
+        "guitar.ogg"
+      ],
+      "component_sources": {},
+      "audio_policy": "single stream as delivered, used as mix",
+      "modes": {
+        "mix": {
+          "KICK": {
+            "baseline": {
+              "tp": 151,
+              "fp": 133,
+              "fn": 23,
+              "precision": 0.5316901408450704,
+              "recall": 0.867816091954023,
+              "f1": 0.6593886462882096
+            },
+            "frozen": {
+              "tp": 107,
+              "fp": 12,
+              "fn": 67,
+              "precision": 0.8991596638655462,
+              "recall": 0.6149425287356322,
+              "f1": 0.7303754266211604
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 39,
+              "fp": 120,
+              "fn": 5,
+              "precision": 0.24528301886792453,
+              "recall": 0.8863636363636364,
+              "f1": 0.3842364532019704
+            },
+            "frozen": {
+              "tp": 19,
+              "fp": 9,
+              "fn": 25,
+              "precision": 0.6785714285714286,
+              "recall": 0.4318181818181818,
+              "f1": 0.5277777777777778
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 0,
+              "fp": 198,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            },
+            "frozen": {
+              "tp": 0,
+              "fp": 120,
+              "fn": 0,
+              "precision": 0.0,
+              "recall": null,
+              "f1": 0.0
+            }
+          }
+        }
+      },
+      "excerpt_metrics": {
+        "mix": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 75,
+                "fp": 64,
+                "fn": 12,
+                "precision": 0.539568345323741,
+                "recall": 0.8620689655172413,
+                "f1": 0.6637168141592921,
+                "mean_absolute_error_ms": 8.384912712437256,
+                "median_signed_error_ms": -8.009925468016377
+              },
+              {
+                "tp": 76,
+                "fp": 69,
+                "fn": 11,
+                "precision": 0.5241379310344828,
+                "recall": 0.8735632183908046,
+                "f1": 0.6551724137931034,
+                "mean_absolute_error_ms": 8.68328131548592,
+                "median_signed_error_ms": -7.596093268453785
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 51,
+                "fp": 8,
+                "fn": 36,
+                "precision": 0.864406779661017,
+                "recall": 0.5862068965517241,
+                "f1": 0.6986301369863014,
+                "mean_absolute_error_ms": 8.886075549131581,
+                "median_signed_error_ms": -9.143712316088681
+              },
+              {
+                "tp": 56,
+                "fp": 4,
+                "fn": 31,
+                "precision": 0.9333333333333333,
+                "recall": 0.6436781609195402,
+                "f1": 0.7619047619047619,
+                "mean_absolute_error_ms": 8.902590099425415,
+                "median_signed_error_ms": -9.030333631287135
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 21,
+                "fp": 61,
+                "fn": 1,
+                "precision": 0.25609756097560976,
+                "recall": 0.9545454545454546,
+                "f1": 0.40384615384615385,
+                "mean_absolute_error_ms": 9.935203515740097,
+                "median_signed_error_ms": -9.710605740117728
+              },
+              {
+                "tp": 18,
+                "fp": 59,
+                "fn": 4,
+                "precision": 0.23376623376623376,
+                "recall": 0.8181818181818182,
+                "f1": 0.36363636363636365,
+                "mean_absolute_error_ms": 10.729754140224971,
+                "median_signed_error_ms": -11.17319077414436
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 11,
+                "fp": 5,
+                "fn": 11,
+                "precision": 0.6875,
+                "recall": 0.5,
+                "f1": 0.5789473684210527,
+                "mean_absolute_error_ms": 11.116501431733251,
+                "median_signed_error_ms": -10.640310955544408
+              },
+              {
+                "tp": 8,
+                "fp": 4,
+                "fn": 14,
+                "precision": 0.6666666666666666,
+                "recall": 0.36363636363636365,
+                "f1": 0.47058823529411764,
+                "mean_absolute_error_ms": 11.181694175496304,
+                "median_signed_error_ms": -11.17319077414436
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 0,
+                "fp": 99,
+                "fn": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              },
+              {
+                "tp": 0,
+                "fp": 99,
+                "fn": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 0,
+                "fp": 62,
+                "fn": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              },
+              {
+                "tp": 0,
+                "fp": 58,
+                "fn": 0,
+                "precision": 0.0,
+                "recall": null,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "song_id": "a7x-carry-on",
+      "artist": "Avenged Sevenfold",
+      "title": "Carry On",
+      "charter": "bernie, sodamlazy, beard216, BassSinger313",
+      "ini_delay_seconds": 0.0,
+      "chart_offset_seconds": 0.0,
+      "chart_format": "mid",
+      "note_semantics": "stored Expert lanes 96-100; groups resolve Pro tom/disco markers",
+      "velocity_semantics": "stored MIDI velocity or null for .chart; not acoustic dynamics",
+      "reference_kind": "chart lane/tom-marker proxy, not manually verified acoustic labels",
+      "reference_semantics_version": 2,
+      "expert_disco_flip_starts": 0,
+      "expert_disco_reclassified_notes": 0,
+      "audio_files": [
+        "guitar.ogg"
+      ],
+      "component_sources": {},
+      "audio_policy": "single stream as delivered, used as mix",
+      "modes": {
+        "mix": {
+          "KICK": {
+            "baseline": {
+              "tp": 22,
+              "fp": 253,
+              "fn": 109,
+              "precision": 0.08,
+              "recall": 0.16793893129770993,
+              "f1": 0.10837438423645321
+            },
+            "frozen": {
+              "tp": 1,
+              "fp": 80,
+              "fn": 130,
+              "precision": 0.012345679012345678,
+              "recall": 0.007633587786259542,
+              "f1": 0.009433962264150943
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 10,
+              "fp": 134,
+              "fn": 72,
+              "precision": 0.06944444444444445,
+              "recall": 0.12195121951219512,
+              "f1": 0.08849557522123894
+            },
+            "frozen": {
+              "tp": 0,
+              "fp": 11,
+              "fn": 82,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 0,
+              "fp": 169,
+              "fn": 2,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            },
+            "frozen": {
+              "tp": 0,
+              "fp": 120,
+              "fn": 2,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0
+            }
+          }
+        }
+      },
+      "excerpt_metrics": {
+        "mix": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 10,
+                "fp": 134,
+                "fn": 54,
+                "precision": 0.06944444444444445,
+                "recall": 0.15625,
+                "f1": 0.09615384615384616,
+                "mean_absolute_error_ms": 12.024359183862998,
+                "median_signed_error_ms": 6.325281179961451
+              },
+              {
+                "tp": 12,
+                "fp": 119,
+                "fn": 55,
+                "precision": 0.0916030534351145,
+                "recall": 0.1791044776119403,
+                "f1": 0.12121212121212122,
+                "mean_absolute_error_ms": 16.19169274432745,
+                "median_signed_error_ms": 10.832281180427117
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 1,
+                "fp": 41,
+                "fn": 63,
+                "precision": 0.023809523809523808,
+                "recall": 0.015625,
+                "f1": 0.018867924528301886,
+                "mean_absolute_error_ms": 7.085866212150904,
+                "median_signed_error_ms": -7.085866212150904
+              },
+              {
+                "tp": 0,
+                "fp": 39,
+                "fn": 67,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 6,
+                "fp": 70,
+                "fn": 35,
+                "precision": 0.07894736842105263,
+                "recall": 0.14634146341463414,
+                "f1": 0.10256410256410256,
+                "mean_absolute_error_ms": 13.581442176572978,
+                "median_signed_error_ms": -8.816888887999141
+              },
+              {
+                "tp": 4,
+                "fp": 64,
+                "fn": 37,
+                "precision": 0.058823529411764705,
+                "recall": 0.0975609756097561,
+                "f1": 0.07339449541284404,
+                "mean_absolute_error_ms": 19.699910431462797,
+                "median_signed_error_ms": 16.091941044429348
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 0,
+                "fp": 3,
+                "fn": 41,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              },
+              {
+                "tp": 0,
+                "fp": 8,
+                "fn": 41,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 0,
+                "fp": 79,
+                "fn": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              },
+              {
+                "tp": 0,
+                "fp": 90,
+                "fn": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 0,
+                "fp": 55,
+                "fn": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              },
+              {
+                "tp": 0,
+                "fp": 65,
+                "fn": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "song_id": "a7x-not-ready-to-die",
+      "artist": "Avenged Sevenfold",
+      "title": "Not Ready To Die",
+      "charter": "furiouss",
+      "ini_delay_seconds": 0.0,
+      "chart_offset_seconds": 0.0,
+      "chart_format": "mid",
+      "note_semantics": "stored Expert lanes 96-100; groups resolve Pro tom/disco markers",
+      "velocity_semantics": "stored MIDI velocity or null for .chart; not acoustic dynamics",
+      "reference_kind": "chart lane/tom-marker proxy, not manually verified acoustic labels",
+      "reference_semantics_version": 2,
+      "expert_disco_flip_starts": 0,
+      "expert_disco_reclassified_notes": 0,
+      "audio_files": [
+        "song.ogg"
+      ],
+      "component_sources": {},
+      "audio_policy": "single stream as delivered, used as mix",
+      "modes": {
+        "mix": {
+          "KICK": {
+            "baseline": {
+              "tp": 103,
+              "fp": 155,
+              "fn": 12,
+              "precision": 0.3992248062015504,
+              "recall": 0.8956521739130435,
+              "f1": 0.5522788203753352
+            },
+            "frozen": {
+              "tp": 47,
+              "fp": 16,
+              "fn": 68,
+              "precision": 0.746031746031746,
+              "recall": 0.40869565217391307,
+              "f1": 0.5280898876404494
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 61,
+              "fp": 108,
+              "fn": 0,
+              "precision": 0.3609467455621302,
+              "recall": 1.0,
+              "f1": 0.5304347826086957
+            },
+            "frozen": {
+              "tp": 47,
+              "fp": 12,
+              "fn": 14,
+              "precision": 0.7966101694915254,
+              "recall": 0.7704918032786885,
+              "f1": 0.7833333333333333
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 80,
+              "fp": 94,
+              "fn": 7,
+              "precision": 0.45977011494252873,
+              "recall": 0.9195402298850575,
+              "f1": 0.6130268199233716
+            },
+            "frozen": {
+              "tp": 80,
+              "fp": 43,
+              "fn": 7,
+              "precision": 0.6504065040650406,
+              "recall": 0.9195402298850575,
+              "f1": 0.7619047619047619
+            }
+          }
+        }
+      },
+      "excerpt_metrics": {
+        "mix": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 45,
+                "fp": 75,
+                "fn": 9,
+                "precision": 0.375,
+                "recall": 0.8333333333333334,
+                "f1": 0.5172413793103449,
+                "mean_absolute_error_ms": 13.310799470881799,
+                "median_signed_error_ms": 12.638823129236698
+              },
+              {
+                "tp": 58,
+                "fp": 80,
+                "fn": 3,
+                "precision": 0.42028985507246375,
+                "recall": 0.9508196721311475,
+                "f1": 0.5829145728643216,
+                "mean_absolute_error_ms": 10.490493226583908,
+                "median_signed_error_ms": 9.031077947831534
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 13,
+                "fp": 5,
+                "fn": 41,
+                "precision": 0.7222222222222222,
+                "recall": 0.24074074074074073,
+                "f1": 0.3611111111111111,
+                "mean_absolute_error_ms": 12.294418236508546,
+                "median_signed_error_ms": 9.158097505647333
+              },
+              {
+                "tp": 34,
+                "fp": 11,
+                "fn": 27,
+                "precision": 0.7555555555555555,
+                "recall": 0.5573770491803278,
+                "f1": 0.6415094339622641,
+                "mean_absolute_error_ms": 9.263612328248298,
+                "median_signed_error_ms": 8.921065192723177
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 31,
+                "fp": 55,
+                "fn": 0,
+                "precision": 0.36046511627906974,
+                "recall": 1.0,
+                "f1": 0.5299145299145299,
+                "mean_absolute_error_ms": 5.893272712295439,
+                "median_signed_error_ms": 5.609344671185568
+              },
+              {
+                "tp": 30,
+                "fp": 53,
+                "fn": 0,
+                "precision": 0.3614457831325301,
+                "recall": 1.0,
+                "f1": 0.5309734513274337,
+                "mean_absolute_error_ms": 5.889992346921721,
+                "median_signed_error_ms": 5.666034013586341
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 24,
+                "fp": 7,
+                "fn": 7,
+                "precision": 0.7741935483870968,
+                "recall": 0.7741935483870968,
+                "f1": 0.7741935483870968,
+                "mean_absolute_error_ms": 4.981890235245127,
+                "median_signed_error_ms": 4.509571428549464
+              },
+              {
+                "tp": 23,
+                "fp": 5,
+                "fn": 7,
+                "precision": 0.8214285714285714,
+                "recall": 0.7666666666666667,
+                "f1": 0.7931034482758621,
+                "mean_absolute_error_ms": 6.065817115235152,
+                "median_signed_error_ms": 5.700047619029647
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 43,
+                "fp": 39,
+                "fn": 0,
+                "precision": 0.524390243902439,
+                "recall": 1.0,
+                "f1": 0.688,
+                "mean_absolute_error_ms": 6.445973896516535,
+                "median_signed_error_ms": 6.777145124701178
+              },
+              {
+                "tp": 37,
+                "fp": 55,
+                "fn": 7,
+                "precision": 0.40217391304347827,
+                "recall": 0.8409090909090909,
+                "f1": 0.5441176470588235,
+                "mean_absolute_error_ms": 5.607812526795206,
+                "median_signed_error_ms": 5.654696145114713
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 43,
+                "fp": 18,
+                "fn": 0,
+                "precision": 0.7049180327868853,
+                "recall": 1.0,
+                "f1": 0.8269230769230769,
+                "mean_absolute_error_ms": 6.445973896516535,
+                "median_signed_error_ms": 6.777145124701178
+              },
+              {
+                "tp": 37,
+                "fp": 25,
+                "fn": 7,
+                "precision": 0.5967741935483871,
+                "recall": 0.8409090909090909,
+                "f1": 0.6981132075471698,
+                "mean_absolute_error_ms": 5.607812526795206,
+                "median_signed_error_ms": 5.654696145114713
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "song_id": "a7x-afterlife",
+      "artist": "Avenged Sevenfold",
+      "title": "Afterlife",
+      "charter": "Harmonix",
+      "ini_delay_seconds": 0.0,
+      "chart_offset_seconds": 0.0,
+      "chart_format": "mid",
+      "note_semantics": "stored Expert lanes 96-100; groups resolve Pro tom/disco markers",
+      "velocity_semantics": "stored MIDI velocity or null for .chart; not acoustic dynamics",
+      "reference_kind": "chart lane/tom-marker proxy, not manually verified acoustic labels",
+      "reference_semantics_version": 2,
+      "expert_disco_flip_starts": 0,
+      "expert_disco_reclassified_notes": 0,
+      "audio_files": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "audio_policy": "technical equal-gain stem sum",
+      "modes": {
+        "mix": {
+          "KICK": {
+            "baseline": {
+              "tp": 88,
+              "fp": 192,
+              "fn": 28,
+              "precision": 0.3142857142857143,
+              "recall": 0.7586206896551724,
+              "f1": 0.4444444444444444
+            },
+            "frozen": {
+              "tp": 46,
+              "fp": 37,
+              "fn": 70,
+              "precision": 0.5542168674698795,
+              "recall": 0.39655172413793105,
+              "f1": 0.4623115577889447
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 81,
+              "fp": 99,
+              "fn": 10,
+              "precision": 0.45,
+              "recall": 0.8901098901098901,
+              "f1": 0.5977859778597786
+            },
+            "frozen": {
+              "tp": 53,
+              "fp": 15,
+              "fn": 38,
+              "precision": 0.7794117647058824,
+              "recall": 0.5824175824175825,
+              "f1": 0.6666666666666666
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 18,
+              "fp": 172,
+              "fn": 7,
+              "precision": 0.09473684210526316,
+              "recall": 0.72,
+              "f1": 0.16744186046511628
+            },
+            "frozen": {
+              "tp": 15,
+              "fp": 108,
+              "fn": 10,
+              "precision": 0.12195121951219512,
+              "recall": 0.6,
+              "f1": 0.20270270270270271
+            }
+          }
+        },
+        "drums": {
+          "KICK": {
+            "baseline": {
+              "tp": 83,
+              "fp": 176,
+              "fn": 33,
+              "precision": 0.3204633204633205,
+              "recall": 0.7155172413793104,
+              "f1": 0.44266666666666665
+            },
+            "frozen": {
+              "tp": 81,
+              "fp": 67,
+              "fn": 35,
+              "precision": 0.5472972972972973,
+              "recall": 0.6982758620689655,
+              "f1": 0.6136363636363636
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 84,
+              "fp": 158,
+              "fn": 7,
+              "precision": 0.34710743801652894,
+              "recall": 0.9230769230769231,
+              "f1": 0.5045045045045045
+            },
+            "frozen": {
+              "tp": 81,
+              "fp": 125,
+              "fn": 10,
+              "precision": 0.3932038834951456,
+              "recall": 0.8901098901098901,
+              "f1": 0.5454545454545454
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 23,
+              "fp": 202,
+              "fn": 2,
+              "precision": 0.10222222222222223,
+              "recall": 0.92,
+              "f1": 0.184
+            },
+            "frozen": {
+              "tp": 15,
+              "fp": 88,
+              "fn": 10,
+              "precision": 0.14563106796116504,
+              "recall": 0.6,
+              "f1": 0.234375
+            }
+          }
+        },
+        "components": {
+          "KICK": {
+            "baseline": {
+              "tp": 96,
+              "fp": 194,
+              "fn": 20,
+              "precision": 0.3310344827586207,
+              "recall": 0.8275862068965517,
+              "f1": 0.4729064039408867
+            },
+            "frozen": {
+              "tp": 80,
+              "fp": 84,
+              "fn": 36,
+              "precision": 0.4878048780487805,
+              "recall": 0.6896551724137931,
+              "f1": 0.5714285714285714
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 88,
+              "fp": 123,
+              "fn": 3,
+              "precision": 0.41706161137440756,
+              "recall": 0.967032967032967,
+              "f1": 0.5827814569536424
+            },
+            "frozen": {
+              "tp": 82,
+              "fp": 30,
+              "fn": 9,
+              "precision": 0.7321428571428571,
+              "recall": 0.9010989010989011,
+              "f1": 0.8078817733990148
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 24,
+              "fp": 118,
+              "fn": 1,
+              "precision": 0.16901408450704225,
+              "recall": 0.96,
+              "f1": 0.2874251497005988
+            },
+            "frozen": {
+              "tp": 20,
+              "fp": 39,
+              "fn": 5,
+              "precision": 0.3389830508474576,
+              "recall": 0.8,
+              "f1": 0.47619047619047616
+            }
+          }
+        }
+      },
+      "excerpt_metrics": {
+        "mix": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 44,
+                "fp": 100,
+                "fn": 12,
+                "precision": 0.3055555555555556,
+                "recall": 0.7857142857142857,
+                "f1": 0.44,
+                "mean_absolute_error_ms": 17.109900664875774,
+                "median_signed_error_ms": -15.263051020649954
+              },
+              {
+                "tp": 44,
+                "fp": 92,
+                "fn": 16,
+                "precision": 0.3235294117647059,
+                "recall": 0.7333333333333333,
+                "f1": 0.4489795918367347,
+                "mean_absolute_error_ms": 14.897317278311238,
+                "median_signed_error_ms": -15.525452378497562
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 26,
+                "fp": 21,
+                "fn": 30,
+                "precision": 0.5531914893617021,
+                "recall": 0.4642857142857143,
+                "f1": 0.5048543689320388,
+                "mean_absolute_error_ms": 18.739173513023772,
+                "median_signed_error_ms": -19.10632369628118
+              },
+              {
+                "tp": 20,
+                "fp": 16,
+                "fn": 40,
+                "precision": 0.5555555555555556,
+                "recall": 0.3333333333333333,
+                "f1": 0.4166666666666667,
+                "mean_absolute_error_ms": 15.225525678692975,
+                "median_signed_error_ms": -15.98262868220246
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 45,
+                "fp": 47,
+                "fn": 6,
+                "precision": 0.4891304347826087,
+                "recall": 0.8823529411764706,
+                "f1": 0.6293706293706294,
+                "mean_absolute_error_ms": 11.15072418713873,
+                "median_signed_error_ms": -10.04913151949438
+              },
+              {
+                "tp": 36,
+                "fp": 52,
+                "fn": 4,
+                "precision": 0.4090909090909091,
+                "recall": 0.9,
+                "f1": 0.5625,
+                "mean_absolute_error_ms": 12.198627045242697,
+                "median_signed_error_ms": -9.936280043064016
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 30,
+                "fp": 7,
+                "fn": 21,
+                "precision": 0.8108108108108109,
+                "recall": 0.5882352941176471,
+                "f1": 0.6818181818181818,
+                "mean_absolute_error_ms": 11.148748488057691,
+                "median_signed_error_ms": -9.941664399317318
+              },
+              {
+                "tp": 23,
+                "fp": 8,
+                "fn": 17,
+                "precision": 0.7419354838709677,
+                "recall": 0.575,
+                "f1": 0.647887323943662,
+                "mean_absolute_error_ms": 10.12739958400929,
+                "median_signed_error_ms": -8.269657593714896
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 7,
+                "fp": 83,
+                "fn": 2,
+                "precision": 0.07777777777777778,
+                "recall": 0.7777777777777778,
+                "f1": 0.1414141414141414,
+                "mean_absolute_error_ms": 8.683498866204786,
+                "median_signed_error_ms": -8.276806122040625
+              },
+              {
+                "tp": 11,
+                "fp": 89,
+                "fn": 5,
+                "precision": 0.11,
+                "recall": 0.6875,
+                "f1": 0.1896551724137931,
+                "mean_absolute_error_ms": 11.652716757361437,
+                "median_signed_error_ms": -8.806993194696133
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 5,
+                "fp": 54,
+                "fn": 4,
+                "precision": 0.0847457627118644,
+                "recall": 0.5555555555555556,
+                "f1": 0.14705882352941177,
+                "mean_absolute_error_ms": 8.759878911551766,
+                "median_signed_error_ms": -8.276806122040625
+              },
+              {
+                "tp": 10,
+                "fp": 54,
+                "fn": 6,
+                "precision": 0.15625,
+                "recall": 0.625,
+                "f1": 0.25,
+                "mean_absolute_error_ms": 10.95898548552583,
+                "median_signed_error_ms": -8.753259634595167
+              }
+            ]
+          }
+        },
+        "drums": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 39,
+                "fp": 94,
+                "fn": 17,
+                "precision": 0.2932330827067669,
+                "recall": 0.6964285714285714,
+                "f1": 0.4126984126984127,
+                "mean_absolute_error_ms": 19.720985725840208,
+                "median_signed_error_ms": -21.121773242867903
+              },
+              {
+                "tp": 44,
+                "fp": 82,
+                "fn": 16,
+                "precision": 0.3492063492063492,
+                "recall": 0.7333333333333333,
+                "f1": 0.4731182795698925,
+                "mean_absolute_error_ms": 19.560921405755817,
+                "median_signed_error_ms": -22.755703512160608
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 37,
+                "fp": 36,
+                "fn": 19,
+                "precision": 0.5068493150684932,
+                "recall": 0.6607142857142857,
+                "f1": 0.5736434108527132,
+                "mean_absolute_error_ms": 20.39621223251865,
+                "median_signed_error_ms": -21.875807255611335
+              },
+              {
+                "tp": 44,
+                "fp": 31,
+                "fn": 16,
+                "precision": 0.5866666666666667,
+                "recall": 0.7333333333333333,
+                "f1": 0.6518518518518519,
+                "mean_absolute_error_ms": 19.428989845252755,
+                "median_signed_error_ms": -22.137326527840173
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 46,
+                "fp": 77,
+                "fn": 5,
+                "precision": 0.37398373983739835,
+                "recall": 0.9019607843137255,
+                "f1": 0.5287356321839081,
+                "mean_absolute_error_ms": 13.664666937475792,
+                "median_signed_error_ms": -14.726597505362093
+              },
+              {
+                "tp": 38,
+                "fp": 81,
+                "fn": 2,
+                "precision": 0.31932773109243695,
+                "recall": 0.95,
+                "f1": 0.4779874213836478,
+                "mean_absolute_error_ms": 14.731369642333902,
+                "median_signed_error_ms": -14.504514736636054
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 46,
+                "fp": 59,
+                "fn": 5,
+                "precision": 0.4380952380952381,
+                "recall": 0.9019607843137255,
+                "f1": 0.5897435897435898,
+                "mean_absolute_error_ms": 13.664666937475792,
+                "median_signed_error_ms": -14.726597505362093
+              },
+              {
+                "tp": 35,
+                "fp": 66,
+                "fn": 5,
+                "precision": 0.3465346534653465,
+                "recall": 0.875,
+                "f1": 0.49645390070921985,
+                "mean_absolute_error_ms": 14.618227824228468,
+                "median_signed_error_ms": -14.719448977032812
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 8,
+                "fp": 103,
+                "fn": 1,
+                "precision": 0.07207207207207207,
+                "recall": 0.8888888888888888,
+                "f1": 0.13333333333333333,
+                "mean_absolute_error_ms": 10.224849773267763,
+                "median_signed_error_ms": -8.625633219878637
+              },
+              {
+                "tp": 15,
+                "fp": 99,
+                "fn": 1,
+                "precision": 0.13157894736842105,
+                "recall": 0.9375,
+                "f1": 0.23076923076923078,
+                "mean_absolute_error_ms": 12.176768554067507,
+                "median_signed_error_ms": -8.914460314898065
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 7,
+                "fp": 41,
+                "fn": 2,
+                "precision": 0.14583333333333334,
+                "recall": 0.7777777777777778,
+                "f1": 0.24561403508771928,
+                "mean_absolute_error_ms": 10.066689018313266,
+                "median_signed_error_ms": -2.4718174599058784
+              },
+              {
+                "tp": 8,
+                "fp": 47,
+                "fn": 8,
+                "precision": 0.14545454545454545,
+                "recall": 0.5,
+                "f1": 0.22535211267605634,
+                "mean_absolute_error_ms": 5.477060655699972,
+                "median_signed_error_ms": -4.212332764012672
+              }
+            ]
+          }
+        },
+        "components": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 43,
+                "fp": 101,
+                "fn": 13,
+                "precision": 0.2986111111111111,
+                "recall": 0.7678571428571429,
+                "f1": 0.43,
+                "mean_absolute_error_ms": 18.257981068416694,
+                "median_signed_error_ms": -19.832167800615252
+              },
+              {
+                "tp": 53,
+                "fp": 93,
+                "fn": 7,
+                "precision": 0.363013698630137,
+                "recall": 0.8833333333333333,
+                "f1": 0.5145631067961165,
+                "mean_absolute_error_ms": 17.991608841997675,
+                "median_signed_error_ms": -18.537178002361543
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 36,
+                "fp": 44,
+                "fn": 20,
+                "precision": 0.45,
+                "recall": 0.6428571428571429,
+                "f1": 0.5294117647058824,
+                "mean_absolute_error_ms": 20.500008786784818,
+                "median_signed_error_ms": -21.82207369551037
+              },
+              {
+                "tp": 44,
+                "fp": 40,
+                "fn": 16,
+                "precision": 0.5238095238095238,
+                "recall": 0.7333333333333333,
+                "f1": 0.6111111111111112,
+                "mean_absolute_error_ms": 19.585988917815456,
+                "median_signed_error_ms": -22.755703512160608
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 49,
+                "fp": 54,
+                "fn": 2,
+                "precision": 0.47572815533980584,
+                "recall": 0.9607843137254902,
+                "f1": 0.6363636363636364,
+                "mean_absolute_error_ms": 14.855188069512076,
+                "median_signed_error_ms": -14.996147391485692
+              },
+              {
+                "tp": 39,
+                "fp": 69,
+                "fn": 1,
+                "precision": 0.3611111111111111,
+                "recall": 0.975,
+                "f1": 0.527027027027027,
+                "mean_absolute_error_ms": 15.478411678992861,
+                "median_signed_error_ms": -14.719448977032812
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 46,
+                "fp": 14,
+                "fn": 5,
+                "precision": 0.7666666666666667,
+                "recall": 0.9019607843137255,
+                "f1": 0.8288288288288288,
+                "mean_absolute_error_ms": 14.780583505575237,
+                "median_signed_error_ms": -14.887798185664991
+              },
+              {
+                "tp": 36,
+                "fp": 16,
+                "fn": 4,
+                "precision": 0.6923076923076923,
+                "recall": 0.9,
+                "f1": 0.782608695652174,
+                "mean_absolute_error_ms": 15.509798435861988,
+                "median_signed_error_ms": -14.935265303812173
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 9,
+                "fp": 58,
+                "fn": 0,
+                "precision": 0.13432835820895522,
+                "recall": 1.0,
+                "f1": 0.23684210526315788,
+                "mean_absolute_error_ms": 10.564120937259089,
+                "median_signed_error_ms": -8.276806122040625
+              },
+              {
+                "tp": 15,
+                "fp": 60,
+                "fn": 1,
+                "precision": 0.2,
+                "recall": 0.9375,
+                "f1": 0.32967032967032966,
+                "mean_absolute_error_ms": 7.919776868504869,
+                "median_signed_error_ms": -7.517387752315585
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 9,
+                "fp": 17,
+                "fn": 0,
+                "precision": 0.34615384615384615,
+                "recall": 1.0,
+                "f1": 0.5142857142857142,
+                "mean_absolute_error_ms": 9.752702443823265,
+                "median_signed_error_ms": -2.4718174599058784
+              },
+              {
+                "tp": 11,
+                "fp": 22,
+                "fn": 5,
+                "precision": 0.3333333333333333,
+                "recall": 0.6875,
+                "f1": 0.4489795918367347,
+                "mean_absolute_error_ms": 6.456505667814708,
+                "median_signed_error_ms": -3.431873013383324
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "song_id": "a7x-brompton-cocktail",
+      "artist": "Avenged Sevenfold",
+      "title": "Brompton Cocktail",
+      "charter": "xlxAvaricexlx",
+      "ini_delay_seconds": 0.0,
+      "chart_offset_seconds": 0.0,
+      "chart_format": "mid",
+      "note_semantics": "stored Expert lanes 96-100; groups resolve Pro tom/disco markers",
+      "velocity_semantics": "stored MIDI velocity or null for .chart; not acoustic dynamics",
+      "reference_kind": "chart lane/tom-marker proxy, not manually verified acoustic labels",
+      "reference_semantics_version": 2,
+      "expert_disco_flip_starts": 0,
+      "expert_disco_reclassified_notes": 0,
+      "audio_files": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "component_sources": {},
+      "audio_policy": "technical equal-gain stem sum",
+      "modes": {
+        "mix": {
+          "KICK": {
+            "baseline": {
+              "tp": 73,
+              "fp": 194,
+              "fn": 71,
+              "precision": 0.27340823970037453,
+              "recall": 0.5069444444444444,
+              "f1": 0.35523114355231145
+            },
+            "frozen": {
+              "tp": 31,
+              "fp": 38,
+              "fn": 113,
+              "precision": 0.4492753623188406,
+              "recall": 0.2152777777777778,
+              "f1": 0.29107981220657275
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 40,
+              "fp": 142,
+              "fn": 17,
+              "precision": 0.21978021978021978,
+              "recall": 0.7017543859649122,
+              "f1": 0.33472803347280333
+            },
+            "frozen": {
+              "tp": 34,
+              "fp": 61,
+              "fn": 23,
+              "precision": 0.35789473684210527,
+              "recall": 0.5964912280701754,
+              "f1": 0.4473684210526316
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 19,
+              "fp": 183,
+              "fn": 9,
+              "precision": 0.09405940594059406,
+              "recall": 0.6785714285714286,
+              "f1": 0.16521739130434782
+            },
+            "frozen": {
+              "tp": 13,
+              "fp": 133,
+              "fn": 15,
+              "precision": 0.08904109589041095,
+              "recall": 0.4642857142857143,
+              "f1": 0.14942528735632185
+            }
+          }
+        }
+      },
+      "excerpt_metrics": {
+        "mix": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 53,
+                "fp": 82,
+                "fn": 15,
+                "precision": 0.3925925925925926,
+                "recall": 0.7794117647058824,
+                "f1": 0.5221674876847291,
+                "mean_absolute_error_ms": 14.614488993716366,
+                "median_signed_error_ms": -14.327348072761481
+              },
+              {
+                "tp": 20,
+                "fp": 112,
+                "fn": 56,
+                "precision": 0.15151515151515152,
+                "recall": 0.2631578947368421,
+                "f1": 0.19230769230769232,
+                "mean_absolute_error_ms": 19.951541495935743,
+                "median_signed_error_ms": -19.83124206181941
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 26,
+                "fp": 8,
+                "fn": 42,
+                "precision": 0.7647058823529411,
+                "recall": 0.38235294117647056,
+                "f1": 0.5098039215686274,
+                "mean_absolute_error_ms": 16.15833477242991,
+                "median_signed_error_ms": -16.675797902387046
+              },
+              {
+                "tp": 5,
+                "fp": 30,
+                "fn": 71,
+                "precision": 0.14285714285714285,
+                "recall": 0.06578947368421052,
+                "f1": 0.09009009009009009,
+                "mean_absolute_error_ms": 25.369697844195116,
+                "median_signed_error_ms": -24.749443875776933
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 33,
+                "fp": 60,
+                "fn": 0,
+                "precision": 0.3548387096774194,
+                "recall": 1.0,
+                "f1": 0.5238095238095238,
+                "mean_absolute_error_ms": 13.277764120779093,
+                "median_signed_error_ms": -12.256853741547502
+              },
+              {
+                "tp": 7,
+                "fp": 82,
+                "fn": 17,
+                "precision": 0.07865168539325842,
+                "recall": 0.2916666666666667,
+                "f1": 0.12389380530973451,
+                "mean_absolute_error_ms": 17.51556178975225,
+                "median_signed_error_ms": -14.717743195689081
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 30,
+                "fp": 22,
+                "fn": 3,
+                "precision": 0.5769230769230769,
+                "recall": 0.9090909090909091,
+                "f1": 0.7058823529411765,
+                "mean_absolute_error_ms": 13.19651789492274,
+                "median_signed_error_ms": -12.159205215503732
+              },
+              {
+                "tp": 4,
+                "fp": 39,
+                "fn": 20,
+                "precision": 0.09302325581395349,
+                "recall": 0.16666666666666666,
+                "f1": 0.11940298507462686,
+                "mean_absolute_error_ms": 23.925053853261602,
+                "median_signed_error_ms": -25.538582197867754
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 16,
+                "fp": 84,
+                "fn": 6,
+                "precision": 0.16,
+                "recall": 0.7272727272727273,
+                "f1": 0.26229508196721313,
+                "mean_absolute_error_ms": 12.200574086028482,
+                "median_signed_error_ms": -12.311640589757644
+              },
+              {
+                "tp": 3,
+                "fp": 99,
+                "fn": 3,
+                "precision": 0.029411764705882353,
+                "recall": 0.5,
+                "f1": 0.05555555555555555,
+                "mean_absolute_error_ms": 16.433996410105085,
+                "median_signed_error_ms": 9.846801021751617
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 13,
+                "fp": 58,
+                "fn": 9,
+                "precision": 0.18309859154929578,
+                "recall": 0.5909090909090909,
+                "f1": 0.27956989247311825,
+                "mean_absolute_error_ms": 11.704139586762734,
+                "median_signed_error_ms": -9.311497732603868
+              },
+              {
+                "tp": 0,
+                "fp": 75,
+                "fn": 6,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "mean_absolute_error_ms": null,
+                "median_signed_error_ms": null
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "song_id": "lp-faint",
+      "artist": "Linkin Park",
+      "title": "Faint",
+      "charter": "Debugmod12",
+      "ini_delay_seconds": 0.0,
+      "chart_offset_seconds": 0.0,
+      "chart_format": "chart",
+      "note_semantics": "stored Expert lanes 96-100; groups resolve Pro tom/disco markers",
+      "velocity_semantics": "stored MIDI velocity or null for .chart; not acoustic dynamics",
+      "reference_kind": "chart lane/tom-marker proxy, not manually verified acoustic labels",
+      "reference_semantics_version": 2,
+      "expert_disco_flip_starts": 0,
+      "expert_disco_reclassified_notes": 0,
+      "audio_files": [
+        "song.ogg"
+      ],
+      "component_sources": {},
+      "audio_policy": "single stream as delivered, used as mix",
+      "modes": {
+        "mix": {
+          "KICK": {
+            "baseline": {
+              "tp": 35,
+              "fp": 175,
+              "fn": 0,
+              "precision": 0.16666666666666666,
+              "recall": 1.0,
+              "f1": 0.2857142857142857
+            },
+            "frozen": {
+              "tp": 35,
+              "fp": 45,
+              "fn": 0,
+              "precision": 0.4375,
+              "recall": 1.0,
+              "f1": 0.6086956521739131
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 44,
+              "fp": 94,
+              "fn": 25,
+              "precision": 0.3188405797101449,
+              "recall": 0.6376811594202898,
+              "f1": 0.4251207729468599
+            },
+            "frozen": {
+              "tp": 15,
+              "fp": 29,
+              "fn": 54,
+              "precision": 0.3409090909090909,
+              "recall": 0.21739130434782608,
+              "f1": 0.26548672566371684
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 93,
+              "fp": 83,
+              "fn": 32,
+              "precision": 0.5284090909090909,
+              "recall": 0.744,
+              "f1": 0.6179401993355482
+            },
+            "frozen": {
+              "tp": 73,
+              "fp": 50,
+              "fn": 52,
+              "precision": 0.5934959349593496,
+              "recall": 0.584,
+              "f1": 0.5887096774193549
+            }
+          }
+        }
+      },
+      "excerpt_metrics": {
+        "mix": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 22,
+                "fp": 84,
+                "fn": 0,
+                "precision": 0.20754716981132076,
+                "recall": 1.0,
+                "f1": 0.34375,
+                "mean_absolute_error_ms": 7.505069365011446,
+                "median_signed_error_ms": -7.798018381738103
+              },
+              {
+                "tp": 13,
+                "fp": 91,
+                "fn": 0,
+                "precision": 0.125,
+                "recall": 1.0,
+                "f1": 0.2222222222222222,
+                "mean_absolute_error_ms": 5.882834947650158,
+                "median_signed_error_ms": -4.961851169525744
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 22,
+                "fp": 18,
+                "fn": 0,
+                "precision": 0.55,
+                "recall": 1.0,
+                "f1": 0.7096774193548387,
+                "mean_absolute_error_ms": 7.505069365011446,
+                "median_signed_error_ms": -7.798018381738103
+              },
+              {
+                "tp": 13,
+                "fp": 27,
+                "fn": 0,
+                "precision": 0.325,
+                "recall": 1.0,
+                "f1": 0.49056603773584906,
+                "mean_absolute_error_ms": 5.882834947650158,
+                "median_signed_error_ms": -4.961851169525744
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 31,
+                "fp": 44,
+                "fn": 14,
+                "precision": 0.41333333333333333,
+                "recall": 0.6888888888888889,
+                "f1": 0.5166666666666667,
+                "mean_absolute_error_ms": 6.649688035607705,
+                "median_signed_error_ms": -6.152160536316842
+              },
+              {
+                "tp": 13,
+                "fp": 50,
+                "fn": 11,
+                "precision": 0.20634920634920634,
+                "recall": 0.5416666666666666,
+                "f1": 0.2988505747126437,
+                "mean_absolute_error_ms": 6.556766095125856,
+                "median_signed_error_ms": -6.775910126435747
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 13,
+                "fp": 14,
+                "fn": 32,
+                "precision": 0.48148148148148145,
+                "recall": 0.28888888888888886,
+                "f1": 0.3611111111111111,
+                "mean_absolute_error_ms": 7.8348980156984185,
+                "median_signed_error_ms": -8.307098551881609
+              },
+              {
+                "tp": 2,
+                "fp": 15,
+                "fn": 22,
+                "precision": 0.11764705882352941,
+                "recall": 0.08333333333333333,
+                "f1": 0.0975609756097561,
+                "mean_absolute_error_ms": 7.138721917826274,
+                "median_signed_error_ms": -7.138721917826274
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 64,
+                "fp": 28,
+                "fn": 16,
+                "precision": 0.6956521739130435,
+                "recall": 0.8,
+                "f1": 0.7441860465116279,
+                "mean_absolute_error_ms": 7.826057287602994,
+                "median_signed_error_ms": -6.3350336302434584
+              },
+              {
+                "tp": 29,
+                "fp": 55,
+                "fn": 16,
+                "precision": 0.34523809523809523,
+                "recall": 0.6444444444444445,
+                "f1": 0.4496124031007752,
+                "mean_absolute_error_ms": 7.129200949989432,
+                "median_signed_error_ms": -4.23622758674469
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 52,
+                "fp": 19,
+                "fn": 28,
+                "precision": 0.7323943661971831,
+                "recall": 0.65,
+                "f1": 0.6887417218543046,
+                "mean_absolute_error_ms": 7.635158200043927,
+                "median_signed_error_ms": -6.3350336302434584
+              },
+              {
+                "tp": 21,
+                "fp": 31,
+                "fn": 24,
+                "precision": 0.40384615384615385,
+                "recall": 0.4666666666666667,
+                "f1": 0.4329896907216495,
+                "mean_absolute_error_ms": 8.03004996813191,
+                "median_signed_error_ms": -4.780445273837586
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "song_id": "lp-crawling",
+      "artist": "Linkin Park",
+      "title": "Crawling",
+      "charter": "Harmonix",
+      "ini_delay_seconds": 0.0,
+      "chart_offset_seconds": 0.0,
+      "chart_format": "mid",
+      "note_semantics": "stored Expert lanes 96-100; groups resolve Pro tom/disco markers",
+      "velocity_semantics": "stored MIDI velocity or null for .chart; not acoustic dynamics",
+      "reference_kind": "chart lane/tom-marker proxy, not manually verified acoustic labels",
+      "reference_semantics_version": 2,
+      "expert_disco_flip_starts": 4,
+      "expert_disco_reclassified_notes": 422,
+      "audio_files": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "audio_policy": "technical equal-gain stem sum",
+      "modes": {
+        "mix": {
+          "KICK": {
+            "baseline": {
+              "tp": 39,
+              "fp": 188,
+              "fn": 0,
+              "precision": 0.17180616740088106,
+              "recall": 1.0,
+              "f1": 0.2932330827067669
+            },
+            "frozen": {
+              "tp": 38,
+              "fp": 17,
+              "fn": 1,
+              "precision": 0.6909090909090909,
+              "recall": 0.9743589743589743,
+              "f1": 0.8085106382978723
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 28,
+              "fp": 143,
+              "fn": 0,
+              "precision": 0.16374269005847952,
+              "recall": 1.0,
+              "f1": 0.2814070351758794
+            },
+            "frozen": {
+              "tp": 26,
+              "fp": 43,
+              "fn": 2,
+              "precision": 0.37681159420289856,
+              "recall": 0.9285714285714286,
+              "f1": 0.5360824742268041
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 143,
+              "fp": 64,
+              "fn": 69,
+              "precision": 0.6908212560386473,
+              "recall": 0.6745283018867925,
+              "f1": 0.6825775656324582
+            },
+            "frozen": {
+              "tp": 97,
+              "fp": 44,
+              "fn": 115,
+              "precision": 0.6879432624113475,
+              "recall": 0.45754716981132076,
+              "f1": 0.5495750708215298
+            }
+          }
+        },
+        "drums": {
+          "KICK": {
+            "baseline": {
+              "tp": 39,
+              "fp": 173,
+              "fn": 0,
+              "precision": 0.18396226415094338,
+              "recall": 1.0,
+              "f1": 0.3107569721115538
+            },
+            "frozen": {
+              "tp": 38,
+              "fp": 19,
+              "fn": 1,
+              "precision": 0.6666666666666666,
+              "recall": 0.9743589743589743,
+              "f1": 0.7916666666666666
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 28,
+              "fp": 198,
+              "fn": 0,
+              "precision": 0.12389380530973451,
+              "recall": 1.0,
+              "f1": 0.2204724409448819
+            },
+            "frozen": {
+              "tp": 28,
+              "fp": 99,
+              "fn": 0,
+              "precision": 0.2204724409448819,
+              "recall": 1.0,
+              "f1": 0.36129032258064514
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 185,
+              "fp": 40,
+              "fn": 27,
+              "precision": 0.8222222222222222,
+              "recall": 0.8726415094339622,
+              "f1": 0.8466819221967964
+            },
+            "frozen": {
+              "tp": 173,
+              "fp": 35,
+              "fn": 39,
+              "precision": 0.8317307692307693,
+              "recall": 0.8160377358490566,
+              "f1": 0.8238095238095238
+            }
+          }
+        },
+        "components": {
+          "KICK": {
+            "baseline": {
+              "tp": 39,
+              "fp": 148,
+              "fn": 0,
+              "precision": 0.20855614973262032,
+              "recall": 1.0,
+              "f1": 0.34513274336283184
+            },
+            "frozen": {
+              "tp": 39,
+              "fp": 32,
+              "fn": 0,
+              "precision": 0.5492957746478874,
+              "recall": 1.0,
+              "f1": 0.7090909090909091
+            }
+          },
+          "SNARE_PROXY": {
+            "baseline": {
+              "tp": 28,
+              "fp": 97,
+              "fn": 0,
+              "precision": 0.224,
+              "recall": 1.0,
+              "f1": 0.3660130718954248
+            },
+            "frozen": {
+              "tp": 28,
+              "fp": 30,
+              "fn": 0,
+              "precision": 0.4827586206896552,
+              "recall": 1.0,
+              "f1": 0.6511627906976745
+            }
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": {
+              "tp": 188,
+              "fp": 36,
+              "fn": 24,
+              "precision": 0.8392857142857143,
+              "recall": 0.8867924528301887,
+              "f1": 0.8623853211009175
+            },
+            "frozen": {
+              "tp": 176,
+              "fp": 33,
+              "fn": 36,
+              "precision": 0.8421052631578947,
+              "recall": 0.8301886792452831,
+              "f1": 0.836104513064133
+            }
+          }
+        }
+      },
+      "excerpt_metrics": {
+        "mix": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 19,
+                "fp": 97,
+                "fn": 0,
+                "precision": 0.16379310344827586,
+                "recall": 1.0,
+                "f1": 0.2814814814814815,
+                "mean_absolute_error_ms": 4.06748538021237,
+                "median_signed_error_ms": -0.01618140643699917
+              },
+              {
+                "tp": 20,
+                "fp": 91,
+                "fn": 0,
+                "precision": 0.18018018018018017,
+                "recall": 1.0,
+                "f1": 0.3053435114503817,
+                "mean_absolute_error_ms": 16.658922278000432,
+                "median_signed_error_ms": 16.2800907018692
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 18,
+                "fp": 11,
+                "fn": 1,
+                "precision": 0.6206896551724138,
+                "recall": 0.9473684210526315,
+                "f1": 0.75,
+                "mean_absolute_error_ms": 3.8995275888831475,
+                "median_signed_error_ms": 0.3472018134971222
+              },
+              {
+                "tp": 20,
+                "fp": 6,
+                "fn": 0,
+                "precision": 0.7692307692307693,
+                "recall": 1.0,
+                "f1": 0.8695652173913043,
+                "mean_absolute_error_ms": 16.22105107610068,
+                "median_signed_error_ms": 16.2800907018692
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 16,
+                "fp": 84,
+                "fn": 0,
+                "precision": 0.16,
+                "recall": 1.0,
+                "f1": 0.27586206896551724,
+                "mean_absolute_error_ms": 7.695562925462696,
+                "median_signed_error_ms": -8.680301020596914
+              },
+              {
+                "tp": 12,
+                "fp": 59,
+                "fn": 0,
+                "precision": 0.16901408450704225,
+                "recall": 1.0,
+                "f1": 0.2891566265060241,
+                "mean_absolute_error_ms": 7.775201151931792,
+                "median_signed_error_ms": 6.415676869941933
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 15,
+                "fp": 25,
+                "fn": 1,
+                "precision": 0.375,
+                "recall": 0.9375,
+                "f1": 0.5357142857142857,
+                "mean_absolute_error_ms": 7.920050680565775,
+                "median_signed_error_ms": -8.906478458214906
+              },
+              {
+                "tp": 11,
+                "fp": 18,
+                "fn": 1,
+                "precision": 0.3793103448275862,
+                "recall": 0.9166666666666666,
+                "f1": 0.5365853658536586,
+                "mean_absolute_error_ms": 7.2181676448934695,
+                "median_signed_error_ms": 6.778910430057294
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 74,
+                "fp": 34,
+                "fn": 25,
+                "precision": 0.6851851851851852,
+                "recall": 0.7474747474747475,
+                "f1": 0.714975845410628,
+                "mean_absolute_error_ms": 10.937579150866512,
+                "median_signed_error_ms": -11.582450113849063
+              },
+              {
+                "tp": 69,
+                "fp": 30,
+                "fn": 44,
+                "precision": 0.696969696969697,
+                "recall": 0.6106194690265486,
+                "f1": 0.6509433962264151,
+                "mean_absolute_error_ms": 8.488964630045132,
+                "median_signed_error_ms": 6.845314057784435
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 52,
+                "fp": 21,
+                "fn": 47,
+                "precision": 0.7123287671232876,
+                "recall": 0.5252525252525253,
+                "f1": 0.6046511627906976,
+                "mean_absolute_error_ms": 10.006277123943837,
+                "median_signed_error_ms": -10.585693877892766
+              },
+              {
+                "tp": 45,
+                "fp": 23,
+                "fn": 68,
+                "precision": 0.6617647058823529,
+                "recall": 0.39823008849557523,
+                "f1": 0.4972375690607735,
+                "mean_absolute_error_ms": 7.723834680616429,
+                "median_signed_error_ms": 5.322775509256417
+              }
+            ]
+          }
+        },
+        "drums": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 19,
+                "fp": 84,
+                "fn": 0,
+                "precision": 0.18446601941747573,
+                "recall": 1.0,
+                "f1": 0.3114754098360656,
+                "mean_absolute_error_ms": 8.056432032807498,
+                "median_signed_error_ms": -8.001768707771362
+              },
+              {
+                "tp": 20,
+                "fp": 89,
+                "fn": 0,
+                "precision": 0.1834862385321101,
+                "recall": 1.0,
+                "f1": 0.31007751937984496,
+                "mean_absolute_error_ms": 9.051705611436489,
+                "median_signed_error_ms": 7.948303854014682
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 19,
+                "fp": 5,
+                "fn": 0,
+                "precision": 0.7916666666666666,
+                "recall": 1.0,
+                "f1": 0.8837209302325582,
+                "mean_absolute_error_ms": 4.695649123153532,
+                "median_signed_error_ms": -5.094403628703503
+              },
+              {
+                "tp": 19,
+                "fp": 14,
+                "fn": 1,
+                "precision": 0.5757575757575758,
+                "recall": 0.95,
+                "f1": 0.7169811320754716,
+                "mean_absolute_error_ms": 12.064778671883328,
+                "median_signed_error_ms": 13.39948752752207
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 16,
+                "fp": 94,
+                "fn": 0,
+                "precision": 0.14545454545454545,
+                "recall": 1.0,
+                "f1": 0.25396825396825395,
+                "mean_absolute_error_ms": 8.794191539338136,
+                "median_signed_error_ms": -9.043534580712276
+              },
+              {
+                "tp": 12,
+                "fp": 104,
+                "fn": 0,
+                "precision": 0.10344827586206896,
+                "recall": 1.0,
+                "f1": 0.1875,
+                "mean_absolute_error_ms": 4.575119141601173,
+                "median_signed_error_ms": 3.903325395782531
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 16,
+                "fp": 46,
+                "fn": 0,
+                "precision": 0.25806451612903225,
+                "recall": 1.0,
+                "f1": 0.41025641025641024,
+                "mean_absolute_error_ms": 8.794191539338136,
+                "median_signed_error_ms": -9.043534580712276
+              },
+              {
+                "tp": 12,
+                "fp": 53,
+                "fn": 0,
+                "precision": 0.18461538461538463,
+                "recall": 1.0,
+                "f1": 0.3116883116883117,
+                "mean_absolute_error_ms": 4.575119141601173,
+                "median_signed_error_ms": 3.903325395782531
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 91,
+                "fp": 21,
+                "fn": 8,
+                "precision": 0.8125,
+                "recall": 0.9191919191919192,
+                "f1": 0.8625592417061612,
+                "mean_absolute_error_ms": 11.307775398414087,
+                "median_signed_error_ms": -12.627935374453614
+              },
+              {
+                "tp": 94,
+                "fp": 19,
+                "fn": 19,
+                "precision": 0.831858407079646,
+                "recall": 0.831858407079646,
+                "f1": 0.831858407079646,
+                "mean_absolute_error_ms": 6.659931513703042,
+                "median_signed_error_ms": 6.46023752748448
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 89,
+                "fp": 18,
+                "fn": 10,
+                "precision": 0.8317757009345794,
+                "recall": 0.898989898989899,
+                "f1": 0.8640776699029126,
+                "mean_absolute_error_ms": 11.603049886947009,
+                "median_signed_error_ms": -13.217346372172756
+              },
+              {
+                "tp": 84,
+                "fp": 17,
+                "fn": 29,
+                "precision": 0.8316831683168316,
+                "recall": 0.7433628318584071,
+                "f1": 0.7850467289719626,
+                "mean_absolute_error_ms": 6.497876578541432,
+                "median_signed_error_ms": 5.134753967304562
+              }
+            ]
+          }
+        },
+        "components": {
+          "KICK": {
+            "baseline": [
+              {
+                "tp": 19,
+                "fp": 78,
+                "fn": 0,
+                "precision": 0.1958762886597938,
+                "recall": 1.0,
+                "f1": 0.3275862068965517,
+                "mean_absolute_error_ms": 7.750906313748523,
+                "median_signed_error_ms": -8.001469388148053
+              },
+              {
+                "tp": 20,
+                "fp": 70,
+                "fn": 0,
+                "precision": 0.2222222222222222,
+                "recall": 1.0,
+                "f1": 0.36363636363636365,
+                "mean_absolute_error_ms": 8.180957312116277,
+                "median_signed_error_ms": 7.935147391179953
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 19,
+                "fp": 18,
+                "fn": 0,
+                "precision": 0.5135135135135135,
+                "recall": 1.0,
+                "f1": 0.6785714285714286,
+                "mean_absolute_error_ms": 4.084597685034085,
+                "median_signed_error_ms": -4.1928027214481745
+              },
+              {
+                "tp": 20,
+                "fp": 14,
+                "fn": 0,
+                "precision": 0.5882352941176471,
+                "recall": 1.0,
+                "f1": 0.7407407407407407,
+                "mean_absolute_error_ms": 13.89905561124678,
+                "median_signed_error_ms": 13.753292516142324
+              }
+            ]
+          },
+          "SNARE_PROXY": {
+            "baseline": [
+              {
+                "tp": 16,
+                "fp": 45,
+                "fn": 0,
+                "precision": 0.26229508196721313,
+                "recall": 1.0,
+                "f1": 0.4155844155844156,
+                "mean_absolute_error_ms": 8.615972505856107,
+                "median_signed_error_ms": -9.043534580712276
+              },
+              {
+                "tp": 12,
+                "fp": 52,
+                "fn": 0,
+                "precision": 0.1875,
+                "recall": 1.0,
+                "f1": 0.3157894736842105,
+                "mean_absolute_error_ms": 3.9916935937611697,
+                "median_signed_error_ms": 2.0055481849965417
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 16,
+                "fp": 14,
+                "fn": 0,
+                "precision": 0.5333333333333333,
+                "recall": 1.0,
+                "f1": 0.6956521739130435,
+                "mean_absolute_error_ms": 8.615972505856107,
+                "median_signed_error_ms": -9.043534580712276
+              },
+              {
+                "tp": 12,
+                "fp": 16,
+                "fn": 0,
+                "precision": 0.42857142857142855,
+                "recall": 1.0,
+                "f1": 0.6,
+                "mean_absolute_error_ms": 3.9916935937611697,
+                "median_signed_error_ms": 2.0055481849965417
+              }
+            ]
+          },
+          "YELLOW_CYMBAL_PROXY": {
+            "baseline": [
+              {
+                "tp": 92,
+                "fp": 18,
+                "fn": 7,
+                "precision": 0.8363636363636363,
+                "recall": 0.9292929292929293,
+                "f1": 0.8803827751196173,
+                "mean_absolute_error_ms": 11.46732717795976,
+                "median_signed_error_ms": -12.852005669408584
+              },
+              {
+                "tp": 96,
+                "fp": 18,
+                "fn": 17,
+                "precision": 0.8421052631578947,
+                "recall": 0.8495575221238938,
+                "f1": 0.8458149779735683,
+                "mean_absolute_error_ms": 6.867011384358375,
+                "median_signed_error_ms": 6.904364511584049
+              }
+            ],
+            "frozen": [
+              {
+                "tp": 90,
+                "fp": 17,
+                "fn": 9,
+                "precision": 0.8411214953271028,
+                "recall": 0.9090909090909091,
+                "f1": 0.8737864077669902,
+                "mean_absolute_error_ms": 11.940972802039024,
+                "median_signed_error_ms": -13.327924887072129
+              },
+              {
+                "tp": 86,
+                "fp": 16,
+                "fn": 27,
+                "precision": 0.8431372549019608,
+                "recall": 0.7610619469026548,
+                "f1": 0.8,
+                "mean_absolute_error_ms": 6.463948768025616,
+                "median_signed_error_ms": 4.941086166653008
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "excerpts": [
+    {
+      "song_id": "cod-115",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 0.9170416247470474,
+      "available_modes": [
+        "mix"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "guitar.ogg": {
+          "peak": 1.0904630422592163,
+          "rms": 0.3454083304164212,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 87,
+        "SNARE_PROXY": 22,
+        "YELLOW_CYMBAL_PROXY": 0
+      },
+      "context_counts": {
+        "TOMS": 0,
+        "OTHER_CYMBALS": 34
+      }
+    },
+    {
+      "song_id": "cod-115",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 0.8639464350837348,
+      "available_modes": [
+        "mix"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "guitar.ogg": {
+          "peak": 1.157479166984558,
+          "rms": 0.35104808205952487,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 87,
+        "SNARE_PROXY": 22,
+        "YELLOW_CYMBAL_PROXY": 0
+      },
+      "context_counts": {
+        "TOMS": 0,
+        "OTHER_CYMBALS": 34
+      }
+    },
+    {
+      "song_id": "a7x-carry-on",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 0.8746506290918077,
+      "available_modes": [
+        "mix"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "guitar.ogg": {
+          "peak": 1.1433136463165283,
+          "rms": 0.28851981179424363,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 64,
+        "SNARE_PROXY": 41,
+        "YELLOW_CYMBAL_PROXY": 1
+      },
+      "context_counts": {
+        "TOMS": 11,
+        "OTHER_CYMBALS": 79
+      }
+    },
+    {
+      "song_id": "a7x-carry-on",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886858
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 0.9134279419873741,
+      "available_modes": [
+        "mix"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "guitar.ogg": {
+          "peak": 1.0947771072387695,
+          "rms": 0.2914164821083933,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 67,
+        "SNARE_PROXY": 41,
+        "YELLOW_CYMBAL_PROXY": 1
+      },
+      "context_counts": {
+        "TOMS": 15,
+        "OTHER_CYMBALS": 76
+      }
+    },
+    {
+      "song_id": "a7x-not-ready-to-die",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 1.0,
+      "available_modes": [
+        "mix"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "song.ogg": {
+          "peak": 0.6558937430381775,
+          "rms": 0.1273608729401092,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 54,
+        "SNARE_PROXY": 31,
+        "YELLOW_CYMBAL_PROXY": 43
+      },
+      "context_counts": {
+        "TOMS": 4,
+        "OTHER_CYMBALS": 8
+      }
+    },
+    {
+      "song_id": "a7x-not-ready-to-die",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 1.0,
+      "available_modes": [
+        "mix"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "song.ogg": {
+          "peak": 0.6182386875152588,
+          "rms": 0.12070392401706967,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 61,
+        "SNARE_PROXY": 30,
+        "YELLOW_CYMBAL_PROXY": 44
+      },
+      "context_counts": {
+        "TOMS": 0,
+        "OTHER_CYMBALS": 9
+      }
+    },
+    {
+      "song_id": "a7x-afterlife",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410,
+        886410,
+        886410,
+        886410,
+        886410,
+        886410,
+        885962
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 1.0,
+      "available_modes": [
+        "mix",
+        "drums",
+        "components"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ],
+        "drums": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ],
+        "components": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "drums_1.ogg": {
+          "peak": 0.25671371817588806,
+          "rms": 0.025408457217907108,
+          "digital_silence": false
+        },
+        "drums_2.ogg": {
+          "peak": 0.2678258419036865,
+          "rms": 0.016653843594958997,
+          "digital_silence": false
+        },
+        "drums_3.ogg": {
+          "peak": 0.3829074501991272,
+          "rms": 0.053503487399371524,
+          "digital_silence": false
+        },
+        "guitar.ogg": {
+          "peak": 0.342803418636322,
+          "rms": 0.08238272427320477,
+          "digital_silence": false
+        },
+        "rhythm.ogg": {
+          "peak": 0.30018502473831177,
+          "rms": 0.09278482889661083,
+          "digital_silence": false
+        },
+        "song.ogg": {
+          "peak": 0.0,
+          "rms": 0.0,
+          "digital_silence": true
+        },
+        "vocals.ogg": {
+          "peak": 0.3205890953540802,
+          "rms": 0.07530478077740677,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 56,
+        "SNARE_PROXY": 51,
+        "YELLOW_CYMBAL_PROXY": 9
+      },
+      "context_counts": {
+        "TOMS": 6,
+        "OTHER_CYMBALS": 49
+      }
+    },
+    {
+      "song_id": "a7x-afterlife",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410,
+        886410,
+        886410,
+        886410,
+        886410,
+        886410,
+        886324
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 1.0,
+      "available_modes": [
+        "mix",
+        "drums",
+        "components"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ],
+        "drums": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ],
+        "components": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "drums_1.ogg": {
+          "peak": 0.26718881726264954,
+          "rms": 0.026611797367502042,
+          "digital_silence": false
+        },
+        "drums_2.ogg": {
+          "peak": 0.27094629406929016,
+          "rms": 0.015310371365856862,
+          "digital_silence": false
+        },
+        "drums_3.ogg": {
+          "peak": 0.3866117298603058,
+          "rms": 0.05363605744184015,
+          "digital_silence": false
+        },
+        "guitar.ogg": {
+          "peak": 0.34381192922592163,
+          "rms": 0.07565632138351637,
+          "digital_silence": false
+        },
+        "rhythm.ogg": {
+          "peak": 0.29996776580810547,
+          "rms": 0.09344440636030435,
+          "digital_silence": false
+        },
+        "song.ogg": {
+          "peak": 0.2900884449481964,
+          "rms": 0.03387846267341971,
+          "digital_silence": false
+        },
+        "vocals.ogg": {
+          "peak": 0.3002040982246399,
+          "rms": 0.07216994297519697,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 60,
+        "SNARE_PROXY": 40,
+        "YELLOW_CYMBAL_PROXY": 16
+      },
+      "context_counts": {
+        "TOMS": 6,
+        "OTHER_CYMBALS": 48
+      }
+    },
+    {
+      "song_id": "a7x-brompton-cocktail",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410,
+        886410,
+        886410,
+        886410,
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 0.8024034392566847,
+      "available_modes": [
+        "mix"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "drums.ogg": {
+          "peak": 0.0,
+          "rms": 0.0,
+          "digital_silence": true
+        },
+        "guitar.ogg": {
+          "peak": 0.0,
+          "rms": 0.0,
+          "digital_silence": true
+        },
+        "rhythm.ogg": {
+          "peak": 0.0,
+          "rms": 0.0,
+          "digital_silence": true
+        },
+        "song.ogg": {
+          "peak": 1.246255874633789,
+          "rms": 0.3133351994473678,
+          "digital_silence": false
+        },
+        "vocals.ogg": {
+          "peak": 0.0,
+          "rms": 0.0,
+          "digital_silence": true
+        }
+      },
+      "excluded_views": [
+        {
+          "mode": "drums",
+          "reason": "digital_silence"
+        }
+      ],
+      "reference_counts": {
+        "KICK": 68,
+        "SNARE_PROXY": 33,
+        "YELLOW_CYMBAL_PROXY": 22
+      },
+      "context_counts": {
+        "TOMS": 0,
+        "OTHER_CYMBALS": 43
+      }
+    },
+    {
+      "song_id": "a7x-brompton-cocktail",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410,
+        886410,
+        886410,
+        886410,
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 0.9019577990040045,
+      "available_modes": [
+        "mix"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "drums.ogg": {
+          "peak": 0.0,
+          "rms": 0.0,
+          "digital_silence": true
+        },
+        "guitar.ogg": {
+          "peak": 0.0,
+          "rms": 0.0,
+          "digital_silence": true
+        },
+        "rhythm.ogg": {
+          "peak": 0.0,
+          "rms": 0.0,
+          "digital_silence": true
+        },
+        "song.ogg": {
+          "peak": 1.1086993217468262,
+          "rms": 0.31420525477502304,
+          "digital_silence": false
+        },
+        "vocals.ogg": {
+          "peak": 0.0,
+          "rms": 0.0,
+          "digital_silence": true
+        }
+      },
+      "excluded_views": [
+        {
+          "mode": "drums",
+          "reason": "digital_silence"
+        }
+      ],
+      "reference_counts": {
+        "KICK": 76,
+        "SNARE_PROXY": 24,
+        "YELLOW_CYMBAL_PROXY": 6
+      },
+      "context_counts": {
+        "TOMS": 7,
+        "OTHER_CYMBALS": 52
+      }
+    },
+    {
+      "song_id": "lp-faint",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 0.9271541536269735,
+      "available_modes": [
+        "mix"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "song.ogg": {
+          "peak": 1.0785692930221558,
+          "rms": 0.31626669774739935,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 22,
+        "SNARE_PROXY": 45,
+        "YELLOW_CYMBAL_PROXY": 80
+      },
+      "context_counts": {
+        "TOMS": 1,
+        "OTHER_CYMBALS": 5
+      }
+    },
+    {
+      "song_id": "lp-faint",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 0.9235829072476406,
+      "available_modes": [
+        "mix"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "song.ogg": {
+          "peak": 1.0827398300170898,
+          "rms": 0.3285156153024588,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 13,
+        "SNARE_PROXY": 24,
+        "YELLOW_CYMBAL_PROXY": 45
+      },
+      "context_counts": {
+        "TOMS": 0,
+        "OTHER_CYMBALS": 4
+      }
+    },
+    {
+      "song_id": "lp-crawling",
+      "excerpt": 0,
+      "start_seconds": 60,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886822,
+        886586,
+        886410,
+        886410,
+        886410,
+        886410,
+        886688,
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 1.0,
+      "available_modes": [
+        "mix",
+        "drums",
+        "components"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ],
+        "drums": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ],
+        "components": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "drums_1.ogg": {
+          "peak": 0.32534870505332947,
+          "rms": 0.04028916637011641,
+          "digital_silence": false
+        },
+        "drums_2.ogg": {
+          "peak": 0.43471163511276245,
+          "rms": 0.02036646342875017,
+          "digital_silence": false
+        },
+        "drums_3.ogg": {
+          "peak": 0.4066231846809387,
+          "rms": 0.025559153652130198,
+          "digital_silence": false
+        },
+        "guitar.ogg": {
+          "peak": 0.18895801901817322,
+          "rms": 0.02794670612568149,
+          "digital_silence": false
+        },
+        "keys.ogg": {
+          "peak": 0.3423537611961365,
+          "rms": 0.03691845926404496,
+          "digital_silence": false
+        },
+        "rhythm.ogg": {
+          "peak": 0.23648643493652344,
+          "rms": 0.06398836183048735,
+          "digital_silence": false
+        },
+        "song.ogg": {
+          "peak": 0.1623682975769043,
+          "rms": 0.019363477543974404,
+          "digital_silence": false
+        },
+        "vocals.ogg": {
+          "peak": 0.3973062038421631,
+          "rms": 0.05702385247597721,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 19,
+        "SNARE_PROXY": 16,
+        "YELLOW_CYMBAL_PROXY": 99
+      },
+      "context_counts": {
+        "TOMS": 5,
+        "OTHER_CYMBALS": 0
+      }
+    },
+    {
+      "song_id": "lp-crawling",
+      "excerpt": 1,
+      "start_seconds": 120,
+      "duration_seconds": 20,
+      "decoded_samples_before_crop": [
+        886822,
+        886822,
+        886822,
+        886410,
+        886410,
+        886410,
+        886822,
+        886410
+      ],
+      "retained_samples_per_stem": 882000,
+      "common_gain": 1.0,
+      "available_modes": [
+        "mix",
+        "drums",
+        "components"
+      ],
+      "available_groups": {
+        "mix": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ],
+        "drums": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ],
+        "components": [
+          "KICK",
+          "SNARE_PROXY",
+          "YELLOW_CYMBAL_PROXY"
+        ]
+      },
+      "source_audio_audit": {
+        "drums_1.ogg": {
+          "peak": 0.3236607313156128,
+          "rms": 0.04310189796854961,
+          "digital_silence": false
+        },
+        "drums_2.ogg": {
+          "peak": 0.43094897270202637,
+          "rms": 0.019676539729870428,
+          "digital_silence": false
+        },
+        "drums_3.ogg": {
+          "peak": 0.4701274335384369,
+          "rms": 0.03039445748566517,
+          "digital_silence": false
+        },
+        "guitar.ogg": {
+          "peak": 0.1901910901069641,
+          "rms": 0.034719228273040026,
+          "digital_silence": false
+        },
+        "keys.ogg": {
+          "peak": 0.3341704308986664,
+          "rms": 0.06032842094090994,
+          "digital_silence": false
+        },
+        "rhythm.ogg": {
+          "peak": 0.22716258466243744,
+          "rms": 0.061880614263932474,
+          "digital_silence": false
+        },
+        "song.ogg": {
+          "peak": 0.1724085956811905,
+          "rms": 0.01920188510717041,
+          "digital_silence": false
+        },
+        "vocals.ogg": {
+          "peak": 0.4235876202583313,
+          "rms": 0.06085775547995704,
+          "digital_silence": false
+        }
+      },
+      "excluded_views": [],
+      "reference_counts": {
+        "KICK": 20,
+        "SNARE_PROXY": 12,
+        "YELLOW_CYMBAL_PROXY": 113
+      },
+      "context_counts": {
+        "TOMS": 7,
+        "OTHER_CYMBALS": 0
+      }
+    }
+  ],
+  "comparison_status": "Follow-up on already evaluated songs; no new held-out test or recalibration"
+}

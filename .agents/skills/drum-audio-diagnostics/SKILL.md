@@ -11,6 +11,9 @@ Leia as instruções AGENTS.md do projeto e respeite a fase vigente antes de edi
 Por preferência do usuário, aplique este procedimento em toda tarefa de música
 para chart, mesmo sem uma falha de chimbal relatada. A skill orienta diagnóstico;
 não substitui o transcritor nem transforma os candidatos espectrais em notas.
+Após cada experimento, atualize esta skill com resultados e limitações observados,
+para reutilizar o aprendizado em músicas futuras. Busque o melhor resultado
+mensurável por instrumento; não prometa 100% de acerto a partir de exemplos.
 Não substitua o modelo nem avance o exportador para resolver uma hipótese de áudio.
 
 ## Primeiro estabeleça os fatos
@@ -178,6 +181,56 @@ sem completar notas. O detector original de agudos superou o perfil restritivo:
 F1 de amarelo 0,618→0,589 em Faint/mix, 0,683→0,550 em Crawling/mix e
 0,847→0,824 em Crawling/bateria. A bateria recuperou ataques neste exemplo;
 não generalize nem mude defaults ADTOF sem outra avaliação independente.
+
+### Auditar e aproveitar componentes existentes
+
+Consulte `docs/stem-component-study.md` e as receitas/resultados correspondentes
+em docs/experiments/. A comparação adicional nas sete músicas CoD/A7X/Linkin usa
+as mesmas janelas e regras; não é um novo teste independente. O avaliador aceita
+`component_sources` explícitos por grupo, que devem apontar a arquivos distintos
+já selecionados e fixados por hash. As regras congeladas de bateria são aplicadas
+por classe a esses componentes, sem argmax ou supressão entre instrumentos.
+
+Decodifique antes de confiar no nome do stem. Brompton Cocktail tem drums.ogg
+exatamente silencioso nos dois recortes; The Number of the Beast tem drums_2.ogg
+silencioso em 60–80 s. Não conclua que o arquivo inteiro está vazio. O avaliador
+v2 registra peak/RMS, exclusões e class_coverage com músicas, recortes, segundos
+e referências por classe. Exclua apenas silêncio digital exato, preservando áudio
+muito fraco. Não pontue um componente indisponível como falha de detecção.
+
+Em Afterlife/Crawling, drums_1/2/3 foram declarados como bumbo/caixa/restante do
+kit. O terceiro ainda contém tons e pratos: não é chimbal isolado. Nos mesmos
+80 s, F1 congelado bateria→componentes: bumbo 0,661→0,610, caixa 0,482→0,761 e
+amarelo 0,686→0,776. Fonte melhor depende da classe. Não transforme seleção feita
+após este teste em ganho independente nem altere defaults ADTOF com esses dados.
+
+Para receber stems de um separador em uma música sem chart:
+
+```powershell
+uv --cache-dir .uv-cache run --no-project --locked --script .agents/skills/drum-audio-diagnostics/scripts/chart_reference.py predict-components --kick 'audio/kick.wav' --snare 'audio/snare.wav' --high-percussion 'audio/kit-ou-hihat.wav' --profile docs/experiments/five-song-spectral-profile.json --rules baseline --start 30 --duration 20 --out 'output/candidatos-componentes'
+```
+
+O comando usa somente áudio e regras, registra hashes/ganho comum/silêncio e
+gera CSV experimental. `--rules frozen` usa o perfil salvo de bateria. Os stems
+precisam já estar alinhados; duração igual não comprova isso. Não há separação,
+identificação de aberto/fechado, MIDI ou chart de jogo nesse comando.
+
+### Recursos externos: distinguir acesso de inferência
+
+Não é necessária assinatura para os ensaios locais. Em 2026-10-27 obtivemos sete
+MP3 (3,35 MB) do exemplo oficial StemGMD/Bluebird com referências e resultados
+pré-calculados LarsNet, revisão a5f75326. Identidade Git blob e SHA256 estão em
+docs/experiments/stemgmd-author-sample.json. Mídia permanece privada/ignorada.
+Os gráficos e SI-SDR comparam as saídas publicadas; não representam LarsNet rodando
+nas nossas músicas, acurácia de notas ou um teste amplo. Não houve MIDI de
+referência usado na amostra. O HH publicado combina aberto/fechado.
+
+StemGMD declara CC BY 4.0. O modelo LarsNet anuncia CPU, 562 MB e pesos CC BY-NC
+4.0; esses pesos não foram baixados/executados, e a compatibilidade Windows local
+não está validada. E-GMD não foi integrado. Songsterr MIDI/GP é opção paga,
+dispensável aqui. Informe o estado real de cada recurso; não chame demonstrações
+de terceiros de inferência nossa. Audite revisão/hash/licença antes de instalar
+um separador, preserve a mix e compare uma amostra reservada por instrumento.
 
 O script `scripts/inspect_audio.py`, relativo a esta skill, usa FFmpeg local,
 NumPy e Matplotlib. Não importa PyTorch, não baixa pesos e não envia áudio.

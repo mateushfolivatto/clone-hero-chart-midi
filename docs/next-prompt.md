@@ -7,6 +7,27 @@ Audite Git/ambiente antes de editar, preserve trabalho existente e use uma branc
 nova a partir de main para uma nova unidade. Continue a branch existente se a
 unidade ainda estiver aberta. Preserve a implementação inspect-midi.
 
+DCF-127 comparou fontes explícitas em sete músicas já discutidas e adicionou
+predict-components sem chart. Leia docs/stem-component-study.md e suas receitas.
+O usuário quer rota sem assinatura e atualização contínua da skill com evidências
+para músicas futuras; não prometa 100%. O avaliador v2 exclui silêncio digital
+de bateria/componentes, preserva sinais fracos e registra cobertura por classe.
+Brompton tem drums.ogg zero nos dois recortes; seus resultados históricos de
+bateria incluíam o arquivo pelo nome e não têm a mesma cobertura do novo agregado.
+Nos mesmos 80 s de Afterlife/Crawling, F1 bateria→componentes é 0,661→0,610 bumbo,
+0,482→0,761 caixa e 0,686→0,776 amarelo. O kit restante não é chimbal isolado.
+São músicas já examinadas, sem recalibrar; não é um novo teste independente.
+
+Já foram obtidos sete MP3 de demonstração StemGMD/LarsNet (3,35 MB) pelo conector
+GitHub, com hashes/proveniência e comparação às referências. São saídas publicadas
+dos autores, sem inferência local ou MIDI de referência; E-GMD não foi integrado.
+Não confunda recurso consultado, amostra baixada e modelo executado. Pesos LarsNet
+(562 MB, CC BY-NC 4.0) não foram baixados. Próximo menor experimento: auditar/pinar
+runtime e pesos de um separador CPU, executá-lo em uma amostra reservada e comparar
+mix/bateria/componentes por instrumento, junto ao ADTOF quando disponível. Não
+contorne rede bloqueada nem baixe modelos implicitamente. Preserve baseline,
+tempos brutos e licença separada de código/pesos. Consulte docs/testing.md.
+
 DCF-126 inspecionou Faint e Crawling, indicadas pelo usuário como exemplos de
 chimbal marcando tempo. Leia docs/linkin-park-hihat.md e sua receita/resultados.
 O leitor antigo ignorava disco flip de Crawling. Agora resolve mix Expert com
@@ -74,7 +95,7 @@ ambiente/pesos locais verificados. Reporte TP/FP/FN, precisão/recall/F1 e erros
 Não declare identificação acústica por cores de chart ou acurácia por candidatos.
 
 Windows/Python 3.12 CPU continua primário. Os resultados de 2026-10-27 são Linux;
-141 testes do núcleo e oito regressões opcionais de DSP passaram. Consulte
+141 testes do núcleo e 13 regressões opcionais de DSP passaram. Consulte
 docs/testing.md. Não instale WSL, Docker ou CUDA nem altere políticas do PC.
 O decoder do experimento usa guarda final de 100 ms e recorte por amostras,
 sem mover ataques ou preencher stems curtos. Charts/áudios originais permanecem

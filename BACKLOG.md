@@ -217,6 +217,22 @@ and build passed on Linux. See docs/linkin-park-hihat.md.
 This support experiment does not complete acoustic annotation, ADTOF comparison,
 native Windows/game acceptance or overall Phase 1.
 
+### Phase 1 explicit component references and public sample — 2026-10-27
+
+- [x] **DCF-127 [P1]** Audit actual local stem signals, compare explicit component
+  sources on the discussed songs, add chart-free component candidates and inspect
+  a bounded free public reference while retaining findings in the project skill.
+
+Seven songs/38 pinned files supply 280 seconds of mix. Only Afterlife/Crawling
+provide useful drums/components for this comparison: 80 seconds/511 references.
+Brompton's silent drum excerpts are excluded and class-specific coverage is
+reported. Components improve snare/yellow agreement and worsen kick with unchanged
+rules. predict-components works without chart input. Seven public author MP3s
+from the StemGMD/LarsNet demo (3.35 MB) are source/hash verified and compared;
+this is not local model inference. All 141 core and 13 optional DSP tests, locks,
+static gates and build passed; input/profile hashes and archive hygiene verified.
+See docs/stem-component-study.md. DCF-105/106, ML/game/native acceptance remain open.
+
 ---
 
 ## Phase 2 — Canonical Event Pipeline

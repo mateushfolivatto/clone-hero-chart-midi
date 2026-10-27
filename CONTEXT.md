@@ -230,6 +230,30 @@ Do not infer openness, fill rhythm gaps, retune on these test labels or generali
 stem superiority. See docs/linkin-park-hihat.md and DCF-126. No ADTOF defaults,
 canonical pipeline, exporter or game acceptance changed; Phase 1 remains open.
 
+## Component-source follow-up and free external sample (2026-10-27)
+
+The user authorized starting with existing songs, preferring a free route and
+continual skill updates toward better unseen-song transcription. A seven-song
+follow-up now compares mix, non-silent drum audio and explicit component sources
+with unchanged rules. Crawling/Afterlife provide kick/snare/remaining-kit streams;
+the last is not isolated hi-hat. Brompton's drum stream is digitally silent in
+both excerpts and is excluded from the new drum aggregate. Version-2 evaluation
+reports per-stream signal audits and per-class excerpt/second/reference coverage.
+In the same 80 seconds, frozen F1 drums→components is .661→.610 kick,
+.482→.761 snare proxy and .686→.776 yellow proxy. These are previously examined
+songs, not a new independent test set. No automatic winner selection is justified.
+
+The chart-free predict-components command accepts three already aligned stems
+and exports spectral candidates with source hashes and common gain. It does not
+separate audio or generate game charts. Seven small public StemGMD demonstration
+MP3s were obtained through the GitHub connector, with references and precomputed
+LarsNet outputs pinned to source revision/blob/SHA256. They were inspected and
+compared over ten seconds; no MIDI truth or local LarsNet inference was used.
+No local LarsNet runtime/weights or E-GMD dataset was installed; no paid service
+or music upload was used.
+See docs/stem-component-study.md and DCF-127. ML separation/transcription,
+native Windows and game validation remain pending; Phase 1 stays open.
+
 ## Separate song-library workstream (2026-10-16)
 
 The user requested a separate, portable area for the growing MixDrumRock Qobuz

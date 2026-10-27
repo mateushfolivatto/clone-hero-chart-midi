@@ -1,0 +1,279 @@
+{
+  "method": "existing stem decoded-signal audit",
+  "start_seconds": 60,
+  "duration_seconds": 20,
+  "warning": "Exactly zero samples indicate digital silence in this excerpt, not a whole-song finding; filenames are not proof of useful isolated audio",
+  "songs": [
+    {
+      "song_id": "numb",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Linkin Park - Numb [6524a935]",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "mixes": {},
+      "stems": [
+        {
+          "name": "drums.ogg",
+          "sha256": "e5ef1c45e621f0b52dee79d5d1e8ff3939960d85c79c83eca30965c5a03cf354",
+          "peak": 1.129692792892456,
+          "rms": 0.2437218725681305,
+          "nonzero_samples": 1764000
+        }
+      ]
+    },
+    {
+      "song_id": "all-apologies",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Nirvana - All Apologies [473f6755]",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "mixes": {
+        "[mix 3 drums4]": 1
+      },
+      "stems": [
+        {
+          "name": "drums.ogg",
+          "sha256": "f13ecb8fdd4b18809346da79855d5f4abea391146fef1d7a3d1a66f04d004c1a",
+          "peak": 1.08792245388031,
+          "rms": 0.1591704934835434,
+          "nonzero_samples": 1764000
+        }
+      ]
+    },
+    {
+      "song_id": "come-together",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/The Beatles - Come Together [c620c633]",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "mixes": {
+        "[mix 3 drums0]": 1
+      },
+      "stems": [
+        {
+          "name": "drums.ogg",
+          "sha256": "6d4a93743566f70d483b14e03e467035169376ec435682f2a435ec182d7c1aee",
+          "peak": 1.017364263534546,
+          "rms": 0.10276393592357635,
+          "nonzero_samples": 1764000
+        }
+      ]
+    },
+    {
+      "song_id": "number-of-the-beast",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Iron Maiden - The Number of the Beast [19300087]",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "mixes": {
+        "[mix 3 drums2]": 1
+      },
+      "stems": [
+        {
+          "name": "drums_1.ogg",
+          "sha256": "6c4abe917fdb79d1fdceaf23ca3635a18287d06746edc3b47fb12a16088b639d",
+          "peak": 0.370572954416275,
+          "rms": 0.00895759928971529,
+          "nonzero_samples": 273688
+        },
+        {
+          "name": "drums_2.ogg",
+          "sha256": "9134ffb87a591eafc2bd1c3f8007078ceeb957ec7e66587c534b414ba5b4ae29",
+          "peak": 0.0,
+          "rms": 0.0,
+          "nonzero_samples": 0
+        },
+        {
+          "name": "drums_3.ogg",
+          "sha256": "47bc8652bc5debd1bfca80969167a1c6d2e6eb1dd111854bcefc235c346c2044",
+          "peak": 0.5233261585235596,
+          "rms": 0.038467444479465485,
+          "nonzero_samples": 1764000
+        }
+      ]
+    },
+    {
+      "song_id": "forsaken",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Dream Theater - Forsaken [5b947daf]",
+      "assets": [
+        "drums.ogg",
+        "song.ogg"
+      ],
+      "mixes": {
+        "[mix 3 drums0]": 1
+      },
+      "stems": [
+        {
+          "name": "drums.ogg",
+          "sha256": "3d03ac7326487b7314de82c953a6ca7dbe80807ae4a6c83826d2f4d1acc93d2c",
+          "peak": 1.0138269662857056,
+          "rms": 0.06921408325433731,
+          "nonzero_samples": 1764000
+        }
+      ]
+    },
+    {
+      "song_id": "cod-115",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Elena Siegman - 115 [6c3a879f]",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "mixes": {},
+      "stems": []
+    },
+    {
+      "song_id": "a7x-carry-on",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Avenged Sevenfold - Carry On [5ae67425]",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "mixes": {
+        "[mix 3 drums0]": 1
+      },
+      "stems": []
+    },
+    {
+      "song_id": "a7x-not-ready-to-die",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Not Ready To Die [59297cef]",
+      "assets": [
+        "song.ogg"
+      ],
+      "mixes": {
+        "[mix 3 drums0]": 1
+      },
+      "stems": []
+    },
+    {
+      "song_id": "a7x-afterlife",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Avenged Sevenfold - Afterlife [3f02fba9]",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "mixes": {
+        "[mix 3 drums3]": 1
+      },
+      "stems": [
+        {
+          "name": "drums_1.ogg",
+          "sha256": "f7ed052654d8e84cfede8c9de66f23a1ca9a024859c2c297f3fc4e31f69410fe",
+          "peak": 0.25671371817588806,
+          "rms": 0.025408457964658737,
+          "nonzero_samples": 1764000
+        },
+        {
+          "name": "drums_2.ogg",
+          "sha256": "dc0e5895d297bad0e67a5712963f662defb92fffa899642c5f9419a02b311309",
+          "peak": 0.2678258419036865,
+          "rms": 0.016653843224048615,
+          "nonzero_samples": 1764000
+        },
+        {
+          "name": "drums_3.ogg",
+          "sha256": "6c5786a9e17a863a1831d12ea85b396fa53bc2d8340a78611c3940bae526736c",
+          "peak": 0.3829074501991272,
+          "rms": 0.05350348725914955,
+          "nonzero_samples": 1764000
+        }
+      ]
+    },
+    {
+      "song_id": "a7x-brompton-cocktail",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Brompton Cocktail [59295b37]",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "mixes": {
+        "[mix 3 drums0]": 1
+      },
+      "stems": [
+        {
+          "name": "drums.ogg",
+          "sha256": "cb2270bd08f194f12e8ceca2013f90a20aa5644d665bc62634105c38279252e7",
+          "peak": 0.0,
+          "rms": 0.0,
+          "nonzero_samples": 0
+        }
+      ]
+    },
+    {
+      "song_id": "lp-faint",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Linkin Park - Faint [d9000b31]",
+      "assets": [
+        "song.ogg"
+      ],
+      "mixes": {},
+      "stems": []
+    },
+    {
+      "song_id": "lp-crawling",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - Crawling [b0175606]",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "mixes": {
+        "[mix 3 drums2d]": 4,
+        "[mix 3 drums2]": 4
+      },
+      "stems": [
+        {
+          "name": "drums_1.ogg",
+          "sha256": "ada52d256c31556dc537b72f3fa46a3727cca007d6fe8e98b3de2c6b58fcbba3",
+          "peak": 0.32534870505332947,
+          "rms": 0.04028916358947754,
+          "nonzero_samples": 1764000
+        },
+        {
+          "name": "drums_2.ogg",
+          "sha256": "995663e86b86ab94a27f327ca632a6c3bb967ac843f933f008255b513132ce68",
+          "peak": 0.43471163511276245,
+          "rms": 0.02036646381020546,
+          "nonzero_samples": 1764000
+        },
+        {
+          "name": "drums_3.ogg",
+          "sha256": "1a7b7918abe44bfdeb5753d44f286414a281474a0b40f76164dd89d46a767633",
+          "peak": 0.4066231846809387,
+          "rms": 0.02555915340781212,
+          "nonzero_samples": 1764000
+        }
+      ]
+    }
+  ]
+}

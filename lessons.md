@@ -242,3 +242,16 @@ finding. This file supplements the backlog; it does not redefine task completion
     resets, toms, simultaneous notes and conflicts. Compare prior references:
     all events in the previous ten songs and Faint remained unchanged. A changed
     label score is not detector improvement.
+
+44. **A drum filename can contain digital silence.** Brompton Cocktail's drums.ogg
+    decoded to zero in both fixed excerpts; The Number of the Beast's drums_2.ogg
+    was zero at 60–80 s. Audit decoded samples and record availability per excerpt
+    and class before scoring components. Exclude exact-zero unavailable audio,
+    preserve very quiet signals and keep the mix baseline. A regression verifies
+    that missing snare audio is not counted as transcription false negatives.
+45. **An author demo is not local model inference.** Seven source-verified
+    StemGMD/LarsNet MP3s could be obtained through GitHub while shell networking
+    was blocked. Record revision, blob identity, SHA256 and whether files are
+    references or precomputed estimates. Compare those signals without claiming
+    model execution, MIDI accuracy or performance on our songs. Keep E-GMD's
+    unused status and the remaining weight/runtime work explicit.

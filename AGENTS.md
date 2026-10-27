@@ -16,6 +16,9 @@ For every music-to-chart task, read and apply the project-local skill
 Use its audio evidence, raw-MIDI comparison and per-class measurement workflow
 throughout chart creation, not only after a hi-hat problem. Preserve the full-mix
 baseline and distinguish spectral candidates, transcribed notes and game acceptance.
+After each song/reference experiment, update that skill with measured findings,
+source provenance, failures and reusable instructions, as requested by the user.
+State whether an external resource was only researched, sampled or run locally.
 
 Use Python, uv, small modules and isolated audio/ML/export boundaries. Never
 download models implicitly, commit private audio, copy unreviewed upstream code,
