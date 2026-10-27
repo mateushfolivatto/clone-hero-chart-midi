@@ -185,6 +185,22 @@ HTML/CSV/JSON, recipe, spectral profile and skill guidance delivered. See
 docs/five-song-chart-reference.md. Phase 1, acoustic annotation, ADTOF comparison,
 Turn to Ashes and native Windows/game acceptance remain open.
 
+### Phase 1 frozen-profile evaluation on CoD/A7X — 2026-10-27
+
+- [x] **DCF-125 [P1]** Evaluate the existing spectral profile on other CoD and
+  Avenged Sevenfold songs without recalibration; preserve results and extend the skill.
+
+115, Carry On, Not Ready To Die, Afterlife and Brompton Cocktail supplied ten
+fixed excerpts, 200 seconds and 1,157 target references in mix mode. Drum-stem
+comparison is limited to the latter two songs. Twenty-five input files and the
+unchanged frozen profile are pinned. Text-chart reference parsing, external-data
+guards and an evaluation command were added. Mix F1: kick 0.428→0.424, snare proxy
+0.395→0.513, yellow cymbal 0.218→0.279, with lost recall. Carry On remains an
+unresolved poor match; 115's excerpts have zero yellow-cymbal references.
+129 core plus eight optional DSP tests passed. See docs/cod-a7x-heldout.md.
+This completes the requested external experiment, not acoustic annotation,
+ADTOF comparison, native Windows/game acceptance or overall Phase 1.
+
 ---
 
 ## Phase 2 — Canonical Event Pipeline

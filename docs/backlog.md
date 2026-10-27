@@ -1,5 +1,14 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-27 — Frozen profile on CoD and Avenged Sevenfold
+
+The requested five-song external test used 25 pinned files, unchanged profile
+rules, ten excerpts and 1,157 mix references. Text-chart support and missing-stem
+handling allow 115 alongside four A7X songs. Mix kick agreement did not improve;
+snare/yellow-cymbal proxies improved with lost recall. Carry On's poor chart/audio
+agreement remains unexplained. See [cod-a7x-heldout.md](cod-a7x-heldout.md)
+and canonical DCF-125; the overall transcription phase remains open.
+
 ## 2026-10-27 — Five chart/audio pairs
 
 The user authorized a real-song inverse reference experiment. Five existing

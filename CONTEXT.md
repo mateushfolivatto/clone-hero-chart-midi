@@ -191,6 +191,20 @@ is not recommended. Keep original ADTOF defaults and full-mix baseline until an
 independent, manually annotated instrument test supports a change. See
 docs/five-song-chart-reference.md and DCF-124; overall Phase 1 remains in progress.
 
+## CoD/A7X external evaluation (2026-10-27)
+
+The user then requested other CoD and Avenged Sevenfold songs. The five-song
+profile was kept frozen and applied to 115, Carry On, Not Ready To Die, Afterlife
+and Brompton Cocktail, two fixed 20-second excerpts each. Mix mode uses all five;
+existing drum stems are available only for Afterlife/Brompton Cocktail. The new
+evaluate command rejects reuse of calibration IDs/chart hashes and records profile
+identity. Read-only .chart support preserves its distinct cymbal flags, tempo and
+offset; missing MIDI velocity stays null. No detector thresholds were changed.
+Kick F1 was essentially unchanged on this sample, while snare/yellow-cymbal proxy
+F1 improved with lost recall. Carry On had poor agreement even with the original
+rule and needs pairing/alignment/masking investigation. No acoustic ground truth
+or ADTOF improvement is established. See docs/cod-a7x-heldout.md and DCF-125.
+
 ## Separate song-library workstream (2026-10-16)
 
 The user requested a separate, portable area for the growing MixDrumRock Qobuz

@@ -7,6 +7,21 @@ Audite Git/ambiente antes de editar, preserve trabalho existente e use uma branc
 nova a partir de main para uma nova unidade. Continue a branch existente se a
 unidade ainda estiver aberta. Preserve a implementação inspect-midi.
 
+DCF-125 também foi executado: leia docs/cod-a7x-heldout.md e os arquivos
+cod-a7x-heldout-* em docs/experiments/. O perfil das cinco músicas anteriores
+ficou congelado e foi aplicado a 115, Carry On, Not Ready To Die, Afterlife e
+Brompton Cocktail, com 200 s e 1.157 referências na mix. Bateria existe só nas
+duas últimas. O subcomando evaluate confere perfil/receitas e rejeita reutilização
+de dados da calibração. Há suporte de referência a notes.chart com semântica
+própria de pratos/tempo/offset e velocidade ausente como null.
+
+No conjunto externo: F1 de bumbo 0,428→0,424, caixa aproximada 0,395→0,513,
+prato amarelo 0,218→0,279. Houve perda de recall. Carry On teve pouquíssimas
+correspondências até no detector original; revise pareamento/alinhamento/
+mascaramento antes de escolher uma causa. Os trechos de 115 têm zero notas de
+prato amarelo, portanto não medem recall de chimbal. Preserve casos ruins e não
+recalibre após olhar o teste e depois chame a nova medição de independente.
+
 O usuário autorizou estudar cinco músicas prontas como referências de áudio/chart
 e combinar o resultado em arquivo e na skill. DCF-124 entregou esse experimento;
 leia docs/five-song-chart-reference.md, a receita, resultados e perfil em
@@ -37,7 +52,7 @@ ambiente/pesos locais verificados. Reporte TP/FP/FN, precisão/recall/F1 e erros
 Não declare identificação acústica por cores de chart ou acurácia por candidatos.
 
 Windows/Python 3.12 CPU continua primário. Os resultados de 2026-10-27 são Linux;
-117 testes do núcleo e sete regressões opcionais de DSP passaram. Consulte
+129 testes do núcleo e oito regressões opcionais de DSP passaram. Consulte
 docs/testing.md. Não instale WSL, Docker ou CUDA nem altere políticas do PC.
 O decoder do experimento usa guarda final de 100 ms e recorte por amostras,
 sem mover ataques ou preencher stems curtos. Charts/áudios originais permanecem

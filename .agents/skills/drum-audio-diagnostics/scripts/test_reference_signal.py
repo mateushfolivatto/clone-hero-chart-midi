@@ -1,5 +1,6 @@
 """Optional DSP regressions: run with the chart-reference script's dependencies."""
 
+import hashlib
 import json
 import tempfile
 import unittest
@@ -101,6 +102,84 @@ class SignalReferenceTests(unittest.TestCase):
             self.assertIn("KICK", text)
             self.assertIn("YELLOW_CYMBAL_PROXY", text)
             self.assertIn("unverified_spectral_candidate", text)
+
+    def test_frozen_evaluation_never_calibrates_or_invents_missing_stems(self):
+        from reference_holdout import evaluate
+
+        with tempfile.TemporaryDirectory() as work:
+            root = Path(work)
+            song = root / "new-song"
+            song.mkdir()
+            (song / "song.ini").write_text("[song]\npro_drums=True\nname=Authored\nartist=Test\n")
+            (song / "song.wav").write_bytes(b"authored placeholder; decoder is mocked")
+            (song / "notes.chart").write_text(
+                "[Song]\n{\n Resolution = 192\n}\n[SyncTrack]\n{\n 0 = B 120000\n}\n"
+                "[ExpertDrums]\n{\n 192 = N 0 0\n 192 = N 1 0\n 192 = N 2 0\n 192 = N 66 0\n}\n"
+            )
+            training = root / "training.json"
+            training.write_text(
+                json.dumps({"songs": [{"id": "old", "assets_sha256": {"notes.mid": "old-chart"}}]})
+            )
+            profile = {
+                "schema_version": 1,
+                "kind": "experimental_spectral_peak_rules",
+                "fft_size": spectral.N_FFT,
+                "hop_samples": spectral.HOP,
+                "sample_rate_hz": spectral.RATE,
+                "bands_hz": experiment.BANDS,
+                "source_songs": ["old"],
+                "source_recipe_sha256": experiment.digest(training),
+                "modes": {
+                    m: {g: [b, 3, 0.02] for g, b in BASELINE.items()} for m in experiment.MODES
+                },
+            }
+            path = root / "profile.json"
+            path.write_text(json.dumps(profile))
+            before = path.read_bytes()
+            recipe = root / "recipe.json"
+            recipe.write_text(
+                json.dumps(
+                    {
+                        "frozen_profile_sha256": hashlib.sha256(before).hexdigest(),
+                        "songs": [
+                            {
+                                "id": "new",
+                                "folder": "new-song",
+                                "assets_sha256": {
+                                    p.name: experiment.digest(p) for p in song.iterdir()
+                                },
+                                "excerpts": [{"start": 0, "duration": 2}],
+                            }
+                        ],
+                    }
+                )
+            )
+            args = experiment.argparse.Namespace(
+                recipe=recipe,
+                profile=path,
+                training_recipe=training,
+                library_root=root,
+                out=root / "result",
+                ffmpeg_path="ffmpeg",
+            )
+            audio = authored_audio()
+            with (
+                patch.object(experiment, "exact_excerpt", return_value=(audio, len(audio))),
+                patch.object(
+                    experiment, "calibrate", side_effect=AssertionError("calibration forbidden")
+                ),
+                patch(
+                    "reference_signal.calibrate",
+                    side_effect=AssertionError("calibration forbidden"),
+                ),
+            ):
+                evaluate(args, experiment)
+            report = json.loads((args.out / "report.json").read_text())
+            self.assertFalse(report["calibration_performed"])
+            self.assertEqual(report["mode_coverage"], {"mix": ["new"], "drums": []})
+            self.assertEqual(path.read_bytes(), before)
+            self.assertEqual((args.out / "frozen-profile.json").read_bytes(), before)
+            self.assertEqual(report["songs"][0]["chart_format"], "chart")
 
 
 if __name__ == "__main__":
