@@ -1,5 +1,63 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-27 — Broad frozen song survey
+
+64 additional songs across 20 artists completed 128 fixed excerpts and 14,534
+mix references. Selection, bounded execution/resume and independent CSV scoring
+are reproducible; source comparisons use matching excerpts. Component snare
+benefits persisted while the earlier HH benefit did not generalize to twelve
+new pairs. Density, simultaneous notes, negative cases and a temporal control
+are retained in [broad-song-survey.md](broad-song-survey.md) and DCF-128.
+
+## 2026-10-27 — Explicit components and free public reference
+
+The follow-up audits actual stem samples, omits exactly silent drum/component
+excerpts and reports coverage by class. Seven existing songs are compared with
+unchanged rules; Afterlife/Crawling components improve snare/yellow agreement
+and worsen kick. A chart-free component-candidate command was exercised. Seven
+small author StemGMD/LarsNet demonstration MP3s were source/hash verified and
+compared; no local model inference or paid service was used. See
+[stem-component-study.md](stem-component-study.md) and canonical DCF-127.
+
+## 2026-10-27 — Linkin Park timekeeping hi-hat
+
+Faint and Crawling were inspected using the frozen profile and 13 pinned files.
+Crawling exposed ignored disco-flip markers: Pro reference groups now resolve
+the authored lane swap without altering original notes or detector parameters.
+The original HH detector outperformed the restrictive profile on both songs;
+Crawling drums recovered more attacks than its mix. See
+[linkin-park-hihat.md](linkin-park-hihat.md) and canonical DCF-126.
+
+## 2026-10-27 — Frozen profile on CoD and Avenged Sevenfold
+
+The requested five-song external test used 25 pinned files, unchanged profile
+rules, ten excerpts and 1,157 mix references. Text-chart support and missing-stem
+handling allow 115 alongside four A7X songs. Mix kick agreement did not improve;
+snare/yellow-cymbal proxies improved with lost recall. Carry On's poor chart/audio
+agreement remains unexplained. See [cod-a7x-heldout.md](cod-a7x-heldout.md)
+and canonical DCF-125; the overall transcription phase remains open.
+
+## 2026-10-27 — Five chart/audio pairs
+
+The user authorized a real-song inverse reference experiment. Five existing
+Pro Drums packages supplied ten excerpts, mixes/drum stems and 860 target proxy
+events. Whole-song holdout calibration improved kick/snare agreement and worsened
+the yellow-cymbal proxy. Reproducible recipes, results, profile, study/predict
+scripts and the existing skill now retain that evidence. See
+[five-song-chart-reference.md](five-song-chart-reference.md); root BACKLOG.md owns
+DCF-124 and the still-open Phase 1 acceptance. No ADTOF improvement or game
+acceptance is claimed.
+
+## 2026-10-20 — Raw MIDI diagnostics
+
+The music-to-chart work resumes within Phase 1 using the local diagnostic skill
+for every song. `inspect-midi` writes tempo-aware raw GM onset/velocity CSV and
+JSON counts, preserving simultaneous attacks. Fifteen regressions (104 total)
+and a synthetic skill-guided audio/MIDI demonstration passed. See
+[phase-1-midi-diagnostics.md](phase-1-midi-diagnostics.md) for scope and commands;
+root BACKLOG.md owns DCF-118/119 and the remaining private-song acceptance tasks.
+No canonical pipeline/exporter or game acceptance is completed by this slice.
+
 ## 2026-10-17 — Recover the pilot after failed download
 
 The user reported an artifact-download error and could not find data/. The resumed
@@ -200,7 +258,8 @@ with 172 Pro Drums and 35 ordinary Drums. All 1527 assets,
 Band-only recovery references the 33 earlier charts without duplicating recipes;
 the local comparator exports only absent songs and holds shared-chart/edition
 uncertainty for review. Prior recipes, Qobuz coverage and Onyx helper bytes are
-preserved. All 100 tests, quality gates and distribution audits passed, alongside
+preserved. All 155 core tests, 19 optional DSP checks and distribution audits
+passed after integrating existing main diagnostics, alongside
 fresh stdlib recovery/offline resume and real-song additions checks on Linux.
 See [the Windows guide and next prompt](../song-library/LINKIN-PARK.md) and
 [technical evidence](library-linkin-park-verification.md). Root BACKLOG.md owns

@@ -8,6 +8,12 @@ description: Investigar batidas ausentes ou falsas em transcrição de bateria p
 Use processamento de sinais e evidência do áudio para investigar falhas. Esta skill
 orienta o Codex e fornece um analisador local; ela não é um novo modelo treinado.
 Leia as instruções AGENTS.md do projeto e respeite a fase vigente antes de editar.
+Por preferência do usuário, aplique este procedimento em toda tarefa de música
+para chart, mesmo sem uma falha de chimbal relatada. A skill orienta diagnóstico;
+não substitui o transcritor nem transforma os candidatos espectrais em notas.
+Após cada experimento, atualize esta skill com resultados e limitações observados,
+para reutilizar o aprendizado em músicas futuras. Busque o melhor resultado
+mensurável por instrumento; não prometa 100% de acerto a partir de exemplos.
 Não substitua o modelo nem avance o exportador para resolver uma hipótese de áudio.
 
 ## Primeiro estabeleça os fatos
@@ -21,7 +27,257 @@ Não substitua o modelo nem avance o exportador para resolver uma hipótese de �
 4. Compare o MIDI bruto à exportação antes de culpar o detector. Uma nota pode ser
    perdida na classificação, no peak picking, na normalização ou no mapeamento.
 
+## Inspecione o MIDI bruto
+
+Após `transcribe`, gere os diagnósticos antes de ajustar limiares:
+
+```powershell
+uv --cache-dir .uv-cache sync --locked --extra diagnostics
+uv --cache-dir .uv-cache run --locked drumforge inspect-midi 'work/raw.mid' --out 'output/diagnostico-midi'
+```
+
+Adapte os caminhos e use uma pasta de saída nova. O extra opcional fixa Mido
+1.3.3; não instala ML. `report.json` contém SHA256 do MIDI, mapa de tempo e
+contagens por nota/grupo BD SD HH TT CY UNKNOWN. `events.csv` preserva tempos em
+segundos, notas GM, velocidades armazenadas e ataques simultâneos, sem deduplicar
+ou quantizar. Velocidade MIDI não é intensidade acústica estimada nem confiança.
+
+O comando espera percussão GM no canal 10 (índice 9). Ele rejeita `PART DRUMS`,
+formato 2 e divisão SMPTE, e informa notas ignoradas em outros canais. Não passe
+um `notes.mid` de Clone Hero: seus números de notas significam pistas do jogo.
+Os tempos partem do zero do MIDI; se a transcrição veio de um recorte, registre
+separadamente sua origem na música antes de comparar ao gráfico com `--start`.
+
 ## Gere os gráficos
+
+### Aprender com charts existentes e ondas
+
+Quando houver músicas já chartadas, use-as como referências fracas de tempo e
+pistas, em vez de esperar somente por Turn to Ashes. O experimento de cinco músicas
+está em `docs/five-song-chart-reference.md`, com receita e resultados agregados em
+`docs/experiments/`. Ele usa dois trechos de 20 s por música, mix reconstruída e
+stems de bateria já presentes, sem baixar ou treinar modelos.
+
+Resolva eventos de mix Expert antes de usar cores como referências. O flag `d`
+em `[mix 3 drums2d]` (ou eventos locais equivalentes em .chart) indica disco flip:
+em Pro, vermelho armazenado vira prato amarelo e amarelo armazenado vira caixa,
+inclusive se era tom. Vale desde o tick do evento até o próximo mix Expert;
+`dnoflip` e mix sem flag não trocam notas. Outras dificuldades não resetam Expert.
+O leitor resolve estados no mesmo tick independentemente da ordem, recusa conflitos
+e mantém números de nota/tempos/velocidades de origem. `group` é a pista Pro
+resolvida; `midi_note` continua sendo a pista armazenada, não uma nota GM.
+
+Fora do disco flip, leia marcadores de tom 110/111/112 por seus intervalos antes de
+interpretar notas Expert 96–100. Nota 98 com marcador 110 é tom amarelo; sem ele,
+prato amarelo.
+Prato amarelo é **proxy de possível chimbal**, não identificação acústica garantida.
+O mesmo vale para o pad vermelho como proxy de caixa. Charts podem simplificar
+ataques; não copie MIDI do jogo como se já fosse percussão GM de um transcritor.
+
+Na raiz do repositório, ajuste a raiz dos lotes já extraídos:
+
+```powershell
+uv --cache-dir .uv-cache run --no-project --locked --script .agents/skills/drum-audio-diagnostics/scripts/chart_reference.py study --recipe docs/experiments/five-song-chart-reference.json --library-root 'C:/caminho/downloads' --out 'output/referencia-cinco-musicas'
+```
+
+O script fixa NumPy/Matplotlib/Mido em lock próprio e reutiliza o espectrograma e
+fluxo desta skill. Confere os hashes dos 36 arquivos da receita, aplica tempo MIDI
+e delay explícito, preserva ataques simultâneos e soma os stems com ganho comum.
+`song.ogg` de um pacote multitrack pode conter somente acompanhamento: não o chame
+sozinho de mixagem completa. Prévia/crowd e codificações duplicadas são excluídas.
+O decoder usa guarda final de 100 ms e corta ao número exato de amostras do trecho;
+isso corrige a sobra de quadros, sem mover ataques ou preencher stems curtos.
+
+Calibre regras de faixa/limiar em quatro músicas e teste na quinta. Todos os
+trechos da quinta devem ficar fora da calibração. Correspondência uma a uma a
+±30 ms, excluindo 50 ms de cada borda; reporte TP/FP/FN, precisão, recall, F1 e
+erro temporal. Não ajuste offsets ou limiares usando os rótulos da música de teste.
+Este benchmark mede coincidência com charts, não acurácia acústica independente.
+
+Inspecione `report.html`, dez PNGs, `report.json`, `chart-events.csv`,
+`held-out-candidates.csv` e `spectral-profile.json`. Os gráficos também mostram
+tons e outros pratos como contexto. O perfil final é calibrado nas cinco músicas;
+as métricas independentes são as dos cinco folds, não um teste desse perfil final.
+
+Resultado em 2026-10-27: na mix, F1 de bumbo 0,385→0,599 e proxy de caixa
+0,339→0,468; prato amarelo 0,472→0,456. O ajuste não melhorou o chimbal e o stem
+de bateria não foi superior em toda classe/música. Não substitua defaults ADTOF
+com esses números: ADTOF não foi comparado neste experimento.
+
+Para propor candidatos em outro áudio, sem fornecer um chart:
+
+```powershell
+uv --cache-dir .uv-cache run --no-project --locked --script .agents/skills/drum-audio-diagnostics/scripts/chart_reference.py predict 'audio/musica.wav' --profile docs/experiments/five-song-spectral-profile.json --start 30 --duration 20 --out 'output/candidatos-experimentais'
+```
+
+Essa saída é CSV de candidatos experimentais e proveniência, ainda sem chart de
+jogo ou dinâmica/confiança estimadas. O perfil declara uso automático não
+recomendado. Não complete colcheias nem chame todos os agudos de chimbal; anote
+um trecho por instrumento, incluindo outros pratos e simultaneidades, para a
+próxima comparação com ADTOF ou um método multibanda mais discriminativo.
+
+### Testar em outras músicas sem recalibrar
+
+Use o subcomando evaluate para medir a transferência do perfil já salvo. Ele
+confere o hash do perfil e a receita original, rejeita músicas/charts da calibração
+e não chama o calibrador. Não ajuste offsets ou faixas após olhar os rótulos de
+teste. O estudo externo CoD/Avenged Sevenfold está em docs/cod-a7x-heldout.md.
+
+```powershell
+uv --cache-dir .uv-cache run --no-project --locked --script .agents/skills/drum-audio-diagnostics/scripts/chart_reference.py evaluate --recipe docs/experiments/cod-a7x-heldout-recipe.json --profile docs/experiments/five-song-spectral-profile.json --training-recipe docs/experiments/five-song-chart-reference.json --library-root 'C:/caminho/downloads' --out 'output/cod-a7x-teste'
+```
+
+Não exija bateria isolada para avaliar a mixagem: um pacote pode ter somente
+guitar.ogg/song.ogg com o áudio completo. Registre a seleção efetiva; bateria só
+entra no agregado das músicas que têm seus stems. Não invente stems ou compare
+agregados de amostras diferentes como se fossem os mesmos pares.
+
+O leitor também aceita notes.chart: flags 66/67/68 no mesmo tick marcam pratos;
+sem esses flags as notas coloridas são pads/tons. Isso é diferente do MIDI, onde
+110/111/112 marcam tons e a ausência deles indica prato nas pistas amarelo/azul/
+verde. Preserve Resolution, mudanças de BPM, Offset e delay do INI. Não invente
+velocidade de MIDI para .chart: registre null e a convenção de números de pista.
+
+No teste CoD/A7X de 2026-10-27, sem recalibração, mix F1 foi 0,428→0,424 em bumbo,
+0,395→0,513 no proxy de caixa e 0,218→0,279 em prato amarelo. O perfil perdeu
+recall. Carry On falhou inclusive com a regra original; investigue pareamento,
+alinhamento e mascaramento antes de atribuir uma causa. Os trechos de 115 não
+têm prato amarelo no chart: não use esse F1 como recall de chimbal. Preserve
+os casos ruins no relatório e não troque janelas depois de ver os resultados.
+
+O usuário lembra que, nas músicas de CoD/Avenged discutidas, o amarelo corresponde
+a chimbal, geralmente aberto. Use essa informação como hipótese principal para
+revisar esses pares, com origem explícita no relato do usuário; não a estenda a
+todo o catálogo nem atribua abertura a cada nota sem conferir o trecho. Preserve
+YELLOW_CYMBAL_PROXY nas métricas congeladas. Zero notas dessa classe em um recorte
+não comprova ausência de chimbal audível, como no caso a revisar de 115.
+
+Na revisão do chimbal aberto, examine ataque e cauda de energia no espectrograma
+e no envelope. A cauda pode sobrepor o ataque seguinte; sustentar energia não
+significa um novo golpe. Compare também chimbal fechado, ride/crash e ataques
+simultâneos de caixa/bumbo. Duração isolada não identifica o prato. O detector
+atual usa picos de fluxo por faixa, sem classificar aberto/fechado nem modelar
+explicitamente o decaimento. Esta é uma hipótese para o próximo experimento,
+não uma melhora já medida ou motivo para retocar o perfil congelado.
+
+### Chimbal mantendo a pulsação: Faint e Crawling
+
+O usuário indicou essas músicas de Linkin Park como exemplos. O estudo está em
+`docs/linkin-park-hihat.md`, com receita e resultados em docs/experiments/.
+Para reproduzir, use evaluate com `linkin-park-hihat-recipe.json`, o mesmo perfil
+e a receita original de calibração. Mantenha 60–80 s e 120–140 s sem recalibrar.
+Faint tem mix; Crawling tem mix e bateria. Não atribua a ambas a lembrança de
+chimbal geralmente aberto relatada antes para CoD/A7X: abertura aqui não foi anotada.
+
+Crawling revelou o disco flip ignorado: o amarelo Pro passou de 52 para 212
+referências nos recortes após corrigir a leitura, sem alterar o detector. O leitor
+registra versão semântica 2 e notas reclassificadas. Compare referências antigas
+antes de atribuir uma diferença de score ao algoritmo de áudio. Os eventos dos
+dez charts anteriores e Faint ficaram idênticos após esta correção.
+
+Nas sequências chartadas, Faint tem passos típicos de 222 ms; Crawling alterna
+286/143 ms. Meça diferenças consecutivas dentro do recorte, com PPQN explícito,
+sem completar notas. O detector original de agudos superou o perfil restritivo:
+F1 de amarelo 0,618→0,589 em Faint/mix, 0,683→0,550 em Crawling/mix e
+0,847→0,824 em Crawling/bateria. A bateria recuperou ataques neste exemplo;
+não generalize nem mude defaults ADTOF sem outra avaliação independente.
+
+### Auditar e aproveitar componentes existentes
+
+Consulte `docs/stem-component-study.md` e as receitas/resultados correspondentes
+em docs/experiments/. A comparação adicional nas sete músicas CoD/A7X/Linkin usa
+as mesmas janelas e regras; não é um novo teste independente. O avaliador aceita
+`component_sources` explícitos por grupo, que devem apontar a arquivos distintos
+já selecionados e fixados por hash. As regras congeladas de bateria são aplicadas
+por classe a esses componentes, sem argmax ou supressão entre instrumentos.
+
+Decodifique antes de confiar no nome do stem. Brompton Cocktail tem drums.ogg
+exatamente silencioso nos dois recortes; The Number of the Beast tem drums_2.ogg
+silencioso em 60–80 s. Não conclua que o arquivo inteiro está vazio. O avaliador
+v2 registra peak/RMS, exclusões e class_coverage com músicas, recortes, segundos
+e referências por classe. Exclua apenas silêncio digital exato, preservando áudio
+muito fraco. Não pontue um componente indisponível como falha de detecção.
+
+Em Afterlife/Crawling, drums_1/2/3 foram declarados como bumbo/caixa/restante do
+kit. O terceiro ainda contém tons e pratos: não é chimbal isolado. Nos mesmos
+80 s, F1 congelado bateria→componentes: bumbo 0,661→0,610, caixa 0,482→0,761 e
+amarelo 0,686→0,776. Fonte melhor depende da classe. Não transforme seleção feita
+após este teste em ganho independente nem altere defaults ADTOF com esses dados.
+
+Para receber stems de um separador em uma música sem chart:
+
+```powershell
+uv --cache-dir .uv-cache run --no-project --locked --script .agents/skills/drum-audio-diagnostics/scripts/chart_reference.py predict-components --kick 'audio/kick.wav' --snare 'audio/snare.wav' --high-percussion 'audio/kit-ou-hihat.wav' --profile docs/experiments/five-song-spectral-profile.json --rules baseline --start 30 --duration 20 --out 'output/candidatos-componentes'
+```
+
+O comando usa somente áudio e regras, registra hashes/ganho comum/silêncio e
+gera CSV experimental. `--rules frozen` usa o perfil salvo de bateria. Os stems
+precisam já estar alinhados; duração igual não comprova isso. Não há separação,
+identificação de aberto/fechado, MIDI ou chart de jogo nesse comando.
+
+### Ampliar a amostra sem ajustar sobre o teste
+
+O estudo em `docs/broad-song-survey.md` avaliou 64 músicas novas/20 artistas,
+128 recortes fixos e 14.534 referências na mix. A receita exclui as 12 músicas
+anteriores por chart e artista/título normalizados. Planeje antes de pontuar:
+survey-plan seleciona em rodadas por artista com seed e teto explícitos, dando
+prioridade a componentes documentados e depois a arquivos de bateria. Isso é uma
+amostra da coleção local, não de toda a música; não exclua falhas após ver F1.
+
+Use survey com até dois workers CPU, uma música por processo, e o perfil congelado.
+Resume exige as mesmas entradas, receita, perfil, código e versões, além de recibos
+dos relatórios/CSV. Pasta incompleta não é sucesso. O resumo por survey_summary.py
+tem lock próprio, recalcula scores dos CSV e exige igualdade com os relatórios.
+Compare fontes somente nos mesmos pares música/recorte/classe disponíveis.
+Preserve as notas duplicadas como identidades distintas ao fazer correspondência.
+
+Resultados da mix original→perfil: bumbo F1 0,420→0,533, caixa 0,426→0,526 e
+amarelo 0,417→0,441. Recall caiu em todas as classes; no bumbo, 79,9%→47,0%.
+Reportar apenas F1 esconderia ataques perdidos. A precisão de amarelo ainda é 33,7%.
+Não adote o perfil como transcritor de produção nem interprete cor como instrumento
+acusticamente confirmado.
+
+Nos 30 pares mix/bateria, o perfil melhorou bumbo (0,549→0,667), piorou caixa
+(0,555→0,492) e melhorou pouco amarelo (0,467→0,501). Nos 12 pares de bateria/
+componentes, caixa melhorou 0,502→0,617; amarelo ficou 0,501→0,505, com intervalo
+de ganho incluindo zero. O benefício de HH visto em Afterlife/Crawling não se
+generalizou a estes novos pares. Fonte vencedora depende da classe e da amostra.
+
+Inclua recortes sem notas-alvo. Em 12 recortes sem amarelo no chart houve 691
+candidatos congelados. Octavarium não tinha nenhuma das três classes nos dois
+recortes: pontue notas extras, sem inventar recall ou colocá-lo no ranking positivo.
+Behind The Crooked Cross tinha bateria digitalmente silenciosa em ambos; preserve
+a mix e exclua apenas a fonte indisponível. Registre esses casos, não os substitua.
+
+Meça densidade e simultaneidades como associações descritivas. Na mix, amarelos
+com caixa/bumbo no mesmo tick tiveram recall 71,6%, contra 46,8% sem eles. Isso
+não comprova isolamento de HH nem confirma mascaramento como causa universal.
+Charts densos também oferecem mais oportunidades de coincidência. Um controle
+exploratório com 31 deslocamentos circulares preservou contagens e confirmou
+informação temporal acima do controle, com efeito de densidade em ambos.
+Deslocamentos são somente para controle: nunca retime predições reais para ganhar
+score. Não complete padrões rítmicos ou infira aberto/fechado por esses números.
+
+Para o próximo avanço, reserve outra amostra com rótulos acústicos por instrumento
+e compare o transcritor/separador à mix, incluindo pausas, outros pratos e ataques
+simultâneos. Não recalibre nestas 64 músicas e chame o resultado de independente.
+
+### Recursos externos: distinguir acesso de inferência
+
+Não é necessária assinatura para os ensaios locais. Em 2026-10-27 obtivemos sete
+MP3 (3,35 MB) do exemplo oficial StemGMD/Bluebird com referências e resultados
+pré-calculados LarsNet, revisão a5f75326. Identidade Git blob e SHA256 estão em
+docs/experiments/stemgmd-author-sample.json. Mídia permanece privada/ignorada.
+Os gráficos e SI-SDR comparam as saídas publicadas; não representam LarsNet rodando
+nas nossas músicas, acurácia de notas ou um teste amplo. Não houve MIDI de
+referência usado na amostra. O HH publicado combina aberto/fechado.
+
+StemGMD declara CC BY 4.0. O modelo LarsNet anuncia CPU, 562 MB e pesos CC BY-NC
+4.0; esses pesos não foram baixados/executados, e a compatibilidade Windows local
+não está validada. E-GMD não foi integrado. Songsterr MIDI/GP é opção paga,
+dispensável aqui. Informe o estado real de cada recurso; não chame demonstrações
+de terceiros de inferência nossa. Audite revisão/hash/licença antes de instalar
+um separador, preserve a mix e compare uma amostra reservada por instrumento.
 
 O script `scripts/inspect_audio.py`, relativo a esta skill, usa FFmpeg local,
 NumPy e Matplotlib. Não importa PyTorch, não baixa pesos e não envia áudio.

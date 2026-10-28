@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.11,<3.13"
 dependencies = []
 
+[project.optional-dependencies]
+diagnostics = ["mido==1.3.3"]
+
 [project.scripts]
 drumforge = "drumforge.cli:main"
 
@@ -20,7 +23,7 @@ packages = ["src/drumforge"]
 include = ["/src", "/tests", "/docs", "/*.md", "/pyproject.toml", "/uv.lock", "/.python-version", "/.gitignore", "/.gitattributes"]
 
 [dependency-groups]
-dev = ["pytest>=8,<10", "ruff>=0.11,<1", "mypy>=1.15,<2", "hatchling==1.27.0"]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1", "mypy>=1.15,<2", "hatchling==1.27.0", "mido==1.3.3"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

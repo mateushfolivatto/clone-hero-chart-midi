@@ -11,6 +11,15 @@ Audit repository status and runtime before edits. Do only the current phase;
 verify its acceptance criteria before moving on. A session may end with explicitly
 blocked items, but must not claim that the phase is complete.
 
+For every music-to-chart task, read and apply the project-local skill
+`.agents/skills/drum-audio-diagnostics/SKILL.md`, as requested by the user.
+Use its audio evidence, raw-MIDI comparison and per-class measurement workflow
+throughout chart creation, not only after a hi-hat problem. Preserve the full-mix
+baseline and distinguish spectral candidates, transcribed notes and game acceptance.
+After each song/reference experiment, update that skill with measured findings,
+source provenance, failures and reusable instructions, as requested by the user.
+State whether an external resource was only researched, sampled or run locally.
+
 Use Python, uv, small modules and isolated audio/ML/export boundaries. Never
 download models implicitly, commit private audio, copy unreviewed upstream code,
 or equate wrapper and checkpoint licenses. CPU operation is required.

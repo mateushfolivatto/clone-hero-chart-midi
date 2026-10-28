@@ -1,5 +1,83 @@
 # Quality gates
 
+The Linkin Park expansion integrated with existing diagnostics passes **155 core
+tests and 19 optional DSP checks** on Linux/Python 3.12. The shared reader also
+rechecked every stored drum field in the 207 new charts without a change.
+See [library-linkin-park-verification.md](library-linkin-park-verification.md).
+
+Before this expansion, the broad-survey/themed-library tree passed 146 core tests and 19 optional
+DSP tests on Linux/Python 3.12. The survey adds three core and six optional cases;
+the remote library additions contribute two core metadata cases. They cover order-independent
+artist selection, duplicate-note identity, paired excerpt coverage, song-bootstrap
+units, absent-reference false alarms, circular controls and modified-cache refusal.
+Real checks: 64 completed songs, 128 byte-identical CSVs on full rerun, verified
+resume of all reports, independent CSV score recomputation and six diagnostic
+gallery reruns with matching metrics. See [broad-song-survey.md](broad-song-survey.md).
+Project/script lock checks, Ruff lint/format, strict mypy (44 source files), CLI
+help/doctor, wheel/sdist build and archive hygiene pass. ML is absent in this
+environment; doctor reports it as optional, not as an inference success.
+Also check the new summary script lock:
+
+```text
+uv --cache-dir .uv-cache lock --check --script .agents/skills/drum-audio-diagnostics/scripts/survey_summary.py
+```
+
+The component-source slice adds five optional DSP tests (13 total; core remains
+141). They distinguish digital silence from very quiet signals, reject invalid
+sources/shapes, preserve simultaneous chart-free candidates, reject changing
+inputs and verify partial coverage without scoring missing components. Run all
+optional regressions with the diagnostic dependencies installed:
+
+```text
+python -m unittest discover -s .agents/skills/drum-audio-diagnostics/scripts -p 'test_*.py'
+```
+
+Real checks include the seven-song source comparison, chart-free Crawling stems
+and seven source-verified public author MP3s. No model was downloaded or run.
+See [stem-component-study.md](stem-component-study.md).
+
+The Linkin Park study adds 12 core disco-flip regressions (141 total), covering
+MIDI/.chart state boundaries, simultaneous notes, dnoflip and other reset flags,
+other difficulties, yellow toms, conflicting/unsupported mix events and source
+preservation. The eight optional DSP tests also verify an escaped recipe-specific
+HTML title. Ten earlier real-song references and Faint were compared against the
+previous reader: identical events. See [linkin-park-hihat.md](linkin-park-hihat.md).
+
+The CoD/A7X frozen evaluation adds 12 core cases (129 total) and one optional
+integration case (eight DSP tests total). They cover .chart tempo/Offset/cymbal
+semantics, missing velocities, single-stream packages and calibration-data reuse
+guards. The optional integration rejects any calibration call, preserves profile
+bytes and verifies that absent drums are not fabricated. The existing optional
+unittest command below includes it. See [cod-a7x-heldout.md](cod-a7x-heldout.md).
+
+The five-song reference experiment adds 13 core cases (117 tests total) for
+tempo/delay and tom-marker boundaries, unsupported references, stem selection,
+one-to-one scoring and song-level holdout exclusion. The shared MIDI-track loader
+keeps existing package-inspection behavior; all library regressions still run.
+Seven optional DSP tests exercise exact baseline equivalence, silence, stereo
+phase, exact-length cropping, short-stem rejection, calibration and chart-free
+profile application. With the script dependencies installed, run:
+
+```text
+python -m unittest discover -s .agents/skills/drum-audio-diagnostics/scripts -p test_reference_signal.py
+uv --cache-dir .uv-cache lock --check --script .agents/skills/drum-audio-diagnostics/scripts/chart_reference.py
+```
+
+See [five-song-chart-reference.md](five-song-chart-reference.md) for the real
+200-second study and its weak-label/ADTOF/native-Windows limitations. Per-event
+outputs and graphics remain ignored; aggregate JSON and input hashes are versioned.
+
+The 2026-10-20 Phase 1 raw-MIDI inspector adds 15 cases (104 total), with Mido
+1.3.3 pinned in the dev group and optional diagnostics extra. Run the normal
+gates below and `drumforge inspect-midi --help`. Authored multitrack MIDI bytes
+check tempo changes, simultaneous HH/kick/tom events, running status, duplicates,
+velocities, unknown notes, channel filtering and unsupported input rejection.
+CLI/export checks cover JSON/CSV consistency, stable bytes, source preservation,
+existing output refusal and cleanup after a failed write. The authored signal/MIDI
+demo and optional-script offline limitation are recorded in
+[phase-1-midi-diagnostics.md](phase-1-midi-diagnostics.md). Native Windows, private
+song transcription and game acceptance remain pending.
+
 The hi-hat diagnostic slice added a regression, bringing its baseline to 38 tests;
 integration with the concurrent private-library pilot passed all 46 tests.
 The regression checks that the public hi-hat threshold reaches backend GM 42 and the tom

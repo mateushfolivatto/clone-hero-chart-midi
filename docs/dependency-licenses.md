@@ -1,5 +1,21 @@
 # Dependency and model license register
 
+## Free reference resources — 2026-10-27
+
+| Resource / source | Verified statement | Actual use / boundary |
+| --- | --- | --- |
+| [StemGMD](https://zenodo.org/records/7860223) | Dataset declared CC BY 4.0 by its authors; retain author attribution and source/license when redistributing | Seven small MP3 author demonstration files read locally, pinned to Git revision/blob/SHA256; audio remains ignored, not packaged or committed |
+| [LarsNet](https://github.com/polimi-ispl/larsnet) | README declares pretrained weights CC BY-NC 4.0 and 562 MB; no root code LICENSE found in inspected main tree 17d631fd | Compare published demonstration outputs only. No upstream code copied, package installed or checkpoint downloaded. Local model compatibility and code grant remain unresolved; no weight redistribution/commercial grant inferred |
+| [E-GMD](https://magenta.tensorflow.org/datasets/e-gmd) | Dataset declared CC BY 4.0 | Research option only, no data downloaded/integrated |
+| [Songsterr Plus](https://www.songsterr.com/plus) | MIDI/Guitar Pro download is an advertised subscription feature | Not purchased or used; not needed for the current local/public-reference tests |
+
+Public demo provenance: polimi-ispl/larsnet gh-page revision
+a5f75326ebcc4c253bce75cb74e029f5b75cfa88; source files and hashes are in
+docs/experiments/stemgmd-author-sample.json. Attribution: Alessandro Ilic Mezza,
+Riccardo Giampiccolo, Alberto Bernardini and Augusto Sarti, StemGMD / Toward Deep
+Drum Source Separation. The sampled outputs are not evidence of local inference
+or permission to redistribute model weights. No new Python dependency was added.
+
 ## Optional diagnostic script — 2026-10-16
 
 The project-local skill's script uses NumPy 2.3.5 (BSD-3-Clause) and Matplotlib
@@ -88,6 +104,9 @@ Mido 1.3.3 is an optional metadata/MIDI inspection tool under MIT, verified from
 installed package metadata; source: https://github.com/mido/mido/blob/main/LICENSE.
 It is invoked through `uv run --locked --with mido==1.3.3`, not embedded in the
 project wheel or the song ZIP. It has no weights. Preserve notices if redistributed.
+As of 2026-10-20, the raw-MIDI inspector also declares Mido 1.3.3 in the locked
+optional `diagnostics` extra and development group. It is loaded lazily and remains
+outside the core's mandatory runtime dependencies. No Mido code is copied or vendored.
 The existing FFmpeg build reports GPL terms via `ffmpeg -L`; it is invoked locally
 for probing/decoding, and its executable is not included in the song delivery.
 No upstream implementation was copied and no model was installed for the pilot.

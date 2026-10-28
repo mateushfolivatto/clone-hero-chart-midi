@@ -202,9 +202,72 @@ finding. This file supplements the backlog; it does not redefine task completion
     a blocked output sink, slow process creation and a late successful return.
     A mocked TimeoutExpired alone does not validate real deadline enforcement.
 
+## 2026-10-20 — MIDI diagnostic fixtures
+
+39. **Sort note-ons and note-offs together in synthetic MIDI.** An ad-hoc demo
+    generator appended a note-off before the next simultaneous note-on, creating
+    a negative delta and stalling an unchecked VLQ encoder. Build one tick-sorted
+    event schedule and bound VLQ inputs to 0..0x0fffffff. The corrected demo parses
+    all 22 expected attacks, including seven simultaneous pairs; independent
+    hand-authored regression bytes verify timing without relying on that generator.
+
+## 2026-10-27 — Existing chart/audio pairs
+
+40. **A game lane is a weak instrument label.** In five real songs, yellow-cymbal
+    tuning worsened held-out F1 even while kick/snare improved. Come Together has
+    many blue toms and few yellow cymbals. Preserve marker intervals and label
+    proxies honestly; exclude all excerpts of the test song from calibration.
+    Verify TP/FP/FN and individual song results before adopting a spectral profile;
+    agreement with charts is not independently annotated acoustic accuracy.
+41. **FFmpeg -t can leave a codec tail beyond the requested sample count.** At
+    120 s, two Numb Vorbis stems returned 352/448 extra samples for a 20 s request.
+    Decode a bounded tail guard and crop by exact sample count without shifting
+    the start; refuse stems that do not cover the interval. A regression verifies
+    exact cropping/start preservation, and the real rerun preserves scoring.
+
+42. **External tests must keep rules and coverage explicit.** CoD/A7X evaluation
+    found three single-stream packages, one .chart and only two drum-stem pairs.
+    Pin the frozen profile, reject calibration-data reuse, preserve .chart's
+    opposite pad/cymbal flag convention and report mode-specific sample sizes.
+    A regression forbids calibration calls and verifies profile byte identity and
+    absent drum output. Keep Carry On's poor result and 115's zero yellow-cymbal
+    reference count visible; do not optimize offsets/windows after seeing test scores.
+
+43. **Resolve disco flip before interpreting Pro reference colors.** Crawling's
+    Expert mix events with flag d place timekeeping hi-hat on stored red and
+    snare on stored yellow. Ignoring them counted 52 instead of 212 Pro-yellow
+    references in the fixed excerpts. Resolve state by difficulty/tick before
+    scoring, distinguish dnoflip, preserve original note/timing/velocity and
+    version reference semantics. MIDI/.chart regressions cover same-tick order,
+    resets, toms, simultaneous notes and conflicts. Compare prior references:
+    all events in the previous ten songs and Faint remained unchanged. A changed
+    label score is not detector improvement.
+
+44. **A drum filename can contain digital silence.** Brompton Cocktail's drums.ogg
+    decoded to zero in both fixed excerpts; The Number of the Beast's drums_2.ogg
+    was zero at 60–80 s. Audit decoded samples and record availability per excerpt
+    and class before scoring components. Exclude exact-zero unavailable audio,
+    preserve very quiet signals and keep the mix baseline. A regression verifies
+    that missing snare audio is not counted as transcription false negatives.
+45. **An author demo is not local model inference.** Seven source-verified
+    StemGMD/LarsNet MP3s could be obtained through GitHub while shell networking
+    was blocked. Record revision, blob identity, SHA256 and whether files are
+    references or precomputed estimates. Compare those signals without claiming
+    model execution, MIDI accuracy or performance on our songs. Keep E-GMD's
+    unused status and the remaining weight/runtime work explicit.
+
+46. **A two-song source gain needs broader paired validation.** Component yellow
+    F1 improved strongly on Afterlife/Crawling, but twelve new song pairs changed
+    only .501→.505 with a gain interval crossing zero; snare improvement persisted.
+    Plan artist-balanced unseen songs before scoring, preserve negative/silent
+    cases and compare sources on the same excerpts. Recompute scores from CSV,
+    resample whole songs with methods paired, and report recall/precision as well
+    as F1. Density and coincidence controls reveal opportunities for matching;
+    they do not establish acoustic instrument identity or a causal masking effect.
+
 ## 2026-10-25 — Themed library additions
 
-39. **Keep curated additions separate from playlist coverage.** League of Legends,
+47. **Keep curated additions separate from playlist coverage.** League of Legends,
     Imagine Dragons and similar-band selections introduced songs outside the
     captured Qobuz playlist. Reusing playlist counters or inventing track IDs would
     misrepresent coverage. Append themed recipes with empty Qobuz/playlist ID lists,
@@ -215,7 +278,7 @@ finding. This file supplements the backlog; it does not redefine task completion
 
 ## 2026-10-27 — Duplicate scan feedback and Linkin Park expansion
 
-40. **Read the scanner's category before diagnosing corruption.** The uploaded
+48. **Read the scanner's category before diagnosing corruption.** The uploaded
     badsongs report listed 301 duplicate-chart relationships and two nonblocking
     lyric warnings. Most duplicates involved a complement copied inside itself;
     the user confirmed that moving duplicates out of scanned paths resolved the
@@ -225,7 +288,7 @@ finding. This file supplements the backlog; it does not redefine task completion
     and unchanged input bytes; scan feedback alone does not verify every chart's
     gameplay or timing. Do not publish the user's raw log or personal paths.
 
-41. **Inspect the container before choosing conversion.** A catalog entry labeled
+49. **Inspect the container before choosing conversion.** A catalog entry labeled
     rb3xbox actually downloaded a native RISE ZIP with song.ini, notes and audio;
     the collector rejected it as non-STFS solely because of that label. Detect
     STFS signatures from the downloaded bytes and otherwise use the validated

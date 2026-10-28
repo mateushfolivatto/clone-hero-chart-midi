@@ -10,6 +10,7 @@ from drumforge.audio.prepare import AudioPreparationError
 from drumforge.doctor import diagnose
 from drumforge.separation import PassthroughSeparator
 from drumforge.transcription.adtof import AdtofTranscriber, TranscriptionError
+from drumforge.transcription.inspect_midi import MidiInspectionError, write_midi_diagnostics
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -27,6 +28,11 @@ def main(argv: list[str] | None = None) -> int:
     prepare.add_argument("--work-dir", type=Path, required=True)
     prepare.add_argument("--ffmpeg-path", type=Path, default=Path("ffmpeg"))
     prepare.add_argument("--ffprobe-path", type=Path)
+    inspect = commands.add_parser(
+        "inspect-midi", help="Count raw GM drum notes and write timestamp/velocity diagnostics"
+    )
+    inspect.add_argument("input", type=Path, help="Raw GM percussion MIDI (not a game chart)")
+    inspect.add_argument("--out", type=Path, required=True, help="New diagnostic directory")
     transcribe = commands.add_parser("transcribe", help="Create raw drum MIDI with ADTOF")
     transcribe.add_argument("input", type=Path, help="Prepared mono WAV input")
     transcribe.add_argument("--midi-out", type=Path, required=True)
@@ -43,6 +49,13 @@ def main(argv: list[str] | None = None) -> int:
         help="Detection thresholds: bass drum, snare, hi-hat, toms, cymbals",
     )
     args = parser.parse_args(argv)
+    if args.command == "inspect-midi":
+        try:
+            inspection = write_midi_diagnostics(args.input, args.out)
+        except MidiInspectionError as exc:
+            parser.error(str(exc))
+        print(json.dumps(inspection, indent=2, ensure_ascii=True))
+        return 0
     if args.command == "prepare-audio":
         try:
             prepared_result = prepare_audio(

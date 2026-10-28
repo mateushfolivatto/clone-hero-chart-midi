@@ -162,6 +162,123 @@ private source audio/MIDI are unavailable. Phase 1 acceptance remains pending.
 See docs/drum-audio-diagnostics.md and DCF-123; keep the full-mix baseline and
 measure per-class precision/recall before choosing stems or fusion.
 
+## Raw MIDI diagnostics (2026-10-20)
+
+The user requested resuming music-to-chart development and using the local
+drum-audio-diagnostics skill throughout every such task. AGENTS.md now records
+that preference. Phase 1 gained `drumforge inspect-midi` for raw GM percussion:
+counts by note/group, tempo-aware onset seconds, stored velocities, source hash
+and JSON/CSV output in a new directory. Simultaneous notes and duplicates stay
+intact. Mido 1.3.3 is a locked optional diagnostics extra and a dev dependency;
+core runtime remains standard-library-only. This does not implement canonical
+events, ML activations, acoustic dynamics or the Clone Hero exporter.
+DCF-118/119 are implemented and synthetically verified; private Turn to Ashes
+validation and native Windows remain pending. See docs/phase-1-midi-diagnostics.md.
+
+## Existing charts as audio references (2026-10-27)
+
+The user explicitly authorized studying five existing song packages to relate
+charts to waves and retain a reusable file/skill. This is a Phase 1 reference
+experiment, not a requirement to wait solely for private Turn to Ashes assets.
+The five-artist recipe samples 60–80 and 120–140 seconds, with pinned chart/INI/audio
+hashes. The skill now supplies study/predict commands and a saved spectral-rule
+profile. Comparison uses technical full mixes versus existing drum stems, chart
+tempo/delay, tom-marker intervals, simultaneous notes and whole-song holdouts.
+Game lanes are weak references: yellow cymbal is not a verified hi-hat label.
+Simple calibration improved chart agreement for kick/snare but worsened yellow
+cymbal agreement. No ADTOF/model training or weights were used; automatic adoption
+is not recommended. Keep original ADTOF defaults and full-mix baseline until an
+independent, manually annotated instrument test supports a change. See
+docs/five-song-chart-reference.md and DCF-124; overall Phase 1 remains in progress.
+
+## CoD/A7X external evaluation (2026-10-27)
+
+The user then requested other CoD and Avenged Sevenfold songs. The five-song
+profile was kept frozen and applied to 115, Carry On, Not Ready To Die, Afterlife
+and Brompton Cocktail, two fixed 20-second excerpts each. Mix mode uses all five;
+existing drum stems are available only for Afterlife/Brompton Cocktail. The new
+evaluate command rejects reuse of calibration IDs/chart hashes and records profile
+identity. Read-only .chart support preserves its distinct cymbal flags, tempo and
+offset; missing MIDI velocity stays null. No detector thresholds were changed.
+Kick F1 was essentially unchanged on this sample, while snare/yellow-cymbal proxy
+F1 improved with lost recall. Carry On had poor agreement even with the original
+rule and needs pairing/alignment/masking investigation. No acoustic ground truth
+or ADTOF improvement is established. See docs/cod-a7x-heldout.md and DCF-125.
+
+The user subsequently recalled that the yellow notes in the discussed CoD/A7X
+songs were hi-hat, usually open. Retain this as user-provided song-level context
+and the leading hypothesis for audio review, not per-event acoustic annotation.
+The next review should inspect attacks and overlapping decay, check 115's absent
+yellow references against audible hi-hat, and distinguish open/closed hi-hat from
+other cymbals. The current band-flux detector does not classify hi-hat openness.
+Keep frozen proxy labels, profile and reported metrics unchanged.
+
+## Linkin Park hi-hat references and disco-flip correction (2026-10-27)
+
+The user suggested Faint and Crawling for timekeeping hi-hat. Both local pairs
+were evaluated over the same fixed excerpts with the frozen profile: 80 seconds
+of music, 508 mix target references; Crawling alone supplies 40 seconds of drums.
+Inspection found Expert disco-flip events in Crawling. The reference reader now
+resolves these MIDI/.chart mix states before scoring Pro lanes, keeps raw source
+notes/timing/velocity and records semantics version 2. It reclassifies 422 notes
+in the full Crawling chart; all events in the previous ten songs and Faint were
+verified unchanged. This corrects labels, not audio inference or original charts.
+Charted hi-hat steps are typically 222 ms in Faint and 286/143 ms in Crawling.
+The original high-band detector outperformed the restrictive frozen profile on
+yellow-Pro F1 in both songs; Crawling drums recovered more attacks than its mix.
+Do not infer openness, fill rhythm gaps, retune on these test labels or generalize
+stem superiority. See docs/linkin-park-hihat.md and DCF-126. No ADTOF defaults,
+canonical pipeline, exporter or game acceptance changed; Phase 1 remains open.
+
+## Component-source follow-up and free external sample (2026-10-27)
+
+The user authorized starting with existing songs, preferring a free route and
+continual skill updates toward better unseen-song transcription. A seven-song
+follow-up now compares mix, non-silent drum audio and explicit component sources
+with unchanged rules. Crawling/Afterlife provide kick/snare/remaining-kit streams;
+the last is not isolated hi-hat. Brompton's drum stream is digitally silent in
+both excerpts and is excluded from the new drum aggregate. Version-2 evaluation
+reports per-stream signal audits and per-class excerpt/second/reference coverage.
+In the same 80 seconds, frozen F1 drums→components is .661→.610 kick,
+.482→.761 snare proxy and .686→.776 yellow proxy. These are previously examined
+songs, not a new independent test set. No automatic winner selection is justified.
+
+The chart-free predict-components command accepts three already aligned stems
+and exports spectral candidates with source hashes and common gain. It does not
+separate audio or generate game charts. Seven small public StemGMD demonstration
+MP3s were obtained through the GitHub connector, with references and precomputed
+LarsNet outputs pinned to source revision/blob/SHA256. They were inspected and
+compared over ten seconds; no MIDI truth or local LarsNet inference was used.
+No local LarsNet runtime/weights or E-GMD dataset was installed; no paid service
+or music upload was used.
+See docs/stem-component-study.md and DCF-127. ML separation/transcription,
+native Windows and game validation remain pending; Phase 1 stays open.
+
+## Broad frozen survey (2026-10-27)
+
+The user authorized analyzing many additional existing songs to check patterns.
+The survey planned 64 new songs across 20 normalized artists before scoring:
+128 fixed excerpts, 2,560 nominal seconds, 352 pinned files and 14,534 mix target
+references. It excludes earlier songs/chart identities, balances artists and
+keeps all planned failures/negative cases visible. All 64 completed. Thirty songs
+provide non-silent drums, twelve have explicitly declared component layouts.
+Whole-song bootstrap and per-song medians supplement pooled F1; source comparisons
+use only identical available song/excerpt/class pairs.
+
+With unchanged rules, mix F1 baseline→frozen is .420→.533 kick, .426→.526 snare
+proxy and .417→.441 yellow proxy, with substantial recall loss. Component snare
+gain persisted on twelve new pairs; the earlier strong HH gain did not (.501→.505,
+interval crosses zero). Sparse/absent yellow references produce many extras.
+Yellow recall is higher at charted kick/snare coincidences; that is not proof of
+HH identification or universal masking. A post-score exploratory circular-shift
+control checks timing opportunity without modifying real predictions.
+
+New survey-plan/survey tools provide bounded workers and hash-verified resume;
+survey_summary.py independently recomputes scores and plots patterns. The local
+diagnostic skill records these findings for future music tasks. No model was
+trained/downloaded/run and no game exporter or acceptance was advanced. See
+docs/broad-song-survey.md and DCF-128; Phase 1 remains open.
+
 ## Separate song-library workstream (2026-10-16)
 
 The user requested a separate, portable area for the growing MixDrumRock Qobuz
@@ -333,7 +450,8 @@ The standalone additions helper compares actual candidate/installed folders and
 exports only absent songs; uncertain shared-chart/format-label cases stay for
 review. Onyx's Windows arguments, supervision and persistent diagnostics are
 unchanged, as are all prior recipes and Qobuz coverage. recover_pilot.py changes
-only its index pin. All 100 tests and gates passed, with isolated fresh recovery,
+only its index pin. After retaining concurrent diagnostic work, all 155 core
+tests and 19 optional DSP checks passed, with isolated fresh recovery,
 offline resume and real-song export checks on Linux. See song-library/LINKIN-PARK.md
 and docs/library-linkin-park-verification.md. Native Windows/individual playtests
 remain pending. BACKLOG.md DCF-LIB-014 owns preparation-pass status.

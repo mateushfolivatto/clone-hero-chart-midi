@@ -99,12 +99,19 @@ and unchanged input bytes. This does not claim access to the user's actual PC.
 
 ## Gates and limits
 
-All 100 tests passed, including Windows RTS handling, real-child deadlines,
+All 155 core tests and 19 optional DSP checks passed after integrating existing
+main diagnostic work from c3025cf. This includes Windows RTS handling, real-child deadlines,
 blocked-console reporting, interruption/resume and retained diagnostics. Locked
 sync/lock check, CLI help/doctor/JSON, Ruff lint/format, strict mypy, build and
 archive-content audits passed. The optional diagnostic script's configured
 lint/format/help gates passed. Doctor's absent optional ML/checkpoint warnings
 are expected for this library-only environment; no models were downloaded.
+
+The updated shared MIDI reader rechecked all 207 final charts: 253,421 Expert
+gems and every stored validation field remained identical. The diagnostic skill,
+frozen reference experiments, lockfiles and source changes from main were retained.
+This pass acquired existing charts and ran structural checks; it did not perform
+a new spectral/transcription experiment or measure acoustic per-class accuracy.
 
 No audio, game charts, raw user scan logs, model files, caches or tools entered
 Git or distributions. Ignored work/linkin-park contains source media and local

@@ -1,0 +1,4416 @@
+{
+  "seed": "drumforge-survey-20261027-v1",
+  "count": 64,
+  "artist_cap": 5,
+  "policy": "round robin normalized artists; prioritize declared components, then drum filenames, then seeded hash; no scores used",
+  "excluded_recipes": {
+    "docs/experiments/five-song-chart-reference.json": "34744e0bae72ed1913d03c16bfae8fd2d9277280409df166768461ee7d62d24c",
+    "docs/experiments/stem-component-recipe.json": "84c8e9ece3a971c012b9ab828c47b83b4777642a071eb35e69388b2fbe52f6da"
+  },
+  "eligible_count": 236,
+  "eligible_drum_filenames": 67,
+  "eligible": [
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Requiem",
+      "genre": "Metal",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Avenged Sevenfold - Requiem [d74d0dc7]",
+      "chart_sha256": "38e86ef9e33968a252f42746029935eb35ad0efb2c5211402df711b8c0c28aec",
+      "format": "chart",
+      "assets": [
+        "guitar.opus"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Fear of the Dark",
+      "genre": "Metal",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Iron Maiden - Fear of the Dark [4fc69854]",
+      "chart_sha256": "88ebd24d37f2ecca7657021ca3130ba92cf17d971da9e9347b940aa17cb4f231",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Hallowed Be Thy Name",
+      "genre": "Metal\u0007",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Iron Maiden - Hallowed Be Thy Name [ef6143f0]",
+      "chart_sha256": "f14ab1510e1bf27c6a5423fc12d693981e0806fcadd6ab2325ce919a25b811ae",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "From The Inside",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Linkin Park - From The Inside [0415a5cb]",
+      "chart_sha256": "684858077fb7e9121fbf32b8aa9ec8f8f3552845ea9048224388f4d3b16c089b",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Lying From You",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Linkin Park - Lying From You [3e2397b4]",
+      "chart_sha256": "1726e5a2262905cb29bf3d8f5aeff7f6b32da07a155c2563b2d31771c6ae654f",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Come As You Are",
+      "genre": "Grunge",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Nirvana - Come As You Are [00fea0c6]",
+      "chart_sha256": "eb91819f845291fb8bb1aa4c3d523a0ec0e83e470749ccf0ddc6d5ed79fff56a",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Dumb",
+      "genre": "Grunge",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Nirvana - Dumb [2ba9b778]",
+      "chart_sha256": "e4e96f87996f1d350c6f21455faafcc5e0fcbf464aeb88bbdc9e56ac62d710c5",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Here Comes the Sun",
+      "genre": "Classic Rock",
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/The Beatles - Here Comes the Sun [cf1f21ed]",
+      "chart_sha256": "a3cb1089848c06b401e05bbf62e2e45ebb447c4c6cd81e4949b4b5f2b0c7aeb0",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Powerless",
+      "genre": "Alternative",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Drums - Lote 12/Linkin Park - Powerless [5b947daf]",
+      "chart_sha256": "5596b5522a77a471615ef48b3c476817f6f57033059708b89e8a3addba75baa2",
+      "format": "mid",
+      "assets": [
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Phantom Lord",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Drums - Lote 12/Metallica - Phantom Lord [101c91e3]",
+      "chart_sha256": "e377c5a4c8bf0499c4390f45455838c93755d967f297da4deffc9b7d601874d1",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Negative Creep",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Drums - Lote 12/Nirvana - Negative Creep [59829618]",
+      "chart_sha256": "a81fd7c555cb6cccffaf516bd911d6963b24872527938d0decf058a9cdb43296",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums3]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Territorial Pissings",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Drums - Lote 12/Nirvana - Territorial Pissings [454e018f]",
+      "chart_sha256": "c8e0163eb12492aeececef6560939b763885089b76d1fc35b95d0f71a5ee57fe",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums3]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "The Ballad of John & Yoko",
+      "genre": "Classic Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Drums - Lote 12/The Beatles - The Ballad of John & Yoko [5e9e85be]",
+      "chart_sha256": "ed171c48ec4847f85a851f438a8e2c2d9010f6b9c315a71405464510a9c37874",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "Clone",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Gojira - Clone [6766293b]",
+      "chart_sha256": "f777ec730182e7e9cb8983d945c31cadf12839c01307d82fcdcbd2e55dd95124",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "Remembrance",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Gojira - Remembrance [a9999545]",
+      "chart_sha256": "e10d0f0d3faf55911539ff453e09a60323f3c852ff5ef817502089a13a2020f3",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "Stranded",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Gojira - Stranded [04ab6df6]",
+      "chart_sha256": "896aab2df35e386861cca4712468d71bdb55eef48f35fae625afc898a3a0f122",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "The Heaviest Matter of the Universe",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Gojira - The Heaviest Matter of the Universe [3788a9a7]",
+      "chart_sha256": "24d5b1d2279e69c614424574fb3215c02588f5f2599d9b7900427a55e6bb5aef",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Dance of Death",
+      "genre": "Heavy Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Iron Maiden - Dance of Death [df7b44be]",
+      "chart_sha256": "a5871d72408ea84db566b9a7ae2043ce0247c7b64f487b6bf360befa2dba2173",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Different World",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Iron Maiden - Different World [9968a5de]",
+      "chart_sha256": "29f2d26d3c084997e7d61372e3fbc20ce21f26b27ba1b374ee6547e779387bc9",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Hell On Earth",
+      "genre": "Heavy Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Iron Maiden - Hell On Earth [b38df35a]",
+      "chart_sha256": "58b4b9fe461036a07d5ade0b1ec32e85bf7ed33865e31dcda13912f3b587669e",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Wasting Love",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Iron Maiden - Wasting Love [9c65403e]",
+      "chart_sha256": "b8c88cf1ef85059c458a277a427c3ff39d932f1ced2b518dea7b268c9398da50",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Given Up",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - Given Up [0ccdd266]",
+      "chart_sha256": "5dc6915fddf0cf6cbac22a918273a4d13f27b98819aea102105bc38a46507c89",
+      "format": "mid",
+      "assets": [
+        "bass.ogg",
+        "drums.ogg",
+        "guitar.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Good Things Go",
+      "genre": "rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - Good Things Go [31c1da1d]",
+      "chart_sha256": "8fb29095410aa3e104d39458573cfb37a8fd604385bdab5c4fe25c4cb5b6de9d",
+      "format": "chart",
+      "assets": [
+        "drums.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "IGYEIH",
+      "genre": "Alternative Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - IGYEIH [37b75080]",
+      "chart_sha256": "8376dd45af346ecc1407fdc77e8820793583752b695efdd9dca8449490d1483b",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "In The End",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - In The End [b6b97e67]",
+      "chart_sha256": "5d99d9c941c99e0606295d1f1cc821a2d5550520d21d594a91b93f1758780aca",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums1]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Leave Out All The Rest",
+      "genre": "Alt Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - Leave Out All The Rest [2ac99a50]",
+      "chart_sha256": "11492f40d35b0886cedc5f0ff451d6081a54db16595a2232058e4b64107a6451",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "New Divide",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - New Divide [81eb3dbb]",
+      "chart_sha256": "2a14f871f88ec5294872453a309bfcb90b8eea585c3d7405ef8679c5ba6dcfdb",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Papercut",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - Papercut [e40f1a19]",
+      "chart_sha256": "771daad6b1f7ea46ee64a5f6bf47ab308f98a14e0959fd79c7f744245474ae08",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Somewhere I Belong",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - Somewhere I Belong [0d8b5a3b]",
+      "chart_sha256": "81951ee8a8e5f29ca2230dd80d6f655c1bb75507823fa4a314b1dfbbe5dab2ae",
+      "format": "mid",
+      "assets": [
+        "bass.ogg",
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Valentine's Day",
+      "genre": "Alt Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - Valentine's Day [6c0e889b]",
+      "chart_sha256": "37647288dd0de47e92340fdf0608e89e51829a54d8fb29de4511abd0506f06d0",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "A Tout le Monde",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Megadeth - A Tout le Monde [a0cc6ac9]",
+      "chart_sha256": "45dca4661a6a6699e3487ea821c93b7d2ca5f115f07d858ed3fae216b6339538",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Sweating Bullets",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Megadeth - Sweating Bullets [596f7c75]",
+      "chart_sha256": "c9cd03756d6d8dbc774bfd22b56b451ff19f9c9e87d5876964878c85ffdb5b08",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Youthanasia",
+      "genre": "Heavy Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Megadeth - Youthanasia [cee70182]",
+      "chart_sha256": "888841cf8f44e7d743c7035a3fa7dd353bd0ced94d74644e178483f65170d021",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "72 Seasons",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Metallica - 72 Seasons [311119d8]",
+      "chart_sha256": "565a6dc2b59df6503345bcbc97138523a12258237b96ec352845901d75967ffc",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Blackened",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Metallica - Blackened [b76dd301]",
+      "chart_sha256": "a67419c0a427a81cc7bc0cd6206ffd307819ba965d45c942e5075c0da375908b",
+      "format": "mid",
+      "assets": [
+        "bass.ogg",
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums1]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Halo on Fire",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Halo on Fire [c1c2318b]",
+      "chart_sha256": "902853bded4864a0bac9fe80ed577b28bc20ed1a41e600e013262ffe3ebb23bb",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Hardwired",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Hardwired [d312b28b]",
+      "chart_sha256": "6804dad0e50127966b1fb6843f0f27df1a067cde8f6eea6223e52b7e822f9e77",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Hit the Lights",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Hit the Lights [9bacfc3b]",
+      "chart_sha256": "5ea1c2088e568abc93159a121d15c3630fd1b27d138408549f007d75831c14ab",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "drums_4.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "If Darkness Had a Son",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - If Darkness Had a Son [b20de192]",
+      "chart_sha256": "3e681bf97300c4bea2076e31110a13f1519f9a3330b451b8edf00c3c26ab0102",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Jump in the Fire",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Jump in the Fire [794d771f]",
+      "chart_sha256": "6728b3984a2a1c2518e884c189a2a4b88f10b9bdce467b7ade3c14c97637d682",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg",
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "King Nothing",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - King Nothing [b787a4e4]",
+      "chart_sha256": "278611c52243be37eade4002379471cdee07e0f0a19fd70986d73b64a8fc9d74",
+      "format": "mid",
+      "assets": [
+        "bass.ogg",
+        "drums.ogg",
+        "guitar.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums3]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Leper Messiah",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Leper Messiah [457547ab]",
+      "chart_sha256": "eb5a441a6c359f8e8d1b73fc7739dcefbfec99b093d7bbc683696144350fcf8b",
+      "format": "mid",
+      "assets": [
+        "bass.ogg",
+        "drums.ogg",
+        "guitar.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Lux Æterna",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Lux Æterna [b7cd8aac]",
+      "chart_sha256": "5fac23b8262b650c3eee675a5f65554e39fbf666688c914f909d49e64a262026",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Metal Militia",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Metal Militia [d3c33459]",
+      "chart_sha256": "03d366c22263f13f9b5c9f910389b91dff418cc77b412e81f45a4723ac00c947",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Moth Into Flame",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Moth Into Flame [9bfe75df]",
+      "chart_sha256": "3cb01faf3b066e5055fbc305522368accd00be400c5bd5468c9eed319246c670",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "No Remorse",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - No Remorse [f7ccc9ec]",
+      "chart_sha256": "a0dbb8a505b7ee7e40ef6180dd731493cf9dff9be0a6217724d69ae2be9f072a",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Ride The Lightning",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Ride The Lightning [413fbe5c]",
+      "chart_sha256": "9ac47a4fdb4d5175ee51e599d178cf722168db3e4d25cbcbb3a9abcd7d4b08cd",
+      "format": "mid",
+      "assets": [
+        "bass.ogg",
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums3]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Screaming Suicide",
+      "genre": "Thrhas Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Screaming Suicide [0964cfe8]",
+      "chart_sha256": "35a6097374d9eec4e7635b86d14db3c2ec19c5b1f2f443ee6bd060faf027644e",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Seek and Destroy",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Seek and Destroy [ac55a2ee]",
+      "chart_sha256": "4cc1f429ad4615a9de99601bce0e4632701641388d24233209c6dd71b391d6a9",
+      "format": "mid",
+      "assets": [
+        "bass.ogg",
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "drums_4.ogg",
+        "guitar.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Spit Out the Bone",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Spit Out the Bone [7da14e50]",
+      "chart_sha256": "6f8c1e887ccc0d2a139908e25db6a6e61a74ae8743a0ce746776c3ffc64f08e8",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "St.Anger",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - St. Anger [182c0abc]",
+      "chart_sha256": "ce3081c9093258a31f20ae0de255b39fab52b9e811c7471f132f416c11686df9",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "The Call of Ktulu",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - The Call of Ktulu [510b4182]",
+      "chart_sha256": "700c1e063d6617325b70acdae3937474a89a638bdfbe465a3339a4522e59a00c",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "The Four Horsemen",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - The Four Horsemen [6a095192]",
+      "chart_sha256": "b22cae563118776a95323bb4a99dec9770e5fbb79c0dc21af6bd8384c7c9a67d",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "The Frayed Ends Of Sanity",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - The Frayed Ends Of Sanity [d99b508c]",
+      "chart_sha256": "74aa62a3ea0dbff6f780d4e7ea577ab47a06f02f216cee36e28f9094cd39c70b",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "The Memory Remains",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - The Memory Remains [0929a5a4]",
+      "chart_sha256": "72c510ef00b547f8012b91d26c62b5f44226d35e9ba2c9f817dbdff119e29660",
+      "format": "mid",
+      "assets": [
+        "bass.ogg",
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "drums_4.ogg",
+        "guitar.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Whiplash",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Metallica - Whiplash [2a485fb5]",
+      "chart_sha256": "f82d1e8893ab4efabe3672923147dc90eb167bb1613205b3ece85343f9dbaa5b",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "drums_4.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Something In The Way",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Nirvana - Something In The Way [8e01a13f]",
+      "chart_sha256": "80d12add9c66962c855402fba3f5ea0762e3e735aa40b69306ed5dd700da0642",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slayer",
+      "title": "Angel of Death",
+      "genre": "Trash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Slayer - Angel of Death [d165841b]",
+      "chart_sha256": "f5171dd319c13b642df7094eb28a58b970ebdb60105780869aa0a27379ad2576",
+      "format": "chart",
+      "assets": [
+        "song.opus"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Duality",
+      "genre": "Nu Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Slipknot - Duality [8fcc861f]",
+      "chart_sha256": "10598801d2b390224a61fa5b805b0d80fe39868ba5487bda9a3158007bd7e8cf",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums1]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Wait and Bleed",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 03/Slipknot - Wait and Bleed [0e34aaa0]",
+      "chart_sha256": "2fd990319b54d55b0671395975973f3e01eded6721cc11167ae16cc446db36e7",
+      "format": "mid",
+      "assets": [
+        "bass.ogg",
+        "drums.ogg",
+        "guitar.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Buried Alive",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - Buried Alive [7cb2d2f7]",
+      "chart_sha256": "1175061ec7e94b15415cbc24465257db8cdbbec3ea7c0de66a4582d551cedfa2",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Coming Home",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - Coming Home [034ed5ec]",
+      "chart_sha256": "5863f009aec9c06f598ec1f742f9203a5100e117da3b369b96efa49c9f7e7228",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Critical Acclaim",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - Critical Acclaim [c775a8e4]",
+      "chart_sha256": "1e1511bca1ecbf86f3da8ccea861a35f54dc7d1770201633eb0c35713508ce5e",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Danger Line",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - Danger Line [c1f7bd54]",
+      "chart_sha256": "bdccf693d52cfe432f0d52a0eaa68af50956dbd7f901df52ae3d8ea4bb0b29b6",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Doing Time",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - Doing Time [638d1e1f]",
+      "chart_sha256": "9da9fb98f80585789cf676df9f0333837861ab471e02b35b2f02da97ffba322d",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "God Hates Us",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - God Hates Us [c2d287ff]",
+      "chart_sha256": "54e2faaea88f7d2ef12b66fc721d9376774194c1d8eb621d2af4b014a86a0249",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Natural Born Killer",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - Natural Born Killer [311ffe0c]",
+      "chart_sha256": "4389cad300a5df44697c802ee3a30a3da4766c5b62402eaa61f80d7b4eb9d91d",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Save Me",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - Save Me [cba4eed7]",
+      "chart_sha256": "e570afa19f1c762429acf3856f3b5ef720b45956a149f48c6968eb218e750fb4",
+      "format": "chart",
+      "assets": [
+        "song.opus"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "This Means War",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Avenged Sevenfold - This Means War [112129e7]",
+      "chart_sha256": "e3d1ad367a31aabb81311f815ac459b0d53124b2c334336d6146089fb0769a9e",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "Born In Winter",
+      "genre": "rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Gojira - Born In Winter [d1747b9c]",
+      "chart_sha256": "cdb5344af4b18d28fae0736a887bc5a83876b3c145e5afbc965d6f1bb9e6112b",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "Flying Whales",
+      "genre": "Technical Death Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Gojira - Flying Whales [0727d1a7]",
+      "chart_sha256": "da515566544d16dafca653e6d16cf131a304ab8e0a0b75b2c479b985a964e2d3",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Charlotte The Harlot",
+      "genre": "NWOBHM",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Iron Maiden - Charlotte The Harlot [96ff27ed]",
+      "chart_sha256": "c65ed2fe66125123bf309773b209ff87a51f72b67e40f19d1632f1b48767adff",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Killers",
+      "genre": "NWOBHM",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Iron Maiden - Killers [87ba44ba]",
+      "chart_sha256": "406348e81dd8d4a2670074f5126dee651009d0b3a5cba9ecd91244646abfd55a",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Murders in the Rue Morgue",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Iron Maiden - Murders in the Rue Morgue [183edc90]",
+      "chart_sha256": "c2de6f230a5bd261881817387aa1db813b45ecadba2bbb67620ab153d3d4dfb7",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Wastelands",
+      "genre": "Nu Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Linkin Park - Wastelands [85dcfc60]",
+      "chart_sha256": "c252d358f77ae9a52d798becd795ce0852ff78481b7ea985aea3233b3df5940f",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "The Sick, The Dying… And The Dead!",
+      "genre": "metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Megadeth - The Sick, The Dying… And The Dead! [be79984d]",
+      "chart_sha256": "6a974525df6ade5b9aca65601697418f6fb037e12b79330d1ea5dc3cf4bdcc04",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Battery",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Metallica - Battery [36deeb98]",
+      "chart_sha256": "3b43085025ae08c9fe84535265c61c8378cc600a02e9a1e7de2272e0e0361b40",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "For Whom The Bell Tolls",
+      "genre": "Heavy Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Metallica - For Whom The Bell Tolls [348ecabb]",
+      "chart_sha256": "aa350e17b98e12c1cc2664f2929d2f10e53e305c6517ffc754d748e8a3db0699",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Master Of Puppets",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Metallica - Master Of Puppets [aef9b114]",
+      "chart_sha256": "ac9932dd3f72e417c43f35e841f2c369ce53470f7fe088d880c4a8a46f7ee1af",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Prince Charming",
+      "genre": "Alternative Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Metallica - Prince Charming [e30e413c]",
+      "chart_sha256": "d4e93de6310984332500ee3b69741f6d712f8af2e785b6c1eabc4ee5ff4b410e",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Milk It",
+      "genre": "Alternative Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Nirvana - Milk It [a90f973b]",
+      "chart_sha256": "6d3ca9e5368900f3bbc0afd6dc21fbbf28b3a121702fef45ff872df566c60be7",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "You Know You're Right",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Nirvana - You Know You're Right [27d3f43a]",
+      "chart_sha256": "9748f4b79bc27203cce31103ed8f1c836dc9134e36c496cd72e8f55bc85de413",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "System of a Down",
+      "title": "Chop Suey",
+      "genre": "Nu Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/System of a Down - Chop Suey [be01d7ce]",
+      "chart_sha256": "fdb996d7ebe19013c4bdafacc1cfd35904c3f8181390fb8ce73623a7270ab198",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums3]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Violent Vira",
+      "title": "S.E.X. Narcissist",
+      "genre": "Alternative Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/VIOLENT VIRA - S.E.X. Narcissist [d8b2446a]",
+      "chart_sha256": "9589b1661ab68b58fee9121a1901765387972d7dcd6e1c314a59bdaa26517216",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Angra",
+      "title": "Nova Era",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Angra - Nova Era [8959218a]",
+      "chart_sha256": "7f383b348ad79e6afebd3813722b19868f34a8cb1ae7a41cd5eaef8a8c14b490",
+      "format": "mid",
+      "assets": [
+        "bass.ogg",
+        "drums.ogg",
+        "guitar.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Angra",
+      "title": "Wuthering Heights",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Angra - Wuthering Heights [525d6f7a]",
+      "chart_sha256": "beced0477c5f8254a0f8dbc3bfe6ff307d819ed6493443834ad06de46315ce57",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Heretic",
+      "genre": "Heavy Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Avenged Sevenfold - Heretic [b0ae4fb4]",
+      "chart_sha256": "f891cad7a22435db5199145a98176f10132ed9004cd5f531267d8da3e2476180",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Roots Bloody Roots",
+      "genre": "Groove Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Sepultura - Roots Bloody Roots [1f42a7be]",
+      "chart_sha256": "c2f5cbf2e5780305916711a40dbd07e3e5abc3373e2951b1c21628299d9830b5",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slayer",
+      "title": "Chemical Warfare",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Slayer - Chemical Warfare [7be3ca52]",
+      "chart_sha256": "b44270f705086be30d503a0263a1643d1c19f2d4c0bf7e606e92f1a31642985b",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slayer",
+      "title": "Psychopathy Red",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Slayer - Psychopathy Red [9899bc4d]",
+      "chart_sha256": "e194a2fd957f9bc43797ba96140100258049801e0ad84406eaad8b8026162278",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slayer",
+      "title": "Spill the Blood",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Slayer - Spill the Blood [5ce6b927]",
+      "chart_sha256": "d08ad56ba632998a0b407f54ab193add79852c043041b80ec7fc96865bd524b8",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Eyeless",
+      "genre": "unknown",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Slipknot - Eyeless [c175cab0]",
+      "chart_sha256": "1a84e51d0289377c452b6b23a8fd464f702a32cef86f5f36cfd744be168377aa",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Liberate",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Slipknot - Liberate [a0bdc655]",
+      "chart_sha256": "d2aebf9af7566fad43e3cfc65ff7eaeca65dda0b1a74c46b9a3099e8a0a12820",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Purity",
+      "genre": "Nu Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Slipknot - Purity [020b0373]",
+      "chart_sha256": "f6482969e0e113b50db4a12b36d26b97e909d38b135f954289f0e26034c4e0d4",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Surfacing",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Slipknot - Surfacing [3c922c0c]",
+      "chart_sha256": "5dc7ded41059eb978e6496423e003de8e53211f93b0f42f48670e63cb385d0af",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Vermilion",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Slipknot - Vermilion [27bfc9c4]",
+      "chart_sha256": "abe41a988a9965ac0cf3669a0c40b51027f2bf690a338d8e683e103a8c746915",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "System of a Down",
+      "title": "Toxicity",
+      "genre": "Nu Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/System of a Down - Toxicity [94fb73d4]",
+      "chart_sha256": "8ae5533d5d75b64e4beedf3e77592d9c57976f795c721a8b66e6c204702023b8",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "I Saw Her Standing There",
+      "genre": "Rock and Roll",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/The Beatles - I Saw Her Standing There [b9033835]",
+      "chart_sha256": "11285e52d6c3cf98b91c76db66056ff1db8d5547d70c3f46e63200aa4c4881a0",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "I Want To Hold Your Hand",
+      "genre": "Power Pop",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/The Beatles - I Want To Hold Your Hand [fd396606]",
+      "chart_sha256": "3be3bc7ac612be075674eda1b198451083b4dc0c327734de0a061e6d05784338",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Now And Then",
+      "genre": "Pop Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/The Beatles - Now And Then [1bfd9815]",
+      "chart_sha256": "e56ba972ca9473efc2e24e1590aeb96292d62b49891e75b74d56a4e203573dc9",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Old Brown Shoe",
+      "genre": "Classic Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/The Beatles - Old Brown Shoe [262f36f3]",
+      "chart_sha256": "b3176896d05aa3dfe4b084460dbb42c165249023a12558ba686f9d887be5fc76",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Thousand Foot Krutch",
+      "title": "Courtesy Call",
+      "genre": "Christian Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Thousand Foot Krutch - Courtesy Call [030872c3]",
+      "chart_sha256": "8dd3560704c528fe273daa790303b85b13df26b90ff1187f38fb99488f199cbc",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Nightmare",
+      "genre": "Heavy Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Avenged Sevenfold - Nightmare [4767c141]",
+      "chart_sha256": "8dc560090e9bd9df5a76428d283f808779b5f06659c0150c8d5f352b5210ce3b",
+      "format": "chart",
+      "assets": [
+        "song.opus"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Unbound (The Wild Ride)",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Avenged Sevenfold - Unbound (The Wild Ride) [a3db279b]",
+      "chart_sha256": "acc2fc6b24dbc40a86a4e87614141273a176ad1f82c6bd943a2c6b0bea86fe81",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "6:00",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - 6_00 [7e7a0a9c]",
+      "chart_sha256": "a4e6502ada145920a05c48fee43d96021312d56603c1d31bfd2afedb5a43237d",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "A Broken Man",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - A Broken Man [473b31a1]",
+      "chart_sha256": "bdcae0c2b2e5664c0a875bcbaec722a98bd6d4da2f3be71a34ee4f76dbff6da4",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "A Rite of Passage",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - A Rite of Passage [3a0fe2c6]",
+      "chart_sha256": "f8aec803f84493a074b7d75443afc515e78fb18383229c3395b54dd3ab704209",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Another Day",
+      "genre": "Progressive Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Another Day [6b3193cb]",
+      "chart_sha256": "3eaaa06bf7a6e7c32243d54ad4ad60312b3616e806b1d53ea940abf023385255",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 1
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "As I Am",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - As I Am [7b8df21a]",
+      "chart_sha256": "b99059cfe2491ae0ef0bd240f68c211a8594768c4ca371ce1f84c8c95c644e95",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 4
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Barstool Warrior",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Barstool Warrior [00675e3b]",
+      "chart_sha256": "fa1074f472c03e74c4a241862cf1690d046451d1097732b387e80f2a2d712f29",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Enigma Machine",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Enigma Machine [2522ba87]",
+      "chart_sha256": "ecb5a35f6c8fd3a81a23e44e95a2cb772d782ae2d2704743cdc82813c578af82",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Midnight Messiah",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Midnight Messiah [ed8fd3b1]",
+      "chart_sha256": "6a8d4538f08cdf0573848cc411aab8102e32acec18323502a00df606d7d7e3a8",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Night Terror",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Night Terror [7f96ee5c]",
+      "chart_sha256": "173d340238be5413401fdf10a8fc1d34e987d8eda0ea266942ad632772d3e747",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Pull Me Under",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Pull Me Under [23573c63]",
+      "chart_sha256": "9afa0b151b728f9445e4fe55884326f542a3bf9124885c9e220ba0c0b955283c",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 2
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Space-Dye Vest",
+      "genre": "Progressive Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Space-Dye Vest [51fbc389]",
+      "chart_sha256": "dfd48d26c1e099c76158c90c6d9edbccf1fd3cc18fbd302a9a0028aee717793b",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 1
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Stream of Consciousness",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Stream of Consciousness [a020465f]",
+      "chart_sha256": "146a5347a767a5372889c1d211829dcd05297254d941a69bde3e6fad3fe5d1ac",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "The Alien",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - The Alien [0a11ba74]",
+      "chart_sha256": "0732c2310418943ab1ca419010406859c0553fefb115f78ec6a053648f65aef0",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 1
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "The Count of Tuscany",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - The Count of Tuscany [aa2b39ab]",
+      "chart_sha256": "92fdc9e13932c5302663b171feed78f7839bb29c8a95d09143584b5bf85830d3",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "The Enemy Inside",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - The Enemy Inside [5a8f6db0]",
+      "chart_sha256": "d7ed6620cb0a6f3c60af273b562db428273bc326b13ebdf483ae4a4be884f178",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "The Mirror",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - The Mirror [c490b12a]",
+      "chart_sha256": "6bcd506c6dc15a1dab521c6e16f256bf75d14de85447d0780ae75972e756a0f9",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Transcending Time",
+      "genre": "Progressive Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Transcending Time [f40d4a59]",
+      "chart_sha256": "61baf4cd1faebb75020ab3429ba27e7e9c5955db7ae9c368b9f0a00f37f6efe9",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Under a Glass Moon",
+      "genre": "Progressive Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Dream Theater - Under a Glass Moon [4f0da41d]",
+      "chart_sha256": "9c75d1c788986d14feb1f559dc6ac1f7e19c279bf7372192716d6f037740a36b",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "Amazonia",
+      "genre": "Progressive Death Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Gojira - Amazonia [c65116e0]",
+      "chart_sha256": "5983af6f977c27cdd84b75761c2ef66c519cffd4dd12dcfcec9294849c5df66f",
+      "format": "chart",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "Born For One Thing",
+      "genre": "Progressive Death Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Gojira - Born For One Thing [49d1fe37]",
+      "chart_sha256": "b55a1d0828eaa0b55b56cfccb9c56f0501d1cfa8a1e6651125f61084c04829ba",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Be Quick or Be Dead",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Iron Maiden - Be Quick or Be Dead [55d73f03]",
+      "chart_sha256": "c80bb6efcde726101f17b7193d115d07d39e64220b71c2d4c9792167fd24f3d5",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Children Of The Damned",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Iron Maiden - Children Of The Damned [6a7efb87]",
+      "chart_sha256": "7a547b18a0a0b283c7ea6aabf4ea777a4dfbaee777b4ca417d9eee95894fca43",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Iron Maiden",
+      "genre": "Heavy Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 06/Iron Maiden - Iron Maiden [5d572210]",
+      "chart_sha256": "503e945cfdc252cdbb6fbeeb2432453216035ad1a6c886e7474a158e98a90a79",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Stratego",
+      "genre": "Heavy Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Iron Maiden - Stratego [a005eeca]",
+      "chart_sha256": "085ff1a93d04c4ab0169b0929e0da98f5a319a46c7782dbf25c68127f2f51be6",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "The Evil That Men Do",
+      "genre": "Heavy Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Iron Maiden - The Evil That Men Do [a2f57d41]",
+      "chart_sha256": "f048044c6d3aa56bbcb9f02c63314d717a8b231f053a21d523bd0bc6e235f580",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "When The Wild Wind Blows (2015 Remaster)",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Iron Maiden - When The Wild Wind Blows (2015 Remaster) [db7e58fb]",
+      "chart_sha256": "34bf32b0f8174ee3bcf559157f3d59df628ba450a231c8652d5e5c8555f59f5e",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Breaking The Habit",
+      "genre": "Alternative Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Linkin Park - Breaking The Habit [6f6ecf87]",
+      "chart_sha256": "64c2c2053daf81292838b15f4980017ee0829f6278cca486222e7657c7bb616d",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Figure.09",
+      "genre": "Nu Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Linkin Park - Figure.09 [7acdc212]",
+      "chart_sha256": "9046995604c3bd755999dcf8ae02b12d74b2a21c732824e4f832aa168149d6ec",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "The Emptiness Machine",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Linkin Park - The Emptiness Machine [a34195e1]",
+      "chart_sha256": "0a190fed55869474925e9d37fe7829baad4f7cb1953d1d67bddf42cac64913aa",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Killing Is My Business...And Business Is Good!",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Megadeth - Killing Is My Business...And Business Is Good! [255ce4f4]",
+      "chart_sha256": "c2b5c6734deae20adb8c59b867cf4f2dc379130c15aab2d91bd061e034c201f4",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Mechanix",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Megadeth - Mechanix [55d73f03]",
+      "chart_sha256": "8eed76353ee792f93097c811913381c5225d519a9a88579ac6641bbc22466cc5",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Tornado Of Souls (Remastered 2004)",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Megadeth - Tornado Of Souls (Remastered 2004) [9ce075a6]",
+      "chart_sha256": "267f8f1d4239c2368f7a81f306f752f2b5f1986dd3509d160f976838d932d160",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "All Nightmare Long",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Metallica - All Nightmare Long [60a88261]",
+      "chart_sha256": "62022d04ec8e2103898b7a57ad342c5bfb00a1ecee4830083e177ebfe4032140",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Blew",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - Blew [910fbf38]",
+      "chart_sha256": "c5eaa37713a1879e7a9a8d1608d37b7e9b75b0e6377c7ce939628fff96ff1b1a",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums2]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Frances Farmer Will Have Her Revenge on Seattle",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - Frances Farmer Will Have Her Revenge on Seattle [4a977c9b]",
+      "chart_sha256": "51fb91b7bf92cfa625c901f34ab6e02b8275885d8248328efb5d154eb975fd8e",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Heart-Shaped Box",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - Heart-Shaped Box [a739f2ed]",
+      "chart_sha256": "93e34e1aa65acb47d6a990731bdf1dc93d616a1f95b3ac65247d243a3d8e2f48",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums4]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "In Bloom",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - In Bloom [d00611b1]",
+      "chart_sha256": "5cde007322d893c255def02cfd9a01edf77741c10ec4f1332786da822109fb6d",
+      "format": "chart",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Lounge Act",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - Lounge Act [56d65e91]",
+      "chart_sha256": "19c45d0549541a435d190d3333aab2dc74f6a9aaec6068bae4dc3e17ba8c6297",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums3]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Rape Me",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - Rape Me [f4b41bd7]",
+      "chart_sha256": "c6af9b87ad1d11fd4212495fb0093e49e53c73acb756a78d0ec079ba6f63366d",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums1]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "School",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - School [a2191a85]",
+      "chart_sha256": "32b9ceb7416e7b8a674a72c6e70e982ea0a1153af71e7e9c9a5e152d657fafa0",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums2]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Stay Away",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Nirvana - Stay Away [15b37250]",
+      "chart_sha256": "b5317d539ef93109a95576362f48c54642e376f5068ba4d1440122d6babf76ac",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums3]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Skillet",
+      "title": "Feel Invincible",
+      "genre": "'rock'",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Skillet - Feel Invincible [d81305d9]",
+      "chart_sha256": "f3c8ba1f646f39a4f2e17f379ed0e3dd200d5cc823d632294c2d21d59d8f5935",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Skillet",
+      "title": "The Resistance",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Skillet - The Resistance [f543551d]",
+      "chart_sha256": "3b01fff55d18ed933203bc623be9dcb5fe7b3dabc112ea838b79f1ea23c2f6be",
+      "format": "chart",
+      "assets": [
+        "bass.ogg",
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Skillet",
+      "title": "Whispers In The Dark",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Skillet - Whispers In The Dark [5b947db2]",
+      "chart_sha256": "d4131a6d6b533d88425a2fedefaadaf20b29f1a7abd21a9bfea91a44efd11d34",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slayer",
+      "title": "Skeletons of Society",
+      "genre": "Thrash Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Slayer - Skeletons of Society [606316d8]",
+      "chart_sha256": "241f7fc866b8a529f1a63e5ac9925f5b7e8700e7a270c39a0b4d57184e0461c8",
+      "format": "mid",
+      "assets": [
+        "guitar.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Angra",
+      "title": "Carolina IV",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Angra - Carolina IV [5f520f03]",
+      "chart_sha256": "013a5cf5e6e09fa453a9e401ddb4793df23f1ec155f6fb6fc809cba48477fd4f",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Angra",
+      "title": "Spread Your Fire",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Angra - Spread Your Fire [61f57343]",
+      "chart_sha256": "75358480c1e25970602e9605e9d3b002a0da5361034381463327ac941242d770",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Angra",
+      "title": "Waiting Silence",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Angra - Waiting Silence [5929608f]",
+      "chart_sha256": "1cdfde4cb5332067c7f5785235791531566317ef4ac9ec5a78c4c8446ccfb6ff",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Dear God",
+      "genre": "Southern Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Dear God [5f791243]",
+      "chart_sha256": "f6542f87653902982c139472890382b8ac9a6274bdf76f244fd2c16646ef6f24",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Fiction",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Fiction [5b947dba]",
+      "chart_sha256": "1b9445a5fd1cf62788de9fdc6aa785d1a45e6e246904ced5b73061bcbaf2bf05",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Gunslinger",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Gunslinger [5b947db9]",
+      "chart_sha256": "faa6ba374b1671ce8e530c6e8f86b515dbbfab97e05e74e6a95934ebc041aced",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Lost",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Lost [5bc7ab1a]",
+      "chart_sha256": "f654f0ebc915dd94352064fff46409487ac21f2cfdb6ad391f2ddbb6a62ab683",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Victim",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Victim [5b947db8]",
+      "chart_sha256": "c8636fc338486b581726037f57ac826ae49374a506ba9ae49b7d40e534dd125e",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Octavarium",
+      "genre": "Prog",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Dream Theater - Octavarium [5b947da5]",
+      "chart_sha256": "260017f9035be73c913b1f81b4cfa9bb059e2ab32bcd346d80b116a4f9f24401",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "Take the Time",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Dream Theater - Take the Time [5334d0e6]",
+      "chart_sha256": "ef1f90209ea6e7524e90004db800260e633248817f53a92a7268509c614a86a3",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Dream Theater",
+      "title": "The Glass Prison",
+      "genre": "Prog",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Dream Theater - The Glass Prison [592976c4]",
+      "chart_sha256": "3c44d5c0dfc5f4f754a94b8c4ad29a3175f6189ed08072a85752a6928685c7a3",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Exodus",
+      "title": "Good Day To Die",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Exodus - Good Day To Die [594d7c8e]",
+      "chart_sha256": "3139c2f7c733af1a27140463755d8044c247a3b6e681b3004743d3775da2279b",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "All the Tears",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Gojira - All the Tears [592220c7]",
+      "chart_sha256": "1a5b3aed7b0b9d081d0bd1129d8817269f82c8835b94ea08c4d53d408ace4f1a",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "Another World",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Gojira - Another World [614ff161]",
+      "chart_sha256": "7df22a12c2e12467fd0f1f1729324685301f2bee7a6868a89e4b955f37946e45",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "L'Enfant Sauvage",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Gojira - L'Enfant Sauvage [5b947daf]",
+      "chart_sha256": "602fb108686a2237c9aeb81d30c2672a3878822ae02de578782f9e1ddb6baf70",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "The Art of Dying",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Gojira - The Art of Dying [59297690]",
+      "chart_sha256": "35f187b62629a9d603cf12bfb076516b6d188679b89a87177003cb0b91b4eb70",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "Toxic Garbage Island",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Gojira - Toxic Garbage Island [5a325833]",
+      "chart_sha256": "f9584bfaf3dd8f75fdaa86548074e3843c2eade5ab1c4a3d2d41112abf64962e",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Gojira",
+      "title": "Vacuity",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Gojira - Vacuity [592977e1]",
+      "chart_sha256": "18d5641bbf381be96dc727b06ba867a47e21af61495ff07693b87077c8e54df8",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Aces High",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Iron Maiden - Aces High [596c6861]",
+      "chart_sha256": "ffce98bd7a79d3ec21e646c0ba5f6c58b8f8f560579c36087f6d65e161a02cd4",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Heaven Can Wait",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Iron Maiden - Heaven Can Wait [5a6e37f1]",
+      "chart_sha256": "d15a8fb060f33802817959069769469c23a93ad6e110c444aba70b404101c4c2",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Man on the Edge",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Iron Maiden - Man on the Edge [596c6be7]",
+      "chart_sha256": "4960a8ee0412bb54d425fa76e11c7a7c53d42d91e077e6b9abe24a64286fcff7",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Out of the Silent Planet",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Iron Maiden - Out of the Silent Planet [58310ba3]",
+      "chart_sha256": "d567faaa308c9ba77297f64dcfcedccc42e15216e89f8e46aa32a8a962421148",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Paschendale",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Iron Maiden - Paschendale [641c8736]",
+      "chart_sha256": "89fea96609a285cabc6658477e79ce349fa745c9a3109b0827344f795f7a7ea9",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums3]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Prowler",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Iron Maiden - Prowler [59f5f10d]",
+      "chart_sha256": "b65d0a3787ca5ab16e4242bd533b56a7fba5e5d151034052afbf71481fabcb77",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Rainmaker",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Iron Maiden - Rainmaker [6205f2d7]",
+      "chart_sha256": "0230fc6c4f21f39ae08334b56fafac99699df6205ba2cbddc6d5ffe42b6538dc",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "Running Free",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Iron Maiden - Running Free [5a4ef049]",
+      "chart_sha256": "bec32babff424a193428ffa588863b34926e5705697fcf0441145172148c2fb3",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Iron Maiden",
+      "title": "The Writing On The Wall",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Iron Maiden - The Writing On The Wall [61408b5d]",
+      "chart_sha256": "50f81b0c584f3346ffa89bf848c10ad07168490c5620659c6ec3bc6b7ffb536a",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Katy Perry",
+      "title": "I Kissed a Girl",
+      "genre": "Pop-Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Katy Perry - I Kissed a Girl [57f6ec81]",
+      "chart_sha256": "e77d67c14d6ab6d433f1e8c912f1eb53e6f9d4564d68512e4ddc3e0b24f417ce",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Battle Symphony",
+      "genre": "Pop-Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Battle Symphony [5b4a1761]",
+      "chart_sha256": "beb431e54ad228d734eeada1b60e2a1996c9325a98fe02ea8b7ce348da258c9b",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums3]",
+        "[mix 3 drums3easy]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Don't Stay",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Don't Stay [ec683298]",
+      "chart_sha256": "3f236ea9d2439915b9b8814184823a7d8e75a16e2b46eff7ae1ea7c01a2f7d69",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Fighting Myself",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Fighting Myself [9378cfea]",
+      "chart_sha256": "5ecebf0bb616436496d7302f60e7a13e4ee50ba14f3331b601de08a6e1727b3e",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Friendly Fire",
+      "genre": "Alternative",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Friendly Fire [38ddf509]",
+      "chart_sha256": "e54304d3327b10c0031b30226871c025aa98e6d594ae94df47b18486df60b2f4",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Heavy (feat. Kiiara)",
+      "genre": "Pop-Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Heavy (feat. Kiiara) [4edbd041]",
+      "chart_sha256": "8db61c0f3666561b27ded92ec3b1b0e57071144c50f62fecfc756229b310cf12",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Heavy Is the Crown",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Heavy Is the Crown [a743dd22]",
+      "chart_sha256": "20955ed944188271b75c04d5e2dad296d6f2f2cbb8499bdafa76471c2f573e1f",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Lost in the Echo",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Lost in the Echo [adec5063]",
+      "chart_sha256": "7f368595548c321ba5436440191634087671a147a92fa143ef13add8cb7ce00b",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Over Each Other",
+      "genre": "Alternative",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Over Each Other [a46a2601]",
+      "chart_sha256": "0e164a6b35f30fe89c696ff3f8c4bbbfd1e9c662f931934d89d022cad3fb9241",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Pts.Of.Athrty",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Pts.Of.Athrty [bdbd5fcb]",
+      "chart_sha256": "f9cfe2ec11ac6298f630cdd5e5cf4c42da0d802caf52130f9870926aabfc2f0b",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Qwerty",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Qwerty [609c1c60]",
+      "chart_sha256": "753907f7d515bed6b64a682e0e7ce21b15637767be1656288e97c8dedf763c79",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "She Couldn't",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - She Couldn't [ef93e2f1]",
+      "chart_sha256": "0aaa0296f087b7916950822628f51f3a6596c1ad48f3335e22571627130384ec",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "The Catalyst",
+      "genre": "Alternative",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - The Catalyst [5b947dad]",
+      "chart_sha256": "7fd94509f205ef86d9870f0cf7ad3ddf1f7c4c800b04311d45f9368295f7a205",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Two Faced",
+      "genre": "Nu-Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Linkin Park - Two Faced [b16431f3]",
+      "chart_sha256": "fd26730d915a492cd4ec4371c8bd6b50cd5d21d1b81764ce04d661b40c63942c",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Back In The Day",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Megadeth - Back In The Day [5b1e59a3]",
+      "chart_sha256": "1470de8c2bdd8474c3a76f29465ab00283161067f65582f4c9d5e5c8ea31384c",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Countdown to Extinction",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Megadeth - Countdown to Extinction [5b223c59]",
+      "chart_sha256": "bb5ab8fdd4f567735bed5f0ab69619c1e880ad95c88adc1e70801ce10bbb6525",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "No More Mr. Nice Guy",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Megadeth - No More Mr. Nice Guy [5b3993d8]",
+      "chart_sha256": "58d2c5c412208dc4c54e516b8b453c825225b2d7d3eb3fdbb4c7d8f239fcf280",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Paranoid",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Megadeth - Paranoid [5b36f573]",
+      "chart_sha256": "87e60f6b1c3a5ed43db83e93f7700157553236bdda141fa42bd0c509df9a15b1",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Rattlehead",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Megadeth - Rattlehead [59e30b4b]",
+      "chart_sha256": "65da7aa56cc3207c8193ccae58247b6a64fad5ea9daa2037cce85311ec32485f",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Megadeth",
+      "title": "Set The World Afire",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Megadeth - Set The World Afire [59297452]",
+      "chart_sha256": "3e1ea0b8e5c90680bd7be3b6f0e2e4e0e6ade9496cf6d3e2554b8e9cd9596304",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Ain't My Bitch",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 09/Metallica - Ain't My Bitch [5930aeef]",
+      "chart_sha256": "e0b4f3f0e08933f216d76352b22a8a61632e85c46850f47cfb50dfcf339a515b",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "song.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Crash Course in Brain Surgery",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Metallica - Crash Course in Brain Surgery [5cbd52ae]",
+      "chart_sha256": "f4ee0f2022c325cc9a367979a8db782593a5057854a916ff05ab920da9758752",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Motorbreath",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Metallica - Motorbreath [59296fb7]",
+      "chart_sha256": "14115a02278183057b906f121c0e317d8bda510cf4dc2b4eb8cacdc8148212b5",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "One",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Metallica - One [5c207106]",
+      "chart_sha256": "99ce1747aa613ebbbfcfa4d1cbaa41ab4355603511760d47a3b4e15fcf3222bd",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "So What?",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Metallica - So What_ [59297498]",
+      "chart_sha256": "2cc7571f03002ef984ab474d15c2dbaa67b5d042b80ac3f439ae3450b6aa8c34",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Metallica",
+      "title": "Whiskey in the Jar",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Metallica - Whiskey in the Jar [53d91dc1]",
+      "chart_sha256": "c2fd48cafd2306dc506487149d244c1f221269d649d868d3c3d5fd4fe206d3bc",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Miley Cyrus",
+      "title": "Nothing Else Matters",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Miley Cyrus - Nothing Else Matters [54139245]",
+      "chart_sha256": "1dbefd72788f28e8ffca487162ffe946a8e955995d704f0a5adb0d4c75ea3436",
+      "format": "mid",
+      "assets": [
+        "drums_1.ogg",
+        "drums_2.ogg",
+        "drums_3.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums3]"
+      ],
+      "component_sources": {
+        "KICK": "drums_1.ogg",
+        "SNARE_PROXY": "drums_2.ogg",
+        "YELLOW_CYMBAL_PROXY": "drums_3.ogg"
+      },
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Big Cheese",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Nirvana - Big Cheese [5a70a494]",
+      "chart_sha256": "9e6074170a2904d20c2c45040542bb5d9b2b6e541c0acd72b80285d75e15bcc4",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Endless, Nameless",
+      "genre": "Indie Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Nirvana - Endless, Nameless [60ef8143]",
+      "chart_sha256": "a78788573ca61a663b55e575551c6d0468b71f173e1da6474e4b6504b84b6291",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Lithium",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Nirvana - Lithium [594ae544]",
+      "chart_sha256": "728d48ac3aedb369f9d38fb0bfa54e2474ba0827248ce7668d6083d25475147a",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Love Buzz",
+      "genre": "Grunge",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Nirvana - Love Buzz [5a70a493]",
+      "chart_sha256": "ee605480508baed57cb783adbb83fe331eaee4e24983be538b919ca137754284",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Nirvana",
+      "title": "Stain",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Nirvana - Stain [6018acfb]",
+      "chart_sha256": "505f2d68307c2c8c4668ea8bb2199ee6a099a9642126bd00e5bd96f05b2209a8",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Dead Embryonic Cells",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - Dead Embryonic Cells [5955cf50]",
+      "chart_sha256": "51d1d6e886301d546543321cc53a7fa2c8d8b67b64f426428838477f53f9cf5a",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Infected Voice",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - Infected Voice [5b14975f]",
+      "chart_sha256": "b6b92e9106733badcb97c0affb37642a996cc5e95de9209e12e7454d40695559",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Meaningless Movements",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - Meaningless Movements [5b1687ae]",
+      "chart_sha256": "4e5e90a98e1d78f63fcf2317862724af0401402dd46e0f1a21cb9dc6bacbca5f",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Murder",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - Murder [5b076385]",
+      "chart_sha256": "ca39bef037c447dfaa0bc277ba25fb414c66cab4e2367d5f73486ff9357cd233",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Sepultura",
+      "title": "RefuseResist",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - RefuseResist [5969dc94]",
+      "chart_sha256": "6f0acbf0063ee3196bd597a0aa3956bee655669d39f57c7fabbf3320e19fa434",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Subtraction",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - Subtraction [5b1496d0]",
+      "chart_sha256": "83671d2a94519bfc839df29e34f39c61a175db4e893e7d77c1a10afecfe87ab0",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Sepultura",
+      "title": "Territory",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Sepultura - Territory [59d5e3d7]",
+      "chart_sha256": "071c66ea05a288567e847fc2775683a15baa9d3a6ec6da0f29fc6f0d97dbdcb8",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Skillet",
+      "title": "Awake and Alive",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Skillet - Awake and Alive [592979cc]",
+      "chart_sha256": "9c2d65a125a6dbeb7bfc1ea7e1c4ffa623b94c076385635e40fb76dcf89bb34e",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Skillet",
+      "title": "Comatose",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Skillet - Comatose [af407783]",
+      "chart_sha256": "5f40cb7ea510885f1dbed145903cb2a8217cd827d05bc2870becc0e0aaf878b4",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Skillet",
+      "title": "Hero",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Skillet - Hero [d7590124]",
+      "chart_sha256": "c88a8016c06207be922c0c2472a128474daa06a1df229785c18dedc373698a5b",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Skillet",
+      "title": "Not Gonna Die",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Skillet - Not Gonna Die [9ea440db]",
+      "chart_sha256": "03d63755c5ab244015d28d5285946a5013cda8db364eaaba6e40dd9520545ade",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Skillet",
+      "title": "Rise",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Skillet - Rise [6414b184]",
+      "chart_sha256": "57e5f943fd7333461e109b6a3f38fdb27738dbeae4c07ed2c8984d957e51543c",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Skillet",
+      "title": "Sick Of It",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Skillet - Sick Of It [6414b2fc]",
+      "chart_sha256": "44c8c8f6b2ecd2acd647a132a71fd1c71daf2626a00b9fa221364d99e59c1e00",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Skillet",
+      "title": "Undefeated",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Skillet - Undefeated [641de7d4]",
+      "chart_sha256": "522edc00b421bc9e8278c9a15e04dd8dcbb2f464eae907c987e05fa751d74d64",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slayer",
+      "title": "Behind The Crooked Cross",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slayer - Behind The Crooked Cross [5b947da9]",
+      "chart_sha256": "9d71c08c1e6e2d15067aa9e643d7fccc0f9473eff673fa6dba7ea6fb6ce6b00b",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slayer",
+      "title": "Dead Skin Mask",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slayer - Dead Skin Mask [5bbce4f8]",
+      "chart_sha256": "0b1879611df89a98b3e3b6a64fc7f616168be4df7d9ba5dfc4640e0cfecb3381",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slayer",
+      "title": "Die By the Sword",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slayer - Die By the Sword [59295ee3]",
+      "chart_sha256": "90fc9a66f4aa0b13bdec77f17935cb10f3497d7631d6dacb8197c39ae3c9ff38",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slayer",
+      "title": "Hell Awaits",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slayer - Hell Awaits [592969d6]",
+      "chart_sha256": "01df64ee28c10504e8b8fbf756f34fc9ae43ca4459a56ce999fe2ae69ec0730f",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slayer",
+      "title": "Mandatory Suicide",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slayer - Mandatory Suicide [59296ed5]",
+      "chart_sha256": "e568d5835ca54f2ae149eb2cfc59c2b901bffa6969bbeaa8e837831e4ff55e8c",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "Slipknot",
+      "title": "Spit It Out",
+      "genre": "Metal",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slipknot - Spit It Out [cb61de26]",
+      "chart_sha256": "d485c92f938763696f5e75aa1972f109d1e43a4fcf032592613b039c71fb6b4d",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]",
+        "[mix 3 drums0d]"
+      ],
+      "component_sources": {},
+      "disco_starts": 1
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Back in the U.S.S.R.",
+      "genre": "Classic Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Back in the U.S.S.R [43ed1ebb]",
+      "chart_sha256": "7435df8159957e08f09e1c5a55c598a9e61e33c74ec6f411fd9662653de24266",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Happiness Is a Warm Gun",
+      "genre": "Pop-Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Happiness Is a Warm Gun [5cd84f26]",
+      "chart_sha256": "eb3ec4cd7fc9f9f1ea1da923137a15c5d49cb3c136c5e70008736d4abfed262d",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Ob-La-Di, Ob-La-Da",
+      "genre": "Pop-Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Ob-La-Di, Ob-La-Da [5b6d7333]",
+      "chart_sha256": "970ab20aa2fe3a29aad58eaaa13860ef5836631d546dc5611fc4bffff9d36c3f",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Revolution",
+      "genre": "Classic Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Revolution [273f1acc]",
+      "chart_sha256": "d12de1996b654e2a3ec96eeba4db8c9d273f50c4fd63d5651a76f783bcc4786a",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Roll Over Beethoven",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Roll Over Beethoven [57a6840e]",
+      "chart_sha256": "c09b83a9629c4a4e3013c6f216740a4e8dddf7c464f58307949b64014275ab2d",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Strawberry Fields Forever",
+      "genre": "Classic Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Strawberry Fields Forever [548b2d1b]",
+      "chart_sha256": "e1605fef8e859c245fb893cd5bb470b9784a6a81e8ba504c958a2a2bd38003e9",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "keys.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "The Beatles",
+      "title": "Ticket To Ride",
+      "genre": "Classic Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Ticket to Ride [551aa4de]",
+      "chart_sha256": "e1a4a1a912400aa42a2008993073b497be4b9a293e09b05eca4d2af424f4c987",
+      "format": "mid",
+      "assets": [
+        "drums.ogg",
+        "guitar.ogg",
+        "rhythm.ogg",
+        "song.ogg",
+        "vocals.ogg"
+      ],
+      "has_drum_files": true,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    },
+    {
+      "artist": "VIOLENT VIRA",
+      "title": "Burn Me With A Bible",
+      "genre": "Rock",
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/VIOLENT VIRA - Burn Me With A Bible [3c64c1ef]",
+      "chart_sha256": "d52e86965684e8ac85151ea98ceed68569889b7d2cf93669c86dacab727deb9c",
+      "format": "mid",
+      "assets": [
+        "song.ogg"
+      ],
+      "has_drum_files": false,
+      "expert_mixes": [
+        "[mix 3 drums0]"
+      ],
+      "component_sources": {},
+      "disco_starts": 0
+    }
+  ],
+  "excluded": [
+    {
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Iron Maiden - The Number of the Beast [19300087]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Linkin Park - Numb [6524a935]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/Nirvana - All Apologies [473f6755]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock/Songs/MixDrumRock - Lote teste 01/The Beatles - Come Together [c620c633]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Drums - Lote 12/Linkin Park - Bleed It Out [209d4526]",
+      "reason": "ValueError: reference requires explicit four-lane Pro Drums"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Drums - Lote 12/The Beatles - For No One [51f5c23a]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Drums - Lote 12/The Beatles - We Can Work It Out [591ee5fd]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Dream Theater - Forsaken [5b947daf]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Exodus - Bonded By Blood [34e2846b]",
+      "reason": "ValueError: .chart cymbal flag has no same-tick colored note"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 02/Linkin Park - Crawling [b0175606]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 04/Elena Siegman - 115 [6c3a879f]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Avenged Sevenfold - Afterlife [3f02fba9]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/Avenged Sevenfold - Carry On [5ae67425]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/The Beatles - All My Loving [abe9629b]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/The Beatles - From Me To You [842f2675]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/The Beatles - Please Please Me [b97b1cfe]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/The Beatles - She Loves You [7ecc9aff]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 05/The Beatles - This Boy [153c2943]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Linkin Park - Faint [d9000b31]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Metallica - Die, Die My Darling [531a763e]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 07/Slipknot - Eeyore [6e6e61a9]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Brompton Cocktail [59295b37]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 08/Avenged Sevenfold - Not Ready To Die [59297cef]",
+      "reason": "previously_examined_song"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Nirvana - Sliver [516393c6]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Nirvana - Tourette's [5be9712b]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 10/Nirvana - Very Ape [59829613]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slayer - Abolish Government_Superficial Love [596e3d23]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slayer - Necrophobic [5daf8dd6]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/Slayer - Piece by Piece [5daf8cc8]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "MixDrumRock-continuacao/Songs/MixDrumRock - Lote 11/The Beatles - Help! [531564eb]",
+      "reason": "short_for_fixed_windows"
+    },
+    {
+      "folder": "verificacao-continuacao/resultado/Songs/Verificacao dos formatos/Iron Maiden - The Evil That Men Do [a2f57d41]",
+      "reason": "duplicate_chart"
+    },
+    {
+      "folder": "verificacao-continuacao/resultado/Songs/Verificacao dos formatos/Linkin Park - Don't Stay [ec683298]",
+      "reason": "duplicate_chart"
+    },
+    {
+      "folder": "verificacao-continuacao/resultado/Songs/Verificacao dos formatos/Nirvana - Heart-Shaped Box [a739f2ed]",
+      "reason": "duplicate_chart"
+    },
+    {
+      "folder": "verificacao-continuacao/resultado/Songs/Verificacao dos formatos/Slayer - Angel of Death [d165841b]",
+      "reason": "duplicate_chart"
+    },
+    {
+      "folder": "verificacao-continuacao/resultado/Songs/Verificacao dos formatos/Slayer - Psychopathy Red [9899bc4d]",
+      "reason": "duplicate_chart"
+    },
+    {
+      "folder": "verificacao-mega-drums/resultado/Songs/Verificacao MEGA Drums/Linkin Park - Powerless [5b947daf]",
+      "reason": "duplicate_chart"
+    }
+  ],
+  "selected": [
+    "survey-cdb5344af4b18d28",
+    "survey-9d71c08c1e6e2d15",
+    "survey-d52e86965684e8ac",
+    "survey-10598801d2b39022",
+    "survey-8dd3560704c528fe",
+    "survey-3139c2f7c733af1a",
+    "survey-e77d67c14d6ab6d4",
+    "survey-fdb996d7ebe19013",
+    "survey-ef1f90209ea6e752",
+    "survey-1dbefd72788f28e8",
+    "survey-beb431e54ad228d7",
+    "survey-9ac47a4fdb4d5175",
+    "survey-89fea96609a285ca",
+    "survey-83671d2a94519bfc",
+    "survey-44c8c8f6b2ecd2ac",
+    "survey-c5eaa37713a1879e",
+    "survey-e1a4a1a912400aa4",
+    "survey-c9cd03756d6d8dbc",
+    "survey-7f383b348ad79e6a",
+    "survey-c8636fc338486b58",
+    "survey-24d5b1d2279e69c6",
+    "survey-d08ad56ba632998a",
+    "survey-9589b1661ab68b58",
+    "survey-2fd990319b54d55b",
+    "survey-8ae5533d5d75b64e",
+    "survey-260017f9035be73c",
+    "survey-5d99d9c941c99e06",
+    "survey-a67419c0a427a81c",
+    "survey-c65ed2fe66125123",
+    "survey-ca39bef037c447df",
+    "survey-d4131a6d6b533d88",
+    "survey-b5317d539ef93109",
+    "survey-e1605fef8e859c24",
+    "survey-45dca4661a6a6699",
+    "survey-1cdfde4cb5332067",
+    "survey-5863f009aec9c06f",
+    "survey-da515566544d16da",
+    "survey-241f7fc866b8a529",
+    "survey-1a84e51d0289377c",
+    "survey-6bcd506c6dc15a1d",
+    "survey-1726e5a2262905cb",
+    "survey-565a6dc2b59df650",
+    "survey-f048044c6d3aa56b",
+    "survey-4e5e90a98e1d78f6",
+    "survey-03d63755c5ab2440",
+    "survey-19c45d0549541a43",
+    "survey-7435df8159957e08",
+    "survey-65da7aa56cc3207c",
+    "survey-013a5cf5e6e09fa4",
+    "survey-1b9445a5fd1cf627",
+    "survey-18d5641bbf381be9",
+    "survey-0b1879611df89a98",
+    "survey-d485c92f93876369",
+    "survey-6a8d4538f08cdf05",
+    "survey-7f368595548c321b",
+    "survey-4cc1f429ad4615a9",
+    "survey-d567faaa308c9ba7",
+    "survey-6f0acbf0063ee319",
+    "survey-3b01fff55d18ed93",
+    "survey-c8e0163eb12492ae",
+    "survey-970ab20aa2fe3a29",
+    "survey-267f8f1d4239c236",
+    "survey-75358480c1e25970",
+    "survey-9da9fb98f8058578"
+  ]
+}
