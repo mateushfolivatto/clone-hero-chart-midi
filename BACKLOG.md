@@ -511,6 +511,21 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   conservatively and Heavy Is the Crown was excluded as already delivered.
   Native Windows execution and Scan Songs/playtest remain pending.
 
+- [x] **DCF-LIB-014 [P0]** Complete the Linkin Park catalog preparation pass:
+  207 new charts in batches 19–30, 172 Pro Drums and
+  35 ordinary Drums; the 33 earlier band charts are retained.
+  Given Up remains once in batch 02. All 475 drum-catalog packages/255 grouped
+  editions considered, plus explicit album-reference gaps and targeted non-drum
+  package checks. 1527 runtime assets, 871 decoded audio assets,
+  253,421 Expert gems and 12 ZIPs checked. Actual-container acquisition,
+  pinned band-only recovery of old/new recipes and local additions comparison
+  implemented; 155 core tests, 19 optional DSP checks and all artifact gates passed.
+  Concurrent diagnostic work from origin/main was retained. Fresh stdlib-only
+  reconstruction, offline resume and real-song additions export verified on Linux.
+  Old recipes, Qobuz coverage and Onyx helper bytes preserved. Durable Windows
+  route/song lists: song-library/LINKIN-PARK.md. This completes the preparation
+  pass, not full discography availability or native Windows/game acceptance.
+
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
 The subsequent metadata-export slice captured the playlist only; it did not

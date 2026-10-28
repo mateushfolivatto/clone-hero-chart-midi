@@ -42,6 +42,12 @@ def normalized(text: str) -> str:
 def edition_key(title: str) -> str:
     # Edition-only differences are review candidates, never automatic exclusions.
     title = re.sub(
+        r"\s*[\[(](?:RB3 Version|2x Bass Pedal|Drums Only|Rhythm Version)[\])]",
+        "",
+        title,
+        flags=re.IGNORECASE,
+    )
+    title = re.sub(
         r"\b(?:\d{4}\s+)?remaster(?:ed)?(?:\s+(?:version|\d{4}))?\b",
         "",
         title,
@@ -229,9 +235,11 @@ def compatible(left: Song, right: Song) -> bool:
     return versions[0] == versions[1]
 
 
-def compare(old: list[Song], new: list[Song]) -> tuple[list[Song], list[dict[str, str]]]:
+def compare(
+    old: list[Song], new: list[Song], *, allow_empty_reference: bool = False
+) -> tuple[list[Song], list[dict[str, str]]]:
     ready = [s for s in new if not s.problem]
-    if not ready:
+    if not ready and not allow_empty_reference:
         raise ValueError(
             "Nenhuma musica nova completa encontrada. Confira --novas e termine os downloads."
         )
@@ -258,6 +266,18 @@ def compare(old: list[Song], new: list[Song]) -> tuple[list[Song], list[dict[str
                             else "Mesmo artista/titulo; a outra copia tem prioridade"
                         ),
                         matched.relative,
+                    )
+                    break
+                chart_hashes = set(song.fingerprint[0])
+                shared_chart = next(
+                    (s for s in collection if chart_hashes.intersection(s.fingerprint[0])), None
+                )
+                if shared_chart:
+                    status, reason, match = (
+                        "revisar",
+                        "Chart identico, mas audio/metadados diferem; "
+                        "evitar chart duplicado no jogo",
+                        shared_chart.relative,
                     )
                     break
                 review = same or [

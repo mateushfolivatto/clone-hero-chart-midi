@@ -1,0 +1,2222 @@
+{
+  "schema_version": 1,
+  "batch_number": 19,
+  "collection_folder": "MixDrumRock - Lote 19 - Linkin Park",
+  "archive_name": "MixDrumRock-lote-19.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "linkin-park",
+  "theme_label": "Linkin Park",
+  "edition_group": "studio_and_other",
+  "edition_group_label": "Faixas e raridades",
+  "songs": [
+    {
+      "artist": "Jay-Z & Linkin Park",
+      "title": "Points of Authority / 99 Problems / One Step Closer",
+      "file_id": "63bceb3db3c7e0.75645762",
+      "source_url": "https://rhythmverse.co/songfile/63bceb3db3c7e0.75645762",
+      "download_url": "https://rhythmverse.co/download_file/theoreo/63bceb3db3c7e0.75645762/OSC99PPOAv2_rb3con",
+      "archive_format": "onyx",
+      "folder": "Jay-Z & Linkin Park - Points of Authority _ 99 Problems _ One Step Closer [63bceb3d]",
+      "charter": "TheOreo, No_Soy_Yuri & Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1511,
+          "kick_note_on_count": 453,
+          "tom_marker_count": 27,
+          "last_expert_onset_seconds": 295.28,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63bceb3db3c7e0.75645762",
+        "artist": "Jay-Z & Linkin Park",
+        "title": "Points of Authority / 99 Problems / One Step Closer",
+        "album": "Collision Course",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63bceb3db3c7e0.75645762",
+        "download_url": "https://rhythmverse.co/download_file/theoreo/63bceb3db3c7e0.75645762/OSC99PPOAv2_rb3con",
+        "duration_seconds": 326.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "TheOreo",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Jay-Z & Linkin Park - Points of Authority _ 99 Problems _ One Step Closer/album.png",
+          "name": "album.png",
+          "sha256": "f3efe9048b0a7c96b6824ab82717fee1fb0fe0d2a95da97ad13985179487dba9"
+        },
+        {
+          "archive_name": "Jay-Z & Linkin Park - Points of Authority _ 99 Problems _ One Step Closer/notes.mid",
+          "name": "notes.mid",
+          "sha256": "84efd374edda164d69a6e10efd9e3825cbd428b927a819d251396ec38445d3b3"
+        },
+        {
+          "archive_name": "Jay-Z & Linkin Park - Points of Authority _ 99 Problems _ One Step Closer/song.ini",
+          "name": "song.ini",
+          "sha256": "dda41c30b7193682d52954e5df940aa97b22cf840a43370b2fa3eec7badb377a"
+        },
+        {
+          "archive_name": "Jay-Z & Linkin Park - Points of Authority _ 99 Problems _ One Step Closer/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f9d6268f73cd5123fda51818d6014763ee8b4411506a1d17f9c972bb1a3b62bd"
+        }
+      ],
+      "archive_sha256": "13c4e21484f7c982ddf0392f741d259080758e85c7775c7c4d52f036d61c204c",
+      "archive_bytes": 6467584,
+      "prepared_bytes": 5869271,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "pointsofauthority99problemsonestepcloser"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "26 Lettaz In Da Alphabet",
+      "file_id": "567ee4ae572f4237a7a56955e4d6c7af",
+      "source_url": "https://rhythmverse.co/songfile/567ee4ae572f4237a7a56955e4d6c7af",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/567ee4ae572f4237a7a56955e4d6c7af/Linkin%20Park%20(MMM...Cookies)%20-%2026%20Lettaz%20In%20Da%20Alphabet%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - 26 Lettaz In Da Alphabet [567ee4ae]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1282,
+          "kick_note_on_count": 226,
+          "cymbal_marker_count": 845,
+          "last_expert_onset_seconds": 213.875,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "567ee4ae572f4237a7a56955e4d6c7af",
+        "artist": "Linkin Park",
+        "title": "26 Lettaz In Da Alphabet",
+        "album": "Sweet Hamster Like Jewels From America!",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/567ee4ae572f4237a7a56955e4d6c7af",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/567ee4ae572f4237a7a56955e4d6c7af/Linkin Park (MMM...Cookies) - 26 Lettaz In Da Alphabet (mjey2010).zip",
+        "duration_seconds": 216.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park (MMM...Cookies) - 26 Lettaz In Da Alphabet (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "4af48466b0862f078e697b9de9403ffe494e70dcabb2a5b9986ac2397b105f1b"
+        },
+        {
+          "archive_name": "Linkin Park (MMM...Cookies) - 26 Lettaz In Da Alphabet (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "f65aafe6fe6b878864956c520695ea2f6092663c6350e3ea4ca9dd91817b8dab"
+        },
+        {
+          "archive_name": "Linkin Park (MMM...Cookies) - 26 Lettaz In Da Alphabet (mjey2010)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "57b612348f3efe0814121b5e76e322e2c98f3a612835873fa77b1bcfe8b3c756"
+        },
+        {
+          "archive_name": "Linkin Park (MMM...Cookies) - 26 Lettaz In Da Alphabet (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "dfcb549ea7ff6615799a5cd8de5d2b9799f9d4f19d8d048a89551e167e98cd92"
+        },
+        {
+          "archive_name": "Linkin Park (MMM...Cookies) - 26 Lettaz In Da Alphabet (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "88e6861e381f907f57c57c3f22ab774b42b0e05d52fb4f02ea73b6ddba8a2838"
+        }
+      ],
+      "archive_sha256": "9bd2eb548dbb68bbe52f53b02b07a02918ce6a3028d4310985cf7abcff0bccd0",
+      "archive_bytes": 7246808,
+      "prepared_bytes": 7346801,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "26lettazindaalphabet"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "A Light That Never Comes (ft. Steve Aoki)",
+      "file_id": "54c9d513d01df",
+      "source_url": "https://rhythmverse.co/songfile/54c9d513d01df",
+      "download_url": "https://rhythmverse.co/download_file/arcanon/54c9d513d01df/ALightThatNeverComes_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - A Light That Never Comes (ft. Steve Aoki) [54c9d513]",
+      "charter": "Arcanon",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1544,
+          "kick_note_on_count": 402,
+          "tom_marker_count": 530,
+          "last_expert_onset_seconds": 229.043,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "54c9d513d01df",
+        "artist": "Linkin Park",
+        "title": "A Light That Never Comes (ft. Steve Aoki)",
+        "album": "Recharged",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/54c9d513d01df",
+        "download_url": "https://rhythmverse.co/download_file/arcanon/54c9d513d01df/ALightThatNeverComes_rb3con",
+        "duration_seconds": 236.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Arcanon",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - A Light That Never Comes (ft. Steve Aoki)/album.png",
+          "name": "album.png",
+          "sha256": "998627f33c83d22d6aada723206173147e36f28d68689f34b61648400c627ac6"
+        },
+        {
+          "archive_name": "Linkin Park - A Light That Never Comes (ft. Steve Aoki)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "5f0fe45da7ba119a385fd06f556166c1d4d7a6a73746938d4b7baadb9b8a0e89"
+        },
+        {
+          "archive_name": "Linkin Park - A Light That Never Comes (ft. Steve Aoki)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "15f26325fa0815ef0acf69bdce08f6276603738b592c2151c06b2e0d3aa70067"
+        },
+        {
+          "archive_name": "Linkin Park - A Light That Never Comes (ft. Steve Aoki)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "41719307c21eb6b46f5e694f14b90578287873533fce66c2c44823d842d333d9"
+        },
+        {
+          "archive_name": "Linkin Park - A Light That Never Comes (ft. Steve Aoki)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "dc8f9f22971cc3369c1872f6c799203c919bd3f84af7368aef997e76d3fa68c8"
+        },
+        {
+          "archive_name": "Linkin Park - A Light That Never Comes (ft. Steve Aoki)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "4b71b2afcaf6d41ad541fcb5365eadb6007ad03810608e5ef09de89541cb0b46"
+        },
+        {
+          "archive_name": "Linkin Park - A Light That Never Comes (ft. Steve Aoki)/song.ini",
+          "name": "song.ini",
+          "sha256": "d53d07196a7fe12a588b66ec6a9e6d79307c44a8dddceaa42d18cd7446768619"
+        },
+        {
+          "archive_name": "Linkin Park - A Light That Never Comes (ft. Steve Aoki)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5877fbb34fd784a6d09d1bef44003e30ac3c56fc102c5950c78d715fc8427e1d"
+        },
+        {
+          "archive_name": "Linkin Park - A Light That Never Comes (ft. Steve Aoki)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "41c8f4f8570bf7db12036e2630f3180b3e0a775d55c9685c63a724832edcb977"
+        }
+      ],
+      "archive_sha256": "9184e7e28809f14e14803946f63943f427c22959094b5f0e7f618f9dd418e9b0",
+      "archive_bytes": 28811264,
+      "prepared_bytes": 24350580,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "alightthatnevercomes"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "A Line in the Sand",
+      "file_id": "f438bad0901b4d8fb06eeff8ce82f54b",
+      "source_url": "https://rhythmverse.co/songfile/f438bad0901b4d8fb06eeff8ce82f54b",
+      "download_url": "https://rhythmverse.co/download_file/luna2/f438bad0901b4d8fb06eeff8ce82f54b/ALineintheSand_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - A Line in the Sand [f438bad0]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2318,
+          "kick_note_on_count": 647,
+          "tom_marker_count": 146,
+          "last_expert_onset_seconds": 354.0,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f438bad0901b4d8fb06eeff8ce82f54b",
+        "artist": "Linkin Park",
+        "title": "A Line in the Sand",
+        "album": "The Hunting Party",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/f438bad0901b4d8fb06eeff8ce82f54b",
+        "download_url": "https://rhythmverse.co/download_file/luna2/f438bad0901b4d8fb06eeff8ce82f54b/ALineintheSand_rb3con",
+        "duration_seconds": 396.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - A Line in the Sand/album.png",
+          "name": "album.png",
+          "sha256": "4d14c4f2dcd85e193f54d7f7af5301f5ae8a6b1282a800120c4a1aa7276ab2d3"
+        },
+        {
+          "archive_name": "Linkin Park - A Line in the Sand/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "dd2b875ab19d467d429db50f3ce764f3693b95d00740df232280d41e686049cf"
+        },
+        {
+          "archive_name": "Linkin Park - A Line in the Sand/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "24714a6a3ecbf56e87d32c87ecb204cb8450d62bfefb8a82c3f8dc11e4bffd5e"
+        },
+        {
+          "archive_name": "Linkin Park - A Line in the Sand/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "70525d28dcc6eae47e207c5b8aa3195088736f55b61f62d90ce2fb686bddd0f2"
+        },
+        {
+          "archive_name": "Linkin Park - A Line in the Sand/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6ad9c594c7189b43c1913c2627252049e5c1059ce2a2c40a412d2c7d2eab3c23"
+        },
+        {
+          "archive_name": "Linkin Park - A Line in the Sand/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "53e86a4f531d97423ae3d0fded102f359a8e232a191d9117e956bb3377af7a55"
+        },
+        {
+          "archive_name": "Linkin Park - A Line in the Sand/song.ini",
+          "name": "song.ini",
+          "sha256": "4d9e3f07f4e70b92b5104ee3d2e628bc1a1c1a408e69fcdfd8622f640cf68338"
+        },
+        {
+          "archive_name": "Linkin Park - A Line in the Sand/song.ogg",
+          "name": "song.ogg",
+          "sha256": "8af232ca33798c9aced601e95822b2d79bdba2046977cd54b5b04aae32e16012"
+        },
+        {
+          "archive_name": "Linkin Park - A Line in the Sand/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "f8620f65f4cafc19ee512f2102b9e9630994a8fa411886be36fbd637e8de677d"
+        }
+      ],
+      "archive_sha256": "f812d14bdeb35f780e248fcba6aff37e4494fc903e1e0045156a9901fa56e3af",
+      "archive_bytes": 33439744,
+      "prepared_bytes": 28855141,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "alineinthesand"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "A Place for My Head",
+      "file_id": "592979b4a7a1b7.31987992",
+      "source_url": "https://rhythmverse.co/songfile/592979b4a7a1b7.31987992",
+      "download_url": "https://rhythmverse.co/download_file/chainsaw-octopus/592979b4a7a1b7.31987992/aplaceformyheadv2_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - A Place for My Head [592979b4]",
+      "charter": "Chainsaw Octopus, Zanny77",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1179,
+          "kick_note_on_count": 352,
+          "tom_marker_count": 54,
+          "last_expert_onset_seconds": 184.106,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "592979b4a7a1b7.31987992",
+        "artist": "Linkin Park",
+        "title": "A Place for My Head",
+        "album": "Hybrid Theory",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/592979b4a7a1b7.31987992",
+        "download_url": "https://rhythmverse.co/download_file/chainsaw-octopus/592979b4a7a1b7.31987992/aplaceformyheadv2_rb3con",
+        "duration_seconds": 190.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Chainsaw Octopus",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - A Place for My Head/album.png",
+          "name": "album.png",
+          "sha256": "0d95ea09cd1c0d221b35591e261084b36fdb64c7cd770f5469ea97b7361607c7"
+        },
+        {
+          "archive_name": "Linkin Park - A Place for My Head/notes.mid",
+          "name": "notes.mid",
+          "sha256": "10d7e1a9d40153c1012dff101b632310046271b51acea3f9089e0b2c984198c6"
+        },
+        {
+          "archive_name": "Linkin Park - A Place for My Head/song.ini",
+          "name": "song.ini",
+          "sha256": "ccc3d0e50ed8d2dcb86d2e0c120b3fd7085ae2249a647df74bbaeb52b86dceb4"
+        },
+        {
+          "archive_name": "Linkin Park - A Place for My Head/song.ogg",
+          "name": "song.ogg",
+          "sha256": "34b332c6eba82ef69fb2302265549b3305e169703bcd2c88f5fc4469b4d508a5"
+        }
+      ],
+      "archive_sha256": "77efd1876e74c76a179972ba99d3b5db1ba658cd2301180d28e01fef5d8deb1f",
+      "archive_bytes": 4460544,
+      "prepared_bytes": 3942189,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "aplaceformyhead"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Across the Line",
+      "file_id": "4504bb275a274dba8f6071f34b7e811f",
+      "source_url": "https://rhythmverse.co/songfile/4504bb275a274dba8f6071f34b7e811f",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/4504bb275a274dba8f6071f34b7e811f/Linkin%20Park%20-%20Across%20the%20Line%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Across the Line [4504bb27]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1059,
+          "kick_note_on_count": 406,
+          "cymbal_marker_count": 436,
+          "last_expert_onset_seconds": 172.667,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "4504bb275a274dba8f6071f34b7e811f",
+        "artist": "Linkin Park",
+        "title": "Across the Line",
+        "album": "LP Underground 9: Demos",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/4504bb275a274dba8f6071f34b7e811f",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/4504bb275a274dba8f6071f34b7e811f/Linkin Park - Across the Line (mjey2010).zip",
+        "duration_seconds": 196.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Across the Line (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "58f13c480e5fc55affbb96fc6e481e5accaee88510e1f7eac92034bd438a3b62"
+        },
+        {
+          "archive_name": "Linkin Park - Across the Line (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "c95901322c161d2bf30cf6f55222eb72fc1153598e051388e255e1bdb32971cd"
+        },
+        {
+          "archive_name": "Linkin Park - Across the Line (mjey2010)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "3122c5b010b8a671f3c1aa830b01b3d2c90bdf60dbbbf4aabc9011ea09d2eb8a"
+        },
+        {
+          "archive_name": "Linkin Park - Across the Line (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "fda3a1e5a6eda2d3d8a14326317247f15ccb571f9e4af5c37781f32a535e178d"
+        },
+        {
+          "archive_name": "Linkin Park - Across the Line (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6514e0ac690f3c6eedec218e8801f410cb89e3ab2950a9e3a771919838345f40"
+        }
+      ],
+      "archive_sha256": "be253a57dce5d0bd76add4b46377ec0be9eb0865ac8e5c86a5bbb580924ffa1e",
+      "archive_bytes": 4958941,
+      "prepared_bytes": 5091559,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "acrosstheline"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "All For Nothing (ft. Page Hamilton)",
+      "file_id": "594e7b15939821.78016046",
+      "source_url": "https://rhythmverse.co/songfile/594e7b15939821.78016046",
+      "download_url": "https://rhythmverse.co/download_file/mb1nightmare/594e7b15939821.78016046/Linkin%20Park%20-%20All%20For%20Nothing%20(ft.%20Page%20Hamilton).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - All For Nothing (ft. Page Hamilton) [594e7b15]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1327,
+          "kick_note_on_count": 477,
+          "tom_marker_count": 46,
+          "last_expert_onset_seconds": 192.0,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 3,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "594e7b15939821.78016046",
+        "artist": "Linkin Park",
+        "title": "All For Nothing (ft. Page Hamilton)",
+        "album": "The Hunting Party",
+        "game": "ps",
+        "source_url": "https://rhythmverse.co/songfile/594e7b15939821.78016046",
+        "download_url": "https://rhythmverse.co/download_file/mb1nightmare/594e7b15939821.78016046/Linkin Park - All For Nothing (ft. Page Hamilton).zip",
+        "duration_seconds": 199.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mb1nightmare",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - All For Nothing (ft. Page Hamilton)/album.png",
+          "name": "album.png",
+          "sha256": "5bc82a599214c919e316b5e56dd32f6a944c876d338f77a1d0b9714d70b4c1a7"
+        },
+        {
+          "archive_name": "Linkin Park - All For Nothing (ft. Page Hamilton)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "a4633f82db33fbc679524a7ea426664da1aae4c30fdc1a9287700c3ff6392761"
+        },
+        {
+          "archive_name": "Linkin Park - All For Nothing (ft. Page Hamilton)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a15b5805c9e811432a386e171093dd4d202980ce1359f41c3fecbce9e5c03eaf"
+        },
+        {
+          "archive_name": "Linkin Park - All For Nothing (ft. Page Hamilton)/song.ini",
+          "name": "song.ini",
+          "sha256": "4fa14e5f0807c6eb2f11c806439a931a7a92d59a8727caff6cf20eac56f251a9"
+        },
+        {
+          "archive_name": "Linkin Park - All For Nothing (ft. Page Hamilton)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a4633f82db33fbc679524a7ea426664da1aae4c30fdc1a9287700c3ff6392761"
+        },
+        {
+          "archive_name": "Linkin Park - All For Nothing (ft. Page Hamilton)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "62362293ad34b445d176d7a88f35ddf3247fe674f12639c8601c8073c7248594"
+        }
+      ],
+      "archive_sha256": "821d46e2604215a0ce446a2568eebdf1a13181d545185ba1c6a59484630759b6",
+      "archive_bytes": 10380699,
+      "prepared_bytes": 10439511,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "allfornothing"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "And One",
+      "file_id": "84b9090084cd42c79903d09607ed673b",
+      "source_url": "https://rhythmverse.co/songfile/84b9090084cd42c79903d09607ed673b",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1KANcjQ3YplflEGNANxrDZVRVPrEgefbb",
+      "archive_format": "files",
+      "folder": "Linkin Park - And One [84b90900]",
+      "charter": "Lipidogo",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1434,
+          "kick_note_on_count": 360,
+          "cymbal_marker_count": 608,
+          "last_expert_onset_seconds": 258.963,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "84b9090084cd42c79903d09607ed673b",
+        "artist": "Linkin Park",
+        "title": "And One",
+        "album": "Hybrid Theory (20th Anniversary Edition)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/84b9090084cd42c79903d09607ed673b",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1KANcjQ3YplflEGNANxrDZVRVPrEgefbb",
+        "duration_seconds": 271.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Lipidogo",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "2f5b898d9f7ab0a4e75637d986fab4dd02b69634298a24f56ada539831d91307",
+          "download_url": "https://drive.google.com/uc?export=download&id=1JFbwsY2546gX7v0wTp_eHVq50pVtV8hP",
+          "source_sha256": "2f5b898d9f7ab0a4e75637d986fab4dd02b69634298a24f56ada539831d91307",
+          "bytes": 59221
+        },
+        {
+          "archive_name": "background.png",
+          "name": "background.png",
+          "sha256": "2c40c1c5775e065171f5b3393b5903040514400b27997b012dc380918a638c38",
+          "download_url": "https://drive.google.com/uc?export=download&id=18i1kdND2xRxLiurKAetc2Brc99LQGLuM",
+          "source_sha256": "2c40c1c5775e065171f5b3393b5903040514400b27997b012dc380918a638c38",
+          "bytes": 436188
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "4b6c20d716e92a00fd167b78ac1da18e48dd6338b24811c9b3ac86649fcf1fcc",
+          "download_url": "https://drive.google.com/uc?export=download&id=1jy22-FmeM7NhvT1xL1ZxeeQ6CeWDe0WG",
+          "source_sha256": "4b6c20d716e92a00fd167b78ac1da18e48dd6338b24811c9b3ac86649fcf1fcc",
+          "bytes": 69795
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "1c9dee8895b38773184ba8e847c5885b878034cf9941d8cf98330546e420234d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1ggu_eVXiULkQAZ8i-TMPtAV91Yix0vq6",
+          "source_sha256": "4a2e5acea2086f2b0f0b19aa0e178fd98d5adb7547d44ad2d33d20c28bd4184c",
+          "bytes": 715
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "bbdee5233a3149ad1f1aa1800c6e752f902cce705557d24050ccd81fe5592171",
+          "download_url": "https://drive.google.com/uc?export=download&id=1UBHLUdl_b_N-fgvv8Rzlip9jxqpACCtU",
+          "source_sha256": "bbdee5233a3149ad1f1aa1800c6e752f902cce705557d24050ccd81fe5592171",
+          "bytes": 8782237
+        }
+      ],
+      "prepared_bytes": 9348150,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "andone"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Blackout",
+      "file_id": "4a2bfe314a2841ee9872e059f1bbd10a",
+      "source_url": "https://rhythmverse.co/songfile/4a2bfe314a2841ee9872e059f1bbd10a",
+      "download_url": "https://rhythmverse.co/download_file/r0bd0g/4a2bfe314a2841ee9872e059f1bbd10a/black0ut_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Blackout [4a2bfe31]",
+      "charter": "r0bd0g",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1269,
+          "kick_note_on_count": 413,
+          "tom_marker_count": 19,
+          "last_expert_onset_seconds": 264.889,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 8,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "4a2bfe314a2841ee9872e059f1bbd10a",
+        "artist": "Linkin Park",
+        "title": "Blackout",
+        "album": "A Thousand Suns",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/4a2bfe314a2841ee9872e059f1bbd10a",
+        "download_url": "https://rhythmverse.co/download_file/r0bd0g/4a2bfe314a2841ee9872e059f1bbd10a/black0ut_rb3con",
+        "duration_seconds": 283.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "r0bd0g",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Blackout/album.png",
+          "name": "album.png",
+          "sha256": "803c3c7f5c7ffe836f144af293c2ff072c5c9cc0d4810f0104fe27af7c09b96d"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "6796f18f237f43ce3ea61bd12df8f94e8219a7dade1edbeb46c049375c060c9a"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "0535cf614b0ab9942e4c349e41e7374d938037ab19553d267ea121975f749765"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "ed017130a271795dda819b4dd48a1e6da909c5f841fbb8cfb5e6b9a3004ce007"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "6628a7025df070ba30eb3be37d91e965947d518734527168bcb1b19f018a7cd3"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "28ab114d67016f9255133bdc7a0e41c8d028a40811f63cd6ed7b4dce8b882724"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout/notes.mid",
+          "name": "notes.mid",
+          "sha256": "031f0b086ff5aaf39850d2d745de00fb3e879c76667271942d7ff62e66de4fbb"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "72ef7d012a99de77defafb5721de676e391294418f757aa26eb65351bbd7966c"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout/song.ini",
+          "name": "song.ini",
+          "sha256": "0dc1c882ca2cdf331daab19ebb004925c7a54088b78606445bd50a4d64bd84a8"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout/song.ogg",
+          "name": "song.ogg",
+          "sha256": "eb6d8a61fce1bd7f9f8771c6c70c6c55f8ff15b8a8b62fc28da0e3d7ee520306"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "64f751be91d33c844e503b6edf7ce8f441e0a9be6c63b6af95bbf85dd7bfc305"
+        }
+      ],
+      "archive_sha256": "0fb022cc0a5cc298d4b58d2eac1059f89b7137a0562a3163b8af39adf6d1d013",
+      "archive_bytes": 45826048,
+      "prepared_bytes": 38876226,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "blackout"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Blackout (Acid Rain Version)",
+      "file_id": "cc130a4941d94273b21d7969c63416e5",
+      "source_url": "https://rhythmverse.co/songfile/cc130a4941d94273b21d7969c63416e5",
+      "download_url": "https://rhythmverse.co/download_file/luna2/cc130a4941d94273b21d7969c63416e5/BlackoutAcidRainVersion_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Blackout (Acid Rain Version) [cc130a49]",
+      "charter": "Luna",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1457,
+          "kick_note_on_count": 396,
+          "tom_marker_count": 86,
+          "last_expert_onset_seconds": 264.889,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "cc130a4941d94273b21d7969c63416e5",
+        "artist": "Linkin Park",
+        "title": "Blackout (Acid Rain Version)",
+        "album": "A Thousand Suns (AU Album Advance)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/cc130a4941d94273b21d7969c63416e5",
+        "download_url": "https://rhythmverse.co/download_file/luna2/cc130a4941d94273b21d7969c63416e5/BlackoutAcidRainVersion_rb3con",
+        "duration_seconds": 285.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Blackout (Acid Rain Version)/album.png",
+          "name": "album.png",
+          "sha256": "6d177645572a144eb91da99606c74cc7fb1032b683430c5d4a3e8dffdc11b772"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Acid Rain Version)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "70799edd12589bff5efcf78290ea439cd771c77d1947df9540ccc943569b6fa3"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Acid Rain Version)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d307a949851a247c8a296024e20b74f68edd9ccf48df3bdca46efff5e3fa6791"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Acid Rain Version)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "e866ee2746a3862d6342dd0e217dacd1e2cb7af044fce0465855f90500fe59a5"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Acid Rain Version)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "40258b381c6ced17fedf81c1969bf6407a26843dca3eceb102d263904c1e37ee"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Acid Rain Version)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "c52ab6660f9da3e4eac316ba4c910c3f9eed627512a00959a8889a97bf9c2c56"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Acid Rain Version)/song.ini",
+          "name": "song.ini",
+          "sha256": "610e7d5f043316c1a5f2b13d1e8f71fd4cc5aa7451345e92b56923b4e69ec1bb"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Acid Rain Version)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a7a4c7f6ec8414cbec2f27b912a1ec79492855ddd9231d0cb20befa148c233e8"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Acid Rain Version)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "0441ed338dd9c896f7230700c4a14fefde809e167c96d507a5682ba060fc6c30"
+        }
+      ],
+      "archive_sha256": "dd4e0c7a8b045143eca4ef822925bf4353cc9c226addfb98afe572c0e32ee2c8",
+      "archive_bytes": 31035392,
+      "prepared_bytes": 27462636,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "blackoutacidrainversion"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Burning in the Skies",
+      "file_id": "529fbf96804a9",
+      "source_url": "https://rhythmverse.co/songfile/529fbf96804a9",
+      "download_url": "https://rhythmverse.co/download_file/ghtorb3/529fbf96804a9/burningintheskies",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Burning in the Skies [529fbf96]",
+      "charter": "Neversoft / GHtoRB3",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1869,
+          "kick_note_on_count": 305,
+          "tom_marker_count": 2,
+          "last_expert_onset_seconds": 264.999,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 8,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "529fbf96804a9",
+        "artist": "Linkin Park",
+        "title": "Burning in the Skies",
+        "album": "A Thousand Suns",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/529fbf96804a9",
+        "download_url": "https://rhythmverse.co/download_file/ghtorb3/529fbf96804a9/burningintheskies",
+        "duration_seconds": 265.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Activision",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/album.png",
+          "name": "album.png",
+          "sha256": "2850943636216771f88e167004e782a0dbe1611f323962364263dbe6323c6498"
+        },
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "ba7745966ff93ddbdd5940a927c70d414b8303762d5ebf89fd76607e37c5d5a7"
+        },
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "59996e11564fae06539fbf851e7972bcc2843481c507444ff8b4b9f95fe6df7a"
+        },
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "3a87a29dede19db885ccd424f16e0f93cbcc8ee21e9500cf55a93fdf9eb1a760"
+        },
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "4a03337f4dd2d613bf3b78b22524c30d75cfbb88cc58aaeee4acc2c2a9d7bf38"
+        },
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "16cb24705ab69e9538dd40661cf6581f9d3458a3ec647025f42d23b30ba5c81b"
+        },
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/notes.mid",
+          "name": "notes.mid",
+          "sha256": "330d1ef2d96975705cb96d042e481d6e6cc831be75fa114b193211e983563a0f"
+        },
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "692ed01a9003e65a0e90f0ef895680359c8bae6c53cc1117d36df68d96690302"
+        },
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/song.ini",
+          "name": "song.ini",
+          "sha256": "1f8e636fbc54cfe721718932ff556032c067b989363621f4e1a7094b5e41ef4c"
+        },
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3790053b2382cb1d18dd9b499b97d84bb435cbc6533b0bf2b5cfdc083fc7f668"
+        },
+        {
+          "archive_name": "Linkin Park - Burning in the Skies/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "6d00c2dce42186f5fba96409e92c598b84b713b7d02a6db861f3cfb15edb807d"
+        }
+      ],
+      "archive_sha256": "f9621b05575c97dca9e901d93e4128d9f50a6515acad57504e0e8b74fbffe6bb",
+      "archive_bytes": 45326336,
+      "prepared_bytes": 34746771,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "burningintheskies"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "By Myself",
+      "file_id": "f5a7762b83e543a6a125a73f45b166c7",
+      "source_url": "https://rhythmverse.co/songfile/f5a7762b83e543a6a125a73f45b166c7",
+      "download_url": "https://drive.google.com/drive/u/0/folders/19ymx52EMAezCDqdwiGPkZ5pIcVwDfIdv",
+      "archive_format": "files",
+      "folder": "Linkin Park - By Myself [f5a7762b]",
+      "charter": "Maupy2, beard216",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1029,
+          "kick_note_on_count": 371,
+          "tom_marker_count": 11,
+          "last_expert_onset_seconds": 192.255,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f5a7762b83e543a6a125a73f45b166c7",
+        "artist": "Linkin Park",
+        "title": "By Myself",
+        "album": "Hybrid Theory",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/f5a7762b83e543a6a125a73f45b166c7",
+        "download_url": "https://drive.google.com/drive/u/0/folders/19ymx52EMAezCDqdwiGPkZ5pIcVwDfIdv",
+        "duration_seconds": 192.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Maupy2, beard216",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "f535a0a0ef3d3a47615ab859db86ea212d2e95e168f3d5e38a81aee6adcd38d5",
+          "download_url": "https://drive.google.com/uc?export=download&id=1C5tqKgAE5_X_jFEbI6VrphQYn0oJ-OtC",
+          "source_sha256": "f535a0a0ef3d3a47615ab859db86ea212d2e95e168f3d5e38a81aee6adcd38d5",
+          "bytes": 96046
+        },
+        {
+          "archive_name": "guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "0b25a9636e13057610fab7e8776a2673ec4c4555e7ae8c91c1da476b42d4d109",
+          "download_url": "https://drive.google.com/uc?export=download&id=11Jktg7hG3g9k37OkuDJBbfCZBmb861BI",
+          "source_sha256": "0b25a9636e13057610fab7e8776a2673ec4c4555e7ae8c91c1da476b42d4d109",
+          "bytes": 3346335
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "a66ab01207e161e9412329b3080343c344b12494a8e2e2aca9613b2d3381bc77",
+          "download_url": "https://drive.google.com/uc?export=download&id=1z_9z9Y6AvlEREK3ZRV4S65KGUPT9Z8tZ",
+          "source_sha256": "a66ab01207e161e9412329b3080343c344b12494a8e2e2aca9613b2d3381bc77",
+          "bytes": 95540
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "743c59760d22ff3a84fca53e7a52ba6b1d7cd8a1b6b6ece3d8657fdb327cebc5",
+          "download_url": "https://drive.google.com/uc?export=download&id=1w83mKYNwNhkWWyadueKpRR1oBcvnuZJV",
+          "source_sha256": "743c59760d22ff3a84fca53e7a52ba6b1d7cd8a1b6b6ece3d8657fdb327cebc5",
+          "bytes": 1044
+        }
+      ],
+      "prepared_bytes": 3538965,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "bymyself"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Casualty",
+      "file_id": "ae14fd86d4824a888c02835f56ff7a79",
+      "source_url": "https://rhythmverse.co/songfile/ae14fd86d4824a888c02835f56ff7a79",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/ae14fd86d4824a888c02835f56ff7a79/Linkin%20Park%20-%20Casualty%20(mjey).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Casualty [ae14fd86]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 683,
+          "kick_note_on_count": 262,
+          "tom_marker_count": 9,
+          "last_expert_onset_seconds": 140.25,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ae14fd86d4824a888c02835f56ff7a79",
+        "artist": "Linkin Park",
+        "title": "Casualty",
+        "album": "From Zero",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/ae14fd86d4824a888c02835f56ff7a79",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/ae14fd86d4824a888c02835f56ff7a79/Linkin Park - Casualty (mjey).zip",
+        "duration_seconds": 144.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Casualty (mjey)/album.png",
+          "name": "album.png",
+          "sha256": "ba7ff1e4e3865d8420e868c51e8a972ce9921929c03840b2d2e1d94a3d7ec1ff"
+        },
+        {
+          "archive_name": "Linkin Park - Casualty (mjey)/background.png",
+          "name": "background.png",
+          "sha256": "b1a4827ded7041735c75c1eb4871d86562176bc13f6403cb8aa2ddf916a22d89"
+        },
+        {
+          "archive_name": "Linkin Park - Casualty (mjey)/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "4bdbe4f00b536bc644beb74ae13ab421963b8a56018cf80fb85b8aa6c5a3ed5e"
+        },
+        {
+          "archive_name": "Linkin Park - Casualty (mjey)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "c7e6025f4c246b9df7781b1abcc378a8f1f1eaa8eed468f89f2fd76d6a0a46ab"
+        },
+        {
+          "archive_name": "Linkin Park - Casualty (mjey)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d1e3f4ad2461adf0f31746ddda182e78a75eb0f48e1f61827e2f2160e08ff142"
+        },
+        {
+          "archive_name": "Linkin Park - Casualty (mjey)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "600fa56dcea046dec94f03b1d72ee084dde56ab5dfc5d7d73c4829a43639268f"
+        },
+        {
+          "archive_name": "Linkin Park - Casualty (mjey)/song.ini",
+          "name": "song.ini",
+          "sha256": "6afdc0e6094f72e91450e987854b8f326279cf85ef229f7ee1ffc69e26463ecd"
+        },
+        {
+          "archive_name": "Linkin Park - Casualty (mjey)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "f0e1ae75f75f1144822b1937c445e577a0825cb3e17be2231638dd8994e52ce6"
+        }
+      ],
+      "archive_sha256": "01412c5c1ceb1e3ce3c06b971ba779e2ea7307c1c13d713faeb5ae1353ea4279",
+      "archive_bytes": 14185212,
+      "prepared_bytes": 14316767,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "casualty"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Chali/Frgt/10",
+      "file_id": "681d88cd5da64de69f898d6168a710fe",
+      "source_url": "https://rhythmverse.co/songfile/681d88cd5da64de69f898d6168a710fe",
+      "download_url": "https://rhythmverse.co/download_file/luna2/681d88cd5da64de69f898d6168a710fe/FRGT_10_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Chali_Frgt_10 [681d88cd]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1199,
+          "kick_note_on_count": 250,
+          "tom_marker_count": 24,
+          "last_expert_onset_seconds": 236.652,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "681d88cd5da64de69f898d6168a710fe",
+        "artist": "Linkin Park",
+        "title": "Chali/Frgt/10",
+        "album": "Reanimation",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/681d88cd5da64de69f898d6168a710fe",
+        "download_url": "https://rhythmverse.co/download_file/luna2/681d88cd5da64de69f898d6168a710fe/FRGT_10_rb3con",
+        "duration_seconds": 242.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Chali_Frgt_10/album.png",
+          "name": "album.png",
+          "sha256": "fd97d063304dfa7ffe0e1e3b8b453ed68a0e047b94d5babf95fbc3f570f4f3c4"
+        },
+        {
+          "archive_name": "Linkin Park - Chali_Frgt_10/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "f1967a0b3eac0b6090571f08996b8666370b30de2118e8d24d6a08636f24a74c"
+        },
+        {
+          "archive_name": "Linkin Park - Chali_Frgt_10/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "305e07b8681c0fad317256c46c5b0b8d0afa25f2c1ea15be9dc56ab5e265dd36"
+        },
+        {
+          "archive_name": "Linkin Park - Chali_Frgt_10/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b3c63b2edfa50495489180287f99fde27280b9016230f8f90ac3d78d86be8ce7"
+        },
+        {
+          "archive_name": "Linkin Park - Chali_Frgt_10/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "57e9aaed1a552d4cf7ac53740b197518e89a8f070ec3d6722b1d96f86d57682a"
+        },
+        {
+          "archive_name": "Linkin Park - Chali_Frgt_10/song.ini",
+          "name": "song.ini",
+          "sha256": "b7d5daceb114b07724b1031e6ccb7347f05cc34dea095115e5a882161a0e1199"
+        },
+        {
+          "archive_name": "Linkin Park - Chali_Frgt_10/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a2596828eb814e0c96142ca3beea10152b27cdd34adcbebaa0cc6244a1e720dc"
+        },
+        {
+          "archive_name": "Linkin Park - Chali_Frgt_10/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "840d5364174cd6b8e26b5565908c0d9975b486ce53962edb4902a28ea23ffd6f"
+        }
+      ],
+      "archive_sha256": "6dffa8d645579ba9cdff69a191c7a603f62241c2c7a76e10c082b9bdb14faa68",
+      "archive_bytes": 20975616,
+      "prepared_bytes": 17658254,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "chalifrgt10"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Cut the Bridge",
+      "file_id": "a0687bb63c664af4b9aae650b5afb098",
+      "source_url": "https://rhythmverse.co/songfile/a0687bb63c664af4b9aae650b5afb098",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/a0687bb63c664af4b9aae650b5afb098/Linkin%20Park%20-%20Cut%20the%20Bridge%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Cut the Bridge [a0687bb6]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1132,
+          "kick_note_on_count": 287,
+          "tom_marker_count": 116,
+          "last_expert_onset_seconds": 228.967,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a0687bb63c664af4b9aae650b5afb098",
+        "artist": "Linkin Park",
+        "title": "Cut the Bridge",
+        "album": "From Zero",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a0687bb63c664af4b9aae650b5afb098",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/a0687bb63c664af4b9aae650b5afb098/Linkin Park - Cut the Bridge (mjey2010).zip",
+        "duration_seconds": 230.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Cut the Bridge (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "39de865a66aa8f90b3c7b4de95ba20f8f7e06eac544580765532afd538d93855"
+        },
+        {
+          "archive_name": "Linkin Park - Cut the Bridge (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "b1a4827ded7041735c75c1eb4871d86562176bc13f6403cb8aa2ddf916a22d89"
+        },
+        {
+          "archive_name": "Linkin Park - Cut the Bridge (mjey2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "88f0474b0abe1b0b0cc2e2c8abad79eb8bdb2fbaa332d17bd7bc797c32c01e61"
+        },
+        {
+          "archive_name": "Linkin Park - Cut the Bridge (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "8a003ca1b83e8c787822ec1fb7cf78d10442b742ca40f64190fd8150ceeb3b42"
+        },
+        {
+          "archive_name": "Linkin Park - Cut the Bridge (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a1be2beffa3771c71fb346f02472cb94f6a0e0bc9868d862bdddaa3bbf37d11d"
+        }
+      ],
+      "archive_sha256": "b8b706c862cfcc138ae4454875495687e7e5c37b46aae26682823518a4766d0b",
+      "archive_bytes": 8076489,
+      "prepared_bytes": 8153878,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "cutthebridge"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Debris",
+      "file_id": "6cffb3fed3c94b419e81799d63113b30",
+      "source_url": "https://rhythmverse.co/songfile/6cffb3fed3c94b419e81799d63113b30",
+      "download_url": "https://rhythmverse.co/download_file/luna2/6cffb3fed3c94b419e81799d63113b30/Debris_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Debris [6cffb3fe]",
+      "charter": "Maupy2",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1089,
+          "kick_note_on_count": 173,
+          "tom_marker_count": 469,
+          "last_expert_onset_seconds": 203.473,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6cffb3fed3c94b419e81799d63113b30",
+        "artist": "Linkin Park",
+        "title": "Debris",
+        "album": "LP Underground 12",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6cffb3fed3c94b419e81799d63113b30",
+        "download_url": "https://rhythmverse.co/download_file/luna2/6cffb3fed3c94b419e81799d63113b30/Debris_rb3con",
+        "duration_seconds": 209.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Debris/album.png",
+          "name": "album.png",
+          "sha256": "e6c1f7e12e1c7bd4ab401ac533123a7f6c728bc3740cc69261c340f6fa5e990a"
+        },
+        {
+          "archive_name": "Linkin Park - Debris/notes.mid",
+          "name": "notes.mid",
+          "sha256": "58155d2ebd6db3b3d58e06ca34d82303dbfba39d708a4fbf1c4e01afb831e398"
+        },
+        {
+          "archive_name": "Linkin Park - Debris/song.ini",
+          "name": "song.ini",
+          "sha256": "31bd05ee9855421bb7aa25a3424aeb05bbee66b1a60b599cc4ea8835be16e1fe"
+        },
+        {
+          "archive_name": "Linkin Park - Debris/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2292ab898a706e8599d8efa0ac031bbcff902b93298cd3a8d99f8396ed5730ff"
+        }
+      ],
+      "archive_sha256": "6586f92d7d6570397722687f51aabf574e637f296b045dd6defda25cbae23666",
+      "archive_bytes": 4071424,
+      "prepared_bytes": 4124755,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "debris"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Easier To Run",
+      "file_id": "59296dfb9f8d35.42428613",
+      "source_url": "https://rhythmverse.co/songfile/59296dfb9f8d35.42428613",
+      "download_url": "https://rhythmverse.co/download_file/beard216/59296dfb9f8d35.42428613/LinkinParkEasierToRun",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Easier To Run [59296dfb]",
+      "charter": "MJR",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1139,
+          "kick_note_on_count": 245,
+          "tom_marker_count": 34,
+          "last_expert_onset_seconds": 203.497,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59296dfb9f8d35.42428613",
+        "artist": "Linkin Park",
+        "title": "Easier To Run",
+        "album": "Meteora",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59296dfb9f8d35.42428613",
+        "download_url": "https://rhythmverse.co/download_file/beard216/59296dfb9f8d35.42428613/LinkinParkEasierToRun",
+        "duration_seconds": 0.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "beard216",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Easier To Run/album.png",
+          "name": "album.png",
+          "sha256": "d44eee3634252f84ab028625a0becb6772386ad334455b0f1d8544162769da01"
+        },
+        {
+          "archive_name": "Linkin Park - Easier To Run/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7de48d7a7187cc1a4749a38570e531d97fedc26602c3ea124bb240a65cab2698"
+        },
+        {
+          "archive_name": "Linkin Park - Easier To Run/song.ini",
+          "name": "song.ini",
+          "sha256": "eef4107a4d577146cee015c282666995a3122e5fd044a1e9e53e21dc5bc2f449"
+        },
+        {
+          "archive_name": "Linkin Park - Easier To Run/song.ogg",
+          "name": "song.ogg",
+          "sha256": "4f60bcd8bddac0eeb25e8113557c6d57f9cbf0f089c1b095d0d2651d65b5c446"
+        }
+      ],
+      "archive_sha256": "0116cfb54a95831ac209c3fbfe9ddbcb4301f031e09137140979a5cf71448265",
+      "archive_bytes": 5218304,
+      "prepared_bytes": 3900429,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "easiertorun"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Empty Spaces/When They Come for Me",
+      "file_id": "6ffeedd5fbe14f4d98ea4f7ac9258084",
+      "source_url": "https://rhythmverse.co/songfile/6ffeedd5fbe14f4d98ea4f7ac9258084",
+      "download_url": "https://rhythmverse.co/download_file/r0bd0g/6ffeedd5fbe14f4d98ea4f7ac9258084/whentheyc0mef0rme",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Empty Spaces_When They Come for Me [6ffeedd5]",
+      "charter": "r0bd0g",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1598,
+          "kick_note_on_count": 304,
+          "tom_marker_count": 641,
+          "last_expert_onset_seconds": 312.107,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6ffeedd5fbe14f4d98ea4f7ac9258084",
+        "artist": "Linkin Park",
+        "title": "Empty Spaces/When They Come for Me",
+        "album": "A Thousand Suns",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6ffeedd5fbe14f4d98ea4f7ac9258084",
+        "download_url": "https://rhythmverse.co/download_file/r0bd0g/6ffeedd5fbe14f4d98ea4f7ac9258084/whentheyc0mef0rme",
+        "duration_seconds": 316.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "r0bd0g",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Empty Spaces_When They Come for Me/album.png",
+          "name": "album.png",
+          "sha256": "803c3c7f5c7ffe836f144af293c2ff072c5c9cc0d4810f0104fe27af7c09b96d"
+        },
+        {
+          "archive_name": "Linkin Park - Empty Spaces_When They Come for Me/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "6ebf26efe45ee4f7b1701bb8acf0af7d8b86f2a5fe6cc1f8f06c17b72b71bb38"
+        },
+        {
+          "archive_name": "Linkin Park - Empty Spaces_When They Come for Me/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "0863434ab3035b44582de1bfb70be1357d12b6ff0b1fb0ff47f1bc5caf3bfebf"
+        },
+        {
+          "archive_name": "Linkin Park - Empty Spaces_When They Come for Me/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "6d71601507b7ebc16a6cc6286aeec031c7d7a1105bbd3de246a5738fedae1806"
+        },
+        {
+          "archive_name": "Linkin Park - Empty Spaces_When They Come for Me/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0677b9f38e064be7c46c77090486c8151f24e84074e3525d793770068c0187e5"
+        },
+        {
+          "archive_name": "Linkin Park - Empty Spaces_When They Come for Me/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "ba300569f55c6c7dd1b41c9e03ab1b589898daa92d61f4ffe9ccd6e0c8a77e9e"
+        },
+        {
+          "archive_name": "Linkin Park - Empty Spaces_When They Come for Me/song.ini",
+          "name": "song.ini",
+          "sha256": "9b4e848029350c819e797e6631fbc4021f16c0f1967d7c982a589ad5b830d7e6"
+        },
+        {
+          "archive_name": "Linkin Park - Empty Spaces_When They Come for Me/song.ogg",
+          "name": "song.ogg",
+          "sha256": "44f8bf27b2091e3cbd47364dd56518b014861537fa99c3b618e12d39c50bfc27"
+        },
+        {
+          "archive_name": "Linkin Park - Empty Spaces_When They Come for Me/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "85c60b65922d9f937eae6d7428671b245eed6da78a36de5266519e7046932cab"
+        }
+      ],
+      "archive_sha256": "7059db94d3cd003a446c70f0064e009b2053fd105b501554cdc222e72a107340",
+      "archive_bytes": 39501824,
+      "prepared_bytes": 32460980,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "emptyspaceswhentheycomeforme"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Final Masquerade",
+      "file_id": "89a3defee4f545b0b243856f9bd9aec1",
+      "source_url": "https://rhythmverse.co/songfile/89a3defee4f545b0b243856f9bd9aec1",
+      "download_url": "https://rhythmverse.co/download_file/luna2/89a3defee4f545b0b243856f9bd9aec1/FinalMasquerade_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Final Masquerade [89a3defe]",
+      "charter": "iPodwithnomusic, Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1079,
+          "kick_note_on_count": 432,
+          "tom_marker_count": 20,
+          "last_expert_onset_seconds": 207.893,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "89a3defee4f545b0b243856f9bd9aec1",
+        "artist": "Linkin Park",
+        "title": "Final Masquerade",
+        "album": "The Hunting Party",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/89a3defee4f545b0b243856f9bd9aec1",
+        "download_url": "https://rhythmverse.co/download_file/luna2/89a3defee4f545b0b243856f9bd9aec1/FinalMasquerade_rb3con",
+        "duration_seconds": 225.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Final Masquerade/album.png",
+          "name": "album.png",
+          "sha256": "4d14c4f2dcd85e193f54d7f7af5301f5ae8a6b1282a800120c4a1aa7276ab2d3"
+        },
+        {
+          "archive_name": "Linkin Park - Final Masquerade/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "24c1e52a88d918c450b02a94c019e00f746505a5e68823b06d4ca6961c80b2f3"
+        },
+        {
+          "archive_name": "Linkin Park - Final Masquerade/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "2d0c0ad9e1933d1f957fd677a87564639a9c1c6ef8dad28457acf748874d4649"
+        },
+        {
+          "archive_name": "Linkin Park - Final Masquerade/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "7eb4ef8b1a5d7ed743c388a55c751347e7490a389375399a4f27117091280edc"
+        },
+        {
+          "archive_name": "Linkin Park - Final Masquerade/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f432ec01135ea5acb337ae93013da736ca45a65b52f5d64f9c78c6956030a657"
+        },
+        {
+          "archive_name": "Linkin Park - Final Masquerade/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "f9e5d698a8047784c93d96293c190434a098f614106e8b0c6390ec4f38e6198f"
+        },
+        {
+          "archive_name": "Linkin Park - Final Masquerade/song.ini",
+          "name": "song.ini",
+          "sha256": "03f080b522faf3b2119ffa84954602b93ded85f9809790d5b7226e31837e3406"
+        },
+        {
+          "archive_name": "Linkin Park - Final Masquerade/song.ogg",
+          "name": "song.ogg",
+          "sha256": "4cb0be30bcfa0b1f681be25325de8fcaa0b47a91cd4ffe6802cc6cdf688bc287"
+        },
+        {
+          "archive_name": "Linkin Park - Final Masquerade/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "01bdb7ab33d1d6039e5084faa63f5350ee78eef33274c80e21ce78f39ec6f6a4"
+        }
+      ],
+      "archive_sha256": "c606eed9011dc03bac4f051424750ace19c0fd24c04d1a72e2c7ed5473876c11",
+      "archive_bytes": 22376448,
+      "prepared_bytes": 19138553,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "finalmasquerade"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Forgotten",
+      "file_id": "6440c5b0ed5eb9.54107913",
+      "source_url": "https://rhythmverse.co/songfile/6440c5b0ed5eb9.54107913",
+      "download_url": "https://rhythmverse.co/download_file/theoreo/6440c5b0ed5eb9.54107913/Linkin%20Park%20-%20ForgottenV5_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Forgotten [6440c5b0]",
+      "charter": "TheOreo",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1185,
+          "kick_note_on_count": 293,
+          "tom_marker_count": 10,
+          "last_expert_onset_seconds": 189.677,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6440c5b0ed5eb9.54107913",
+        "artist": "Linkin Park",
+        "title": "Forgotten",
+        "album": "Hybrid Theory",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6440c5b0ed5eb9.54107913",
+        "download_url": "https://rhythmverse.co/download_file/theoreo/6440c5b0ed5eb9.54107913/Linkin Park - ForgottenV5_rb3con",
+        "duration_seconds": 204.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": "",
+        "uploader": "TheOreo",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Forgotten/album.png",
+          "name": "album.png",
+          "sha256": "5b46b67bdd1060aba6da4e548789a7dd1a190915a360c78d4554b53ac6626376"
+        },
+        {
+          "archive_name": "Linkin Park - Forgotten/notes.mid",
+          "name": "notes.mid",
+          "sha256": "25c2dccd44bcaa33ad06a551c96175bdb285deffed77d4157e4b105fdbc3776b"
+        },
+        {
+          "archive_name": "Linkin Park - Forgotten/song.ini",
+          "name": "song.ini",
+          "sha256": "1e1c2b31c2ac1e548ccec03d64ba27c2393da26c0878abbdf563fb106f33a9f2"
+        },
+        {
+          "archive_name": "Linkin Park - Forgotten/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0cc1d2479e5aa7492fb2b8b719450d9740e8c11aecd8371c03492b011310113d"
+        }
+      ],
+      "archive_sha256": "43bb8dbe202a9a5b595cea816b3298d1d8ac850acbc90fdd197e714fbfd44b19",
+      "archive_bytes": 11042816,
+      "prepared_bytes": 3633347,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "forgotten"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Guilty All The Same (feat. Rakim)",
+      "file_id": "f856f9e54bcd43db924ef765c4af677e",
+      "source_url": "https://rhythmverse.co/songfile/f856f9e54bcd43db924ef765c4af677e",
+      "download_url": "https://rhythmverse.co/download_file/luna2/f856f9e54bcd43db924ef765c4af677e/GuiltyAllTheSame_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Guilty All The Same (feat. Rakim) [f856f9e5]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2792,
+          "kick_note_on_count": 877,
+          "tom_marker_count": 102,
+          "last_expert_onset_seconds": 355.509,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f856f9e54bcd43db924ef765c4af677e",
+        "artist": "Linkin Park",
+        "title": "Guilty All The Same (feat. Rakim)",
+        "album": "The Hunting Party",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/f856f9e54bcd43db924ef765c4af677e",
+        "download_url": "https://rhythmverse.co/download_file/luna2/f856f9e54bcd43db924ef765c4af677e/GuiltyAllTheSame_rb3con",
+        "duration_seconds": 357.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Guilty All The Same (feat. Rakim)/album.png",
+          "name": "album.png",
+          "sha256": "4d14c4f2dcd85e193f54d7f7af5301f5ae8a6b1282a800120c4a1aa7276ab2d3"
+        },
+        {
+          "archive_name": "Linkin Park - Guilty All The Same (feat. Rakim)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "c8bdc2c00f18255b4f1685e19f8a116a1ca60345a6d00d5ae7c44685d0030f44"
+        },
+        {
+          "archive_name": "Linkin Park - Guilty All The Same (feat. Rakim)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "ea8b4c1a5027fa38505829bb94ace0d68c154cbf2b9169bddc138aa4f2b06833"
+        },
+        {
+          "archive_name": "Linkin Park - Guilty All The Same (feat. Rakim)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "8d88c0e30483e3cc049eb310083d2960e25315675fa3c7895d0ad60c0462c914"
+        },
+        {
+          "archive_name": "Linkin Park - Guilty All The Same (feat. Rakim)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "71a757262a18aaa697ebec66acc5eaa9949211d1aef2aca7abe4c959128628ae"
+        },
+        {
+          "archive_name": "Linkin Park - Guilty All The Same (feat. Rakim)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "8f92fe64309f92096eefa05ba3c1f0c0dff9a40b96a99b23b50248e74c33ee50"
+        },
+        {
+          "archive_name": "Linkin Park - Guilty All The Same (feat. Rakim)/song.ini",
+          "name": "song.ini",
+          "sha256": "144ad3e560fd47ebc5d1a0cf27f37a88f9c68dfd6935ee85c6369ebaf43aee84"
+        },
+        {
+          "archive_name": "Linkin Park - Guilty All The Same (feat. Rakim)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6798e14f47dad5e88ee409613fcfac74ccac6ffb9c3af31de0a9877efd7148a6"
+        },
+        {
+          "archive_name": "Linkin Park - Guilty All The Same (feat. Rakim)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "873749637fc02cfecbd9858f4c7ef4aec4a059d800cb0a593891239f1ce1a6b5"
+        }
+      ],
+      "archive_sha256": "58cb7e85697cce9faafa9ca0f1a5ee3470a32300b48440605e3f49bc5018a5e0",
+      "archive_bytes": 37138432,
+      "prepared_bytes": 32246740,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "guiltyallthesame"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Halfway Right",
+      "file_id": "5f310f8c2c3e42158942f440ac733094",
+      "source_url": "https://rhythmverse.co/songfile/5f310f8c2c3e42158942f440ac733094",
+      "download_url": "https://rhythmverse.co/download_file/r0bd0g/5f310f8c2c3e42158942f440ac733094/halfwayright0",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Halfway Right [5f310f8c]",
+      "charter": "r0bd0g",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1081,
+          "kick_note_on_count": 232,
+          "tom_marker_count": 15,
+          "last_expert_onset_seconds": 204.179,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 8,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5f310f8c2c3e42158942f440ac733094",
+        "artist": "Linkin Park",
+        "title": "Halfway Right",
+        "album": "One More Light",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5f310f8c2c3e42158942f440ac733094",
+        "download_url": "https://rhythmverse.co/download_file/r0bd0g/5f310f8c2c3e42158942f440ac733094/halfwayright0",
+        "duration_seconds": 221.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "r0bd0g",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Halfway Right/album.png",
+          "name": "album.png",
+          "sha256": "69da034260798e90715aaf807a160f6cc81d65b7f74d0caa2256e9ad0aadfa27"
+        },
+        {
+          "archive_name": "Linkin Park - Halfway Right/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "89523dee9544bb2cbcdc4506553ffa7b0e98fe50dcc7cb477dc208d9e90ea93b"
+        },
+        {
+          "archive_name": "Linkin Park - Halfway Right/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "2a35d4cee3c8337eab640e2e1ab5f08dd1711edcf8a1b84ce24aa1d07b410cf8"
+        },
+        {
+          "archive_name": "Linkin Park - Halfway Right/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "1333bcdd65cef90189d922c7165114761f7269ada1bd0407aa501d910d05d3f6"
+        },
+        {
+          "archive_name": "Linkin Park - Halfway Right/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "7c7f090d95f5213c77a4505eb5ffb35101b090bb10c9b9333fb578660892c4c6"
+        },
+        {
+          "archive_name": "Linkin Park - Halfway Right/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "296abe82c906180e176d7cdabd656fa0d3b7eda1015bc6a16e141309f00d61cb"
+        },
+        {
+          "archive_name": "Linkin Park - Halfway Right/notes.mid",
+          "name": "notes.mid",
+          "sha256": "74294585794378483e7d670816ba1cecdf076fa867b10348f21b9eb0c5e1844d"
+        },
+        {
+          "archive_name": "Linkin Park - Halfway Right/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "5f8745eecd1aefca7c001326cb1e9672df10970c75b30f2e81c9213ebde4a218"
+        },
+        {
+          "archive_name": "Linkin Park - Halfway Right/song.ini",
+          "name": "song.ini",
+          "sha256": "1c5e142eab5a2fe0964275c70b7570f031d27c662f1d674825b954a2114fad74"
+        },
+        {
+          "archive_name": "Linkin Park - Halfway Right/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0f9f62ebf3204fa9fdf15abb741d5a7c845a59b4103aff7462b4700acfe5f07c"
+        },
+        {
+          "archive_name": "Linkin Park - Halfway Right/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "d336059312be6db756dcd19c9143b344cd2c80d515130ea18bc48d38cec17760"
+        }
+      ],
+      "archive_sha256": "61baae4fd5b615bd171bc27e08a1d74c1b81f6a0f27e417146d368d743019eb5",
+      "archive_bytes": 32444416,
+      "prepared_bytes": 29915827,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "halfwayright"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Hands Held High",
+      "file_id": "f43e88e54a7f46e4871583c7ed1ffae4",
+      "source_url": "https://rhythmverse.co/songfile/f43e88e54a7f46e4871583c7ed1ffae4",
+      "download_url": "https://rhythmverse.co/download_file/luna2/f43e88e54a7f46e4871583c7ed1ffae4/HandsHeldHigh_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Hands Held High [f43e88e5]",
+      "charter": "MJR, Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 804,
+          "kick_note_on_count": 107,
+          "tom_marker_count": 1,
+          "last_expert_onset_seconds": 216.748,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f43e88e54a7f46e4871583c7ed1ffae4",
+        "artist": "Linkin Park",
+        "title": "Hands Held High",
+        "album": "Minutes to Midnight",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/f43e88e54a7f46e4871583c7ed1ffae4",
+        "download_url": "https://rhythmverse.co/download_file/luna2/f43e88e54a7f46e4871583c7ed1ffae4/HandsHeldHigh_rb3con",
+        "duration_seconds": 239.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Hands Held High/album.png",
+          "name": "album.png",
+          "sha256": "34158e998cc87513006b14725e70aae56616e3550b9705a6d4030d73479250f2"
+        },
+        {
+          "archive_name": "Linkin Park - Hands Held High/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "6da9d9c42971c8e28726326979e73e36b8af8e2968d0f8cca030a8fb189be1fa"
+        },
+        {
+          "archive_name": "Linkin Park - Hands Held High/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "bfa0f0635989a781682f6880a696504b4157919fcaa94ec059e813209925106b"
+        },
+        {
+          "archive_name": "Linkin Park - Hands Held High/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "25a0acf67ce0478fe49458ecf952216205ff29602c5966a9c8d32375679755f4"
+        },
+        {
+          "archive_name": "Linkin Park - Hands Held High/notes.mid",
+          "name": "notes.mid",
+          "sha256": "bfbbe802eb37d22eaafe2d77741f5a797e869292ed0479bf45c76f3ea72d1cbc"
+        },
+        {
+          "archive_name": "Linkin Park - Hands Held High/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "12301ca6c0228c148a0b8fd9d203cb4e7a567318f140db5236110d6a47549532"
+        },
+        {
+          "archive_name": "Linkin Park - Hands Held High/song.ini",
+          "name": "song.ini",
+          "sha256": "cec709a69977b937112236ce3de9cea6cceb9abbf11f8685195813060b97d36c"
+        },
+        {
+          "archive_name": "Linkin Park - Hands Held High/song.ogg",
+          "name": "song.ogg",
+          "sha256": "299892851243bb7b4eb5c9e1359503ab320347be2126418b0ff893441de0545a"
+        },
+        {
+          "archive_name": "Linkin Park - Hands Held High/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "f5de32ff8bab9579e122ad491f11522ec43025f6d0c039d76180a0a1f5574d78"
+        }
+      ],
+      "archive_sha256": "869149a8aed86c68801196820c9f0258210e58bb17926f5ddf818055bec4190c",
+      "archive_bytes": 24190976,
+      "prepared_bytes": 19951707,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "handsheldhigh"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "High Voltage",
+      "file_id": "28d8cbe6fc3d417caf38c611d7fae84a",
+      "source_url": "https://rhythmverse.co/songfile/28d8cbe6fc3d417caf38c611d7fae84a",
+      "download_url": "https://rhythmverse.co/download_file/luna2/28d8cbe6fc3d417caf38c611d7fae84a/HighVoltage_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - High Voltage [28d8cbe6]",
+      "charter": "MJR, Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1637,
+          "kick_note_on_count": 349,
+          "tom_marker_count": 377,
+          "last_expert_onset_seconds": 226.022,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "28d8cbe6fc3d417caf38c611d7fae84a",
+        "artist": "Linkin Park",
+        "title": "High Voltage",
+        "album": "Hybrid Theory (20th Anniversary Edition)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/28d8cbe6fc3d417caf38c611d7fae84a",
+        "download_url": "https://rhythmverse.co/download_file/luna2/28d8cbe6fc3d417caf38c611d7fae84a/HighVoltage_rb3con",
+        "duration_seconds": 236.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - High Voltage/album.png",
+          "name": "album.png",
+          "sha256": "3fb0c08985c2be4e18c4f1d8f0cdad3bf35a308398e5d9270a87e542331377b5"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "8e23ba9f693ea94b11262a7b97edec4baf6e6c634c9f5d14e874cf72365d0a40"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "73d9ce12b7b21b9abd4c3f43a564a7aba18fdc7fe20d253c0c92a3efba516df4"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "02536dbe1318a4dfdfa76405473de14deaa0349023d197cb31970beba6138dd5"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "9cd2f0c4d717afbfc038a6c0c479f0f1ac4fd06a35c24fe95de0652fbbbd6f9a"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage/notes.mid",
+          "name": "notes.mid",
+          "sha256": "4019349f25261455aa626501868a771254619884dac316674bf4d0176f0c041a"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "c358d9c9a638168a15e6b07c6e80e82c8dd005450cfb45772b233a459c6e3112"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage/song.ini",
+          "name": "song.ini",
+          "sha256": "ce85d9c97b1938d9fcc29cb135b998578b19bcfbeb7479111e1dd85549131f95"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a9bf83de737b721b3db8191fa08012584cbcd484ceb3b79861f3b0250fd13be6"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "cc0c354a4572185e6917d2cab5156ef661a1a7382eb8ed1d735804175311e346"
+        }
+      ],
+      "archive_sha256": "276c26823f0c6c09e708eff52fa32b41675cf0a729d4a72e3c01d0f32d34e8e6",
+      "archive_bytes": 29614080,
+      "prepared_bytes": 25594344,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "highvoltage"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "I'll Be Gone",
+      "file_id": "597218d5550960.90796967",
+      "source_url": "https://rhythmverse.co/songfile/597218d5550960.90796967",
+      "download_url": "https://rhythmverse.co/download_file/mb1nightmare/597218d5550960.90796967/Linkin%20Park%20-%20I_ll%20Be%20Gone.zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - I'll Be Gone [597218d5]",
+      "charter": "MB1Nightmare",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1076,
+          "kick_note_on_count": 357,
+          "tom_marker_count": 30,
+          "last_expert_onset_seconds": 210.428,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "597218d5550960.90796967",
+        "artist": "Linkin Park",
+        "title": "I'll Be Gone",
+        "album": "Living Things",
+        "game": "ps",
+        "source_url": "https://rhythmverse.co/songfile/597218d5550960.90796967",
+        "download_url": "https://rhythmverse.co/download_file/mb1nightmare/597218d5550960.90796967/Linkin Park - I_ll Be Gone.zip",
+        "duration_seconds": 215.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mb1nightmare",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - I'll Be Gone/album.png",
+          "name": "album.png",
+          "sha256": "a612a55d9485d893ac5a8c9fceb59b03d22e1159f01b3634f0cdf6de22006294"
+        },
+        {
+          "archive_name": "Linkin Park - I'll Be Gone/notes.mid",
+          "name": "notes.mid",
+          "sha256": "600403ea5714670f73159761f776af54d7648734796b1ce6537f3245652cee5e"
+        },
+        {
+          "archive_name": "Linkin Park - I'll Be Gone/song.ini",
+          "name": "song.ini",
+          "sha256": "280131d98583dfafbda044d49bdb0bc0574d7c35203e176e2e01747e4d95daf2"
+        },
+        {
+          "archive_name": "Linkin Park - I'll Be Gone/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f5a139b0868fe3bbd9c6832124a8218ee318ba9f2438db9716a04a5715ac7dd9"
+        },
+        {
+          "archive_name": "Linkin Park - I'll Be Gone/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "ca455f5e1da01e45e7bbe7b88b0da221403bf5349ad902064ca04f24fbaec76b"
+        }
+      ],
+      "archive_sha256": "96ddd7f796163d95813afad9748038c318dafd43c8e982f7b95a9264bf7aa917",
+      "archive_bytes": 7128907,
+      "prepared_bytes": 7242373,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "illbegone"
+    }
+  ]
+}

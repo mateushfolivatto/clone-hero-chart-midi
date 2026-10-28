@@ -82,6 +82,11 @@ a prioridade é dos lotes. Entre antigas equivalentes, mantém a primeira pasta 
 ordem de caminho e lista as outras; isso não avalia qualidade musical. Somente o
 nome ou o MIDI não provam uma cópia de conteúdo: o SHA exige chart e áudios juntos.
 
+Se o chart for idêntico, mas áudio ou metadados divergirem, o item fica em
+`revisar` para evitar duplicação de chart no Clone Hero. Para acrescentar lotes
+à biblioteca atual com prioridade para o que já está instalado, use
+[ADICIONAR-SEM-REPETIR.md](ADICIONAR-SEM-REPETIR.md).
+
 Diferenças de duração acima de oito segundos, indícios de live/demo/acústica/remix
 no título/álbum, remaster ou metadados ausentes levam à revisão quando há uma
 correspondência possível. Títulos explicitamente diferentes, como `(Live)`, podem

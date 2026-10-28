@@ -1,0 +1,1321 @@
+{
+  "schema_version": 1,
+  "batch_number": 23,
+  "collection_folder": "MixDrumRock - Drums - Lote 23 - Linkin Park",
+  "archive_name": "MixDrumRock-lote-23.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "theme": "linkin-park",
+  "theme_label": "Linkin Park",
+  "edition_group": "studio_and_other",
+  "edition_group_label": "Faixas e raridades",
+  "songs": [
+    {
+      "artist": "Linkin Park",
+      "title": "Asbestos",
+      "file_id": "5ebaca0babb337.36852904",
+      "source_url": "https://rhythmverse.co/songfile/5ebaca0babb337.36852904",
+      "download_url": "https://rhythmverse.co/download_file/beard216/5ebaca0babb337.36852904/LPAsbestosV2",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Asbestos [5ebaca0b]",
+      "charter": "Maupy2",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 657,
+          "kick_note_on_count": 266,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 116.859,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5ebaca0babb337.36852904",
+        "artist": "Linkin Park",
+        "title": "Asbestos",
+        "album": "LP Underground 12",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5ebaca0babb337.36852904",
+        "download_url": "https://rhythmverse.co/download_file/beard216/5ebaca0babb337.36852904/LPAsbestosV2",
+        "duration_seconds": 120.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "beard216",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Asbestos/album.png",
+          "name": "album.png",
+          "sha256": "05a1b1f2408d19e6c13e91ade6ad1e25e73b845f74c236a3fbe73c7826305c2a"
+        },
+        {
+          "archive_name": "Linkin Park - Asbestos/notes.mid",
+          "name": "notes.mid",
+          "sha256": "33c0f7db79e1c9adff66be81534c000fe5b6c09ffb08fbf45c255e20e0bd92d5"
+        },
+        {
+          "archive_name": "Linkin Park - Asbestos/song.ini",
+          "name": "song.ini",
+          "sha256": "5442187e1ecb791d4c92b86880db8fe69a5bdf5fdd1de7a775f4d8282e7cb658"
+        },
+        {
+          "archive_name": "Linkin Park - Asbestos/song.ogg",
+          "name": "song.ogg",
+          "sha256": "bb6c4f59cc21330c2bb9b4d25d0878ca4fe8de5181636c62a0026a043c02ffb0"
+        }
+      ],
+      "archive_sha256": "9fb8fe8400f729049c5479feda13f4f574cd08ae0b2cfd1d0b1bd18390dec006",
+      "archive_bytes": 2740224,
+      "prepared_bytes": 2239325,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "asbestos"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Blackbirds",
+      "file_id": "66536a7605f54f738fc4e5f0a08c4d9e",
+      "source_url": "https://rhythmverse.co/songfile/66536a7605f54f738fc4e5f0a08c4d9e",
+      "download_url": "https://rhythmverse.co/download_file/luna2/66536a7605f54f738fc4e5f0a08c4d9e/Blackbirds_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Blackbirds [66536a76]",
+      "charter": "iPodwithnomusic, GeeForce11, Marcos",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 733,
+          "kick_note_on_count": 211,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 180.0,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "66536a7605f54f738fc4e5f0a08c4d9e",
+        "artist": "Linkin Park",
+        "title": "Blackbirds",
+        "album": "8-Bit Rebellion!",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/66536a7605f54f738fc4e5f0a08c4d9e",
+        "download_url": "https://rhythmverse.co/download_file/luna2/66536a7605f54f738fc4e5f0a08c4d9e/Blackbirds_rb3con",
+        "duration_seconds": 188.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Blackbirds/album.png",
+          "name": "album.png",
+          "sha256": "1a9f8b55c4785023e425174ba98f193475c878174bff416fe82f5d0a6da04b57"
+        },
+        {
+          "archive_name": "Linkin Park - Blackbirds/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "a3c97569a8c8a25068c871604d14994605a2d568509f76c6a0c04d7b17dce5b1"
+        },
+        {
+          "archive_name": "Linkin Park - Blackbirds/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d49d8ae65d1a9d3a36057056203fccd1aae79ff6090e64936465949ad0ef9b84"
+        },
+        {
+          "archive_name": "Linkin Park - Blackbirds/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "846ae396d94fdf6e184b0afeeb2be125e1af84e8d275c9c14da558262377b2b4"
+        },
+        {
+          "archive_name": "Linkin Park - Blackbirds/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2756bdddd3570dae67b49f4a051790dbb6b185e134234806d1340333a905652e"
+        },
+        {
+          "archive_name": "Linkin Park - Blackbirds/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "b9419f3bf44c8368e5ac80e55d9d51a515db3f557bc2830f5f770cd53e92dfe1"
+        },
+        {
+          "archive_name": "Linkin Park - Blackbirds/song.ini",
+          "name": "song.ini",
+          "sha256": "b6e3b6201e38914de3ca76375b6e5013156f5d52f15552c7b7296787f58feb2b"
+        },
+        {
+          "archive_name": "Linkin Park - Blackbirds/song.ogg",
+          "name": "song.ogg",
+          "sha256": "26a9de58da14e709aed4d92714a4ec0d998328ef101f1983ed4032e6dd7df142"
+        },
+        {
+          "archive_name": "Linkin Park - Blackbirds/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "9614da0c0131f6fd50cc6e151b207895c72ede9532a5be4416714107c096793a"
+        }
+      ],
+      "archive_sha256": "47355a5d1c43005591c8abe92bcc13e47a76e7367bd1bf8fd0e91df3b051a5ea",
+      "archive_bytes": 15843328,
+      "prepared_bytes": 13103544,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "blackbirds"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Broken Foot",
+      "file_id": "598201f2741331.58210764",
+      "source_url": "https://rhythmverse.co/songfile/598201f2741331.58210764",
+      "download_url": "https://rhythmverse.co/download_file/naginaljj/598201f2741331.58210764/LPBrokenFoot",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Broken Foot [598201f2]",
+      "charter": "BiG_B94",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1078,
+          "kick_note_on_count": 271,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 160.965,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "598201f2741331.58210764",
+        "artist": "Linkin Park",
+        "title": "Broken Foot",
+        "album": "Underground Eleven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/598201f2741331.58210764",
+        "download_url": "https://rhythmverse.co/download_file/naginaljj/598201f2741331.58210764/LPBrokenFoot",
+        "duration_seconds": 169.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "naginalJJ",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Broken Foot/album.png",
+          "name": "album.png",
+          "sha256": "85c90c1f81e094937b4773bca0438df124d19c6774e85380024db5b7c3f93cd0"
+        },
+        {
+          "archive_name": "Linkin Park - Broken Foot/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "91fd6389c7645159b231a3d6b497fc6572ddd1d1ef2bc5b7205eb579ec498de5"
+        },
+        {
+          "archive_name": "Linkin Park - Broken Foot/notes.mid",
+          "name": "notes.mid",
+          "sha256": "869c0eb5816b6363a94d31dc581c0635d1398b453744a19cb21c2943bcbb8269"
+        },
+        {
+          "archive_name": "Linkin Park - Broken Foot/song.ini",
+          "name": "song.ini",
+          "sha256": "0c8788f5ed9628f47e44f5ff33e287cc5d93f1ca236317b321a985c826cc9be4"
+        },
+        {
+          "archive_name": "Linkin Park - Broken Foot/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5b1356ead801612fa0232596f61467d81f89d77293108e60ed9e74de1f5f2d77"
+        }
+      ],
+      "archive_sha256": "c4875dd6f3ad43836fb5b40c0325bb56d3986b764544d246172c0609a810e881",
+      "archive_bytes": 3915776,
+      "prepared_bytes": 3280864,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "brokenfoot"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Castle of Glass",
+      "file_id": "59297a29d37a47.59935125",
+      "source_url": "https://rhythmverse.co/songfile/59297a29d37a47.59935125",
+      "download_url": "https://rhythmverse.co/download_file/ipodwithnomusic/59297a29d37a47.59935125/castleofglass",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Castle of Glass [59297a29]",
+      "charter": "iPodwithnomusic",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 870,
+          "kick_note_on_count": 232,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 202.083,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59297a29d37a47.59935125",
+        "artist": "Linkin Park",
+        "title": "Castle of Glass",
+        "album": "Living Things",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59297a29d37a47.59935125",
+        "download_url": "https://rhythmverse.co/download_file/ipodwithnomusic/59297a29d37a47.59935125/castleofglass",
+        "duration_seconds": 209.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "iPodwithnomusic",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Castle of Glass/album.png",
+          "name": "album.png",
+          "sha256": "6e7b37088c4029f8bbda2d18b0678c0e663c2aea270d3da0aa91168f18812d3a"
+        },
+        {
+          "archive_name": "Linkin Park - Castle of Glass/notes.mid",
+          "name": "notes.mid",
+          "sha256": "83bdeb45a17bfcc67077b5645e8def80555d1813b7196445ca31590aa94e26aa"
+        },
+        {
+          "archive_name": "Linkin Park - Castle of Glass/song.ini",
+          "name": "song.ini",
+          "sha256": "bbc80d93bda54f97c57fa197584caa8a1aa65db82855444b6811c55f8e7da130"
+        },
+        {
+          "archive_name": "Linkin Park - Castle of Glass/song.ogg",
+          "name": "song.ogg",
+          "sha256": "70614dbada4c34be22ad2fadb4d6bcd388095e3d172e64a61f138e3612933f58"
+        },
+        {
+          "archive_name": "Linkin Park - Castle of Glass/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "a30333cb5af56ddf96ed64fc0630a9b7cec56b424d3e91a950b934cadb361103"
+        }
+      ],
+      "archive_sha256": "5b35a6f14af7131db142fa0e385ed94ca76295dac087e668f70cb62b5f74b2f5",
+      "archive_bytes": 8884224,
+      "prepared_bytes": 6771235,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "castleofglass"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Could Have Been",
+      "file_id": "682730f35ca340b6b816a268f1a2c282",
+      "source_url": "https://rhythmverse.co/songfile/682730f35ca340b6b816a268f1a2c282",
+      "download_url": "https://rhythmverse.co/download_file/luna2/682730f35ca340b6b816a268f1a2c282/CouldHaveBeen_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Could Have Been [682730f3]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1892,
+          "kick_note_on_count": 438,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 279.192,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "682730f35ca340b6b816a268f1a2c282",
+        "artist": "Linkin Park",
+        "title": "Could Have Been",
+        "album": "Hybrid Theory (20th Anniversary Edition)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/682730f35ca340b6b816a268f1a2c282",
+        "download_url": "https://rhythmverse.co/download_file/luna2/682730f35ca340b6b816a268f1a2c282/CouldHaveBeen_rb3con",
+        "duration_seconds": 283.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Could Have Been/album.png",
+          "name": "album.png",
+          "sha256": "e1e81b54b52f05c71a33af58d386b42b1a415e88fdf67f8461aedd1af32a74d8"
+        },
+        {
+          "archive_name": "Linkin Park - Could Have Been/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "c8786c2761a1c4cc5847428428c8e4baf79dab08069655790b9dd38a27f3c63f"
+        },
+        {
+          "archive_name": "Linkin Park - Could Have Been/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "a5a97b0f20fc63e4c0a629b8156bd78afbf4e3182103d710bfc6a120d8e90819"
+        },
+        {
+          "archive_name": "Linkin Park - Could Have Been/notes.mid",
+          "name": "notes.mid",
+          "sha256": "5b7f1e19a549a6c01544ffb446b7dc5994cd141a2570e75c88de2e88dbb44e26"
+        },
+        {
+          "archive_name": "Linkin Park - Could Have Been/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "797f4b8e7bc45a1c7c4e983815557a25f19c9a6c4e0946c2832f4254f725cb11"
+        },
+        {
+          "archive_name": "Linkin Park - Could Have Been/song.ini",
+          "name": "song.ini",
+          "sha256": "a3a0c46b0d2fcbf988b1900a57617466eaf78c737f3e6084fc755fc34dd73d54"
+        },
+        {
+          "archive_name": "Linkin Park - Could Have Been/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c06a6db4295dd11841fad0fb9cbce45fa681084ce613d9f77c10a412cffe4723"
+        },
+        {
+          "archive_name": "Linkin Park - Could Have Been/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "504d4c8b422c3af3e06556779c5c049c5355015b06dcfa5605c9c9da7cb917ef"
+        }
+      ],
+      "archive_sha256": "dbca6722fe7aabc5ebe885acad56d188435c088125555fd5cf8ee1d7b53abc7a",
+      "archive_bytes": 27820032,
+      "prepared_bytes": 22748291,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "couldhavebeen"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Cure For The Itch",
+      "file_id": "601ea1cc0c8775.53866967",
+      "source_url": "https://rhythmverse.co/songfile/601ea1cc0c8775.53866967",
+      "download_url": "https://rhythmverse.co/download_file/no_soy_yuri/601ea1cc0c8775.53866967/CureForTheItch_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Cure For The Itch [601ea1cc]",
+      "charter": "No_Soy_Yuri",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 754,
+          "kick_note_on_count": 258,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 136.13,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "601ea1cc0c8775.53866967",
+        "artist": "Linkin Park",
+        "title": "Cure For The Itch",
+        "album": "Hybrid Theory",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/601ea1cc0c8775.53866967",
+        "download_url": "https://rhythmverse.co/download_file/no_soy_yuri/601ea1cc0c8775.53866967/CureForTheItch_rb3con",
+        "duration_seconds": 162.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "Marcos",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Cure For The Itch/album.png",
+          "name": "album.png",
+          "sha256": "0b40af78b43186c4ca5bc880a58cd15873e053cfb27f47813321f21f093c55d3"
+        },
+        {
+          "archive_name": "Linkin Park - Cure For The Itch/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d55576fa2abb02a47096f5f66463c731d9f41b703ce6e0c4215f7ba4ab8e34cb"
+        },
+        {
+          "archive_name": "Linkin Park - Cure For The Itch/song.ini",
+          "name": "song.ini",
+          "sha256": "b7ec03c2e9da92ee2121dd9195edf6ace03eabc8a3262ccebb7de731e7c70bd3"
+        },
+        {
+          "archive_name": "Linkin Park - Cure For The Itch/song.ogg",
+          "name": "song.ogg",
+          "sha256": "282c15761dcda1cd77e0a1dd1ea173281daa1180dde403b6c1a08760bf0a91d5"
+        }
+      ],
+      "archive_sha256": "ba125809e245805e01a832d8b742a9ac95b5aa88056a6fbd93f66897ed7b5baf",
+      "archive_bytes": 2899968,
+      "prepared_bytes": 2513279,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "curefortheitch"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Drawbar",
+      "file_id": "363890d33c0d47eea5913601905e3361",
+      "source_url": "https://rhythmverse.co/songfile/363890d33c0d47eea5913601905e3361",
+      "download_url": "https://rhythmverse.co/download_file/luna2/363890d33c0d47eea5913601905e3361/Drawbar_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Drawbar [363890d3]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 457,
+          "kick_note_on_count": 43,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 116.672,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "363890d33c0d47eea5913601905e3361",
+        "artist": "Linkin Park",
+        "title": "Drawbar",
+        "album": "The Hunting Party",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/363890d33c0d47eea5913601905e3361",
+        "download_url": "https://rhythmverse.co/download_file/luna2/363890d33c0d47eea5913601905e3361/Drawbar_rb3con",
+        "duration_seconds": 172.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Drawbar/album.png",
+          "name": "album.png",
+          "sha256": "bb93961ae4682268d49b240083e7c139d8942a3ff87d4003625f0292a84f9aa6"
+        },
+        {
+          "archive_name": "Linkin Park - Drawbar/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "69da10859f063dd350f16bf5bcfdf9171ba933ed10a771db1f2cef0f213f5caf"
+        },
+        {
+          "archive_name": "Linkin Park - Drawbar/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "ad83f69a58f5f6ce6f19763d4e6bc452c11fe727a1474fe7b50bd57fa8bc2fc5"
+        },
+        {
+          "archive_name": "Linkin Park - Drawbar/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "441404cfaaf32fcf1a8eb2ae0815e40363e6b502ad579d1cd676b9619e3d86d3"
+        },
+        {
+          "archive_name": "Linkin Park - Drawbar/notes.mid",
+          "name": "notes.mid",
+          "sha256": "338941995271d7659e160162fabe6a8cf0eac5f871f6b5ad0b1e27c8161bfae2"
+        },
+        {
+          "archive_name": "Linkin Park - Drawbar/song.ini",
+          "name": "song.ini",
+          "sha256": "eb1051d26e71fff98227b99f318d552af42e9a08312778298e07ccb6a02acccd"
+        },
+        {
+          "archive_name": "Linkin Park - Drawbar/song.ogg",
+          "name": "song.ogg",
+          "sha256": "54a4ba6484fe4f5244f867284c8f1e1037c6d885cd31315cab43db870b4bc0c9"
+        }
+      ],
+      "archive_sha256": "dc395687eda4e1df4e113bf11b2398858844e241af66a469284e8e98b138d569",
+      "archive_bytes": 12460032,
+      "prepared_bytes": 11233970,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "drawbar"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "ENTH E ND",
+      "file_id": "e691c302071248c486dcbca2714f1d35",
+      "source_url": "https://rhythmverse.co/songfile/e691c302071248c486dcbca2714f1d35",
+      "download_url": "https://rhythmverse.co/download_file/luna2/e691c302071248c486dcbca2714f1d35/ENTHEND_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - ENTH E ND [e691c302]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 984,
+          "kick_note_on_count": 311,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 242.666,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "e691c302071248c486dcbca2714f1d35",
+        "artist": "Linkin Park",
+        "title": "ENTH E ND",
+        "album": "Reanimation",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/e691c302071248c486dcbca2714f1d35",
+        "download_url": "https://rhythmverse.co/download_file/luna2/e691c302071248c486dcbca2714f1d35/ENTHEND_rb3con",
+        "duration_seconds": 244.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - ENTH E ND/album.png",
+          "name": "album.png",
+          "sha256": "fd97d063304dfa7ffe0e1e3b8b453ed68a0e047b94d5babf95fbc3f570f4f3c4"
+        },
+        {
+          "archive_name": "Linkin Park - ENTH E ND/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "b5950d2d2f8171c36f5611d9b2ff1419c660f3dd24c6d4b302cad9efaf2ea695"
+        },
+        {
+          "archive_name": "Linkin Park - ENTH E ND/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "b7cc2aecaa2d8e1de6d68e8ffdff7363a9f335f544836817a367098c876f2e21"
+        },
+        {
+          "archive_name": "Linkin Park - ENTH E ND/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0f35d291da8de4f12cfc97ce90cfd327cee14e631cad10a6870c912eb3e40375"
+        },
+        {
+          "archive_name": "Linkin Park - ENTH E ND/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "aa42f4114e706b4e8a6ac413a2d70f5d429ab6d2f14cd20bc8facbfe7668c1e7"
+        },
+        {
+          "archive_name": "Linkin Park - ENTH E ND/song.ini",
+          "name": "song.ini",
+          "sha256": "715103e2ca8289cb73ae2cb7bdd6111c7a8d3c2dd917a7f59374be76bec32a14"
+        },
+        {
+          "archive_name": "Linkin Park - ENTH E ND/song.ogg",
+          "name": "song.ogg",
+          "sha256": "90e2e2196cce3a15a9142884ba70c949953ee5c1963351ae48845d1474e9208e"
+        },
+        {
+          "archive_name": "Linkin Park - ENTH E ND/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "af55c54323fb34a88ddd55be59193f494cf77b994b3531df714a1a3abce2600c"
+        }
+      ],
+      "archive_sha256": "e7d98f723fd6db5c76230943a7aa5b18d25722ca78f43e62eb7b623c4b35ea1d",
+      "archive_bytes": 24956928,
+      "prepared_bytes": 19546318,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "enthend"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Healing Foot",
+      "file_id": "3e32cccf74db4b6891df9a983929bab0",
+      "source_url": "https://rhythmverse.co/songfile/3e32cccf74db4b6891df9a983929bab0",
+      "download_url": "https://rhythmverse.co/download_file/luna2/3e32cccf74db4b6891df9a983929bab0/HealingFoot_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Healing Foot [3e32cccf]",
+      "charter": "mjey, Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 861,
+          "kick_note_on_count": 290,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 193.727,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3e32cccf74db4b6891df9a983929bab0",
+        "artist": "Linkin Park",
+        "title": "Healing Foot",
+        "album": "Meteora (20th Anniversary Edition)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/3e32cccf74db4b6891df9a983929bab0",
+        "download_url": "https://rhythmverse.co/download_file/luna2/3e32cccf74db4b6891df9a983929bab0/HealingFoot_rb3con",
+        "duration_seconds": 216.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Healing Foot/album.png",
+          "name": "album.png",
+          "sha256": "d760856a5abb3060fae3ba407a7f1e6fd3062b3828d7988982290794f30553ad"
+        },
+        {
+          "archive_name": "Linkin Park - Healing Foot/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "b9c3748df03611ec043582b7898dcd502a013c173b7bd590621cfe1afa99e7ee"
+        },
+        {
+          "archive_name": "Linkin Park - Healing Foot/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "893a8bffa2f155c6edabec69201338fa3b30c392e212b37c0172a06149109c15"
+        },
+        {
+          "archive_name": "Linkin Park - Healing Foot/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "41d6a49359eccebfb6f2bc851d8f302d7e53343d96180c0c2c659b40e34f62cd"
+        },
+        {
+          "archive_name": "Linkin Park - Healing Foot/notes.mid",
+          "name": "notes.mid",
+          "sha256": "bc0f3c5ea461e2ee78728dbbceb4ea2c576260aee12ab380445790daef9118a6"
+        },
+        {
+          "archive_name": "Linkin Park - Healing Foot/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "c5073038f01856cc60e2a746682f31872470dd24a94c96fb005c40041a9f84b0"
+        },
+        {
+          "archive_name": "Linkin Park - Healing Foot/song.ini",
+          "name": "song.ini",
+          "sha256": "2a6f713f4295b4d19ed9626ae18fb99bd1f6caacb1486110ad78bc3ab6df4078"
+        },
+        {
+          "archive_name": "Linkin Park - Healing Foot/song.ogg",
+          "name": "song.ogg",
+          "sha256": "45fd1245212888397889c6c8cf891566c15806fa027351074da9cf9ce2840db3"
+        },
+        {
+          "archive_name": "Linkin Park - Healing Foot/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "76dd55928185ad9cb241e4ca655afd8b2afa067656923d8708e806bff69fbcaf"
+        }
+      ],
+      "archive_sha256": "6aa4f1255d3b057bf8895070bfd46203667bbf7a6b702b08fd1898dc893cae9c",
+      "archive_bytes": 21155840,
+      "prepared_bytes": 20527787,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "healingfoot"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Hit The Floor",
+      "file_id": "59296df684bba4.76702337",
+      "source_url": "https://rhythmverse.co/songfile/59296df684bba4.76702337",
+      "download_url": "https://rhythmverse.co/download_file/theoreo/59296df684bba4.76702337/Linkin%20Park%20-%20Hit%20The%20Floor",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Hit The Floor [59296df6]",
+      "charter": "The Oreo, Zanny77",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 656,
+          "kick_note_on_count": 217,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 165.327,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59296df684bba4.76702337",
+        "artist": "Linkin Park",
+        "title": "Hit The Floor",
+        "album": "Meteora",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59296df684bba4.76702337",
+        "download_url": "https://rhythmverse.co/download_file/theoreo/59296df684bba4.76702337/Linkin Park - Hit The Floor",
+        "duration_seconds": 166.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "TheOreo",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Hit The Floor/album.png",
+          "name": "album.png",
+          "sha256": "f167781cec6014fedae9fd612301e8c29c038eae9435b25e3ca6fcb5aeae3baa"
+        },
+        {
+          "archive_name": "Linkin Park - Hit The Floor/notes.mid",
+          "name": "notes.mid",
+          "sha256": "95c34c422ff643a7838b8604dc43d76f4322da6b4655573b9d09e109e2c8e9e3"
+        },
+        {
+          "archive_name": "Linkin Park - Hit The Floor/song.ini",
+          "name": "song.ini",
+          "sha256": "5d6544d406417693e97aacc459fc4a19dc1600cc6c78257138e3075ff356114a"
+        },
+        {
+          "archive_name": "Linkin Park - Hit The Floor/song.ogg",
+          "name": "song.ogg",
+          "sha256": "65e1fcc3a948770d9be8e6213588a40d8799ec75bf86be4ca51fdc98859772bc"
+        }
+      ],
+      "archive_sha256": "5ae59bed018f05d0b28d93bad67fda857dcda44f84775a3af9f164b5e493560d",
+      "archive_bytes": 4399104,
+      "prepared_bytes": 3286905,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "hitthefloor"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "My December",
+      "file_id": "59297cd73af012.67736377",
+      "source_url": "https://rhythmverse.co/songfile/59297cd73af012.67736377",
+      "download_url": "https://rhythmverse.co/download_file/ipodwithnomusic/59297cd73af012.67736377/mydecember",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - My December [59297cd7]",
+      "charter": "iPodwithnomusic",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1000,
+          "kick_note_on_count": 393,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 254.1,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59297cd73af012.67736377",
+        "artist": "Linkin Park",
+        "title": "My December",
+        "album": "LP Underground 2",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59297cd73af012.67736377",
+        "download_url": "https://rhythmverse.co/download_file/ipodwithnomusic/59297cd73af012.67736377/mydecember",
+        "duration_seconds": 259.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "iPodwithnomusic",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - My December/album.png",
+          "name": "album.png",
+          "sha256": "5c76a952630e108759fedc4d345b8287414ea1dc14d470f21b1708dd41929370"
+        },
+        {
+          "archive_name": "Linkin Park - My December/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d676daa2b1edfea3dde8bd9769ca25b7c6ec6d4cf17f8d92a3c0e7b2c13d51a4"
+        },
+        {
+          "archive_name": "Linkin Park - My December/song.ini",
+          "name": "song.ini",
+          "sha256": "2679133d0182bbea198d92bb3b731017dbbef911a6b45d1f352e995cb3148ec8"
+        },
+        {
+          "archive_name": "Linkin Park - My December/song.ogg",
+          "name": "song.ogg",
+          "sha256": "da7c76a81da0c60b0ab655e031c84ced1208a1d28c499490114864f556647752"
+        }
+      ],
+      "archive_sha256": "3e24e6f284da4004a687b7e0bd8543c0c6d32509b793d71c1b0eb6f2345deee9",
+      "archive_bytes": 5689344,
+      "prepared_bytes": 4587969,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "mydecember"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Ntr_Mssion/PPr:Kut",
+      "file_id": "8cbfb3c7debc4e6fa26fe117e2e0d4b9",
+      "source_url": "https://rhythmverse.co/songfile/8cbfb3c7debc4e6fa26fe117e2e0d4b9",
+      "download_url": "https://rhythmverse.co/download_file/luna2/8cbfb3c7debc4e6fa26fe117e2e0d4b9/PPrKut_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Ntr_Mssion_PPr_Kut [8cbfb3c7]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1502,
+          "kick_note_on_count": 395,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 236.54,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "8cbfb3c7debc4e6fa26fe117e2e0d4b9",
+        "artist": "Linkin Park",
+        "title": "Ntr_Mssion/PPr:Kut",
+        "album": "Reanimation",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/8cbfb3c7debc4e6fa26fe117e2e0d4b9",
+        "download_url": "https://rhythmverse.co/download_file/luna2/8cbfb3c7debc4e6fa26fe117e2e0d4b9/PPrKut_rb3con",
+        "duration_seconds": 241.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Ntr_Mssion_PPr_Kut/album.png",
+          "name": "album.png",
+          "sha256": "fd97d063304dfa7ffe0e1e3b8b453ed68a0e047b94d5babf95fbc3f570f4f3c4"
+        },
+        {
+          "archive_name": "Linkin Park - Ntr_Mssion_PPr_Kut/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "13442fce04a94c4626b993cd1952885077d8d44547b7dc493a8ad70a05a4fe89"
+        },
+        {
+          "archive_name": "Linkin Park - Ntr_Mssion_PPr_Kut/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "bf479d52c593e7398a17ddc724d89e73e678a60aa8e3e300b0fb720f14fa8c96"
+        },
+        {
+          "archive_name": "Linkin Park - Ntr_Mssion_PPr_Kut/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "2112b90984a24d2f8fd420a9fef6995f990e3f48c220e783bc390ae644f830fa"
+        },
+        {
+          "archive_name": "Linkin Park - Ntr_Mssion_PPr_Kut/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1b7e9bf71922a1dad51efa7a8bca575efebc394f4f472b84fb679e63f87d3cf0"
+        },
+        {
+          "archive_name": "Linkin Park - Ntr_Mssion_PPr_Kut/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "2a1004ba06a20ba601d9da7d5c880f09eacd77684856906ac41f98e341bd3c95"
+        },
+        {
+          "archive_name": "Linkin Park - Ntr_Mssion_PPr_Kut/song.ini",
+          "name": "song.ini",
+          "sha256": "a5f7f72678d68f2a854f2aba37e7343c6ae72b0840078af6bfecf07f1f559e1a"
+        },
+        {
+          "archive_name": "Linkin Park - Ntr_Mssion_PPr_Kut/song.ogg",
+          "name": "song.ogg",
+          "sha256": "9fd5d88251ce46f9b2c4e18e39ef388c1b45a5b19b1255afa3beb47b2026b076"
+        },
+        {
+          "archive_name": "Linkin Park - Ntr_Mssion_PPr_Kut/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "04f923307a2c2d2f8443f09f9cf23fe76cf354e2f53ea6836683bce72bff8e12"
+        }
+      ],
+      "archive_sha256": "3ed473e460b3546e6d8dcdd43022a545389d7b563582bee5778fe1d1455e95e1",
+      "archive_bytes": 25067520,
+      "prepared_bytes": 21336270,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "ntrmssionpprkut"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "PB N' Jellyfish",
+      "file_id": "296130b9f275490492981486fa462c27",
+      "source_url": "https://rhythmverse.co/songfile/296130b9f275490492981486fa462c27",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/296130b9f275490492981486fa462c27/Linkin%20Park%20-%20PB%20N%20Jellyfish%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - PB N' Jellyfish [296130b9]",
+      "charter": "mjey",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 841,
+          "kick_note_on_count": 258,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 116.044,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": false,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 3,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "296130b9f275490492981486fa462c27",
+        "artist": "Linkin Park",
+        "title": "PB N' Jellyfish",
+        "album": "Sweet Hamster Like Jewels From America!",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/296130b9f275490492981486fa462c27",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/296130b9f275490492981486fa462c27/Linkin Park - PB N Jellyfish (mjey2010).zip",
+        "duration_seconds": 117.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - PB N Jellyfish (mjey2010)/album.png",
+          "name": "album.png",
+          "sha256": "d133b5f26e7b7065e54d3825cdda88d5cfed57ac6dfda1f1d58fb3248f361342"
+        },
+        {
+          "archive_name": "Linkin Park - PB N Jellyfish (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "cd96fd52dbfbd1d5627b3d651233c04681128bcd260dc2720b7b6714d5e2110c"
+        },
+        {
+          "archive_name": "Linkin Park - PB N Jellyfish (mjey2010)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "dbad8ddcceeddbceb68fd38e85c9b9fbad961ab22567ad3f3da5cd8bed456b5c"
+        },
+        {
+          "archive_name": "Linkin Park - PB N Jellyfish (mjey2010)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c8076257a18c14270b984970df139edacd88ff98518cb7fe4ce95fd1e51d3d88"
+        },
+        {
+          "archive_name": "Linkin Park - PB N Jellyfish (mjey2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "71225febe3a8aa26b337f68f6138548200bda84b6e65e1a372934613626fdaf3"
+        },
+        {
+          "archive_name": "Linkin Park - PB N Jellyfish (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "c034699be0d24f268d509c215cc6b546a680a9405724cc0c16b05caf129b969f"
+        },
+        {
+          "archive_name": "Linkin Park - PB N Jellyfish (mjey2010)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "52ab307ec791b7daae15c8b75c005c0860bbda3c4aa3a551605920e4e88f7e4d"
+        }
+      ],
+      "archive_sha256": "230b29e611b23ac165068300ec06d2ea6cbaa15208f7d2e9a5d8a8b17dc5a7b6",
+      "archive_bytes": 9661975,
+      "prepared_bytes": 9780683,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "pbnjellyfish"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Robot Boy (Test Mix, Optional Voice Take)",
+      "file_id": "0efb5f0917134d0c8047dbb94ab15fab",
+      "source_url": "https://rhythmverse.co/songfile/0efb5f0917134d0c8047dbb94ab15fab",
+      "download_url": "https://rhythmverse.co/download_file/luna2/0efb5f0917134d0c8047dbb94ab15fab/RobotBoy_OptionalVocals_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Robot Boy (Test Mix, Optional Voice Take) [0efb5f09]",
+      "charter": "Super Blooper, iPodwithnomusic, ShadowMaurix",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1322,
+          "kick_note_on_count": 228,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 240.086,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "0efb5f0917134d0c8047dbb94ab15fab",
+        "artist": "Linkin Park",
+        "title": "Robot Boy (Test Mix, Optional Voice Take)",
+        "album": "LP Underground Eleven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/0efb5f0917134d0c8047dbb94ab15fab",
+        "download_url": "https://rhythmverse.co/download_file/luna2/0efb5f0917134d0c8047dbb94ab15fab/RobotBoy_OptionalVocals_rb3con",
+        "duration_seconds": 276.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Robot Boy (Test Mix, Optional Voice Take)/album.png",
+          "name": "album.png",
+          "sha256": "22437f63a50f19ca4e98cd81eab34cccf117f3b9c1b2a74c82efb56e237727b4"
+        },
+        {
+          "archive_name": "Linkin Park - Robot Boy (Test Mix, Optional Voice Take)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "bd04d3bd8d352ef5d1231d2930e07fcc3bdd764a67b15be429f7e1e302f75f62"
+        },
+        {
+          "archive_name": "Linkin Park - Robot Boy (Test Mix, Optional Voice Take)/song.ini",
+          "name": "song.ini",
+          "sha256": "e2c3cbf43111886c08ade70797d0d56a7b4e9960157ba0215deb17f75388b265"
+        },
+        {
+          "archive_name": "Linkin Park - Robot Boy (Test Mix, Optional Voice Take)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c70974cdf03a9f79e439d7d62cbb56e540440fc98e730cf07c1a9b2c5b2b79fd"
+        }
+      ],
+      "archive_sha256": "5530103c1146a770e0a86568bdbb53385f92ec6c9445d31ce24faf1b0e6fea09",
+      "archive_bytes": 5058560,
+      "prepared_bytes": 4999874,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "robotboytestmixoptionalvoicetake"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "So Far Away",
+      "file_id": "4d5b27fdff4b4d76bd72d045eb36b257",
+      "source_url": "https://rhythmverse.co/songfile/4d5b27fdff4b4d76bd72d045eb36b257",
+      "download_url": "https://rhythmverse.co/download_file/luna2/4d5b27fdff4b4d76bd72d045eb36b257/SoFarAway_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - So Far Away [4d5b27fd]",
+      "charter": "Maupy2",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1546,
+          "kick_note_on_count": 315,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 171.222,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "4d5b27fdff4b4d76bd72d045eb36b257",
+        "artist": "Linkin Park",
+        "title": "So Far Away",
+        "album": "LP Underground 12",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/4d5b27fdff4b4d76bd72d045eb36b257",
+        "download_url": "https://rhythmverse.co/download_file/luna2/4d5b27fdff4b4d76bd72d045eb36b257/SoFarAway_rb3con",
+        "duration_seconds": 176.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - So Far Away/album.png",
+          "name": "album.png",
+          "sha256": "e6c1f7e12e1c7bd4ab401ac533123a7f6c728bc3740cc69261c340f6fa5e990a"
+        },
+        {
+          "archive_name": "Linkin Park - So Far Away/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e7586fc29e1e78d346f285d98074caeb684cbe592c69e02643615aae5fcc7476"
+        },
+        {
+          "archive_name": "Linkin Park - So Far Away/song.ini",
+          "name": "song.ini",
+          "sha256": "60b9069f4686ac9cbb92bf8d23cfa09b7eabc0dd5b2b272f25c417c60e4ce1e6"
+        },
+        {
+          "archive_name": "Linkin Park - So Far Away/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6276df6da8622965f2fea6ceb20251d4df3e190b72a0e6eceb9c4686b427bb4d"
+        }
+      ],
+      "archive_sha256": "88403516cd2c334dd64942f5dae049f35b402899462ec58587d39e06aad5d628",
+      "archive_bytes": 3686400,
+      "prepared_bytes": 3674622,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "sofaraway"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Wesside",
+      "file_id": "0c7f01244a0f46949ff201f9245057b0",
+      "source_url": "https://rhythmverse.co/songfile/0c7f01244a0f46949ff201f9245057b0",
+      "download_url": "https://rhythmverse.co/download_file/luna2/0c7f01244a0f46949ff201f9245057b0/Wesside_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Wesside [0c7f0124]",
+      "charter": "Eggguy",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 842,
+          "kick_note_on_count": 212,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 169.069,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "0c7f01244a0f46949ff201f9245057b0",
+        "artist": "Linkin Park",
+        "title": "Wesside",
+        "album": "Meteora (20th Anniversary Edition)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/0c7f01244a0f46949ff201f9245057b0",
+        "download_url": "https://rhythmverse.co/download_file/luna2/0c7f01244a0f46949ff201f9245057b0/Wesside_rb3con",
+        "duration_seconds": 199.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Wesside/album.png",
+          "name": "album.png",
+          "sha256": "d760856a5abb3060fae3ba407a7f1e6fd3062b3828d7988982290794f30553ad"
+        },
+        {
+          "archive_name": "Linkin Park - Wesside/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6fbfd09fcfa58fa4597b0664fcdc55c27265170f86ac9a193d36837c408933dc"
+        },
+        {
+          "archive_name": "Linkin Park - Wesside/song.ini",
+          "name": "song.ini",
+          "sha256": "f7bf7b6e1ea1b91151d30bff69e3da702e3a31a4b2aa31a09eda7ea15ef34be2"
+        },
+        {
+          "archive_name": "Linkin Park - Wesside/song.ogg",
+          "name": "song.ogg",
+          "sha256": "84242f4a2adf47435f235fd7fc89f9ec245ca43112e6b79b9ec9285e9fa83a68"
+        }
+      ],
+      "archive_sha256": "e9376143efaba300b0842224f78e330809d3c05109748eb523606c22200b2d74",
+      "archive_bytes": 3645440,
+      "prepared_bytes": 3609674,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "wesside"
+    }
+  ]
+}

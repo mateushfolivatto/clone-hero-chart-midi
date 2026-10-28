@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "batch_number": 30,
+  "collection_folder": "MixDrumRock - Drums - Lote 30 - Linkin Park",
+  "archive_name": "MixDrumRock-lote-30.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "theme": "linkin-park",
+  "theme_label": "Linkin Park",
+  "edition_group": "live",
+  "edition_group_label": "Ao vivo",
+  "songs": [
+    {
+      "artist": "Linkin Park",
+      "title": "High Voltage (Live at Docklands Arena, London)",
+      "file_id": "29f193d0505f426a9647a70116a2a0e7",
+      "source_url": "https://rhythmverse.co/songfile/29f193d0505f426a9647a70116a2a0e7",
+      "download_url": "https://rhythmverse.co/download_file/luna2/29f193d0505f426a9647a70116a2a0e7/HighVoltageLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - High Voltage (Live at Docklands Arena, London) [29f193d0]",
+      "charter": "MJR",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 938,
+          "kick_note_on_count": 364,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 229.26,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "29f193d0505f426a9647a70116a2a0e7",
+        "artist": "Linkin Park",
+        "title": "High Voltage (Live at Docklands Arena, London)",
+        "album": "Hybrid Theory (20th Anniversary Edition)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/29f193d0505f426a9647a70116a2a0e7",
+        "download_url": "https://rhythmverse.co/download_file/luna2/29f193d0505f426a9647a70116a2a0e7/HighVoltageLive_rb3con",
+        "duration_seconds": 245.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - High Voltage (Live at Docklands Arena, London)/album.png",
+          "name": "album.png",
+          "sha256": "2a734a07a864a85e1cfaee05bbe20d9a5cbae9dc5035463bc765168f8435f82f"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage (Live at Docklands Arena, London)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "4e9b12e109dd4af1240e3e0ba495667d1a2e3e800c8d086244b0e66c67fc8684"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage (Live at Docklands Arena, London)/song.ini",
+          "name": "song.ini",
+          "sha256": "820a4115d3e9c9bb02a3d422db3ae709ea7ab6d23eb3ec81db9baf4c04f6618f"
+        },
+        {
+          "archive_name": "Linkin Park - High Voltage (Live at Docklands Arena, London)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7b776d5688c6653fa60a38db314241b0cdc59376d85eaa581da5e8b07efb7f03"
+        }
+      ],
+      "archive_sha256": "bb7bb01efbb5738afb90d99f96cd35a32bcb6f77e0053dd3b749ae1100965740",
+      "archive_bytes": 4788224,
+      "prepared_bytes": 3914759,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "highvoltageliveatdocklandsarenalondon"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Two Faced (Live)",
+      "file_id": "2b05935a4a8c4bd89c7c945e9c087742",
+      "source_url": "https://rhythmverse.co/songfile/2b05935a4a8c4bd89c7c945e9c087742",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/2b05935a4a8c4bd89c7c945e9c087742/Linkin%20Park%20-%20Two%20Faced%20(Live)%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Two Faced (Live) [2b05935a]",
+      "charter": "mjey",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1039,
+          "kick_note_on_count": 319,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 229.557,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": false,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "2b05935a4a8c4bd89c7c945e9c087742",
+        "artist": "Linkin Park",
+        "title": "Two Faced (Live)",
+        "album": "From Zero (Deluxe Edition)",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/2b05935a4a8c4bd89c7c945e9c087742",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/2b05935a4a8c4bd89c7c945e9c087742/Linkin Park - Two Faced (Live) (mjey2010).zip",
+        "duration_seconds": 239.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Two Faced (Live) (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "9a861d1cd9580fafb3dcfd221ce7cc193c60e524d0fc85523e148de0de129935"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live) (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "8b11ade237e524b90b98d6f9a9cbf5474e468c02037bb08d5f82345d02f0d51b"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live) (mjey2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "21ec483be47dd7bef4cebaf70240824364e5990bd86f665ceb60eb6259d9f68e"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live) (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "80458d767b60b0b9d27350abe84b3acc160c88cad93bc200a4f739bf15079ead"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live) (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "faa0a6a6b297dec43200466c2e947eb318845d3f07599ce0a02780e69b08e880"
+        }
+      ],
+      "archive_sha256": "f63a8a2637125c0fd3d747b89d74637773294de8f0a05f7f1d6e71c0de4ce0e1",
+      "archive_bytes": 8781436,
+      "prepared_bytes": 8866986,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "twofacedlive"
+    }
+  ]
+}

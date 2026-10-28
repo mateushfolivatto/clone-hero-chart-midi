@@ -1,5 +1,9 @@
 # Biblioteca de músicas — MixDrumRock
 
+**Linkin Park:** [LINKIN-PARK.md](LINKIN-PARK.md) reúne a ampliação, as listas por
+lote e a comparação com sua biblioteca para acrescentar somente músicas ausentes.
+Given Up já está no lote 02. O relatório por álbum distingue seleção e lacunas.
+
 **45 charts novos nos lotes 13–18:** [TEMATICOS.md](TEMATICOS.md), com League of
 Legends, Imagine Dragons e sete bandas próximas de Linkin Park. A curadoria
 temática tem recuperação seletiva e não altera a cobertura da playlist Qobuz.

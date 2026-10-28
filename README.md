@@ -9,6 +9,9 @@ Para a playlist MixDrumRock, veja [baixar os 254 charts novos](song-library/CONT
 e o [relatório das 744 entradas](song-library/reports/cobertura.csv). Essa biblioteca
 de charts existentes é independente da transcrição de MP3.
 
+Para ampliar a coleção de Linkin Park, use [os novos lotes e a comparação com
+sua biblioteca instalada](song-library/LINKIN-PARK.md). Given Up já está no lote 02.
+
 ## Setup
 
 Python 3.11–3.12 and [uv](https://docs.astral.sh/uv/getting-started/installation/).

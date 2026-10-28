@@ -1,6 +1,11 @@
 # Quality gates
 
-The combined broad-survey/themed-library tree passes 146 core tests and 19 optional
+The Linkin Park expansion integrated with existing diagnostics passes **155 core
+tests and 19 optional DSP checks** on Linux/Python 3.12. The shared reader also
+rechecked every stored drum field in the 207 new charts without a change.
+See [library-linkin-park-verification.md](library-linkin-park-verification.md).
+
+Before this expansion, the broad-survey/themed-library tree passed 146 core tests and 19 optional
 DSP tests on Linux/Python 3.12. The survey adds three core and six optional cases;
 the remote library additions contribute two core metadata cases. They cover order-independent
 artist selection, duplicate-note identity, paired excerpt coverage, song-bootstrap
@@ -228,3 +233,14 @@ Fresh isolated stdlib ZIP/Drive/Onyx reconstruction and unchanged offline resume
 passed; Onyx preserved pinned MIDI, local Ogg hashes, persistent logs and timing
 events. Qobuz coverage and prior recipes remain unchanged. Native Windows/game
 acceptance still require user feedback. See library-themed-verification.md.
+
+The Linkin Park expansion adds regressions for actual-container selection despite
+catalog platform labels, Given Up remaining once in batch 02, and the standalone
+additions export against renamed installed copies. Cases include identical charts
+with different audio/metadata, format-only title annotations, repeated candidates,
+an empty installed library and unchanged input bytes. The default old-complement
+guard still rejects an empty reference. Collection tests also check cumulative
+curation counts/helper pins and chart-only uniqueness across old/new batches.
+Band recovery also checks immutable recipe selection, Given Up included once,
+new-only filtering and rejection of a changed index before any selection.
+See library-linkin-park-verification.md for the final preparation and gate evidence.

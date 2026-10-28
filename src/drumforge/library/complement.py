@@ -26,10 +26,16 @@ def csv_report(path: Path, rows: list[dict[str, str]], columns: list[str]) -> No
         writer.writerows(rows)
 
 
-def export(old_root: Path, new_root: Path, destination: Path) -> dict[str, Any]:
+def export(
+    old_root: Path, new_root: Path, destination: Path, *, additions: bool = False
+) -> dict[str, Any]:
     old_root, new_root, destination = [p.resolve() for p in (old_root, new_root, destination)]
     if not old_root.is_dir() or not new_root.is_dir():
-        raise ValueError("As pastas --antigas e --novas precisam existir")
+        raise ValueError(
+            "As pastas --candidatas e --biblioteca precisam existir"
+            if additions
+            else "As pastas --antigas e --novas precisam existir"
+        )
     if old_root.is_relative_to(new_root) or new_root.is_relative_to(old_root):
         raise ValueError("As colecoes antigas e novas precisam estar em pastas separadas")
     if any(destination.is_relative_to(p) for p in (old_root, new_root)):
@@ -38,18 +44,46 @@ def export(old_root: Path, new_root: Path, destination: Path) -> dict[str, Any]:
         raise FileExistsError(
             "O destino ja existe; escolha outra pasta para preservar esse resultado"
         )
-    print("Lendo musicas antigas (apenas neste computador)...", flush=True)
-    old, old_warnings = library.scan(old_root, "antigas")
+    candidate_label, reference_label = (
+        ("candidatas", "biblioteca") if additions else ("antigas", "novas")
+    )
+    print(f"Lendo musicas {candidate_label} (apenas neste computador)...", flush=True)
+    old, old_warnings = library.scan(old_root, candidate_label)
     if not old:
-        raise ValueError("Nenhuma pasta de musica antiga encontrada; extraia os pacotes primeiro")
-    print("Lendo musicas novas ja presentes no disco...", flush=True)
-    new, new_warnings = library.scan(new_root, "novas")
-    selected, rows = library.compare(old, new)
+        raise ValueError(
+            "Nenhuma pasta de musica candidata encontrada; termine os downloads primeiro"
+            if additions
+            else "Nenhuma pasta de musica antiga encontrada; extraia os pacotes primeiro"
+        )
+    print(f"Lendo musicas da colecao {reference_label} ja presentes no disco...", flush=True)
+    new, new_warnings = library.scan(new_root, reference_label)
+    if additions:
+        selected, rows = library.compare(old, new, allow_empty_reference=True)
+        rows = [
+            {
+                **{
+                    k: v
+                    for k, v in row.items()
+                    if k not in {"pasta_antiga", "pasta_correspondente"}
+                },
+                "status": {
+                    "ja_nos_lotes": "ja_na_biblioteca",
+                    "repetida_antiga": "repetida_candidata",
+                }.get(row["status"], row["status"]),
+                "pasta_candidata": row["pasta_antiga"],
+                "pasta_biblioteca": row["pasta_correspondente"],
+            }
+            for row in rows
+        ]
+    else:
+        selected, rows = library.compare(old, new)
     counts = dict(Counter(r["status"] for r in rows))
     summary: dict[str, Any] = {
-        "antigas_lidas": len(old),
-        "novas_prontas": sum(not s.problem for s in new),
-        "novas_incompletas": sum(bool(s.problem) for s in new),
+        "candidatas_lidas" if additions else "antigas_lidas": len(old),
+        "biblioteca_prontas" if additions else "novas_prontas": sum(not s.problem for s in new),
+        "biblioteca_incompletas" if additions else "novas_incompletas": sum(
+            bool(s.problem) for s in new
+        ),
         "resultado": counts,
         "bytes_para_adicionar": sum(a.size for s in selected for a in s.assets),
         "originais_alterados": False,
@@ -62,12 +96,23 @@ def export(old_root: Path, new_root: Path, destination: Path) -> dict[str, Any]:
     csv_report(
         destination / "comparacao.csv",
         rows,
-        ["status", "artista", "titulo", "pasta_antiga", "pasta_correspondente", "motivo"],
+        [
+            "status",
+            "artista",
+            "titulo",
+            "pasta_candidata" if additions else "pasta_antiga",
+            "pasta_biblioteca" if additions else "pasta_correspondente",
+            "motivo",
+        ],
     )
     warnings = (
         old_warnings
         + new_warnings
-        + [{"colecao": "novas", "pasta": s.relative, "motivo": s.problem} for s in new if s.problem]
+        + [
+            {"colecao": reference_label, "pasta": s.relative, "motivo": s.problem}
+            for s in new
+            if s.problem
+        ]
     )
     csv_report(destination / "avisos.csv", warnings, ["colecao", "pasta", "motivo"])
     (destination / "resumo.json").write_text(
@@ -84,6 +129,19 @@ def export(old_root: Path, new_root: Path, destination: Path) -> dict[str, Any]:
         "Apos montar a biblioteca, confira a quantidade, execute Scan Songs e teste\n"
         "antes de substituir a pasta antiga.\n"
     )
+    prefix = "Complemento-antigas"
+    if additions:
+        prefix = "Novas-musicas"
+        readme = (
+            "NOVAS MUSICAS PARA SUA BIBLIOTECA\n\n"
+            "Extraia a pasta Novas-musicas deste ZIP diretamente em Songs uma unica vez.\n"
+            "As musicas ja presentes na biblioteca tem prioridade e ficam fora deste ZIP.\n"
+            "Comparacao.csv registra as inclusoes, sobreposicoes e itens para revisar.\n"
+            "Versoes incertas e charts identicos com audio diferente aguardam revisao.\n"
+            "Nenhuma pasta da biblioteca ou dos downloads foi alterada.\n"
+            "Mantenha downloads e backups fora dos caminhos escaneados pelo jogo.\n"
+            "Depois execute Scan Songs e teste; isso ainda nao comprova gameplay/sincronismo.\n"
+        )
     (destination / "LEIA-ME.txt").write_text(readme, encoding="utf-8")
     expected = {}
     with tempfile.TemporaryDirectory(prefix="compactando-", dir=destination) as temporary:
@@ -98,7 +156,7 @@ def export(old_root: Path, new_root: Path, destination: Path) -> dict[str, Any]:
                     source = song.folder / asset.name
                     if library.linked(source):
                         raise ValueError("Arquivo virou link durante a copia; execute novamente")
-                    name = "Complemento-antigas/" + song.relative + "/" + asset.name
+                    name = prefix + "/" + song.relative + "/" + asset.name
                     if "\\" in name or ":" in name or ".." in PurePosixPath(name).parts:
                         raise ValueError("Caminho de musica nao e portatil para Windows")
                     if name.casefold() in expected:
@@ -129,7 +187,7 @@ def export(old_root: Path, new_root: Path, destination: Path) -> dict[str, Any]:
                         result.update(block)
                 if result.hexdigest() != expected[name.casefold()]:
                     raise ValueError("Falha na verificacao do ZIP; resultado descartado")
-        partial.rename(destination / "Complemento-antigas.zip")
+        partial.rename(destination / (prefix + ".zip"))
     return summary
 
 

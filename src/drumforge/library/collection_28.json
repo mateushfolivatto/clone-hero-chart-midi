@@ -1,0 +1,2374 @@
+{
+  "schema_version": 1,
+  "batch_number": 28,
+  "collection_folder": "MixDrumRock - Lote 28 - Linkin Park",
+  "archive_name": "MixDrumRock-lote-28.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "linkin-park",
+  "theme_label": "Linkin Park",
+  "edition_group": "live",
+  "edition_group_label": "Ao vivo",
+  "songs": [
+    {
+      "artist": "Linkin Park",
+      "title": "Lying from You (Live In Texas)",
+      "file_id": "7f3f8d7de7c342d0aa08a540db174f96",
+      "source_url": "https://rhythmverse.co/songfile/7f3f8d7de7c342d0aa08a540db174f96",
+      "download_url": "https://rhythmverse.co/download_file/luna2/7f3f8d7de7c342d0aa08a540db174f96/LyingfromYouLiveInTexas_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Lying from You (Live In Texas) [7f3f8d7d]",
+      "charter": "Luna, Geeforce11, Big Gucci",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1031,
+          "kick_note_on_count": 315,
+          "tom_marker_count": 37,
+          "last_expert_onset_seconds": 179.865,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7f3f8d7de7c342d0aa08a540db174f96",
+        "artist": "Linkin Park",
+        "title": "Lying from You (Live In Texas)",
+        "album": "Live In Texas",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/7f3f8d7de7c342d0aa08a540db174f96",
+        "download_url": "https://rhythmverse.co/download_file/luna2/7f3f8d7de7c342d0aa08a540db174f96/LyingfromYouLiveInTexas_rb3con",
+        "duration_seconds": 193.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Lying from You (Live In Texas)/album.png",
+          "name": "album.png",
+          "sha256": "47e736364155bfc2e45945154fce05a5c856d9330e80818e54911cea605641f8"
+        },
+        {
+          "archive_name": "Linkin Park - Lying from You (Live In Texas)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "a52a14c85be35e81238d8c4ad1284f62902b8b0441d2af6ebb3da7c0a709565a"
+        },
+        {
+          "archive_name": "Linkin Park - Lying from You (Live In Texas)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "129ea6ccd36f2674d6cbc3942837dcfcb0981efc827fb7c2b8bfa4e93c3f4738"
+        },
+        {
+          "archive_name": "Linkin Park - Lying from You (Live In Texas)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "829b98df30fd8b2259be1eb83d4a7f09b49d5e48dd1c3f1e38e23cc1e5976117"
+        },
+        {
+          "archive_name": "Linkin Park - Lying from You (Live In Texas)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "dc08be41b31af241bc5cd7577bda4cffbba5df1e55c93ffcf40379f3272dd98f"
+        },
+        {
+          "archive_name": "Linkin Park - Lying from You (Live In Texas)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "5170f32959254f526db6a3026685ca13cbf38a7818f6bbbed8a0f5afde0e14a8"
+        },
+        {
+          "archive_name": "Linkin Park - Lying from You (Live In Texas)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "dcb7d5a415d187179a6d46a8e80b7e7bf5c8f50fe11f37270e91c99b09a2662c"
+        },
+        {
+          "archive_name": "Linkin Park - Lying from You (Live In Texas)/song.ini",
+          "name": "song.ini",
+          "sha256": "cc22e438d14e40aa045ae3bc72aa91d086d96dff5689dad0b5760da98dd066ff"
+        },
+        {
+          "archive_name": "Linkin Park - Lying from You (Live In Texas)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "19a10c6454415f82566ea581c91d5f676833150993a91853db6282ea061467e1"
+        },
+        {
+          "archive_name": "Linkin Park - Lying from You (Live In Texas)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "83546a1f7cef6c0f48a892bd33aa4d0e620a9ed802349e863beef9314f058290"
+        }
+      ],
+      "archive_sha256": "782df9c42dcdef9ac07706d7b20c1c28d6077688887201e3e567a4f2c22b6164",
+      "archive_bytes": 20168704,
+      "prepared_bytes": 17553589,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "lyingfromyouliveintexas"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "New Divide (Live from Rio, 2012)",
+      "file_id": "11434d94c12542298894f6f24726edc7",
+      "source_url": "https://rhythmverse.co/songfile/11434d94c12542298894f6f24726edc7",
+      "download_url": "https://rhythmverse.co/download_file/luna2/11434d94c12542298894f6f24726edc7/NewDivideLiveRio_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - New Divide (Live from Rio, 2012) [11434d94]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1194,
+          "kick_note_on_count": 352,
+          "tom_marker_count": 241,
+          "last_expert_onset_seconds": 248.102,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "11434d94c12542298894f6f24726edc7",
+        "artist": "Linkin Park",
+        "title": "New Divide (Live from Rio, 2012)",
+        "album": "Rio+Social",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/11434d94c12542298894f6f24726edc7",
+        "download_url": "https://rhythmverse.co/download_file/luna2/11434d94c12542298894f6f24726edc7/NewDivideLiveRio_rb3con",
+        "duration_seconds": 269.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - New Divide (Live from Rio, 2012)/album.png",
+          "name": "album.png",
+          "sha256": "4b27013fb0247073256dcba7ac122afb0ea6b2188099e11e6bca122de65613f6"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide (Live from Rio, 2012)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "92156c82756f374fc615f0999c032c6fcee191d912e7e72ce899adbea465df1c"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide (Live from Rio, 2012)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "010648a9422a552ad86fd6302bf9b7f6e094860d518a01bb12bb3adfb1fab2c5"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide (Live from Rio, 2012)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "ede176f1afecd88a2301d456909c401d176dd4c8e8defae938051b87042bd62f"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide (Live from Rio, 2012)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f46a4f753f255a77fd1d88eb690f2014a22084e707e9ed60cb2071c0c2051117"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide (Live from Rio, 2012)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "594339c54dfaeca693c8d158a437f46fb04cd3d8402cef0a815a13325e551ce0"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide (Live from Rio, 2012)/song.ini",
+          "name": "song.ini",
+          "sha256": "acbff2b026422580bf2495b5befc12bec383a9b292eea91885308415021511f4"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide (Live from Rio, 2012)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "edc66081c5e3adf443120cf903bf4f57b515dd7d999f5f166fb049c33a36e12c"
+        },
+        {
+          "archive_name": "Linkin Park - New Divide (Live from Rio, 2012)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "5794d50ef6a62de44f4ce4b2ad0a6175af424ddc6da719c6cbb09647e66aa3d1"
+        }
+      ],
+      "archive_sha256": "48af4d1207a127527f597a07d3090db099cb8cc7574e52f66157d7f888e35e25",
+      "archive_bytes": 25694208,
+      "prepared_bytes": 22513514,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "newdividelivefromrio2012"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "No More Sorrow (Live In New York)",
+      "file_id": "6343420c989a4899836af8c9f6111e67",
+      "source_url": "https://rhythmverse.co/songfile/6343420c989a4899836af8c9f6111e67",
+      "download_url": "https://rhythmverse.co/download_file/luna2/6343420c989a4899836af8c9f6111e67/NoMoreSorrowLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - No More Sorrow (Live In New York) [6343420c]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1233,
+          "kick_note_on_count": 234,
+          "tom_marker_count": 175,
+          "last_expert_onset_seconds": 221.821,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6343420c989a4899836af8c9f6111e67",
+        "artist": "Linkin Park",
+        "title": "No More Sorrow (Live In New York)",
+        "album": "Minutes to Midnight Live",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6343420c989a4899836af8c9f6111e67",
+        "download_url": "https://rhythmverse.co/download_file/luna2/6343420c989a4899836af8c9f6111e67/NoMoreSorrowLive_rb3con",
+        "duration_seconds": 226.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - No More Sorrow (Live In New York)/album.png",
+          "name": "album.png",
+          "sha256": "4b27013fb0247073256dcba7ac122afb0ea6b2188099e11e6bca122de65613f6"
+        },
+        {
+          "archive_name": "Linkin Park - No More Sorrow (Live In New York)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "3760527beeb7a5068ddfd2fec81b8152650f10654e2d1bfa88376fa8c7b20f8e"
+        },
+        {
+          "archive_name": "Linkin Park - No More Sorrow (Live In New York)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "55cca54e1f1c8d8d88aa5bd879e1ae4370955eef7c2b7461d817723138712f06"
+        },
+        {
+          "archive_name": "Linkin Park - No More Sorrow (Live In New York)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "75e895ef570b9fac43464b0947dce1be8be9fea44a0cabebd78554a3ea36c025"
+        },
+        {
+          "archive_name": "Linkin Park - No More Sorrow (Live In New York)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6634751fdee384e37c4eb41fbc9e674d1769f5f865871455b15107bb8978df9b"
+        },
+        {
+          "archive_name": "Linkin Park - No More Sorrow (Live In New York)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "9766b422223e623ad5e07c72128a7ad2d2ab8dc9535c608c49b6153c3852c018"
+        },
+        {
+          "archive_name": "Linkin Park - No More Sorrow (Live In New York)/song.ini",
+          "name": "song.ini",
+          "sha256": "24cdebe95d6463de2afc06ecc94d7155cc774cb661b2b8731910e254c9e63922"
+        },
+        {
+          "archive_name": "Linkin Park - No More Sorrow (Live In New York)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1dd9d876695bc6a6ad053e4a660c65ca53517b9afe0f2a57e852793b94ccd783"
+        },
+        {
+          "archive_name": "Linkin Park - No More Sorrow (Live In New York)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "d97fa825c7e41d3ddf4e8932430fb4623cabf84b825f24c80e7dfde3b31440d3"
+        }
+      ],
+      "archive_sha256": "12c7982c321a513183f49d2375d7d879942c70b06313deefca9c4c8b86dd70d6",
+      "archive_bytes": 20873216,
+      "prepared_bytes": 18048548,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "nomoresorrowliveinnewyork"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "One Step Closer (Live In Texas)",
+      "file_id": "d9688de75bc7419d8e58daf6582a4934",
+      "source_url": "https://rhythmverse.co/songfile/d9688de75bc7419d8e58daf6582a4934",
+      "download_url": "https://rhythmverse.co/download_file/luna2/d9688de75bc7419d8e58daf6582a4934/OneStepCloserLiveInTexas_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - One Step Closer (Live In Texas) [d9688de7]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1408,
+          "kick_note_on_count": 304,
+          "tom_marker_count": 19,
+          "last_expert_onset_seconds": 214.928,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d9688de75bc7419d8e58daf6582a4934",
+        "artist": "Linkin Park",
+        "title": "One Step Closer (Live In Texas)",
+        "album": "Live In Texas",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/d9688de75bc7419d8e58daf6582a4934",
+        "download_url": "https://rhythmverse.co/download_file/luna2/d9688de75bc7419d8e58daf6582a4934/OneStepCloserLiveInTexas_rb3con",
+        "duration_seconds": 243.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - One Step Closer (Live In Texas)/album.png",
+          "name": "album.png",
+          "sha256": "47e736364155bfc2e45945154fce05a5c856d9330e80818e54911cea605641f8"
+        },
+        {
+          "archive_name": "Linkin Park - One Step Closer (Live In Texas)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "162455fad2b2d45d804d7d5c911b6da62765b82cff44b311d96b34b53a7bc2ee"
+        },
+        {
+          "archive_name": "Linkin Park - One Step Closer (Live In Texas)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c2963a4e69b36a4345055d2b0ac7dfb5cc999f195c4a77e82adc627554265be0"
+        },
+        {
+          "archive_name": "Linkin Park - One Step Closer (Live In Texas)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0903ba5e9fde02e5c137f28036fac445723b7a4289d259e357209c00578cba66"
+        },
+        {
+          "archive_name": "Linkin Park - One Step Closer (Live In Texas)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "da9475f9b55469392dc858e4ac5f8695bd25df418fd8e4b5d5241076f4020811"
+        },
+        {
+          "archive_name": "Linkin Park - One Step Closer (Live In Texas)/song.ini",
+          "name": "song.ini",
+          "sha256": "bc061ee8e974525cfd56b8280787810f8b5622f75a40072981aa081fe3d8006c"
+        },
+        {
+          "archive_name": "Linkin Park - One Step Closer (Live In Texas)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "dd32be43c58b2bf20b46a778d9bebc7baffe88fcaef69396b6bf72280c09c012"
+        },
+        {
+          "archive_name": "Linkin Park - One Step Closer (Live In Texas)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "fd91ddfbde51c357c49a9c667e7d96180b8b33727d15736939a92233252254f9"
+        }
+      ],
+      "archive_sha256": "b0bf5f09191f0849804199285dc46819eda162d2c769ace2810b5161aee514e6",
+      "archive_bytes": 21544960,
+      "prepared_bytes": 18527893,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "onestepcloserliveintexas"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Over Each Other (Live)",
+      "file_id": "59d972732aed40feb33b1402042912e1",
+      "source_url": "https://rhythmverse.co/songfile/59d972732aed40feb33b1402042912e1",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/59d972732aed40feb33b1402042912e1/Linkin%20Park%20-%20Over%20Each%20Other%20(Live)%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Over Each Other (Live) [59d97273]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 747,
+          "kick_note_on_count": 112,
+          "tom_marker_count": 88,
+          "last_expert_onset_seconds": 164.562,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59d972732aed40feb33b1402042912e1",
+        "artist": "Linkin Park",
+        "title": "Over Each Other (Live)",
+        "album": "From Zero (Deluxe Edition)",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/59d972732aed40feb33b1402042912e1",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/59d972732aed40feb33b1402042912e1/Linkin Park - Over Each Other (Live) (mjey2010).zip",
+        "duration_seconds": 174.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Over Each Other (Live) (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "9a861d1cd9580fafb3dcfd221ce7cc193c60e524d0fc85523e148de0de129935"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other (Live) (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "8b11ade237e524b90b98d6f9a9cbf5474e468c02037bb08d5f82345d02f0d51b"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other (Live) (mjey2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e3bb64f522a5df03094c428c7fffd3dcd66dffa302edc9be80c5c6e92fe4f894"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other (Live) (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "28eea0810f3884ad49a8c484f375ba16277509cfeed5d0515b089ea2c77d3e99"
+        },
+        {
+          "archive_name": "Linkin Park - Over Each Other (Live) (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2f39912289331acf93fac0b4b5a8ca4e8c0f0b7a12837bd60928547aaadf304c"
+        }
+      ],
+      "archive_sha256": "b63a6ccdb058d169ab23fe820d8d9a58eb75621e48c0b72366703d77fc4db50e",
+      "archive_bytes": 6752124,
+      "prepared_bytes": 6815434,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "overeachotherlive"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Overflow (Live)",
+      "file_id": "ce3ee48127d04d3385b82c22c7907426",
+      "source_url": "https://rhythmverse.co/songfile/ce3ee48127d04d3385b82c22c7907426",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/ce3ee48127d04d3385b82c22c7907426/Linkin%20Park%20-%20Overflow%20(Live)%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Overflow (Live) [ce3ee481]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 597,
+          "kick_note_on_count": 79,
+          "tom_marker_count": 8,
+          "last_expert_onset_seconds": 239.699,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ce3ee48127d04d3385b82c22c7907426",
+        "artist": "Linkin Park",
+        "title": "Overflow (Live)",
+        "album": "From Zero (Deluxe Edition)",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/ce3ee48127d04d3385b82c22c7907426",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/ce3ee48127d04d3385b82c22c7907426/Linkin Park - Overflow (Live) (mjey2010).zip",
+        "duration_seconds": 246.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Overflow (Live) (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "9a861d1cd9580fafb3dcfd221ce7cc193c60e524d0fc85523e148de0de129935"
+        },
+        {
+          "archive_name": "Linkin Park - Overflow (Live) (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "8b11ade237e524b90b98d6f9a9cbf5474e468c02037bb08d5f82345d02f0d51b"
+        },
+        {
+          "archive_name": "Linkin Park - Overflow (Live) (mjey2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e77fc6a09e19382ccfe905ee51ee1fd22c14600ce873f44b8d34251f3d853bd4"
+        },
+        {
+          "archive_name": "Linkin Park - Overflow (Live) (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "4bd18b613ea43942e2a06b5df0f913a0f940069340996efffdd2bd306f7a28a2"
+        },
+        {
+          "archive_name": "Linkin Park - Overflow (Live) (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d28dc2cce420d1847d38aa14ca05139e248f24fd922a004c51434dff5d48bd45"
+        }
+      ],
+      "archive_sha256": "99522257d88b7606d0b98efb4b8c5b4dc5454ee95030f82058c4fd4954b3746e",
+      "archive_bytes": 7640507,
+      "prepared_bytes": 7729129,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "overflowlive"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "P5hng Me A*wy (Live in Texas)",
+      "file_id": "45ce38915e0f4008a9b0ab8f899fcbd9",
+      "source_url": "https://rhythmverse.co/songfile/45ce38915e0f4008a9b0ab8f899fcbd9",
+      "download_url": "https://rhythmverse.co/download_file/luna2/45ce38915e0f4008a9b0ab8f899fcbd9/P5hngMeAwyLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - P5hng Me A_wy (Live in Texas) [45ce3891]",
+      "charter": "Luna, Geeforce11, BigGucci",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2284,
+          "kick_note_on_count": 418,
+          "tom_marker_count": 26,
+          "last_expert_onset_seconds": 299.904,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "45ce38915e0f4008a9b0ab8f899fcbd9",
+        "artist": "Linkin Park",
+        "title": "P5hng Me A*wy (Live in Texas)",
+        "album": "Live In Texas",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/45ce38915e0f4008a9b0ab8f899fcbd9",
+        "download_url": "https://rhythmverse.co/download_file/luna2/45ce38915e0f4008a9b0ab8f899fcbd9/P5hngMeAwyLive_rb3con",
+        "duration_seconds": 306.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - P5hng Me A_wy (Live in Texas)/album.png",
+          "name": "album.png",
+          "sha256": "47e736364155bfc2e45945154fce05a5c856d9330e80818e54911cea605641f8"
+        },
+        {
+          "archive_name": "Linkin Park - P5hng Me A_wy (Live in Texas)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "450a28316db8516e3c64423557d54364cb12a078fd448560cb0c0d100de197ce"
+        },
+        {
+          "archive_name": "Linkin Park - P5hng Me A_wy (Live in Texas)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "aae47a68f4994b0369bc427eafe61b455e9fb30a4174f95be18c82fa9b36185b"
+        },
+        {
+          "archive_name": "Linkin Park - P5hng Me A_wy (Live in Texas)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d24a8172e0943708767c4ee8abf1cf3561b5b8b2acf6bf9ba4f0459da8d27710"
+        },
+        {
+          "archive_name": "Linkin Park - P5hng Me A_wy (Live in Texas)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "0ceab4a261578e88ed3da799aed8c2b498861838c777fac126a16d7db499956b"
+        },
+        {
+          "archive_name": "Linkin Park - P5hng Me A_wy (Live in Texas)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9a28defd2aa680cb73e06b7e7d736131eac718a5f9ebb126d2d53ed6d1fb13d8"
+        },
+        {
+          "archive_name": "Linkin Park - P5hng Me A_wy (Live in Texas)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "337e96f137b83e79a1fe67e4e5bd2abc1271385743e8852f1957742a63f84dc4"
+        },
+        {
+          "archive_name": "Linkin Park - P5hng Me A_wy (Live in Texas)/song.ini",
+          "name": "song.ini",
+          "sha256": "00bdbfa08ad99e4408d0c611369d399da68e428d8af34b5fd4c6bff44c8b3a15"
+        },
+        {
+          "archive_name": "Linkin Park - P5hng Me A_wy (Live in Texas)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f8bc4e2705619ad5a690de0531c3b71def97072f9b9f88a87e64d72acbc63a7e"
+        },
+        {
+          "archive_name": "Linkin Park - P5hng Me A_wy (Live in Texas)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "ed8abc6142d75a97723b1647fe1c7dfe7748e2934466a072071d5a7a3fdcd9e9"
+        }
+      ],
+      "archive_sha256": "7eda59c860b8ab90c8cdf8d9d849730c7c82dd1da54465963eff8200686441bd",
+      "archive_bytes": 38027264,
+      "prepared_bytes": 32549248,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "p5hngmeawyliveintexas"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Papercut (Live from Paris, 2010)",
+      "file_id": "af15f6ba574a4707bba441d2016a8855",
+      "source_url": "https://rhythmverse.co/songfile/af15f6ba574a4707bba441d2016a8855",
+      "download_url": "https://rhythmverse.co/download_file/luna2/af15f6ba574a4707bba441d2016a8855/PapercutLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Papercut (Live from Paris, 2010) [af15f6ba]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1701,
+          "kick_note_on_count": 440,
+          "tom_marker_count": 69,
+          "last_expert_onset_seconds": 186.027,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "af15f6ba574a4707bba441d2016a8855",
+        "artist": "Linkin Park",
+        "title": "Papercut (Live from Paris, 2010)",
+        "album": "Hybrid Theory - Live Around the World",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/af15f6ba574a4707bba441d2016a8855",
+        "download_url": "https://rhythmverse.co/download_file/luna2/af15f6ba574a4707bba441d2016a8855/PapercutLive_rb3con",
+        "duration_seconds": 191.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Papercut (Live from Paris, 2010)/album.png",
+          "name": "album.png",
+          "sha256": "93a24fcc42e429524a388cb0f73b7482478208d2ec2e49d7ae32beeb870d08d7"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live from Paris, 2010)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "e2534d629c3b738e6acae5bbfe4baaa3bd78366ca9ed3f0171b1913add6c1079"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live from Paris, 2010)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "ec9bd2064c21d367fb2d63dee1214b3d1deacf313066dce5a0502a5a46e2b1a7"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live from Paris, 2010)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "050460c3df6cf5e181059ede4b4836272d634dceae9f4bd13544ae9d3077ac9f"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live from Paris, 2010)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "a1950d38e6f2f9b51569ddbcd7740995f04fe7271f48696ba7484c503d1bdbd8"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live from Paris, 2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "33dfd3617125b763c746bd74a3f73f448f8895fe5890625890925e1e38f271be"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live from Paris, 2010)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "d5415029ce8f854577d019e72710a0eb262c1120d13d74e9c43f8ebfe7cb6c7f"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live from Paris, 2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "9252dfc104c8a398293a4e6c258bde2e030b3e507eafad39516c5e84b3d89c31"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live from Paris, 2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ceb017d0f8ed03bf2e82121b223603df5a008eeebba9b527f5d673c279ae1e62"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live from Paris, 2010)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "80fd90239a23be92ec1bf6d5e8bc24ff25c422868f9f97e0265086765a2d37a4"
+        }
+      ],
+      "archive_sha256": "0f8abdcf8c23a19ca654849e04cc56a1f603e3d3482bf135b4af0d0023d1c4db",
+      "archive_bytes": 19693568,
+      "prepared_bytes": 16948637,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "papercutlivefromparis2010"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Papercut (Live In Texas)",
+      "file_id": "95fb64a9b2d148e3900228dc3fa22405",
+      "source_url": "https://rhythmverse.co/songfile/95fb64a9b2d148e3900228dc3fa22405",
+      "download_url": "https://rhythmverse.co/download_file/luna2/95fb64a9b2d148e3900228dc3fa22405/PapercutLiveInTexas_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Papercut (Live In Texas) [95fb64a9]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1737,
+          "kick_note_on_count": 452,
+          "tom_marker_count": 59,
+          "last_expert_onset_seconds": 186.212,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "95fb64a9b2d148e3900228dc3fa22405",
+        "artist": "Linkin Park",
+        "title": "Papercut (Live In Texas)",
+        "album": "Live In Texas",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/95fb64a9b2d148e3900228dc3fa22405",
+        "download_url": "https://rhythmverse.co/download_file/luna2/95fb64a9b2d148e3900228dc3fa22405/PapercutLiveInTexas_rb3con",
+        "duration_seconds": 190.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Papercut (Live In Texas)/album.png",
+          "name": "album.png",
+          "sha256": "47e736364155bfc2e45945154fce05a5c856d9330e80818e54911cea605641f8"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live In Texas)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "b3eeb067ffd91ba6e5478605d43d8534be1f7fd21177379edbce9f31b519baa9"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live In Texas)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "4f010eb8ddc768b03970c1e3a8615f71917937e37c7d4cd9a771373e7e8a523a"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live In Texas)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d303476efdb98bb6f1a68504fdaa0e7c56388ad4d7785997eb5b3cd10cf580a7"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live In Texas)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "614079661b19c8e592d97a9755b13486e396ab1f89dc5a52a2ce991b540c2fc6"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live In Texas)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "197415fd1b9af5daad87f9ed54e66ad690337cd15b72c30a7faa96c275397379"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live In Texas)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "e870cf290645534ea9266f53ebee407f4b2e1fd35bde7aecb02d4d38a04c65a5"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live In Texas)/song.ini",
+          "name": "song.ini",
+          "sha256": "f3865c72b7ec3f6b325e4c78cf8d2c9499203f76fa891853b95c5234e2ce9779"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live In Texas)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c992a64490ebc18c2b3be976fa67e0c417a358276f96dc948384981cc0d5a96a"
+        },
+        {
+          "archive_name": "Linkin Park - Papercut (Live In Texas)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "cf29a061a059d6327187753db2a5fb4c0f54fd321756ec64071805a978fdc274"
+        }
+      ],
+      "archive_sha256": "fe1bdbf2190931ed5a99bb243fccce6618824470ed59412d9310519dd0bb458b",
+      "archive_bytes": 21987328,
+      "prepared_bytes": 19287417,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "papercutliveintexas"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Points of Authority (Live In Texas)",
+      "file_id": "ffe8b982263d449c9d9f6daff2da1325",
+      "source_url": "https://rhythmverse.co/songfile/ffe8b982263d449c9d9f6daff2da1325",
+      "download_url": "https://rhythmverse.co/download_file/luna2/ffe8b982263d449c9d9f6daff2da1325/POALiveInTexas_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Points of Authority (Live In Texas) [ffe8b982]",
+      "charter": "Luna, Geeforce11, Big Gucci, No_Soy_Yuri",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1090,
+          "kick_note_on_count": 366,
+          "tom_marker_count": 13,
+          "last_expert_onset_seconds": 206.295,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ffe8b982263d449c9d9f6daff2da1325",
+        "artist": "Linkin Park",
+        "title": "Points of Authority (Live In Texas)",
+        "album": "Live In Texas",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/ffe8b982263d449c9d9f6daff2da1325",
+        "download_url": "https://rhythmverse.co/download_file/luna2/ffe8b982263d449c9d9f6daff2da1325/POALiveInTexas_rb3con",
+        "duration_seconds": 211.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live In Texas)/album.png",
+          "name": "album.png",
+          "sha256": "47e736364155bfc2e45945154fce05a5c856d9330e80818e54911cea605641f8"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live In Texas)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "24740503ce85072cbddafe0e23d7767de0fb057cc2c9301347af061ebae8f565"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live In Texas)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "aa56cf24f32eacf32804f93c448d403ad227b919feae3d3106579b1e44b35824"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live In Texas)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c7f6ef0efb1a30887fcbd2c5b1df3a1c528d94f77a2ff8fad622a000dea4b412"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live In Texas)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "220b8fb0ac9bb3dc9a6b3772adb249730b75a31fe91e0417e61597bdebb21cc0"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live In Texas)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "394c3a26bbd1ddce2347725deeea27ca0e883b481bcfd2fe1655a4ed32c2ef81"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live In Texas)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "ebf0eb530682c4fa028da2a82126d228f5a0699baf29d03cbb8748dd25cc8798"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live In Texas)/song.ini",
+          "name": "song.ini",
+          "sha256": "a952f3e36eb053782522073a61c2abda0f937835b8e405b29672d86eb518caa8"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live In Texas)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ef9cb2769f6f8d3ac81b362a4b43793d1a9227c16bea42cf02c2a9fc10440f88"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live In Texas)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "e1d1e3d521450e688c3e69725dae7d30d8b74b8a8c0f65f3177eb18f6f9c7f9f"
+        }
+      ],
+      "archive_sha256": "2fba48bc0cbe71831ce7fcf0e10c431e044bb229de3d5a71bb06707923b5c825",
+      "archive_bytes": 21852160,
+      "prepared_bytes": 19030310,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "pointsofauthorityliveintexas"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Points of Authority (Live)",
+      "file_id": "602cbd6656bcf6.42123620",
+      "source_url": "https://rhythmverse.co/songfile/602cbd6656bcf6.42123620",
+      "download_url": "https://rhythmverse.co/download_file/no_soy_yuri/602cbd6656bcf6.42123620/PointsOfAuthorityLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Points of Authority (Live) [602cbd66]",
+      "charter": "No_Soy_Yuri",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1060,
+          "kick_note_on_count": 362,
+          "tom_marker_count": 15,
+          "last_expert_onset_seconds": 204.232,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "602cbd6656bcf6.42123620",
+        "artist": "Linkin Park",
+        "title": "Points of Authority (Live)",
+        "album": "Live In Texas",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/602cbd6656bcf6.42123620",
+        "download_url": "https://rhythmverse.co/download_file/no_soy_yuri/602cbd6656bcf6.42123620/PointsOfAuthorityLive_rb3con",
+        "duration_seconds": 212.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "uploader": "Marcos",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live)/album.png",
+          "name": "album.png",
+          "sha256": "53bde34eb47fadea09ad5067e34877d30cf8c149d4fda0c95ad001248e878c34"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "504bfa85d626ad7431d4e29e23f138ca2f5f1bbea5917f0ee7a79f0ae6ccb265"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "0ed1d6c591e4070474d422b27aa6c4304b6560568ffae86b97286976d7ab8062"
+        },
+        {
+          "archive_name": "Linkin Park - Points of Authority (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "873d76677e762d570646a8cf1b2906e71f9528507207fff29fdc9c8c12c377de"
+        }
+      ],
+      "archive_sha256": "2209523ac7eed02604be8dbf4dc457b17f4503a4490b32875a13219bfd5398ae",
+      "archive_bytes": 4587520,
+      "prepared_bytes": 4197328,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "pointsofauthoritylive"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "QWERTY (Live in Tokyo, 2006)",
+      "file_id": "171d2d3951894ed9974daa414c5ab170",
+      "source_url": "https://rhythmverse.co/songfile/171d2d3951894ed9974daa414c5ab170",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/171d2d3951894ed9974daa414c5ab170/Linkin%20Park%20-%20QWERTY%20(Live%20in%20Tokyo,%202006)%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - QWERTY (Live in Tokyo, 2006) [171d2d39]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 857,
+          "kick_note_on_count": 314,
+          "cymbal_marker_count": 312,
+          "last_expert_onset_seconds": 220.513,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "171d2d3951894ed9974daa414c5ab170",
+        "artist": "Linkin Park",
+        "title": "QWERTY (Live in Tokyo, 2006)",
+        "album": "QWERTY (Live in Tokyo, 2006)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/171d2d3951894ed9974daa414c5ab170",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/171d2d3951894ed9974daa414c5ab170/Linkin Park - QWERTY (Live in Tokyo, 2006) (mjey2010).zip",
+        "duration_seconds": 236.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - QWERTY (Live in Tokyo, 2006) (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "76aebb7769f0c4c47b861a5f32b76c24645adaff3be177f65e5b4c83588e4d11"
+        },
+        {
+          "archive_name": "Linkin Park - QWERTY (Live in Tokyo, 2006) (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "1de9a42182b22c2c8106ab0c3d737feef88f7cd28970f75fe24ba3f56920f97c"
+        },
+        {
+          "archive_name": "Linkin Park - QWERTY (Live in Tokyo, 2006) (mjey2010)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "a44718a17d08fedc8b691636e67d755ccd194ee95a301544065cbecd1713d680"
+        },
+        {
+          "archive_name": "Linkin Park - QWERTY (Live in Tokyo, 2006) (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "b0481e9fba1f394da3d70c5044db17ab070508ed5b999466c7f3abbba6515f53"
+        },
+        {
+          "archive_name": "Linkin Park - QWERTY (Live in Tokyo, 2006) (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ff31f977fdea7467561c70ec4dd66efba30fe522170fe5ae9db5e1964b22c2b4"
+        }
+      ],
+      "archive_sha256": "d07ced660cf67ccb8974620288dae34661d59405ec27ed016c13de1cbff51d03",
+      "archive_bytes": 7003572,
+      "prepared_bytes": 7106794,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "qwertyliveintokyo2006"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Reading My Eyes (Live)",
+      "file_id": "261b251e59e74ceeb97d761e0915e42e",
+      "source_url": "https://rhythmverse.co/songfile/261b251e59e74ceeb97d761e0915e42e",
+      "download_url": "https://rhythmverse.co/download_file/luna2/261b251e59e74ceeb97d761e0915e42e/ReadingMyEyesLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Reading My Eyes (Live) [261b251e]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1283,
+          "kick_note_on_count": 269,
+          "tom_marker_count": 8,
+          "last_expert_onset_seconds": 186.28,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "261b251e59e74ceeb97d761e0915e42e",
+        "artist": "Linkin Park",
+        "title": "Reading My Eyes (Live)",
+        "album": "LP Underground 6.0",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/261b251e59e74ceeb97d761e0915e42e",
+        "download_url": "https://rhythmverse.co/download_file/luna2/261b251e59e74ceeb97d761e0915e42e/ReadingMyEyesLive_rb3con",
+        "duration_seconds": 194.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Reading My Eyes (Live)/album.png",
+          "name": "album.png",
+          "sha256": "01bcc2d5b009b59aa9ced83b11c2ebd61501f518c46c450fd7815b00448b7689"
+        },
+        {
+          "archive_name": "Linkin Park - Reading My Eyes (Live)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "f09eebd4ca371681f3a78732584719762429fc9361be7e3dfa9de7923e8eb044"
+        },
+        {
+          "archive_name": "Linkin Park - Reading My Eyes (Live)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "6d62293f4dec8ce04c4b2b71d2eeeafec18c6fdf05125c7728c24c1d3d5427b4"
+        },
+        {
+          "archive_name": "Linkin Park - Reading My Eyes (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1e9e871f26cc9dff0bf0d69a50504c1404a978752a8e7e124ecd7d70115636a7"
+        },
+        {
+          "archive_name": "Linkin Park - Reading My Eyes (Live)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "26b7b7a8ebc78d0fb0fe39bda40077716efd0238c37c69d31919414ccc774ce9"
+        },
+        {
+          "archive_name": "Linkin Park - Reading My Eyes (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "9898a39168dbfa38a0dd64aec795a121df23fee96dc7e63e54721e997a62ab88"
+        },
+        {
+          "archive_name": "Linkin Park - Reading My Eyes (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "91c9bf097240123414d9c8f9cbc128c98f538ad9ddd99b367cd000574b323a21"
+        },
+        {
+          "archive_name": "Linkin Park - Reading My Eyes (Live)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "f6ed3c83315c1b36b6d4bc96dd6f7fd04d2ed9272053b7296e51a827eafaeefb"
+        }
+      ],
+      "archive_sha256": "730732eb61487f9a682c9e8fee26271210bde1370e8829ac93ae25e5e80365d4",
+      "archive_bytes": 17219584,
+      "prepared_bytes": 14706141,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "readingmyeyeslive"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Runaway (Live in Texas)",
+      "file_id": "4c8ae917b7114df8b2e5fe677c2a7db4",
+      "source_url": "https://rhythmverse.co/songfile/4c8ae917b7114df8b2e5fe677c2a7db4",
+      "download_url": "https://rhythmverse.co/download_file/luna2/4c8ae917b7114df8b2e5fe677c2a7db4/RunawayLiveinTexas_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Runaway (Live in Texas) [4c8ae917]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1328,
+          "kick_note_on_count": 312,
+          "tom_marker_count": 110,
+          "last_expert_onset_seconds": 185.284,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "4c8ae917b7114df8b2e5fe677c2a7db4",
+        "artist": "Linkin Park",
+        "title": "Runaway (Live in Texas)",
+        "album": "Live In Texas",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/4c8ae917b7114df8b2e5fe677c2a7db4",
+        "download_url": "https://rhythmverse.co/download_file/luna2/4c8ae917b7114df8b2e5fe677c2a7db4/RunawayLiveinTexas_rb3con",
+        "duration_seconds": 192.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Runaway (Live in Texas)/album.png",
+          "name": "album.png",
+          "sha256": "47e736364155bfc2e45945154fce05a5c856d9330e80818e54911cea605641f8"
+        },
+        {
+          "archive_name": "Linkin Park - Runaway (Live in Texas)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "c0dce403395f8c0d0c3047c6197b75d58c238ce69cf309dd9f7b5c6ea51ba672"
+        },
+        {
+          "archive_name": "Linkin Park - Runaway (Live in Texas)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "34ae838642d48761f2879b46cc26c9fde8f1538f0e4599314def759b2c3e74c3"
+        },
+        {
+          "archive_name": "Linkin Park - Runaway (Live in Texas)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a4a5b52e9d24b3201e1adeb4fb3716bb963a94a4236540044ba1c8987a662d6b"
+        },
+        {
+          "archive_name": "Linkin Park - Runaway (Live in Texas)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "07c13f93915c2989aa9b646bc9b91ae6f935662fb70cab3fa7b0656770f60778"
+        },
+        {
+          "archive_name": "Linkin Park - Runaway (Live in Texas)/song.ini",
+          "name": "song.ini",
+          "sha256": "15f5295534bfd76f3d435b0f179cc5237fe6d64ce680ac2a44a3d5127feb0a47"
+        },
+        {
+          "archive_name": "Linkin Park - Runaway (Live in Texas)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b3b0cd9f20fbfb6232c750da9e9d93a4a3338d68fc135467bb1e7bf24555a734"
+        },
+        {
+          "archive_name": "Linkin Park - Runaway (Live in Texas)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "7e748389e7c0ed84c469b3662e3574ab4ca8f1e2db0d883e3d556b2200b9f655"
+        }
+      ],
+      "archive_sha256": "cc104c97ae47bc3f8dc579381dfbac9a8829ecaf17f4daafe4c04687b339dbf8",
+      "archive_bytes": 17801216,
+      "prepared_bytes": 15188462,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "runawayliveintexas"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo",
+      "file_id": "5ea5648c47014dc0933daa66ca341486",
+      "source_url": "https://rhythmverse.co/songfile/5ea5648c47014dc0933daa66ca341486",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/5ea5648c47014dc0933daa66ca341486/Linkin%20Park%20-%20Somewhere%20I%20Belong%20-%20Unshatter%20Film%20Soundtrack%20-%20Live%20in%20S%C3%A3o%20Paulo%20(mjey).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo [5ea5648c]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1216,
+          "kick_note_on_count": 350,
+          "tom_marker_count": 66,
+          "last_expert_onset_seconds": 206.266,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5ea5648c47014dc0933daa66ca341486",
+        "artist": "Linkin Park",
+        "title": "Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo",
+        "album": "Unshatter Film Soundtrack (Live in São Paulo)",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/5ea5648c47014dc0933daa66ca341486",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/5ea5648c47014dc0933daa66ca341486/Linkin Park - Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo (mjey).zip",
+        "duration_seconds": 211.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo (mjey)/album.png",
+          "name": "album.png",
+          "sha256": "503f215e69c2a72c62796e33011b029db552e88d6f5506f924bd42261eff41d9"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo (mjey)/background.png",
+          "name": "background.png",
+          "sha256": "17075d969ba7dd6fd81560f2e6140e2f8b5d540b6251ea84a07c57ecb930703f"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo (mjey)/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "a288879c5383edf69f85561c714e76a1333774661435ba457bab801de14c7d15"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo (mjey)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "0f78bd23b1987e41bf7bbf7516dfb750933b055ed0be421dfc381784bb0a8f30"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo (mjey)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "ee03160360037648fc48443d300c2c969543b51bdadfcf2dc19ebc191588b6b0"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo (mjey)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "71bf1ea30d478d15f1e4309f3ed888ba317c46b4d66da439ed594819e416442f"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo (mjey)/song.ini",
+          "name": "song.ini",
+          "sha256": "bd226f5daacce6ba6238201335fbc12d8c957c13c41d252c82a6fad7b4f4dd6e"
+        },
+        {
+          "archive_name": "Linkin Park - Somewhere I Belong - Unshatter Film Soundtrack - Live in São Paulo (mjey)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "da4ebf690262b0b829564ced4a5a733da575e093ae6ffab7c179d1ebb415f408"
+        }
+      ],
+      "archive_sha256": "065abcc4efc560a7e29c738408a7b04cc5761c742d3ce789ac7a4ba83b7a844f",
+      "archive_bytes": 21070736,
+      "prepared_bytes": 21240527,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "somewhereibelongunshatterfilmsoundtrackliveinsaopaulo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Stained (Live In Bridgestone Arena)",
+      "file_id": "ce9cd015b5ba4f6abd1f3d66bf091c89",
+      "source_url": "https://rhythmverse.co/songfile/ce9cd015b5ba4f6abd1f3d66bf091c89",
+      "download_url": "https://rhythmverse.co/download_file/luna2/ce9cd015b5ba4f6abd1f3d66bf091c89/StainedLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Stained (Live In Bridgestone Arena) [ce9cd015]",
+      "charter": "Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 749,
+          "kick_note_on_count": 194,
+          "tom_marker_count": 90,
+          "last_expert_onset_seconds": 186.396,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ce9cd015b5ba4f6abd1f3d66bf091c89",
+        "artist": "Linkin Park",
+        "title": "Stained (Live In Bridgestone Arena)",
+        "album": "From Zero Live",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/ce9cd015b5ba4f6abd1f3d66bf091c89",
+        "download_url": "https://rhythmverse.co/download_file/luna2/ce9cd015b5ba4f6abd1f3d66bf091c89/StainedLive_rb3con",
+        "duration_seconds": 194.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Stained (Live In Bridgestone Arena)/album.png",
+          "name": "album.png",
+          "sha256": "4b27013fb0247073256dcba7ac122afb0ea6b2188099e11e6bca122de65613f6"
+        },
+        {
+          "archive_name": "Linkin Park - Stained (Live In Bridgestone Arena)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "36ebe78135a5bd859cafbb5f5d8342c0932645401965a6e9c8ce4d6b74c0df9c"
+        },
+        {
+          "archive_name": "Linkin Park - Stained (Live In Bridgestone Arena)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "46d1272d65c19bfaed1422ff01ccf9d9501efcd4e1b3970bc3227552ceacc3ea"
+        },
+        {
+          "archive_name": "Linkin Park - Stained (Live In Bridgestone Arena)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "ee0edd93c70bf518a823dfac9e79c61da0feafc828b7904ba7e9ac13fbeb981f"
+        },
+        {
+          "archive_name": "Linkin Park - Stained (Live In Bridgestone Arena)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "47e56b5ae3afb9fe745243e6cbec30e51a86e2e5a65a2c9e48641667c5ae1bb0"
+        },
+        {
+          "archive_name": "Linkin Park - Stained (Live In Bridgestone Arena)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "33282c792ea554ff053542318ac61b77f7025f553695d3436a3efba55a53b204"
+        },
+        {
+          "archive_name": "Linkin Park - Stained (Live In Bridgestone Arena)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "befa09daa238cf9ad6ad4c8098dd06e3eebd1c6add3bbe57a27b8d0a78faf31a"
+        },
+        {
+          "archive_name": "Linkin Park - Stained (Live In Bridgestone Arena)/song.ini",
+          "name": "song.ini",
+          "sha256": "cdd298b0a27fae5c7c76cc5f8c2fae61a713f2eb76a78699821a78cabc124d5f"
+        },
+        {
+          "archive_name": "Linkin Park - Stained (Live In Bridgestone Arena)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2b37988429d995feac1956f1ed2c92b367becd88ee628ea0c7d4d5fb618bbfb1"
+        },
+        {
+          "archive_name": "Linkin Park - Stained (Live In Bridgestone Arena)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "3f6bfe8acc23b47777fb18da107e7f56bd4e91edb0890f7d6c5288646d51ea1c"
+        }
+      ],
+      "archive_sha256": "86f7d74594fb01c51bcf4e549c7a255c3f57044405b2ecdce257a6c68d20cb40",
+      "archive_bytes": 17534976,
+      "prepared_bytes": 15844257,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "stainedliveinbridgestonearena"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Step Up/Nobody's Listening/It's Goin' Down - Live",
+      "file_id": "d5b15200d5b94c54bffb3de04e440486",
+      "source_url": "https://rhythmverse.co/songfile/d5b15200d5b94c54bffb3de04e440486",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/d5b15200d5b94c54bffb3de04e440486/Linkin%20Park%20-%20Step%20Up%20Nobodys%20Listening%20Its%20Goin%20Down%20-%20Live%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Step Up_Nobody's Listening_It's Goin' Down - Live [d5b15200]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1521,
+          "kick_note_on_count": 320,
+          "tom_marker_count": 63,
+          "last_expert_onset_seconds": 294.485,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d5b15200d5b94c54bffb3de04e440486",
+        "artist": "Linkin Park",
+        "title": "Step Up/Nobody's Listening/It's Goin' Down - Live",
+        "album": "Meteora 20th Anniversary Edition",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/d5b15200d5b94c54bffb3de04e440486",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/d5b15200d5b94c54bffb3de04e440486/Linkin Park - Step Up Nobodys Listening Its Goin Down - Live (mjey2010).zip",
+        "duration_seconds": 299.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Step Up Nobodys Listening Its Goin Down - Live (mjey2010)/album.png",
+          "name": "album.png",
+          "sha256": "535cfe913904480613d463cda22ad8c46445aba9892fb4d4c6aa0cb642ed50a2"
+        },
+        {
+          "archive_name": "Linkin Park - Step Up Nobodys Listening Its Goin Down - Live (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "f5c5b4e56773b72b4e661bdcbd60f0ca4fe232e828dd5ae593915e8f6366603d"
+        },
+        {
+          "archive_name": "Linkin Park - Step Up Nobodys Listening Its Goin Down - Live (mjey2010)/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "fcbb0fe044e77a2a3d48e76d1cd6b24382b40485072d967710f0bcfb46737af6"
+        },
+        {
+          "archive_name": "Linkin Park - Step Up Nobodys Listening Its Goin Down - Live (mjey2010)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "83cb34f19b02b489afef124175f022fd502e2f05b7826e21069fb795a3b456b6"
+        },
+        {
+          "archive_name": "Linkin Park - Step Up Nobodys Listening Its Goin Down - Live (mjey2010)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "936c7fd130f732a89022158cd952b95b3bc86df94a991234aff4678c60f059d5"
+        },
+        {
+          "archive_name": "Linkin Park - Step Up Nobodys Listening Its Goin Down - Live (mjey2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "212ba53e0eda91747d5515f38041b3cfc0169ea4d9d67f09dc7313a14ead3e69"
+        },
+        {
+          "archive_name": "Linkin Park - Step Up Nobodys Listening Its Goin Down - Live (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "5bd2bbd9f74bb93a0819ea73963afab2a06e17c10880a146c1b52195fb906778"
+        },
+        {
+          "archive_name": "Linkin Park - Step Up Nobodys Listening Its Goin Down - Live (mjey2010)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "3e7043521fb2c3e7f3051000aafe8a93a74e233f19f92fb939b70f93e9b78e2e"
+        }
+      ],
+      "archive_sha256": "161a38b15a07ecafc26db6e609810c6f5764bfc32db00ec4c86bb91511726fa1",
+      "archive_bytes": 31322949,
+      "prepared_bytes": 31544582,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "stepupnobodyslisteningitsgoindownlive"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "The Catalyst (Live from Paris, 2010)",
+      "file_id": "c806c9dfde5a4145a1976b9d5e9beac6",
+      "source_url": "https://rhythmverse.co/songfile/c806c9dfde5a4145a1976b9d5e9beac6",
+      "download_url": "https://rhythmverse.co/download_file/luna2/c806c9dfde5a4145a1976b9d5e9beac6/TheCatalystLivefromParis_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - The Catalyst (Live from Paris, 2010) [c806c9df]",
+      "charter": "Luna, GeeForce11, Big Gucci",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1757,
+          "kick_note_on_count": 300,
+          "tom_marker_count": 58,
+          "last_expert_onset_seconds": 302.247,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c806c9dfde5a4145a1976b9d5e9beac6",
+        "artist": "Linkin Park",
+        "title": "The Catalyst (Live from Paris, 2010)",
+        "album": "A Thousand Suns - Live Around the World",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/c806c9dfde5a4145a1976b9d5e9beac6",
+        "download_url": "https://rhythmverse.co/download_file/luna2/c806c9dfde5a4145a1976b9d5e9beac6/TheCatalystLivefromParis_rb3con",
+        "duration_seconds": 358.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - The Catalyst (Live from Paris, 2010)/album.png",
+          "name": "album.png",
+          "sha256": "eb4fb9b0e9fc6dc21d010abf8cae949d7b188636e91466847e9d221b1158ea8d"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst (Live from Paris, 2010)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "fcc8a93abe6d003a15a5be86e8aa06e5a3a826589548c202fa4f15db1a6af858"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst (Live from Paris, 2010)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "cf18f305a693c7bb6ef1fc7756d937247eebee7b757230934c21d3674e99c94d"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst (Live from Paris, 2010)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "19d43361d5136289ff4e9a34b590831bee504d37821a88c36ef02bc55cb0da9d"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst (Live from Paris, 2010)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "489bf5058221c4a2d6e2ea0d2d10de2b560c071a64f49d6dbaf68bd7e8f3a584"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst (Live from Paris, 2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "41d562deea6ce3872b2c031f30864a8c9f2d4eaca8b253df9347a0708a4da105"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst (Live from Paris, 2010)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "b336f5ee516e0898037178e7c55fc4905aa66690e0b31a0c89a5ca202b1a709c"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst (Live from Paris, 2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "358f0059b8b0ab62b44b12b797f9319ac40291a61caab37c7093d17700caa676"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst (Live from Paris, 2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "fad5b80144cd71958d3aabca7a55633bec3204b724adcab4b281759b14434999"
+        },
+        {
+          "archive_name": "Linkin Park - The Catalyst (Live from Paris, 2010)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "315b14234639dee7ebecbcf31cf443bae9ca3fce4af99ff9b609418e4065f3ec"
+        }
+      ],
+      "archive_sha256": "9f7b18ef027763db1adc305777b2c160d4f92f822e25e69ce9a0a5f1cbaefa73",
+      "archive_bytes": 34271232,
+      "prepared_bytes": 29221699,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "thecatalystlivefromparis2010"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "The Emptiness Machine (Live)",
+      "file_id": "8ef6598835c74a81977ebdc7a2d631a2",
+      "source_url": "https://rhythmverse.co/songfile/8ef6598835c74a81977ebdc7a2d631a2",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/8ef6598835c74a81977ebdc7a2d631a2/Linkin%20Park%20-%20The%20Emptiness%20Machine%20(Live)%20(mjey).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - The Emptiness Machine (Live) [8ef65988]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1197,
+          "kick_note_on_count": 369,
+          "tom_marker_count": 21,
+          "last_expert_onset_seconds": 195.318,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "8ef6598835c74a81977ebdc7a2d631a2",
+        "artist": "Linkin Park",
+        "title": "The Emptiness Machine (Live)",
+        "album": "From Zero (Deluxe Edition)",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/8ef6598835c74a81977ebdc7a2d631a2",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/8ef6598835c74a81977ebdc7a2d631a2/Linkin Park - The Emptiness Machine (Live) (mjey).zip",
+        "duration_seconds": 200.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine (Live) (mjey)/album.png",
+          "name": "album.png",
+          "sha256": "ef995227404d790c872d573aa3dce11e0243eec9553fd9c4861cd5eefa2e5cdd"
+        },
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine (Live) (mjey)/background.png",
+          "name": "background.png",
+          "sha256": "8b11ade237e524b90b98d6f9a9cbf5474e468c02037bb08d5f82345d02f0d51b"
+        },
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine (Live) (mjey)/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "a03da667372abb452b8ce70f230c12dc965054bf181863827fabc17c92912c8a"
+        },
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine (Live) (mjey)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "757863e15b4360ea48c5b9473966b87d31ef92d0bd719e8806f0289e7ee4973d"
+        },
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine (Live) (mjey)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "63c1b4d4461067872e7354f05a91d95f058422c047e53817a8038417a5129e79"
+        },
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine (Live) (mjey)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2f76be87e0ec1db232ade94e017f88cf5b40689ea08919474993dbedd5a5a92e"
+        },
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine (Live) (mjey)/song.ini",
+          "name": "song.ini",
+          "sha256": "6ccff40f26d8763e2cf219c0438bcef723943a93d8e95313aaa17f8bc3078203"
+        },
+        {
+          "archive_name": "Linkin Park - The Emptiness Machine (Live) (mjey)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "a8c07255766a4cd625aaecb62a647c98173adc6e5d018d124ef8f406164a8892"
+        }
+      ],
+      "archive_sha256": "bb4c0b188af2cc4529884f5996768b853df20135c765ad92a59c84b21d8e49b7",
+      "archive_bytes": 21091624,
+      "prepared_bytes": 21291117,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "theemptinessmachinelive"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Two Faced (Live In São Paulo)",
+      "file_id": "78755503b8574edaa332cdc340be211d",
+      "source_url": "https://rhythmverse.co/songfile/78755503b8574edaa332cdc340be211d",
+      "download_url": "https://rhythmverse.co/download_file/luna2/78755503b8574edaa332cdc340be211d/TwoFacedLiveInSaoPaulo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Two Faced (Live In São Paulo) [78755503]",
+      "charter": "Luna, Geecforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1335,
+          "kick_note_on_count": 463,
+          "tom_marker_count": 77,
+          "last_expert_onset_seconds": 229.199,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "78755503b8574edaa332cdc340be211d",
+        "artist": "Linkin Park",
+        "title": "Two Faced (Live In São Paulo)",
+        "album": "From Zero Live",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/78755503b8574edaa332cdc340be211d",
+        "download_url": "https://rhythmverse.co/download_file/luna2/78755503b8574edaa332cdc340be211d/TwoFacedLiveInSaoPaulo_rb3con",
+        "duration_seconds": 240.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Two Faced (Live In S_o Paulo)/album.png",
+          "name": "album.png",
+          "sha256": "4b27013fb0247073256dcba7ac122afb0ea6b2188099e11e6bca122de65613f6"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live In S_o Paulo)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "2350d4e1c26592dd2caee28e7ee2e53d428a96c3158c8501f15c346bcba2a785"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live In S_o Paulo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "fd99e6b75b2993b3a45d54275076d1739363e0d10c710cf28df6c160a78bf5e8"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live In S_o Paulo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "5db162cba4f3809b2b695f0a6360de7172f4343f73ef932b2017e00b0e83e834"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live In S_o Paulo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "e8d98a7c63128ea8c1c4af459edd066d39425fca3385138de1ae3602b82ce913"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live In S_o Paulo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7a1f3868d71dc3d8ca8b39044bfd4b8bf5cd7a6907a18d52bb0fad955ebc83d7"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live In S_o Paulo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "093fa0620b976aedae6b84157b96c1f85262d5ecee9294d06d16d906a1d11a9a"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live In S_o Paulo)/song.ini",
+          "name": "song.ini",
+          "sha256": "d4f0d813c668c6e6b234c80833289368ce45bead7958705d05e78c79a8f7520a"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live In S_o Paulo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1dba5f8527206c2a065c073cc7347852c423cdba23f033adb7df83087ece1191"
+        },
+        {
+          "archive_name": "Linkin Park - Two Faced (Live In S_o Paulo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "836368d9a073bfbad7433170395cfa7527385d58d7d494d270e3d724fb98ae69"
+        }
+      ],
+      "archive_sha256": "c3af1a3b5f95487f14be5d2aaded827fd7104b3e8802ee1c652997ef4905e3d8",
+      "archive_bytes": 26103808,
+      "prepared_bytes": 23136125,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "twofacedliveinsaopaulo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Until It's Gone (Live From The KROQ Red Bull Sound Space)",
+      "file_id": "d957ff91fe87408298e25ec00c4ce709",
+      "source_url": "https://rhythmverse.co/songfile/d957ff91fe87408298e25ec00c4ce709",
+      "download_url": "https://rhythmverse.co/download_file/luna2/d957ff91fe87408298e25ec00c4ce709/UntilItsGoneLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Until It's Gone (Live From The KROQ Red Bull Sound Space) [d957ff91]",
+      "charter": "Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 822,
+          "kick_note_on_count": 182,
+          "tom_marker_count": 85,
+          "last_expert_onset_seconds": 219.672,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d957ff91fe87408298e25ec00c4ce709",
+        "artist": "Linkin Park",
+        "title": "Until It's Gone (Live From The KROQ Red Bull Sound Space)",
+        "album": "The Hunting Party Live",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/d957ff91fe87408298e25ec00c4ce709",
+        "download_url": "https://rhythmverse.co/download_file/luna2/d957ff91fe87408298e25ec00c4ce709/UntilItsGoneLive_rb3con",
+        "duration_seconds": 225.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Until It's Gone (Live From The KROQ Red Bull Sound Space)/album.png",
+          "name": "album.png",
+          "sha256": "4b27013fb0247073256dcba7ac122afb0ea6b2188099e11e6bca122de65613f6"
+        },
+        {
+          "archive_name": "Linkin Park - Until It's Gone (Live From The KROQ Red Bull Sound Space)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "62335fe53a7aff7279c90105ec3d41d557963aeaf0d4035b4ee75fd186fda596"
+        },
+        {
+          "archive_name": "Linkin Park - Until It's Gone (Live From The KROQ Red Bull Sound Space)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "70e633cf73cbca6168123a9bb8dc473ade06d9df2a050f3fdd35bb9a62a31151"
+        },
+        {
+          "archive_name": "Linkin Park - Until It's Gone (Live From The KROQ Red Bull Sound Space)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "103cad17747582923e7417fe066571daab7a826b8fd4933ddc3ccccc3053ca54"
+        },
+        {
+          "archive_name": "Linkin Park - Until It's Gone (Live From The KROQ Red Bull Sound Space)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "92a4820038e34d2f915373ee2ee4674770e948444d66c89271d4b80d00d9b8f5"
+        },
+        {
+          "archive_name": "Linkin Park - Until It's Gone (Live From The KROQ Red Bull Sound Space)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "1c2ee1900050afb74f6a31f1920f322f991d1c154da667701765c90f3e9a30f1"
+        },
+        {
+          "archive_name": "Linkin Park - Until It's Gone (Live From The KROQ Red Bull Sound Space)/song.ini",
+          "name": "song.ini",
+          "sha256": "bf53748906a7907f02016d9d80189874c62e40bea44e9d9fe210f2defee2db66"
+        },
+        {
+          "archive_name": "Linkin Park - Until It's Gone (Live From The KROQ Red Bull Sound Space)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "618563d5e5a452f1b7f059abb328503ebd046bdb85f240f20efcbbc2252c3022"
+        },
+        {
+          "archive_name": "Linkin Park - Until It's Gone (Live From The KROQ Red Bull Sound Space)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "0b2122f3e0944b3f4e7d14730a546a035475272db3aa9cd887e62b8f69135fbd"
+        }
+      ],
+      "archive_sha256": "5274e88e19755e86d8b9f68b9c498e0f8341e2300fea437412644030e16e732c",
+      "archive_bytes": 19353600,
+      "prepared_bytes": 17523573,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "untilitsgonelivefromthekroqredbullsoundspace"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Up From The Bottom (Live In Los Angeles)",
+      "file_id": "832f2fa4792042e0b51fde407bcae3b4",
+      "source_url": "https://rhythmverse.co/songfile/832f2fa4792042e0b51fde407bcae3b4",
+      "download_url": "https://rhythmverse.co/download_file/luna2/832f2fa4792042e0b51fde407bcae3b4/UpFromTheBottomLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Up From The Bottom (Live In Los Angeles) [832f2fa4]",
+      "charter": "GeeForce11, Luna",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1090,
+          "kick_note_on_count": 299,
+          "tom_marker_count": 26,
+          "last_expert_onset_seconds": 183.645,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "832f2fa4792042e0b51fde407bcae3b4",
+        "artist": "Linkin Park",
+        "title": "Up From The Bottom (Live In Los Angeles)",
+        "album": "From Zero Live",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/832f2fa4792042e0b51fde407bcae3b4",
+        "download_url": "https://rhythmverse.co/download_file/luna2/832f2fa4792042e0b51fde407bcae3b4/UpFromTheBottomLive_rb3con",
+        "duration_seconds": 193.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Up From The Bottom (Live In Los Angeles)/album.png",
+          "name": "album.png",
+          "sha256": "4b27013fb0247073256dcba7ac122afb0ea6b2188099e11e6bca122de65613f6"
+        },
+        {
+          "archive_name": "Linkin Park - Up From The Bottom (Live In Los Angeles)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "eca688554dff18c1dd33d0ce21c6ecf390e847a789ceb5cdbcef4d5816ad1e6e"
+        },
+        {
+          "archive_name": "Linkin Park - Up From The Bottom (Live In Los Angeles)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "a9dcf2ef1c405d2a8591c7acb2564d2ec9ee23065754b0b2d44ba104b36bf4f9"
+        },
+        {
+          "archive_name": "Linkin Park - Up From The Bottom (Live In Los Angeles)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "3bf9ecc4d6cc5b90040634c8841162f813b76aebcf4c9f4d08065df21c53b1f4"
+        },
+        {
+          "archive_name": "Linkin Park - Up From The Bottom (Live In Los Angeles)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "8b07e2ab2d5b1a9e8f4a9f2c81c2c8b2a755ea338d79656b1d1892ec7c324999"
+        },
+        {
+          "archive_name": "Linkin Park - Up From The Bottom (Live In Los Angeles)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e83500732c66c6cfc7b77aeb6f982f5001d679a115a53784d796eab21f7fb443"
+        },
+        {
+          "archive_name": "Linkin Park - Up From The Bottom (Live In Los Angeles)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "101c561175e6fcdf7ef1ee5db7664a1fdab6b99faa943961a630811c6636fc0b"
+        },
+        {
+          "archive_name": "Linkin Park - Up From The Bottom (Live In Los Angeles)/song.ini",
+          "name": "song.ini",
+          "sha256": "b8d630c3437441f980ce0c78878b77e5ded1c66e560b35c6707ad9226716a65d"
+        },
+        {
+          "archive_name": "Linkin Park - Up From The Bottom (Live In Los Angeles)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3f8801d2edcbf5644baf5b3f4624cba58512162bb65dde85e63badd810b200eb"
+        },
+        {
+          "archive_name": "Linkin Park - Up From The Bottom (Live In Los Angeles)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "a6183f7d5c5fdc896e943273a626a4a2646e0c476d4d96c8f2ae5decedb4ffd7"
+        }
+      ],
+      "archive_sha256": "6f01773f62e0fb38d77f288e7e6f0721dc99048106300d4c56fdbbc625cdcaba",
+      "archive_bytes": 21188608,
+      "prepared_bytes": 17761342,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "upfromthebottomliveinlosangeles"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Waiting for the End (Live from Berlin, 2010)",
+      "file_id": "a03651e69df640d58135dfa6c3ec21f4",
+      "source_url": "https://rhythmverse.co/songfile/a03651e69df640d58135dfa6c3ec21f4",
+      "download_url": "https://rhythmverse.co/download_file/luna2/a03651e69df640d58135dfa6c3ec21f4/WaitingfortheEndLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Waiting for the End (Live from Berlin, 2010) [a03651e6]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1518,
+          "kick_note_on_count": 388,
+          "tom_marker_count": 264,
+          "last_expert_onset_seconds": 234.353,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a03651e69df640d58135dfa6c3ec21f4",
+        "artist": "Linkin Park",
+        "title": "Waiting for the End (Live from Berlin, 2010)",
+        "album": "A Thousand Suns - Live Around the World",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/a03651e69df640d58135dfa6c3ec21f4",
+        "download_url": "https://rhythmverse.co/download_file/luna2/a03651e69df640d58135dfa6c3ec21f4/WaitingfortheEndLive_rb3con",
+        "duration_seconds": 242.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live from Berlin, 2010)/album.png",
+          "name": "album.png",
+          "sha256": "eb4fb9b0e9fc6dc21d010abf8cae949d7b188636e91466847e9d221b1158ea8d"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live from Berlin, 2010)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "58d2d511cbcd25ce5385bccccba0eeeea311d997a1615886892231b51c16d043"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live from Berlin, 2010)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "0d3a91bba433885e23e880115298cd384c667edddee527f4a2a4d773095b650f"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live from Berlin, 2010)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "cb12a5854a69e14dd210f82c9807821b0ab1cb91b96f232ca24fbf1cc1cf9a9f"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live from Berlin, 2010)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "95fefde8d8732e12152b71068a44475aa69cf3aa0959a6a9fd49c90c447d038c"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live from Berlin, 2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "35441345abc7b9e30eb0963c902e7d638fb1f627d096002c0145435dc2b373f2"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live from Berlin, 2010)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "afef5b40289e5466bfa68a64efc7eda848c4898d68182b74a3f34e257b3aac46"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live from Berlin, 2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "8ad5818d82a35b9e08e3cc87637577b2ddde9da4d1edf74f260f00f1c60942fa"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live from Berlin, 2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b35cbe6fde48422fe2678b77c6e49daa78be24ce08917e349c5e798d5d7ce43e"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live from Berlin, 2010)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "42fd13e41ec2d67941ee4fef3f6b12e60ffd9f51811b0c546b44eebb7fd43484"
+        }
+      ],
+      "archive_sha256": "b190e97424d662aee6ee6ad7fd8c65b52e8a6651be24c1b2a4c7a8c53d07274d",
+      "archive_bytes": 21585920,
+      "prepared_bytes": 18276344,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "waitingfortheendlivefromberlin2010"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Waiting for the End (Live In Rio, 2012)",
+      "file_id": "d43625d3a29e495bb411b844d19eeb09",
+      "source_url": "https://rhythmverse.co/songfile/d43625d3a29e495bb411b844d19eeb09",
+      "download_url": "https://rhythmverse.co/download_file/luna2/d43625d3a29e495bb411b844d19eeb09/WaitingfortheEndLiveRio_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Waiting for the End (Live In Rio, 2012) [d43625d3]",
+      "charter": "Luna, Geeforce",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1509,
+          "kick_note_on_count": 388,
+          "tom_marker_count": 8,
+          "last_expert_onset_seconds": 234.353,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d43625d3a29e495bb411b844d19eeb09",
+        "artist": "Linkin Park",
+        "title": "Waiting for the End (Live In Rio, 2012)",
+        "album": "Rio+Social",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/d43625d3a29e495bb411b844d19eeb09",
+        "download_url": "https://rhythmverse.co/download_file/luna2/d43625d3a29e495bb411b844d19eeb09/WaitingfortheEndLiveRio_rb3con",
+        "duration_seconds": 240.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live In Rio, 2012)/album.png",
+          "name": "album.png",
+          "sha256": "4b27013fb0247073256dcba7ac122afb0ea6b2188099e11e6bca122de65613f6"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live In Rio, 2012)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "8db22e6db9dfcfaefe5a48f792fded11e72386643a943c5a528b7d507896c7f9"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live In Rio, 2012)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "9c05d656d76727ae2636a044e860d3d2e501b9395d84a5ead5b4e58aebaeaf51"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live In Rio, 2012)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "b18964f782207d3d28197a2b0f8be6b11642488e3a25e0b2b16f7903a017cc6f"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live In Rio, 2012)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "88185901eaac25ba12d4d2e72fd8c214bf5595384954eabf22e3d94a32762eae"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live In Rio, 2012)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "64b01c222f7ee0f810e13c1fab746fef64f77aa2dd9956e5eca29a0bdc6ede9e"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live In Rio, 2012)/song.ini",
+          "name": "song.ini",
+          "sha256": "75c61822be12e91f9f1f80c447007fefb2369bf9f925a3bb854297543cc90e5a"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live In Rio, 2012)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "91bf0fd421b77a99d59604a2f904a6f5febb7c2c6841c42ae9d26c18c4496c94"
+        },
+        {
+          "archive_name": "Linkin Park - Waiting for the End (Live In Rio, 2012)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "a062f8d578528ab5721562fa5e7fb05ce3d2378b64662fcbee1c084a04058056"
+        }
+      ],
+      "archive_sha256": "7c3b8b1957f6c79e2127877484e925cd633faca571afd39b9e32d9d5f6d4f6e5",
+      "archive_bytes": 23531520,
+      "prepared_bytes": 20223724,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "waitingfortheendliveinrio2012"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "What I've Done (Live in Red Square 2011)",
+      "file_id": "d6256334ad7143019dad9104bf6f8ffd",
+      "source_url": "https://rhythmverse.co/songfile/d6256334ad7143019dad9104bf6f8ffd",
+      "download_url": "https://rhythmverse.co/download_file/luna2/d6256334ad7143019dad9104bf6f8ffd/WhatIveDoneLive_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - What I've Done (Live in Red Square 2011) [d6256334]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1247,
+          "kick_note_on_count": 302,
+          "tom_marker_count": 46,
+          "last_expert_onset_seconds": 201.74,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "d6256334ad7143019dad9104bf6f8ffd",
+        "artist": "Linkin Park",
+        "title": "What I've Done (Live in Red Square 2011)",
+        "album": "Minutes To Midnight Live",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/d6256334ad7143019dad9104bf6f8ffd",
+        "download_url": "https://rhythmverse.co/download_file/luna2/d6256334ad7143019dad9104bf6f8ffd/WhatIveDoneLive_rb3con",
+        "duration_seconds": 218.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - What I've Done (Live in Red Square 2011)/album.png",
+          "name": "album.png",
+          "sha256": "4b27013fb0247073256dcba7ac122afb0ea6b2188099e11e6bca122de65613f6"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done (Live in Red Square 2011)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "6a96ccc3fd906033e1a78eeeedb2a2b969f22feb95a1ad7e44b4b86b566d1c82"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done (Live in Red Square 2011)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "23f2b61088691e53195c45402caa6e64e8e876509bb1b1274237c9af6bbbfdc7"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done (Live in Red Square 2011)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "998c0f302757d36fa41c115d6a94ad3d7e8195e5fedabd2760806d49890c22b4"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done (Live in Red Square 2011)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "718a66fb6cd84ab5532be73b5729bd508687fa31312833141731104d0e5d9e80"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done (Live in Red Square 2011)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "2f460b00e74ff5d01ad0cccf9a883ce07655a2b110caafc244e002ef612929a1"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done (Live in Red Square 2011)/song.ini",
+          "name": "song.ini",
+          "sha256": "79ab41b98407ffbbe07c1ec10a572100a3565c8bc4055651d1c0d1f364f7b6db"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done (Live in Red Square 2011)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7a69178f8c992da32a1def2ab81a1527488aec740703aebc8263a6ece2bd640c"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done (Live in Red Square 2011)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "10d44fa52fadaa1937083eaaeeb6c81e16ac84751e7ccbe83bd0521b27e95187"
+        }
+      ],
+      "archive_sha256": "df10a9c3612907b55cfa03a0c8ea69332e461351dc05a8fed1d33e0af93e2906",
+      "archive_bytes": 20660224,
+      "prepared_bytes": 18641776,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "whativedoneliveinredsquare2011"
+    }
+  ]
+}

@@ -1,0 +1,1493 @@
+{
+  "schema_version": 1,
+  "batch_number": 26,
+  "collection_folder": "MixDrumRock - Drums - Lote 26 - Linkin Park",
+  "archive_name": "MixDrumRock-lote-26.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "theme": "linkin-park",
+  "theme_label": "Linkin Park",
+  "edition_group": "demo",
+  "edition_group_label": "Demos",
+  "songs": [
+    {
+      "artist": "Linkin Park",
+      "title": "Asbestos (Minutes to Midnight Demo)",
+      "file_id": "f65d0cac236440de85f7daa72a4c19a3",
+      "source_url": "https://rhythmverse.co/songfile/f65d0cac236440de85f7daa72a4c19a3",
+      "download_url": "https://rhythmverse.co/download_file/luna2/f65d0cac236440de85f7daa72a4c19a3/Asbestos_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Asbestos (Minutes to Midnight Demo) [f65d0cac]",
+      "charter": "Maupy2, beard216, GeeForce11, Luna",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 659,
+          "kick_note_on_count": 268,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 116.318,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f65d0cac236440de85f7daa72a4c19a3",
+        "artist": "Linkin Park",
+        "title": "Asbestos (Minutes to Midnight Demo)",
+        "album": "LP Underground 12",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/f65d0cac236440de85f7daa72a4c19a3",
+        "download_url": "https://rhythmverse.co/download_file/luna2/f65d0cac236440de85f7daa72a4c19a3/Asbestos_rb3con",
+        "duration_seconds": 120.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Asbestos (Minutes to Midnight Demo)/album.png",
+          "name": "album.png",
+          "sha256": "e6c1f7e12e1c7bd4ab401ac533123a7f6c728bc3740cc69261c340f6fa5e990a"
+        },
+        {
+          "archive_name": "Linkin Park - Asbestos (Minutes to Midnight Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "e3e519d9fef1fc2226cdfb181986020c10677304e18b177407d100d3072a161e"
+        },
+        {
+          "archive_name": "Linkin Park - Asbestos (Minutes to Midnight Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "cf15026b13022fc90624dd6688f6fd0ebe5ae22014d76c32b8c0735212daff46"
+        },
+        {
+          "archive_name": "Linkin Park - Asbestos (Minutes to Midnight Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "54de0f6873aad232a7acf841949ad32dd7febb0641d5ac5be13b8de9a6b20d57"
+        },
+        {
+          "archive_name": "Linkin Park - Asbestos (Minutes to Midnight Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "3e6b8ffe438006cc23fec62d5b51c7f0e808568aeb94adae1c50e15ee7e31892"
+        },
+        {
+          "archive_name": "Linkin Park - Asbestos (Minutes to Midnight Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "4a47acb95f0e0627dd2f27387fd4db9bf6d39e261ac72cc18eacb9bbc5d63754"
+        },
+        {
+          "archive_name": "Linkin Park - Asbestos (Minutes to Midnight Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0689decbfbbc36fafe7d8c73332e5aec9ed9b890c7e4f8b5735427323a6fc7a5"
+        },
+        {
+          "archive_name": "Linkin Park - Asbestos (Minutes to Midnight Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "def14b274349183ffe8621c315e3fb8b0076c5aab00213414f88a00ffb8a0808"
+        }
+      ],
+      "archive_sha256": "40c82731ac7fc0adb221602cb7f05cf4596fa2c6918ada1f83d617c767aff7d3",
+      "archive_bytes": 12603392,
+      "prepared_bytes": 10404284,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "asbestosminutestomidnightdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Attached (2003 Demo)",
+      "file_id": "93e3e121bb8c4cea814206fcb296a8a5",
+      "source_url": "https://rhythmverse.co/songfile/93e3e121bb8c4cea814206fcb296a8a5",
+      "download_url": "https://rhythmverse.co/download_file/luna2/93e3e121bb8c4cea814206fcb296a8a5/Attached_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Attached (2003 Demo) [93e3e121]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1536,
+          "kick_note_on_count": 373,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 210.874,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "93e3e121bb8c4cea814206fcb296a8a5",
+        "artist": "Linkin Park",
+        "title": "Attached (2003 Demo)",
+        "album": "LP Underground 15",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/93e3e121bb8c4cea814206fcb296a8a5",
+        "download_url": "https://rhythmverse.co/download_file/luna2/93e3e121bb8c4cea814206fcb296a8a5/Attached_rb3con",
+        "duration_seconds": 213.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Attached (2003 Demo)/album.png",
+          "name": "album.png",
+          "sha256": "5901087e6106320f76700975333a895f9d691df9e4567c0b015bbd6fff1e6d90"
+        },
+        {
+          "archive_name": "Linkin Park - Attached (2003 Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "17b33f82c89ceca0115d825b66acba2bda3306e1ffe25434bf93574d2049bb71"
+        },
+        {
+          "archive_name": "Linkin Park - Attached (2003 Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "6e9120769cc998dd600d77646dd54cf20db0c2c733cf0f207965892145ba229e"
+        },
+        {
+          "archive_name": "Linkin Park - Attached (2003 Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "64a184d894f9d0cea2c44e97fac2f71ca9aa2bee13bf548bd2d2818aea81bba4"
+        },
+        {
+          "archive_name": "Linkin Park - Attached (2003 Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "4b39950886450f9b69c24cc017dcd6befdc6dc8d50dfeab19ca9c2d46f4e7aac"
+        },
+        {
+          "archive_name": "Linkin Park - Attached (2003 Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "8de844df9b32274b99f65e72ac3557df08903411ea005da35f7d9ee97ecb83d2"
+        },
+        {
+          "archive_name": "Linkin Park - Attached (2003 Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "b5743f372aad1ae2ff1740a3da791e1ed7fa678723e7dc63fe3045f0ea70e52c"
+        },
+        {
+          "archive_name": "Linkin Park - Attached (2003 Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "643963f1680352115e9b5cef90311da8ef1d0884e624e7aa5772fc1a4e8dbb5a"
+        }
+      ],
+      "archive_sha256": "5acbefb87f56aa106171f4a9e7df2776b51ef6416114e88fedadca2558cd8a7c",
+      "archive_bytes": 12734464,
+      "prepared_bytes": 10722651,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "attached2003demo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Blackout (Demo)",
+      "file_id": "69c82af4c5bf4f63ac16d49056d0a611",
+      "source_url": "https://rhythmverse.co/songfile/69c82af4c5bf4f63ac16d49056d0a611",
+      "download_url": "https://rhythmverse.co/download_file/luna2/69c82af4c5bf4f63ac16d49056d0a611/Blackoutdemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Blackout (Demo) [69c82af4]",
+      "charter": "iPodwithnomusic",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1243,
+          "kick_note_on_count": 401,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 264.891,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "69c82af4c5bf4f63ac16d49056d0a611",
+        "artist": "Linkin Park",
+        "title": "Blackout (Demo)",
+        "album": "A Thousand Suns",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/69c82af4c5bf4f63ac16d49056d0a611",
+        "download_url": "https://rhythmverse.co/download_file/luna2/69c82af4c5bf4f63ac16d49056d0a611/Blackoutdemo_rb3con",
+        "duration_seconds": 282.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Blackout (Demo)/album.png",
+          "name": "album.png",
+          "sha256": "c7e9b4ac4961a75c8312a39380bc9297d5449c88c8317b9eb4d99cb3eaa769fd"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "90836f6aa7d7414c42d93345f23c1bd07a32f6939ccba425871b2e19f9820e83"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "8bdabb601341924cbdab6aa4b428f47549b95ec3266508905d4067187d223feb"
+        },
+        {
+          "archive_name": "Linkin Park - Blackout (Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c8224e1359a1aa6fd09b68f2c991ec8e27dba0ef11ea096cb979bf233036a943"
+        }
+      ],
+      "archive_sha256": "6cbc59e83f4d8848b65d1036a920a26d68d99edde8cea0d90ed1711da0bcd69c",
+      "archive_bytes": 5115904,
+      "prepared_bytes": 4057413,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "blackoutdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Blue (1998 Unreleased Hybrid Theory Demo)",
+      "file_id": "bb7e16f1591b4ed6bd88813c847e6612",
+      "source_url": "https://rhythmverse.co/songfile/bb7e16f1591b4ed6bd88813c847e6612",
+      "download_url": "https://rhythmverse.co/download_file/luna2/bb7e16f1591b4ed6bd88813c847e6612/Blue_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Blue (1998 Unreleased Hybrid Theory Demo) [bb7e16f1]",
+      "charter": "SonomaSunrise",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1188,
+          "kick_note_on_count": 430,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 209.223,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "bb7e16f1591b4ed6bd88813c847e6612",
+        "artist": "Linkin Park",
+        "title": "Blue (1998 Unreleased Hybrid Theory Demo)",
+        "album": "LP Underground Eleven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/bb7e16f1591b4ed6bd88813c847e6612",
+        "download_url": "https://rhythmverse.co/download_file/luna2/bb7e16f1591b4ed6bd88813c847e6612/Blue_rb3con",
+        "duration_seconds": 212.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Blue (1998 Unreleased Hybrid Theory Demo)/album.png",
+          "name": "album.png",
+          "sha256": "dab9d624145d1074beb2ec7ff7f89d2c463c86e1b70da291e52f7c1d6adca3a2"
+        },
+        {
+          "archive_name": "Linkin Park - Blue (1998 Unreleased Hybrid Theory Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "29be64dbbc45992e0e55ab2e3a414936f5b5c0eb0e4308c1be89722aa375e2ec"
+        },
+        {
+          "archive_name": "Linkin Park - Blue (1998 Unreleased Hybrid Theory Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "7497fa2bd3bb5ebce6f70e73d2b622286999c40a84e4845263071e2d09fb6cb4"
+        },
+        {
+          "archive_name": "Linkin Park - Blue (1998 Unreleased Hybrid Theory Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1659aff75504b1c54c08af9434048ddd8fb7b5c493acbe047f8aa157e3c86ced"
+        }
+      ],
+      "archive_sha256": "3499de992a732842ff289c60d2044c718bffaea943c400d1cc732849d17f1c51",
+      "archive_bytes": 4022272,
+      "prepared_bytes": 4765461,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "blue1998unreleasedhybridtheorydemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Breaking the Habit (Original Mike 2002 Demo)",
+      "file_id": "8e89caf697ce4c00b2c8712f73fa980c",
+      "source_url": "https://rhythmverse.co/songfile/8e89caf697ce4c00b2c8712f73fa980c",
+      "download_url": "https://rhythmverse.co/download_file/luna2/8e89caf697ce4c00b2c8712f73fa980c/BreakingtheHabitOriginal_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Breaking the Habit (Original Mike 2002 Demo) [8e89caf6]",
+      "charter": "Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1730,
+          "kick_note_on_count": 353,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 182.4,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "8e89caf697ce4c00b2c8712f73fa980c",
+        "artist": "Linkin Park",
+        "title": "Breaking the Habit (Original Mike 2002 Demo)",
+        "album": "LP Underground XIV",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/8e89caf697ce4c00b2c8712f73fa980c",
+        "download_url": "https://rhythmverse.co/download_file/luna2/8e89caf697ce4c00b2c8712f73fa980c/BreakingtheHabitOriginal_rb3con",
+        "duration_seconds": 200.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Breaking the Habit (Original Mike 2002 Demo)/album.png",
+          "name": "album.png",
+          "sha256": "b6468f1c39e2ad5c6221dd2e0d29fb44b8416fa976ed93b02f2f37f9281122e1"
+        },
+        {
+          "archive_name": "Linkin Park - Breaking the Habit (Original Mike 2002 Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "1e9ab890b006f1bba7591d66af09c84af605c4da0648f908556a401981d66f8b"
+        },
+        {
+          "archive_name": "Linkin Park - Breaking the Habit (Original Mike 2002 Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "8da9f7e9473c05e6f13146eb1b7740539e67613ad57728ae8cd732a1529a1838"
+        },
+        {
+          "archive_name": "Linkin Park - Breaking the Habit (Original Mike 2002 Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "917d9e1058e1675021602d512b7a8415c3fa434db3142bf7ff70bea4610fbacc"
+        },
+        {
+          "archive_name": "Linkin Park - Breaking the Habit (Original Mike 2002 Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a704643dbb2ead4a9e161fe0a76b3a33cac95270318aea092d442018ced01d6f"
+        },
+        {
+          "archive_name": "Linkin Park - Breaking the Habit (Original Mike 2002 Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "506c5443d6e7a6c062dc9407591ab8c8e96ff74fad32a06c459c61c688930187"
+        },
+        {
+          "archive_name": "Linkin Park - Breaking the Habit (Original Mike 2002 Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "66f547fc9ed9f9481f71afedb50a3162d90de09e992bdb49f8df53d7f9776cd7"
+        },
+        {
+          "archive_name": "Linkin Park - Breaking the Habit (Original Mike 2002 Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ba042077fe01ebf9f064369872342cae420a7d5e1fdc51e949c25e8bc7889d26"
+        },
+        {
+          "archive_name": "Linkin Park - Breaking the Habit (Original Mike 2002 Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "526b97a59ac164e4148a3fa3e43ebfa0305260b7b431c6022eab6875d61da4af"
+        }
+      ],
+      "archive_sha256": "e1a6eb03dc42293d7333f40de066c89a675627fee18318e6fb07ab15cb9b26b5",
+      "archive_bytes": 21327872,
+      "prepared_bytes": 17020958,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "breakingthehabitoriginalmike2002demo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Dedicated (1999) - LPU Rarities",
+      "file_id": "2ecf3c3184f94786842e1637d39378e4",
+      "source_url": "https://rhythmverse.co/songfile/2ecf3c3184f94786842e1637d39378e4",
+      "download_url": "https://rhythmverse.co/download_file/marksempe/2ecf3c3184f94786842e1637d39378e4/LPDedicated_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Dedicated (1999) - LPU Rarities [2ecf3c31]",
+      "charter": "MarkSempe",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1045,
+          "kick_note_on_count": 273,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 191.383,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "2ecf3c3184f94786842e1637d39378e4",
+        "artist": "Linkin Park",
+        "title": "Dedicated (1999) - LPU Rarities",
+        "album": "Hybrid Theory (20th Anniversary Edition)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/2ecf3c3184f94786842e1637d39378e4",
+        "download_url": "https://rhythmverse.co/download_file/marksempe/2ecf3c3184f94786842e1637d39378e4/LPDedicated_rb3con",
+        "duration_seconds": 199.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "MarkSempe",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Dedicated (1999) - LPU Rarities/album.png",
+          "name": "album.png",
+          "sha256": "6c2c6ca8b30c8487734d5662669f7fb2f765c5f6b3a43d1409faa8791b8fe353"
+        },
+        {
+          "archive_name": "Linkin Park - Dedicated (1999) - LPU Rarities/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "fed7e33042e2a69127a9424af3529431f1875e7e7bb4a7ad580a17cb12bc28ca"
+        },
+        {
+          "archive_name": "Linkin Park - Dedicated (1999) - LPU Rarities/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "61d809ab5b265ae5257793dcdc6615b601de86b940552eb3ab2df8484098e655"
+        },
+        {
+          "archive_name": "Linkin Park - Dedicated (1999) - LPU Rarities/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "6e58047495151ac25e55276e2502ac1aa0e4d6805c94248d11e969c3d2a7dc7f"
+        },
+        {
+          "archive_name": "Linkin Park - Dedicated (1999) - LPU Rarities/notes.mid",
+          "name": "notes.mid",
+          "sha256": "52c5cb6400b00a8b7ef39a14cdea23b4aa636c4c1a4a145f503938af383904ca"
+        },
+        {
+          "archive_name": "Linkin Park - Dedicated (1999) - LPU Rarities/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "087c2b11ddac0f4c2702004d6c8de1443ac36d07fcbe2f0be8bdcb5b055d7ff3"
+        },
+        {
+          "archive_name": "Linkin Park - Dedicated (1999) - LPU Rarities/song.ini",
+          "name": "song.ini",
+          "sha256": "d0a80e18a1d5282046a03f85ceae5343303eceea579247e9d461fcc184d9c5fb"
+        },
+        {
+          "archive_name": "Linkin Park - Dedicated (1999) - LPU Rarities/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b0e445d85acf7fdf8d17901eb44d6277851269f4b94a622ef2cd4c4a0a317dde"
+        },
+        {
+          "archive_name": "Linkin Park - Dedicated (1999) - LPU Rarities/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "4749f285e7df200db2d2f91b9a848e426281ee46fdbfb6db7202a38050da8504"
+        }
+      ],
+      "archive_sha256": "d09f459d626b051fe26f78c7a832c6eca5b2cfe71f26a19ed7c0559969f790ff",
+      "archive_bytes": 23093248,
+      "prepared_bytes": 18834038,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "dedicated1999lpurarities"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Dialate (Xero Demo)",
+      "file_id": "3877541d2bd04136b67fd45dccb1c64c",
+      "source_url": "https://rhythmverse.co/songfile/3877541d2bd04136b67fd45dccb1c64c",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/3877541d2bd04136b67fd45dccb1c64c/Linkin%20Park%20-%20Dialate%20(Xero%20Demo)%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Dialate (Xero Demo) [3877541d]",
+      "charter": "mjey",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1024,
+          "kick_note_on_count": 266,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 183.671,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": false,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3877541d2bd04136b67fd45dccb1c64c",
+        "artist": "Linkin Park",
+        "title": "Dialate (Xero Demo)",
+        "album": "Hybrid Theory (20th Anniversary Edition)",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/3877541d2bd04136b67fd45dccb1c64c",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/3877541d2bd04136b67fd45dccb1c64c/Linkin Park - Dialate (Xero Demo) (mjey2010).zip",
+        "duration_seconds": 186.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Dialate (Xero Demo) (mjey2010)/album.png",
+          "name": "album.png",
+          "sha256": "23fb6ffe3af977971d2727bec43cb9db4ba8e453a49dc1b6539831dfa0543941"
+        },
+        {
+          "archive_name": "Linkin Park - Dialate (Xero Demo) (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "f7fd89d784062f247e3bf47d945e19177aa173a42d7e8bd448547b5146be3280"
+        },
+        {
+          "archive_name": "Linkin Park - Dialate (Xero Demo) (mjey2010)/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "4d72f4ce4b2248f9d7b7a0254b9b13bc57d51ad0ac302da2335c1425c379f0da"
+        },
+        {
+          "archive_name": "Linkin Park - Dialate (Xero Demo) (mjey2010)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "adb4d7a8c412a0264aac17707a81dc2cd828f51e241711bffd63a592a80671f8"
+        },
+        {
+          "archive_name": "Linkin Park - Dialate (Xero Demo) (mjey2010)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "df33bbfa72854445b2ab841041bc279eddf0eb1d023a0bf0c2e8e27cb33a1a9c"
+        },
+        {
+          "archive_name": "Linkin Park - Dialate (Xero Demo) (mjey2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e8bbdbc2ce12e8274630174cdaa3e5f14280d595c0aafbd36470bdcf70239384"
+        },
+        {
+          "archive_name": "Linkin Park - Dialate (Xero Demo) (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "f101817f4f01472f639f0c3e960067257528221a65816e60fb317aca9262af09"
+        },
+        {
+          "archive_name": "Linkin Park - Dialate (Xero Demo) (mjey2010)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "ac7a3d5f3f5439b0e275e7733470b2d3824fad02e5f23f2828606891daf64107"
+        }
+      ],
+      "archive_sha256": "1c4fae68978f053555bccb998f75b7953da1dc308b26d51d1c9ab1e66536b70e",
+      "archive_bytes": 13117387,
+      "prepared_bytes": 13666999,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "dialatexerodemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Divided (2005 Demo)",
+      "file_id": "2b4d2bedef41430d926fb35f7f1fc51c",
+      "source_url": "https://rhythmverse.co/songfile/2b4d2bedef41430d926fb35f7f1fc51c",
+      "download_url": "https://rhythmverse.co/download_file/luna2/2b4d2bedef41430d926fb35f7f1fc51c/Divided_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Divided (2005 Demo) [2b4d2bed]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1574,
+          "kick_note_on_count": 352,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 203.52,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "2b4d2bedef41430d926fb35f7f1fc51c",
+        "artist": "Linkin Park",
+        "title": "Divided (2005 Demo)",
+        "album": "LP Underground X",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/2b4d2bedef41430d926fb35f7f1fc51c",
+        "download_url": "https://rhythmverse.co/download_file/luna2/2b4d2bedef41430d926fb35f7f1fc51c/Divided_rb3con",
+        "duration_seconds": 224.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Divided (2005 Demo)/album.png",
+          "name": "album.png",
+          "sha256": "887013764e1cab4335c970b1219fde62cfe1036bc6a65803e9d3ad6df9209530"
+        },
+        {
+          "archive_name": "Linkin Park - Divided (2005 Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "16b19dc1844ef57b7c947d0fab21ec75210f17493ccfaf438d221665af4afa24"
+        },
+        {
+          "archive_name": "Linkin Park - Divided (2005 Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "66056c836e03045ed074c0ce31b0ae338c247b5509fc95bdf4eb142056579a1a"
+        },
+        {
+          "archive_name": "Linkin Park - Divided (2005 Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "e04c0273b18496ae20b885d4a42a589696cae890437014c21f7d88c25e534ce1"
+        },
+        {
+          "archive_name": "Linkin Park - Divided (2005 Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1a5a8f8b9914e5b1d32f0f7e35ccb3ddf605c3686d1da367afea7aaaaee66259"
+        },
+        {
+          "archive_name": "Linkin Park - Divided (2005 Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "d888cd8f70d5a5178dc721103a609f1ec23318a1d54a54b5940a0b1ff2911dab"
+        },
+        {
+          "archive_name": "Linkin Park - Divided (2005 Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "3042e9739dcbde7e6bcd7c1b6fd6cf4ee464b65ef137fdb0e4e62ec1ddca0cda"
+        },
+        {
+          "archive_name": "Linkin Park - Divided (2005 Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f23bea4d238555310b0ff57af81992dc1feccb20b34aaad3e34a2f057100508d"
+        }
+      ],
+      "archive_sha256": "e49c24fb8a4eaf09395a3d7309fef5ad259594ceae4ad86b8e3a61477bc73665",
+      "archive_bytes": 11829248,
+      "prepared_bytes": 10082719,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "divided2005demo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Homecoming (Minutes To Midnight Demo)",
+      "file_id": "5b7444cb24854bce82565de28f599913",
+      "source_url": "https://rhythmverse.co/songfile/5b7444cb24854bce82565de28f599913",
+      "download_url": "https://rhythmverse.co/download_file/marksempe/5b7444cb24854bce82565de28f599913/HomecomingLP_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Homecoming (Minutes To Midnight Demo) [5b7444cb]",
+      "charter": "MarkSempe",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1281,
+          "kick_note_on_count": 288,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 175.448,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b7444cb24854bce82565de28f599913",
+        "artist": "Linkin Park",
+        "title": "Homecoming (Minutes To Midnight Demo)",
+        "album": "LP Underground 12",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b7444cb24854bce82565de28f599913",
+        "download_url": "https://rhythmverse.co/download_file/marksempe/5b7444cb24854bce82565de28f599913/HomecomingLP_rb3con",
+        "duration_seconds": 194.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "MarkSempe",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Homecoming (Minutes To Midnight Demo)/album.png",
+          "name": "album.png",
+          "sha256": "018384a0003097e10a070b53251ae030e55ca7944cf5683efc7693a6bcb1ff48"
+        },
+        {
+          "archive_name": "Linkin Park - Homecoming (Minutes To Midnight Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "cdd86ddea61205327d39e857b5b5677551f3d869968c7ef64d9e6e72cca11792"
+        },
+        {
+          "archive_name": "Linkin Park - Homecoming (Minutes To Midnight Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "2c42f8925c1af17e0021a1c783e9cae4cb5e38c4980a3f5bc2b9a3bcbfd25059"
+        },
+        {
+          "archive_name": "Linkin Park - Homecoming (Minutes To Midnight Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "2d0f78dbab26500534885c220cf9a430c683f2b7de96ae6cd7d3681790131079"
+        },
+        {
+          "archive_name": "Linkin Park - Homecoming (Minutes To Midnight Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ad19a07982bd488ad47ad9123b72cad0a539dcc28a7c57a3b0cd895ca06b1f08"
+        },
+        {
+          "archive_name": "Linkin Park - Homecoming (Minutes To Midnight Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "34817b34fadc676228255f1cc7a09f37f86035cc957f1f2c0eeef613fe667cbf"
+        },
+        {
+          "archive_name": "Linkin Park - Homecoming (Minutes To Midnight Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "1b8707d8273534d9d7fec00f8d02f48b1ec992ffa345b75b9dce7ca7b96fd0ec"
+        },
+        {
+          "archive_name": "Linkin Park - Homecoming (Minutes To Midnight Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1e084bd0906c2e5e164ace4119737ff7400de2eb3e56c7bc6d680c854d3b77ed"
+        }
+      ],
+      "archive_sha256": "b5b746ad9a1b411ce92cd7981bbf8e55bcd8b342f04d1450a4c7cc78afbeed79",
+      "archive_bytes": 12070912,
+      "prepared_bytes": 12031868,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "homecomingminutestomidnightdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Husky (Hit The Floor Demo)",
+      "file_id": "c6bf8ef73e82488784ec26c887cbdda2",
+      "source_url": "https://rhythmverse.co/songfile/c6bf8ef73e82488784ec26c887cbdda2",
+      "download_url": "https://rhythmverse.co/download_file/luna2/c6bf8ef73e82488784ec26c887cbdda2/Husky_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Husky (Hit The Floor Demo) [c6bf8ef7]",
+      "charter": "The Oreo, Zanny77",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 756,
+          "kick_note_on_count": 234,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 176.525,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c6bf8ef73e82488784ec26c887cbdda2",
+        "artist": "Linkin Park",
+        "title": "Husky (Hit The Floor Demo)",
+        "album": "Meteora (20th Anniversary Edition)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/c6bf8ef73e82488784ec26c887cbdda2",
+        "download_url": "https://rhythmverse.co/download_file/luna2/c6bf8ef73e82488784ec26c887cbdda2/Husky_rb3con",
+        "duration_seconds": 197.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Husky (Hit The Floor Demo)/album.png",
+          "name": "album.png",
+          "sha256": "d760856a5abb3060fae3ba407a7f1e6fd3062b3828d7988982290794f30553ad"
+        },
+        {
+          "archive_name": "Linkin Park - Husky (Hit The Floor Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "60db7e49f7ba82d8976f617d52bf5c9f8e66759cbcb6bc6e2b4cb175ee18f85a"
+        },
+        {
+          "archive_name": "Linkin Park - Husky (Hit The Floor Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "da697392dbcaa0a9ebdf8cd93679b8eaefa3dda87573bc9e550815ff5de56113"
+        },
+        {
+          "archive_name": "Linkin Park - Husky (Hit The Floor Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f267e0274f4ea2130014803f693c667746f341b848dbdabf34f0f1cdd926ac65"
+        }
+      ],
+      "archive_sha256": "9ade7dbc0d027ef3e662a18c311c0306202fdfb6913f3ae11bf5eefcc1c9a9c3",
+      "archive_bytes": 4038656,
+      "prepared_bytes": 3287381,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "huskyhitthefloordemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Oh No (Points of Authority Demo)",
+      "file_id": "4c26ff18894c40f6b5e196c626349126",
+      "source_url": "https://rhythmverse.co/songfile/4c26ff18894c40f6b5e196c626349126",
+      "download_url": "https://rhythmverse.co/download_file/luna2/4c26ff18894c40f6b5e196c626349126/OhNo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Oh No (Points of Authority Demo) [4c26ff18]",
+      "charter": "Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 870,
+          "kick_note_on_count": 175,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 125.708,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "4c26ff18894c40f6b5e196c626349126",
+        "artist": "Linkin Park",
+        "title": "Oh No (Points of Authority Demo)",
+        "album": "LP Underground X",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/4c26ff18894c40f6b5e196c626349126",
+        "download_url": "https://rhythmverse.co/download_file/luna2/4c26ff18894c40f6b5e196c626349126/OhNo_rb3con",
+        "duration_seconds": 131.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Oh No (Points of Authority Demo)/album.png",
+          "name": "album.png",
+          "sha256": "514c5951b670400e7508e31a3d108fd981978a4b155af3af9046bc81ceecf3b2"
+        },
+        {
+          "archive_name": "Linkin Park - Oh No (Points of Authority Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "a98f48cda6d48f282caa068f11d6bdce64df304907fe8eff46a430eea115f12d"
+        },
+        {
+          "archive_name": "Linkin Park - Oh No (Points of Authority Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2b9b04f7ee0dc93ae74529667d2b68a82e2d53995ffd80514cc32a194aa3896a"
+        },
+        {
+          "archive_name": "Linkin Park - Oh No (Points of Authority Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "d751b97355ee32677f9983ba8a03d55d8a28c00c7c77af0f23d6eda21c8effd4"
+        },
+        {
+          "archive_name": "Linkin Park - Oh No (Points of Authority Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1337941be88d847415cc6a33e5522b7d1775a12cf03ac8f54c57c33f1e5fc226"
+        }
+      ],
+      "archive_sha256": "bb8dfb5dead7d5e2cb78eeb2a1eae040b5b759c9e690d07b520554b50340505a",
+      "archive_bytes": 5554176,
+      "prepared_bytes": 4757422,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "ohnopointsofauthoritydemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Pepper (Meteora Demo)",
+      "file_id": "ece11c67542d4357877cf582aecca126",
+      "source_url": "https://rhythmverse.co/songfile/ece11c67542d4357877cf582aecca126",
+      "download_url": "https://rhythmverse.co/download_file/luna2/ece11c67542d4357877cf582aecca126/Pepper_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Pepper (Meteora Demo) [ece11c67]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 844,
+          "kick_note_on_count": 182,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 170.679,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ece11c67542d4357877cf582aecca126",
+        "artist": "Linkin Park",
+        "title": "Pepper (Meteora Demo)",
+        "album": "LP Underground 12",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/ece11c67542d4357877cf582aecca126",
+        "download_url": "https://rhythmverse.co/download_file/luna2/ece11c67542d4357877cf582aecca126/Pepper_rb3con",
+        "duration_seconds": 176.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Pepper (Meteora Demo)/album.png",
+          "name": "album.png",
+          "sha256": "b3d6f65e7c2d73f0293851bf5fa13d05f2a8f37e79c589d47edf1d88c2390a9b"
+        },
+        {
+          "archive_name": "Linkin Park - Pepper (Meteora Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "de676041e6006d0d8e52216dc2eb4b2d787fd6093cd486ee7c6576b8f9e3fdb5"
+        },
+        {
+          "archive_name": "Linkin Park - Pepper (Meteora Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "cc73deb60b5d2995fb76ed6d84d637077c316e0d6f82fede723f802fc853d97c"
+        },
+        {
+          "archive_name": "Linkin Park - Pepper (Meteora Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "050f49fdbd269b6b6be3ce5ffa129b4c61c0e07b32c2eec7def5720b2bc1d7ef"
+        },
+        {
+          "archive_name": "Linkin Park - Pepper (Meteora Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "313c1e2de91a220ca5e1a0cabd4b7b9a933ab04e65cf1d3fe4698146061b80b7"
+        },
+        {
+          "archive_name": "Linkin Park - Pepper (Meteora Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "b0bc3336de12f55765bfa7c9973737de00ac71a54534d527fe3a0885c9903a7e"
+        },
+        {
+          "archive_name": "Linkin Park - Pepper (Meteora Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "a31e1f76a4dc4b718e2e4eafd7b2c84562549f11c70bd4e0192d107cc002ce58"
+        },
+        {
+          "archive_name": "Linkin Park - Pepper (Meteora Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "446b7f1c8a3249cc56d1ec43c470d9678e5cfcaf565e55f02dd8bbe21a4e07e1"
+        }
+      ],
+      "archive_sha256": "674a7711745e33e2d47f9355fa768d964cc68b64a9753e9a301ced369c6231f1",
+      "archive_bytes": 10338304,
+      "prepared_bytes": 9114010,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "peppermeteorademo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Program (Meteora Demo)",
+      "file_id": "c4e7282be9d2425cb8bc0c0115611677",
+      "source_url": "https://rhythmverse.co/songfile/c4e7282be9d2425cb8bc0c0115611677",
+      "download_url": "https://rhythmverse.co/download_file/marksempe/c4e7282be9d2425cb8bc0c0115611677/LPprogram_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Program (Meteora Demo) [c4e7282b]",
+      "charter": "Marcos",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1215,
+          "kick_note_on_count": 243,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 210.31,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c4e7282be9d2425cb8bc0c0115611677",
+        "artist": "Linkin Park",
+        "title": "Program (Meteora Demo)",
+        "album": "LP Underground Eleven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/c4e7282be9d2425cb8bc0c0115611677",
+        "download_url": "https://rhythmverse.co/download_file/marksempe/c4e7282be9d2425cb8bc0c0115611677/LPprogram_rb3con",
+        "duration_seconds": 220.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "MarkSempe",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Program (Meteora Demo)/album.png",
+          "name": "album.png",
+          "sha256": "74cff1d0f67f6fb3899ab68a4daa8b0c588e0237e75d3b0c42398dff16208ecd"
+        },
+        {
+          "archive_name": "Linkin Park - Program (Meteora Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0e12a5e0202745602d5b3def03b0bd6e5d7fb06171c7936676036eadb4fcff22"
+        },
+        {
+          "archive_name": "Linkin Park - Program (Meteora Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "77acd804e538aa4fff15af200d42a24a988b2ac5636c0b47456198632bd2ab74"
+        },
+        {
+          "archive_name": "Linkin Park - Program (Meteora Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "bbd0364c8708333ecf02915aebd24d8c1189e5922545febec60c2969105c3dd4"
+        }
+      ],
+      "archive_sha256": "047e0b2797340ce350eb366b243f768f0a152c078f7017e1147a2ae2559c7b16",
+      "archive_bytes": 5206016,
+      "prepared_bytes": 4074131,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "programmeteorademo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Slip (1998 Unreleased Hybrid Theory Demo)",
+      "file_id": "f9837b6ff7684369aaec5d5882e01643",
+      "source_url": "https://rhythmverse.co/songfile/f9837b6ff7684369aaec5d5882e01643",
+      "download_url": "https://rhythmverse.co/download_file/luna2/f9837b6ff7684369aaec5d5882e01643/Slip_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Slip (1998 Unreleased Hybrid Theory Demo) [f9837b6f]",
+      "charter": "Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1412,
+          "kick_note_on_count": 356,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 197.88,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f9837b6ff7684369aaec5d5882e01643",
+        "artist": "Linkin Park",
+        "title": "Slip (1998 Unreleased Hybrid Theory Demo)",
+        "album": "LP Underground Eleven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/f9837b6ff7684369aaec5d5882e01643",
+        "download_url": "https://rhythmverse.co/download_file/luna2/f9837b6ff7684369aaec5d5882e01643/Slip_rb3con",
+        "duration_seconds": 214.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Slip (1998 Unreleased Hybrid Theory Demo)/album.png",
+          "name": "album.png",
+          "sha256": "bb7a00fb89c48ff9fd64a2e35e97ad2f31bcf8ffc67ea9d087828f323b3686f8"
+        },
+        {
+          "archive_name": "Linkin Park - Slip (1998 Unreleased Hybrid Theory Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "ab955cbba356e200c8d5f2304f48adba7d9f49d60c2edd715326382a3002b804"
+        },
+        {
+          "archive_name": "Linkin Park - Slip (1998 Unreleased Hybrid Theory Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "734b2ddd2ad3e8327496d01d2ba356f4856d968d561875eded5d78aa6e0b9cd2"
+        },
+        {
+          "archive_name": "Linkin Park - Slip (1998 Unreleased Hybrid Theory Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9d9a169b59e124b4840e9196525c4891e25f20359e855eb5b821b215fbc1b99b"
+        },
+        {
+          "archive_name": "Linkin Park - Slip (1998 Unreleased Hybrid Theory Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "bd7abfbfae322c5a1b871fe5ecffabcf4e53ece823657b3236ff4b121a396b8e"
+        },
+        {
+          "archive_name": "Linkin Park - Slip (1998 Unreleased Hybrid Theory Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "45c6b9e8605a1a84610959e8c1790056f62fd3b77ae6a89f411f88af1e96f92a"
+        },
+        {
+          "archive_name": "Linkin Park - Slip (1998 Unreleased Hybrid Theory Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "9ba6336d0c2963150ca280e7c43905faeb38391097ff675c748da5bdb22c0df2"
+        },
+        {
+          "archive_name": "Linkin Park - Slip (1998 Unreleased Hybrid Theory Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "038800b5955c46e39404fbd9233562a5445ca8819644efbc7535a7846c86d49c"
+        }
+      ],
+      "archive_sha256": "4057f197519932e7c483a709336b6f8f519bd0f595d6b77a5e6067c45cb466e2",
+      "archive_bytes": 20467712,
+      "prepared_bytes": 17845343,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "slip1998unreleasedhybridtheorydemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Soundtrack (Meteora Demo)",
+      "file_id": "74d66a9e119542e8abfb4d5b6ac0a92e",
+      "source_url": "https://rhythmverse.co/songfile/74d66a9e119542e8abfb4d5b6ac0a92e",
+      "download_url": "https://rhythmverse.co/download_file/luna2/74d66a9e119542e8abfb4d5b6ac0a92e/Soundtrack_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Soundtrack (Meteora Demo) [74d66a9e]",
+      "charter": "GeeForce11, Geryon, Luna",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1437,
+          "kick_note_on_count": 319,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 175.881,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "74d66a9e119542e8abfb4d5b6ac0a92e",
+        "artist": "Linkin Park",
+        "title": "Soundtrack (Meteora Demo)",
+        "album": "LP Underground Eleven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/74d66a9e119542e8abfb4d5b6ac0a92e",
+        "download_url": "https://rhythmverse.co/download_file/luna2/74d66a9e119542e8abfb4d5b6ac0a92e/Soundtrack_rb3con",
+        "duration_seconds": 196.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Soundtrack (Meteora Demo)/album.png",
+          "name": "album.png",
+          "sha256": "f3896df519da8485c44fe2272d05a399f9bfe6bcba3ac26b96dcbcf657aab6ac"
+        },
+        {
+          "archive_name": "Linkin Park - Soundtrack (Meteora Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "2c776b09f923edbc5d8d391548f51edfe525b9b3a7a6ca86a71c262ad8a0d18d"
+        },
+        {
+          "archive_name": "Linkin Park - Soundtrack (Meteora Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d98e3eac0c2c9b5af0d7b294002db494430adf1d60487d595f460d1b12120950"
+        },
+        {
+          "archive_name": "Linkin Park - Soundtrack (Meteora Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "3073a3e62e5df6c8836d1af6ff0616af85184c0adc5734ba50839956eb70c9e0"
+        },
+        {
+          "archive_name": "Linkin Park - Soundtrack (Meteora Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "4040ffce7033b56719d9de332c7f18df814747bb806fda43abc80f4568770985"
+        },
+        {
+          "archive_name": "Linkin Park - Soundtrack (Meteora Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "5dde90484b44a6265596c239c4926ce64552840dcc83b876eec05d66b1b4d408"
+        },
+        {
+          "archive_name": "Linkin Park - Soundtrack (Meteora Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "7ec69ff933b46fec8a2471a9c7e4ef9cfe024671d9a62b9a2aae5f9e7762c035"
+        },
+        {
+          "archive_name": "Linkin Park - Soundtrack (Meteora Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b134c65a8b4a7c03750f017a49fa5912146f02c5f6b67e94d460a3727de03310"
+        }
+      ],
+      "archive_sha256": "4929ee4e5e7a7f22fb3d63d00619cfd5ee4a9ddac4cd6ad3cce0f486e33c4621",
+      "archive_bytes": 15794176,
+      "prepared_bytes": 13560261,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "soundtrackmeteorademo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "YO (MTM Demo) (Rhythm Version)",
+      "file_id": "c01e7cd1a48749988c45eb525d122acf",
+      "source_url": "https://rhythmverse.co/songfile/c01e7cd1a48749988c45eb525d122acf",
+      "download_url": "https://rhythmverse.co/download_file/marksempe/c01e7cd1a48749988c45eb525d122acf/LPyo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - YO (MTM Demo) (Rhythm Version) [c01e7cd1]",
+      "charter": "MarkSempe",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1068,
+          "kick_note_on_count": 137,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 164.143,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c01e7cd1a48749988c45eb525d122acf",
+        "artist": "Linkin Park",
+        "title": "YO (MTM Demo) (Rhythm Version)",
+        "album": "LP Underground Eleven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/c01e7cd1a48749988c45eb525d122acf",
+        "download_url": "https://rhythmverse.co/download_file/marksempe/c01e7cd1a48749988c45eb525d122acf/LPyo_rb3con",
+        "duration_seconds": 171.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "MarkSempe",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - YO (MTM Demo) (Rhythm Version)/album.png",
+          "name": "album.png",
+          "sha256": "7e1e8f1721b6f25caa4ed7149e78dc33b76e4aa161da10509df4a8e1278936b8"
+        },
+        {
+          "archive_name": "Linkin Park - YO (MTM Demo) (Rhythm Version)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "ea6279fe39fd8143fe9f3d9b07d412a6aa5c383821e211675826ab5f6337afcb"
+        },
+        {
+          "archive_name": "Linkin Park - YO (MTM Demo) (Rhythm Version)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "ce868e2df13ca74b687b49530259a13394a28c39f0f607193c6f92f710427d44"
+        },
+        {
+          "archive_name": "Linkin Park - YO (MTM Demo) (Rhythm Version)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "9fccf70f39dfefcdc2fafbb9fb35550340b92b3f0d5218d54692cf02db25eaab"
+        },
+        {
+          "archive_name": "Linkin Park - YO (MTM Demo) (Rhythm Version)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0bf6ae3d3bb5fe49fbd2db4cd51365fe36e3ae6b19c4ff4605f4cc3fd74b6fe4"
+        },
+        {
+          "archive_name": "Linkin Park - YO (MTM Demo) (Rhythm Version)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "0fa8dd66044dc3f9a0968b5bd31b98f24b18eff13d367baa0fa960ccc7b9c6ad"
+        },
+        {
+          "archive_name": "Linkin Park - YO (MTM Demo) (Rhythm Version)/song.ini",
+          "name": "song.ini",
+          "sha256": "fbe2c4b048706ca2ed1aa4b3394ea845e31d0882d20c4c46fdf48ff9da89d7c0"
+        },
+        {
+          "archive_name": "Linkin Park - YO (MTM Demo) (Rhythm Version)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "18b900d65d9905eb26b8ad0cf50a1884412de62228b73501e9c94253213df4e6"
+        }
+      ],
+      "archive_sha256": "c224f364db85cd0c622ce81346efd49e4f80020dccd1ff714ad0e939a109b3df",
+      "archive_bytes": 11874304,
+      "prepared_bytes": 9562243,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "yomtmdemo"
+    },
+    {
+      "artist": "X-Ecutioners",
+      "title": "It's Goin' Down (feat. Linkin Park) (Demo)",
+      "file_id": "bc32605c6e464c6a8a3db11e043b0149",
+      "source_url": "https://rhythmverse.co/songfile/bc32605c6e464c6a8a3db11e043b0149",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/bc32605c6e464c6a8a3db11e043b0149/X-Ecutioners%20-%20Its%20Goin%20Down%20(feat.%20Linkin%20Park)%20(Demo)%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "X-Ecutioners - It's Goin' Down (feat. Linkin Park) (Demo) [bc32605c]",
+      "charter": "mjey",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1021,
+          "kick_note_on_count": 256,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 216.006,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": false,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "bc32605c6e464c6a8a3db11e043b0149",
+        "artist": "X-Ecutioners",
+        "title": "It's Goin' Down (feat. Linkin Park) (Demo)",
+        "album": "Built From Scratch (Promo CD)",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/bc32605c6e464c6a8a3db11e043b0149",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/bc32605c6e464c6a8a3db11e043b0149/X-Ecutioners - Its Goin Down (feat. Linkin Park) (Demo) (mjey2010).zip",
+        "duration_seconds": 219.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "X-Ecutioners - It's Goin' Down (feat. Linkin Park) (Demo) (mjey2010)/album.png",
+          "name": "album.png",
+          "sha256": "af9aa6a2d5d048f3eccb4ba7defd01c537156c79a23394294f947fbfe5fb1047"
+        },
+        {
+          "archive_name": "X-Ecutioners - It's Goin' Down (feat. Linkin Park) (Demo) (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "cb6ba5dd229524732f1a75a998fa68503735b8f443e11c89fb8bd6ef640130a1"
+        },
+        {
+          "archive_name": "X-Ecutioners - It's Goin' Down (feat. Linkin Park) (Demo) (mjey2010)/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "b590fafc46d5979abf74e6b476448804d7240cff8c062de51eb586483e70f465"
+        },
+        {
+          "archive_name": "X-Ecutioners - It's Goin' Down (feat. Linkin Park) (Demo) (mjey2010)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "c9b0abc3fbdbd90c736096469ff31e5e826b3e822f00ba3fb5bbaedd6d33df97"
+        },
+        {
+          "archive_name": "X-Ecutioners - It's Goin' Down (feat. Linkin Park) (Demo) (mjey2010)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "1db6a6cdf2406e35e2355efb9b999392fc55749e4c42145b38412245884a3f33"
+        },
+        {
+          "archive_name": "X-Ecutioners - It's Goin' Down (feat. Linkin Park) (Demo) (mjey2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "de5dbd8bd6254e42323c9b565006644a4af11be0d93910eb20bce62790a586c4"
+        },
+        {
+          "archive_name": "X-Ecutioners - It's Goin' Down (feat. Linkin Park) (Demo) (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "e9d8b21b1583ee3672f9af8de992a15e329427101c38f24bc15b792b445056ca"
+        },
+        {
+          "archive_name": "X-Ecutioners - It's Goin' Down (feat. Linkin Park) (Demo) (mjey2010)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "df548c162188ff51143363182c5b14c858cb6204869eea83b5c7872331182d4e"
+        }
+      ],
+      "archive_sha256": "44d5f1c353130cef811761811edb0b8f668c79c29310944a1cd485fd4d7a487d",
+      "archive_bytes": 22385480,
+      "prepared_bytes": 22568319,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "itsgoindowndemo"
+    }
+  ]
+}

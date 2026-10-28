@@ -245,3 +245,22 @@ See [library-themed-verification.md](library-themed-verification.md) for evidenc
 [../song-library/TEMATICOS.md](../song-library/TEMATICOS.md) for selective Windows
 recovery/song lists and BACKLOG.md DCF-LIB-013 for authoritative task status.
 Native Windows execution and Scan Songs/playtest still require user feedback.
+
+## 2026-10-27 — Linkin Park expansion and installed-library additions
+
+The user's duplicate cleanup succeeded; their scan report had duplicate-chart
+relationships and two lyric warnings, not evidence of 300 corrupt downloads.
+The raw log/private paths remain outside Git. Given Up was found in batch 02.
+The band catalog pass prepared 207 additional editions in batches 19–30,
+with 172 Pro Drums and 35 ordinary Drums. All 1527 assets,
+871 audio decodes, 253,421 Expert gems and 12 ZIPs passed checks.
+
+Band-only recovery references the 33 earlier charts without duplicating recipes;
+the local comparator exports only absent songs and holds shared-chart/edition
+uncertainty for review. Prior recipes, Qobuz coverage and Onyx helper bytes are
+preserved. All 155 core tests, 19 optional DSP checks and distribution audits
+passed after integrating existing main diagnostics, alongside
+fresh stdlib recovery/offline resume and real-song additions checks on Linux.
+See [the Windows guide and next prompt](../song-library/LINKIN-PARK.md) and
+[technical evidence](library-linkin-park-verification.md). Root BACKLOG.md owns
+DCF-LIB-014; native Windows/game acceptance and explicit catalog gaps remain open.

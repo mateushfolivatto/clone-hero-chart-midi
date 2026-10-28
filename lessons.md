@@ -275,3 +275,23 @@ finding. This file supplements the backlog; it does not redefine task completion
     the unchanged snapshot and compare all old/new titles, source identities and
     chart/audio hashes; Enemy belongs to only one theme and Heavy Is the Crown
     remains in its already published batch.
+
+## 2026-10-27 — Duplicate scan feedback and Linkin Park expansion
+
+48. **Read the scanner's category before diagnosing corruption.** The uploaded
+    badsongs report listed 301 duplicate-chart relationships and two nonblocking
+    lyric warnings. Most duplicates involved a complement copied inside itself;
+    the user confirmed that moving duplicates out of scanned paths resolved the
+    problem. Compare additions against the actual installed library before export,
+    retain uncertain chart-only collisions for review and keep backups outside
+    scanned roots. Verify renamed copies, changed audio/metadata, standalone export
+    and unchanged input bytes; scan feedback alone does not verify every chart's
+    gameplay or timing. Do not publish the user's raw log or personal paths.
+
+49. **Inspect the container before choosing conversion.** A catalog entry labeled
+    rb3xbox actually downloaded a native RISE ZIP with song.ini, notes and audio;
+    the collector rejected it as non-STFS solely because of that label. Detect
+    STFS signatures from the downloaded bytes and otherwise use the validated
+    ZIP/RAR/7z path. Verify native ZIP without Onyx despite an Xbox label and
+    STFS conversion despite a CH label, preserving original bytes and leaving
+    platform-specific Onyx options/supervision unchanged.

@@ -181,13 +181,15 @@ def acquire_native(
             if urlparse(url).hostname not in {"mega.nz", "mega.co.nz"}:
                 url = quote(url, safe=":/?&=%+;,@!~*'()[]")
             raw = fetch(url, cache / "original", candidate["source_url"])
-            if candidate["game"] == "rb3xbox":
+            # Catalog platform labels can also point at an already converted ZIP.
+            # Select conversion from the downloaded bytes, preserving both inputs.
+            with raw.open("rb") as source:
+                signature = source.read(4)
+            if signature in {b"CON ", b"LIVE", b"PIRS"}:
                 if onyx_executable is None:
                     raise ValueError("Console package needs the pinned Onyx converter")
                 from drumforge.library.onyx_recovery import build
 
-                if raw.read_bytes()[:4] not in {b"CON ", b"LIVE", b"PIRS"}:
-                    raise ValueError("Console source is not a supported STFS song")
                 build(
                     onyx_executable,
                     raw.absolute(),

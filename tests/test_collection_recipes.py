@@ -17,6 +17,7 @@ def test_published_collection_index_and_recipes_are_consistent() -> None:
     assert recover_pilot.digest_file(path) == recover_pilot.COLLECTION_SHA256
     index = json.loads(path.read_text(encoding="utf-8"))
     songs: list[dict[str, Any]] = []
+    themed_counts: Counter[str] = Counter()
     numbers = []
     for batch in index["batches"]:
         manifest = recover_pilot.read_manifest(METADATA / batch["manifest"], batch["sha256"])
@@ -27,11 +28,25 @@ def test_published_collection_index_and_recipes_are_consistent() -> None:
         assert all(s.get("drum_mode", "pro") == batch["drum_mode"] for s in manifest["songs"])
         numbers.append(batch["number"])
         songs.extend(manifest["songs"])
+        if manifest.get("theme"):
+            themed_counts[manifest["theme"]] += len(manifest["songs"])
     assert numbers == sorted(set(numbers))
     assert index["unique_new_charts"] == len(songs)
     assert index["drum_modes"] == dict(Counter(s.get("drum_mode", "pro") for s in songs))
     for name, digest in index["helpers"].items():
         assert recover_pilot.digest_file(METADATA / name) == digest
+    assert index["curated_charts"] == sum(themed_counts.values())
+    assert index["curated_by_theme"] == dict(themed_counts)
+    if "linkin-park" in themed_counts:
+        assert index["linkin_park_expansion"]["charts"] == themed_counts["linkin-park"]
+        assert set(index["addition_helpers"]) == {
+            "additions.py",
+            "complement.py",
+            "local_library.py",
+            "recover_linkin_park.py",
+        }
+        for name, digest in index["addition_helpers"].items():
+            assert recover_pilot.digest_file(METADATA / name) == digest
 
 
 def test_themed_additions_do_not_repeat_previous_songs_or_packages() -> None:
@@ -57,11 +72,13 @@ def test_themed_additions_do_not_repeat_previous_songs_or_packages() -> None:
         return tuple(sorted(chart)), tuple(sorted(audio))
 
     contents = {chart_audio(s) for s in earlier}
+    chart_hashes = {digest for s in earlier for digest in chart_audio(s)[0]}
     for song in additions:
         key = (normalized(song["artist"]), title_key(song["title"]))
         assert key not in keys, key
         assert song["file_id"] not in ids
         assert chart_audio(song) not in contents
+        assert not chart_hashes.intersection(chart_audio(song)[0])
         assert not song.get("qobuz_track_ids")
         assert not song.get("playlist_track_ids")
         if "archive_sha256" in song:
@@ -75,3 +92,18 @@ def test_themed_additions_do_not_repeat_previous_songs_or_packages() -> None:
         keys.add(key)
         ids.add(song["file_id"])
         contents.add(chart_audio(song))
+        chart_hashes.update(chart_audio(song)[0])
+
+
+def test_given_up_stays_once_in_its_existing_batch() -> None:
+    matches: list[tuple[int, dict[str, Any]]] = []
+    for path in METADATA.glob("collection_[0-9]*.json"):
+        manifest = json.loads(path.read_text(encoding="utf-8"))
+        matches.extend(
+            (manifest["batch_number"], song)
+            for song in manifest["songs"]
+            if normalized(song["artist"]) == "linkinpark" and title_key(song["title"]) == "givenup"
+        )
+    assert len(matches) == 1
+    assert matches[0][0] == 2
+    assert matches[0][1]["validation"]["drums"]["pro_drums_evidence"]
