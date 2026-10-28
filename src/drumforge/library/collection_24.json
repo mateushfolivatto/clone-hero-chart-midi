@@ -1,0 +1,2144 @@
+{
+  "schema_version": 1,
+  "batch_number": 24,
+  "collection_folder": "MixDrumRock - Lote 24 - Linkin Park",
+  "archive_name": "MixDrumRock-lote-24.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "linkin-park",
+  "theme_label": "Linkin Park",
+  "edition_group": "demo",
+  "edition_group_label": "Demos",
+  "songs": [
+    {
+      "artist": "Linkin Park",
+      "title": "A6 (Meteora|20 Demo)",
+      "file_id": "f36d570e67dc45b199e205d434612e13",
+      "source_url": "https://rhythmverse.co/songfile/f36d570e67dc45b199e205d434612e13",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/f36d570e67dc45b199e205d434612e13/Linkin%20Park%20-%20A6%20(Meteora20%20Demo)%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - A6 (Meteora_20 Demo) [f36d570e]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1052,
+          "kick_note_on_count": 233,
+          "cymbal_marker_count": 650,
+          "last_expert_onset_seconds": 231.4,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f36d570e67dc45b199e205d434612e13",
+        "artist": "Linkin Park",
+        "title": "A6 (Meteora|20 Demo)",
+        "album": "Meteora (20th Anniversary Edition)",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/f36d570e67dc45b199e205d434612e13",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/f36d570e67dc45b199e205d434612e13/Linkin Park - A6 (Meteora20 Demo) (mjey2010).zip",
+        "duration_seconds": 236.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - A6 (Meteora20 Demo) (mjey2010)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "832ddddf29d72778c6cfb471ba6db198f47884e794064cb5dd936328dd5d463f"
+        },
+        {
+          "archive_name": "Linkin Park - A6 (Meteora20 Demo) (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "3135ce45d6919cf0b17059b0f9c2ee1732cdeffd648bdd5dc3377cbe56686d69"
+        },
+        {
+          "archive_name": "Linkin Park - A6 (Meteora20 Demo) (mjey2010)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "8ad87ce6833e1a4175a777a9fc3f7700f5452276912b7ef9e2d173513ecb8913"
+        },
+        {
+          "archive_name": "Linkin Park - A6 (Meteora20 Demo) (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "ed74db7f6a02314b4c051aaca0cefe6c60b2a70c32e73ef2a44b11e2ea185c37"
+        },
+        {
+          "archive_name": "Linkin Park - A6 (Meteora20 Demo) (mjey2010)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "675c2a0cee8a05f9ca2ad2061240d2fbe8d3a575d82d2400f967ef9a388b052d"
+        }
+      ],
+      "archive_sha256": "495800219384a54ab8b3df4cdbb248e22dc617b702ec02c89b64554953fb5e43",
+      "archive_bytes": 6902822,
+      "prepared_bytes": 7079693,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "a6meteora20demo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Bang Three (What I've Done Original Demo)",
+      "file_id": "6d3b6393ff1a4333ba07b3bd2eba7b61",
+      "source_url": "https://rhythmverse.co/songfile/6d3b6393ff1a4333ba07b3bd2eba7b61",
+      "download_url": "https://rhythmverse.co/download_file/luna2/6d3b6393ff1a4333ba07b3bd2eba7b61/BangThree_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Bang Three (What I've Done Original Demo) [6d3b6393]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 997,
+          "kick_note_on_count": 357,
+          "tom_marker_count": 6,
+          "last_expert_onset_seconds": 209.0,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6d3b6393ff1a4333ba07b3bd2eba7b61",
+        "artist": "Linkin Park",
+        "title": "Bang Three (What I've Done Original Demo)",
+        "album": "LP Underground Eleven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6d3b6393ff1a4333ba07b3bd2eba7b61",
+        "download_url": "https://rhythmverse.co/download_file/luna2/6d3b6393ff1a4333ba07b3bd2eba7b61/BangThree_rb3con",
+        "duration_seconds": 214.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Bang Three (What Ive Done Original Demo)/album.png",
+          "name": "album.png",
+          "sha256": "f3896df519da8485c44fe2272d05a399f9bfe6bcba3ac26b96dcbcf657aab6ac"
+        },
+        {
+          "archive_name": "Linkin Park - Bang Three (What Ive Done Original Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2c2c02478dcfdd8a0f1b2fb494a1f4175d9ebeb9fee4f1de20bf038c0baf45a8"
+        },
+        {
+          "archive_name": "Linkin Park - Bang Three (What Ive Done Original Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "e2e5a3ccff92295338eef5fd0d35019ad9398a0f217c955b89bf0057561e12b3"
+        },
+        {
+          "archive_name": "Linkin Park - Bang Three (What Ive Done Original Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "e66762e1703850bc04e2c6bd70177f43381f8ef4f8caf644ee85a593fb352582"
+        }
+      ],
+      "archive_sha256": "d0a77cd5dbb22a5ecd7fa1ad8e70320d22357bc53b143b1b67ae8ec3a696577e",
+      "archive_bytes": 4870144,
+      "prepared_bytes": 4439793,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "bangthreewhativedoneoriginaldemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Blanka (2008 Demo)",
+      "file_id": "855f129e921c4031b0bc52abb29ba2e9",
+      "source_url": "https://rhythmverse.co/songfile/855f129e921c4031b0bc52abb29ba2e9",
+      "download_url": "https://rhythmverse.co/download_file/luna2/855f129e921c4031b0bc52abb29ba2e9/Blanka_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Blanka (2008 Demo) [855f129e]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 968,
+          "kick_note_on_count": 312,
+          "tom_marker_count": 11,
+          "last_expert_onset_seconds": 154.0,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "855f129e921c4031b0bc52abb29ba2e9",
+        "artist": "Linkin Park",
+        "title": "Blanka (2008 Demo)",
+        "album": "LP Underground XIV",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/855f129e921c4031b0bc52abb29ba2e9",
+        "download_url": "https://rhythmverse.co/download_file/luna2/855f129e921c4031b0bc52abb29ba2e9/Blanka_rb3con",
+        "duration_seconds": 158.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Blanka (2008 Demo)/album.png",
+          "name": "album.png",
+          "sha256": "d8bea0b8e4c37e21bcd529097a39bfd55b9683b0a32963c125b17ce63290029d"
+        },
+        {
+          "archive_name": "Linkin Park - Blanka (2008 Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "d2a6625984183ce0482463b731433072f19e07996eae0ba4317a5ff5f2d162a6"
+        },
+        {
+          "archive_name": "Linkin Park - Blanka (2008 Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "2bb3967f76258e1ef070dff02557e599e07d71601389c5dd94ab907534ad8081"
+        },
+        {
+          "archive_name": "Linkin Park - Blanka (2008 Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b1483eb82c18758a8211ad41f2a65617b4fa33af666720b4b1a9d1de232f1529"
+        },
+        {
+          "archive_name": "Linkin Park - Blanka (2008 Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "a1f39747f147c4698ad32a9c67f5b8b17a4e8858080383600b1e8b5e1820de36"
+        },
+        {
+          "archive_name": "Linkin Park - Blanka (2008 Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "700f747a04046b23f32b6746db837f8f7b8a7be806d60eeddbb3219e163fbd18"
+        },
+        {
+          "archive_name": "Linkin Park - Blanka (2008 Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b4b2fa91dab58d984c769160cf99fbfdaa8426365638cd79dbf2f30281b05101"
+        }
+      ],
+      "archive_sha256": "f8286679223fa015cc0e85497f02941aa85f2b9e171e8d23a1ba23113b1839c8",
+      "archive_bytes": 8204288,
+      "prepared_bytes": 8100428,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "blanka2008demo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Bleed It Out Demo",
+      "file_id": "6e9f015053c04146b6b8507fb5169a14",
+      "source_url": "https://rhythmverse.co/songfile/6e9f015053c04146b6b8507fb5169a14",
+      "download_url": "https://rhythmverse.co/download_file/luna2/6e9f015053c04146b6b8507fb5169a14/BleedItOutDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Bleed It Out Demo [6e9f0150]",
+      "charter": "The Oreo, Zanny77",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 922,
+          "kick_note_on_count": 96,
+          "tom_marker_count": 248,
+          "last_expert_onset_seconds": 164.513,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "6e9f015053c04146b6b8507fb5169a14",
+        "artist": "Linkin Park",
+        "title": "Bleed It Out Demo",
+        "album": "LP Underground Sixteen",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/6e9f015053c04146b6b8507fb5169a14",
+        "download_url": "https://rhythmverse.co/download_file/luna2/6e9f015053c04146b6b8507fb5169a14/BleedItOutDemo_rb3con",
+        "duration_seconds": 171.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Bleed It Out Demo/album.png",
+          "name": "album.png",
+          "sha256": "b687e3a0bfee8d23d2e75610378db2c45bdc43c551d6e4faad6b31728eef3826"
+        },
+        {
+          "archive_name": "Linkin Park - Bleed It Out Demo/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b8e38cf41b96b45e1e97e107c482278d672f4c7bd4b2fb7e210df3a1a41ff89d"
+        },
+        {
+          "archive_name": "Linkin Park - Bleed It Out Demo/song.ini",
+          "name": "song.ini",
+          "sha256": "7c2ed09187378cadf69b4e25032dc6e8e07763ec0482480e20e179dc2a9ff191"
+        },
+        {
+          "archive_name": "Linkin Park - Bleed It Out Demo/song.ogg",
+          "name": "song.ogg",
+          "sha256": "866e3d89dfe7619c9d60ba839038f3beea9ecf1eda1e06c5b7c428030342f970"
+        }
+      ],
+      "archive_sha256": "3dbbbc7891f8faadcf0f09698aff837b0e9d9b12c50978d807991ac6c94749bd",
+      "archive_bytes": 3829760,
+      "prepared_bytes": 3177075,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "bleeditoutdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Can't Hurt Me (2014 Demo)",
+      "file_id": "e1e59d82891d4cb780cf1ca8bb8e3c98",
+      "source_url": "https://rhythmverse.co/songfile/e1e59d82891d4cb780cf1ca8bb8e3c98",
+      "download_url": "https://rhythmverse.co/download_file/luna2/e1e59d82891d4cb780cf1ca8bb8e3c98/CantHurtMe_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Can't Hurt Me (2014 Demo) [e1e59d82]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1252,
+          "kick_note_on_count": 302,
+          "tom_marker_count": 160,
+          "last_expert_onset_seconds": 220.8,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "e1e59d82891d4cb780cf1ca8bb8e3c98",
+        "artist": "Linkin Park",
+        "title": "Can't Hurt Me (2014 Demo)",
+        "album": "LP Underground Sixteen",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/e1e59d82891d4cb780cf1ca8bb8e3c98",
+        "download_url": "https://rhythmverse.co/download_file/luna2/e1e59d82891d4cb780cf1ca8bb8e3c98/CantHurtMe_rb3con",
+        "duration_seconds": 235.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Can't Hurt Me (2014 Demo)/album.png",
+          "name": "album.png",
+          "sha256": "b687e3a0bfee8d23d2e75610378db2c45bdc43c551d6e4faad6b31728eef3826"
+        },
+        {
+          "archive_name": "Linkin Park - Can't Hurt Me (2014 Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "0b84e3ce64d6eb49059a9a22d455dad7b038aec005cbf15ca4305b68eba2caa2"
+        },
+        {
+          "archive_name": "Linkin Park - Can't Hurt Me (2014 Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "d49add5f17e230403d7ee893732ecb0a1c2c6f0492547eaafc01215a97241f4c"
+        },
+        {
+          "archive_name": "Linkin Park - Can't Hurt Me (2014 Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "aa3f8708c715bf775fc44bbd117250a44ddc1a3202f918c1d824c52fe4b49607"
+        },
+        {
+          "archive_name": "Linkin Park - Can't Hurt Me (2014 Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0dd5c15ae747a99df7843426c05188c7bba3ecf9a060dbab1c053b9451f0dd50"
+        },
+        {
+          "archive_name": "Linkin Park - Can't Hurt Me (2014 Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "eaec1ff7ee80a475f5eccb4a024da7bb9c4992ec6cfa52166bea7e977e190ddc"
+        },
+        {
+          "archive_name": "Linkin Park - Can't Hurt Me (2014 Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "91c77e5337d4206a226b2cb430d5a5829d14aa5e5fa8791242b6859979748008"
+        },
+        {
+          "archive_name": "Linkin Park - Can't Hurt Me (2014 Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "049ed04c9146a7d8e459ae03683e99ff8459559340c9e4c806c18c8a0b1e5ae6"
+        }
+      ],
+      "archive_sha256": "8240d454cb2a2684e9d34d615e0e97560eec827f5bd3c929f8ea1acc14e155da",
+      "archive_bytes": 15405056,
+      "prepared_bytes": 13648141,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "canthurtme2014demo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Carousel (8-Track Demo)",
+      "file_id": "c4e3369c2ef846b1969dae924b91d0d4",
+      "source_url": "https://rhythmverse.co/songfile/c4e3369c2ef846b1969dae924b91d0d4",
+      "download_url": "https://rhythmverse.co/download_file/luna2/c4e3369c2ef846b1969dae924b91d0d4/Carousel8TrackDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Carousel (8-Track Demo) [c4e3369c]",
+      "charter": "XxCrisS!, Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1012,
+          "kick_note_on_count": 307,
+          "tom_marker_count": 44,
+          "last_expert_onset_seconds": 180.311,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c4e3369c2ef846b1969dae924b91d0d4",
+        "artist": "Linkin Park",
+        "title": "Carousel (8-Track Demo)",
+        "album": "Hybrid Theory 8 Song Demo CD/8 Song EP",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/c4e3369c2ef846b1969dae924b91d0d4",
+        "download_url": "https://rhythmverse.co/download_file/luna2/c4e3369c2ef846b1969dae924b91d0d4/Carousel8TrackDemo_rb3con",
+        "duration_seconds": 185.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Carousel (8-Track Demo)/album.png",
+          "name": "album.png",
+          "sha256": "8b58603e84471569d6bd9281cece848b5d3b30ebe21c87b7d904cd5328b9cf01"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (8-Track Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "4eb219e9a08445c3fb46c5f9ed6c6247819df7c869421a8fead98d05a88318c4"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (8-Track Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "576117ea68fc0fe2cabf4b97bfa13d12671f4e95584c29d770eef478c9e74108"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (8-Track Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ced0381700d520664313e8c1afa5fa0d2d22a860485a3758d56e76bb3032d593"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (8-Track Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "a7b61c855c5d8fea8aa5cb51581f28ed97f0bfbc8ca0e876b0ed79af4fa66c91"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (8-Track Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "d0eaeeae8689aff75f8d9deebc6ea114505af6db9bc723ca545795ffb9c8d83c"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (8-Track Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "48d855dcf14d6f8dbf4b5db18d71732c9919af5ed2dae696eaf7d2d870d56e34"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (8-Track Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "e1a36d8ee752034e4db716f5688d35747547aac2b2b8c4c665e6bb08302d8ee4"
+        }
+      ],
+      "archive_sha256": "5a6a2b3eaf1094ce13942979044ada59426fae07248122440d668965eb2229cf",
+      "archive_bytes": 11984896,
+      "prepared_bytes": 12034415,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "carousel8trackdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Carousel (9-Track Demo)",
+      "file_id": "695e1ab0d75e42d7bd28b3352f0bb0fd",
+      "source_url": "https://rhythmverse.co/songfile/695e1ab0d75e42d7bd28b3352f0bb0fd",
+      "download_url": "https://rhythmverse.co/download_file/luna2/695e1ab0d75e42d7bd28b3352f0bb0fd/Carousel9TrackDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Carousel (9-Track Demo) [695e1ab0]",
+      "charter": "XxCrisS!, Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 991,
+          "kick_note_on_count": 302,
+          "tom_marker_count": 22,
+          "last_expert_onset_seconds": 180.291,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "695e1ab0d75e42d7bd28b3352f0bb0fd",
+        "artist": "Linkin Park",
+        "title": "Carousel (9-Track Demo)",
+        "album": "Hybrid Theory 9-Track Demo CD",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/695e1ab0d75e42d7bd28b3352f0bb0fd",
+        "download_url": "https://rhythmverse.co/download_file/luna2/695e1ab0d75e42d7bd28b3352f0bb0fd/Carousel9TrackDemo_rb3con",
+        "duration_seconds": 184.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Carousel (9-Track Demo)/album.png",
+          "name": "album.png",
+          "sha256": "fd63d4ff7062d4f26daa3d231cdc5480f99c2a4d5f88c10aab0f5561a6dddc80"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (9-Track Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "f1e302b07476978652afe1da45e104b826917125c55d5d9f661970c6dc0875c4"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (9-Track Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f0edcf60b4bd3c2613c50b86e9ab711778871fc2c1e09322e6844f9fd735cba2"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (9-Track Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f65d1cdaa72be8ef35fff0a30670d1edfe457e46d37bee390bc9660506e65abe"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (9-Track Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "289266a2093eb963aac4b6bd3791f34ee171ef7f44887ea48cca9694ec08226e"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (9-Track Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "6354930e9ccc01b550879a03036c5695cf1e12275dc03e40e0711ff709585bc5"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (9-Track Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a7d2616e9c80bcd9706936a21dc8348ae4280a02b20c3ae5a9cdec5c5bf9455b"
+        },
+        {
+          "archive_name": "Linkin Park - Carousel (9-Track Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "f490fa2042197492682be924d4923eacfba543b7a27ed20ce0cd0e11df0391a5"
+        }
+      ],
+      "archive_sha256": "42a1adb56282a557677f0b2210a2fa2c78fa4252c3bd3b320b2b6235b455a9b6",
+      "archive_bytes": 11964416,
+      "prepared_bytes": 11889823,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "carousel9trackdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Chance of Rain (2006 Demo)",
+      "file_id": "4ea4b50101324cd899d4d542d9c69b71",
+      "source_url": "https://rhythmverse.co/songfile/4ea4b50101324cd899d4d542d9c69b71",
+      "download_url": "https://rhythmverse.co/download_file/luna2/4ea4b50101324cd899d4d542d9c69b71/ChanceofRain_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Chance of Rain (2006 Demo) [4ea4b501]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1249,
+          "kick_note_on_count": 320,
+          "tom_marker_count": 8,
+          "last_expert_onset_seconds": 232.125,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "4ea4b50101324cd899d4d542d9c69b71",
+        "artist": "Linkin Park",
+        "title": "Chance of Rain (2006 Demo)",
+        "album": "LP Underground 15",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/4ea4b50101324cd899d4d542d9c69b71",
+        "download_url": "https://rhythmverse.co/download_file/luna2/4ea4b50101324cd899d4d542d9c69b71/ChanceofRain_rb3con",
+        "duration_seconds": 237.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Chance of Rain (2006 Demo)/album.png",
+          "name": "album.png",
+          "sha256": "5901087e6106320f76700975333a895f9d691df9e4567c0b015bbd6fff1e6d90"
+        },
+        {
+          "archive_name": "Linkin Park - Chance of Rain (2006 Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "97a71d5081411daac6800326a5d4a576de87519f14ad849e50da7725eedeeff8"
+        },
+        {
+          "archive_name": "Linkin Park - Chance of Rain (2006 Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "46e1a779bedbdbea281297a9899a6e831703e1f326a84328a65f0332dc990ea0"
+        },
+        {
+          "archive_name": "Linkin Park - Chance of Rain (2006 Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "0f0ff102901c9f8d80553597d9ce316aa45ed37e69e70e9e1b7d32f52b796b19"
+        },
+        {
+          "archive_name": "Linkin Park - Chance of Rain (2006 Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6bc867bd928633c67ce584a723f9cc6df9300c7e6fe5ed5b1c11cab4f53a47f9"
+        },
+        {
+          "archive_name": "Linkin Park - Chance of Rain (2006 Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "2a72f7618a746f86f991a0a688e63a1fbdee33eff5ca5d374e4dee2c5d96471a"
+        },
+        {
+          "archive_name": "Linkin Park - Chance of Rain (2006 Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "cd6f9d0d6657b6287fc0a14910f0959826ccfcada33e7505340751a55baaf560"
+        },
+        {
+          "archive_name": "Linkin Park - Chance of Rain (2006 Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "bb86d8f250d37d69fa80c63f87af0ec79ed55b497d56363321c2cbd7ba3eb6f0"
+        },
+        {
+          "archive_name": "Linkin Park - Chance of Rain (2006 Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "a36b59f3b3550fd3be69cf3d014772eeeb035ed02acf2e9c774e31c5b4ba0efc"
+        }
+      ],
+      "archive_sha256": "7349823e23e1b09933c353ba2ec5a12ad1aca7d03f0fd51bce87c68ca5445e1c",
+      "archive_bytes": 24100864,
+      "prepared_bytes": 20012445,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "chanceofrain2006demo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Clarity (Minutes To Midnight Demo)",
+      "file_id": "b3aa59334e8247a5a4f48f8be3033f2d",
+      "source_url": "https://rhythmverse.co/songfile/b3aa59334e8247a5a4f48f8be3033f2d",
+      "download_url": "https://rhythmverse.co/download_file/luna2/b3aa59334e8247a5a4f48f8be3033f2d/Clarity_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Clarity (Minutes To Midnight Demo) [b3aa5933]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 965,
+          "kick_note_on_count": 283,
+          "tom_marker_count": 340,
+          "last_expert_onset_seconds": 185.2,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b3aa59334e8247a5a4f48f8be3033f2d",
+        "artist": "Linkin Park",
+        "title": "Clarity (Minutes To Midnight Demo)",
+        "album": "LP Underground 12",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/b3aa59334e8247a5a4f48f8be3033f2d",
+        "download_url": "https://rhythmverse.co/download_file/luna2/b3aa59334e8247a5a4f48f8be3033f2d/Clarity_rb3con",
+        "duration_seconds": 186.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Clarity (Minutes To Midnight Demo)/album.png",
+          "name": "album.png",
+          "sha256": "e6c1f7e12e1c7bd4ab401ac533123a7f6c728bc3740cc69261c340f6fa5e990a"
+        },
+        {
+          "archive_name": "Linkin Park - Clarity (Minutes To Midnight Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "b4bdf04228e05a9340db50a8b5497bb9b23bcaeb08e863c8a8c3d784dbf8b998"
+        },
+        {
+          "archive_name": "Linkin Park - Clarity (Minutes To Midnight Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "4a3ef27904d56f60ab883db305c5911bc1c1b6a644d05868bcf8c4e3347b80ab"
+        },
+        {
+          "archive_name": "Linkin Park - Clarity (Minutes To Midnight Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6636b8c40b253597db3fb3d96a7be49249543244b98f0ef5d1d77119c2e7bcc1"
+        },
+        {
+          "archive_name": "Linkin Park - Clarity (Minutes To Midnight Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "cdf83dd228982bb23b6a24e5323fec0649369aff3298a156ff021e316f8a456f"
+        },
+        {
+          "archive_name": "Linkin Park - Clarity (Minutes To Midnight Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "0024ebbcae2945e5ec18cec9fb10d88c12612c55d6f80bc4e0aedfdc7a84a939"
+        },
+        {
+          "archive_name": "Linkin Park - Clarity (Minutes To Midnight Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6239426862e043c6597edfa06782d7a8b5d080551061a24e2361a4d1c1c32156"
+        }
+      ],
+      "archive_sha256": "2ce1a1b92cd08e11772f2f54f1ebc0d5e990f298860d056b178c0a345db9ef55",
+      "archive_bytes": 9187328,
+      "prepared_bytes": 7696627,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "clarityminutestomidnightdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Crawling (6-Track Demo)",
+      "file_id": "36fbb0ddefb649fbac28a0d0512dd9b0",
+      "source_url": "https://rhythmverse.co/songfile/36fbb0ddefb649fbac28a0d0512dd9b0",
+      "download_url": "https://rhythmverse.co/download_file/luna2/36fbb0ddefb649fbac28a0d0512dd9b0/Crawling6TrackDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Crawling (6-Track Demo) [36fbb0dd]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1255,
+          "kick_note_on_count": 225,
+          "tom_marker_count": 13,
+          "last_expert_onset_seconds": 203.629,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "36fbb0ddefb649fbac28a0d0512dd9b0",
+        "artist": "Linkin Park",
+        "title": "Crawling (6-Track Demo)",
+        "album": "Hybrid Theory 6-Track Demo",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/36fbb0ddefb649fbac28a0d0512dd9b0",
+        "download_url": "https://rhythmverse.co/download_file/luna2/36fbb0ddefb649fbac28a0d0512dd9b0/Crawling6TrackDemo_rb3con",
+        "duration_seconds": 211.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Crawling (6-Track Demo)/album.png",
+          "name": "album.png",
+          "sha256": "167b427390048fc9ebbfa4cef30906e1afdb5e6b430d151bc39086fe1b6e915a"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling (6-Track Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3c3fe013f9e272332975247ad61ab4e9359054ead1154e78640484d6de4e0e56"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling (6-Track Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "56a4bb2b23a45e333a5d9d0bfb8774831c5be25bcb44a2299bdc425981b7efa5"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling (6-Track Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3bda8be60dc15506c0232c0a16194cbf9a6856050c5d3b8845688c72ed4df277"
+        }
+      ],
+      "archive_sha256": "8ff2d420eb5ae211d3d0d1907147947bbe8aaf32f5b6fb6fb65159f35f052bd8",
+      "archive_bytes": 3682304,
+      "prepared_bytes": 3209430,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "crawling6trackdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Crawling (8-Track Demo)",
+      "file_id": "c82a851e0149444eba6fc0c94fb8b396",
+      "source_url": "https://rhythmverse.co/songfile/c82a851e0149444eba6fc0c94fb8b396",
+      "download_url": "https://rhythmverse.co/download_file/luna2/c82a851e0149444eba6fc0c94fb8b396/Crawling8TrackDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Crawling (8-Track Demo) [c82a851e]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1387,
+          "kick_note_on_count": 236,
+          "tom_marker_count": 14,
+          "last_expert_onset_seconds": 219.784,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c82a851e0149444eba6fc0c94fb8b396",
+        "artist": "Linkin Park",
+        "title": "Crawling (8-Track Demo)",
+        "album": "Hybrid Theory 8 Song Demo CD/8 Song EP",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/c82a851e0149444eba6fc0c94fb8b396",
+        "download_url": "https://rhythmverse.co/download_file/luna2/c82a851e0149444eba6fc0c94fb8b396/Crawling8TrackDemo_rb3con",
+        "duration_seconds": 235.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Crawling (8-Track Demo)/album.png",
+          "name": "album.png",
+          "sha256": "8b58603e84471569d6bd9281cece848b5d3b30ebe21c87b7d904cd5328b9cf01"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling (8-Track Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c28fbb4343a51b261e641f273857787ae35fce97b637e388989567f2b2c9c49d"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling (8-Track Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "e547cfb8f1e2622bb5a46931f10421f353d650e729be47f0a68349c37bab23c3"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling (8-Track Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "61a5f9cc47ee0be2891e1e48ccf45dff8553bb639e93f8539eeaa0b7c6617703"
+        }
+      ],
+      "archive_sha256": "6affd8bd3665ccf1ab6c9a25ab1a500bb7558900242d2aa71c96b691b4140b5f",
+      "archive_bytes": 3469312,
+      "prepared_bytes": 2844274,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "crawling8trackdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Crawling (9-Track Demo)",
+      "file_id": "ebeaee064ee54117aa3d54246cdf8dbe",
+      "source_url": "https://rhythmverse.co/songfile/ebeaee064ee54117aa3d54246cdf8dbe",
+      "download_url": "https://rhythmverse.co/download_file/luna2/ebeaee064ee54117aa3d54246cdf8dbe/Crawling9TrackDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Crawling (9-Track Demo) [ebeaee06]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1351,
+          "kick_note_on_count": 232,
+          "tom_marker_count": 14,
+          "last_expert_onset_seconds": 224.392,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ebeaee064ee54117aa3d54246cdf8dbe",
+        "artist": "Linkin Park",
+        "title": "Crawling (9-Track Demo)",
+        "album": "Hybrid Theory 9-Track Demo CD",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/ebeaee064ee54117aa3d54246cdf8dbe",
+        "download_url": "https://rhythmverse.co/download_file/luna2/ebeaee064ee54117aa3d54246cdf8dbe/Crawling9TrackDemo_rb3con",
+        "duration_seconds": 236.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Crawling (9-Track Demo)/album.png",
+          "name": "album.png",
+          "sha256": "fd63d4ff7062d4f26daa3d231cdc5480f99c2a4d5f88c10aab0f5561a6dddc80"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling (9-Track Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "99cfe8ee7253fc03828f621b5b24608af4d095bbb7873d8d3226ad059f202904"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling (9-Track Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "e6d5cc12dcddb1e39f34f2e612a3665870e9fc569dcc0d016ddcdeadebe5de8d"
+        },
+        {
+          "archive_name": "Linkin Park - Crawling (9-Track Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "07998cf5477c302af27f4c99d99d6d53d72fa0f0590b90a67aad9b8949e1d0bd"
+        }
+      ],
+      "archive_sha256": "de7f7f58a5599a4e7ed03207e7553790b9a0f5fcd8c5902c848c94e269ee64bb",
+      "archive_bytes": 4349952,
+      "prepared_bytes": 3732426,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "crawling9trackdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Cumulus (2002 Demo)",
+      "file_id": "456dfbb14273470f954727e62b87495a",
+      "source_url": "https://rhythmverse.co/songfile/456dfbb14273470f954727e62b87495a",
+      "download_url": "https://rhythmverse.co/download_file/luna2/456dfbb14273470f954727e62b87495a/Cumulus_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Cumulus (2002 Demo) [456dfbb1]",
+      "charter": "TIIEO, Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 922,
+          "kick_note_on_count": 300,
+          "tom_marker_count": 3,
+          "last_expert_onset_seconds": 163.771,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "456dfbb14273470f954727e62b87495a",
+        "artist": "Linkin Park",
+        "title": "Cumulus (2002 Demo)",
+        "album": "LP Underground XIII",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/456dfbb14273470f954727e62b87495a",
+        "download_url": "https://rhythmverse.co/download_file/luna2/456dfbb14273470f954727e62b87495a/Cumulus_rb3con",
+        "duration_seconds": 184.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Cumulus (2002 Demo)/album.png",
+          "name": "album.png",
+          "sha256": "25ae572da73d9a4beea09518592d8675b02bb23046fb79c062eb8524e2c13246"
+        },
+        {
+          "archive_name": "Linkin Park - Cumulus (2002 Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "815ca9b7cc608f7062399deb2259b01d165af00176dd681ed3e20bfc6f92743a"
+        },
+        {
+          "archive_name": "Linkin Park - Cumulus (2002 Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "16ba48e56ffbe8a78590fdbaeb670b0767f089e0fa514edd194bf5accabee3ea"
+        },
+        {
+          "archive_name": "Linkin Park - Cumulus (2002 Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "397fd30db3198a3ed5c67c9f9764d58ba4026a081e972fffc166f63bf95b589f"
+        },
+        {
+          "archive_name": "Linkin Park - Cumulus (2002 Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3734f4486faf98bd1ae81c6e58fcdc60fa0c03c604b6a1be3f25326d76162dfd"
+        },
+        {
+          "archive_name": "Linkin Park - Cumulus (2002 Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "d84dc3acab16bdb5707070bea8affc8b1aaec08fa4801dcc7d7f22bb57b949e5"
+        },
+        {
+          "archive_name": "Linkin Park - Cumulus (2002 Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "9f4a24a3ebd834b04cdf299d5e5bdac77328528253c422e010064ecdf1be7ee2"
+        },
+        {
+          "archive_name": "Linkin Park - Cumulus (2002 Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "05f218f3f969a5f27fe93b69ea2bbd4d115582b3cd3593fd13f3a5d234d0d05f"
+        }
+      ],
+      "archive_sha256": "3847c4f38c77b3310cd89fbd50d58b545a6411938f3c94d39fb12a0924023ef1",
+      "archive_bytes": 14450688,
+      "prepared_bytes": 12388358,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "cumulus2002demo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Drawing (Breaking The Habit Demo 2002)",
+      "file_id": "ee409ceed66446f694c13eefa67aa1e2",
+      "source_url": "https://rhythmverse.co/songfile/ee409ceed66446f694c13eefa67aa1e2",
+      "download_url": "https://rhythmverse.co/download_file/luna2/ee409ceed66446f694c13eefa67aa1e2/Drawing_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Drawing (Breaking The Habit Demo 2002) [ee409cee]",
+      "charter": "Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1850,
+          "kick_note_on_count": 438,
+          "tom_marker_count": 171,
+          "last_expert_onset_seconds": 207.343,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ee409ceed66446f694c13eefa67aa1e2",
+        "artist": "Linkin Park",
+        "title": "Drawing (Breaking The Habit Demo 2002)",
+        "album": "LP Underground 9: Demos",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/ee409ceed66446f694c13eefa67aa1e2",
+        "download_url": "https://rhythmverse.co/download_file/luna2/ee409ceed66446f694c13eefa67aa1e2/Drawing_rb3con",
+        "duration_seconds": 216.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Drawing (Breaking The Habit Demo 2002)/album.png",
+          "name": "album.png",
+          "sha256": "5944d326b9993c560a092bd223187fb9adfc9634e3836051057184ccfbc73483"
+        },
+        {
+          "archive_name": "Linkin Park - Drawing (Breaking The Habit Demo 2002)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "9d6fa3bd638f73f052c8f0c79ba7c66e4a8f15f0be15d56edfd04b74f1ba6318"
+        },
+        {
+          "archive_name": "Linkin Park - Drawing (Breaking The Habit Demo 2002)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "5039a8c5ed77b791a63527425013df54305586c0ed0b358c61c1550b8cb8b8ff"
+        },
+        {
+          "archive_name": "Linkin Park - Drawing (Breaking The Habit Demo 2002)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "e633bb21cda51bbe944474f37fda7307a93b5a107751c2bc414934ad6da02b69"
+        },
+        {
+          "archive_name": "Linkin Park - Drawing (Breaking The Habit Demo 2002)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a4b012642887932bbaa4713611b6842f586d3cb008dc7fb8fe12ee79e3600c9f"
+        },
+        {
+          "archive_name": "Linkin Park - Drawing (Breaking The Habit Demo 2002)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "4c9c32b21977001822c48318ac401b291f4ffd16cb102d956acda1154356fc0a"
+        },
+        {
+          "archive_name": "Linkin Park - Drawing (Breaking The Habit Demo 2002)/song.ini",
+          "name": "song.ini",
+          "sha256": "67a365b18cb1b418099dac3f2b69e0a4d9f1799549929890ab04a9377bacdec0"
+        },
+        {
+          "archive_name": "Linkin Park - Drawing (Breaking The Habit Demo 2002)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1fce6d91af6da7fef7839b15bd9c3ce76aa6d38011f2f5aecb1f1bdd011ddcac"
+        }
+      ],
+      "archive_sha256": "b98e414b021567ca98f1ebab63ec993a2965ac7d074106373d536e1ce1a518e3",
+      "archive_bytes": 17776640,
+      "prepared_bytes": 15028198,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "drawingbreakingthehabitdemo2002"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Dust Brothers (With You Demo)",
+      "file_id": "2226b998e6cb4878ae5e68e83caefa82",
+      "source_url": "https://rhythmverse.co/songfile/2226b998e6cb4878ae5e68e83caefa82",
+      "download_url": "https://rhythmverse.co/download_file/luna2/2226b998e6cb4878ae5e68e83caefa82/DustBrothers_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Dust Brothers (With You Demo) [2226b998]",
+      "charter": "ScHaloX, Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1360,
+          "kick_note_on_count": 326,
+          "tom_marker_count": 8,
+          "last_expert_onset_seconds": 219.424,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "2226b998e6cb4878ae5e68e83caefa82",
+        "artist": "Linkin Park",
+        "title": "Dust Brothers (With You Demo)",
+        "album": "Hybrid Theory 6-Track Demo",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/2226b998e6cb4878ae5e68e83caefa82",
+        "download_url": "https://rhythmverse.co/download_file/luna2/2226b998e6cb4878ae5e68e83caefa82/DustBrothers_rb3con",
+        "duration_seconds": 223.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Dust Brothers (With You Demo)/album.png",
+          "name": "album.png",
+          "sha256": "167b427390048fc9ebbfa4cef30906e1afdb5e6b430d151bc39086fe1b6e915a"
+        },
+        {
+          "archive_name": "Linkin Park - Dust Brothers (With You Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "8f9e68786b021f34c37a2d4b58847e17ec2c6c7376c5a370a4264b6b5b2ad2ce"
+        },
+        {
+          "archive_name": "Linkin Park - Dust Brothers (With You Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "ef0bb71a9d6122f1f9c981ca262ccfad5778ccce19672c2455e7d031ac1359a0"
+        },
+        {
+          "archive_name": "Linkin Park - Dust Brothers (With You Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "145aeb9e57c3d0958b89c4b3da3bd3c076d74e2a599821bde41e584d97e066f0"
+        },
+        {
+          "archive_name": "Linkin Park - Dust Brothers (With You Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "a17ae4a799dde12a9df25d2e5b9787c068452bf98c5460be8ed9fbd4423066fb"
+        },
+        {
+          "archive_name": "Linkin Park - Dust Brothers (With You Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "d0cbbbbf9ce246c0e00b778efb87dfb844289c360dfd4d04b31df9d650c7b80a"
+        },
+        {
+          "archive_name": "Linkin Park - Dust Brothers (With You Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1b20294763ec638ef26a6364802803dbf648987e380e89b92553dccb5b1e907e"
+        },
+        {
+          "archive_name": "Linkin Park - Dust Brothers (With You Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "07c708cc3b9a907f6416bf0a7164c119908dc06733280c5d75317e4555661b1a"
+        }
+      ],
+      "archive_sha256": "ffbbf554ff06402e03154fa3a0e2b9c6a740dc9d6128b3886eb317683d416973",
+      "archive_bytes": 17539072,
+      "prepared_bytes": 15358627,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "dustbrotherswithyoudemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Esaul (2-Track Demo)",
+      "file_id": "1578ca1feec542b39632428c3ced5c2f",
+      "source_url": "https://rhythmverse.co/songfile/1578ca1feec542b39632428c3ced5c2f",
+      "download_url": "https://rhythmverse.co/download_file/luna2/1578ca1feec542b39632428c3ced5c2f/Esaul2TrackDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Esaul (2-Track Demo) [1578ca1f]",
+      "charter": "Chainsaw Octopus, Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1175,
+          "kick_note_on_count": 352,
+          "tom_marker_count": 54,
+          "last_expert_onset_seconds": 184.106,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "1578ca1feec542b39632428c3ced5c2f",
+        "artist": "Linkin Park",
+        "title": "Esaul (2-Track Demo)",
+        "album": "Hybrid Theory 2-Track Demo",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/1578ca1feec542b39632428c3ced5c2f",
+        "download_url": "https://rhythmverse.co/download_file/luna2/1578ca1feec542b39632428c3ced5c2f/Esaul2TrackDemo_rb3con",
+        "duration_seconds": 193.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Esaul (2-Track Demo)/album.png",
+          "name": "album.png",
+          "sha256": "4a170326c4a90becbd128ae9ea5b61d39b1512265944f733b3b4ee2215cb4928"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (2-Track Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "24497dfed813acd2d47525f47f43dfd0d220e38bb7c71bde6c4da6192a0ef004"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (2-Track Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "e4c47d44bb59d73dab459293b5c281a852ed90732d3ff81bde640633c2a75c10"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (2-Track Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "74fcf56bb01cb1ecb975580f62c301ff4d7af3e858eb6f0de70e209e8e18dfec"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (2-Track Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "523c6e03c26fb73c3ef05839675e11a08cd922a2215673f3390abef77644d1f6"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (2-Track Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "b891893cf89d749593903eaa476cac5fffcb3699bdea8e67c0227389a3edfb25"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (2-Track Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "73f88aeafe594d3eaad92db4158d7a82e8522c597560d99ed34229eb7cc822d7"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (2-Track Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "1a01e21691c9660d803c67e6f7a408bebeac0611ac211719b0d5f3780fbe637a"
+        }
+      ],
+      "archive_sha256": "9578259046eed29f00ddf25d9a9bfa52c0bb1f99888c9b0f56cde61aefd1d7b9",
+      "archive_bytes": 19075072,
+      "prepared_bytes": 16242382,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "esaul2trackdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Esaul (A Place for My Head Demo)",
+      "file_id": "16defbd0a4f64120a7980661ecb10739",
+      "source_url": "https://rhythmverse.co/songfile/16defbd0a4f64120a7980661ecb10739",
+      "download_url": "https://rhythmverse.co/download_file/luna2/16defbd0a4f64120a7980661ecb10739/Esaul_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Esaul (A Place for My Head Demo) [16defbd0]",
+      "charter": "Chainsaw Octopus, Zanny77",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1192,
+          "kick_note_on_count": 445,
+          "tom_marker_count": 6,
+          "last_expert_onset_seconds": 184.106,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "16defbd0a4f64120a7980661ecb10739",
+        "artist": "Linkin Park",
+        "title": "Esaul (A Place for My Head Demo)",
+        "album": "LP Underground Eleven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/16defbd0a4f64120a7980661ecb10739",
+        "download_url": "https://rhythmverse.co/download_file/luna2/16defbd0a4f64120a7980661ecb10739/Esaul_rb3con",
+        "duration_seconds": 191.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Esaul (A Place for My Head Demo)/album.png",
+          "name": "album.png",
+          "sha256": "22437f63a50f19ca4e98cd81eab34cccf117f3b9c1b2a74c82efb56e237727b4"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (A Place for My Head Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "85404d954dc5756216398d35e34e2b8bb63ee957a35273efdd511c74f7ef1efe"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (A Place for My Head Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "b40299b7d0dfbe236d5e8304d2a6e06479c70d18985339c7975c827343cf6873"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (A Place for My Head Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "961653980ac32fa29eaed9b42784196dc72cdbe3c7a6b39cb9f97bdfb731f450"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (A Place for My Head Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "10f0e3e34ed7226d3b3ab18ab5dc27f815c65fcba2087859b61ef59ba6c00763"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (A Place for My Head Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "ff97ff5e1cbbe5e657b6fa9fdc6c880bd8aaa8a8b5af4d52e23656981037ddf5"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (A Place for My Head Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "156186fa11eed62cb00ef69f7806327d3130d4bd78d4af2d46092a46833858ac"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (A Place for My Head Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "aa2c0ed9d07757f91573b6ed397dda830727256dc063233274401372c66de7c6"
+        }
+      ],
+      "archive_sha256": "cefbccbe1c42b833a2d5ced40cf5942eecea539f395f1a25e0ca04d3b6298840",
+      "archive_bytes": 13631488,
+      "prepared_bytes": 13336573,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "esaulaplaceformyheaddemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Esaul (Hybrid Theory Demo)",
+      "file_id": "684956cd1d194d3e8895ee9681ade8cb",
+      "source_url": "https://rhythmverse.co/songfile/684956cd1d194d3e8895ee9681ade8cb",
+      "download_url": "https://rhythmverse.co/download_file/luna2/684956cd1d194d3e8895ee9681ade8cb/Esaul_HybridTheoryDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Esaul (Hybrid Theory Demo) [684956cd]",
+      "charter": "Chainsaw Octopus",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1175,
+          "kick_note_on_count": 352,
+          "tom_marker_count": 54,
+          "last_expert_onset_seconds": 184.106,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "684956cd1d194d3e8895ee9681ade8cb",
+        "artist": "Linkin Park",
+        "title": "Esaul (Hybrid Theory Demo)",
+        "album": "Hybrid Theory EP (Different Version)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/684956cd1d194d3e8895ee9681ade8cb",
+        "download_url": "https://rhythmverse.co/download_file/luna2/684956cd1d194d3e8895ee9681ade8cb/Esaul_HybridTheoryDemo_rb3con",
+        "duration_seconds": 192.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Esaul (Hybrid Theory Demo)/album.png",
+          "name": "album.png",
+          "sha256": "b20381822bd7017bf54533c4c59c38e2b2f951a6fcce28c8882a5c0d13047ab9"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (Hybrid Theory Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ba3291dc26600e3ca88498d60a577c704646c45a3fb2f6e7c522162b944ce868"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (Hybrid Theory Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "9e39ab1f1c7eefbcac5b1188d458c2f6209ba1838bd6d3b02fc8fa6f733ca84a"
+        },
+        {
+          "archive_name": "Linkin Park - Esaul (Hybrid Theory Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "4b781b1848d7e41bc3485f0b50038fc99414bd1d794a15015a0e35ab001a9ea0"
+        }
+      ],
+      "archive_sha256": "9e5fe6a4cb51ba0ae1f4b747aac947716ca8dfc66f6e8894fadfba249af07b7f",
+      "archive_bytes": 3407872,
+      "prepared_bytes": 3303559,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "esaulhybridtheorydemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Esaùl (A Place For My Head Demo 1999) (9-Track Demo)",
+      "file_id": "fd199b2486684eb0bd36dff3a0392303",
+      "source_url": "https://rhythmverse.co/songfile/fd199b2486684eb0bd36dff3a0392303",
+      "download_url": "https://rhythmverse.co/download_file/luna2/fd199b2486684eb0bd36dff3a0392303/Esaul9TrackDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Esaùl (A Place For My Head Demo 1999) (9-Track Demo) [fd199b24]",
+      "charter": "Chainsaw Octopus",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1174,
+          "kick_note_on_count": 353,
+          "tom_marker_count": 54,
+          "last_expert_onset_seconds": 184.106,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "fd199b2486684eb0bd36dff3a0392303",
+        "artist": "Linkin Park",
+        "title": "Esaùl (A Place For My Head Demo 1999) (9-Track Demo)",
+        "album": "Hybrid Theory 9-Track Demo CD",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/fd199b2486684eb0bd36dff3a0392303",
+        "download_url": "https://rhythmverse.co/download_file/luna2/fd199b2486684eb0bd36dff3a0392303/Esaul9TrackDemo_rb3con",
+        "duration_seconds": 191.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Esa_l (A Place For My Head Demo 1999) (9-Track Demo)/album.png",
+          "name": "album.png",
+          "sha256": "88ab0b657594fea8042f59aa3a967148c2d2cc87dc474a7d6e08cd15baa9894d"
+        },
+        {
+          "archive_name": "Linkin Park - Esa_l (A Place For My Head Demo 1999) (9-Track Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "4bd9bc2bddfb9a58ea4debf95715ed73ab3692af47b117c66e7ad4e416907745"
+        },
+        {
+          "archive_name": "Linkin Park - Esa_l (A Place For My Head Demo 1999) (9-Track Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "802f0302521ac60403ccc96d969fdb21e142f5f039cee9fe3aff387e47cb5ebb"
+        },
+        {
+          "archive_name": "Linkin Park - Esa_l (A Place For My Head Demo 1999) (9-Track Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d588896f3000b3163c1726da10be6474f60d0c6fd7bdba6923139e51f1ada9b6"
+        }
+      ],
+      "archive_sha256": "25b2f6e2266593036be043aafb1a0d7da18bfc1b1a573fa945fbc7d2e29c4eec",
+      "archive_bytes": 3842048,
+      "prepared_bytes": 3340840,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "esaulaplaceformyheaddemo19999trackdemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Faint (Demo 2002)",
+      "file_id": "1994dace241e4bbc9834d7329064a3d5",
+      "source_url": "https://rhythmverse.co/songfile/1994dace241e4bbc9834d7329064a3d5",
+      "download_url": "https://rhythmverse.co/download_file/luna2/1994dace241e4bbc9834d7329064a3d5/FaintDemo2002_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Faint (Demo 2002) [1994dace]",
+      "charter": "The Oreo, Zanny77, Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1448,
+          "kick_note_on_count": 228,
+          "tom_marker_count": 21,
+          "last_expert_onset_seconds": 191.153,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "1994dace241e4bbc9834d7329064a3d5",
+        "artist": "Linkin Park",
+        "title": "Faint (Demo 2002)",
+        "album": "LP Underground 9: Demos",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/1994dace241e4bbc9834d7329064a3d5",
+        "download_url": "https://rhythmverse.co/download_file/luna2/1994dace241e4bbc9834d7329064a3d5/FaintDemo2002_rb3con",
+        "duration_seconds": 195.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002)/album.png",
+          "name": "album.png",
+          "sha256": "5944d326b9993c560a092bd223187fb9adfc9634e3836051057184ccfbc73483"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "6ec1f056f1e9664e7ad4ddb04065149459341ba5cc602cd85d87d0decda8bc99"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "771fab4b0eee1c9f6ed7b6c53669c8442f9f5344001f29c73f0407e28af9fba9"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "737dd4874387f9e4c461a74d562fefe9c13c29a387d9a03354f12091ebd23f6f"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d75eb6bf587034c11f730580bdadd4d7f294204956e1286a292c2c56edc03e1c"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "212f3b46036497ae3af28f1cee53d168a89005568b76a0e1e1896e1a875f47ae"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002)/song.ini",
+          "name": "song.ini",
+          "sha256": "53f800c7ca866c81c183cb5f766e51eb5702a266db002b3cb735f4279d412414"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "17a36f83b70b4a9d510f8bb7f322353521fdd315723f0c9ebb6814f87e0cfe35"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "b84d04b664db6eb4bc62bbb898897362cb9c54be9731f0d10af83835502195e9"
+        }
+      ],
+      "archive_sha256": "ee58e6ff10f82c3e7ad3f4d3133eb61ca6cce9e9b74ec9a1f67165c237af4bea",
+      "archive_bytes": 18849792,
+      "prepared_bytes": 16825268,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "faintdemo2002"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Faint (Demo 2002) [Extended]",
+      "file_id": "8582fce491324fadbd08fe2c1e0b19a1",
+      "source_url": "https://rhythmverse.co/songfile/8582fce491324fadbd08fe2c1e0b19a1",
+      "download_url": "https://rhythmverse.co/download_file/luna2/8582fce491324fadbd08fe2c1e0b19a1/FaintDemo2002Extended_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Faint (Demo 2002) [Extended] [8582fce4]",
+      "charter": "The Oreo, Zanny77",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1265,
+          "kick_note_on_count": 227,
+          "tom_marker_count": 3,
+          "last_expert_onset_seconds": 205.351,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "8582fce491324fadbd08fe2c1e0b19a1",
+        "artist": "Linkin Park",
+        "title": "Faint (Demo 2002) [Extended]",
+        "album": "LP Underground 9: Demos (EU Promo)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/8582fce491324fadbd08fe2c1e0b19a1",
+        "download_url": "https://rhythmverse.co/download_file/luna2/8582fce491324fadbd08fe2c1e0b19a1/FaintDemo2002Extended_rb3con",
+        "duration_seconds": 212.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002) [Extended]/album.png",
+          "name": "album.png",
+          "sha256": "a23a5867e8fbcec9bc9805fc2e736ebe67a8d305ae2c9ddd646c03f7eb868f5e"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002) [Extended]/notes.mid",
+          "name": "notes.mid",
+          "sha256": "4f5089421c467658fa5c5d1ac862e58845b165cc58ef01081cee8799db0a1cfc"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002) [Extended]/song.ini",
+          "name": "song.ini",
+          "sha256": "62f6e8c873cb7e38740bb94afaa2a9605c2c98af3cc517d1cd18310b3780958c"
+        },
+        {
+          "archive_name": "Linkin Park - Faint (Demo 2002) [Extended]/song.ogg",
+          "name": "song.ogg",
+          "sha256": "1b947eb8ed7903da1c82e9a9fc6e8c44ae58a5e37f9222609a444b9a17fbda0c"
+        }
+      ],
+      "archive_sha256": "54fe487d398581d1b0696d0d48f340de885b7b84535748ec6360610bbbd96cf6",
+      "archive_bytes": 4890624,
+      "prepared_bytes": 3963840,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "faintdemo2002extended"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Figure.09 (2002 Demo)",
+      "file_id": "5ca338323c6e46c5a7b7ca4d7ec57236",
+      "source_url": "https://rhythmverse.co/songfile/5ca338323c6e46c5a7b7ca4d7ec57236",
+      "download_url": "https://rhythmverse.co/download_file/luna2/5ca338323c6e46c5a7b7ca4d7ec57236/Figure.09Demo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Figure.09 (2002 Demo) [5ca33832]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1172,
+          "kick_note_on_count": 369,
+          "tom_marker_count": 10,
+          "last_expert_onset_seconds": 202.609,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5ca338323c6e46c5a7b7ca4d7ec57236",
+        "artist": "Linkin Park",
+        "title": "Figure.09 (2002 Demo)",
+        "album": "LP Underground 9: Demos",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5ca338323c6e46c5a7b7ca4d7ec57236",
+        "download_url": "https://rhythmverse.co/download_file/luna2/5ca338323c6e46c5a7b7ca4d7ec57236/Figure.09Demo_rb3con",
+        "duration_seconds": 206.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Figure.09 (2002 Demo)/album.png",
+          "name": "album.png",
+          "sha256": "10ad87abb6347b317b537beec9bcaad03815e18fccea65b8d454e915e5a60d3e"
+        },
+        {
+          "archive_name": "Linkin Park - Figure.09 (2002 Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "1a578aab30b62adf25872c449cf56b58b3e83af015b44b7b20b5888b93941a45"
+        },
+        {
+          "archive_name": "Linkin Park - Figure.09 (2002 Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f27d4f93eeddb93510a9be402352d70f96ffefc07fdc8a6282abd7c394d64bdb"
+        },
+        {
+          "archive_name": "Linkin Park - Figure.09 (2002 Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "517c96a88565acf38ebc8e5fd3d2e2b0e814e3ab1fe339adc42dac93e7c01430"
+        },
+        {
+          "archive_name": "Linkin Park - Figure.09 (2002 Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "8c62c77e250346d1bba89f3bce352fcb826f3b0393200c56250607b0817b7f5b"
+        },
+        {
+          "archive_name": "Linkin Park - Figure.09 (2002 Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "41a2ea02cd9d2d7322f2d93e25b31527dd9afe9df63068409224c80788288d95"
+        },
+        {
+          "archive_name": "Linkin Park - Figure.09 (2002 Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "7b8909bd71235a00d0e998ce8b89e53d7e536f776c30a0303b75d5efeb008814"
+        },
+        {
+          "archive_name": "Linkin Park - Figure.09 (2002 Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6a7494f70e5d828548c7f85622197a7c0b3d4d0db73fed9228c1c89525be0596"
+        },
+        {
+          "archive_name": "Linkin Park - Figure.09 (2002 Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "b33154ffdcaf8f902b7d9fc397d8e3b58d761890abb395aecad865fbccfa5086"
+        }
+      ],
+      "archive_sha256": "117b1f91772e42f375219f0b2e3af28ddcc12bb615e83c44b88eebc527260d61",
+      "archive_bytes": 20852736,
+      "prepared_bytes": 18273824,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "figure092002demo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Forgotten (Demo)",
+      "file_id": "3ac28898a58c4b6d9c47b04d5503cd4e",
+      "source_url": "https://rhythmverse.co/songfile/3ac28898a58c4b6d9c47b04d5503cd4e",
+      "download_url": "https://rhythmverse.co/download_file/luna2/3ac28898a58c4b6d9c47b04d5503cd4e/ForgottenDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Forgotten (Demo) [3ac28898]",
+      "charter": "The Oreo, Zanny77, Luna, GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1354,
+          "kick_note_on_count": 399,
+          "tom_marker_count": 32,
+          "last_expert_onset_seconds": 220.801,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3ac28898a58c4b6d9c47b04d5503cd4e",
+        "artist": "Linkin Park",
+        "title": "Forgotten (Demo)",
+        "album": "LP Underground 12",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/3ac28898a58c4b6d9c47b04d5503cd4e",
+        "download_url": "https://rhythmverse.co/download_file/luna2/3ac28898a58c4b6d9c47b04d5503cd4e/ForgottenDemo_rb3con",
+        "duration_seconds": 229.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Forgotten (Demo)/album.png",
+          "name": "album.png",
+          "sha256": "d41c5b4ba02f7e69333fb417dc063e6f2eaa75942cd575cd61e0fd64a9dee75c"
+        },
+        {
+          "archive_name": "Linkin Park - Forgotten (Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "06cfa8a0a21d5c43e603e47950c95131f2126eec68f34b23bc03d826470d2c18"
+        },
+        {
+          "archive_name": "Linkin Park - Forgotten (Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c07e53f44b413387e34d9b01bcd3af63ddde84960ef5e40c0fde844c5317af57"
+        },
+        {
+          "archive_name": "Linkin Park - Forgotten (Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ae9db71800c6eb7b3796f710292146f1b1ef2bb68bdb626d848d4a0c2a271f76"
+        },
+        {
+          "archive_name": "Linkin Park - Forgotten (Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "40c5c7dff2845e42891d5ace715dfa9a38e0f34415015060a3a9825e6db432e3"
+        },
+        {
+          "archive_name": "Linkin Park - Forgotten (Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "631ad08a5435eae6318ec84b10c0b2bbd9e36e9e2cf5df0d3af75cf1bede5772"
+        },
+        {
+          "archive_name": "Linkin Park - Forgotten (Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5f75a79dce07483fbe94624396cdeda8811793162d059df0b82835904c18d860"
+        },
+        {
+          "archive_name": "Linkin Park - Forgotten (Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "2c2bbe1719fece922b5b7c67a7ed8439bb5e5366bd584adc69004c0ea61731b1"
+        }
+      ],
+      "archive_sha256": "79e235f3ad862219aaddbff8a3ffabf56ea2dd423a7297994a41c597a1859ade",
+      "archive_bytes": 18464768,
+      "prepared_bytes": 15473696,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "forgottendemo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Frgt/10 Demo",
+      "file_id": "265cbdf715f24d0cb04834628896e1b8",
+      "source_url": "https://rhythmverse.co/songfile/265cbdf715f24d0cb04834628896e1b8",
+      "download_url": "https://rhythmverse.co/download_file/luna2/265cbdf715f24d0cb04834628896e1b8/Frgt10Demo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - Frgt_10 Demo [265cbdf7]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1258,
+          "kick_note_on_count": 223,
+          "tom_marker_count": 30,
+          "last_expert_onset_seconds": 222.421,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "265cbdf715f24d0cb04834628896e1b8",
+        "artist": "Linkin Park",
+        "title": "Frgt/10 Demo",
+        "album": "Reanimation (Internal Demo)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/265cbdf715f24d0cb04834628896e1b8",
+        "download_url": "https://rhythmverse.co/download_file/luna2/265cbdf715f24d0cb04834628896e1b8/Frgt10Demo_rb3con",
+        "duration_seconds": 223.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Frgt_10 Demo/album.png",
+          "name": "album.png",
+          "sha256": "36e782b918e47a06e1c19fb7c2bda25fbb21b27e09515647f97ae1736412ed92"
+        },
+        {
+          "archive_name": "Linkin Park - Frgt_10 Demo/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "531829f84173ca5c6c550f6f05ec063009d36fb15b41a480f248922ecad6b4a3"
+        },
+        {
+          "archive_name": "Linkin Park - Frgt_10 Demo/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e3b6c09bbc021fe5dbaaef4a52c300d417a9dfaecd3e620ea0c020700bca4f05"
+        },
+        {
+          "archive_name": "Linkin Park - Frgt_10 Demo/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "de44c5b2e2a73179634c856e5b1970f06371dfe38fcebeee3c9cbf74b2b0e57c"
+        },
+        {
+          "archive_name": "Linkin Park - Frgt_10 Demo/song.ini",
+          "name": "song.ini",
+          "sha256": "7b913c1b6c4a9dda05273a2989ab8456b7c6c932349db9844aedd10495d85050"
+        },
+        {
+          "archive_name": "Linkin Park - Frgt_10 Demo/song.ogg",
+          "name": "song.ogg",
+          "sha256": "61e1db3b518e85e1b437aefe52ee9592585f5edba2e03f92bd01a7cf822d4a43"
+        },
+        {
+          "archive_name": "Linkin Park - Frgt_10 Demo/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "a4046817b799b80aca5ade9c30d1e367d0dc453107ebc27303213ec01233e2b1"
+        }
+      ],
+      "archive_sha256": "f80f87531339b79b860c6d1cd34d08d0be4aef214b4e07443a4848e7e9433f7e",
+      "archive_bytes": 18874368,
+      "prepared_bytes": 15204038,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "frgt10demo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "In The End (Demo)",
+      "file_id": "da1df2189c8047f89af61884c591de47",
+      "source_url": "https://rhythmverse.co/songfile/da1df2189c8047f89af61884c591de47",
+      "download_url": "https://rhythmverse.co/download_file/luna2/da1df2189c8047f89af61884c591de47/IntheEndDemo_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - In The End (Demo) [da1df218]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1363,
+          "kick_note_on_count": 345,
+          "tom_marker_count": 72,
+          "last_expert_onset_seconds": 205.706,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "da1df2189c8047f89af61884c591de47",
+        "artist": "Linkin Park",
+        "title": "In The End (Demo)",
+        "album": "LP Underground Eleven",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/da1df2189c8047f89af61884c591de47",
+        "download_url": "https://rhythmverse.co/download_file/luna2/da1df2189c8047f89af61884c591de47/IntheEndDemo_rb3con",
+        "duration_seconds": 233.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - In The End (Demo)/album.png",
+          "name": "album.png",
+          "sha256": "f181d7b5af728e92cf74f70e8b62126d56a3e9e9edbdda957827d91ab51dca0c"
+        },
+        {
+          "archive_name": "Linkin Park - In The End (Demo)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "16ee85d014320fec7d0e400818e129c8a0ad4f849079ec1b2587c6da09a6bf30"
+        },
+        {
+          "archive_name": "Linkin Park - In The End (Demo)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "c338a82d27343471bd8a7955d022eb8a867077a7d8820b23e2ae96fc124d8b42"
+        },
+        {
+          "archive_name": "Linkin Park - In The End (Demo)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "b79dceaf90144e2c34ee5e33d5f389ff8e8b28317ccf6d917499d93b8edcaa43"
+        },
+        {
+          "archive_name": "Linkin Park - In The End (Demo)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "8d719d31ec9cd72e653e4ef191818966c4321cbfa76fad196e6b4b23e0ecc80b"
+        },
+        {
+          "archive_name": "Linkin Park - In The End (Demo)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "9bacf0882f2e25f4b83f4bdc4f33703db55a4d43ff4a6a2cab01c64550dc50a1"
+        },
+        {
+          "archive_name": "Linkin Park - In The End (Demo)/song.ini",
+          "name": "song.ini",
+          "sha256": "02170fc7fcc0da1bc0ae22ea5549984a1237fc548eb491eb389f704a1d23513d"
+        },
+        {
+          "archive_name": "Linkin Park - In The End (Demo)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f916f48716c74843d2985725c09ec74e67d72fb3d6dc606c8fd1b621150b7dc2"
+        },
+        {
+          "archive_name": "Linkin Park - In The End (Demo)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "52c8f1101bfcea3a591948023016ebbd3ed86ae875b62068f86e530df5d25aea"
+        }
+      ],
+      "archive_sha256": "692b0bf757ec3b9dbdc981fe7b3dc69ac3dd02d22927e4410456ba15ac0f293c",
+      "archive_bytes": 22155264,
+      "prepared_bytes": 19132965,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "demo",
+      "curation_key": "intheenddemo"
+    }
+  ]
+}

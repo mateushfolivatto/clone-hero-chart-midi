@@ -308,6 +308,36 @@ checks; fresh isolated ZIP/Drive/Onyx recovery and unchanged offline resume pass
 on Linux. Native Windows execution, game acceptance and the cause of prior Windows
 Onyx delays remain unverified. No ML or transcription scope was advanced.
 
+### Scan feedback and Linkin Park expansion — 2026-10-27
+
+The user's badsongs report contained 301 duplicate-chart relationships, including
+a nested copy of the old complement and a loose duplicate of The Emptiness Machine.
+It also had two nonblocking lyric warnings. The user confirmed that the duplicate
+cleanup worked. This is scan/organization feedback, not a blanket playtest or
+timing acceptance; individual game_verified flags remain unchanged. The raw log
+and personal filesystem paths must stay outside Git.
+
+The user then requested as much Linkin Park as possible, specifically checking
+Given Up. It already exists as Pro Drums/Expert in batch 02 and was not
+republished. The 475-package/255-edition drum-catalog pass appended 207 charts
+in batches 19–30: 172 Pro Drums and 35 ordinary Drums, with demos
+and live editions separated. The collection now has 518 charts overall;
+there are 240 band/credited-collaboration editions including the 33 earlier ones.
+Gaps remain explicit in the catalog and 100-entry official-album reference CSVs.
+One More Light and Good Goodbye native probes had no ExpertDrums section.
+
+Catalog platform labels now defer to actual container signatures. Band-only
+recovery validates immutable source recipes and can restore missing earlier tracks,
+including Given Up, without downloading the other artists in those batches.
+The standalone additions helper compares actual candidate/installed folders and
+exports only absent songs; uncertain shared-chart/format-label cases stay for
+review. Onyx's Windows arguments, supervision and persistent diagnostics are
+unchanged, as are all prior recipes and Qobuz coverage. recover_pilot.py changes
+only its index pin. All 100 tests and gates passed, with isolated fresh recovery,
+offline resume and real-song export checks on Linux. See song-library/LINKIN-PARK.md
+and docs/library-linkin-park-verification.md. Native Windows/individual playtests
+remain pending. BACKLOG.md DCF-LIB-014 owns preparation-pass status.
+
 ## Do not do yet
 
 - GUI

@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "batch_number": 29,
+  "collection_folder": "MixDrumRock - Lote 29 - Linkin Park",
+  "archive_name": "MixDrumRock-lote-29.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "linkin-park",
+  "theme_label": "Linkin Park",
+  "edition_group": "live",
+  "edition_group_label": "Ao vivo",
+  "songs": [
+    {
+      "artist": "Linkin Park",
+      "title": "What I've Done - Unshatter Film Soundtrack - Live in São Paulo",
+      "file_id": "a043bea2983e492f9889151e6bc4ec3d",
+      "source_url": "https://rhythmverse.co/songfile/a043bea2983e492f9889151e6bc4ec3d",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/a043bea2983e492f9889151e6bc4ec3d/Linkin%20Park%20-%20What%20Ive%20Done%20-%20Unshatter%20Film%20Soundtrack%20-%20Live%20in%20S%C3%A3o%20Paulo%20(mjey).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - What I've Done - Unshatter Film Soundtrack - Live in São Paulo [a043bea2]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 982,
+          "kick_note_on_count": 339,
+          "tom_marker_count": 60,
+          "last_expert_onset_seconds": 201.793,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a043bea2983e492f9889151e6bc4ec3d",
+        "artist": "Linkin Park",
+        "title": "What I've Done - Unshatter Film Soundtrack - Live in São Paulo",
+        "album": "Unshatter Film Soundtrack (Live in São Paulo)",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/a043bea2983e492f9889151e6bc4ec3d",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/a043bea2983e492f9889151e6bc4ec3d/Linkin Park - What Ive Done - Unshatter Film Soundtrack - Live in São Paulo (mjey).zip",
+        "duration_seconds": 210.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - What I've Done - Unshatter Film Soundtrack - Live in São Paulo (mjey)/album.png",
+          "name": "album.png",
+          "sha256": "503f215e69c2a72c62796e33011b029db552e88d6f5506f924bd42261eff41d9"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done - Unshatter Film Soundtrack - Live in São Paulo (mjey)/background.png",
+          "name": "background.png",
+          "sha256": "17075d969ba7dd6fd81560f2e6140e2f8b5d540b6251ea84a07c57ecb930703f"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done - Unshatter Film Soundtrack - Live in São Paulo (mjey)/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "d8df1f93d26c891e255ef9abfbcd348121d0bf6d9226dbba90fb2cef366dcdbb"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done - Unshatter Film Soundtrack - Live in São Paulo (mjey)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "7cbe70a60981dcbb94119d715bba992c299704e795ffc95996f83ba107e3e8a8"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done - Unshatter Film Soundtrack - Live in São Paulo (mjey)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "e1c76c0d15eee0cd2387fc44233b4dccda16a5bf67ee45e0741c725ce627ffe6"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done - Unshatter Film Soundtrack - Live in São Paulo (mjey)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "eee34c10dbc46dcbf561b675060b0b53d478a7407e39651f5b6f2ebb42dd2d38"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done - Unshatter Film Soundtrack - Live in São Paulo (mjey)/song.ini",
+          "name": "song.ini",
+          "sha256": "7eb148236c9f5b12133771bf16a5037ce3369b90c1fe0c86900fd0fffdd49b10"
+        },
+        {
+          "archive_name": "Linkin Park - What I've Done - Unshatter Film Soundtrack - Live in São Paulo (mjey)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "77f1759313ff33fc6f073b3629e71c98a29b19d758ede1508dc2cb2c2134cd50"
+        }
+      ],
+      "archive_sha256": "c2c5e67a17b7c9b3f207b78906b03de65df29cd502320f7b4bd36bd7248cbb46",
+      "archive_bytes": 20268824,
+      "prepared_bytes": 20443456,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "whativedoneunshatterfilmsoundtrackliveinsaopaulo"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "Wish - Live Projekt Revolution 2004",
+      "file_id": "dd1d94ae9ba94be2b5b5c5555288eeb8",
+      "source_url": "https://rhythmverse.co/songfile/dd1d94ae9ba94be2b5b5c5555288eeb8",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/dd1d94ae9ba94be2b5b5c5555288eeb8/Linkin%20Park%20-%20Wish%20-%20Live%20Projekt%20Revolution%202004%20(mjey2010).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park - Wish - Live Projekt Revolution 2004 [dd1d94ae]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2093,
+          "kick_note_on_count": 461,
+          "tom_marker_count": 1159,
+          "last_expert_onset_seconds": 214.247,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "dd1d94ae9ba94be2b5b5c5555288eeb8",
+        "artist": "Linkin Park",
+        "title": "Wish - Live Projekt Revolution 2004",
+        "album": "Meteora 20th Anniversary Edition",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/dd1d94ae9ba94be2b5b5c5555288eeb8",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/dd1d94ae9ba94be2b5b5c5555288eeb8/Linkin Park - Wish - Live Projekt Revolution 2004 (mjey2010).zip",
+        "duration_seconds": 217.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "mjey",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - Wish - Live Projekt Revolution 2004 (mjey2010)/album.png",
+          "name": "album.png",
+          "sha256": "535cfe913904480613d463cda22ad8c46445aba9892fb4d4c6aa0cb642ed50a2"
+        },
+        {
+          "archive_name": "Linkin Park - Wish - Live Projekt Revolution 2004 (mjey2010)/background.png",
+          "name": "background.png",
+          "sha256": "f5c5b4e56773b72b4e661bdcbd60f0ca4fe232e828dd5ae593915e8f6366603d"
+        },
+        {
+          "archive_name": "Linkin Park - Wish - Live Projekt Revolution 2004 (mjey2010)/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "58bb37936315ce34d4833996558e7e1f7bbef5d3cf8c0f6a1069731cfa2b1f32"
+        },
+        {
+          "archive_name": "Linkin Park - Wish - Live Projekt Revolution 2004 (mjey2010)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "f79e62b1fe77434cb6a20c24e5e9318a3689012153167e8d085b48247d34c7ee"
+        },
+        {
+          "archive_name": "Linkin Park - Wish - Live Projekt Revolution 2004 (mjey2010)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "b9a6709ff351027a72269eb5e828dfe5d51f4e3b75fdaf138202929540786432"
+        },
+        {
+          "archive_name": "Linkin Park - Wish - Live Projekt Revolution 2004 (mjey2010)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c6d96054052930143486908575cdb937132d5198aa171e55f3f5d6ef3b8991e3"
+        },
+        {
+          "archive_name": "Linkin Park - Wish - Live Projekt Revolution 2004 (mjey2010)/song.ini",
+          "name": "song.ini",
+          "sha256": "121c553a1627b6b079dca3a5452ed620584ff6aea5e8800331bac973781f55c8"
+        },
+        {
+          "archive_name": "Linkin Park - Wish - Live Projekt Revolution 2004 (mjey2010)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "f8e91879269431593e7b975f68d9cb4777acb2ac606b95a6f035af8bde558273"
+        }
+      ],
+      "archive_sha256": "59662ea2e91f23c2b2ecb172a918c0611014c0fd516102b6ec7896619e0ad16b",
+      "archive_bytes": 24018910,
+      "prepared_bytes": 24236269,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "wishliveprojektrevolution2004"
+    },
+    {
+      "artist": "Linkin Park",
+      "title": "With You (Live In Texas)",
+      "file_id": "b3d1164c40f747d08b4e6d2186c2df95",
+      "source_url": "https://rhythmverse.co/songfile/b3d1164c40f747d08b4e6d2186c2df95",
+      "download_url": "https://rhythmverse.co/download_file/luna2/b3d1164c40f747d08b4e6d2186c2df95/WithYouLiveInTexas_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park - With You (Live In Texas) [b3d1164c]",
+      "charter": "Luna, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1274,
+          "kick_note_on_count": 296,
+          "tom_marker_count": 111,
+          "last_expert_onset_seconds": 202.586,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b3d1164c40f747d08b4e6d2186c2df95",
+        "artist": "Linkin Park",
+        "title": "With You (Live In Texas)",
+        "album": "Live In Texas",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/b3d1164c40f747d08b4e6d2186c2df95",
+        "download_url": "https://rhythmverse.co/download_file/luna2/b3d1164c40f747d08b4e6d2186c2df95/WithYouLiveInTexas_rb3con",
+        "duration_seconds": 205.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "Luna",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park - With You (Live In Texas)/album.png",
+          "name": "album.png",
+          "sha256": "47e736364155bfc2e45945154fce05a5c856d9330e80818e54911cea605641f8"
+        },
+        {
+          "archive_name": "Linkin Park - With You (Live In Texas)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "3f33150890596c825df24203a896789d1ce189802f9b32c50a0bf9c0748685d3"
+        },
+        {
+          "archive_name": "Linkin Park - With You (Live In Texas)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "33beead8fe0ea481c0126cb8cf754fa9213b91efc46ee55946c00b4aec84561d"
+        },
+        {
+          "archive_name": "Linkin Park - With You (Live In Texas)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "4e3eae804e3258b480e45d8cefa71bea84c7f78313f9b7f0d32cd5fdbaff7570"
+        },
+        {
+          "archive_name": "Linkin Park - With You (Live In Texas)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "e0dba68237a2c347faa9644953168d0aa5d2618570ed3af794dbd0b44859534a"
+        },
+        {
+          "archive_name": "Linkin Park - With You (Live In Texas)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2b91fa20cd7e429dd0da0690f7c90f72294ec80b4ca98add11087fff95f7a5c1"
+        },
+        {
+          "archive_name": "Linkin Park - With You (Live In Texas)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "8ea3d793889e3e71bbe7ea07a3b3ff7ec309629d0f2ba3b033079a0406698a85"
+        },
+        {
+          "archive_name": "Linkin Park - With You (Live In Texas)/song.ini",
+          "name": "song.ini",
+          "sha256": "510c8ffd726136bf64580767abae1b3f5a8ba0707eedef66f520f196cfc99a8d"
+        },
+        {
+          "archive_name": "Linkin Park - With You (Live In Texas)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7528a7fda208839cf0ee7b9f2c7ef091b7fc641ab53c674127fdc610f089570a"
+        },
+        {
+          "archive_name": "Linkin Park - With You (Live In Texas)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "0e5952f4d6eb110bc8cf3e6a5ba6d85644ea0d6580fcc6707148decac43d35c2"
+        }
+      ],
+      "archive_sha256": "572a7579b4312dba0bb39f128733376c6b55d3c09bfdb786aaff8d209bfd82bb",
+      "archive_bytes": 20373504,
+      "prepared_bytes": 17516686,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "withyouliveintexas"
+    },
+    {
+      "artist": "Linkin Park / JAY-Z",
+      "title": "Numb Encore (Live)",
+      "file_id": "c213f425be89485c951edc1295a80779",
+      "source_url": "https://rhythmverse.co/songfile/c213f425be89485c951edc1295a80779",
+      "download_url": "https://rhythmverse.co/download_file/jay-jay/c213f425be89485c951edc1295a80779/Linkin%20Park%20%26%20JAY-Z%20-%20Numb%20Encore%20(Live).zip",
+      "archive_format": "zip",
+      "folder": "Linkin Park _ JAY-Z - Numb Encore (Live) [c213f425]",
+      "charter": ".dam3",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 958,
+          "kick_note_on_count": 229,
+          "cymbal_marker_count": 589,
+          "last_expert_onset_seconds": 203.192,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c213f425be89485c951edc1295a80779",
+        "artist": "Linkin Park / JAY-Z",
+        "title": "Numb Encore (Live)",
+        "album": "Collision Course",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/c213f425be89485c951edc1295a80779",
+        "download_url": "https://rhythmverse.co/download_file/jay-jay/c213f425be89485c951edc1295a80779/Linkin Park %26 JAY-Z - Numb Encore (Live).zip",
+        "duration_seconds": 212.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": ".dam3",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park & JAY-Z - Numb Encore (Live)/album.jpg",
+          "name": "album.jpg",
+          "sha256": "8928d0695325913d969774d474defdd384fd6bcbe1d54f0d04b4ffd41d55cbf3"
+        },
+        {
+          "archive_name": "Linkin Park & JAY-Z - Numb Encore (Live)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "a19c0ba84ca165ea881670b820c7df879c8cb91e7ff737ab6d016c7e534d5c1e"
+        },
+        {
+          "archive_name": "Linkin Park & JAY-Z - Numb Encore (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "ad7edc99c1286dcc86fe98cfb9c6f884c77ae139dc66f0c38fc95504356d8eb2"
+        },
+        {
+          "archive_name": "Linkin Park & JAY-Z - Numb Encore (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "c55edceaa582a11b4d935e57c5e98fd54728c819479604545bd04ed9b4a4e75f"
+        }
+      ],
+      "archive_sha256": "347c8ade898ca3e2786112b79c57dc10d0ddc8acd4c0a25e67e576ce772561f3",
+      "archive_bytes": 175618304,
+      "prepared_bytes": 7599369,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "numbencorelive"
+    }
+  ]
+}

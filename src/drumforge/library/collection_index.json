@@ -2,11 +2,11 @@
   "schema_version": 1,
   "playlist_url": "https://open.qobuz.com/playlist/69773629",
   "playlist_entries": 744,
-  "unique_new_charts": 299,
+  "unique_new_charts": 506,
   "active_new_charts": 254,
   "drum_modes": {
-    "pro": 285,
-    "standard": 14
+    "pro": 457,
+    "standard": 49
   },
   "coverage_entries": {
     "prepared": 262,
@@ -15,9 +15,9 @@
     "pilot": 13,
     "blocked": 61
   },
-  "download_bytes": 4423822855,
-  "prepared_bytes": 3792563952,
-  "recommended_free_bytes": 14156434407,
+  "download_bytes": 8377063736,
+  "prepared_bytes": 6902113172,
+  "recommended_free_bytes": 24328773728,
   "game_verified": false,
   "batches": [
     {
@@ -150,6 +150,138 @@
       "drum_mode": "standard",
       "theme": "similar",
       "theme_label": "Semelhantes a Linkin Park"
+    },
+    {
+      "number": 19,
+      "manifest": "collection_19.json",
+      "sha256": "1f1312e434bcb3ed6c0a7c660cf8e538dcba9cc9304223a2fdcb6eb1e64f2709",
+      "songs": 25,
+      "drum_mode": "pro",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "studio_and_other",
+      "edition_group_label": "Faixas e raridades"
+    },
+    {
+      "number": 20,
+      "manifest": "collection_20.json",
+      "sha256": "c93e3a9c16974fdc1263e2f10f3156a72f30f43fb993a7f60acd9ae3901b5279",
+      "songs": 25,
+      "drum_mode": "pro",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "studio_and_other",
+      "edition_group_label": "Faixas e raridades"
+    },
+    {
+      "number": 21,
+      "manifest": "collection_21.json",
+      "sha256": "a6840ee237c1b22ecfa51d4910b93cdf395a9ab3865bebead443033a829a7562",
+      "songs": 25,
+      "drum_mode": "pro",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "studio_and_other",
+      "edition_group_label": "Faixas e raridades"
+    },
+    {
+      "number": 22,
+      "manifest": "collection_22.json",
+      "sha256": "87536800ab68de34e931b86b01b771f092b2533c85c5ca11026e1f8aeb331b1e",
+      "songs": 1,
+      "drum_mode": "pro",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "studio_and_other",
+      "edition_group_label": "Faixas e raridades"
+    },
+    {
+      "number": 23,
+      "manifest": "collection_23.json",
+      "sha256": "77dd1463290c0e15d9be3308274a0b68ab6cff9f036b5bdac66b62e964abaede",
+      "songs": 16,
+      "drum_mode": "standard",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "studio_and_other",
+      "edition_group_label": "Faixas e raridades"
+    },
+    {
+      "number": 24,
+      "manifest": "collection_24.json",
+      "sha256": "7fba971ebc05ce33e699ef4b80a9d388219d5efd06f67c98e1abc8202eced72e",
+      "songs": 25,
+      "drum_mode": "pro",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "demo",
+      "edition_group_label": "Demos"
+    },
+    {
+      "number": 25,
+      "manifest": "collection_25.json",
+      "sha256": "4e8cd208cd2db9f65bea3c1e0cb3072b609968a1a9f9192c0add3f042e1bba3f",
+      "songs": 17,
+      "drum_mode": "pro",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "demo",
+      "edition_group_label": "Demos"
+    },
+    {
+      "number": 26,
+      "manifest": "collection_26.json",
+      "sha256": "06dae564e391334a9f25bcb73d5c9d866a3716e1cf0edfb59c65c09cbcff68b5",
+      "songs": 17,
+      "drum_mode": "standard",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "demo",
+      "edition_group_label": "Demos"
+    },
+    {
+      "number": 27,
+      "manifest": "collection_27.json",
+      "sha256": "8608890d00e5f8582a2e8a8056453c16d61f692e8df6999d1e46ecd85c8d6d46",
+      "songs": 25,
+      "drum_mode": "pro",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "live",
+      "edition_group_label": "Ao vivo"
+    },
+    {
+      "number": 28,
+      "manifest": "collection_28.json",
+      "sha256": "164277639051758382a35ba78780636a53aa788aa7da6188a5d4a021e0aaf4be",
+      "songs": 25,
+      "drum_mode": "pro",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "live",
+      "edition_group_label": "Ao vivo"
+    },
+    {
+      "number": 29,
+      "manifest": "collection_29.json",
+      "sha256": "a6f2c726cd1cd3c323204ac6ce74428f0211a2cc1dfdfd9e7ca75d571470af2e",
+      "songs": 4,
+      "drum_mode": "pro",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "live",
+      "edition_group_label": "Ao vivo"
+    },
+    {
+      "number": 30,
+      "manifest": "collection_30.json",
+      "sha256": "465f0289d37ab14f7e66208e86b30874f0fd62640a426b6f0ce7ce6507baea91",
+      "songs": 2,
+      "drum_mode": "standard",
+      "theme": "linkin-park",
+      "theme_label": "Linkin Park",
+      "edition_group": "live",
+      "edition_group_label": "Ao vivo"
     }
   ],
   "helpers": {
@@ -157,13 +289,47 @@
     "sevenzip.py": "822d12334b2ab821e3dfec5fcf38d99ce1dfc610c80cfae49170f8b83095da3a",
     "mega_recovery.py": "94149c758ca8f8d60989af41631fc4b2ba559a5f26039893f3704b52e9520191"
   },
-  "curated_charts": 45,
+  "curated_charts": 252,
   "curated_by_theme": {
     "lol": 11,
     "similar": 21,
-    "imagine": 13
+    "imagine": 13,
+    "linkin-park": 207
   },
-  "curated_download_bytes": 471733041,
-  "curated_prepared_bytes": 436519566,
-  "curated_recommended_free_bytes": 3492255821
+  "curated_download_bytes": 4424973922,
+  "curated_prepared_bytes": 3546068786,
+  "curated_recommended_free_bytes": 13664595142,
+  "linkin_park_expansion": {
+    "charts": 207,
+    "existing_band_charts": 33,
+    "catalog_packages": 475,
+    "catalog_editions": 255,
+    "download_bytes": 3953240881,
+    "prepared_bytes": 3109549220,
+    "recommended_free_bytes": 18538921409,
+    "batch_numbers": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "all_band_charts": 240,
+    "all_band_download_bytes": 4459205027,
+    "all_band_prepared_budget_bytes": 3620492155,
+    "all_band_recommended_free_bytes": 21088657295
+  },
+  "addition_helpers": {
+    "additions.py": "920c1387fddf6e80e0c183497eebf17df14171f2deb463bed000482670839111",
+    "complement.py": "e6e2607a4b24b94f77e6e4626521c9731a069ef6b33919840df5b761c3721197",
+    "local_library.py": "bfd82a7f4d3b3bad77cc5bf813ee295a153174b657b61ae4ac2e00c7ac09145a",
+    "recover_linkin_park.py": "0c9a2f4efcf1094499a908f083aa71756da02a986ebc29d016de6b257da9e586"
+  }
 }

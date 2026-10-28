@@ -84,8 +84,6 @@ def run(
                         standards[identity] = candidate
                     continue
                 try:
-                    if candidate["game"] == "rb3xbox" and onyx is None:
-                        raise ValueError("Needs the pinned Onyx converter")
                     receipt = acquire_native(candidate, root, onyx)
                     if receipt.get("drum_mode") == "standard":
                         standards[identity] = candidate

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "batch_number": 22,
+  "collection_folder": "MixDrumRock - Lote 22 - Linkin Park",
+  "archive_name": "MixDrumRock-lote-22.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "linkin-park",
+  "theme_label": "Linkin Park",
+  "edition_group": "studio_and_other",
+  "edition_group_label": "Faixas e raridades",
+  "songs": [
+    {
+      "artist": "Linkin Park, Brian Howes",
+      "title": "What Are You Worth",
+      "file_id": "de6ef0ca15474a0d95d6925676552aad",
+      "source_url": "https://rhythmverse.co/songfile/de6ef0ca15474a0d95d6925676552aad",
+      "download_url": "https://rhythmverse.co/download_file/marksempe/de6ef0ca15474a0d95d6925676552aad/LPwayw_rb3con",
+      "archive_format": "onyx",
+      "folder": "Linkin Park, Brian Howes - What Are You Worth [de6ef0ca]",
+      "charter": "MarkSempe, Geeforce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1081,
+          "kick_note_on_count": 223,
+          "tom_marker_count": 13,
+          "last_expert_onset_seconds": 188.334,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "de6ef0ca15474a0d95d6925676552aad",
+        "artist": "Linkin Park, Brian Howes",
+        "title": "What Are You Worth",
+        "album": null,
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/de6ef0ca15474a0d95d6925676552aad",
+        "download_url": "https://rhythmverse.co/download_file/marksempe/de6ef0ca15474a0d95d6925676552aad/LPwayw_rb3con",
+        "duration_seconds": 196.0,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "uploader": "MarkSempe",
+        "match_basis": "curated catalog edition; package artist/title, Expert drums and audio inspected; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Linkin Park, Brian Howes - What Are You Worth/album.png",
+          "name": "album.png",
+          "sha256": "d79d541c4786b570edfdf2e6ec26faf23b04d1a2cb2947b10d40a999d5f61bdc"
+        },
+        {
+          "archive_name": "Linkin Park, Brian Howes - What Are You Worth/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "48c7b540d1f0033c5bf0026b82c15fb1690a98016d3845819684acb224073116"
+        },
+        {
+          "archive_name": "Linkin Park, Brian Howes - What Are You Worth/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "a4b8af8927ab9a76660de2c326c4ecf0f878cb49b489db086f8f2c89e3ac80d9"
+        },
+        {
+          "archive_name": "Linkin Park, Brian Howes - What Are You Worth/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "1aba64c9d45a0a7e807ba7852abaccf340b7ec084c83ab779054b4eba806151c"
+        },
+        {
+          "archive_name": "Linkin Park, Brian Howes - What Are You Worth/notes.mid",
+          "name": "notes.mid",
+          "sha256": "4d4ac4cb888cf3fabbb8b413dcbc5f611f9b00df43b5c50f3eb6dcc5c7458b79"
+        },
+        {
+          "archive_name": "Linkin Park, Brian Howes - What Are You Worth/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "2774095892142c8a067780a6c44ea77323a240d78de0c528eae4f4765d6ab6a0"
+        },
+        {
+          "archive_name": "Linkin Park, Brian Howes - What Are You Worth/song.ini",
+          "name": "song.ini",
+          "sha256": "1297424be492b4851a14a6fd77145aaf4d1d757d35b014eac5998b85f489b0b1"
+        },
+        {
+          "archive_name": "Linkin Park, Brian Howes - What Are You Worth/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3d24e6f2c6a89374136dc509c437ea0b6dda81a00389596e43f947ebccc6513b"
+        },
+        {
+          "archive_name": "Linkin Park, Brian Howes - What Are You Worth/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "d21748fb7fb27ac4ddf4d4a4f6c7185353670a9f3eaa9007d831b7aba635ef21"
+        }
+      ],
+      "archive_sha256": "21fdb51b586e21d7462ed80793a61dbe573323c8ddf85d409ca7dd64a309b791",
+      "archive_bytes": 16834560,
+      "prepared_bytes": 17458828,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Linkin Park catalog expansion requested 2026-10-27 (America/Sao_Paulo); independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "whatareyouworth"
+    }
+  ]
+}
