@@ -15,6 +15,8 @@ sua biblioteca instalada](song-library/LINKIN-PARK.md). Given Up já está no lo
 Para Skillet, Imagine Dragons e League of Legends, veja [os lotes 31–40 e o
 comando para baixar sem repetir](song-library/SKILLET-IMAGINE-LOL.md).
 
+Para The Strokes, veja [os 20 destaques e como adicionar sem repetir](song-library/THE-STROKES.md).
+
 ## Setup
 
 Python 3.11–3.12 and [uv](https://docs.astral.sh/uv/getting-started/installation/).

@@ -1,0 +1,1382 @@
+{
+  "schema_version": 1,
+  "batch_number": 41,
+  "collection_folder": "MixDrumRock - Lote 41 - The Strokes",
+  "archive_name": "MixDrumRock-lote-41.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "strokes",
+  "theme_label": "The Strokes",
+  "songs": [
+    {
+      "artist": "The Strokes",
+      "title": "Reptilia",
+      "file_id": "encore_351472_a57effe7",
+      "source_url": "https://drive.google.com/open?id=1jRVZv0AlZ66FfczXjauvwRQpmETC9mqc",
+      "download_url": "https://drive.google.com/uc?export=download&id=1jRVZv0AlZ66FfczXjauvwRQpmETC9mqc",
+      "archive_format": "sng",
+      "folder": "The Strokes - Reptilia [encore35]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1624,
+          "kick_note_on_count": 404,
+          "tom_marker_count": 6,
+          "last_expert_onset_seconds": 215.794,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "encore_351472_a57effe7",
+        "artist": "The Strokes",
+        "title": "Reptilia",
+        "album": "Room on Fire",
+        "game": "ch",
+        "source_url": "https://drive.google.com/open?id=1jRVZv0AlZ66FfczXjauvwRQpmETC9mqc",
+        "download_url": "https://drive.google.com/uc?export=download&id=1jRVZv0AlZ66FfczXjauvwRQpmETC9mqc",
+        "catalog_pro_drums": true,
+        "catalog_drums": 3,
+        "catalog": "Encore",
+        "catalog_chart_id": 351472,
+        "catalog_md5": "a57effe7caf6d1daa49c21d4758d49e9",
+        "match_basis": "curated studio title; original creator publication; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "e205cdef06c57b4291641c9ca2ff59770b564844922f13ef55e6f244b3216771"
+        },
+        {
+          "archive_name": "drums_1.opus",
+          "name": "drums_1.opus",
+          "sha256": "fb0b093c51d6c9a24635e74415229fa74383cd8e509e30d00d255cf57cf8ec0a"
+        },
+        {
+          "archive_name": "drums_2.opus",
+          "name": "drums_2.opus",
+          "sha256": "28a5cdb35d4de6ffac8edfa6f5497a884f97c4936d0ba498d69bcdef54fc2f48"
+        },
+        {
+          "archive_name": "drums_3.opus",
+          "name": "drums_3.opus",
+          "sha256": "b9f70843ae9e4e7fbdbf63ac55bc51da1d9ab6b5fccee4d3464486989e677fb9"
+        },
+        {
+          "archive_name": "guitar.opus",
+          "name": "guitar.opus",
+          "sha256": "0c3cf252e0fd50671ae61b363a63b873259bb174ca8d7f14ff21a734b902d41d"
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "b598839acaf5072124e9aba92689a84c2b95488b06be83077943fe43f326604e"
+        },
+        {
+          "archive_name": "rhythm.opus",
+          "name": "rhythm.opus",
+          "sha256": "dd0e0d5c676e6238bd63168a2c8ddd52d3c0c705d388e4ce1cb71445da9c6300"
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "de8bc679058803d4722847d6c7900ee58ee0441fcd275294c8926fb589356822"
+        },
+        {
+          "archive_name": "song.opus",
+          "name": "song.opus",
+          "sha256": "cb271ab0c9a6ba7068559d4d0e6b515c0600a45c4eaeb88490d716b60fffd42e"
+        },
+        {
+          "archive_name": "vocals.opus",
+          "name": "vocals.opus",
+          "sha256": "3bd4acb939494c363f67f610519b9fe417acaef26d6be66190b376862e2cb0d3"
+        }
+      ],
+      "archive_sha256": "8ef668c5e6c24451833ed1252e34aaa5259a88e7f8abac1d143a3d618154aeea",
+      "archive_bytes": 14689606,
+      "prepared_bytes": 14689130,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 1
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Last Nite",
+      "file_id": "3621c2b197ab4dfb8b7b533390d89743",
+      "source_url": "https://rhythmverse.co/songfile/3621c2b197ab4dfb8b7b533390d89743",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1wQ6z2tTKp_E7u-aPW6-gF8MEfnfTdSxh",
+      "archive_format": "files",
+      "folder": "The Strokes - Last Nite [3621c2b1]",
+      "charter": "oldfashionedman",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1342,
+          "kick_note_on_count": 382,
+          "cymbal_marker_count": 627,
+          "last_expert_onset_seconds": 194.504,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3621c2b197ab4dfb8b7b533390d89743",
+        "artist": "The Strokes",
+        "title": "Last Nite",
+        "album": "Is This It",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/3621c2b197ab4dfb8b7b533390d89743",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1wQ6z2tTKp_E7u-aPW6-gF8MEfnfTdSxh",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 2,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "download_url": "https://drive.google.com/uc?export=download&id=1IWY_JMj-4IZb7pAlzvzUGvSa5y0hEw7s",
+          "source_sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "bytes": 702240
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "e87e9a7fd1146f73689af327e0cecf25d766a3dcd00e3756ad6391afc7e63c85",
+          "download_url": "https://drive.google.com/uc?export=download&id=16jUdLQoQXB6eo962Q4nsEpTq0qTYafWl",
+          "source_sha256": "e87e9a7fd1146f73689af327e0cecf25d766a3dcd00e3756ad6391afc7e63c85",
+          "bytes": 81334
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "d97a4837fce2cdcc5f3b758f8543bc43cc026ae0e287b15fbb4527063a87597b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1y99twPjfODB8sGg1Yjh_MyMEG8ft9Qm-",
+          "source_sha256": "83cce61ae6d6f270993f88dc50019308aaf984b08b540440311435e325ccd2d4",
+          "bytes": 363
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "f78825311a6b9836024f275ec5bd5779f467dbc4d66c7be1e8ce8a786c92da39",
+          "download_url": "https://drive.google.com/uc?export=download&id=1gZgjOyoApSqN1wKPEmht6UpOWQfmOoJA",
+          "source_sha256": "f78825311a6b9836024f275ec5bd5779f467dbc4d66c7be1e8ce8a786c92da39",
+          "bytes": 3306278
+        }
+      ],
+      "prepared_bytes": 4090253,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 2
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Someday",
+      "file_id": "06e3db58710f43bbabece0365522e0f8",
+      "source_url": "https://rhythmverse.co/songfile/06e3db58710f43bbabece0365522e0f8",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1YlSIRj1ODB6cMwEx03MTkWd2IlnmKCoj",
+      "archive_format": "files",
+      "folder": "The Strokes - Someday [06e3db58]",
+      "charter": "oldfashionedman",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1341,
+          "kick_note_on_count": 468,
+          "cymbal_marker_count": 542,
+          "last_expert_onset_seconds": 184.991,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "06e3db58710f43bbabece0365522e0f8",
+        "artist": "The Strokes",
+        "title": "Someday",
+        "album": "Is This It",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/06e3db58710f43bbabece0365522e0f8",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1YlSIRj1ODB6cMwEx03MTkWd2IlnmKCoj",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 3,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "download_url": "https://drive.google.com/uc?export=download&id=1mJEtJKaxPvrkk78kIeOSJsi46szDiwp7",
+          "source_sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "bytes": 702240
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "82aae17d49e9849e33aa261668cbfe272ac97ff3e209209ccf28e10e1f370737",
+          "download_url": "https://drive.google.com/uc?export=download&id=1xss-I7LzHLzs2_hFeuilC-Ng7tNL1Oe3",
+          "source_sha256": "82aae17d49e9849e33aa261668cbfe272ac97ff3e209209ccf28e10e1f370737",
+          "bytes": 44374
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "8315fc99f78c71623af729af9a1dd2982605cf22e2410bcba75e33f092cabfbf",
+          "download_url": "https://drive.google.com/uc?export=download&id=18R6tObuHic2J_iydec1UkzwtCHBpoKTz",
+          "source_sha256": "cd2ab481d88b59962f902075130d11f5e127c0381e9fe7c2ecd70cfc1114c34b",
+          "bytes": 348
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "ba2507a5b418372d2b666474b0050eabce9e0bbc0fbb1cb193bbf821bb9ef852",
+          "download_url": "https://drive.google.com/uc?export=download&id=1UbJS44ph6ibT14CkV02Va2DoIFFcKopk",
+          "source_sha256": "ba2507a5b418372d2b666474b0050eabce9e0bbc0fbb1cb193bbf821bb9ef852",
+          "bytes": 3418190
+        }
+      ],
+      "prepared_bytes": 4165187,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 3
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Hard To Explain",
+      "file_id": "3529182fb07f41f18c48d1ff4fee75fe",
+      "source_url": "https://rhythmverse.co/songfile/3529182fb07f41f18c48d1ff4fee75fe",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1PceyQRZgPQccIwHPE4GP4lykPN03fVDW",
+      "archive_format": "files",
+      "folder": "The Strokes - Hard To Explain [3529182f]",
+      "charter": "oldfashionedman",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1845,
+          "kick_note_on_count": 423,
+          "cymbal_marker_count": 1096,
+          "last_expert_onset_seconds": 225.907,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3529182fb07f41f18c48d1ff4fee75fe",
+        "artist": "The Strokes",
+        "title": "Hard To Explain",
+        "album": "Is This It",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/3529182fb07f41f18c48d1ff4fee75fe",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1PceyQRZgPQccIwHPE4GP4lykPN03fVDW",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 4,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "download_url": "https://drive.google.com/uc?export=download&id=1a3zC3kxNuVvwTWoduvwisAPVQUPNzUxH",
+          "source_sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "bytes": 702240
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "a5c767fd22c26f4273e6a0d3128f5a0d5b50ad3caeb8851816bd279d768ef79e",
+          "download_url": "https://drive.google.com/uc?export=download&id=132gA3b23dEwsOOnTtq27izFBvyJxB_1N",
+          "source_sha256": "a5c767fd22c26f4273e6a0d3128f5a0d5b50ad3caeb8851816bd279d768ef79e",
+          "bytes": 74603
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "b24ef712b7571d1c0fcd28eb3ea9caa58f90fb824e8561d6cd984362c1ea34ac",
+          "download_url": "https://drive.google.com/uc?export=download&id=1szI_GEQotMLSUbQAJ_WVfahmdOUC4C9G",
+          "source_sha256": "234c04e7db928f0683c5c279ab08b415641f4095062096aa685ccf17279afd9c",
+          "bytes": 377
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "2f1c9ef14ffcfb11561ad53f52aa582f87096ebeb15be0d20b17eaca7e5b0e65",
+          "download_url": "https://drive.google.com/uc?export=download&id=1UsnbdL-Yi_hopv7cMM0E_iKM8RxfEESz",
+          "source_sha256": "2f1c9ef14ffcfb11561ad53f52aa582f87096ebeb15be0d20b17eaca7e5b0e65",
+          "bytes": 3780263
+        }
+      ],
+      "prepared_bytes": 4557517,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 4
+    },
+    {
+      "artist": "The Strokes",
+      "title": "You Only Live Once",
+      "file_id": "c1808dec9f2e4f1da1acbe3fbe910484",
+      "source_url": "https://rhythmverse.co/songfile/c1808dec9f2e4f1da1acbe3fbe910484",
+      "download_url": "https://drive.google.com/uc?export=download&id=1gUXZlfhyGgimv0RtzFe9ZtD55iCPxs-d",
+      "archive_format": "7z",
+      "folder": "The Strokes - You Only Live Once [c1808dec]",
+      "charter": "<color=#9C5CD4>tired</color>n<color=#FCF434>wired</color>",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1176,
+          "kick_note_on_count": 219,
+          "cymbal_marker_count": 755,
+          "last_expert_onset_seconds": 181.299,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c1808dec9f2e4f1da1acbe3fbe910484",
+        "artist": "The Strokes",
+        "title": "You Only Live Once",
+        "album": "First Impressions of Earth",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/c1808dec9f2e4f1da1acbe3fbe910484",
+        "download_url": "https://drive.google.com/file/d/1gUXZlfhyGgimv0RtzFe9ZtD55iCPxs-d",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 4,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "The Strokes - You Only Live Once/album.png",
+          "name": "album.png",
+          "sha256": "d2430c07bfab6b94c534247e82be106ea62ed58fe68f47e89c11c99d39851d1d"
+        },
+        {
+          "archive_name": "The Strokes - You Only Live Once/notes.chart",
+          "name": "notes.chart",
+          "sha256": "8e8e99b079b7cfe7c0523d43a6e80ad349f15fa711ca8a57eee9e11a77448f47"
+        },
+        {
+          "archive_name": "The Strokes - You Only Live Once/song.ini",
+          "name": "song.ini",
+          "sha256": "1da1a844ad4466c7424f1e08fd9879b44272f51733731fffd4d1912972fb68c6"
+        },
+        {
+          "archive_name": "The Strokes - You Only Live Once/song.ogg",
+          "name": "song.ogg",
+          "sha256": "487a3e1731c32ee4131702dcfbcf56046410f1dd12ba4b7762302daa849a7341"
+        }
+      ],
+      "archive_sha256": "a71a901ad3ac82b41f7335d9181fb1aecb5e2873ce449bb9b6f5a0fdcab52116",
+      "archive_bytes": 10966702,
+      "prepared_bytes": 11176233,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 5
+    },
+    {
+      "artist": "The Strokes",
+      "title": "The Adults Are Talking",
+      "file_id": "3ac57978997649f1ab525b8be76ab637",
+      "source_url": "https://rhythmverse.co/songfile/3ac57978997649f1ab525b8be76ab637",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1CiO2sirZpPvTfmoDJ6u0o0CNL9-jL_Yu",
+      "archive_format": "files",
+      "folder": "The Strokes - The Adults Are Talking [3ac57978]",
+      "charter": "Pedrokup",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1916,
+          "kick_note_on_count": 784,
+          "cymbal_marker_count": 706,
+          "last_expert_onset_seconds": 289.025,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "3ac57978997649f1ab525b8be76ab637",
+        "artist": "The Strokes",
+        "title": "The Adults Are Talking",
+        "album": "The New Abnormal",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/3ac57978997649f1ab525b8be76ab637",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1CiO2sirZpPvTfmoDJ6u0o0CNL9-jL_Yu",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 4,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "f7cfe21ce83489a241eed303bc6cb53c6c6679294b7f1be674f4c42caddcce03",
+          "download_url": "https://drive.google.com/uc?export=download&id=14yA6i4RShdrm2PXPdq8ki5YeVDljsuDB",
+          "source_sha256": "f7cfe21ce83489a241eed303bc6cb53c6c6679294b7f1be674f4c42caddcce03",
+          "bytes": 160103
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "6c3663a90a1698fbfbae5b0f92604519e8f2529b2d62b384804685faeaf41f17",
+          "download_url": "https://drive.google.com/uc?export=download&id=1tUbid4MLb5ocTYwHf0x1xInXEjbf2tcr",
+          "source_sha256": "6c3663a90a1698fbfbae5b0f92604519e8f2529b2d62b384804685faeaf41f17",
+          "bytes": 124292
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "063bd56452bf3785402545db2b48d4c4d823197242a969a9292d722ca151eabc",
+          "download_url": "https://drive.google.com/uc?export=download&id=1xY_bpzSvY3ABn3YZOHyDpeaYW2rKtrVn",
+          "source_sha256": "0ee6f08edc4b201fcac13bbdbeae187491edcdedd3c88b16d5880df2c2a25eb3",
+          "bytes": 411
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "1728533536a908c4a6d5b9eaabcad13edb50cf45f81a0882e3934d9e991117d9",
+          "download_url": "https://drive.google.com/uc?export=download&id=1IJZ1EEHpVNBOtdhQ3_ck8GdXrdoPVUEN",
+          "source_sha256": "1728533536a908c4a6d5b9eaabcad13edb50cf45f81a0882e3934d9e991117d9",
+          "bytes": 5079804
+        }
+      ],
+      "prepared_bytes": 5364603,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 6
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Under Cover of Darkness",
+      "file_id": "encore_369719_6241783b",
+      "source_url": "https://drive.google.com/open?id=1N9xUmcniHq8REmwpDrTIetegFnIaIr_L",
+      "download_url": "https://drive.google.com/uc?export=download&id=1N9xUmcniHq8REmwpDrTIetegFnIaIr_L",
+      "archive_format": "sng",
+      "folder": "The Strokes - Under Cover of Darkness [encore36]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1615,
+          "kick_note_on_count": 497,
+          "tom_marker_count": 9,
+          "last_expert_onset_seconds": 237.3,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "encore_369719_6241783b",
+        "artist": "The Strokes",
+        "title": "Under Cover of Darkness",
+        "album": "Angles",
+        "game": "ch",
+        "source_url": "https://drive.google.com/open?id=1N9xUmcniHq8REmwpDrTIetegFnIaIr_L",
+        "download_url": "https://drive.google.com/uc?export=download&id=1N9xUmcniHq8REmwpDrTIetegFnIaIr_L",
+        "catalog_pro_drums": true,
+        "catalog_drums": 3,
+        "catalog": "Encore",
+        "catalog_chart_id": 369719,
+        "catalog_md5": "6241783b64698f0e30688faf4ea09f24",
+        "match_basis": "curated studio title; original creator publication; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "35898ddd06b9664a5b68491822e18999c62f6652c801f35bfa9e44a856e18c88"
+        },
+        {
+          "archive_name": "drums_1.opus",
+          "name": "drums_1.opus",
+          "sha256": "e252b16a07ac78d4c20bbd0b287e5bfab89e349ce3f3946c21369c35aa7d85c6"
+        },
+        {
+          "archive_name": "drums_2.opus",
+          "name": "drums_2.opus",
+          "sha256": "3d5f1b02dc4044cbca6ab6a8b6356dd3d208f278087f65ff07c795539e94faff"
+        },
+        {
+          "archive_name": "guitar.opus",
+          "name": "guitar.opus",
+          "sha256": "d9ed363fe2749c9f9a18b0e459fab6c5757b9e8850fdc0b769a09985671f4cbb"
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "85c3c76a42e4d86c9d32662860e3f12b2faa7cc8a7a3b01d6672cc879687c5f5"
+        },
+        {
+          "archive_name": "rhythm.opus",
+          "name": "rhythm.opus",
+          "sha256": "ebccafd84f3ce5c6c4e3b52d1084489118efa79b1669f884f2a0be6777006cac"
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "79ea3d08da0d6959cc1394c65b1c7cb0606f901527111ac475d151bf8279d9cf"
+        },
+        {
+          "archive_name": "song.opus",
+          "name": "song.opus",
+          "sha256": "2ca4697b3376c739773455c3f38efeb3636c79a6634b6b23165aa7541bdf872e"
+        },
+        {
+          "archive_name": "vocals.opus",
+          "name": "vocals.opus",
+          "sha256": "f0b5cdff967b29b4b5021be5b232c0f586a2ce4759411cd814e45cbca55bab26"
+        }
+      ],
+      "archive_sha256": "ea6d1b202298db11a10a4f49479c589ce8b2bce0a28bf9953dd53210cf70accc",
+      "archive_bytes": 13272783,
+      "prepared_bytes": 13272340,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 7
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Juicebox",
+      "file_id": "ae03d5e57c984d6b9d01c9eba035fbb1",
+      "source_url": "https://rhythmverse.co/songfile/ae03d5e57c984d6b9d01c9eba035fbb1",
+      "download_url": "https://rhythmverse.co/download_file/ian-zaragoza/ae03d5e57c984d6b9d01c9eba035fbb1/The%20Strokes%20-%20Juicebox.zip",
+      "archive_format": "zip",
+      "folder": "The Strokes - Juicebox [ae03d5e5]",
+      "charter": "<color=#f502d4>TranceXZero, Iaan32</color>",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1900,
+          "kick_note_on_count": 540,
+          "cymbal_marker_count": 1076,
+          "last_expert_onset_seconds": 192.872,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "ae03d5e57c984d6b9d01c9eba035fbb1",
+        "artist": "The Strokes",
+        "title": "Juicebox",
+        "album": "First Impressions of Earth",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/ae03d5e57c984d6b9d01c9eba035fbb1",
+        "download_url": "https://rhythmverse.co/download_file/ian-zaragoza/ae03d5e57c984d6b9d01c9eba035fbb1/The Strokes - Juicebox.zip",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 4,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "The Strokes - Juicebox/album.jpg",
+          "name": "album.jpg",
+          "sha256": "72d0f6f2fb80d7720073094c0512d14193b5659ca240a6613a0820acf5dee8f2"
+        },
+        {
+          "archive_name": "The Strokes - Juicebox/notes.chart",
+          "name": "notes.chart",
+          "sha256": "1d17807a7f7fb77a68c1f1cd4ea107a682b44bab0a425250d735540269ddbe4e"
+        },
+        {
+          "archive_name": "The Strokes - Juicebox/song.ini",
+          "name": "song.ini",
+          "sha256": "f206809e32cdc1244a5523e9418d77babfb8aac76e38c62ebbeaa8a029dbdbeb"
+        },
+        {
+          "archive_name": "The Strokes - Juicebox/song.ogg",
+          "name": "song.ogg",
+          "sha256": "27791a010f6dca352183033dd7f67855222baf06831beeec922bc0683177261a"
+        }
+      ],
+      "archive_sha256": "5d7aaca858642925212a2a32afd5d376aa4f72db317ecb2e26e193d87113a5b2",
+      "archive_bytes": 11108000,
+      "prepared_bytes": 11509799,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 8
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Heart in a Cage",
+      "file_id": "5fe0451410e529.79289281",
+      "source_url": "https://rhythmverse.co/songfile/5fe0451410e529.79289281",
+      "download_url": "https://rhythmverse.co/download_file/kamotch/5fe0451410e529.79289281/kam_strokes_hiac2_CON",
+      "archive_format": "onyx",
+      "folder": "The Strokes - Heart in a Cage [5fe04514]",
+      "charter": "Kamotch",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1476,
+          "kick_note_on_count": 412,
+          "tom_marker_count": 237,
+          "last_expert_onset_seconds": 193.772,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5fe0451410e529.79289281",
+        "artist": "The Strokes",
+        "title": "Heart in a Cage",
+        "album": "First Impressions of Earth",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5fe0451410e529.79289281",
+        "download_url": "https://rhythmverse.co/download_file/kamotch/5fe0451410e529.79289281/kam_strokes_hiac2_CON",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 5,
+        "catalog_charter": "",
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "The Strokes - Heart in a Cage/album.png",
+          "name": "album.png",
+          "sha256": "ee1825af640b058c6297c49a3d014f999622d94f24347e0e18e0ceca4ff07ac8"
+        },
+        {
+          "archive_name": "The Strokes - Heart in a Cage/notes.mid",
+          "name": "notes.mid",
+          "sha256": "40eb106216672a6f6f95b497171e408e4278a8a28af46ce956cc37bfaab48cde"
+        },
+        {
+          "archive_name": "The Strokes - Heart in a Cage/song.ini",
+          "name": "song.ini",
+          "sha256": "4fd3f1abcc9ae208957219aced1157409a76726a174da9da98337a2617db99f9"
+        },
+        {
+          "archive_name": "The Strokes - Heart in a Cage/song.ogg",
+          "name": "song.ogg",
+          "sha256": "4a5a251c4c9af265aec001806b14e8dd878a298832265098cfeceee3db9586e5"
+        }
+      ],
+      "archive_sha256": "014f1dd76229af25431c4766a90ffa4456455b27ebf1d134422ef326a9f9e3ef",
+      "archive_bytes": 5083136,
+      "prepared_bytes": 4577047,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 9
+    },
+    {
+      "artist": "The Strokes",
+      "title": "The Modern Age",
+      "file_id": "918d77a846f84c9ca8135a7cd8a87b3b",
+      "source_url": "https://rhythmverse.co/songfile/918d77a846f84c9ca8135a7cd8a87b3b",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1zQDSpk8IbgXkv5BKREUL9KNh906ZXTyc",
+      "archive_format": "files",
+      "folder": "The Strokes - The Modern Age [918d77a8]",
+      "charter": "oldfashionedman",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1749,
+          "kick_note_on_count": 434,
+          "cymbal_marker_count": 257,
+          "last_expert_onset_seconds": 206.912,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "918d77a846f84c9ca8135a7cd8a87b3b",
+        "artist": "The Strokes",
+        "title": "The Modern Age",
+        "album": "Is This It",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/918d77a846f84c9ca8135a7cd8a87b3b",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1zQDSpk8IbgXkv5BKREUL9KNh906ZXTyc",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 3,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Lt2tkSqPCR6FMblOhx_DVS2oK_du9aYY",
+          "source_sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "bytes": 702240
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "ecc1391ea1b0887cef90b279fa99bf2518b18b0162e898bb4390f682835d153c",
+          "download_url": "https://drive.google.com/uc?export=download&id=1QxY6f3p-KupMBGhzvzNHXQ5c54O6_JAZ",
+          "source_sha256": "ecc1391ea1b0887cef90b279fa99bf2518b18b0162e898bb4390f682835d153c",
+          "bytes": 90484
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "dd76c4e7f59fa50415f3806889d4ae41c41c0e60d2ac584877ea5ad31ccfd092",
+          "download_url": "https://drive.google.com/uc?export=download&id=123gcaiWE8niPMPHJFjxjfG7n7p1qWKEO",
+          "source_sha256": "bc670a83a92b91781947c26e38c0616960b6263613f65cc2f7d004ece43a2f2c",
+          "bytes": 374
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "7ba19a2c59ce6947c9fc823b31df101ddb72e232b1d8248c450c4b793e7f8a34",
+          "download_url": "https://drive.google.com/uc?export=download&id=1-vaZfP3Al6G_LJNxrbTrAtdODs9Zb48U",
+          "source_sha256": "7ba19a2c59ce6947c9fc823b31df101ddb72e232b1d8248c450c4b793e7f8a34",
+          "bytes": 3370922
+        }
+      ],
+      "prepared_bytes": 4164054,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 14
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Is This It",
+      "file_id": "f0409bd86a004472bb91b4981499d8e2",
+      "source_url": "https://rhythmverse.co/songfile/f0409bd86a004472bb91b4981499d8e2",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1f1XnEaIGMdidplTxQpFfaaA-ref6zSYS",
+      "archive_format": "files",
+      "folder": "The Strokes - Is This It [f0409bd8]",
+      "charter": "oldfashionedman",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 762,
+          "kick_note_on_count": 177,
+          "cymbal_marker_count": 439,
+          "last_expert_onset_seconds": 139.982,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "f0409bd86a004472bb91b4981499d8e2",
+        "artist": "The Strokes",
+        "title": "Is This It",
+        "album": "Is This It",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/f0409bd86a004472bb91b4981499d8e2",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1f1XnEaIGMdidplTxQpFfaaA-ref6zSYS",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 2,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "download_url": "https://drive.google.com/uc?export=download&id=1TLIRU_SCy1clcD9GZznqdGDmTvmoeNIq",
+          "source_sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "bytes": 702240
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "38147b95e339cfa81980b8485c65a1a81bee8a3089ad0eea7f4db74708b915bc",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Q9z3YxLM6_aPjaaNZM_EwrydWl6upKL2",
+          "source_sha256": "38147b95e339cfa81980b8485c65a1a81bee8a3089ad0eea7f4db74708b915bc",
+          "bytes": 31290
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "574f180a9670f0cc0cc588141c4a49acc670551a8501c204b989a6f62495568d",
+          "download_url": "https://drive.google.com/uc?export=download&id=17q6PzZ-lGQliwmqw8Fam-LnCW8XPvagy",
+          "source_sha256": "2559a478bddfe13256afa5fe5c82ab7d85062e9cc893001b91e9e898ddf33581",
+          "bytes": 351
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "e226755e7eaff5928ba3e68ba514aec246c589b4ebf0823e7d0544e7bf63079b",
+          "download_url": "https://drive.google.com/uc?export=download&id=1PocIOi9nClDJLerYisyDFEo64JYy7dKc",
+          "source_sha256": "e226755e7eaff5928ba3e68ba514aec246c589b4ebf0823e7d0544e7bf63079b",
+          "bytes": 2011131
+        }
+      ],
+      "prepared_bytes": 2745047,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 15
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Automatic Stop",
+      "file_id": "619ffb65d8e773.71182915",
+      "source_url": "https://rhythmverse.co/songfile/619ffb65d8e773.71182915",
+      "download_url": "https://rhythmverse.co/download_file/justmyselfandi/619ffb65d8e773.71182915/The%20Strokes%20-%20Automatic%20Stop",
+      "archive_format": "onyx",
+      "folder": "The Strokes - Automatic Stop [619ffb65]",
+      "charter": "jphn, UngratefulDead",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1439,
+          "kick_note_on_count": 352,
+          "tom_marker_count": 2,
+          "last_expert_onset_seconds": 202.885,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "619ffb65d8e773.71182915",
+        "artist": "The Strokes",
+        "title": "Automatic Stop",
+        "album": "Room on Fire",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/619ffb65d8e773.71182915",
+        "download_url": "https://rhythmverse.co/download_file/justmyselfandi/619ffb65d8e773.71182915/The Strokes - Automatic Stop",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 3,
+        "catalog_charter": "",
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "The Strokes - Automatic Stop/album.png",
+          "name": "album.png",
+          "sha256": "6dfaeba648cfa163380260b6b0fecd49d2803e3b1e89af6140e67655072f3fbe"
+        },
+        {
+          "archive_name": "The Strokes - Automatic Stop/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e6bcee840c511911ca3f483e89733e66223885fc1b5ce7afcb56a2482776cefe"
+        },
+        {
+          "archive_name": "The Strokes - Automatic Stop/song.ini",
+          "name": "song.ini",
+          "sha256": "32028ddfff1150b8a783c05f201042631bc07e10faa5c9f50c311740636277ed"
+        },
+        {
+          "archive_name": "The Strokes - Automatic Stop/song.ogg",
+          "name": "song.ogg",
+          "sha256": "32f39cbc678e347895953841a0277668475ee1909ad92a623fa92e3e4e0d4106"
+        }
+      ],
+      "archive_sha256": "89075c7b579268735cf4f792ffd96e742184f8ba558a44481d0ab38ab029c472",
+      "archive_bytes": 3837952,
+      "prepared_bytes": 3473555,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 16
+    },
+    {
+      "artist": "The Strokes",
+      "title": "New York City Cops",
+      "file_id": "76066f97268e423ba6887e8ea32a87aa",
+      "source_url": "https://rhythmverse.co/songfile/76066f97268e423ba6887e8ea32a87aa",
+      "download_url": "https://drive.google.com/drive/u/0/folders/11aqx2Qu7UmcoL1sylBab9Gd49t3mvUp9",
+      "archive_format": "files",
+      "folder": "The Strokes - New York City Cops [76066f97]",
+      "charter": "oldfashionedman",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1449,
+          "kick_note_on_count": 453,
+          "cymbal_marker_count": 660,
+          "last_expert_onset_seconds": 199.559,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "76066f97268e423ba6887e8ea32a87aa",
+        "artist": "The Strokes",
+        "title": "New York City Cops",
+        "album": "Is This It",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/76066f97268e423ba6887e8ea32a87aa",
+        "download_url": "https://drive.google.com/drive/u/0/folders/11aqx2Qu7UmcoL1sylBab9Gd49t3mvUp9",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 3,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "a598ce986746144b62b995cfbd8c40b79b13004137ca4b93346d9ff9704e872e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1DFQUAIWgVR0jcmcawM9pu_RFn3WjXwB2",
+          "source_sha256": "a598ce986746144b62b995cfbd8c40b79b13004137ca4b93346d9ff9704e872e",
+          "bytes": 15317
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "dd38158ac2c24c6133bade650b6f30eae7eefdbd04fc4df5e8f3c3933bd12acd",
+          "download_url": "https://drive.google.com/uc?export=download&id=1zP15NsI8CaKD8BDOPHC_GH8O40v7fr9c",
+          "source_sha256": "dd38158ac2c24c6133bade650b6f30eae7eefdbd04fc4df5e8f3c3933bd12acd",
+          "bytes": 59879
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "666c95ad3b1451e51758ac6160800d67ee112e938416c27c0e4839c1f0abbf16",
+          "download_url": "https://drive.google.com/uc?export=download&id=1jANMN5q_fpTF0QlHzpbSCHNDJiYMFxRI",
+          "source_sha256": "7435f34c6bc91ff7075a9d26b2df52456abbef4f1dcff4229dcbe868c370b337",
+          "bytes": 359
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "af512ea8df2b0ab5358b23a7dd2a709f0ed8d56c2560d1679b6cdce9222ac57d",
+          "download_url": "https://drive.google.com/uc?export=download&id=1cb0NzaNEnBX2mkQgwqPOsSaB6YwaGF8Y",
+          "source_sha256": "af512ea8df2b0ab5358b23a7dd2a709f0ed8d56c2560d1679b6cdce9222ac57d",
+          "bytes": 2729293
+        }
+      ],
+      "prepared_bytes": 2804883,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 17
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Selfless",
+      "file_id": "encore_355067_c97bbe5e",
+      "source_url": "https://drive.google.com/open?id=1MySI7ebV1Mz-B3LyPYj1Ba6PSSrg9pAg",
+      "download_url": "https://drive.google.com/uc?export=download&id=1MySI7ebV1Mz-B3LyPYj1Ba6PSSrg9pAg",
+      "archive_format": "zip",
+      "folder": "The Strokes - Selfless [encore35]",
+      "charter": "GMP50, Darkatness, LMBECIL1832",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1170,
+          "kick_note_on_count": 210,
+          "cymbal_marker_count": 766,
+          "last_expert_onset_seconds": 206.381,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "encore_355067_c97bbe5e",
+        "artist": "The Strokes",
+        "title": "Selfless",
+        "album": "The New Abnormal",
+        "game": "ch",
+        "source_url": "https://drive.google.com/open?id=1MySI7ebV1Mz-B3LyPYj1Ba6PSSrg9pAg",
+        "download_url": "https://drive.google.com/uc?export=download&id=1MySI7ebV1Mz-B3LyPYj1Ba6PSSrg9pAg",
+        "catalog_pro_drums": true,
+        "catalog_drums": 1,
+        "catalog": "Encore",
+        "catalog_chart_id": 355067,
+        "catalog_md5": "c97bbe5e9641c4c95c25917a1782ca9e",
+        "match_basis": "curated studio title; original creator publication; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "The Strokes - Selfless (GMP50, Darkatness, LMBECIL1832)/album.png",
+          "name": "album.png",
+          "sha256": "d1c7f9d3c620208419314816187204913f4b0c137ecf585aa83b54aade7395e9"
+        },
+        {
+          "archive_name": "The Strokes - Selfless (GMP50, Darkatness, LMBECIL1832)/background.png",
+          "name": "background.png",
+          "sha256": "06baa44482851836bb2ed4ce82713bc5387bb244cf3010129dfdc56e8abe8d4d"
+        },
+        {
+          "archive_name": "The Strokes - Selfless (GMP50, Darkatness, LMBECIL1832)/notes.chart",
+          "name": "notes.chart",
+          "sha256": "0aa46668089003df8b9c0fdf94e4f9fb6f6f2a7485be9831ee00be478180039c"
+        },
+        {
+          "archive_name": "The Strokes - Selfless (GMP50, Darkatness, LMBECIL1832)/song.ini",
+          "name": "song.ini",
+          "sha256": "0fe2207298c227ce8079315cdcbf35fdaf9041ebf7a7af416d2370e44586a496"
+        },
+        {
+          "archive_name": "The Strokes - Selfless (GMP50, Darkatness, LMBECIL1832)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "15f98dd4baa221311a97e3d2ced4baf94dbbc26ce456c2f18cc6d44123469195"
+        }
+      ],
+      "archive_sha256": "47ac9f543f94302fa6116cfbf607ecc6b77ddda7bb8d5f050fc72523c40c3e44",
+      "archive_bytes": 11137621,
+      "prepared_bytes": 11250774,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 18
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Welcome To Japan",
+      "file_id": "5929768443da59.18173936",
+      "source_url": "https://rhythmverse.co/songfile/5929768443da59.18173936",
+      "download_url": "https://rhythmverse.co/download_file/theoreo/5929768443da59.18173936/The%20Strokes%20-%20Welcome%20To%20Japan",
+      "archive_format": "onyx",
+      "folder": "The Strokes - Welcome To Japan [59297684]",
+      "charter": "Ungrateful Dead, The Oreo",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1468,
+          "kick_note_on_count": 438,
+          "tom_marker_count": 27,
+          "last_expert_onset_seconds": 213.386,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5929768443da59.18173936",
+        "artist": "The Strokes",
+        "title": "Welcome To Japan",
+        "album": "Comedown Machine",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5929768443da59.18173936",
+        "download_url": "https://rhythmverse.co/download_file/theoreo/5929768443da59.18173936/The Strokes - Welcome To Japan",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 4,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "The Strokes - Welcome To Japan/album.png",
+          "name": "album.png",
+          "sha256": "d81c040d9b0c5561866056a04f4059b462b55c6ba5b43f6173d2c4985aa267c4"
+        },
+        {
+          "archive_name": "The Strokes - Welcome To Japan/notes.mid",
+          "name": "notes.mid",
+          "sha256": "92848fc611bfacf057649124c85c1a70faf3b72516e5461eb7373e112762776a"
+        },
+        {
+          "archive_name": "The Strokes - Welcome To Japan/song.ini",
+          "name": "song.ini",
+          "sha256": "71b0a9abe0d7bcc2e0ed0bb5b7c374fa4356cbd5c3d99e0cc20adae14a7033d0"
+        },
+        {
+          "archive_name": "The Strokes - Welcome To Japan/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2c7d4ec0859ec183eeb8ccc5bba78c6b657a9ca58d5e6d276e54e60c6c3cb164"
+        }
+      ],
+      "archive_sha256": "9e34d4c6adfa0a85e866d1b5abba3ecbc71a11bef875b9d2bc95fa666674f0db",
+      "archive_bytes": 5664768,
+      "prepared_bytes": 4616976,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 19
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Razorblade",
+      "file_id": "5b8caf164f3348.41669984",
+      "source_url": "https://rhythmverse.co/songfile/5b8caf164f3348.41669984",
+      "download_url": "https://rhythmverse.co/download_file/kamotch/5b8caf164f3348.41669984/kam_razorblade3_CON",
+      "archive_format": "onyx",
+      "folder": "The Strokes - Razorblade [5b8caf16]",
+      "charter": "Kamotch",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1482,
+          "kick_note_on_count": 249,
+          "tom_marker_count": 14,
+          "last_expert_onset_seconds": 208.394,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5b8caf164f3348.41669984",
+        "artist": "The Strokes",
+        "title": "Razorblade",
+        "album": "First Impressions of Earth",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5b8caf164f3348.41669984",
+        "download_url": "https://rhythmverse.co/download_file/kamotch/5b8caf164f3348.41669984/kam_razorblade3_CON",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 5,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "The Strokes - Razorblade/album.png",
+          "name": "album.png",
+          "sha256": "8e5d18f0b66108c8fc950924276498c2834322a2e5c4bf531576d67cf6e30e99"
+        },
+        {
+          "archive_name": "The Strokes - Razorblade/notes.mid",
+          "name": "notes.mid",
+          "sha256": "389b28f41dd44aa76547f167e0afea733bdf0d72a2a827a227d35669dcd6d24f"
+        },
+        {
+          "archive_name": "The Strokes - Razorblade/song.ini",
+          "name": "song.ini",
+          "sha256": "8985a70afc9d4880a0a94a2f7d7626ba8ee9596b6a46365b02664ac8f410f365"
+        },
+        {
+          "archive_name": "The Strokes - Razorblade/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5d82424553d348b9eee1f6bb5498dfe7a4003d9daeae4d23fac3dfa7a2fdbb15"
+        }
+      ],
+      "archive_sha256": "ff38592144f226568b74ef39d45186a97de1125012d9d2cae1a0954ee3c2af8f",
+      "archive_bytes": 5091328,
+      "prepared_bytes": 4226702,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 21
+    },
+    {
+      "artist": "The Strokes",
+      "title": "What Ever Happened?",
+      "file_id": "7d1d50704dc743848e39d96752341c19",
+      "source_url": "https://rhythmverse.co/songfile/7d1d50704dc743848e39d96752341c19",
+      "download_url": "https://rhythmverse.co/download_file/justmyselfandi/7d1d50704dc743848e39d96752341c19/The%20Strokes%20-%20What%20Ever%20Happened",
+      "archive_format": "onyx",
+      "folder": "The Strokes - What Ever Happened_ [7d1d5070]",
+      "charter": "jphn, UngratefulDead",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1085,
+          "kick_note_on_count": 375,
+          "tom_marker_count": 43,
+          "last_expert_onset_seconds": 169.397,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "7d1d50704dc743848e39d96752341c19",
+        "artist": "The Strokes",
+        "title": "What Ever Happened?",
+        "album": "Room on Fire",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/7d1d50704dc743848e39d96752341c19",
+        "download_url": "https://rhythmverse.co/download_file/justmyselfandi/7d1d50704dc743848e39d96752341c19/The Strokes - What Ever Happened",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 4,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "The Strokes - What Ever Happened_/album.png",
+          "name": "album.png",
+          "sha256": "6dfaeba648cfa163380260b6b0fecd49d2803e3b1e89af6140e67655072f3fbe"
+        },
+        {
+          "archive_name": "The Strokes - What Ever Happened_/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f8728914f566d12fc08926791092bfa71d3e9d2667b262ea324375b7a1e8bf73"
+        },
+        {
+          "archive_name": "The Strokes - What Ever Happened_/song.ini",
+          "name": "song.ini",
+          "sha256": "454ce7a11bef2f793fd5df19162c2f2963cceca26de0325ca4a8cef52aa64845"
+        },
+        {
+          "archive_name": "The Strokes - What Ever Happened_/song.ogg",
+          "name": "song.ogg",
+          "sha256": "ad30ef9c414ce24f5f73e1ed0fe1444958e49634a6f4bef035f346d17c88725e"
+        }
+      ],
+      "archive_sha256": "0f38d8becaaa7d2fa8aa26928000a6c0b3bcbef2e5c811c3692d3deae646b94f",
+      "archive_bytes": 3309568,
+      "prepared_bytes": 2953110,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 22
+    },
+    {
+      "artist": "The Strokes",
+      "title": "Barely Legal",
+      "file_id": "b462b2e41e4646559c54af270a4b3fcb",
+      "source_url": "https://rhythmverse.co/songfile/b462b2e41e4646559c54af270a4b3fcb",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1gn0N9C1N7rAq4rtj3Vx88CNR_WTqHe3q",
+      "archive_format": "files",
+      "folder": "The Strokes - Barely Legal [b462b2e4]",
+      "charter": "oldfashionedman",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1948,
+          "kick_note_on_count": 433,
+          "cymbal_marker_count": 1014,
+          "last_expert_onset_seconds": 223.954,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "b462b2e41e4646559c54af270a4b3fcb",
+        "artist": "The Strokes",
+        "title": "Barely Legal",
+        "album": "Is This It",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/b462b2e41e4646559c54af270a4b3fcb",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1gn0N9C1N7rAq4rtj3Vx88CNR_WTqHe3q",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 4,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Q8VC1mdbjWrW4dja9lTj8W3FCeEWauEt",
+          "source_sha256": "184f69f22bbd428b053de1f930413d9e64ae8fc68b2cd8b895779958cef610ca",
+          "bytes": 702240
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "ccdd65d333f8100086e15094c6f2826dc65c6e86ef82758af8cd24db88ca071f",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Pa7AD4BlcvtO5V-5HEPNe8X22WlB0BhU",
+          "source_sha256": "ccdd65d333f8100086e15094c6f2826dc65c6e86ef82758af8cd24db88ca071f",
+          "bytes": 84204
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "2251fb1597f791992e04dccd8fd4952e1c838f16f9a6cdf2e124e64c3f330e4c",
+          "download_url": "https://drive.google.com/uc?export=download&id=1AYekDRjsZ4njMK3fKQO8ejTTlHPgM6r3",
+          "source_sha256": "090e043b0c7cfbabd697c10ff46926ee3ad6ca609ae7b9c1a7f9274552a82581",
+          "bytes": 353
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "c5a03d3d86218183b54fdae20b2b846814fbf6ea730b3187f67762c8507f7e54",
+          "download_url": "https://drive.google.com/uc?export=download&id=18N9okQbOsmwdX3eNrHipNmmmzFTy45LS",
+          "source_sha256": "c5a03d3d86218183b54fdae20b2b846814fbf6ea730b3187f67762c8507f7e54",
+          "bytes": 4061737
+        }
+      ],
+      "prepared_bytes": 4848569,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 23
+    }
+  ]
+}

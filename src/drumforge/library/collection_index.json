@@ -2,11 +2,11 @@
   "schema_version": 1,
   "playlist_url": "https://open.qobuz.com/playlist/69773629",
   "playlist_entries": 744,
-  "unique_new_charts": 643,
+  "unique_new_charts": 663,
   "active_new_charts": 254,
   "drum_modes": {
-    "pro": 528,
-    "standard": 115
+    "pro": 546,
+    "standard": 117
   },
   "coverage_entries": {
     "prepared": 262,
@@ -15,9 +15,9 @@
     "pilot": 13,
     "blocked": 61
   },
-  "download_bytes": 10666208780,
-  "prepared_bytes": 8579240134,
-  "recommended_free_bytes": 29972172696,
+  "download_bytes": 10793563110,
+  "prepared_bytes": 8703575014,
+  "recommended_free_bytes": 30348196786,
   "game_verified": false,
   "batches": [
     {
@@ -382,6 +382,24 @@
       "theme": "lol",
       "theme_label": "League of Legends",
       "edition_group": "studio_and_other"
+    },
+    {
+      "number": 41,
+      "manifest": "collection_41.json",
+      "sha256": "6b425be7e501f24c7198364800b10f26a28f0f2c35a5d7882761dfbe9a646375",
+      "songs": 18,
+      "drum_mode": "pro",
+      "theme": "strokes",
+      "theme_label": "The Strokes"
+    },
+    {
+      "number": 42,
+      "manifest": "collection_42.json",
+      "sha256": "10a2e2406d20e21fed3adaef08bca9a080fe1282bb6814dc178ebc3d63e7ddd3",
+      "songs": 2,
+      "drum_mode": "standard",
+      "theme": "strokes",
+      "theme_label": "The Strokes"
     }
   ],
   "helpers": {
@@ -389,17 +407,18 @@
     "sevenzip.py": "822d12334b2ab821e3dfec5fcf38d99ce1dfc610c80cfae49170f8b83095da3a",
     "mega_recovery.py": "94149c758ca8f8d60989af41631fc4b2ba559a5f26039893f3704b52e9520191"
   },
-  "curated_charts": 389,
+  "curated_charts": 409,
   "curated_by_theme": {
     "lol": 13,
     "similar": 21,
     "imagine": 15,
     "linkin-park": 207,
-    "skillet": 133
+    "skillet": 133,
+    "strokes": 20
   },
-  "curated_download_bytes": 6714118966,
-  "curated_prepared_bytes": 5223195748,
-  "curated_recommended_free_bytes": 19307994110,
+  "curated_download_bytes": 6841473296,
+  "curated_prepared_bytes": 5347530628,
+  "curated_recommended_free_bytes": 19684018200,
   "linkin_park_expansion": {
     "charts": 207,
     "existing_band_charts": 33,
@@ -460,5 +479,18 @@
       "all_prepared_budget_bytes": 2116981597,
       "all_recommended_free_bytes": 13390623680
     }
+  },
+  "strokes_selection": {
+    "charts": 20,
+    "catalog_packages_rhythmverse": 85,
+    "catalog_packages_encore": 26,
+    "planned_titles": 25,
+    "batch_numbers": [
+      41,
+      42
+    ],
+    "download_bytes": 127354330,
+    "prepared_bytes": 124334880,
+    "recommended_free_bytes": 2772177498
   }
 }

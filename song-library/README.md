@@ -1,5 +1,9 @@
 # Biblioteca de músicas — MixDrumRock
 
+**The Strokes:** [THE-STROKES.md](THE-STROKES.md) traz 20 destaques nos lotes
+41–42, com 18 Pro Drums, dois Drums comuns e comparação com Songs para adicionar
+somente as músicas ausentes. A página inclui referências para ouvir e pendências.
+
 **Skillet, Imagine Dragons e LoL:** [SKILLET-IMAGINE-LOL.md](SKILLET-IMAGINE-LOL.md)
 traz 137 charts novos nos lotes 31–40, recuperação por grupo e comparação com a
 biblioteca instalada para acrescentar somente músicas ausentes. Há listas e
