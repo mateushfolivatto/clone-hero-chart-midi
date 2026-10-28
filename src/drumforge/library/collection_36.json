@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "batch_number": 36,
+  "collection_folder": "MixDrumRock - Drums - Lote 36 - Skillet",
+  "archive_name": "MixDrumRock-lote-36.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "theme": "skillet",
+  "theme_label": "Skillet",
+  "edition_group": "studio_and_other",
+  "songs": [
+    {
+      "artist": "Skillet",
+      "title": "Your Love (Keeps Me Alive)",
+      "file_id": "63dd6bc20d1d05.94927790",
+      "source_url": "https://rhythmverse.co/songfile/63dd6bc20d1d05.94927790",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd6bc20d1d05.94927790/Skillet-YourLove(KeepsMeAlive)(G-D)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Your Love (Keeps Me Alive) [63dd6bc2]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1347,
+          "kick_note_on_count": 247,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 227.317,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63dd6bc20d1d05.94927790",
+        "artist": "Skillet",
+        "title": "Your Love (Keeps Me Alive)",
+        "album": "Hey You, I Love Your Soul",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63dd6bc20d1d05.94927790",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd6bc20d1d05.94927790/Skillet-YourLove(KeepsMeAlive)(G-D)_rb3con",
+        "duration_seconds": 243,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Your Love (Keeps Me Alive)/album.png",
+          "name": "album.png",
+          "sha256": "9882744d8a737659477302d4e8148b679a0f5a8d6b195f47f6a0a9655b646cd3"
+        },
+        {
+          "archive_name": "Skillet - Your Love (Keeps Me Alive)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d13cf0db948f854444c99a74f6503ddc7e59e6544a0efd8421028e7dd5517994"
+        },
+        {
+          "archive_name": "Skillet - Your Love (Keeps Me Alive)/song.ini",
+          "name": "song.ini",
+          "sha256": "a30ef94c6e6903d7138c8a447ffe6e8808917944fcb43103a70dcc03543bbb1d"
+        },
+        {
+          "archive_name": "Skillet - Your Love (Keeps Me Alive)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "62fc69400b89be57ed9a921ccb9f8abb939398fd7aab3cb6407e76657b308f53"
+        }
+      ],
+      "archive_sha256": "29618e98a223207e85d461f0e4f738c48c9362daacf4f88941bc3ce1d836bc48",
+      "archive_bytes": 5402624,
+      "prepared_bytes": 4278495,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:yourlovekeepsmealive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Your Name Is Holy",
+      "file_id": "63cae3a66d06c6.29625201",
+      "source_url": "https://rhythmverse.co/songfile/63cae3a66d06c6.29625201",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63cae3a66d06c6.29625201/Skillet-YourNameIsHoly(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Your Name Is Holy [63cae3a6]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1867,
+          "kick_note_on_count": 576,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 295.604,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63cae3a66d06c6.29625201",
+        "artist": "Skillet",
+        "title": "Your Name Is Holy",
+        "album": "Ardent Worship Live!",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63cae3a66d06c6.29625201",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63cae3a66d06c6.29625201/Skillet-YourNameIsHoly(G-D-V)_rb3con",
+        "duration_seconds": 312,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Your Name Is Holy/album.png",
+          "name": "album.png",
+          "sha256": "faa08590951e784c8ae583c8efa00b3fbc6c4308f0b49c0ad39c858660f9fcc4"
+        },
+        {
+          "archive_name": "Skillet - Your Name Is Holy/notes.mid",
+          "name": "notes.mid",
+          "sha256": "5c49fbe7c30e0823aadec5466003ff2fdb2e01680bd5e81939161563a13bd40b"
+        },
+        {
+          "archive_name": "Skillet - Your Name Is Holy/song.ini",
+          "name": "song.ini",
+          "sha256": "98e3f8f7534186a46fe35340cf7d4d760ce680678970b941854231cbaa29d2a9"
+        },
+        {
+          "archive_name": "Skillet - Your Name Is Holy/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0fec3890e82747d9d1d4544438c4c048ed16d6edb84defbd5a31d96e1d07d6d5"
+        }
+      ],
+      "archive_sha256": "ff3b8d29d34c25e0f3d33263abf56f385594fc967c98fe07b83765d785f3baac",
+      "archive_bytes": 7761920,
+      "prepared_bytes": 6362588,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:yournameisholy",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    }
+  ]
+}

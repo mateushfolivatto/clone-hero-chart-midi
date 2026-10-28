@@ -1,5 +1,12 @@
 # Quality gates
 
+The Skillet / Imagine Dragons / LoL expansion passes **172 core tests and 19
+optional DSP checks** on Linux/Python 3.12. New cases cover bounded SNG decoding,
+unsafe/truncated inputs, per-asset XOR reset and chunk boundaries, immutable
+recovery/resume, display-tag matching with recording distinction, and pinned group
+unions without shared-Enemy duplication. See
+[library-skillet-imagine-lol-verification.md](library-skillet-imagine-lol-verification.md).
+
 The Linkin Park expansion integrated with existing diagnostics passes **155 core
 tests and 19 optional DSP checks** on Linux/Python 3.12. The shared reader also
 rechecked every stored drum field in the 207 new charts without a change.

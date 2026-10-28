@@ -131,3 +131,15 @@ then pinned plaintext hashes; it does not retrieve account credentials or bypass
 provider quotas. No third-party MEGA client implementation was copied or installed.
 All song media stays private. Existing model/checkpoint licensing decisions are
 unchanged, and no model was downloaded for the library workstream.
+
+## SNG format and Encore protocol research — 2026-10-28
+
+| Resource | Verified terms | Actual use |
+| --- | --- | --- |
+| [mdsitton/SngFileFormat](https://github.com/mdsitton/SngFileFormat) | MIT repository/specification | Researched published SNG v1 layout and XOR rule; own bounded standard-library reader. No upstream code or binary copied, installed or invoked. |
+| [Geomitron/parse-sng](https://github.com/Geomitron/parse-sng) / npm 4.0.3 | MIT in package.json/npm metadata | Researched format link/client interface only; no dependency, vendoring or execution. |
+| [Geomitron/Bridge](https://github.com/Geomitron/Bridge) | GPL-3.0 repository | Researched public search API and original Drive publication fields. API called; no client code copied, installed or run. |
+
+Original public song packages were downloaded and validated separately. A client's
+license does not grant redistribution rights to those songs. Only source/checksum
+metadata and our helper are distributed; media and models remain outside Git.

@@ -295,3 +295,22 @@ finding. This file supplements the backlog; it does not redefine task completion
     ZIP/RAR/7z path. Verify native ZIP without Onyx despite an Xbox label and
     STFS conversion despite a CH label, preserving original bytes and leaving
     platform-specific Onyx options/supervision unchanged.
+
+## 2026-10-28 — Native SNG sources and display metadata
+
+50. **Restore the native container before choosing a converter.** I Bet My Life's
+    public original is SNG v1, with metadata in its header rather than song.ini.
+    A bounded reader following the published layout restores its masked assets
+    without audio transcoding; six Opus streams decode and 813 Expert gems remain.
+    Verify per-file XOR reset/chunk boundaries, unsafe names/offsets, source/asset
+    hashes and clean stdlib recovery plus unchanged offline resume. Keep generated
+    INI provenance explicit and leave the established Onyx behavior untouched.
+
+51. **Display tags do not identify another recording.** Take Me to the Beach's
+    original INI wraps its title/guest in color tags, causing a false catalog
+    mismatch. Ignore known display tags only during identity comparison; retain
+    source bytes and authored tags, document any existing Pro-flag patch and keep
+    Live/demo/version words. Verify an accepted colored title and a rejected
+    colored Live edition. Skillet's studio titles I Want to Live and Live Free
+    or Let Me Die also require recording qualifiers rather than a bare Live word
+    when separating studio/live delivery groups.

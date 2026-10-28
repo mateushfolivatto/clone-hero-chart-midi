@@ -1,5 +1,10 @@
 # Baixar a continuação da MixDrumRock
 
+**Skillet, Imagine Dragons e LoL:** [SKILLET-IMAGINE-LOL.md](SKILLET-IMAGINE-LOL.md)
+traz 137 charts novos nos lotes 31–40, recuperação por grupo e comparação com a
+biblioteca instalada para acrescentar somente músicas ausentes. Há listas e
+pendências explícitas; a busca não comprova a discografia integral.
+
 **Linkin Park:** [LINKIN-PARK.md](LINKIN-PARK.md) traz 207 charts novos nos
 lotes 19–30 e a recuperação seletiva da banda, incluindo Given Up já no
 lote 02. O fluxo compara com sua biblioteca atual antes de gerar o ZIP a instalar.
@@ -8,7 +13,7 @@ As receitas anteriores e correções do Onyx foram preservadas.
 **Novos lotes temáticos 13–18:** [TEMATICOS.md](TEMATICOS.md) traz 45 charts
 adicionais de League of Legends, Imagine Dragons e bandas semelhantes a Linkin Park,
 sem repetir o piloto/lotes 02–12. Use o bloco dessa página para baixar somente
-os novos lotes. O comando geral abaixo agora percorre todos os lotes 02–30 e
+os novos lotes. O comando geral abaixo agora percorre todos os lotes 02–40 e
 reaproveita os já conferidos. As receitas antigas e correções do Onyx foram mantidas.
 
 Os números a seguir descrevem a preparação anterior da playlist Qobuz:
@@ -25,8 +30,8 @@ Os downloads originais somam aproximadamente **3,7 GiB**. Reserve pelo menos
 somam aproximadamente 3,1 GiB. Alguns originais incluem vídeo/arquivos extras que
 ficam fora das pastas entregues ao jogo.
 
-Para executar o comando geral com **todos os lotes 02–30**, incluindo a curadoria
-temática, reserve **25 GB livres**. Para somente os lotes 13–18, TEMATICOS.md
+Para executar o comando geral com **todos os lotes 02–40**, incluindo a curadoria
+temática, reserve **30 GB livres**. Para somente os lotes 13–18, TEMATICOS.md
 oferece o comando seletivo e recomenda 4 GB livres.
 
 Use a mesma pasta do piloto. As novas músicas ficam em `Songs\MixDrumRock - Lote XX`,

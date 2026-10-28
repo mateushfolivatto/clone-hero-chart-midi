@@ -1,5 +1,10 @@
 # Biblioteca de músicas — MixDrumRock
 
+**Skillet, Imagine Dragons e LoL:** [SKILLET-IMAGINE-LOL.md](SKILLET-IMAGINE-LOL.md)
+traz 137 charts novos nos lotes 31–40, recuperação por grupo e comparação com a
+biblioteca instalada para acrescentar somente músicas ausentes. Há listas e
+pendências explícitas; a busca não comprova a discografia integral.
+
 **Linkin Park:** [LINKIN-PARK.md](LINKIN-PARK.md) reúne a ampliação, as listas por
 lote e a comparação com sua biblioteca para acrescentar somente músicas ausentes.
 Given Up já está no lote 02. O relatório por álbum distingue seleção e lacunas.

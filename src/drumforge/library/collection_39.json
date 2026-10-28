@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "batch_number": 39,
+  "collection_folder": "MixDrumRock - Lote 39 - Imagine Dragons",
+  "archive_name": "MixDrumRock-lote-39.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "imagine",
+  "theme_label": "Imagine Dragons",
+  "edition_group": "studio_and_other",
+  "songs": [
+    {
+      "artist": "Imagine Dragons",
+      "title": "I Bet My Life",
+      "file_id": "encore_450550_3971ef28",
+      "source_url": "https://drive.google.com/open?id=1MR_-Wq_Isj0o9iwgp7KuRGp7fv_bjNsR",
+      "download_url": "https://drive.google.com/uc?export=download&id=1MR_-Wq_Isj0o9iwgp7KuRGp7fv_bjNsR",
+      "archive_format": "sng",
+      "folder": "Imagine Dragons - I Bet My Life [encore45]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 813,
+          "kick_note_on_count": 260,
+          "tom_marker_count": 69,
+          "last_expert_onset_seconds": 193.054,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "encore_450550_3971ef28",
+        "artist": "Imagine Dragons",
+        "title": "I Bet My Life",
+        "album": "Smoke + Mirrors",
+        "game": "ch",
+        "source_url": "https://drive.google.com/open?id=1MR_-Wq_Isj0o9iwgp7KuRGp7fv_bjNsR",
+        "download_url": "https://drive.google.com/uc?export=download&id=1MR_-Wq_Isj0o9iwgp7KuRGp7fv_bjNsR",
+        "catalog_pro_drums": 1,
+        "catalog_drums": 1,
+        "match_basis": "requested edition; original public source; actual package validation required",
+        "catalog": "Encore",
+        "catalog_chart_id": 450550,
+        "catalog_md5": "3971ef2866a62ec74d5c7bef230c11ba",
+        "catalog_api": "https://api.enchor.us/search/advanced"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "c5b18f4504459b0c9cff8daac0ff2e7507fc160a2b1d5412d0995a4e12f3fd1e"
+        },
+        {
+          "archive_name": "crowd.opus",
+          "name": "crowd.opus",
+          "sha256": "3ec272a5995d42559cd0b196a01fb6730035191ec419f9d21fcdb6b3b7a73ed7"
+        },
+        {
+          "archive_name": "drums.opus",
+          "name": "drums.opus",
+          "sha256": "003ceec781890f4347f19da90db0a65db280cb1f73b8330100631730b0d7c4ac"
+        },
+        {
+          "archive_name": "guitar.opus",
+          "name": "guitar.opus",
+          "sha256": "716598c08d40a9a7167a9d5b2299b1b61873f58640d9752f914ab03d98284a4c"
+        },
+        {
+          "archive_name": "notes.mid",
+          "name": "notes.mid",
+          "sha256": "60415f2772564d1fde8762cacb0a8eaad39f8d1d6eb4316f79e26a2c79452835"
+        },
+        {
+          "archive_name": "rhythm.opus",
+          "name": "rhythm.opus",
+          "sha256": "23e220eb37f6a53b9a54d8fbd3039aad854e5e53a954d14c9ef66add6e6edb7e"
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "46e3ca39b7794c0a94b6c2b2b6f7e8b186f0d6ac76e62ffb6fa0bb2232c08bee"
+        },
+        {
+          "archive_name": "song.opus",
+          "name": "song.opus",
+          "sha256": "7f64a1fd63a9a2cf9dc535f15a17078abc89392954b1c3786849b5b1254f9895"
+        },
+        {
+          "archive_name": "vocals.opus",
+          "name": "vocals.opus",
+          "sha256": "48c36f586c3385d23bc78955be5434d6ebd9c04b5c80084990423f29b3b82d34"
+        }
+      ],
+      "archive_sha256": "df7cf3f058a7a62bb84c430bcc12f099f751c956842c46fbd6ae1668cb7fa7a6",
+      "archive_bytes": 12370355,
+      "prepared_bytes": 12369900,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "imagine:ibetmylife",
+      "selection_groups": [
+        "imagine"
+      ],
+      "theme": "imagine"
+    },
+    {
+      "artist": "Imagine Dragons",
+      "title": "Take Me To The Beach (feat. Ado)",
+      "file_id": "encore_416298_00f29aca",
+      "source_url": "https://drive.google.com/open?id=17n5kS1IR3YRXqQOLZ5ExvUMyMqbeBSMf",
+      "download_url": "https://drive.google.com/drive/folders/17n5kS1IR3YRXqQOLZ5ExvUMyMqbeBSMf",
+      "archive_format": "files",
+      "folder": "Imagine Dragons - Take Me To The Beach (feat. Ado) [encore41]",
+      "charter": "<b><color=#8700FF>S</color><color=#B900FF>a</color><color=#E800FF>n</color><color=#FF00D8>g</color> <color=#FF00A2>D</color><color=#FF0064>u</color><color=#FF003E>t</color><color=#FF0000>a</color></b>, Rios & TDC",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 1001,
+          "kick_note_on_count": 254,
+          "cymbal_marker_count": 620,
+          "last_expert_onset_seconds": 159.429,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "encore_416298_00f29aca",
+        "artist": "Imagine Dragons",
+        "title": "Take Me To The Beach (feat. Ado)",
+        "album": "Single",
+        "game": "ch",
+        "source_url": "https://drive.google.com/open?id=17n5kS1IR3YRXqQOLZ5ExvUMyMqbeBSMf",
+        "download_url": "https://drive.google.com/drive/folders/17n5kS1IR3YRXqQOLZ5ExvUMyMqbeBSMf",
+        "match_basis": "catalog edition; formatting ignored for identity; original INI retained",
+        "catalog": "Encore",
+        "catalog_chart_id": 416298,
+        "catalog_md5": "00f29aca5329d52883cedf5258ee2604",
+        "catalog_api": "https://api.enchor.us/search/advanced"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "f357f67267b5dae1b4e9ea8c625d3ec779745534ccbd0ac6c46e64a42f3e602a",
+          "download_url": "https://drive.google.com/uc?export=download&id=1_4NOtsLwcXvRK4gAts5i-SuURRkvWxVr",
+          "source_sha256": "f357f67267b5dae1b4e9ea8c625d3ec779745534ccbd0ac6c46e64a42f3e602a",
+          "bytes": 217845
+        },
+        {
+          "archive_name": "background.png",
+          "name": "background.png",
+          "sha256": "f2c4243f76fa7f43169f5cf1fe9f8d5bac92b169e1fb5eddc2a2e571db0187be",
+          "download_url": "https://drive.google.com/uc?export=download&id=1v-QthlJ-uJjF_yIfDDnjW3Lqy6ZZOnzS",
+          "source_sha256": "f2c4243f76fa7f43169f5cf1fe9f8d5bac92b169e1fb5eddc2a2e571db0187be",
+          "bytes": 485529
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "22f93498d7791694e6695ddcce5b746ac0e1c883f3ba6fff1ded605c593c1a67",
+          "download_url": "https://drive.google.com/uc?export=download&id=1M2PJm-WKrMSQbv9XGTX1qHjCmyb_fAhW",
+          "source_sha256": "22f93498d7791694e6695ddcce5b746ac0e1c883f3ba6fff1ded605c593c1a67",
+          "bytes": 65745
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "6821f376f0bf736f245d98116bebb4848f662499e1a18a9e5e7203d7fe7657d4",
+          "download_url": "https://drive.google.com/uc?export=download&id=18YVxXwQKn8ifd7MBf8mUOrLTGZD-mLL5",
+          "source_sha256": "61c23c9e37969020a0697c46efe9e44267b61e6d809b9f9fd379cc26812597d7",
+          "bytes": 683
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "4ea796038379fa1a476174f0f3726c158477033eb2d912e5ffdfb712ba402213",
+          "download_url": "https://drive.google.com/uc?export=download&id=1NyoZnz76lgk4FocNFUE1QZTvy7aPFa06",
+          "source_sha256": "4ea796038379fa1a476174f0f3726c158477033eb2d912e5ffdfb712ba402213",
+          "bytes": 5680216
+        }
+      ],
+      "prepared_bytes": 6450019,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "imagine:takemetothebeach",
+      "selection_groups": [
+        "imagine"
+      ],
+      "theme": "imagine"
+    }
+  ]
+}

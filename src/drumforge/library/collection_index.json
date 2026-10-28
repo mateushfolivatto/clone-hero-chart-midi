@@ -2,11 +2,11 @@
   "schema_version": 1,
   "playlist_url": "https://open.qobuz.com/playlist/69773629",
   "playlist_entries": 744,
-  "unique_new_charts": 506,
+  "unique_new_charts": 643,
   "active_new_charts": 254,
   "drum_modes": {
-    "pro": 457,
-    "standard": 49
+    "pro": 528,
+    "standard": 115
   },
   "coverage_entries": {
     "prepared": 262,
@@ -15,9 +15,9 @@
     "pilot": 13,
     "blocked": 61
   },
-  "download_bytes": 8377063736,
-  "prepared_bytes": 6902113172,
-  "recommended_free_bytes": 24328773728,
+  "download_bytes": 10666208780,
+  "prepared_bytes": 8579240134,
+  "recommended_free_bytes": 29972172696,
   "game_verified": false,
   "batches": [
     {
@@ -282,6 +282,106 @@
       "theme_label": "Linkin Park",
       "edition_group": "live",
       "edition_group_label": "Ao vivo"
+    },
+    {
+      "number": 31,
+      "manifest": "collection_31.json",
+      "sha256": "54536ae834fa0524517214c822dd0efcc1e7845f0580d0287bb15d0df93d3b10",
+      "songs": 25,
+      "drum_mode": "pro",
+      "theme": "skillet",
+      "theme_label": "Skillet",
+      "edition_group": "studio_and_other"
+    },
+    {
+      "number": 32,
+      "manifest": "collection_32.json",
+      "sha256": "cec82ddd5f2bbd4b0b25b6e4d6734ad37e319798cc8fc0cf4d22fa518275cb5a",
+      "songs": 25,
+      "drum_mode": "pro",
+      "theme": "skillet",
+      "theme_label": "Skillet",
+      "edition_group": "studio_and_other"
+    },
+    {
+      "number": 33,
+      "manifest": "collection_33.json",
+      "sha256": "05484981d5b4ff5057062e6312f4b7d028b2121d1e7cd76a9efaa4ae594eadd3",
+      "songs": 16,
+      "drum_mode": "pro",
+      "theme": "skillet",
+      "theme_label": "Skillet",
+      "edition_group": "studio_and_other"
+    },
+    {
+      "number": 34,
+      "manifest": "collection_34.json",
+      "sha256": "8f851d7277b0e3971ecdf154623f7bf922f8b7cd9153ff8d8ab002ba41d02aef",
+      "songs": 25,
+      "drum_mode": "standard",
+      "theme": "skillet",
+      "theme_label": "Skillet",
+      "edition_group": "studio_and_other"
+    },
+    {
+      "number": 35,
+      "manifest": "collection_35.json",
+      "sha256": "35f1300fe3767c8bfbb7d78d5508f94c2bd7a344b9bc462b0a1329359fc5fd2b",
+      "songs": 25,
+      "drum_mode": "standard",
+      "theme": "skillet",
+      "theme_label": "Skillet",
+      "edition_group": "studio_and_other"
+    },
+    {
+      "number": 36,
+      "manifest": "collection_36.json",
+      "sha256": "579aa269dbd0866c0cde54a0e952cfa3a3e6c1032990bd3cd3620867ed7561d1",
+      "songs": 2,
+      "drum_mode": "standard",
+      "theme": "skillet",
+      "theme_label": "Skillet",
+      "edition_group": "studio_and_other"
+    },
+    {
+      "number": 37,
+      "manifest": "collection_37.json",
+      "sha256": "f231cadb88505f66b23230da71fd1589fbc9440a5e07d26f0a6b6bde04753e05",
+      "songs": 1,
+      "drum_mode": "pro",
+      "theme": "skillet",
+      "theme_label": "Skillet",
+      "edition_group": "live"
+    },
+    {
+      "number": 38,
+      "manifest": "collection_38.json",
+      "sha256": "8c82bb9e7a391cc8cee5b5e0c6f05186476ce8f0788f9e4de7fafd2e00205965",
+      "songs": 14,
+      "drum_mode": "standard",
+      "theme": "skillet",
+      "theme_label": "Skillet",
+      "edition_group": "live"
+    },
+    {
+      "number": 39,
+      "manifest": "collection_39.json",
+      "sha256": "3eddea37a8b5408f33aacee052eb225f7fdffaa0f6812db1f229541322d45d4f",
+      "songs": 2,
+      "drum_mode": "pro",
+      "theme": "imagine",
+      "theme_label": "Imagine Dragons",
+      "edition_group": "studio_and_other"
+    },
+    {
+      "number": 40,
+      "manifest": "collection_40.json",
+      "sha256": "acadb88917553dc32567ae3c608778238e4d4dc36d75fb3353e11e04b4eaa2e7",
+      "songs": 2,
+      "drum_mode": "pro",
+      "theme": "lol",
+      "theme_label": "League of Legends",
+      "edition_group": "studio_and_other"
     }
   ],
   "helpers": {
@@ -289,16 +389,17 @@
     "sevenzip.py": "822d12334b2ab821e3dfec5fcf38d99ce1dfc610c80cfae49170f8b83095da3a",
     "mega_recovery.py": "94149c758ca8f8d60989af41631fc4b2ba559a5f26039893f3704b52e9520191"
   },
-  "curated_charts": 252,
+  "curated_charts": 389,
   "curated_by_theme": {
-    "lol": 11,
+    "lol": 13,
     "similar": 21,
-    "imagine": 13,
-    "linkin-park": 207
+    "imagine": 15,
+    "linkin-park": 207,
+    "skillet": 133
   },
-  "curated_download_bytes": 4424973922,
-  "curated_prepared_bytes": 3546068786,
-  "curated_recommended_free_bytes": 13664595142,
+  "curated_download_bytes": 6714118966,
+  "curated_prepared_bytes": 5223195748,
+  "curated_recommended_free_bytes": 19307994110,
   "linkin_park_expansion": {
     "charts": 207,
     "existing_band_charts": 33,
@@ -331,5 +432,33 @@
     "complement.py": "e6e2607a4b24b94f77e6e4626521c9731a069ef6b33919840df5b761c3721197",
     "local_library.py": "bfd82a7f4d3b3bad77cc5bf813ee295a153174b657b61ae4ac2e00c7ac09145a",
     "recover_linkin_park.py": "0c9a2f4efcf1094499a908f083aa71756da02a986ebc29d016de6b257da9e586"
+  },
+  "selections": {
+    "skillet-imagine-lol": {
+      "manifest": "selection_skillet_imagine_lol.json",
+      "sha256": "22ddc336db1ee25195a389401b363fb73c80b84ffe64012e6ac3aaef59914dc2",
+      "helper": "recover_selections.py",
+      "helper_sha256": "10dc484e76133d6f4dff09b86290aa65e28fe8121ffb58abd85421df71618918",
+      "new_charts": 137,
+      "all_charts": 174,
+      "batch_numbers": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "new_download_bytes": 2289145044,
+      "new_prepared_bytes": 1677126962,
+      "new_recommended_free_bytes": 11145136540,
+      "all_download_bytes": 2775213644,
+      "all_prepared_budget_bytes": 2116981597,
+      "all_recommended_free_bytes": 13390623680
+    }
   }
 }

@@ -526,6 +526,19 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   route/song lists: song-library/LINKIN-PARK.md. This completes the preparation
   pass, not full discography availability or native Windows/game acceptance.
 
+- [x] **DCF-LIB-015 [P0]** Complete the Skillet / Imagine Dragons / LoL catalog
+  preparation pass: 137 new charts in batches 31–40 (133 Skillet, two Imagine
+  Dragons, two LoL), with 71 Pro Drums and 66 ordinary Drums. All 197 grouped
+  editions have explicit outcomes: 137 prepared, 37 prior and 23 blocked.
+  864 assets, 450 decoded audio files, 173,176 Expert gems and ten ZIPs verified.
+  Native SNG support and display-tag-aware catalog identity were added without
+  changing Onyx, previous recipes, additions helpers, Qobuz coverage or audio-study
+  results. Pinned group recovery references old/new selections; shared Enemy is
+  recovered once. 172 core tests, 19 optional DSP tests and configured gates pass;
+  fresh isolated recovery/offline resume and real-song additions checks pass on
+  Linux. See song-library/SKILLET-IMAGINE-LOL.md and the verification document.
+  This completes preparation, not full discography or Windows/game acceptance.
+
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
 The subsequent metadata-export slice captured the playlist only; it did not

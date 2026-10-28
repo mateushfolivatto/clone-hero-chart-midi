@@ -1,0 +1,2003 @@
+{
+  "schema_version": 1,
+  "batch_number": 34,
+  "collection_folder": "MixDrumRock - Drums - Lote 34 - Skillet",
+  "archive_name": "MixDrumRock-lote-34.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "theme": "skillet",
+  "theme_label": "Skillet",
+  "edition_group": "studio_and_other",
+  "songs": [
+    {
+      "artist": "Skillet",
+      "title": "Always The Same",
+      "file_id": "63e5a99b84e0e1.03515476",
+      "source_url": "https://rhythmverse.co/songfile/63e5a99b84e0e1.03515476",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5a99b84e0e1.03515476/Skillet-AlwaysTheSame(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Always The Same [63e5a99b]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1901,
+          "kick_note_on_count": 468,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 241.481,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63e5a99b84e0e1.03515476",
+        "artist": "Skillet",
+        "title": "Always The Same",
+        "album": "Invincible Advance Release / Rare Cuts",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63e5a99b84e0e1.03515476",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5a99b84e0e1.03515476/Skillet-AlwaysTheSame(G-D-V)_rb3con",
+        "duration_seconds": 247,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 7,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Always The Same/album.png",
+          "name": "album.png",
+          "sha256": "035e0ee662aaae5b3b265fc01edb897b29f110c557fbeec8ddb16490723c0554"
+        },
+        {
+          "archive_name": "Skillet - Always The Same/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b8dd1f44c3d14f480aeeb87571c230bdf17d1da1e3cd176880e2a48babdae3cb"
+        },
+        {
+          "archive_name": "Skillet - Always The Same/song.ini",
+          "name": "song.ini",
+          "sha256": "83668c2d2a576d4e049cc11ee62b3a31637bbc242454514e0e90f22c4118e19a"
+        },
+        {
+          "archive_name": "Skillet - Always The Same/song.ogg",
+          "name": "song.ogg",
+          "sha256": "449e5d776e1aae73c91c37e10853eda29cf9d80b3e030e94123674195cf6f05b"
+        }
+      ],
+      "archive_sha256": "cf869931618f99698480070bfd5053f5e2acbbc833d0fc0f17fc25a534106f1c",
+      "archive_bytes": 5668864,
+      "prepared_bytes": 4735882,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:alwaysthesame",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Angels Fall Down",
+      "file_id": "63cae1e3ce1ed2.27264831",
+      "source_url": "https://rhythmverse.co/songfile/63cae1e3ce1ed2.27264831",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63cae1e3ce1ed2.27264831/Skillet-AngelsFallDown(G-D)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Angels Fall Down [63cae1e3]",
+      "charter": "Banzai85 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1004,
+          "kick_note_on_count": 322,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 433.773,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63cae1e3ce1ed2.27264831",
+        "artist": "Skillet",
+        "title": "Angels Fall Down",
+        "album": "Ardent Worship Live!",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63cae1e3ce1ed2.27264831",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63cae1e3ce1ed2.27264831/Skillet-AngelsFallDown(G-D)_rb3con",
+        "duration_seconds": 507,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 3,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Angels Fall Down/album.png",
+          "name": "album.png",
+          "sha256": "81247466b07817d05639b8dfd9feaeff3c07fe60d0752373b104f103678ed6fe"
+        },
+        {
+          "archive_name": "Skillet - Angels Fall Down/notes.mid",
+          "name": "notes.mid",
+          "sha256": "dd946758944b553ffe13eff82a2e628996e83e7e3387cbeff5752ff7d421f2fb"
+        },
+        {
+          "archive_name": "Skillet - Angels Fall Down/song.ini",
+          "name": "song.ini",
+          "sha256": "9aa2f9741aa68139d359b15959ac015e753b87dfabd8aff5bf4b827fa5b651e3"
+        },
+        {
+          "archive_name": "Skillet - Angels Fall Down/song.ogg",
+          "name": "song.ogg",
+          "sha256": "078c9d0ae2ab05a87f9cf54e4234d2d07df8637874de53675b668071572b9a71"
+        }
+      ],
+      "archive_sha256": "90dbb963215610cd7c2128cccc5eaa21c46cda5f683f9f115bdc5f764ca16028",
+      "archive_bytes": 10108928,
+      "prepared_bytes": 7920512,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:angelsfalldown",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Best Kept Secret",
+      "file_id": "63e5aa09e57425.88626696",
+      "source_url": "https://rhythmverse.co/songfile/63e5aa09e57425.88626696",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5aa09e57425.88626696/Skillet-BestKeptSecret(G-D)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Best Kept Secret [63e5aa09]",
+      "charter": "Todd Cope / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1491,
+          "kick_note_on_count": 362,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 235.719,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63e5aa09e57425.88626696",
+        "artist": "Skillet",
+        "title": "Best Kept Secret",
+        "album": "Invincible",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63e5aa09e57425.88626696",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5aa09e57425.88626696/Skillet-BestKeptSecret(G-D)_rb3con",
+        "duration_seconds": 239,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Best Kept Secret/album.png",
+          "name": "album.png",
+          "sha256": "93329f43877d567b25a7f86db94fb37db670a6e6fc0e368500530fc8f187d904"
+        },
+        {
+          "archive_name": "Skillet - Best Kept Secret/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e554d56334be792d387f14b1543687e9eaf675f3cbf1abfa79b8701def38fe04"
+        },
+        {
+          "archive_name": "Skillet - Best Kept Secret/song.ini",
+          "name": "song.ini",
+          "sha256": "4533c0590ae80bbfa74df3fe123bc011521e0a6abafb572e02c5411c5da268e6"
+        },
+        {
+          "archive_name": "Skillet - Best Kept Secret/song.ogg",
+          "name": "song.ogg",
+          "sha256": "61ed5069a9ec238f123e8eeeb46b470f976ef81a18e4a36c0cba1184bc6117e4"
+        }
+      ],
+      "archive_sha256": "2f8bd23130a971272d019d7e7f761fc1dd4696ca243bc61232254cb95e0162ce",
+      "archive_bytes": 5787648,
+      "prepared_bytes": 4270000,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:bestkeptsecret",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Boundaries",
+      "file_id": "63d417b53c3013.91441296",
+      "source_url": "https://rhythmverse.co/songfile/63d417b53c3013.91441296",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63d417b53c3013.91441296/Skillet-Boundaries(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Boundaries [63d417b5]",
+      "charter": "tlg1793 / dlg1793 / Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1224,
+          "kick_note_on_count": 336,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 237.133,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63d417b53c3013.91441296",
+        "artist": "Skillet",
+        "title": "Boundaries",
+        "album": "Skillet",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63d417b53c3013.91441296",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63d417b53c3013.91441296/Skillet-Boundaries(G-D-V)_rb3con",
+        "duration_seconds": 256,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Boundaries/album.png",
+          "name": "album.png",
+          "sha256": "d923b856fdbb4d58e7500eb1964bb64438f4beef15043b35c14a32147d89bb9d"
+        },
+        {
+          "archive_name": "Skillet - Boundaries/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "1dee1b58dc48511656ab987de3b5b45429a53c890a0d7214d7682c84b5a7da2e"
+        },
+        {
+          "archive_name": "Skillet - Boundaries/notes.mid",
+          "name": "notes.mid",
+          "sha256": "1833e1d0fac9f8c3c8697c5de0fb115a415082534d921c53a1130b57247394b0"
+        },
+        {
+          "archive_name": "Skillet - Boundaries/song.ini",
+          "name": "song.ini",
+          "sha256": "78f0228f7d305036aa9ef5b40854013b6c6363130f439c970df2ae5629d8efc5"
+        },
+        {
+          "archive_name": "Skillet - Boundaries/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3dcb0cfbe094e1fea45c41bffc2c4e996cb918187b026234623503cd0bdc3de2"
+        }
+      ],
+      "archive_sha256": "834fabf95ff2fdb9a2d5177c8971121d81a9ed9f5825ce7d089b9436826d4ad6",
+      "archive_bytes": 5902336,
+      "prepared_bytes": 4654602,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:boundaries",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Come on to The Future",
+      "file_id": "63e5aa63ee0b69.79984109",
+      "source_url": "https://rhythmverse.co/songfile/63e5aa63ee0b69.79984109",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5aa63ee0b69.79984109/Skillet-ComeOnToTheFuture(FB)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Come on to The Future [63e5aa63]",
+      "charter": "Ze Great Chef Kevon / tlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1591,
+          "kick_note_on_count": 298,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 224.761,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63e5aa63ee0b69.79984109",
+        "artist": "Skillet",
+        "title": "Come on to The Future",
+        "album": "Invincible",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63e5aa63ee0b69.79984109",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5aa63ee0b69.79984109/Skillet-ComeOnToTheFuture(FB)_rb3con",
+        "duration_seconds": 241,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Come on to The Future/album.png",
+          "name": "album.png",
+          "sha256": "5317d6a80eb6360f098f563edcb4bd5ee9d7759d5569160a9ed35438a52c79b5"
+        },
+        {
+          "archive_name": "Skillet - Come on to The Future/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "96ca841d73acdf067f9e9d1b04d38dfb7038eb82f2b154a21f191e8253c8d5ef"
+        },
+        {
+          "archive_name": "Skillet - Come on to The Future/notes.mid",
+          "name": "notes.mid",
+          "sha256": "cf98d523223323f8847157e0780d68446e200b60d8299eb8a4dc325cabde5aa9"
+        },
+        {
+          "archive_name": "Skillet - Come on to The Future/song.ini",
+          "name": "song.ini",
+          "sha256": "44332ce4763157777a75ed0083aaf21af7018eb8b717e97aabb5542e87e5e27c"
+        },
+        {
+          "archive_name": "Skillet - Come on to The Future/song.ogg",
+          "name": "song.ogg",
+          "sha256": "814553d6309bcc2876742a05ee08d1d26929ff2319842f6b215b9c65db739095"
+        }
+      ],
+      "archive_sha256": "2ae40279b32bea923910c61d5a937c30441cea9bf8bf5117ed611bad2a08c580",
+      "archive_bytes": 5693440,
+      "prepared_bytes": 4453926,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:comeontothefuture",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Coming Down",
+      "file_id": "63dd68d57f1928.85339544",
+      "source_url": "https://rhythmverse.co/songfile/63dd68d57f1928.85339544",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd68d57f1928.85339544/Skillet-ComingDown(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Coming Down [63dd68d5]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 405,
+          "kick_note_on_count": 170,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 300.196,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63dd68d57f1928.85339544",
+        "artist": "Skillet",
+        "title": "Coming Down",
+        "album": "Hey You, I Love Your Soul",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63dd68d57f1928.85339544",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd68d57f1928.85339544/Skillet-ComingDown(G-D-V)_rb3con",
+        "duration_seconds": 313,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 2,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Coming Down/album.png",
+          "name": "album.png",
+          "sha256": "9882744d8a737659477302d4e8148b679a0f5a8d6b195f47f6a0a9655b646cd3"
+        },
+        {
+          "archive_name": "Skillet - Coming Down/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "9913d198d5d5bae32c50f56f4545c2ee875e63e310b5c341ecf3e3ad13b3c034"
+        },
+        {
+          "archive_name": "Skillet - Coming Down/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9c613c5bb77b8aaf6a5e838afd11b02e1eed6a09520ed86777d94f5e404517d3"
+        },
+        {
+          "archive_name": "Skillet - Coming Down/song.ini",
+          "name": "song.ini",
+          "sha256": "5ad0240a7a496e28898365d90b1a7aff25e8a92f6018436efed7ca0c54316fd6"
+        },
+        {
+          "archive_name": "Skillet - Coming Down/song.ogg",
+          "name": "song.ogg",
+          "sha256": "a49ac69240ae66f3e9449a41e4441c04f967331b4630a14402c79614f713406c"
+        }
+      ],
+      "archive_sha256": "2b7ddb0188dc46b39b851c3f9c7c3593ec2adf8e18bdac0154d02e0d5187b21c",
+      "archive_bytes": 7352320,
+      "prepared_bytes": 5702523,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:comingdown",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Deeper",
+      "file_id": "63dd691eabfa88.66615557",
+      "source_url": "https://rhythmverse.co/songfile/63dd691eabfa88.66615557",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd691eabfa88.66615557/Skillet-Deeper(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Deeper [63dd691e]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1680,
+          "kick_note_on_count": 395,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 218.725,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63dd691eabfa88.66615557",
+        "artist": "Skillet",
+        "title": "Deeper",
+        "album": "Hey You, I Love Your Soul",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63dd691eabfa88.66615557",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd691eabfa88.66615557/Skillet-Deeper(G-D-V)_rb3con",
+        "duration_seconds": 232,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 7,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Deeper/album.png",
+          "name": "album.png",
+          "sha256": "9882744d8a737659477302d4e8148b679a0f5a8d6b195f47f6a0a9655b646cd3"
+        },
+        {
+          "archive_name": "Skillet - Deeper/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d102636e6df6d14cb6595f51ede159adceabc4e27f43d08a6d87cddc4face9ce"
+        },
+        {
+          "archive_name": "Skillet - Deeper/song.ini",
+          "name": "song.ini",
+          "sha256": "5d43819281a3fefaaf2cfb8f0a6035e178d05a09c34555d3525d0f6d9513b87a"
+        },
+        {
+          "archive_name": "Skillet - Deeper/song.ogg",
+          "name": "song.ogg",
+          "sha256": "36930773615a27144fdbbe341cfe1f03a06a6846f579b32ff0c73ffcd3f8dcd9"
+        }
+      ],
+      "archive_sha256": "941485cd0506d1e68304472c8382d7ccbec3609bae7370b3fe89999843e47fdd",
+      "archive_bytes": 5087232,
+      "prepared_bytes": 4210161,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:deeper",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Dive Over In",
+      "file_id": "63dd695fdd01d8.51068103",
+      "source_url": "https://rhythmverse.co/songfile/63dd695fdd01d8.51068103",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd695fdd01d8.51068103/Skillet-DiveOverIn(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Dive Over In [63dd695f]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1680,
+          "kick_note_on_count": 368,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 224.788,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63dd695fdd01d8.51068103",
+        "artist": "Skillet",
+        "title": "Dive Over In",
+        "album": "Hey You, I Love Your Soul",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63dd695fdd01d8.51068103",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd695fdd01d8.51068103/Skillet-DiveOverIn(G-D-V)_rb3con",
+        "duration_seconds": 230,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 7,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Dive Over In/album.png",
+          "name": "album.png",
+          "sha256": "9882744d8a737659477302d4e8148b679a0f5a8d6b195f47f6a0a9655b646cd3"
+        },
+        {
+          "archive_name": "Skillet - Dive Over In/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "47baa618636e8aa14f6b378fe84b0e7a68aa5402e76244f4efe4d4925b03dab9"
+        },
+        {
+          "archive_name": "Skillet - Dive Over In/notes.mid",
+          "name": "notes.mid",
+          "sha256": "73e7638b83f9b41e531171225eb41b87eb3d46d684fa13635e4dfb3fdd2f87cd"
+        },
+        {
+          "archive_name": "Skillet - Dive Over In/song.ini",
+          "name": "song.ini",
+          "sha256": "d8dc6c9535b676aa2df8043b10346779edf03c4689adca5b7ab4664cbc2c6dc4"
+        },
+        {
+          "archive_name": "Skillet - Dive Over In/song.ogg",
+          "name": "song.ogg",
+          "sha256": "4912910de54260d68a27460d9c8fa3fc4f70fedfee6453badd711e4caf739748"
+        }
+      ],
+      "archive_sha256": "9f5cce9a275782185447fcf591b82f3359f8fec00e0320fd1261fb7115e5da6f",
+      "archive_bytes": 5570560,
+      "prepared_bytes": 4438666,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:diveoverin",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Each Other",
+      "file_id": "63e5aab076bf89.23161929",
+      "source_url": "https://rhythmverse.co/songfile/63e5aab076bf89.23161929",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5aab076bf89.23161929/Skillet-EachOther(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Each Other [63e5aab0]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1343,
+          "kick_note_on_count": 317,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 198.213,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63e5aab076bf89.23161929",
+        "artist": "Skillet",
+        "title": "Each Other",
+        "album": "Invincible",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63e5aab076bf89.23161929",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5aab076bf89.23161929/Skillet-EachOther(G-D-V)_rb3con",
+        "duration_seconds": 210,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Each Other/album.png",
+          "name": "album.png",
+          "sha256": "5317d6a80eb6360f098f563edcb4bd5ee9d7759d5569160a9ed35438a52c79b5"
+        },
+        {
+          "archive_name": "Skillet - Each Other/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d036fe64cda1afbcf3fe97e9bd39ed6aebba46ed91e6517158de3a159a1c8570"
+        },
+        {
+          "archive_name": "Skillet - Each Other/song.ini",
+          "name": "song.ini",
+          "sha256": "1e7399e5cb570e6e7485560904c97ee0747b13bc95d226563e4dd17ba3b8277f"
+        },
+        {
+          "archive_name": "Skillet - Each Other/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b01a44cecb0558cfdf6f93978c74973808a4152fb881f6e6041bb723cd20a3f1"
+        }
+      ],
+      "archive_sha256": "02f09c219eaef1b7acb0806b7202e2b5ff52d9e26dc4796562ddd788081286e0",
+      "archive_bytes": 5050368,
+      "prepared_bytes": 3880123,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:eachother",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Earth Invasion",
+      "file_id": "63efc3db852292.71998350",
+      "source_url": "https://rhythmverse.co/songfile/63efc3db852292.71998350",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63efc3db852292.71998350/Skillet-EarthInvasion(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Earth Invasion [63efc3db]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1892,
+          "kick_note_on_count": 544,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 283.549,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63efc3db852292.71998350",
+        "artist": "Skillet",
+        "title": "Earth Invasion",
+        "album": "Alien Youth",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63efc3db852292.71998350",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63efc3db852292.71998350/Skillet-EarthInvasion(G-D-V)_rb3con",
+        "duration_seconds": 290,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Earth Invasion/album.png",
+          "name": "album.png",
+          "sha256": "80dcab8037fb88c5d7376654985977519d30ce40cb1a93c1fe61fdda13780f96"
+        },
+        {
+          "archive_name": "Skillet - Earth Invasion/notes.mid",
+          "name": "notes.mid",
+          "sha256": "40919bc8c11eecb9f73b72a1c36f01ce6c26e0369385c5af582c335ffb9bd7bf"
+        },
+        {
+          "archive_name": "Skillet - Earth Invasion/song.ini",
+          "name": "song.ini",
+          "sha256": "5a5427dc5f2b916a9e357cfcace730687715294782d991c9b729accdb5c5c658"
+        },
+        {
+          "archive_name": "Skillet - Earth Invasion/song.ogg",
+          "name": "song.ogg",
+          "sha256": "bdb7b1cc51a36d3eff7743601f8adc65a1d04a9dbf9398bb5299b29037ef677b"
+        }
+      ],
+      "archive_sha256": "a56ae6064ef6ea81a7059d209e861687e8ecdd2798146544c88f937e8d2214fc",
+      "archive_bytes": 7049216,
+      "prepared_bytes": 5573985,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:earthinvasion",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Eating Me Away",
+      "file_id": "63efc4228841f5.39084663",
+      "source_url": "https://rhythmverse.co/songfile/63efc4228841f5.39084663",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63efc4228841f5.39084663/Skillet-EatingMeAway(FB)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Eating Me Away [63efc422]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1400,
+          "kick_note_on_count": 493,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 217.16,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63efc4228841f5.39084663",
+        "artist": "Skillet",
+        "title": "Eating Me Away",
+        "album": "Alien Youth",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63efc4228841f5.39084663",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63efc4228841f5.39084663/Skillet-EatingMeAway(FB)_rb3con",
+        "duration_seconds": 223,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Eating Me Away/album.png",
+          "name": "album.png",
+          "sha256": "80dcab8037fb88c5d7376654985977519d30ce40cb1a93c1fe61fdda13780f96"
+        },
+        {
+          "archive_name": "Skillet - Eating Me Away/notes.mid",
+          "name": "notes.mid",
+          "sha256": "59c884c020b2dde8d26b97505da5775b52a1174c1cb7d7e9203a537efe500d29"
+        },
+        {
+          "archive_name": "Skillet - Eating Me Away/song.ini",
+          "name": "song.ini",
+          "sha256": "ad7c58c6e9753558c7e18a8f289d448b73c3237ff2d2bd883b86756e3f5fc50c"
+        },
+        {
+          "archive_name": "Skillet - Eating Me Away/song.ogg",
+          "name": "song.ogg",
+          "sha256": "abe5a26f964c73e5e9a15fef302a302a7ed822b1ac6a493b8332d714899583fe"
+        }
+      ],
+      "archive_sha256": "814f7b2cfa1dfc3d872b72eccf257537bfc11bc70889dd6a210c24c49b3c891c",
+      "archive_bytes": 5419008,
+      "prepared_bytes": 4238153,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:eatingmeaway",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Gasoline",
+      "file_id": "63d417fad3efb9.82046646",
+      "source_url": "https://rhythmverse.co/songfile/63d417fad3efb9.82046646",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63d417fad3efb9.82046646/Skillet-Gasoline(FB)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Gasoline [63d417fa]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1677,
+          "kick_note_on_count": 550,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 238.093,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63d417fad3efb9.82046646",
+        "artist": "Skillet",
+        "title": "Gasoline",
+        "album": "Skillet",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63d417fad3efb9.82046646",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63d417fad3efb9.82046646/Skillet-Gasoline(FB)_rb3con",
+        "duration_seconds": 249,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Gasoline/album.png",
+          "name": "album.png",
+          "sha256": "d923b856fdbb4d58e7500eb1964bb64438f4beef15043b35c14a32147d89bb9d"
+        },
+        {
+          "archive_name": "Skillet - Gasoline/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "b529f51b487e56ce4687c4a00492f1f7766985f6f389d9b8eba6c855f1a86ed0"
+        },
+        {
+          "archive_name": "Skillet - Gasoline/notes.mid",
+          "name": "notes.mid",
+          "sha256": "19cd30e08122dba1c89f67c64f90c4a6dd84d92cedb1126946da67dd543e440f"
+        },
+        {
+          "archive_name": "Skillet - Gasoline/song.ini",
+          "name": "song.ini",
+          "sha256": "52405cb5936ad1c7dc2b8e694f11045e7885f3dd78e7e8b5201a863f5609eec4"
+        },
+        {
+          "archive_name": "Skillet - Gasoline/song.ogg",
+          "name": "song.ogg",
+          "sha256": "cb2f6a5dd90ab8ea034376de1cff3a365c106629e609c49654e367c748163727"
+        }
+      ],
+      "archive_sha256": "15402f81a1bd709cef1b1417ed9ac5dca827ea3134685648ca2dcdef2c1f1930",
+      "archive_bytes": 5894144,
+      "prepared_bytes": 4598694,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:gasoline",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Heaven In My Veins",
+      "file_id": "63e5aaf8209ae2.11714590",
+      "source_url": "https://rhythmverse.co/songfile/63e5aaf8209ae2.11714590",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5aaf8209ae2.11714590/Skillet-HeavenInMyVeins(G-D)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Heaven In My Veins [63e5aaf8]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1579,
+          "kick_note_on_count": 403,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 237.201,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63e5aaf8209ae2.11714590",
+        "artist": "Skillet",
+        "title": "Heaven In My Veins",
+        "album": "Rare Cuts",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63e5aaf8209ae2.11714590",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5aaf8209ae2.11714590/Skillet-HeavenInMyVeins(G-D)_rb3con",
+        "duration_seconds": 242,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Heaven In My Veins/album.png",
+          "name": "album.png",
+          "sha256": "035e0ee662aaae5b3b265fc01edb897b29f110c557fbeec8ddb16490723c0554"
+        },
+        {
+          "archive_name": "Skillet - Heaven In My Veins/notes.mid",
+          "name": "notes.mid",
+          "sha256": "78a93b661843c70f91d4981296474b3c2cc29ddd20d0777746823f2c8135cea0"
+        },
+        {
+          "archive_name": "Skillet - Heaven In My Veins/song.ini",
+          "name": "song.ini",
+          "sha256": "deb6208d05339e2af5d2d3a950cae622304c88d1280243f1b5d860ea95255c62"
+        },
+        {
+          "archive_name": "Skillet - Heaven In My Veins/song.ogg",
+          "name": "song.ogg",
+          "sha256": "98d0d3fbee927ba37eb5699302c2de935c3cf6eeaa887683a72b2f44b041ec79"
+        }
+      ],
+      "archive_sha256": "4fc52e5c7ea98c48c7c4da623056c021bbc45ca44e4fb928d62aab5f819594f6",
+      "archive_bytes": 5349376,
+      "prepared_bytes": 4427656,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:heaveninmyveins",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Hey You, I Love Your Soul",
+      "file_id": "63dd699ba5a002.02330653",
+      "source_url": "https://rhythmverse.co/songfile/63dd699ba5a002.02330653",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd699ba5a002.02330653/Skillet-HeyYou,ILoveYourSoul(FB)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Hey You, I Love Your Soul [63dd699b]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1022,
+          "kick_note_on_count": 197,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 176.214,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63dd699ba5a002.02330653",
+        "artist": "Skillet",
+        "title": "Hey You, I Love Your Soul",
+        "album": "Hey You, I Love Your Soul",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63dd699ba5a002.02330653",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd699ba5a002.02330653/Skillet-HeyYou,ILoveYourSoul(FB)_rb3con",
+        "duration_seconds": 181,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Hey You, I Love Your Soul/album.png",
+          "name": "album.png",
+          "sha256": "9882744d8a737659477302d4e8148b679a0f5a8d6b195f47f6a0a9655b646cd3"
+        },
+        {
+          "archive_name": "Skillet - Hey You, I Love Your Soul/notes.mid",
+          "name": "notes.mid",
+          "sha256": "176a198017f105e65b519c7623ca7b26cc3f3e3acbcdd6c0d778a8e7c61d358a"
+        },
+        {
+          "archive_name": "Skillet - Hey You, I Love Your Soul/song.ini",
+          "name": "song.ini",
+          "sha256": "ee277ea1a0ab7ab2e46fa32b9be702e552574960183730292164e064cfb70cfb"
+        },
+        {
+          "archive_name": "Skillet - Hey You, I Love Your Soul/song.ogg",
+          "name": "song.ogg",
+          "sha256": "9c172b62d8cfe3734a285cf251da0a74e344934ed93a25718292414d781e15d9"
+        }
+      ],
+      "archive_sha256": "390d636a3a25a67b7ad1399ed4974daa00a7839b35e08011210f1889ea688bed",
+      "archive_bytes": 4018176,
+      "prepared_bytes": 3150166,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:heyyouiloveyoursoul",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "How Deep the Father's Love for Us",
+      "file_id": "63cae230704ef3.73971035",
+      "source_url": "https://rhythmverse.co/songfile/63cae230704ef3.73971035",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63cae230704ef3.73971035/Skillet-HowDeepTheFathersLoveForUs(G-D)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - How Deep the Father's Love for Us [63cae230]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 171,
+          "kick_note_on_count": 70,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 218.24,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63cae230704ef3.73971035",
+        "artist": "Skillet",
+        "title": "How Deep the Father's Love for Us",
+        "album": "Ardent Worship Live!",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63cae230704ef3.73971035",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63cae230704ef3.73971035/Skillet-HowDeepTheFathersLoveForUs(G-D)_rb3con",
+        "duration_seconds": 233,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 1,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - How Deep the Father's Love for Us/album.png",
+          "name": "album.png",
+          "sha256": "81247466b07817d05639b8dfd9feaeff3c07fe60d0752373b104f103678ed6fe"
+        },
+        {
+          "archive_name": "Skillet - How Deep the Father's Love for Us/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "259b0869d927bf50c34ae71329397694257492d510170110baa6648a167b955b"
+        },
+        {
+          "archive_name": "Skillet - How Deep the Father's Love for Us/notes.mid",
+          "name": "notes.mid",
+          "sha256": "77cdfae99c56d8f191654f79a3ed4fef60cc311972a3bab2524bd345f7115168"
+        },
+        {
+          "archive_name": "Skillet - How Deep the Father's Love for Us/song.ini",
+          "name": "song.ini",
+          "sha256": "e780044b7e18257cbc479d08dd4ac10ff15e33eef4bace1ce0f5a0aa6207b4bc"
+        },
+        {
+          "archive_name": "Skillet - How Deep the Father's Love for Us/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d221805f504d77af75e37ad75c17db4d1f775993f325280e8f4b3fbc9edba62a"
+        }
+      ],
+      "archive_sha256": "802235e7cc4aafccf489a9af90b09147ddf211b6b2e1994ebf255b1d6723a8f7",
+      "archive_bytes": 4694016,
+      "prepared_bytes": 3746913,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:howdeepthefathersloveforus",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "I Can",
+      "file_id": "63d41839176439.29347823",
+      "source_url": "https://rhythmverse.co/songfile/63d41839176439.29347823",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63d41839176439.29347823/Skillet-ICan(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - I Can [63d41839]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 942,
+          "kick_note_on_count": 373,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 233.437,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63d41839176439.29347823",
+        "artist": "Skillet",
+        "title": "I Can",
+        "album": "Skillet",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63d41839176439.29347823",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63d41839176439.29347823/Skillet-ICan(G-D-V)_rb3con",
+        "duration_seconds": 264,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - I Can/album.png",
+          "name": "album.png",
+          "sha256": "d923b856fdbb4d58e7500eb1964bb64438f4beef15043b35c14a32147d89bb9d"
+        },
+        {
+          "archive_name": "Skillet - I Can/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "b407c0131aca1b377502faf9562c7498bf51b7b703c2e788bf30b9ccac597ac1"
+        },
+        {
+          "archive_name": "Skillet - I Can/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f040a4a780247fc6c3d2a0afc9fc0f3f4497f0bb74b37885baa4f78e52efe8bd"
+        },
+        {
+          "archive_name": "Skillet - I Can/song.ini",
+          "name": "song.ini",
+          "sha256": "ff653a35d344c6acb493b3842f5f59ac8625fe11090d7cd9dec2ec3a47ea73d2"
+        },
+        {
+          "archive_name": "Skillet - I Can/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b88f69001f90e0945eb681fb9234bd4a5c66c7c19883d12610fe02965552304c"
+        }
+      ],
+      "archive_sha256": "a00559713ccdde8eaaae3b8613fb3c6f57da6de6b9677d9f015fd219504bbda4",
+      "archive_bytes": 5890048,
+      "prepared_bytes": 4614277,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:ican",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Jesus Be Glorified",
+      "file_id": "63cae2ac395319.90755029",
+      "source_url": "https://rhythmverse.co/songfile/63cae2ac395319.90755029",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63cae2ac395319.90755029/Skillet-JesusBeGlorified(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Jesus Be Glorified [63cae2ac]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1188,
+          "kick_note_on_count": 341,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 222.374,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63cae2ac395319.90755029",
+        "artist": "Skillet",
+        "title": "Jesus Be Glorified",
+        "album": "Ardent Worship Live!",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63cae2ac395319.90755029",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63cae2ac395319.90755029/Skillet-JesusBeGlorified(G-D-V)_rb3con",
+        "duration_seconds": 254,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 4,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Jesus Be Glorified/album.png",
+          "name": "album.png",
+          "sha256": "faa08590951e784c8ae583c8efa00b3fbc6c4308f0b49c0ad39c858660f9fcc4"
+        },
+        {
+          "archive_name": "Skillet - Jesus Be Glorified/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "59f3bfa6fb7fa189496136b756733fd27fe9bb507a83e021c4bb3dd78dfbbc90"
+        },
+        {
+          "archive_name": "Skillet - Jesus Be Glorified/notes.mid",
+          "name": "notes.mid",
+          "sha256": "110bd628adecd28b458a6b558ca76bb68fe7120668d7d625f8a1ac7ab56bf465"
+        },
+        {
+          "archive_name": "Skillet - Jesus Be Glorified/song.ini",
+          "name": "song.ini",
+          "sha256": "c6ef47df3dcbd899a99bec71d1d3ffc8b7555ca44f2bcf3ed0ae7bdc31062df9"
+        },
+        {
+          "archive_name": "Skillet - Jesus Be Glorified/song.ogg",
+          "name": "song.ogg",
+          "sha256": "d881b633ce9b7116801b11c57337ae147c317014b9e1c7b1a05f3d9ca548d2c1"
+        }
+      ],
+      "archive_sha256": "c9d3427ffd648b47e324ca84ab5c42b69857eb2f597a0783325573a8f2bb4532",
+      "archive_bytes": 6201344,
+      "prepared_bytes": 5085230,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:jesusbeglorified",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Jesus, Jesus (Holy and Anointed One)",
+      "file_id": "63cae272426b28.41749818",
+      "source_url": "https://rhythmverse.co/songfile/63cae272426b28.41749818",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63cae272426b28.41749818/Skillet-Jesus,Jesus(HolyAndAnointedOne)(G-D)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Jesus, Jesus (Holy and Anointed One) [63cae272]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1190,
+          "kick_note_on_count": 336,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 428.884,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63cae272426b28.41749818",
+        "artist": "Skillet",
+        "title": "Jesus, Jesus (Holy and Anointed One)",
+        "album": "Ardent Worship Live!",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63cae272426b28.41749818",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63cae272426b28.41749818/Skillet-Jesus,Jesus(HolyAndAnointedOne)(G-D)_rb3con",
+        "duration_seconds": 441,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Jesus, Jesus (Holy and Anointed One)/album.png",
+          "name": "album.png",
+          "sha256": "faa08590951e784c8ae583c8efa00b3fbc6c4308f0b49c0ad39c858660f9fcc4"
+        },
+        {
+          "archive_name": "Skillet - Jesus, Jesus (Holy and Anointed One)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ea9b83f2516a14a712dfdce396bf527e4a9c4c21db13c7208eb59515f52504f1"
+        },
+        {
+          "archive_name": "Skillet - Jesus, Jesus (Holy and Anointed One)/song.ini",
+          "name": "song.ini",
+          "sha256": "f9070c673f567d433fad929aa9df22ffa8c703c6d9b032a8495925aa06395922"
+        },
+        {
+          "archive_name": "Skillet - Jesus, Jesus (Holy and Anointed One)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "58da782c0cb855469a60c63989f51bf21dbf44b6cdc55b16e317da35d1c96f10"
+        }
+      ],
+      "archive_sha256": "958df66acb0896747f197435ef4ce3205ca60002662835a27a834627602cf7c3",
+      "archive_bytes": 9072640,
+      "prepared_bytes": 7578470,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:jesusjesusholyandanointedone",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Kill Me Heal Me",
+      "file_id": "63efc45e7ea4f0.60637381",
+      "source_url": "https://rhythmverse.co/songfile/63efc45e7ea4f0.60637381",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63efc45e7ea4f0.60637381/Skillet-KillMeHealMe(FB)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Kill Me Heal Me [63efc45e]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1137,
+          "kick_note_on_count": 355,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 216.525,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63efc45e7ea4f0.60637381",
+        "artist": "Skillet",
+        "title": "Kill Me Heal Me",
+        "album": "Alien Youth",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63efc45e7ea4f0.60637381",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63efc45e7ea4f0.60637381/Skillet-KillMeHealMe(FB)_rb3con",
+        "duration_seconds": 222,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Kill Me Heal Me/album.png",
+          "name": "album.png",
+          "sha256": "80dcab8037fb88c5d7376654985977519d30ce40cb1a93c1fe61fdda13780f96"
+        },
+        {
+          "archive_name": "Skillet - Kill Me Heal Me/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "f5d8e1c879f558f72d844032707ce3a0be9d95580c6e8cc6aad590283dec988c"
+        },
+        {
+          "archive_name": "Skillet - Kill Me Heal Me/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b1cda6a20cc4bf151ecbc27713fb25eb9f80e6a91fd66e7066398ef264384f9e"
+        },
+        {
+          "archive_name": "Skillet - Kill Me Heal Me/song.ini",
+          "name": "song.ini",
+          "sha256": "a990001c92654614db2df622e39dfad47f1c1fc90bb28910042d82777778ff67"
+        },
+        {
+          "archive_name": "Skillet - Kill Me Heal Me/song.ogg",
+          "name": "song.ogg",
+          "sha256": "00cd8615c163466e2bb683fb7de200f4ea9a1f8039aed41d8b7baa29dee5f38f"
+        }
+      ],
+      "archive_sha256": "2294b02cacc912a2ab2a5f4ab2f2e806a9c3f31effd7e3b12fa20a142a9d202b",
+      "archive_bytes": 5537792,
+      "prepared_bytes": 4547333,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:killmehealme",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Locked In A Cage",
+      "file_id": "63dd6a1f7c3f67.92818699",
+      "source_url": "https://rhythmverse.co/songfile/63dd6a1f7c3f67.92818699",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd6a1f7c3f67.92818699/Skillet-LockedInACage(FB)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Locked In A Cage [63dd6a1f]",
+      "charter": "tlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1054,
+          "kick_note_on_count": 405,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 233.46,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63dd6a1f7c3f67.92818699",
+        "artist": "Skillet",
+        "title": "Locked In A Cage",
+        "album": "Hey You, I Love Your Soul",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63dd6a1f7c3f67.92818699",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd6a1f7c3f67.92818699/Skillet-LockedInACage(FB)_rb3con",
+        "duration_seconds": 241,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 4,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Locked In A Cage/album.png",
+          "name": "album.png",
+          "sha256": "93329f43877d567b25a7f86db94fb37db670a6e6fc0e368500530fc8f187d904"
+        },
+        {
+          "archive_name": "Skillet - Locked In A Cage/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "68b16aaeb525e7f0a2798743440f37a6cb9836dc753eb801d92f492b21bbbfa9"
+        },
+        {
+          "archive_name": "Skillet - Locked In A Cage/notes.mid",
+          "name": "notes.mid",
+          "sha256": "164f21ccee9851cf3eeefc0dce9a09565dedc447e10a770de32be97a7832e60f"
+        },
+        {
+          "archive_name": "Skillet - Locked In A Cage/song.ini",
+          "name": "song.ini",
+          "sha256": "cfc9c71b92dd9e0de727c9d45d9edd3642cddf1cbd1b0b973018e689d98d7e14"
+        },
+        {
+          "archive_name": "Skillet - Locked In A Cage/song.ogg",
+          "name": "song.ogg",
+          "sha256": "0ca171cf995f1329dbf0d146af1c1a2178bdedbf112b97eadb6edc444caafd0f"
+        }
+      ],
+      "archive_sha256": "fa5ffd44309a1c9565e3dc67388e4319bc5434dcca55190d5e77b7dd68394c54",
+      "archive_bytes": 5259264,
+      "prepared_bytes": 4213414,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:lockedinacage",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "More Faithful",
+      "file_id": "63dd6a5eac53c4.55884232",
+      "source_url": "https://rhythmverse.co/songfile/63dd6a5eac53c4.55884232",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd6a5eac53c4.55884232/Skillet-MoreFaithful(G-D)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - More Faithful [63dd6a5e]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1097,
+          "kick_note_on_count": 204,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 215.037,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63dd6a5eac53c4.55884232",
+        "artist": "Skillet",
+        "title": "More Faithful",
+        "album": "Hey You, I Love Your Soul",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63dd6a5eac53c4.55884232",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63dd6a5eac53c4.55884232/Skillet-MoreFaithful(G-D)_rb3con",
+        "duration_seconds": 228,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - More Faithful/album.png",
+          "name": "album.png",
+          "sha256": "9882744d8a737659477302d4e8148b679a0f5a8d6b195f47f6a0a9655b646cd3"
+        },
+        {
+          "archive_name": "Skillet - More Faithful/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7596704c12565eeb07ecca4e0ef6d6efa63b2a9db829c63826620527e4ae3116"
+        },
+        {
+          "archive_name": "Skillet - More Faithful/song.ini",
+          "name": "song.ini",
+          "sha256": "65048120a5c1128b33084128528d96c3449b2dde659da7e0424fc6aa7366ec6d"
+        },
+        {
+          "archive_name": "Skillet - More Faithful/song.ogg",
+          "name": "song.ogg",
+          "sha256": "de2ef157d40f4af872216fd94608f9ff58f5a1d6c11fd3797415e110798f71f3"
+        }
+      ],
+      "archive_sha256": "41963211647812497a4d98d13df79e13ecf1f73a00756f00d3889fb980c4a952",
+      "archive_bytes": 5218304,
+      "prepared_bytes": 4045706,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:morefaithful",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "My Beautiful Robe",
+      "file_id": "63d4187878f444.16008078",
+      "source_url": "https://rhythmverse.co/songfile/63d4187878f444.16008078",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63d4187878f444.16008078/Skillet-MyBeautifulRobe(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - My Beautiful Robe [63d41878]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1314,
+          "kick_note_on_count": 426,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 218.086,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63d4187878f444.16008078",
+        "artist": "Skillet",
+        "title": "My Beautiful Robe",
+        "album": "Skillet",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63d4187878f444.16008078",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63d4187878f444.16008078/Skillet-MyBeautifulRobe(G-D-V)_rb3con",
+        "duration_seconds": 224,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - My Beautiful Robe/album.png",
+          "name": "album.png",
+          "sha256": "d923b856fdbb4d58e7500eb1964bb64438f4beef15043b35c14a32147d89bb9d"
+        },
+        {
+          "archive_name": "Skillet - My Beautiful Robe/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "c436c8f3f8e7876c3b96a1d9724e787cb5b9921bc0fb9240205bf10967df02fe"
+        },
+        {
+          "archive_name": "Skillet - My Beautiful Robe/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7ab6255995cdb8599410287cd0b8057724f562acd4b37a9bf1a9fe3b45566e08"
+        },
+        {
+          "archive_name": "Skillet - My Beautiful Robe/song.ini",
+          "name": "song.ini",
+          "sha256": "057deb674ee981e7e7417dc84d536e2aef9b59d951bd36327cbf70b27590affb"
+        },
+        {
+          "archive_name": "Skillet - My Beautiful Robe/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7338bd489bffe16fc67e18556c434bf258eb55a8d658dacad56fd33bf3c44f06"
+        }
+      ],
+      "archive_sha256": "225baae61e4104ae2f3f64b328084b5213080091eef8d1e02fcfbc31273daf3a",
+      "archive_bytes": 5328896,
+      "prepared_bytes": 4054014,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:mybeautifulrobe",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "One Real Thing",
+      "file_id": "63efc49550f6f0.22013886",
+      "source_url": "https://rhythmverse.co/songfile/63efc49550f6f0.22013886",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63efc49550f6f0.22013886/Skillet-OneRealThing(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - One Real Thing [63efc495]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1285,
+          "kick_note_on_count": 331,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 208.515,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63efc49550f6f0.22013886",
+        "artist": "Skillet",
+        "title": "One Real Thing",
+        "album": "Alien Youth",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63efc49550f6f0.22013886",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63efc49550f6f0.22013886/Skillet-OneRealThing(G-D-V)_rb3con",
+        "duration_seconds": 225,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - One Real Thing/album.png",
+          "name": "album.png",
+          "sha256": "80dcab8037fb88c5d7376654985977519d30ce40cb1a93c1fe61fdda13780f96"
+        },
+        {
+          "archive_name": "Skillet - One Real Thing/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "9891ab8e9fe5db79467e82920f46045689db706d9f1e15da088c0ce68a42d01c"
+        },
+        {
+          "archive_name": "Skillet - One Real Thing/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2356c879eaa84ac1887ae7218cbfb66fc38a2cd22d447e2be6b7dada57cf89a8"
+        },
+        {
+          "archive_name": "Skillet - One Real Thing/song.ini",
+          "name": "song.ini",
+          "sha256": "f5a57d314f148967a59d65a86bb159731e3ee6d41549825896cf8cf4aeb322a3"
+        },
+        {
+          "archive_name": "Skillet - One Real Thing/song.ogg",
+          "name": "song.ogg",
+          "sha256": "41ac44d22bec29a79fc318c2ebf5c31caf2704b157642c8bbb1d9effb57b9a9f"
+        }
+      ],
+      "archive_sha256": "b4e430d31ee33e4c0e542b54c8c542e5ea7a54b82f4b44c93b8a1e3154a6917b",
+      "archive_bytes": 5275648,
+      "prepared_bytes": 4262576,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:onerealthing",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Paint",
+      "file_id": "63d418bda1e1b5.57967140",
+      "source_url": "https://rhythmverse.co/songfile/63d418bda1e1b5.57967140",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63d418bda1e1b5.57967140/Skillet-Paint(G-D-V)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Paint [63d418bd]",
+      "charter": "Spaidertyler / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1182,
+          "kick_note_on_count": 443,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 190.262,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63d418bda1e1b5.57967140",
+        "artist": "Skillet",
+        "title": "Paint",
+        "album": "Skillet",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63d418bda1e1b5.57967140",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63d418bda1e1b5.57967140/Skillet-Paint(G-D-V)_rb3con",
+        "duration_seconds": 203,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Paint/album.png",
+          "name": "album.png",
+          "sha256": "d923b856fdbb4d58e7500eb1964bb64438f4beef15043b35c14a32147d89bb9d"
+        },
+        {
+          "archive_name": "Skillet - Paint/notes.mid",
+          "name": "notes.mid",
+          "sha256": "e639185f17fa0174766c34b2a2d2ac20954b19e838c2548fd9c205f4c07cde61"
+        },
+        {
+          "archive_name": "Skillet - Paint/song.ini",
+          "name": "song.ini",
+          "sha256": "c0043b09d76be3114856769f0f16de1aad5416eaa144d4f1c41b07e15e5ba670"
+        },
+        {
+          "archive_name": "Skillet - Paint/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3bef2c31341ff3fb1957321c4779dd67bf7bc7593dbde59937492c6551b946d9"
+        }
+      ],
+      "archive_sha256": "f09f0a9bdbe9336cc9cd9d75c3b497b9221a1e110de7faddef16cee81080f3c3",
+      "archive_bytes": 4579328,
+      "prepared_bytes": 3567280,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:paint",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Podcast Song",
+      "file_id": "63e5b27310a4d2.24444801",
+      "source_url": "https://rhythmverse.co/songfile/63e5b27310a4d2.24444801",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5b27310a4d2.24444801/Skillet-PodcastSong(G-D)_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Podcast Song [63e5b273]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 754,
+          "kick_note_on_count": 244,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 142.463,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63e5b27310a4d2.24444801",
+        "artist": "Skillet",
+        "title": "Podcast Song",
+        "album": "Single",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63e5b27310a4d2.24444801",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63e5b27310a4d2.24444801/Skillet-PodcastSong(G-D)_rb3con",
+        "duration_seconds": 151,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 4,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Podcast Song/album.png",
+          "name": "album.png",
+          "sha256": "fb2efae743c07d906691388d028f963b1deb4afb094c5682f4fb833e32816642"
+        },
+        {
+          "archive_name": "Skillet - Podcast Song/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "02215bd88f2240e5758ddac7abca19e4096cff9d7326330b2bd68909eabe6a6a"
+        },
+        {
+          "archive_name": "Skillet - Podcast Song/notes.mid",
+          "name": "notes.mid",
+          "sha256": "b0150d44de921ea8b56fc4ffe3c63454b8c589e6668b68c1145dfab84f1534d0"
+        },
+        {
+          "archive_name": "Skillet - Podcast Song/song.ini",
+          "name": "song.ini",
+          "sha256": "47cdc974441a1a10ca6ad837de440bb9142c45bdccb969e265f671fc249da08c"
+        },
+        {
+          "archive_name": "Skillet - Podcast Song/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2244cbc7da928aba170000ee26997cc5a9faa97a8d64ed6dd1e2d350346be756"
+        }
+      ],
+      "archive_sha256": "4718e1b8ef38e0658a3aa69e0c7069a28ddc905e2deefd2c20b46395c4b64d31",
+      "archive_bytes": 3117056,
+      "prepared_bytes": 2328979,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "skillet:podcastsong",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    }
+  ]
+}

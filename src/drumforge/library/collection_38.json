@@ -1,0 +1,1126 @@
+{
+  "schema_version": 1,
+  "batch_number": 38,
+  "collection_folder": "MixDrumRock - Drums - Lote 38 - Skillet",
+  "archive_name": "MixDrumRock-lote-38.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "theme": "skillet",
+  "theme_label": "Skillet",
+  "edition_group": "live",
+  "songs": [
+    {
+      "artist": "Skillet",
+      "title": "Angels Fall Down (Live)",
+      "file_id": "63c1a3bfc80bf5.65257296",
+      "source_url": "https://rhythmverse.co/songfile/63c1a3bfc80bf5.65257296",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a3bfc80bf5.65257296/Skillet-AngelsFallDown(Live)[G-D]_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Angels Fall Down (Live) [63c1a3bf]",
+      "charter": "Banzai85 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 924,
+          "kick_note_on_count": 253,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 357.548,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a3bfc80bf5.65257296",
+        "artist": "Skillet",
+        "title": "Angels Fall Down (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a3bfc80bf5.65257296",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a3bfc80bf5.65257296/Skillet-AngelsFallDown(Live)[G-D]_rb3con",
+        "duration_seconds": 441,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 3,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Angels Fall Down (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Angels Fall Down (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "62fd7b939dfabcae9168884be35933312081cfaecdd782646aeecdb4854d8060"
+        },
+        {
+          "archive_name": "Skillet - Angels Fall Down (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "8b2f5c02bcf3d5b09dc6920b6fbc73f6a15ebe283f8322150d73caba9be5df5f"
+        },
+        {
+          "archive_name": "Skillet - Angels Fall Down (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "e28818fa782b9dd40c0282a82acf9f531539df07a3a4b6da84033540a87b92ce"
+        }
+      ],
+      "archive_sha256": "dc9cf7183d6f3491e14880227a6bd88773de1107f90af72554089af39bf52e59",
+      "archive_bytes": 9019392,
+      "prepared_bytes": 7149864,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:angelsfalldownlive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Best Kept Secret (Live)",
+      "file_id": "63c1a41ac8c501.17110374",
+      "source_url": "https://rhythmverse.co/songfile/63c1a41ac8c501.17110374",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a41ac8c501.17110374/Skillet-BestKeptSecret(Live)[G-D-V]_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Best Kept Secret (Live) [63c1a41a]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1316,
+          "kick_note_on_count": 313,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 252.613,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a41ac8c501.17110374",
+        "artist": "Skillet",
+        "title": "Best Kept Secret (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a41ac8c501.17110374",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a41ac8c501.17110374/Skillet-BestKeptSecret(Live)[G-D-V]_rb3con",
+        "duration_seconds": 270,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 2,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Best Kept Secret (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Best Kept Secret (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "50105ccd1b0f17f1589f4d757e34833119f71526404fbfb19125c8dd4649be33"
+        },
+        {
+          "archive_name": "Skillet - Best Kept Secret (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "c5fbabe7695f9ae1666b3315bbaa4abc4075d0d86f938cf93cc2ebf718355d14"
+        },
+        {
+          "archive_name": "Skillet - Best Kept Secret (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "02138a5d40bc866a2f2a834b6c1e1f092ba29d641763bd8ff67af76239bf49e1"
+        }
+      ],
+      "archive_sha256": "4b04f45e96aa1f09689b48dcf4393b3de78c158c66d927fa91cffba01d7370d3",
+      "archive_bytes": 6799360,
+      "prepared_bytes": 5438319,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:bestkeptsecretlive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Better Than Drugs (Live)",
+      "file_id": "63c1a45d437fb7.63582446",
+      "source_url": "https://rhythmverse.co/songfile/63c1a45d437fb7.63582446",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a45d437fb7.63582446/Skillet-BetterThanDrugs(Live)[G-D-V]v2_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Better Than Drugs (Live) [63c1a45d]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1579,
+          "kick_note_on_count": 479,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 289.684,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a45d437fb7.63582446",
+        "artist": "Skillet",
+        "title": "Better Than Drugs (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a45d437fb7.63582446",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a45d437fb7.63582446/Skillet-BetterThanDrugs(Live)[G-D-V]v2_rb3con",
+        "duration_seconds": 307,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 4,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Better Than Drugs (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Better Than Drugs (Live)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "80da15a1e20ea7122c93d63dddd46eb35b5114258fed1b1a173a75584433c854"
+        },
+        {
+          "archive_name": "Skillet - Better Than Drugs (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7bba5ab73bbe559d28f24280ba1524e0e91bab9c25820703e9c58d830acc751c"
+        },
+        {
+          "archive_name": "Skillet - Better Than Drugs (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "b23aa1284f4bce74ffafd7419beb1b949174f8aa5161a09827a3e20d94d0259e"
+        },
+        {
+          "archive_name": "Skillet - Better Than Drugs (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5ae9da19b418bcfe3a328b1e7484be2e18650abe05b4a516154b983067603f77"
+        }
+      ],
+      "archive_sha256": "28576c62cc4eb373f7c61a97f78c4df5ba7ce509784ee741be47993ec9775589",
+      "archive_bytes": 7909376,
+      "prepared_bytes": 6393578,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:betterthandrugslive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Collide (Live)",
+      "file_id": "63c1a49ebdb181.69332937",
+      "source_url": "https://rhythmverse.co/songfile/63c1a49ebdb181.69332937",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a49ebdb181.69332937/Skillet-Collide(Live)[G-D-V]_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Collide (Live) [63c1a49e]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1696,
+          "kick_note_on_count": 422,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 308.755,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a49ebdb181.69332937",
+        "artist": "Skillet",
+        "title": "Collide (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a49ebdb181.69332937",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a49ebdb181.69332937/Skillet-Collide(Live)[G-D-V]_rb3con",
+        "duration_seconds": 323,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Collide (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Collide (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a606c584397ae053ff3942e1b346e35eb1028038e785d3c006c119ee630d773c"
+        },
+        {
+          "archive_name": "Skillet - Collide (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "bd34f8ef639466f12c344125a34dcd7c72854d336964daffdc0202188ee40c36"
+        },
+        {
+          "archive_name": "Skillet - Collide (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "5492b9dd063baf66d52597f919c5cfd0897b4e32e9be1bb10568d772be66f6d5"
+        }
+      ],
+      "archive_sha256": "e61b5ed311302ee15761916d3b946155ce18b0b274e2ac0d687a0a427ec90b1e",
+      "archive_bytes": 8404992,
+      "prepared_bytes": 6688896,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:collidelive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Comatose (Live)",
+      "file_id": "63c1a4df957ed4.81179911",
+      "source_url": "https://rhythmverse.co/songfile/63c1a4df957ed4.81179911",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a4df957ed4.81179911/Skillet-Comatose(Live)[G-D-V]_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Comatose (Live) [63c1a4df]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1083,
+          "kick_note_on_count": 373,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 220.263,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a4df957ed4.81179911",
+        "artist": "Skillet",
+        "title": "Comatose (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a4df957ed4.81179911",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a4df957ed4.81179911/Skillet-Comatose(Live)[G-D-V]_rb3con",
+        "duration_seconds": 236,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 4,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Comatose (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Comatose (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c5f2e203c7e153edaa2ace8a511963383a48b1cfa8949bbdc2339eb41182d20f"
+        },
+        {
+          "archive_name": "Skillet - Comatose (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "7ad2de1294e4a332d22ed21ec9cebb93e4347baa07c52905a720e9f3070aafce"
+        },
+        {
+          "archive_name": "Skillet - Comatose (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "e84d4bb9be1577b2eef4fe79a35a2497e44d4d2ce694a97236a95cba0dc61150"
+        }
+      ],
+      "archive_sha256": "b09ac51ae4a6994d84525a8208032100ed30d3d6d4e0ae7f12d313e755cbc9a0",
+      "archive_bytes": 6316032,
+      "prepared_bytes": 5059897,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:comatoselive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Forsaken (Live)",
+      "file_id": "63c1a521864a33.97148597",
+      "source_url": "https://rhythmverse.co/songfile/63c1a521864a33.97148597",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a521864a33.97148597/Skillet-Forsaken(Live)[G-D-V]_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Forsaken (Live) [63c1a521]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1528,
+          "kick_note_on_count": 435,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 287.495,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a521864a33.97148597",
+        "artist": "Skillet",
+        "title": "Forsaken (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a521864a33.97148597",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a521864a33.97148597/Skillet-Forsaken(Live)[G-D-V]_rb3con",
+        "duration_seconds": 304,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Forsaken (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Forsaken (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "7bbb17ddb1fc82f9ffd25b477de8759dd7de11fa3885ee95bded223fc1301971"
+        },
+        {
+          "archive_name": "Skillet - Forsaken (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "9ff784fea08b972b939e311dc16e16c1c39a7643eee9d9ad1991563cba70d291"
+        },
+        {
+          "archive_name": "Skillet - Forsaken (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "9dbc460fd7aed0d82bf410a2c8b641c322c0a9a6fedaeea2eb579e593ce3688a"
+        }
+      ],
+      "archive_sha256": "1b81dff46edd6a341232087bc33085fab6a9ee5d0deef4dc877fcfd91194f380",
+      "archive_bytes": 7954432,
+      "prepared_bytes": 6238314,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:forsakenlive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "My Obsession (Live)",
+      "file_id": "63c1a561def1f5.53511352",
+      "source_url": "https://rhythmverse.co/songfile/63c1a561def1f5.53511352",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a561def1f5.53511352/Skillet-MyObsession(Live)[G-D]_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - My Obsession (Live) [63c1a561]",
+      "charter": "qwertymodo / tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1701,
+          "kick_note_on_count": 579,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 287.25,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a561def1f5.53511352",
+        "artist": "Skillet",
+        "title": "My Obsession (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a561def1f5.53511352",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a561def1f5.53511352/Skillet-MyObsession(Live)[G-D]_rb3con",
+        "duration_seconds": 309,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - My Obsession (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - My Obsession (Live)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "3849d1cd5df262ec488ebb51a9aa9256cb560b3cd31e85dc8f8c08667a74c063"
+        },
+        {
+          "archive_name": "Skillet - My Obsession (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "20082418625834db9e158318021141900626abc51034ed27247caa2167ae50f1"
+        },
+        {
+          "archive_name": "Skillet - My Obsession (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "038fe3828800ae9eed46b336640a59a1f2c2c49e93bd2444fa9dd87b96d5c276"
+        },
+        {
+          "archive_name": "Skillet - My Obsession (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "7ac0c4a72c362d961e687532059fc2238ecfea536b40dda927ab52516443f0d9"
+        }
+      ],
+      "archive_sha256": "7d686abb1165087485f839d80d1ade1fa86562d7bd54a84bf3cc1cd9bdd60057",
+      "archive_bytes": 8183808,
+      "prepared_bytes": 6437258,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:myobsessionlive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Rebirthing (Live)",
+      "file_id": "63c1a5bc337841.88640111",
+      "source_url": "https://rhythmverse.co/songfile/63c1a5bc337841.88640111",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a5bc337841.88640111/Skillet-Rebirthing(Live)[G-D]_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Rebirthing (Live) [63c1a5bc]",
+      "charter": "Banzai85 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1308,
+          "kick_note_on_count": 413,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 228.828,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a5bc337841.88640111",
+        "artist": "Skillet",
+        "title": "Rebirthing (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a5bc337841.88640111",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a5bc337841.88640111/Skillet-Rebirthing(Live)[G-D]_rb3con",
+        "duration_seconds": 294,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Rebirthing (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Rebirthing (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c98bb28a058a0deb3d4448e9a88882f56a18f461b439053c83a236f96e927e64"
+        },
+        {
+          "archive_name": "Skillet - Rebirthing (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "9c2b606563334070d8669691591b4d72d38c8f7de961380c162ea40321d2f8f3"
+        },
+        {
+          "archive_name": "Skillet - Rebirthing (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "78b5f2103644d4f7597c1902d7b8b5a9cf34ec5e7ad58e5f116c4c802d33acb6"
+        }
+      ],
+      "archive_sha256": "c8342e7cda52560800f404f4d7bf56532b2455418f21772fbbf83878d783d6ce",
+      "archive_bytes": 6295552,
+      "prepared_bytes": 5120443,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:rebirthinglive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Savior (Live)",
+      "file_id": "63c1a5fc26e443.62232423",
+      "source_url": "https://rhythmverse.co/songfile/63c1a5fc26e443.62232423",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a5fc26e443.62232423/Skillet-Savior(Live)[G-D-V]v2_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Savior (Live) [63c1a5fc]",
+      "charter": "Banzai85 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1818,
+          "kick_note_on_count": 530,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 310.344,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a5fc26e443.62232423",
+        "artist": "Skillet",
+        "title": "Savior (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a5fc26e443.62232423",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a5fc26e443.62232423/Skillet-Savior(Live)[G-D-V]v2_rb3con",
+        "duration_seconds": 376,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 6,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Savior (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Savior (Live)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "2e5f3ad06ca302ef958531b2bb915a47553cd543ed5c59af4e66a6f493c5a1b3"
+        },
+        {
+          "archive_name": "Skillet - Savior (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "c1484cae7aee05820f6590aec0e0ecd02cf7568e23aa9e06cb00ab972af33c26"
+        },
+        {
+          "archive_name": "Skillet - Savior (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "52caaaceb19c0e58218b986fbb072aa62880c2df6b12523e853585630a12bdd4"
+        },
+        {
+          "archive_name": "Skillet - Savior (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "4bccb7a2a13fbd36a6f5214078e8a33b5f91704b65aae1a7b237ec99baa43f22"
+        }
+      ],
+      "archive_sha256": "e981ad1bdd169fd87926dabaa684b8bfd9e3ecb288aa4e33bd5196318c9b6b48",
+      "archive_bytes": 8171520,
+      "prepared_bytes": 6519590,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:saviorlive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "The Last Night (Live)",
+      "file_id": "63c1a639d58320.95798900",
+      "source_url": "https://rhythmverse.co/songfile/63c1a639d58320.95798900",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a639d58320.95798900/Skillet-TheLastNight(Live)[G-D-V]v2_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - The Last Night (Live) [63c1a639]",
+      "charter": "Ze Great Chef Kevon / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1354,
+          "kick_note_on_count": 443,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 239.152,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a639d58320.95798900",
+        "artist": "Skillet",
+        "title": "The Last Night (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a639d58320.95798900",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a639d58320.95798900/Skillet-TheLastNight(Live)[G-D-V]v2_rb3con",
+        "duration_seconds": 250,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 4,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - The Last Night (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - The Last Night (Live)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "2b2a8a8026c598c0a29794e8432639584f9e5b16bbf5e502c469fcf31dd2f1f5"
+        },
+        {
+          "archive_name": "Skillet - The Last Night (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "3386f9eddad5dffbbaa125b1aff535c19cc533447eb211d3a55c1db07e3b7718"
+        },
+        {
+          "archive_name": "Skillet - The Last Night (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "1922380f660af72ca059b9c2acafdf48484261c6ee0195c6907a9f29702d6ac5"
+        },
+        {
+          "archive_name": "Skillet - The Last Night (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "54628a94cebb42dce5a1fc4c066b96e1ae6fadcd276e61aca1cb8260740f58cc"
+        }
+      ],
+      "archive_sha256": "aa446e5b73a3dad7c68a61e0877853bfccaab82ea1a6259319646d46c3718000",
+      "archive_bytes": 6467584,
+      "prepared_bytes": 5263848,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:thelastnightlive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "The Older I Get (Live)",
+      "file_id": "63c1a6799752e6.06844679",
+      "source_url": "https://rhythmverse.co/songfile/63c1a6799752e6.06844679",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a6799752e6.06844679/Skillet-TheOlderIGet(Live)[G-D]v2_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - The Older I Get (Live) [63c1a679]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1194,
+          "kick_note_on_count": 321,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 219.544,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a6799752e6.06844679",
+        "artist": "Skillet",
+        "title": "The Older I Get (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a6799752e6.06844679",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a6799752e6.06844679/Skillet-TheOlderIGet(Live)[G-D]v2_rb3con",
+        "duration_seconds": 238,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 4,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - The Older I Get (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - The Older I Get (Live)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "3eacec4992e2d66e549d48777c21343efa4d7e277584eeb04b39c729febf3a91"
+        },
+        {
+          "archive_name": "Skillet - The Older I Get (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "2fa7b0fcdd0d84659c6c128686ceee345c2b5efc1606ebbf0635986a44dcbffb"
+        },
+        {
+          "archive_name": "Skillet - The Older I Get (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "a077bf9012e47007df6cfb85af6087d96c0bdf9c098217527aeb0a9d7aec2462"
+        },
+        {
+          "archive_name": "Skillet - The Older I Get (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "60a051029ff8b770f207da13cc45aeebd16e0163b82207147b5072802dcf15a9"
+        }
+      ],
+      "archive_sha256": "c6cbfb270ea3c2855d55fc5c585981b7ba4db67bf7f1175bc16d909bde1e662b",
+      "archive_bytes": 6782976,
+      "prepared_bytes": 5375648,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:theolderigetlive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Those Nights (Live)",
+      "file_id": "63c1a6bcbe9e30.59849515",
+      "source_url": "https://rhythmverse.co/songfile/63c1a6bcbe9e30.59849515",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a6bcbe9e30.59849515/Skillet-ThoseNights(Live)[G-D]v2_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Those Nights (Live) [63c1a6bc]",
+      "charter": "Mahtari / tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1431,
+          "kick_note_on_count": 317,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 273.481,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a6bcbe9e30.59849515",
+        "artist": "Skillet",
+        "title": "Those Nights (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a6bcbe9e30.59849515",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a6bcbe9e30.59849515/Skillet-ThoseNights(Live)[G-D]v2_rb3con",
+        "duration_seconds": 294,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 4,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Those Nights (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Those Nights (Live)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "ef3bded45847b6eb41a56133ecd966e57dc80bf11b3275f062a59445b178031f"
+        },
+        {
+          "archive_name": "Skillet - Those Nights (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "84ecdc44d6ac2adbc8035939b9f4cafb5f5ece5cb8b8916cace9f219d5a95fd0"
+        },
+        {
+          "archive_name": "Skillet - Those Nights (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "28fffc8130c97dde6937e6dc52831831b14c19fb66e112a881d8832a5f79f033"
+        },
+        {
+          "archive_name": "Skillet - Those Nights (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3c242aa93e2d2aa688c039a6b29ea7219c9684b80886818525caec87d08e79b2"
+        }
+      ],
+      "archive_sha256": "4857f90978c0b86ca99641f668336fae86d3ed12e0768707b51048a37ac333d0",
+      "archive_bytes": 7884800,
+      "prepared_bytes": 6137409,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:thosenightslive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Whispers in the Dark (Live)",
+      "file_id": "63c1a704a0c725.17698470",
+      "source_url": "https://rhythmverse.co/songfile/63c1a704a0c725.17698470",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a704a0c725.17698470/Skillet-WhispersInTheDark(Live)[G-D]_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Whispers in the Dark (Live) [63c1a704]",
+      "charter": "Salamandra007 / tlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1211,
+          "kick_note_on_count": 378,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 203.206,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a704a0c725.17698470",
+        "artist": "Skillet",
+        "title": "Whispers in the Dark (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a704a0c725.17698470",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a704a0c725.17698470/Skillet-WhispersInTheDark(Live)[G-D]_rb3con",
+        "duration_seconds": 211,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 5,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Whispers in the Dark (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Whispers in the Dark (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "9ddc5e35026236f938c72ac31e4294a76d82add875637df8cb9cf798bcb8110c"
+        },
+        {
+          "archive_name": "Skillet - Whispers in the Dark (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "bde80a0bee5e7774da1fff7935270bccd304b49b4a6ab254fb20db87d0438733"
+        },
+        {
+          "archive_name": "Skillet - Whispers in the Dark (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "19abdfdc2983f120f48be020c15b88dc38a98abac4549fb03d1f6cd088259406"
+        }
+      ],
+      "archive_sha256": "e86d3fbceb15ca38849f2739ea846d334e0b011af46ffe2a17e614f39b750609",
+      "archive_bytes": 6221824,
+      "prepared_bytes": 4390708,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:whispersinthedarklive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    },
+    {
+      "artist": "Skillet",
+      "title": "Yours To Hold (Live)",
+      "file_id": "63c1a73fb3eaa8.38082611",
+      "source_url": "https://rhythmverse.co/songfile/63c1a73fb3eaa8.38082611",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a73fb3eaa8.38082611/Skillet-YoursToHold(Live)[G-D]_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - Yours To Hold (Live) [63c1a73f]",
+      "charter": "tlg1793 / dlg1793 / GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 286,
+          "kick_note_on_count": 73,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 216.906,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63c1a73fb3eaa8.38082611",
+        "artist": "Skillet",
+        "title": "Yours To Hold (Live)",
+        "album": "Comatose Comes Alive",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63c1a73fb3eaa8.38082611",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/63c1a73fb3eaa8.38082611/Skillet-YoursToHold(Live)[G-D]_rb3con",
+        "duration_seconds": 241,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 1,
+        "catalog_charter": "",
+        "catalog_drums": 3,
+        "uploader": "GeeForce11",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - Yours To Hold (Live)/album.png",
+          "name": "album.png",
+          "sha256": "6a1addbcd718303a834b690358af9b8297e2cc27584e731f9da65b1c309a256f"
+        },
+        {
+          "archive_name": "Skillet - Yours To Hold (Live)/crowd.ogg",
+          "name": "crowd.ogg",
+          "sha256": "5781953d182ce5459d0c9f7471cf67704adc384c3162cc606a8f654bb85ced54"
+        },
+        {
+          "archive_name": "Skillet - Yours To Hold (Live)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "8a3faaafdcad2d091e0a3ba231a8655365971eead06140db46f442eb4dd86e2e"
+        },
+        {
+          "archive_name": "Skillet - Yours To Hold (Live)/song.ini",
+          "name": "song.ini",
+          "sha256": "e9f041567c5bae942a7d0ab51271338c4806ac0dab479532e5b24ea1acbc4421"
+        },
+        {
+          "archive_name": "Skillet - Yours To Hold (Live)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "541f4a0c013a30b62a5ca87cf6f908f37a67eb9b92662e9f36f5ee48c9fa41a4"
+        }
+      ],
+      "archive_sha256": "96e959b9398d77ab9e56d5bb16a759155dc52737662b99cca8b4a2bcb5b9c6ee",
+      "archive_bytes": 5996544,
+      "prepared_bytes": 4688164,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:yourstoholdlive",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    }
+  ]
+}

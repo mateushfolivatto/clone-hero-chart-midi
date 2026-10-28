@@ -456,6 +456,40 @@ offline resume and real-song export checks on Linux. See song-library/LINKIN-PAR
 and docs/library-linkin-park-verification.md. Native Windows/individual playtests
 remain pending. BACKLOG.md DCF-LIB-014 owns preparation-pass status.
 
+## Skillet / Imagine Dragons / LoL expansion — 2026-10-28
+
+The user requested every obtainable drum chart for these three selections. Batches
+31–40 append 137 charts: 133 Skillet, two Imagine Dragons and two LoL, with
+71 Pro Drums and 66 ordinary Drums separated. There are 655 charts overall.
+The group totals, including retained old choices, are 143 Skillet, 16 Imagine
+Dragons and 16 LoL; shared Enemy makes the union 174 unique selections. Live
+editions are labeled; format-only 6-fret alternatives do not duplicate a song.
+The 197-edition pass leaves 23 explicit blockers and a separate title checklist;
+this does not establish complete global discography availability.
+
+Native public SNG sources require a small bounded standard-library reader:
+header metadata becomes deterministic song.ini while unmasked notes/audio stay
+intact. Display color tags no longer cause false catalog mismatches, without
+removing recording qualifiers. Public Encore metadata was researched/called;
+original creator Drive publications supply the actual packages. No upstream code,
+media, model or checkpoint is distributed. The local diagnostic skill retains
+the source/validation finding without acoustic-accuracy or transcription claims.
+
+A separately pinned group-selection helper references immutable old/new recipes
+and supports one or more groups/new-only recovery. The installed-library comparator
+continues to export only absent actual folders and hold uncertain editions for
+review. Onyx/7-Zip/MEGA and four old additions helpers are byte-identical, as are
+all prior recipes, Qobuz coverage and pinned audio-study inputs/results. Only the
+new SNG recovery path and index identity extend recover_pilot.py.
+
+All 864 runtime assets, 450 audio decodes, 173,176 Expert gems and ten ZIPs were
+checked. The 172 core tests, 19 optional DSP checks, locked/static/CLI/build and
+archive-hygiene gates pass on Linux. Fresh stdlib recovery/offline resume passed
+for SNG, ZIP, public Drive files and Onyx; isolated group selection and actual-song
+additions export preserve inputs. Native Windows, Scan Songs and individual
+playtests remain pending. See song-library/SKILLET-IMAGINE-LOL.md and
+docs/library-skillet-imagine-lol-verification.md; BACKLOG.md DCF-LIB-015 owns status.
+
 ## Do not do yet
 
 - GUI
