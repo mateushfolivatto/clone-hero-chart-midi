@@ -1,5 +1,16 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-28 — Skillet / Imagine Dragons / LoL
+
+The separate library pass adds 137 validated charts in batches 31–40, with pinned
+selective recovery, native SNG sources and installed-library comparison. All 172
+core plus 19 optional DSP tests and artifact gates pass. Old recipes, Onyx fixes,
+Qobuz coverage and audio-study results remain intact. See the
+[Windows guide, lists and next prompt](../song-library/SKILLET-IMAGINE-LOL.md) and
+[technical evidence](library-skillet-imagine-lol-verification.md). Canonical task
+status is BACKLOG.md DCF-LIB-015; full availability and native game acceptance
+remain unestablished.
+
 ## 2026-10-27 — Broad frozen song survey
 
 64 additional songs across 20 artists completed 128 fixed excerpts and 14,534

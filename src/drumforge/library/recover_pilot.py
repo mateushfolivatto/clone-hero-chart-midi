@@ -12,6 +12,7 @@ import io
 import json
 import re
 import shutil
+import struct
 import subprocess
 import sys
 import tempfile
@@ -25,7 +26,7 @@ from urllib.request import Request, urlopen
 # Pinned after a fresh cloud inspection. Never change it to bypass a mismatch.
 MANIFEST_SHA256 = "b7751d6a29d45237984e0e03be5c002de3ac912e9d32dac6dc6d84b7c27b92ed"
 METADATA_FILES = {"LEIA-ME.txt", "musicas.csv", "receita-verificada.json"}
-COLLECTION_SHA256 = "e0230eab0cb810555df068da1c339c5d5938d82309beb6f5d2aa459f63502b13"
+COLLECTION_SHA256 = "56df677fb0080d1a47a5869f7f386200da2b531fd4e348d68bf9498eef838357"
 
 
 class DownloadLink(HTMLParser):
@@ -76,6 +77,121 @@ def relative_path(name: str) -> PurePosixPath:
     if not name or path.is_absolute() or ".." in path.parts or ":" in name:
         raise ValueError("Caminho inseguro na receita")
     return path
+
+
+def sng_as_zip(source: Path, target: Path) -> None:
+    """Read SNG v1 using its published specification; preserve unmasked asset bytes."""
+    limit = 512 * 1024 * 1024
+    size = source.stat().st_size
+    if size > limit:
+        raise ValueError("SNG excede o limite de 512 MiB")
+    with source.open("rb") as stream:
+
+        def read(count: int) -> bytes:
+            if count < 0 or count > limit or stream.tell() + count > size:
+                raise ValueError("SNG truncado ou comprimento invalido")
+            data = stream.read(count)
+            if len(data) != count:
+                raise ValueError("SNG truncado")
+            return data
+
+        def number(fmt: str) -> int:
+            return int(struct.unpack(fmt, read(struct.calcsize(fmt)))[0])
+
+        def section() -> int:
+            length = number("<Q")
+            end = stream.tell() + length
+            if length < 8 or length > 2 * 1024 * 1024 or end > size:
+                raise ValueError("Secao SNG invalida")
+            return end
+
+        if read(6) != b"SNGPKG" or number("<I") != 1:
+            raise ValueError("SNG requer assinatura e versao 1")
+        mask = read(16)
+        end = section()
+        count = number("<Q")
+        if not 1 <= count <= 2048:
+            raise ValueError("Quantidade de metadados SNG invalida")
+        metadata: dict[str, str] = {}
+        for _ in range(count):
+            values = []
+            for _ in range(2):
+                length = number("<i")
+                if length < 0 or stream.tell() + length > end:
+                    raise ValueError("String SNG fora da secao")
+                values.append(read(length).decode("utf-8"))
+            key, value = values
+            if (
+                not re.fullmatch(r"[A-Za-z0-9_]+", key)
+                or key.casefold() in metadata
+                or any(ord(c) < 32 or ord(c) == 127 for c in value)
+            ):
+                raise ValueError("Metadados SNG inseguros ou repetidos")
+            metadata[key.casefold()] = value
+        if stream.tell() != end:
+            raise ValueError("Comprimento de metadados SNG incorreto")
+        end = section()
+        count = number("<Q")
+        if not 1 <= count <= 2048:
+            raise ValueError("Quantidade de arquivos SNG invalida")
+        members: list[tuple[str, int, int]] = []
+        seen = {"song.ini"}
+        reserved = {"con", "prn", "aux", "nul"} | {
+            f"{prefix}{i}" for prefix in ("com", "lpt") for i in range(10)
+        }
+        for _ in range(count):
+            name = read(number("<B")).decode("utf-8")
+            path = relative_path(name)
+            if (
+                not path.parts
+                or str(path) != name
+                or name.casefold() in seen
+                or any(
+                    part.endswith((".", " "))
+                    or part.split(".")[0].casefold() in reserved
+                    or any(c in '<>:"\\|?*' or ord(c) < 32 or ord(c) == 127 for c in part)
+                    for part in path.parts
+                )
+            ):
+                raise ValueError("Nome de arquivo SNG inseguro ou repetido")
+            seen.add(name.casefold())
+            length, offset = number("<Q"), number("<Q")
+            members.append((name, length, offset))
+        if stream.tell() != end:
+            raise ValueError("Comprimento do indice SNG incorreto")
+        length = number("<Q")
+        start = stream.tell()
+        if start + length != size:
+            raise ValueError("Comprimento dos dados SNG incorreto")
+        cursor = start
+        for _, length, offset in sorted(members, key=lambda item: item[2]):
+            if offset != cursor or length > size - offset:
+                raise ValueError("Dados SNG sobrepostos ou fora do arquivo")
+            cursor += length
+        if cursor != size:
+            raise ValueError("Dados SNG nao indexados")
+        # SNG resets the byte-position XOR key at the beginning of each asset.
+        tables = [bytes(i ^ mask[pos % 16] ^ pos for i in range(256)) for pos in range(256)]
+        partial = target.with_name(target.name + ".partial")
+        try:
+            with zipfile.ZipFile(partial, "w", compression=zipfile.ZIP_STORED) as archive:
+                ini = "[song]\n" + "".join(f"{k} = {v}\n" for k, v in metadata.items())
+                archive.writestr("song.ini", ini.encode("utf-8"))
+                for name, length, offset in members:
+                    stream.seek(offset)
+                    position = 0
+                    with archive.open(name, "w") as output:
+                        while position < length:
+                            block = bytearray(read(min(1024 * 1024, length - position)))
+                            for phase in range(min(256, len(block))):
+                                block[phase::256] = block[phase::256].translate(
+                                    tables[(position + phase) % 256]
+                                )
+                            output.write(block)
+                            position += len(block)
+            partial.replace(target)
+        finally:
+            partial.unlink(missing_ok=True)
 
 
 def read_manifest(path: Path, expected_sha256: str | None = None) -> dict[str, Any]:
@@ -238,6 +354,10 @@ def prepare_song(song: dict[str, Any], archive_path: Path, destination: Path) ->
                 )
                 publish_asset(song, asset, original.read_bytes(), folder)
         else:
+            if song.get("archive_format") == "sng":
+                converted = Path(temporary) / "source.zip"
+                sng_as_zip(archive_path, converted)
+                archive_path = converted
             with zipfile.ZipFile(archive_path) as archive:
                 for asset in song["files"]:
                     publish_asset(song, asset, archive.read(asset["archive_name"]), folder)

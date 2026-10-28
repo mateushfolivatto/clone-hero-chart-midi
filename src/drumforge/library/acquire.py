@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import hashlib
+import html
 import importlib
 import json
 import re
@@ -18,6 +19,11 @@ from drumforge.library.recover_pilot import digest_file, resolve_public_download
 from drumforge.library.rhythmverse import normalized, title_key
 
 MAX_BYTES = 512 * 1024 * 1024
+
+
+def display_text(value: str) -> str:
+    """Ignore game display formatting when checking catalog identity, keeping editions."""
+    return re.sub(r"</?(?:color|b|i|u|size|font)(?:=[^>]*)?>", "", html.unescape(value), flags=re.I)
 
 
 def drive_download_url(url: str) -> str:
@@ -75,13 +81,20 @@ def fetch(url: str, target: Path, source: str) -> Path:
 
 
 def source_zip(raw: Path, target: Path, root: Path) -> str:
-    """Inspect non-ZIP containers with the pinned portable reader, retaining raw input."""
+    """Read native ZIP/SNG or the pinned RAR/7z reader, retaining raw input."""
     if zipfile.is_zipfile(raw):
         return "zip"
     with raw.open("rb") as file:
         signature = file.read(8)
+    if signature.startswith(b"SNGPKG"):
+        from drumforge.library.recover_pilot import sng_as_zip
+
+        sng_as_zip(raw, target)
+        with zipfile.ZipFile(target) as archive:
+            check_members(archive)
+        return "sng"
     if not signature.startswith((b"Rar!", b"7z\xbc\xaf\x27\x1c")):
-        raise ValueError("Source is not a supported ZIP/RAR/7z archive")
+        raise ValueError("Source is not a supported ZIP/SNG/RAR/7z archive")
     from drumforge.library.sevenzip import as_zip
 
     as_zip(raw.absolute(), target.absolute(), root.absolute())
@@ -203,9 +216,13 @@ def acquire_native(
                 inspection_archive = raw if source_format == "zip" else staged_zip
         report = prepare_zip(inspection_archive, destination, require_pro=not allow_standard)
         try:
-            if normalized(report["artist"]) != normalized(candidate["artist"]):
+            if normalized(display_text(report["artist"])) != normalized(
+                display_text(candidate["artist"])
+            ):
                 raise ValueError("Actual package artist differs from catalog match")
-            if title_key(report["title"]) != title_key(candidate["title"]):
+            if title_key(display_text(report["title"])) != title_key(
+                display_text(candidate["title"])
+            ):
                 raise ValueError("Actual package title differs from catalog match")
         except ValueError:
             # Only our freshly prepared files; preserve all original sources.

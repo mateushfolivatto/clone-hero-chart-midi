@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "batch_number": 37,
+  "collection_folder": "MixDrumRock - Lote 37 - Skillet",
+  "archive_name": "MixDrumRock-lote-37.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "skillet",
+  "theme_label": "Skillet",
+  "edition_group": "live",
+  "songs": [
+    {
+      "artist": "Skillet",
+      "title": "The Last Night (iTunes Session)",
+      "file_id": "5946b63d486886.76967379",
+      "source_url": "https://rhythmverse.co/songfile/5946b63d486886.76967379",
+      "download_url": "https://rhythmverse.co/download_file/shadowmaurix/5946b63d486886.76967379/lastnight_shad_rb3con",
+      "archive_format": "onyx",
+      "folder": "Skillet - The Last Night (iTunes Session) [5946b63d]",
+      "charter": "ShadowMaurix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1262,
+          "kick_note_on_count": 432,
+          "tom_marker_count": 61,
+          "last_expert_onset_seconds": 241.588,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5946b63d486886.76967379",
+        "artist": "Skillet",
+        "title": "The Last Night (iTunes Session)",
+        "album": "Comatose",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5946b63d486886.76967379",
+        "download_url": "https://rhythmverse.co/download_file/shadowmaurix/5946b63d486886.76967379/lastnight_shad_rb3con",
+        "duration_seconds": 267,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "catalog_drums": 5,
+        "uploader": "ShadowMaurix",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Skillet - The Last Night (iTunes Session)/album.png",
+          "name": "album.png",
+          "sha256": "c9a84f2532026f46d429a6530c8c1503fa0091296b690ec01488ad6cd0e8f143"
+        },
+        {
+          "archive_name": "Skillet - The Last Night (iTunes Session)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "8bb13b85ac4ee87d2b2b14fcc9e62b4f595c4efa4dc9ba26f95d0da6330f4227"
+        },
+        {
+          "archive_name": "Skillet - The Last Night (iTunes Session)/song.ini",
+          "name": "song.ini",
+          "sha256": "f5955af2641213d464ee0b78e3cb3f4039a39a55a723aad1ae9393df08c3b53c"
+        },
+        {
+          "archive_name": "Skillet - The Last Night (iTunes Session)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "b1f7458cf8972b1bbe442831608e4cee1234e65a567eb7d648d6030b505c0798"
+        }
+      ],
+      "archive_sha256": "ed6bdc1f8bd7b64a74c83c8d3e190f79020686a47eb6cc1d945128a436c7e292",
+      "archive_bytes": 7606272,
+      "prepared_bytes": 4828239,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "live",
+      "curation_key": "skillet:thelastnightitunessession",
+      "selection_groups": [
+        "skillet"
+      ],
+      "theme": "skillet"
+    }
+  ]
+}

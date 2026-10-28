@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "batch_number": 40,
+  "collection_folder": "MixDrumRock - Lote 40 - League of Legends",
+  "archive_name": "MixDrumRock-lote-40.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "lol",
+  "theme_label": "League of Legends",
+  "edition_group": "studio_and_other",
+  "songs": [
+    {
+      "artist": "Mike Shinoda",
+      "title": "Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong)",
+      "file_id": "58e84dd36ce74b6e80996c9066e6cbc2",
+      "source_url": "https://rhythmverse.co/songfile/58e84dd36ce74b6e80996c9066e6cbc2",
+      "download_url": "https://rhythmverse.co/download_file/mjey2010/58e84dd36ce74b6e80996c9066e6cbc2/Mike%20Shinoda%20-%20Heavy%20Is%20the%20Crown%20(Original%20Score)%20(from%20the%20series%20Arcane%20League%20of%20Legends)%20(feat.%20Emily%20Armstrong)%20(mjey).zip",
+      "archive_format": "zip",
+      "folder": "Mike Shinoda - Heavy Is the Crown (Original Score) (from the series Arcane Leag [58e84dd3]",
+      "charter": "mjey",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 194,
+          "kick_note_on_count": 77,
+          "tom_marker_count": 9,
+          "last_expert_onset_seconds": 91.143,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 4,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "58e84dd36ce74b6e80996c9066e6cbc2",
+        "artist": "Mike Shinoda",
+        "title": "Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong)",
+        "album": "Arcane League of Legends: Season 2 (from the series Arcane League of Legends)",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/58e84dd36ce74b6e80996c9066e6cbc2",
+        "download_url": "https://rhythmverse.co/download_file/mjey2010/58e84dd36ce74b6e80996c9066e6cbc2/Mike Shinoda - Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong) (mjey).zip",
+        "duration_seconds": 99,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "catalog_drums": 2,
+        "uploader": "mjey",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "Mike Shinoda - Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong) (mjey)/album.png",
+          "name": "album.png",
+          "sha256": "930852a732dea37b475c66066fa3ec687d012d032a710b91991ef46b39ba20a3"
+        },
+        {
+          "archive_name": "Mike Shinoda - Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong) (mjey)/background.png",
+          "name": "background.png",
+          "sha256": "a299c0e0079c24d35672b35f9c02719356aada7ed0373384a737c9359e78c50b"
+        },
+        {
+          "archive_name": "Mike Shinoda - Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong) (mjey)/bass.ogg",
+          "name": "bass.ogg",
+          "sha256": "4d52ef2edb556008e0b5c38ae4c667bb772be69112e3391267f60db66aa09e81"
+        },
+        {
+          "archive_name": "Mike Shinoda - Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong) (mjey)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "0bf0025dd2013e0d02cbe7326370fb782fa5c2f7bcd34eace76b92d1df2186d7"
+        },
+        {
+          "archive_name": "Mike Shinoda - Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong) (mjey)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "dd8045aeaace86b1dad744908cd0819e8ff46fbe1231624dbcc85d5d7fe58d14"
+        },
+        {
+          "archive_name": "Mike Shinoda - Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong) (mjey)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "d53c33c4268f259f904ef5b8918176c60c6bc6c799c70a756e5973c10a62f161"
+        },
+        {
+          "archive_name": "Mike Shinoda - Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong) (mjey)/song.ini",
+          "name": "song.ini",
+          "sha256": "722701a2d1a6f5631d7f721cf4cb4502e348417c105158c70b138bddb936b84f"
+        },
+        {
+          "archive_name": "Mike Shinoda - Heavy Is the Crown (Original Score) (from the series Arcane League of Legends) (feat. Emily Armstrong) (mjey)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "cae9bf1c65d089b85575033634b5ab7a98b11e39ee25f404f5747ff0b1033778"
+        }
+      ],
+      "archive_sha256": "bfcf347f165d95a164fcfa4938c6d1aa75a97a1d954a91fd50284291b172cb5f",
+      "archive_bytes": 9242196,
+      "prepared_bytes": 9364408,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "lol:heavyisthecrownoriginalscorefromtheseriesarcaneleagueoflegends",
+      "selection_groups": [
+        "lol"
+      ],
+      "theme": "lol"
+    },
+    {
+      "artist": "Stromae, Pomme",
+      "title": "Ma Meilleure Ennemie",
+      "file_id": "408a527d2c9b4044b048ed269f0763eb",
+      "source_url": "https://rhythmverse.co/songfile/408a527d2c9b4044b048ed269f0763eb",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1WQaBIiJ5oLbk9Qs_7nnNXnPiucvf7O4h",
+      "archive_format": "files",
+      "folder": "Stromae, Pomme - Ma Meilleure Ennemie [408a527d]",
+      "charter": "Mathys",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 523,
+          "kick_note_on_count": 182,
+          "cymbal_marker_count": 147,
+          "last_expert_onset_seconds": 143.945,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "408a527d2c9b4044b048ed269f0763eb",
+        "artist": "Stromae, Pomme",
+        "title": "Ma Meilleure Ennemie",
+        "album": "Arcane League of Legends: Season 2",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/408a527d2c9b4044b048ed269f0763eb",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1WQaBIiJ5oLbk9Qs_7nnNXnPiucvf7O4h",
+        "duration_seconds": 147,
+        "duration_difference_seconds": null,
+        "version_review": false,
+        "catalog_pro_drums": 0,
+        "catalog_charter": null,
+        "catalog_drums": 2,
+        "uploader": "Mathys",
+        "match_basis": "requested catalog edition; actual package artist/title, four-lane Expert drums/kick and decoded audio required; no Qobuz/master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "album.jpg",
+          "name": "album.jpg",
+          "sha256": "8c4c12626899b2cf7eb930ed7a61bb0e318986cede5c633941e8e256fdfad82e",
+          "download_url": "https://drive.google.com/uc?export=download&id=1SCsJgEl_Xp8Q72oNESpcf0Z0UjYZ_fjU",
+          "source_sha256": "8c4c12626899b2cf7eb930ed7a61bb0e318986cede5c633941e8e256fdfad82e",
+          "bytes": 161398
+        },
+        {
+          "archive_name": "background.jpg",
+          "name": "background.jpg",
+          "sha256": "31141132a099e8ea8df10ae20984bdecbfb4e348a6ac0fb9d5a106f4af145c77",
+          "download_url": "https://drive.google.com/uc?export=download&id=1rZB7BjzMCXctU1r9pxadHNlTtojNKPuJ",
+          "source_sha256": "31141132a099e8ea8df10ae20984bdecbfb4e348a6ac0fb9d5a106f4af145c77",
+          "bytes": 67195
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "3efaadcf1a5feb193f0f720a5b1b7339c2bf93ef8818dffd81ef1e442bce176a",
+          "download_url": "https://drive.google.com/uc?export=download&id=1XdTJKldI1P-CjGYa9ald257-f32818V8",
+          "source_sha256": "3efaadcf1a5feb193f0f720a5b1b7339c2bf93ef8818dffd81ef1e442bce176a",
+          "bytes": 60154
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "71b92e7ef52b7170b5d88a462f81ebe34b93d0744d15c32105e79b2c5113b3a4",
+          "download_url": "https://drive.google.com/uc?export=download&id=1TdLTboNCqq-qB9Rmyq2extjIzcL2MM1b",
+          "source_sha256": "57764900f1d23564cb6816ced239cee714e227aa62a2a718251ebeeff4a9d475",
+          "bytes": 258
+        },
+        {
+          "archive_name": "song.opus",
+          "name": "song.opus",
+          "sha256": "9951449f2ac822b0886a7900a245683ada6f6c866505b42f8a25e7e3ec84b144",
+          "download_url": "https://drive.google.com/uc?export=download&id=16N-KSAVCRomY-pZevZEz0MIWy0wpAUFK",
+          "source_sha256": "9951449f2ac822b0886a7900a245683ada6f6c866505b42f8a25e7e3ec84b144",
+          "bytes": 1777247
+        }
+      ],
+      "prepared_bytes": 2066256,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Skillet, Imagine Dragons and League of Legends expansion requested 2026-10-28; independent of Qobuz coverage",
+      "edition_kind": "studio_and_other",
+      "curation_key": "lol:mameilleureennemie",
+      "selection_groups": [
+        "lol"
+      ],
+      "theme": "lol"
+    }
+  ]
+}

@@ -12,6 +12,9 @@ de charts existentes é independente da transcrição de MP3.
 Para ampliar a coleção de Linkin Park, use [os novos lotes e a comparação com
 sua biblioteca instalada](song-library/LINKIN-PARK.md). Given Up já está no lote 02.
 
+Para Skillet, Imagine Dragons e League of Legends, veja [os lotes 31–40 e o
+comando para baixar sem repetir](song-library/SKILLET-IMAGINE-LOL.md).
+
 ## Setup
 
 Python 3.11–3.12 and [uv](https://docs.astral.sh/uv/getting-started/installation/).

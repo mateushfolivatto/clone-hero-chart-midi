@@ -58,6 +58,17 @@ está em `docs/five-song-chart-reference.md`, com receita e resultados agregados
 `docs/experiments/`. Ele usa dois trechos de 20 s por música, mix reconstruída e
 stems de bateria já presentes, sem baixar ou treinar modelos.
 
+Uma fonte nativa também pode ser SNG. Na ampliação da biblioteca de 2026-10-28,
+I Bet My Life foi restaurada do SNG original: 813 notas Expert, 260 bumbos,
+69 marcadores de tom e seis áudios Opus decodificados. O leitor próprio segue a
+[especificação SNG v1](https://github.com/mdsitton/SngFileFormat), gera song.ini
+do cabeçalho e preserva os bytes desmascarados de notas/áudio. Isso verifica a
+aquisição do par, sem medir precisão acústica ou executar um transcritor. Preserve
+o pacote e os hashes ao reutilizá-lo como referência; PART DRUMS continua sendo
+formato do jogo, não MIDI GM para inspect-midi. A especificação e os clientes
+Bridge/parse-sng foram pesquisados; nenhum código upstream foi incorporado ou
+executado, nem houve instalação de pesos/modelos.
+
 Resolva eventos de mix Expert antes de usar cores como referências. O flag `d`
 em `[mix 3 drums2d]` (ou eventos locais equivalentes em .chart) indica disco flip:
 em Pro, vermelho armazenado vira prato amarelo e amarelo armazenado vira caixa,
