@@ -95,6 +95,28 @@ def test_themed_additions_do_not_repeat_previous_songs_or_packages() -> None:
         chart_hashes.update(chart_audio(song)[0])
 
 
+def test_strokes_highlights_keep_studio_titles_with_live_or_cover_words() -> None:
+    index = json.loads((METADATA / "collection_index.json").read_text())
+    numbers = set(index["strokes_selection"]["batch_numbers"])
+    songs = [
+        song
+        for batch in index["batches"]
+        if batch["number"] in numbers
+        for song in json.loads((METADATA / batch["manifest"]).read_text())["songs"]
+    ]
+    assert len(songs) == len({title_key(song["title"]) for song in songs}) == 20
+    assert all(normalized(song["artist"]) == "thestrokes" for song in songs)
+    assert {
+        "reptilia",
+        "lastnite",
+        "someday",
+        "hardtoexplain",
+        "youonlyliveonce",
+        "undercoverofdarkness",
+        "theadultsaretalking",
+    } <= {title_key(song["title"]) for song in songs}
+
+
 def test_given_up_stays_once_in_its_existing_batch() -> None:
     matches: list[tuple[int, dict[str, Any]]] = []
     for path in METADATA.glob("collection_[0-9]*.json"):

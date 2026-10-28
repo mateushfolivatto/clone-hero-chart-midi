@@ -539,6 +539,19 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   Linux. See song-library/SKILLET-IMAGINE-LOL.md and the verification document.
   This completes preparation, not full discography or Windows/game acceptance.
 
+- [x] **DCF-LIB-016 [P0]** Research and prepare 20 The Strokes highlights for
+  Clone Hero: batches 41–42, with 18 Pro Drums and two ordinary Drums. From
+  25 planned titles, three remain unavailable and two validated reserves stay
+  outside this selection. 92 assets, 31 audio decodes and 28,994 Expert gems
+  verified; both ZIPs pass CRC/SHA256. All 20 sources reconstructed through the
+  selective stdlib-only CLI in isolation, followed by unchanged offline resume.
+  Actual-song comparison recognizes three renamed installed copies, excludes an
+  internal duplicate and exports 17 absent songs without modifying inputs.
+  173 core plus 19 optional DSP tests and configured gates pass. Previous recipes,
+  helpers, Onyx fixes, Qobuz coverage and audio studies remain unchanged;
+  recover_pilot.py changes only its index pin. See song-library/THE-STROKES.md
+  and docs/library-strokes-verification.md. Windows/game acceptance stays pending.
+
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
 The subsequent metadata-export slice captured the playlist only; it did not

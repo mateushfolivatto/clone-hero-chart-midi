@@ -1,5 +1,12 @@
 # Quality gates
 
+The Strokes selection passes **173 core tests and 19 optional DSP checks** on
+Linux/Python 3.12. The added recipe regression retains essential studio highlights,
+including You Only Live Once and Under Cover of Darkness. Existing collection
+checks validate both new batches and all previous pins/novelty constraints.
+Full isolated recovery of all 20 songs, offline resume and actual-library additions
+are recorded in [library-strokes-verification.md](library-strokes-verification.md).
+
 The Skillet / Imagine Dragons / LoL expansion passes **172 core tests and 19
 optional DSP checks** on Linux/Python 3.12. New cases cover bounded SNG decoding,
 unsafe/truncated inputs, per-asset XOR reset and chunk boundaries, immutable

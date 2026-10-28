@@ -490,6 +490,29 @@ additions export preserve inputs. Native Windows, Scan Songs and individual
 playtests remain pending. See song-library/SKILLET-IMAGINE-LOL.md and
 docs/library-skillet-imagine-lol-verification.md; BACKLOG.md DCF-LIB-015 owns status.
 
+## The Strokes highlights — 2026-10-28
+
+The user confirmed The Strokes and requested the best songs to add to Clone Hero.
+A curated 25-title plan combines classic highlights, six-album variety and actual
+drum availability, using read-only Spotify metadata and NME search references.
+Twenty songs are prepared in batches 41–42: 18 Pro Drums and two ordinary Drums
+(Ode to the Mets and 12:51). The full collection now has 675 charts. There were
+no earlier band selections; all 655 previous charts retain their recipe bytes.
+Two validated alternatives remain reserves; Bad Decisions/Call It Fate, Call It
+Karma lack conservative drum matches, and Machu Picchu's sources are unavailable.
+
+All 92 assets, 31 audio decodes, 28,994 Expert gems and two ZIPs were verified.
+Fresh isolated stdlib-only selective CLI recovery reproduced all 20 songs across
+SNG, public files, 7z, ZIP and Onyx; unchanged offline resume and persistent logs
+pass. A real-song comparison preserves inputs and exports only absent songs.
+The 173 core tests, 19 optional DSP checks, lock/static/CLI/build and archive
+hygiene gates pass. No acquisition/converter code, old helper, model, Qobuz coverage
+or audio-study input/profile/result changed; recover_pilot.py updates only the
+index SHA256. A recipe regression keeps studio titles containing Live/Cover words.
+See song-library/THE-STROKES.md and docs/library-strokes-verification.md;
+BACKLOG.md DCF-LIB-016 owns status. This completes the curated preparation pass,
+not native Windows, individual Scan Songs/playtesting or full-band coverage.
+
 ## Do not do yet
 
 - GUI

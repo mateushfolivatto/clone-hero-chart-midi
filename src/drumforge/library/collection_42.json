@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "batch_number": 42,
+  "collection_folder": "MixDrumRock - Drums - Lote 42 - The Strokes",
+  "archive_name": "MixDrumRock-lote-42.zip",
+  "game_verified": false,
+  "drum_mode": "standard",
+  "theme": "strokes",
+  "theme_label": "The Strokes",
+  "songs": [
+    {
+      "artist": "The Strokes",
+      "title": "Ode to the Mets",
+      "file_id": "c93847c100ae4fbca5deeda4edfc83b2",
+      "source_url": "https://rhythmverse.co/songfile/c93847c100ae4fbca5deeda4edfc83b2",
+      "download_url": "https://rhythmverse.co/download_file/justmyselfandi/c93847c100ae4fbca5deeda4edfc83b2/The%20Strokes%20-%20Ode%20to%20the%20Mets",
+      "archive_format": "onyx",
+      "folder": "The Strokes - Ode to the Mets [c93847c1]",
+      "charter": "jphn",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1096,
+          "kick_note_on_count": 249,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 341.805,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "c93847c100ae4fbca5deeda4edfc83b2",
+        "artist": "The Strokes",
+        "title": "Ode to the Mets",
+        "album": "The New Abnormal",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/c93847c100ae4fbca5deeda4edfc83b2",
+        "download_url": "https://rhythmverse.co/download_file/justmyselfandi/c93847c100ae4fbca5deeda4edfc83b2/The Strokes - Ode to the Mets",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 1,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "The Strokes - Ode to the Mets/album.png",
+          "name": "album.png",
+          "sha256": "2644b4ea997f232bed80b7099786999ec36e5a1b042d89348953bf088c5fc47f"
+        },
+        {
+          "archive_name": "The Strokes - Ode to the Mets/notes.mid",
+          "name": "notes.mid",
+          "sha256": "200cbbcfe4a4feb75d104583ce623dc9b48e800de624455d5d9e14e3fbe122dd"
+        },
+        {
+          "archive_name": "The Strokes - Ode to the Mets/song.ini",
+          "name": "song.ini",
+          "sha256": "553f00e53d8c9398f10597e147531942ea180f2448da7777bfc42093b34ff428"
+        },
+        {
+          "archive_name": "The Strokes - Ode to the Mets/song.ogg",
+          "name": "song.ogg",
+          "sha256": "8138db4c33c3da662d76047ed9ac2faf9d1762e6eb35d713e15d5f1da569fe59"
+        }
+      ],
+      "archive_sha256": "af52e6d2eb68d353e2fc1deb3b761de39ece3855f469dd6e20271acef76f60bb",
+      "archive_bytes": 6963200,
+      "prepared_bytes": 6877289,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 10
+    },
+    {
+      "artist": "The Strokes",
+      "title": "12:51",
+      "file_id": "59297dc59e2de2.43463944",
+      "source_url": "https://rhythmverse.co/songfile/59297dc59e2de2.43463944",
+      "download_url": "https://rhythmverse.co/download_file/shadowoftheserver/59297dc59e2de2.43463944/sots_1251_rb3con",
+      "archive_format": "onyx",
+      "folder": "The Strokes - 12_51 [59297dc5]",
+      "charter": "ShadowOfTheServer",
+      "set_pro_drums": false,
+      "drum_mode": "standard",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1111,
+          "kick_note_on_count": 267,
+          "tom_marker_count": 0,
+          "last_expert_onset_seconds": 148.138,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": false
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "59297dc59e2de2.43463944",
+        "artist": "The Strokes",
+        "title": "12:51",
+        "album": "Room on Fire",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/59297dc59e2de2.43463944",
+        "download_url": "https://rhythmverse.co/download_file/shadowoftheserver/59297dc59e2de2.43463944/sots_1251_rb3con",
+        "catalog_pro_drums": 0,
+        "catalog_drums": 2,
+        "catalog_charter": null,
+        "match_basis": "curated studio title; actual notes/audio inspected; no streaming-master match asserted"
+      },
+      "files": [
+        {
+          "archive_name": "The Strokes - 12_51/album.png",
+          "name": "album.png",
+          "sha256": "6dfaeba648cfa163380260b6b0fecd49d2803e3b1e89af6140e67655072f3fbe"
+        },
+        {
+          "archive_name": "The Strokes - 12_51/notes.mid",
+          "name": "notes.mid",
+          "sha256": "35f5ef280b752ef57b08dc0f75585a38c393d86ec26f09f31b891df8032f7909"
+        },
+        {
+          "archive_name": "The Strokes - 12_51/song.ini",
+          "name": "song.ini",
+          "sha256": "50b32da04c58480f488b2443fe4fd0cbc25f214b0713da77e51f6885ea94114e"
+        },
+        {
+          "archive_name": "The Strokes - 12_51/song.ogg",
+          "name": "song.ogg",
+          "sha256": "78aaa16ae6b24a3602f1f28616566a4a7761e2f7d68d289174fb33866afdf8ce"
+        }
+      ],
+      "archive_sha256": "3094e6220f5a64b5adb6b043f9b3d8dab829cde2900b703addf964edb8dff756",
+      "archive_bytes": 3489792,
+      "prepared_bytes": 2971812,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "The Strokes highlights requested 2026-10-28; curated titles, independent of Qobuz coverage",
+      "curation_priority": 11
+    }
+  ]
+}

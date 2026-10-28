@@ -1,5 +1,16 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-28 — The Strokes highlights
+
+20 new highlights in batches 41–42 passed structural/audio/hash checks and full
+isolated stdlib recovery/offline resume. Actual-song additions comparison preserves
+inputs and excludes installed/internal duplicates. All 173 core plus 19 optional
+DSP tests and artifact gates pass. Previous recipes/helpers, Onyx corrections,
+Qobuz coverage and audio-study results stay intact. See the
+[Windows guide and next prompt](../song-library/THE-STROKES.md) and
+[verification evidence](library-strokes-verification.md). BACKLOG.md DCF-LIB-016
+is authoritative; native Windows/individual game acceptance remains pending.
+
 ## 2026-10-28 — Skillet / Imagine Dragons / LoL
 
 The separate library pass adds 137 validated charts in batches 31–40, with pinned

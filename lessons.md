@@ -313,4 +313,7 @@ finding. This file supplements the backlog; it does not redefine task completion
     Live/demo/version words. Verify an accepted colored title and a rejected
     colored Live edition. Skillet's studio titles I Want to Live and Live Free
     or Let Me Die also require recording qualifiers rather than a bare Live word
-    when separating studio/live delivery groups.
+    when separating studio/live delivery groups. The Strokes follow-up exposed
+    the same risk in You Only Live Once and Under Cover of Darkness. Match an
+    explicit recording qualifier, not incidental Live/Cover words; a published
+    selection regression now requires both studio titles among the highlights.
