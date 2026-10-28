@@ -14,6 +14,12 @@ In Pro mode yellow/blue/green are cymbals unless tom markers 110/111/112 overlap
 Red is a pad. Same-color simultaneous pad and cymbal cannot be represented.
 Set pro_drums=true and five_lane_drums=false in song.ini for explicit intent.
 Note 95 is optional Expert+ kick. PART DRUMS_2X is a separate RBN convention.
+The inspector reports `expert_plus_kick_note_on_count` and
+`kick_note_on_count_with_2x` separately; the existing `kick_note_on_count` and
+`expert_note_on_count` retain their base-Expert meaning. These are authored
+note-on counts, not acoustic hit estimates or physical left/right assignments.
+An absence of optional notes does not disprove full double-bass authoring: a
+separate 2x edition may store every kick as an ordinary kick.
 Dynamics require ENABLE_CHART_DYNAMICS text and velocities 1 (ghost), 127 (accent).
 Roll markers 126/127 describe one-/two-lane roll phrases; kicks are excluded.
 These are format conventions; support of advanced mechanics in the user's Clone
@@ -46,6 +52,12 @@ delay for primary synchronization. Future tests must cover changing tempo/meter.
 The [.chart reference](https://thenathannator.github.io/GuitarGame_ChartFormats/Chart-File-Formats/chart-format/Tracks/Drums/)
 uses ExpertDrums, kick 0 and colored lanes 1–4; cymbals use flags 66–68. Its
 readable text helps review but must not be confused with MIDI tom markers.
+Note 32 is an extra Expert+/2x kick. The official
+[Song Modifiers guide](https://wiki.clonehero.net/books/clone-hero-manual/page/song-modifiers)
+and [Drum FAQ](https://wiki.clonehero.net/books/guitars-drums-controllers/page/drum-faqs-and-troubleshooting)
+confirm that Expert+ is enabled through **Modifiers > 2x Kick**, not a separate
+difficulty. Preserve optional kicks and tell the user to enable this setting;
+do not rewrite them as ordinary kicks merely to avoid the modifier.
 MIDI is the planned first output; .chart stays a reference/debug alternative.
 
 The [midi2clonehero reference](https://github.com/apvilkko/midi2clonehero)

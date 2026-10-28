@@ -1,6 +1,7 @@
 """Private song packages must not escape staging or overwrite existing songs."""
 
 import hashlib
+import importlib
 import stat
 import zipfile
 from pathlib import Path
@@ -8,7 +9,7 @@ from pathlib import Path
 import pytest
 
 from drumforge.library import packages
-from drumforge.library.inspect_song import chart_drums
+from drumforge.library.inspect_song import chart_drums, midi_drums
 
 
 @pytest.mark.parametrize("unsafe", ["../outside.txt", "/outside.txt", "C:/outside.txt"])
@@ -108,3 +109,48 @@ def test_chart_tempo_changes_and_cymbal_markers() -> None:
 def test_five_lane_chart_requires_conversion() -> None:
     with pytest.raises(ValueError, match="Five-lane"):
         chart_drums(synthetic_chart("192 = N 5 0"))
+
+
+@pytest.mark.parametrize("extra_count", [0, 3])
+def test_chart_reports_optional_expert_plus_kicks_without_changing_base_count(
+    extra_count: int,
+) -> None:
+    extra = "\n".join(f"{index * 192 + 96} = N 32 0" for index in range(extra_count))
+    text = synthetic_chart(extra) + "[HardDrums]\n{\n0 = N 32 0\n}\n"
+    report = chart_drums(text)
+    assert report["expert_note_on_count"] == 20
+    assert report["kick_note_on_count"] == 10
+    assert report["expert_plus_kick_note_on_count"] == extra_count
+    assert report["kick_note_on_count_with_2x"] == 10 + extra_count
+
+
+@pytest.mark.parametrize("extra_count", [0, 3])
+def test_midi_counts_only_positive_expert_plus_drum_note_ons(
+    tmp_path: Path, extra_count: int
+) -> None:
+    mido = importlib.import_module("mido")
+
+    midi = mido.MidiFile(type=1, ticks_per_beat=480)
+    conductor = mido.MidiTrack([mido.MetaMessage("set_tempo", tempo=500_000)])
+    drums = mido.MidiTrack([mido.MetaMessage("track_name", name="PART DRUMS")])
+    for index in range(20):
+        note = 96 if index % 2 else 98
+        drums.append(mido.Message("note_on", note=note, velocity=100, time=120))
+        drums.append(mido.Message("note_off", note=note, time=120))
+    for _ in range(extra_count):
+        drums.append(mido.Message("note_on", note=95, velocity=100))
+        drums.append(mido.Message("note_off", note=95))
+    drums.append(mido.Message("note_on", note=95, velocity=0))
+    other = mido.MidiTrack(
+        [mido.MetaMessage("track_name", name="PART GUITAR"), mido.Message("note_on", note=95)]
+    )
+    midi.tracks.extend([conductor, drums, other])
+    path = tmp_path / "synthetic.mid"
+    midi.save(path)
+    before = path.read_bytes()
+    report = midi_drums(before)
+    assert report["expert_note_on_count"] == 20
+    assert report["kick_note_on_count"] == 10
+    assert report["expert_plus_kick_note_on_count"] == extra_count
+    assert report["kick_note_on_count_with_2x"] == 10 + extra_count
+    assert path.read_bytes() == before

@@ -513,6 +513,36 @@ See song-library/THE-STROKES.md and docs/library-strokes-verification.md;
 BACKLOG.md DCF-LIB-016 owns status. This completes the curated preparation pass,
 not native Windows, individual Scan Songs/playtesting or full-band coverage.
 
+## Standing library preference: two pedals — 2026-10-28
+
+The user requests priority for double-bass/two-pedal charts in every future
+selection, including a second Nightmare edition. Prefer verified Expert+/2x Kick
+or explicitly authored full-double-bass versions, retaining source notes/audio.
+If only a single-pedal or unverified edition is obtainable, state that limit.
+Pro Drums alone does not imply double bass. Optional Expert+ kicks use .chart 32
+or MIDI 95; some full-2x editions encode every kick as ordinary 0/96 instead.
+Do not invent extra kicks or silently relabel a reduced chart.
+
+Inspection of the existing batch-06 Nightmare (ImPhanty) finds 893 base kicks plus
+471 optional Expert+ kicks, 1,364 total. These optional notes require Clone Hero's
+Modifiers > 2x Kick. This is structural evidence, not a new game playtest. The
+inspector now reports optional kicks and combined totals without changing its
+previous base counts or rewriting any chart. Existing recipes remain immutable;
+alternate replacement delivery must keep backups outside all scanned roots.
+
+An optional second Nightmare source, credited to Harmonix and published by
+UriasP, is prepared separately in nightmare_2x.json: 916 base + 454 optional MIDI
+95 kicks (1,370 total), Pro Drums, ten assets/seven decoded audio files. Source
+7z/MIDI/audio are preserved. It is deliberately outside the default batch index,
+which still describes 675 charts; Qobuz coverage and all old recipes/helpers,
+including Onyx and recover_pilot.py, are unchanged. The durable guide pins the
+two recovery programs to published revision e6251a31 and the optional recipe to
+its checksum, so later index updates do not break this download. Fresh isolated
+stdlib extraction from the pinned cached original and byte-identical offline
+resume pass. All 178 core tests and 19 DSP tests pass. Windows/Scan Songs/playtest
+remain pending. See song-library/DOIS-PEDAIS.md and
+docs/library-double-kick-verification.md; DCF-LIB-017 owns preparation status.
+
 ## Do not do yet
 
 - GUI

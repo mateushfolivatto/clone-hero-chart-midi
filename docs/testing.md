@@ -1,5 +1,13 @@
 # Quality gates
 
+The two-pedal preference/Nightmare slice passes **178 core tests and 19 optional
+DSP checks** on Linux/Python 3.12. Four regressions distinguish base and optional
+Expert+ kicks in MIDI/.chart, ignore zero-velocity/other-track/difficulty notes
+and retain previous base counts. A metadata case verifies the pinned optional
+replacement and keeps it outside automatic batches. Isolated stdlib extraction
+from the pinned source, real portable 7-Zip, ZIP/assets and unchanged offline
+resume pass. See [library-double-kick-verification.md](library-double-kick-verification.md).
+
 The Strokes selection passes **173 core tests and 19 optional DSP checks** on
 Linux/Python 3.12. The added recipe regression retains essential studio highlights,
 including You Only Live Once and Under Cover of Darkness. Existing collection

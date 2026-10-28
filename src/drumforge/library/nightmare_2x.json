@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "collection_folder": "MixDrumRock - Nightmare 2x",
+  "archive_name": "Nightmare-2x.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "optional_replacement": true,
+  "replaces": {
+    "manifest": "collection_06.json",
+    "manifest_sha256": "9225615c66a63ad21013a9b7b0970b9460f3ef530268a1222f1396e1b8fec4d7",
+    "file_id": "4767c1410f504d1d82ba58f0c2dfcef8",
+    "artist": "Avenged Sevenfold",
+    "title": "Nightmare"
+  },
+  "songs": [
+    {
+      "artist": "Avenged Sevenfold",
+      "title": "Nightmare",
+      "file_id": "65648a0a2a394727890178908126c9be",
+      "source_url": "https://rhythmverse.co/songfile/65648a0a2a394727890178908126c9be",
+      "download_url": "https://rhythmverse.co/download_file/uriasp/65648a0a2a394727890178908126c9be/Avenged%20Sevenfold%20-%20Nightmare%20(2x%20Bass%20Pedal%20Expert+).7z",
+      "archive_format": "7z",
+      "folder": "Avenged Sevenfold - Nightmare - 2x Kick [65648a0a]",
+      "charter": "Harmonix",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2493,
+          "kick_note_on_count": 916,
+          "tom_marker_count": 40,
+          "last_expert_onset_seconds": 363.224,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true,
+          "expert_plus_kick_note_on_count": 454,
+          "kick_note_on_count_with_2x": 1370
+        },
+        "decoded_audio_files": 7,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "65648a0a2a394727890178908126c9be",
+        "artist": "Avenged Sevenfold",
+        "title": "Nightmare",
+        "album": "Nightmare",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/65648a0a2a394727890178908126c9be",
+        "download_url": "https://rhythmverse.co/download_file/uriasp/65648a0a2a394727890178908126c9be/Avenged%20Sevenfold%20-%20Nightmare%20(2x%20Bass%20Pedal%20Expert+).7z",
+        "catalog_pro_drums": 0,
+        "catalog_notes": "Includes a live performance background video by Avenged Sevenfold @ Download Festival 2014, edited and synced to match audio by UriasP/LurtZ. Chart by Harmonix. ",
+        "match_basis": "User-requested alternate; original 2x Bass Pedal Expert+ archive; actual drum notes and paired audio inspected"
+      },
+      "files": [
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare (2x Bass Pedal Expert+)/album.png",
+          "name": "album.png",
+          "sha256": "22c301706c9a65d507a4771cbba985fe359d88ee433ff83fcf9e1c32731cc170"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare (2x Bass Pedal Expert+)/drums_1.ogg",
+          "name": "drums_1.ogg",
+          "sha256": "ec22248ab8e6892afc12332cb480ea1a906bcbedc163e24b560e80bfe22a310a"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare (2x Bass Pedal Expert+)/drums_2.ogg",
+          "name": "drums_2.ogg",
+          "sha256": "bd8416b843fafd549adbe35c7ac9d7dab2e58a0e97d8699a66eeb5ce4d9bbee7"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare (2x Bass Pedal Expert+)/drums_3.ogg",
+          "name": "drums_3.ogg",
+          "sha256": "cc66bdecee5dbcaef78f5dc226bf5dcf12e4938bb6259b21005fc3329abca54a"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare (2x Bass Pedal Expert+)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "cdc2929b46c02f445175e56209847f405405ea2ade38cec716640f8fb55edf9d"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare (2x Bass Pedal Expert+)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "febd5bc79a4d3a08c2f252536305a9a42dc1af1bc2b8b157416311fa53a05d2b"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare (2x Bass Pedal Expert+)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "f5aef78b862240737dcf6040ea157e61e5e9f6382896fc89d9c71b1981873147"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare (2x Bass Pedal Expert+)/song.ini",
+          "name": "song.ini",
+          "sha256": "a42761207567cfd778241a49ac7bfb8b65f6c9c1ed605bd62e55d159f503db87"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare (2x Bass Pedal Expert+)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f3cb8f55c4ddb764844852ccbf525cbb51ceb40905f09c1d37dca7d0ad530e79"
+        },
+        {
+          "archive_name": "Avenged Sevenfold - Nightmare (2x Bass Pedal Expert+)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "0cb25a91eb893574d646e008aeea0ddcba35804e164066078c65a2a6443c2b16"
+        }
+      ],
+      "archive_sha256": "efc4b58658075c76bba058bb2deecef877fc500075e89c0b4c4a44ff723350c9",
+      "archive_bytes": 402303700,
+      "prepared_bytes": 54093211,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested optional double-kick replacement; excluded from default batches",
+      "double_kick": {
+        "confirmed": true,
+        "encoding": "MIDI note 95 optional Expert+ kicks",
+        "requires_modifier": "2x Kick",
+        "acoustic_accuracy_verified": false
+      }
+    }
+  ]
+}

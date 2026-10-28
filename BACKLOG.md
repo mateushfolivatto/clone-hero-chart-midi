@@ -552,6 +552,20 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   recover_pilot.py changes only its index pin. See song-library/THE-STROKES.md
   and docs/library-strokes-verification.md. Windows/game acceptance stays pending.
 
+- [x] **DCF-LIB-017 [P0]** Retain the user's permanent two-pedal priority and
+  prepare another Nightmare chart with confirmed Expert+/2x Kick. The existing
+  ImPhanty chart has 893 base + 471 optional kicks; the optional Harmonix/UriasP
+  alternate has 916 + 454. Added separate inspection counts, four synthetic cases
+  and one pinned-replacement metadata case. Ten assets, seven complete audio
+  decodes and both ZIP/extracted hashes pass; exact guide Python runs in an
+  isolated stdlib environment from the pinned original cache, and offline resume
+  keeps every file unchanged. The 178 core tests, 19 DSP checks and configured
+  gates pass. All earlier recipes/helpers, Onyx fixes, index, Qobuz coverage and
+  audio studies remain intact. The alternate is outside automatic batches;
+  the guide explains the manual swap and Modifiers > 2x Kick. See
+  song-library/DOIS-PEDAIS.md and docs/library-double-kick-verification.md.
+  This completes preparation; Windows execution and game playtesting are pending.
+
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
 The subsequent metadata-export slice captured the playlist only; it did not

@@ -1,5 +1,12 @@
 # Biblioteca de músicas — MixDrumRock
 
+**Preferência permanente: dois pedais.** Nas próximas seleções, priorizar
+Expert+ / 2x Kick ou edições com bumbo duplo completo, conferindo o arquivo e
+a indicação do autor. Se não houver versão 2x confirmada, informar a limitação.
+Pro Drums sozinho não garante dois pedais. Notas opcionais exigem ativar
+**Modifiers → 2x Kick** no jogo; Nightmare do lote 06 já contém 471 delas.
+Veja [como ativar e baixar outra edição de Nightmare 2x](DOIS-PEDAIS.md).
+
 **The Strokes:** [THE-STROKES.md](THE-STROKES.md) traz 20 destaques nos lotes
 41–42, com 18 Pro Drums, dois Drums comuns e comparação com Songs para adicionar
 somente as músicas ausentes. A página inclui referências para ouvir e pendências.

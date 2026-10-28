@@ -1,5 +1,9 @@
 # Baixar a continuação da MixDrumRock
 
+**Dois pedais:** [DOIS-PEDAIS.md](DOIS-PEDAIS.md) registra a preferência por
+2x Kick, explica como ativá-lo e oferece uma troca opcional de Nightmare.
+Essa alternativa fica fora do comando geral para evitar instalar duas edições.
+
 **The Strokes:** [THE-STROKES.md](THE-STROKES.md) traz 20 destaques nos lotes
 41–42, com 18 Pro Drums, dois Drums comuns e comparação com Songs para adicionar
 somente as músicas ausentes. A página inclui referências para ouvir e pendências.
