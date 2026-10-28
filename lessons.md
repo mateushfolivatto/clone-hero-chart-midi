@@ -317,3 +317,17 @@ finding. This file supplements the backlog; it does not redefine task completion
     the same risk in You Only Live Once and Under Cover of Darkness. Match an
     explicit recording qualifier, not incidental Live/Cover words; a published
     selection regression now requires both studio titles among the highlights.
+
+## 2026-10-28 — Two-pedal chart preference
+
+52. **Check optional Expert+ notes before diagnosing a reduced kick chart.**
+    Nightmare's existing batch-06 chart already contained 471 .chart-32 kicks
+    beyond its 893 base kicks. They need the game's 2x Kick modifier. The requested
+    alternate has 454 MIDI-95 extras and 916 base kicks. Count these separately,
+    preserve authored notes/audio and explain the setting; Pro Drums alone does
+    not establish double bass. Tests cover both encodings and excluded tracks,
+    difficulties and zero-velocity events. A full-2x edition can instead encode
+    all kicks as ordinary notes, so zero optional notes is not definitive. Keep
+    requested alternate delivery outside automatic batches, with explicit swap
+    instructions, source pins and verified offline resume, to avoid duplicate
+    installations without rewriting the old recipes.

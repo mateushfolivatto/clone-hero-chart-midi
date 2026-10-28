@@ -17,6 +17,9 @@ comando para baixar sem repetir](song-library/SKILLET-IMAGINE-LOL.md).
 
 Para The Strokes, veja [os 20 destaques e como adicionar sem repetir](song-library/THE-STROKES.md).
 
+As próximas seleções priorizam dois pedais. Veja [2x Kick e a alternativa de
+Nightmare](song-library/DOIS-PEDAIS.md), com orientação para substituir a antiga.
+
 ## Setup
 
 Python 3.11–3.12 and [uv](https://docs.astral.sh/uv/getting-started/installation/).

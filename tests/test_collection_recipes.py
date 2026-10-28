@@ -2,6 +2,7 @@
 
 import hashlib
 import json
+import re
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -129,3 +130,30 @@ def test_given_up_stays_once_in_its_existing_batch() -> None:
     assert len(matches) == 1
     assert matches[0][0] == 2
     assert matches[0][1]["validation"]["drums"]["pro_drums_evidence"]
+
+
+def test_nightmare_double_kick_replacement_is_optional_and_pinned() -> None:
+    guide = (METADATA.parents[2] / "song-library/DOIS-PEDAIS.md").read_text(encoding="utf-8")
+    pin = re.search(r"'nightmare_2x.json'\s*=\s*'([a-f0-9]{64})'", guide)
+    assert pin is not None
+    manifest = recover_pilot.read_manifest(METADATA / "nightmare_2x.json", pin.group(1))
+    assert manifest["optional_replacement"] is True
+    assert len(manifest["songs"]) == 1
+    replacement = manifest["replaces"]
+    previous = recover_pilot.read_manifest(
+        METADATA / replacement["manifest"], replacement["manifest_sha256"]
+    )
+    old = next(s for s in previous["songs"] if s["file_id"] == replacement["file_id"])
+    new = manifest["songs"][0]
+    assert normalized(old["artist"]) == normalized(new["artist"]) == "avengedsevenfold"
+    assert title_key(old["title"]) == title_key(new["title"]) == "nightmare"
+    assert old["file_id"] != new["file_id"]
+    assert not new["qobuz_track_ids"] and not new["playlist_track_ids"]
+    assert new["double_kick"]["confirmed"] is True
+    drums = new["validation"]["drums"]
+    assert drums["pro_drums_evidence"] is True
+    assert drums["expert_plus_kick_note_on_count"] == 454
+    assert drums["kick_note_on_count_with_2x"] == drums["kick_note_on_count"] + 454 == 1370
+    assert new["validation"]["game_verified"] is False
+    index = json.loads((METADATA / "collection_index.json").read_text())
+    assert "nightmare_2x.json" not in {batch["manifest"] for batch in index["batches"]}

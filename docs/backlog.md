@@ -1,5 +1,17 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-28 — Two pedals and Nightmare
+
+Two-pedal priority is retained in AGENTS.md, CONTEXT.md and the diagnostic skill.
+An optional Nightmare alternate has 454 Expert+ kicks in addition to 916 base
+kicks; the existing batch-06 chart already has 471 optional kicks. The inspector
+now reports both counts and the combined total. All 178 core plus 19 DSP tests,
+cached-source isolated recovery and unchanged offline resume pass. Old recipes,
+Onyx/helpers, coverage and audio studies remain unchanged. See the
+[swap guide and next prompt](../song-library/DOIS-PEDAIS.md) and
+[verification evidence](library-double-kick-verification.md). BACKLOG.md
+DCF-LIB-017 owns preparation status; Windows/game testing remains pending.
+
 ## 2026-10-28 — The Strokes highlights
 
 20 new highlights in batches 41–42 passed structural/audio/hash checks and full

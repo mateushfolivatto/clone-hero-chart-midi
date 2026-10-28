@@ -33,6 +33,16 @@ Run the configured quality gates in docs/testing.md, inspect generated artifacts
 update status and lessons, and provide a complete next-session prompt.
 Do not claim game compatibility until the user has actually scanned/played a chart.
 
+For future library selections, the user's standing preference is two-pedal drums:
+prioritize verified Expert+/2x Kick or explicitly authored full double-bass charts
+over single-pedal reductions. Inspect actual Expert notes (.chart 32 / MIDI 95),
+preserve them and their paired audio, and report when 2x is unavailable/unverified.
+Pro Drums, difficulty and a title alone do not establish double-bass support;
+some full 2x editions encode all kicks as ordinary kick notes. Never invent kicks.
+Explain the Clone Hero Modifiers > 2x Kick setting for optional Expert+ notes.
+Keep old recipes immutable; requested alternate editions need an explicit
+replacement route so users do not install the old and new chart unintentionally.
+
 ## Mandatory Git workflow (user instruction)
 
 Before creating or modifying project files, create and switch to a dedicated

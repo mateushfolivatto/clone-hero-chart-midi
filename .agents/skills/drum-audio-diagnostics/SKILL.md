@@ -18,6 +18,24 @@ Não substitua o modelo nem avance o exportador para resolver uma hipótese de �
 
 ## Primeiro estabeleça os fatos
 
+A seleção de charts deve priorizar dois pedais por preferência permanente do
+usuário (2026-10-28). Confira Expert+ / 2x Kick no arquivo: MIDI 95 ou .chart 32
+são ataques adicionais, não marcadores de prato. O inspetor informa essas notas
+separadamente e o total de bumbos com 2x, mantendo as contagens básicas anteriores.
+Há também edições 2x com todos os bumbos em MIDI 96 / .chart 0; registre a declaração
+do autor e a inspeção, sem deduzir suporte só de Pro Drums ou da densidade.
+Não transforme referências para dois pedais em bumbos acústicos inventados nem
+altere perfis/ensaios congelados. Oriente Modifiers > 2x Kick para notas opcionais.
+
+Nightmare confirmou esse cuidado: o chart ImPhanty já publicado no lote 06 tem
+893 bumbos básicos + 471 opcionais (.chart 32). A alternativa Harmonix/UriasP
+tem 916 + 454 (MIDI 95), 1.370 com 2x. Seu 7z original foi obtido, lido pelo
+7-Zip fixado e os sete áudios foram decodificados localmente; notas e áudio
+permanecem originais. A receita opcional e a troca sem duplicatas estão em
+song-library/DOIS-PEDAIS.md; a verificação está em docs/library-double-kick-verification.md.
+Isso confirma notas extras codificadas, não precisão acústica, instrumento físico
+usado pelo baterista, superioridade da edição ou aceitação no jogo.
+
 1. Inspecione o adaptador, o checkpoint, o pré-processamento e os argumentos reais.
    Diferencie código desta cópia de mudanças que só existem no PC do usuário.
 2. Localize áudio e MIDI privados. Se faltarem, entregue diagnóstico do código,
