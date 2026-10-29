@@ -1,5 +1,9 @@
 # Biblioteca de músicas — MixDrumRock
 
+**Sonne — Rammstein:** [SONNE.md](SONNE.md) oferece o lote 43, Pro Drums / Expert,
+com comparação com Songs. Dois pedais foram priorizados, mas 2x não foi confirmado
+nessa edição. A seleção padrão agora contém 676 charts.
+
 **Preferência permanente: dois pedais.** Nas próximas seleções, priorizar
 Expert+ / 2x Kick ou edições com bumbo duplo completo, conferindo o arquivo e
 a indicação do autor. Se não houver versão 2x confirmada, informar a limitação.

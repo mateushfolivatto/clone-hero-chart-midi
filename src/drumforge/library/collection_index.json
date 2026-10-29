@@ -2,10 +2,10 @@
   "schema_version": 1,
   "playlist_url": "https://open.qobuz.com/playlist/69773629",
   "playlist_entries": 744,
-  "unique_new_charts": 663,
+  "unique_new_charts": 664,
   "active_new_charts": 254,
   "drum_modes": {
-    "pro": 546,
+    "pro": 547,
     "standard": 117
   },
   "coverage_entries": {
@@ -15,9 +15,9 @@
     "pilot": 13,
     "blocked": 61
   },
-  "download_bytes": 10793563110,
-  "prepared_bytes": 8703575014,
-  "recommended_free_bytes": 30348196786,
+  "download_bytes": 10826077158,
+  "prepared_bytes": 8727525387,
+  "recommended_free_bytes": 30428611580,
   "game_verified": false,
   "batches": [
     {
@@ -400,6 +400,15 @@
       "drum_mode": "standard",
       "theme": "strokes",
       "theme_label": "The Strokes"
+    },
+    {
+      "number": 43,
+      "manifest": "collection_43.json",
+      "sha256": "1f336811e5678d3522df0dadb022b10a179168a6094ad207a8942733295785f3",
+      "songs": 1,
+      "drum_mode": "pro",
+      "theme": "requests",
+      "theme_label": "Pedidos avulsos"
     }
   ],
   "helpers": {
@@ -407,18 +416,19 @@
     "sevenzip.py": "822d12334b2ab821e3dfec5fcf38d99ce1dfc610c80cfae49170f8b83095da3a",
     "mega_recovery.py": "94149c758ca8f8d60989af41631fc4b2ba559a5f26039893f3704b52e9520191"
   },
-  "curated_charts": 409,
+  "curated_charts": 410,
   "curated_by_theme": {
     "lol": 13,
     "similar": 21,
     "imagine": 15,
     "linkin-park": 207,
     "skillet": 133,
-    "strokes": 20
+    "strokes": 20,
+    "requests": 1
   },
-  "curated_download_bytes": 6841473296,
-  "curated_prepared_bytes": 5347530628,
-  "curated_recommended_free_bytes": 19684018200,
+  "curated_download_bytes": 6873987344,
+  "curated_prepared_bytes": 5371481001,
+  "curated_recommended_free_bytes": 19764432994,
   "linkin_park_expansion": {
     "charts": 207,
     "existing_band_charts": 33,

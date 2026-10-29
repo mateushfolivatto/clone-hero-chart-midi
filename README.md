@@ -20,6 +20,9 @@ Para The Strokes, veja [os 20 destaques e como adicionar sem repetir](song-libra
 As próximas seleções priorizam dois pedais. Veja [2x Kick e a alternativa de
 Nightmare](song-library/DOIS-PEDAIS.md), com orientação para substituir a antiga.
 
+[Sonne, do Rammstein, está no lote 43](song-library/SONNE.md), em Pro Drums / Expert.
+Essa edição não tem 2x Kick confirmado; o guia explica como adicionar sem repetir.
+
 ## Setup
 
 Python 3.11–3.12 and [uv](https://docs.astral.sh/uv/getting-started/installation/).
