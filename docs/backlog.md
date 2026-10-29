@@ -1,5 +1,15 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-28 — Sonne / Rammstein
+
+Batch 43 appends one Pro Drums / Expert chart, retaining earlier recipes and
+Onyx fixes. Two studio sources were inspected; 2x remains explicitly unverified.
+The selected MT/drum revision has 464 base kicks, nine assets/six audio streams.
+The 178 existing core tests, 19 DSP checks, fresh isolated recovery/offline resume
+and actual-song comparisons pass. See [download and next prompt](../song-library/SONNE.md)
+and [verification](library-sonne-verification.md). Canonical task status is
+BACKLOG.md DCF-LIB-018; native Windows and game testing remain pending.
+
 ## 2026-10-28 — Two pedals and Nightmare
 
 Two-pedal priority is retained in AGENTS.md, CONTEXT.md and the diagnostic skill.

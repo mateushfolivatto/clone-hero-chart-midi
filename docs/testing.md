@@ -1,5 +1,14 @@
 # Quality gates
 
+The Sonne batch-43 addition passes the **178 existing core tests and 19 optional
+DSP checks** on Linux/Python 3.12. Generic collection regressions cover its recipe,
+index pin, counts and novelty; no parser or converter behavior was changed.
+Both obtainable studio sources and all seven of their audio streams were checked;
+the selected source supplies six streams. Fresh stdlib recovery, offline resume,
+persistent Onyx diagnostics and empty/renamed-library comparisons pass. See
+[library-sonne-verification.md](library-sonne-verification.md). Two pedals remain
+unverified for this edition; game/native-Windows acceptance is pending.
+
 The two-pedal preference/Nightmare slice passes **178 core tests and 19 optional
 DSP checks** on Linux/Python 3.12. Four regressions distinguish base and optional
 Expert+ kicks in MIDI/.chart, ignore zero-velocity/other-track/difficulty notes

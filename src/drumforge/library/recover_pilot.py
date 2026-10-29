@@ -26,7 +26,7 @@ from urllib.request import Request, urlopen
 # Pinned after a fresh cloud inspection. Never change it to bypass a mismatch.
 MANIFEST_SHA256 = "b7751d6a29d45237984e0e03be5c002de3ac912e9d32dac6dc6d84b7c27b92ed"
 METADATA_FILES = {"LEIA-ME.txt", "musicas.csv", "receita-verificada.json"}
-COLLECTION_SHA256 = "b234592aa0ecc63580c08d93433ecb84ffb3ea3957c48f94d5b32aec0c374a83"
+COLLECTION_SHA256 = "c8cb0edc338c0e9771a6bb84118403608a90a156ee448ea877aa39a3b89cfc5a"
 
 
 class DownloadLink(HTMLParser):

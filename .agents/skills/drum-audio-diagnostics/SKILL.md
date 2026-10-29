@@ -36,6 +36,16 @@ song-library/DOIS-PEDAIS.md; a verificação está em docs/library-double-kick-v
 Isso confirma notas extras codificadas, não precisão acústica, instrumento físico
 usado pelo baterista, superioridade da edição ou aceitação no jogo.
 
+Em Sonne (Rammstein), duas fontes de estúdio foram importadas e executadas pelo
+Onyx fixado. A revisão MT escolhida tem 1.294 notas Expert, 464 bumbos, 82
+marcadores de tom e seis áudios decodificados. Nenhuma das duas fontes importadas
+tem MIDI 95 ou PART DRUMS_2X, nem declaração explícita de 2x; registre suporte
+a dois pedais como não confirmado. Não deduza uma redução de um pedal desses
+zeros nem acrescente notas. A receita do lote 43 e song-library/SONNE.md mantêm
+essa limitação. O RAR alternativo declarou links não suportados pelo leitor;
+foi preservado e não preparado. Não houve inferência ou medição de acurácia
+acústica; os estudos/perfis anteriores continuam congelados.
+
 1. Inspecione o adaptador, o checkpoint, o pré-processamento e os argumentos reais.
    Diferencie código desta cópia de mudanças que só existem no PC do usuário.
 2. Localize áudio e MIDI privados. Se faltarem, entregue diagnóstico do código,

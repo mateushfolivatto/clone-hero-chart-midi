@@ -331,3 +331,6 @@ finding. This file supplements the backlog; it does not redefine task completion
     requested alternate delivery outside automatic batches, with explicit swap
     instructions, source pins and verified offline resume, to avoid duplicate
     installations without rewriting the old recipes.
+    Sonne's follow-up found zero optional kicks in both imported studio sources
+    (407/464 base kicks), with no explicit full-2x author claim. Keep 2x unverified
+    in that case; do not present ordinary kick density as proof of two-pedal fidelity.

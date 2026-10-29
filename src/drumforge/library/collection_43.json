@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "batch_number": 43,
+  "collection_folder": "MixDrumRock - Lote 43 - Sonne",
+  "archive_name": "MixDrumRock-lote-43.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "requests",
+  "theme_label": "Pedidos avulsos",
+  "songs": [
+    {
+      "artist": "Rammstein",
+      "title": "Sonne",
+      "file_id": "fb2e16c957934a20b716c9f651b41dc7",
+      "source_url": "https://rhythmverse.co/songfile/fb2e16c957934a20b716c9f651b41dc7",
+      "download_url": "https://rhythmverse.co/download_file/geeforce11/fb2e16c957934a20b716c9f651b41dc7/Rammstein%20-%20Sonne%20(MT)%20[v2drums]_rb3con",
+      "archive_format": "onyx",
+      "folder": "Rammstein - Sonne [fb2e16c9]",
+      "charter": "beard216 , Mastergox , Furiouss , Imitable , GeeForce11",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1294,
+          "kick_note_on_count": 464,
+          "expert_plus_kick_note_on_count": 0,
+          "kick_note_on_count_with_2x": 464,
+          "tom_marker_count": 82,
+          "last_expert_onset_seconds": 243.497,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "artist": "Rammstein",
+        "title": "Sonne",
+        "file_id": "fb2e16c957934a20b716c9f651b41dc7",
+        "album": "Mutter",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/fb2e16c957934a20b716c9f651b41dc7",
+        "download_url": "https://rhythmverse.co/download_file/geeforce11/fb2e16c957934a20b716c9f651b41dc7/Rammstein - Sonne (MT) [v2drums]_rb3con",
+        "catalog_pro_drums": 0,
+        "notes": "Alternative version of beard216 , Mastergox , Furiouss , Imitable's custom with alternative drums chart, sync fixes and new MT audio",
+        "match_basis": "User-requested studio song; actual notes/audio inspected; double-kick priority checked"
+      },
+      "files": [
+        {
+          "archive_name": "Rammstein - Sonne/album.png",
+          "name": "album.png",
+          "sha256": "d42d87adc3acca368d3aa872430c9d71d5d3d032d9ee142b7f18da1f543042cc"
+        },
+        {
+          "archive_name": "Rammstein - Sonne/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "25ebfc6dc462c39ceadc9dfaa4ba4a84a16f8cd7712671048c0c216e84b69c45"
+        },
+        {
+          "archive_name": "Rammstein - Sonne/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "558d0ecfaff019a296efc4dcdcde3527eea1c211c12d40ba3259d562a8ba7b95"
+        },
+        {
+          "archive_name": "Rammstein - Sonne/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "f599ca039033d1f3f314c525615eb2313ed2418e7db3886a35ec2d72035e36e7"
+        },
+        {
+          "archive_name": "Rammstein - Sonne/notes.mid",
+          "name": "notes.mid",
+          "sha256": "0b62f9c60fce144e76bf31bcff3273eb8f2eda6d9671a6fa5bb96ff18016b6d7"
+        },
+        {
+          "archive_name": "Rammstein - Sonne/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "eabce3ab77b98c2c1b27f2841b851575f1614261122a71b573e1ab01f2dc569c"
+        },
+        {
+          "archive_name": "Rammstein - Sonne/song.ini",
+          "name": "song.ini",
+          "sha256": "97ee79226f4d13743e0372739db691fee87f6aa266c50d620d2a4f578f0d2080"
+        },
+        {
+          "archive_name": "Rammstein - Sonne/song.ogg",
+          "name": "song.ogg",
+          "sha256": "3d06385aaa14fe9359205d719eeeacb379b00e59dc3321d36b7d3822e80d8112"
+        },
+        {
+          "archive_name": "Rammstein - Sonne/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "6bc9b72943e4575393bceb084dcffe3d93b0e4b4b0ea78a9dfeb4ce9fa47e0ec"
+        }
+      ],
+      "archive_sha256": "f408754618a56fea530d78a00e8d4f5274c6a3ce290e28bcece92bf0a6dc8a8d",
+      "archive_bytes": 32514048,
+      "prepared_bytes": 23950373,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "Sonne requested 2026-10-28; independent of Qobuz snapshot",
+      "double_kick": {
+        "status": "unverified",
+        "expert_plus_kick_note_on_count": 0,
+        "source_note_95_count": 0,
+        "separate_source_track_2x": false,
+        "reason": "No optional Expert+ kicks or explicit full-2x author claim in the checked studio sources; full double-bass accuracy not measured"
+      },
+      "selection_reason": "Documented alternative drum revision with sync fixes and MT audio; actual Pro Drums verified; two-pedal preference checked but no confirmed 2x studio source obtained"
+    }
+  ]
+}

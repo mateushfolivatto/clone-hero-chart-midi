@@ -566,6 +566,20 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   song-library/DOIS-PEDAIS.md and docs/library-double-kick-verification.md.
   This completes preparation; Windows execution and game playtesting are pending.
 
+- [x] **DCF-LIB-018 [P0]** Add Sonne by Rammstein in batch 43 without repeating
+  prior selections. The revised drums/sync/MT source has Pro Drums / Expert,
+  1,294 gems, 464 kicks, 82 tom markers and nine assets/six decoded audio files.
+  Two-pedal priority was checked in both obtainable studio sources before/after
+  export; optional kicks are absent and 2x is explicitly unverified. Another RAR
+  is blocked by unsupported archive links; live editions are excluded. Fresh
+  isolated stdlib source download/conversion, unchanged offline resume, ZIP and
+  local-receipt hashes, persistent logs and empty/renamed-library comparisons pass.
+  All 178 existing core tests, 19 DSP tests and configured gates pass. Previous
+  recipes, optional Nightmare, Onyx/helpers, coverage and audio studies stay intact;
+  recover_pilot.py changes only its index pin. See song-library/SONNE.md and
+  docs/library-sonne-verification.md. Preparation is complete; Windows/game
+  acceptance remains pending.
+
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
 The subsequent metadata-export slice captured the playlist only; it did not

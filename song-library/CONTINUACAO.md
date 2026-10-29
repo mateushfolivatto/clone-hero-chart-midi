@@ -1,5 +1,9 @@
 # Baixar a continuação da MixDrumRock
 
+**Sonne — Rammstein:** [SONNE.md](SONNE.md) traz o lote 43, Pro Drums / Expert,
+com comparação para instalar somente se estiver ausente. Esta edição não tem
+2x Kick confirmado; a preferência por dois pedais continua valendo.
+
 **Dois pedais:** [DOIS-PEDAIS.md](DOIS-PEDAIS.md) registra a preferência por
 2x Kick, explica como ativá-lo e oferece uma troca opcional de Nightmare.
 Essa alternativa fica fora do comando geral para evitar instalar duas edições.
@@ -21,7 +25,7 @@ As receitas anteriores e correções do Onyx foram preservadas.
 **Novos lotes temáticos 13–18:** [TEMATICOS.md](TEMATICOS.md) traz 45 charts
 adicionais de League of Legends, Imagine Dragons e bandas semelhantes a Linkin Park,
 sem repetir o piloto/lotes 02–12. Use o bloco dessa página para baixar somente
-os novos lotes. O comando geral abaixo agora percorre todos os lotes 02–42 e
+os novos lotes. O comando geral abaixo agora percorre todos os lotes 02–43 e
 reaproveita os já conferidos. As receitas antigas e correções do Onyx foram mantidas.
 
 Os números a seguir descrevem a preparação anterior da playlist Qobuz:
@@ -38,7 +42,7 @@ Os downloads originais somam aproximadamente **3,7 GiB**. Reserve pelo menos
 somam aproximadamente 3,1 GiB. Alguns originais incluem vídeo/arquivos extras que
 ficam fora das pastas entregues ao jogo.
 
-Para executar o comando geral com **todos os lotes 02–42**, incluindo a curadoria
+Para executar o comando geral com **todos os lotes 02–43**, incluindo a curadoria
 temática, reserve **31 GB livres**. Para somente os lotes 13–18, TEMATICOS.md
 oferece o comando seletivo e recomenda 4 GB livres.
 

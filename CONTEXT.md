@@ -543,6 +543,31 @@ resume pass. All 178 core tests and 19 DSP tests pass. Windows/Scan Songs/playte
 remain pending. See song-library/DOIS-PEDAIS.md and
 docs/library-double-kick-verification.md; DCF-LIB-017 owns preparation status.
 
+## Sonne addition — 2026-10-28
+
+The user requested Sonne by Rammstein. Batch 43 adds the inspected alternative
+drum/sync/MT publication, credited to beard216, Mastergox, Furiouss, Imitable and
+GeeForce11. It has Pro Drums / Expert, 1,294 base gems, 464 kicks, 82 tom markers
+and six decoded audio files in nine runtime assets. Default collection: 676 charts;
+the 675 old recipes plus optional Nightmare source/guide remain unchanged.
+
+Two-pedal priority was applied. Both obtainable studio sources were inspected
+before and after Onyx PS export: zero optional note-95 kicks and no separate
+PART DRUMS_2X track. No explicit full-2x author claim was found. The selected
+recipe records double_kick.status=unverified, rather than inferring a single-pedal
+reduction or inventing hits. Another native RAR could not be prepared because its
+link metadata is unsupported by the reader; two live recordings stay excluded.
+
+The collection index appends one requests-theme recipe and updates counts/budgets;
+recover_pilot.py changes only its index checksum pin. Onyx/other helpers, all
+previous selections, Qobuz coverage and audio-study inputs/profiles/results stay
+unchanged. All 178 existing core tests, 19 DSP tests and configured gates pass.
+Fresh isolated stdlib recovery downloaded the real source and converted through
+the existing Linux AppRun; offline resume, persistent logs and actual-song
+comparison with empty/renamed libraries pass. Native Windows/Scan Songs/playtest
+remain pending. See song-library/SONNE.md, docs/library-sonne-verification.md
+and canonical BACKLOG.md DCF-LIB-018. This completes the single-song preparation.
+
 ## Do not do yet
 
 - GUI
