@@ -1,0 +1,890 @@
+{
+  "schema_version": 1,
+  "batch_number": 44,
+  "collection_folder": "MixDrumRock - Lote 44 - CoD Zombies",
+  "archive_name": "MixDrumRock-lote-44.zip",
+  "game_verified": false,
+  "drum_mode": "pro",
+  "theme": "cod-zombies",
+  "theme_label": "Kevin Sherwood / CoD Zombies",
+  "installed_library_comparison": "deferred by user; review local duplicate scan report after installation",
+  "songs": [
+    {
+      "artist": "Kevin Sherwood",
+      "title": "Abracadavre (ft. Elena Siegman)",
+      "file_id": "621bf67adc7ce6.17216388",
+      "source_url": "https://rhythmverse.co/songfile/621bf67adc7ce6.17216388",
+      "download_url": "https://rhythmverse.co/download_file/acidfoot/621bf67adc7ce6.17216388/kvnshr_abracadavre2x",
+      "archive_format": "onyx",
+      "folder": "Kevin Sherwood - Abracadavre (ft. Elena Siegman) [621bf67a]",
+      "charter": "ACIDFOOT",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2294,
+          "kick_note_on_count": 858,
+          "expert_plus_kick_note_on_count": 674,
+          "kick_note_on_count_with_2x": 1532,
+          "tom_marker_count": 677,
+          "last_expert_onset_seconds": 351.833,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 6,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "621bf67adc7ce6.17216388",
+        "artist": "Kevin Sherwood",
+        "title": "Abracadavre (ft. Elena Siegman)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/621bf67adc7ce6.17216388",
+        "download_url": "https://rhythmverse.co/download_file/acidfoot/621bf67adc7ce6.17216388/kvnshr_abracadavre2x",
+        "catalog_pro_drums": 0,
+        "notes": "",
+        "match_basis": "User-requested CoD Zombies batch; source edition retained; two-pedal sources prioritized"
+      },
+      "files": [
+        {
+          "archive_name": "Kevin Sherwood - Abracadavre (ft. Elena Siegman)/album.png",
+          "name": "album.png",
+          "sha256": "1c0b8448dfd2c87ce2e7b107843b08f162033e2aa601f8bde74d5a8d76cbc3f1"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Abracadavre (ft. Elena Siegman)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "87babe4c7bb415e557e92fb4be1d6fdec32024b04872b7389a5fc18bdb316851"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Abracadavre (ft. Elena Siegman)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "71f31a596c90686ce3431752529d07bb2c48869d87d4f29e1a5b5b6a7682f48f"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Abracadavre (ft. Elena Siegman)/keys.ogg",
+          "name": "keys.ogg",
+          "sha256": "84567041d687566746d0d39d30818fa70b5af1d90e94c4fc18653dd0f3352947"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Abracadavre (ft. Elena Siegman)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "f1a3bf86879305feddaab72d25a4073bebf64fef37fed34c0673f7ee10584ea1"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Abracadavre (ft. Elena Siegman)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "71f31a596c90686ce3431752529d07bb2c48869d87d4f29e1a5b5b6a7682f48f"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Abracadavre (ft. Elena Siegman)/song.ini",
+          "name": "song.ini",
+          "sha256": "298acb37c27e8fe4416efec48e4f338ac84c676a24464d3c64efb614fa844ceb"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Abracadavre (ft. Elena Siegman)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "f14c32aeb18ee77fc353193dbe650355de2748eaef04a89bc98d2f79f321c7b8"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Abracadavre (ft. Elena Siegman)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "84567041d687566746d0d39d30818fa70b5af1d90e94c4fc18653dd0f3352947"
+        }
+      ],
+      "archive_sha256": "b3e43df285c9166e83d6b5338906d486403b601696c53f103f5e5ed32b390ca7",
+      "archive_bytes": 7929856,
+      "prepared_bytes": 7518624,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested Kevin Sherwood / CoD Zombies single batch; existing PC copies will be reviewed after Scan Songs, not filtered during delivery.",
+      "requested_title": "Abracadavre",
+      "double_kick": {
+        "confirmed": true,
+        "status": "confirmed_expert_plus",
+        "encoding": "MIDI 95",
+        "optional_kick_notes": 674,
+        "reason": "Actual optional Expert+ kicks inspected; enable Modifiers > 2x Kick.",
+        "source_kick_counts": {
+          "kick_note_on_count": 1532,
+          "expert_plus_kick_note_on_count": 0,
+          "kick_note_on_count_with_2x": 1532
+        },
+        "source_kick_total_preserved": true
+      }
+    },
+    {
+      "artist": "Kevin Sherwood, Elena Siegman",
+      "title": "Beauty Of Annihilation (2x Bass Pedal)",
+      "file_id": "e0f2f58a52a4457586430ede7a4574f0",
+      "source_url": "https://rhythmverse.co/songfile/e0f2f58a52a4457586430ede7a4574f0",
+      "download_url": "https://drive.google.com/uc?export=download&id=1U7QqFgLFly5Ib5fYocXXrLHFnSLdtxx6",
+      "archive_format": "zip",
+      "folder": "Kevin Sherwood, Elena Siegman - Beauty Of Annihilation (2x Bass Pedal) [e0f2f58a]",
+      "charter": "YozoraGYB",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1463,
+          "kick_note_on_count": 590,
+          "expert_plus_kick_note_on_count": 0,
+          "kick_note_on_count_with_2x": 590,
+          "tom_marker_count": 30,
+          "last_expert_onset_seconds": 266.338,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 2,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "e0f2f58a52a4457586430ede7a4574f0",
+        "artist": "Kevin Sherwood, Elena Siegman",
+        "title": "Beauty Of Annihilation (2x Bass Pedal)",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/e0f2f58a52a4457586430ede7a4574f0",
+        "download_url": "https://drive.google.com/file/d/1U7QqFgLFly5Ib5fYocXXrLHFnSLdtxx6/view?usp=drive_link",
+        "catalog_pro_drums": 0,
+        "notes": "EMH autogenerated by CAT",
+        "match_basis": "User-requested CoD Zombies batch; source edition retained; two-pedal sources prioritized"
+      },
+      "files": [
+        {
+          "archive_name": "Kevin Sherwood, Elena Siegman - Beauty Of Annihilation (2x Bass Pedal)/album.png",
+          "name": "album.png",
+          "sha256": "2010a55709c5e9c464b856518f94ef05ae9cf2938b5f1ab12d1401edf7247163"
+        },
+        {
+          "archive_name": "Kevin Sherwood, Elena Siegman - Beauty Of Annihilation (2x Bass Pedal)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "bf8aa200b31ee3cac75ff12691c393ad985b94336773a0fcf5edf2f047fe9ac5"
+        },
+        {
+          "archive_name": "Kevin Sherwood, Elena Siegman - Beauty Of Annihilation (2x Bass Pedal)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "ce62d3d324ea0bf8591d8eb2055f7b75a2c71f02262725b72b896b80cebc8e39"
+        },
+        {
+          "archive_name": "Kevin Sherwood, Elena Siegman - Beauty Of Annihilation (2x Bass Pedal)/song.ini",
+          "name": "song.ini",
+          "sha256": "fffffa66aa8b0cd8faf6d338e6bba6c9041288154bab10c5681d05aae0a0de1a"
+        },
+        {
+          "archive_name": "Kevin Sherwood, Elena Siegman - Beauty Of Annihilation (2x Bass Pedal)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "87a803bf5fe70cf36da0a5a7cb1c364f4daebda744074ecbc4758aadbc40889d"
+        }
+      ],
+      "archive_sha256": "b34686e10d2f2425ea5032809ec763a05783329a4c0240630cbf653ea1f7c5c9",
+      "archive_bytes": 9839185,
+      "prepared_bytes": 10026481,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested Kevin Sherwood / CoD Zombies single batch; existing PC copies will be reviewed after Scan Songs, not filtered during delivery.",
+      "requested_title": "Beauty of Annihilation",
+      "double_kick": {
+        "confirmed": true,
+        "status": "confirmed_author_2x_ordinary_kicks",
+        "encoding": "ordinary MIDI 96",
+        "optional_kick_notes": 0,
+        "reason": "Author labels the edition 2x Bass Pedal; comparison with the same author's 1x edition finds 27 added ordinary kick attacks, no removed/other added note-ons, and identical shared song.ogg. The authored additional guitar.ogg is retained.",
+        "comparison_1x_source": "https://rhythmverse.co/songfile/bca0d640043944cca329481204f7fe18",
+        "extra_ordinary_kicks": 27
+      }
+    },
+    {
+      "artist": "Kevin Sherwood (ft. Elena Siegman)",
+      "title": "Lullaby for a Deadman",
+      "file_id": "bb2713e5e030456baccdb7121a4bbd0f",
+      "source_url": "https://rhythmverse.co/songfile/bb2713e5e030456baccdb7121a4bbd0f",
+      "download_url": "https://rhythmverse.co/download_file/wcc/bb2713e5e030456baccdb7121a4bbd0f/Kevin%20Sherwood%20(ft.%20Elena%20Siegman)%20-%20Lullaby%20for%20a%20Deadman%20[Sr.%20Dedos%20Rapidos,%20Linos%20Melendi,%20EuroMix].zip",
+      "archive_format": "zip",
+      "folder": "Kevin Sherwood (ft. Elena Siegman) - Lullaby for a Deadman [bb2713e5]",
+      "charter": "Sr. Dedos Rapidos, Linos Melendi, EuroMIX",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1129,
+          "kick_note_on_count": 437,
+          "expert_plus_kick_note_on_count": 0,
+          "kick_note_on_count_with_2x": 437,
+          "tom_marker_count": 11,
+          "last_expert_onset_seconds": 234.903,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "bb2713e5e030456baccdb7121a4bbd0f",
+        "artist": "Kevin Sherwood (ft. Elena Siegman)",
+        "title": "Lullaby for a Deadman",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/bb2713e5e030456baccdb7121a4bbd0f",
+        "download_url": "https://rhythmverse.co/download_file/wcc/bb2713e5e030456baccdb7121a4bbd0f/Kevin Sherwood (ft. Elena Siegman) - Lullaby for a Deadman [Sr. Dedos Rapidos, Linos Melendi, EuroMix].zip",
+        "catalog_pro_drums": 0,
+        "notes": "The first Easter Egg (technically the second) song from Call of Duty: Zombies, found in World At War on the DLC map: Verrückt, which is activated once you lower the chain 3 times into a toilet a the left side of the map. Many thanks to Linos and EuroMIX for collaborating in the chart.",
+        "match_basis": "User-requested CoD Zombies batch; source edition retained; two-pedal sources prioritized"
+      },
+      "files": [
+        {
+          "archive_name": "Kevin Sherwood (ft. Elena Siegman) - Lullaby for a Deadman [Sr. Dedos Rapidos, Linos Melendi, EuroMix]/album.png",
+          "name": "album.png",
+          "sha256": "a62f94f926b803ee785a6413ce18ceb9025e34b9e8a702e61dc174688e630030"
+        },
+        {
+          "archive_name": "Kevin Sherwood (ft. Elena Siegman) - Lullaby for a Deadman [Sr. Dedos Rapidos, Linos Melendi, EuroMix]/background.png",
+          "name": "background.png",
+          "sha256": "43a40965ff0c8ffcb18312979c625a3688575aed2b7bb2b57bfe8b45b7a91a97"
+        },
+        {
+          "archive_name": "Kevin Sherwood (ft. Elena Siegman) - Lullaby for a Deadman [Sr. Dedos Rapidos, Linos Melendi, EuroMix]/notes.mid",
+          "name": "notes.mid",
+          "sha256": "6f872eefee13c60d418cb42a974575bef79bac5d24dcc11b0d372d7d998910f3"
+        },
+        {
+          "archive_name": "Kevin Sherwood (ft. Elena Siegman) - Lullaby for a Deadman [Sr. Dedos Rapidos, Linos Melendi, EuroMix]/song.ini",
+          "name": "song.ini",
+          "sha256": "6175ada9cb1808b659233ef8758b3f8dd191f6cb3100541b3d1c01b4d2c0788a"
+        },
+        {
+          "archive_name": "Kevin Sherwood (ft. Elena Siegman) - Lullaby for a Deadman [Sr. Dedos Rapidos, Linos Melendi, EuroMix]/song.ogg",
+          "name": "song.ogg",
+          "sha256": "705a48ef37be931ecd6108e175665ea366339c2d3afe8d5ae637528235cf05fb"
+        }
+      ],
+      "archive_sha256": "3101fec50b77011e99957ac36a0a175817ee7894f735553ac942391b5eae62af",
+      "archive_bytes": 14639131,
+      "prepared_bytes": 14879785,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested Kevin Sherwood / CoD Zombies single batch; existing PC copies will be reviewed after Scan Songs, not filtered during delivery.",
+      "requested_title": "Lullaby for a Deadman",
+      "double_kick": {
+        "confirmed": false,
+        "status": "unverified",
+        "encoding": null,
+        "optional_kick_notes": 0,
+        "reason": "No optional Expert+ notes or verified full-2x author claim for this source; no single-pedal reduction inferred."
+      }
+    },
+    {
+      "artist": "Kevin Sherwood, Elena Siegman",
+      "title": "The One",
+      "file_id": "74ba0340007c439fa68ad1d46c9dafbd",
+      "source_url": "https://rhythmverse.co/songfile/74ba0340007c439fa68ad1d46c9dafbd",
+      "download_url": "https://drive.google.com/uc?export=download&id=180CWszTd3IPTfkaSUNAo7wguzTkCLkBO",
+      "archive_format": "zip",
+      "folder": "Kevin Sherwood, Elena Siegman - The One [74ba0340]",
+      "charter": "YozoraGYB",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1272,
+          "kick_note_on_count": 400,
+          "expert_plus_kick_note_on_count": 0,
+          "kick_note_on_count_with_2x": 400,
+          "tom_marker_count": 21,
+          "last_expert_onset_seconds": 290.276,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "74ba0340007c439fa68ad1d46c9dafbd",
+        "artist": "Kevin Sherwood, Elena Siegman",
+        "title": "The One",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/74ba0340007c439fa68ad1d46c9dafbd",
+        "download_url": "https://drive.google.com/file/d/180CWszTd3IPTfkaSUNAo7wguzTkCLkBO/view?usp=drive_link",
+        "catalog_pro_drums": 0,
+        "notes": "EMH autogenerated by CAT",
+        "match_basis": "User-requested CoD Zombies batch; source edition retained; two-pedal sources prioritized"
+      },
+      "files": [
+        {
+          "archive_name": "TheOne/album.png",
+          "name": "album.png",
+          "sha256": "cc2a2152f5e4a2ae129eed9bd54f15f70dcb2e521ca4a8c98b4cbecaeae286db"
+        },
+        {
+          "archive_name": "TheOne/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "bd555b16c762d5f0d0ec6c3ed9bd480e900bc59a68557fb838753368621c1908"
+        },
+        {
+          "archive_name": "TheOne/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "fa9454897ce06ee82718cc3838102bbc8dfd079dc761d36be5e974e490efd1bd"
+        },
+        {
+          "archive_name": "TheOne/notes.mid",
+          "name": "notes.mid",
+          "sha256": "a3332851b9100ca5b1a6779780983c7534de10831fc0ccbb0ea5c25de43112c2"
+        },
+        {
+          "archive_name": "TheOne/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "0e062f1591a3ea4bd3ea8a5c8c310e573a2e91b9573a2c44f4e23339256293da"
+        },
+        {
+          "archive_name": "TheOne/song.ini",
+          "name": "song.ini",
+          "sha256": "29fb195641daada280e0d12f45454dca87fc897d65358292682494b8ec2a53db"
+        },
+        {
+          "archive_name": "TheOne/song.ogg",
+          "name": "song.ogg",
+          "sha256": "6c1cd2626e1bcf63f9d6ec89f2ffdee5b8a072c08b4398a030324ff3977d5d09"
+        },
+        {
+          "archive_name": "TheOne/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "3f0f3ac9ebaec5e48811a5a464ca4991f4a48a23fe987851ab886a0cd2d89ccb"
+        }
+      ],
+      "archive_sha256": "da6dd0c619cb935f9ab7e5a074eb5b55d13c4e9eae1bf514bc39a317e78c6bdf",
+      "archive_bytes": 22226123,
+      "prepared_bytes": 22637099,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested Kevin Sherwood / CoD Zombies single batch; existing PC copies will be reviewed after Scan Songs, not filtered during delivery.",
+      "requested_title": "The One",
+      "double_kick": {
+        "confirmed": false,
+        "status": "unverified",
+        "encoding": null,
+        "optional_kick_notes": 0,
+        "reason": "No optional Expert+ notes or verified full-2x author claim for this source; no single-pedal reduction inferred."
+      }
+    },
+    {
+      "artist": "Kevin Sherwood",
+      "title": "Pareidolia (ft. Elena Siegman)",
+      "file_id": "5f79124c400510.64578110",
+      "source_url": "https://rhythmverse.co/songfile/5f79124c400510.64578110",
+      "download_url": "https://drive.google.com/uc?export=download&id=1HlX9cRCTxd7uWexmIQ1iTiQDRP2yxSr1",
+      "archive_format": "onyx",
+      "folder": "Kevin Sherwood - Pareidolia (ft. Elena Siegman) [5f79124c]",
+      "charter": "Mati12Osorio",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 2406,
+          "kick_note_on_count": 1100,
+          "expert_plus_kick_note_on_count": 0,
+          "kick_note_on_count_with_2x": 1100,
+          "tom_marker_count": 315,
+          "last_expert_onset_seconds": 301.802,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "5f79124c400510.64578110",
+        "artist": "Kevin Sherwood",
+        "title": "Pareidolia (ft. Elena Siegman)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/5f79124c400510.64578110",
+        "download_url": "https://drive.google.com/file/d/1HlX9cRCTxd7uWexmIQ1iTiQDRP2yxSr1/view?usp=sharing",
+        "catalog_pro_drums": 0,
+        "notes": "",
+        "match_basis": "User-requested CoD Zombies batch; source edition retained; two-pedal sources prioritized"
+      },
+      "files": [
+        {
+          "archive_name": "Kevin Sherwood - Pareidolia (ft. Elena Siegman)/album.png",
+          "name": "album.png",
+          "sha256": "4aae73615aab3303b943d33b6f4c6181b7ed68011e1b585351773ae17d80295a"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Pareidolia (ft. Elena Siegman)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "02a98b2f483cdb4995362cc6899e95282edbce2277f10f8bb0587e2b1a82437e"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Pareidolia (ft. Elena Siegman)/song.ini",
+          "name": "song.ini",
+          "sha256": "3489bd5b717d736f903295ed0e76a6106cf12e364e58c10feab234e19b5ba466"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Pareidolia (ft. Elena Siegman)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "4f3852648f609282f4c99750eb587b906b8eb0950fe661496df98b73b81a01f8"
+        }
+      ],
+      "archive_sha256": "b08160ce1584fe720f564f13b9d356ef80fb188311fd90fa88b4b081a4d658ff",
+      "archive_bytes": 7729152,
+      "prepared_bytes": 6672867,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested Kevin Sherwood / CoD Zombies single batch; existing PC copies will be reviewed after Scan Songs, not filtered during delivery.",
+      "requested_title": "Pareidolia",
+      "double_kick": {
+        "confirmed": false,
+        "status": "unverified",
+        "encoding": null,
+        "optional_kick_notes": 0,
+        "reason": "No optional Expert+ notes or verified full-2x author claim for this source; no single-pedal reduction inferred.",
+        "source_kick_counts": {
+          "kick_note_on_count": 1100,
+          "expert_plus_kick_note_on_count": 0,
+          "kick_note_on_count_with_2x": 1100
+        },
+        "source_kick_total_preserved": true
+      }
+    },
+    {
+      "artist": "Kevin Sherwood",
+      "title": "Coming Home (ft. Elena Siegman)",
+      "file_id": "63695fce7fb010.94605471",
+      "source_url": "https://rhythmverse.co/songfile/63695fce7fb010.94605471",
+      "download_url": "https://rhythmverse.co/download_file/acidfoot/63695fce7fb010.94605471/kvnshr_cominghome2x",
+      "archive_format": "onyx",
+      "folder": "Kevin Sherwood - Coming Home (ft. Elena Siegman) [63695fce]",
+      "charter": "ACIDFOOT",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1574,
+          "kick_note_on_count": 722,
+          "expert_plus_kick_note_on_count": 509,
+          "kick_note_on_count_with_2x": 1231,
+          "tom_marker_count": 9,
+          "last_expert_onset_seconds": 198.409,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 5,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "63695fce7fb010.94605471",
+        "artist": "Kevin Sherwood",
+        "title": "Coming Home (ft. Elena Siegman)",
+        "game": "rb3xbox",
+        "source_url": "https://rhythmverse.co/songfile/63695fce7fb010.94605471",
+        "download_url": "https://rhythmverse.co/download_file/acidfoot/63695fce7fb010.94605471/kvnshr_cominghome2x",
+        "catalog_pro_drums": 0,
+        "notes": "",
+        "match_basis": "User-requested CoD Zombies batch; source edition retained; two-pedal sources prioritized"
+      },
+      "files": [
+        {
+          "archive_name": "Kevin Sherwood - Coming Home (ft. Elena Siegman)/album.png",
+          "name": "album.png",
+          "sha256": "1fbd8e31fb0bb0a0d0eb3e87c66eb1027d3bc4a17abce00a8cd79a1ecf6e47d0"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Coming Home (ft. Elena Siegman)/drums.ogg",
+          "name": "drums.ogg",
+          "sha256": "3340e8a98976ce88ca7c046993f17a8eb579ca10e105fb9e1475f8a153894dd9"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Coming Home (ft. Elena Siegman)/guitar.ogg",
+          "name": "guitar.ogg",
+          "sha256": "f98b624be19eeff6cb071741e51f5d3ceda5fb42c4ea9f5bfec166d9c4c7ca5a"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Coming Home (ft. Elena Siegman)/notes.mid",
+          "name": "notes.mid",
+          "sha256": "915d1674349faf92c5388896ed0fac626fdc30bbcf866eeb10fcd6257cca9799"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Coming Home (ft. Elena Siegman)/rhythm.ogg",
+          "name": "rhythm.ogg",
+          "sha256": "b7f8696f3a0dbf43b628282b8e5c480a46511fb2638dc34f507acb6a82161d46"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Coming Home (ft. Elena Siegman)/song.ini",
+          "name": "song.ini",
+          "sha256": "d3a2bf28ebb5059930a570b78207030627a890070e3c6cc9e71be82cf35d38d9"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Coming Home (ft. Elena Siegman)/song.ogg",
+          "name": "song.ogg",
+          "sha256": "04784e2af387b5b7ada5a632a277e0fafc3c2d54c451faaa21ded5a6c610916c"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Coming Home (ft. Elena Siegman)/vocals.ogg",
+          "name": "vocals.ogg",
+          "sha256": "0babc5794cfe6e635f75ec3703c754cd8f453769ae4413841ad854bfab957bed"
+        }
+      ],
+      "archive_sha256": "db913c0c447a83d4cfeeb1f275ded35171b873bee9a8b639a91c84ec6a42a778",
+      "archive_bytes": 16379904,
+      "prepared_bytes": 16743079,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested Kevin Sherwood / CoD Zombies single batch; existing PC copies will be reviewed after Scan Songs, not filtered during delivery.",
+      "requested_title": "Coming Home",
+      "double_kick": {
+        "confirmed": true,
+        "status": "confirmed_expert_plus",
+        "encoding": "MIDI 95",
+        "optional_kick_notes": 509,
+        "reason": "Actual optional Expert+ kicks inspected; enable Modifiers > 2x Kick.",
+        "source_kick_counts": {
+          "kick_note_on_count": 1231,
+          "expert_plus_kick_note_on_count": 0,
+          "kick_note_on_count_with_2x": 1231
+        },
+        "source_kick_total_preserved": true
+      }
+    },
+    {
+      "artist": "Kevin Sherwood",
+      "title": "Archangel",
+      "file_id": "a1b4e09746104806bd765b6f79ecfeeb",
+      "source_url": "https://rhythmverse.co/songfile/a1b4e09746104806bd765b6f79ecfeeb",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1YFNlVuEswFp4o8XJkP7e6U879uZrOmet",
+      "archive_format": "files",
+      "folder": "Kevin Sherwood - Archangel [a1b4e097]",
+      "charter": "tomato",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 4059,
+          "kick_note_on_count": 1494,
+          "expert_plus_kick_note_on_count": 1007,
+          "kick_note_on_count_with_2x": 2501,
+          "cymbal_marker_count": 1002,
+          "last_expert_onset_seconds": 311.373,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "a1b4e09746104806bd765b6f79ecfeeb",
+        "artist": "Kevin Sherwood",
+        "title": "Archangel",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/a1b4e09746104806bd765b6f79ecfeeb",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1YFNlVuEswFp4o8XJkP7e6U879uZrOmet",
+        "catalog_pro_drums": 0,
+        "notes": "",
+        "match_basis": "User-requested CoD Zombies batch; source edition retained; two-pedal sources prioritized"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "2a8b0e0531212e2c5a91089875e40d386278e9dadd014881f4006f8e2ecbc4c2",
+          "download_url": "https://drive.google.com/uc?export=download&id=1L79TEHXBxxdo4bZk4S_goSdpB1luYiXV",
+          "source_sha256": "2a8b0e0531212e2c5a91089875e40d386278e9dadd014881f4006f8e2ecbc4c2",
+          "bytes": 678007
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "cd375005ef1fb6fba12e041af282d31c3cad60b36baa675bd48789698005f9ad",
+          "download_url": "https://drive.google.com/uc?export=download&id=1LlANjY8ZxmjXFv7aOC7lm7bvd1jDIiE0",
+          "source_sha256": "cd375005ef1fb6fba12e041af282d31c3cad60b36baa675bd48789698005f9ad",
+          "bytes": 110835
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "943819c098926cc0cdbe5e1637483d7959020ffee2b72876c21521c8dc064057",
+          "download_url": "https://drive.google.com/uc?export=download&id=1pW1xOMzlA3CE9hAlKjC_cluisbHhE3qL",
+          "source_sha256": "31072b4cb4c305e2d8eabf244c1711d9ba5897686dda47810aefb7448ff9b6f2",
+          "bytes": 449
+        },
+        {
+          "archive_name": "song.ogg",
+          "name": "song.ogg",
+          "sha256": "552e5e2f6f67bec907119bab1e82b50b23f09db325f510e5e55cdc565d4cf1c5",
+          "download_url": "https://drive.google.com/uc?export=download&id=19ueAmldWF30e_qkMJlhqs9VLdtdWBZ72",
+          "source_sha256": "552e5e2f6f67bec907119bab1e82b50b23f09db325f510e5e55cdc565d4cf1c5",
+          "bytes": 13363517
+        }
+      ],
+      "prepared_bytes": 14152796,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested Kevin Sherwood / CoD Zombies single batch; existing PC copies will be reviewed after Scan Songs, not filtered during delivery.",
+      "requested_title": "Archangel",
+      "double_kick": {
+        "confirmed": true,
+        "status": "confirmed_expert_plus",
+        "encoding": ".chart 32",
+        "optional_kick_notes": 1007,
+        "reason": "Actual optional Expert+ kicks inspected; enable Modifiers > 2x Kick."
+      }
+    },
+    {
+      "artist": "Kevin Sherwood",
+      "title": "I am the Well",
+      "file_id": "66124c4f4c1f421d89286c105bd99a63",
+      "source_url": "https://rhythmverse.co/songfile/66124c4f4c1f421d89286c105bd99a63",
+      "download_url": "https://drive.google.com/drive/u/0/folders/1UFRlDjorLoqwzbmmGKEb1AM2XFfGtxPh",
+      "archive_format": "files",
+      "folder": "Kevin Sherwood - I am the Well [66124c4f]",
+      "charter": "tomato",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2576,
+          "kick_note_on_count": 1074,
+          "expert_plus_kick_note_on_count": 648,
+          "kick_note_on_count_with_2x": 1722,
+          "cymbal_marker_count": 919,
+          "last_expert_onset_seconds": 257.7,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "66124c4f4c1f421d89286c105bd99a63",
+        "artist": "Kevin Sherwood",
+        "title": "I am the Well",
+        "game": "ch",
+        "source_url": "https://rhythmverse.co/songfile/66124c4f4c1f421d89286c105bd99a63",
+        "download_url": "https://drive.google.com/drive/u/0/folders/1UFRlDjorLoqwzbmmGKEb1AM2XFfGtxPh",
+        "catalog_pro_drums": 0,
+        "notes": "",
+        "match_basis": "User-requested CoD Zombies batch; source edition retained; two-pedal sources prioritized"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "b8cdfffdedb7744e662bfc602a6870592726ca2416d9f8ac28fd47c94c2cc588",
+          "download_url": "https://drive.google.com/uc?export=download&id=1oIoc571QaKAibzGDhT0HRMbu1UYGdjPX",
+          "source_sha256": "b8cdfffdedb7744e662bfc602a6870592726ca2416d9f8ac28fd47c94c2cc588",
+          "bytes": 517316
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "6b02bb4c7b994e59b13a4688865ae4f14e91bace987271edf53b17dce23e3451",
+          "download_url": "https://drive.google.com/uc?export=download&id=1zLHbxnguEcOcgcIhf8PSp_r04x8TVh6D",
+          "source_sha256": "6b02bb4c7b994e59b13a4688865ae4f14e91bace987271edf53b17dce23e3451",
+          "bytes": 78720
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "1768d5e6154740c7d4c6b1245c6063a5a43edb02e93e80d063c0ea5037c3cbae",
+          "download_url": "https://drive.google.com/uc?export=download&id=14wI3LaGpaHh8nIWls3KBQvOZ-RpMMyen",
+          "source_sha256": "c5a9c9272e8944e263696e019a1fd0c18eb198c95727f9b7602e2c96a860daae",
+          "bytes": 484
+        },
+        {
+          "archive_name": "song.opus",
+          "name": "song.opus",
+          "sha256": "fd4548f0ba401509ebfcc35d46a1dcee67df7ee080408ba1aae5f1e4a69cdbe1",
+          "download_url": "https://drive.google.com/uc?export=download&id=1VeIV-MFtJHV7lkY0SaTLXZmLVxK0QX_x",
+          "source_sha256": "fd4548f0ba401509ebfcc35d46a1dcee67df7ee080408ba1aae5f1e4a69cdbe1",
+          "bytes": 2736480
+        }
+      ],
+      "prepared_bytes": 3332991,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested Kevin Sherwood / CoD Zombies single batch; existing PC copies will be reviewed after Scan Songs, not filtered during delivery.",
+      "requested_title": "I am the Well",
+      "double_kick": {
+        "confirmed": true,
+        "status": "confirmed_expert_plus",
+        "encoding": ".chart 32",
+        "optional_kick_notes": 648,
+        "reason": "Actual optional Expert+ kicks inspected; enable Modifiers > 2x Kick."
+      }
+    },
+    {
+      "artist": "Kevin Sherwood",
+      "title": "Undone",
+      "file_id": "65c0a3960a754054985a29e729be314b",
+      "source_url": "https://rhythmverse.co/songfile/65c0a3960a754054985a29e729be314b",
+      "download_url": "https://drive.google.com/uc?export=download&id=1V9P-MI8j0DSOBz6ZZwl_8ObfDL_GI_Xn",
+      "archive_format": "zip",
+      "folder": "Kevin Sherwood - Undone [65c0a396]",
+      "charter": "YozoraGYB",
+      "set_pro_drums": false,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "mid",
+          "expert_note_on_count": 1246,
+          "kick_note_on_count": 235,
+          "expert_plus_kick_note_on_count": 0,
+          "kick_note_on_count_with_2x": 235,
+          "tom_marker_count": 158,
+          "last_expert_onset_seconds": 227.75,
+          "validation_scope": "conductor and PART DRUMS; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "65c0a3960a754054985a29e729be314b",
+        "artist": "Kevin Sherwood",
+        "title": "Undone",
+        "game": "rv",
+        "source_url": "https://rhythmverse.co/songfile/65c0a3960a754054985a29e729be314b",
+        "download_url": "https://drive.google.com/file/d/1V9P-MI8j0DSOBz6ZZwl_8ObfDL_GI_Xn/view?usp=sharing",
+        "catalog_pro_drums": 0,
+        "notes": "EMH autogenerated by CAT",
+        "match_basis": "User-requested CoD Zombies batch; source edition retained; two-pedal sources prioritized"
+      },
+      "files": [
+        {
+          "archive_name": "Kevin Sherwood - Undone/album.png",
+          "name": "album.png",
+          "sha256": "2010a55709c5e9c464b856518f94ef05ae9cf2938b5f1ab12d1401edf7247163"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Undone/notes.mid",
+          "name": "notes.mid",
+          "sha256": "bb3798395869f8528ee6fb6e4a79f06869e3a16c1a158fd35022b9f478b7283d"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Undone/song.ini",
+          "name": "song.ini",
+          "sha256": "b20ade1ef129838bc9d9968ad3fef9e2fd3c227f392386427d470c13073da41a"
+        },
+        {
+          "archive_name": "Kevin Sherwood - Undone/song.ogg",
+          "name": "song.ogg",
+          "sha256": "2b9109c6e24ff9c2f946286da897b665bcf4fe7e7ebefe2a9a0c660dae7fe6d4"
+        }
+      ],
+      "archive_sha256": "48a75325212be887708b5631a54a596f819c50482ba63b94521d8d16cf4c9940",
+      "archive_bytes": 3450104,
+      "prepared_bytes": 3581592,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested Kevin Sherwood / CoD Zombies single batch; existing PC copies will be reviewed after Scan Songs, not filtered during delivery.",
+      "requested_title": "Undone",
+      "double_kick": {
+        "confirmed": false,
+        "status": "unverified",
+        "encoding": null,
+        "optional_kick_notes": 0,
+        "reason": "No optional Expert+ notes or verified full-2x author claim for this source; no single-pedal reduction inferred."
+      }
+    },
+    {
+      "artist": "Kevin Sherwood",
+      "title": "Dead Again",
+      "file_id": "encore_608597_8a9be2c6",
+      "source_url": "https://drive.google.com/drive/folders/18NARgaJ-r5FwkWO5iPwNsxbuvkYRHToc",
+      "download_url": "https://drive.google.com/drive/folders/18NARgaJ-r5FwkWO5iPwNsxbuvkYRHToc",
+      "archive_format": "files",
+      "folder": "Kevin Sherwood - Dead Again [encore60]",
+      "charter": "tomato",
+      "set_pro_drums": true,
+      "drum_mode": "pro",
+      "validation": {
+        "drums": {
+          "format": "chart",
+          "expert_note_on_count": 2329,
+          "kick_note_on_count": 1086,
+          "expert_plus_kick_note_on_count": 630,
+          "kick_note_on_count_with_2x": 1716,
+          "cymbal_marker_count": 624,
+          "last_expert_onset_seconds": 288.089,
+          "validation_scope": "ExpertDrums and tempo map; other instruments unverified",
+          "pro_drums_configured": true,
+          "pro_drums_evidence": true
+        },
+        "decoded_audio_files": 1,
+        "game_verified": false
+      },
+      "match": {
+        "file_id": "encore_608597_8a9be2c6",
+        "artist": "Kevin Sherwood",
+        "title": "Dead Again",
+        "game": "ch",
+        "source_url": "https://drive.google.com/drive/folders/18NARgaJ-r5FwkWO5iPwNsxbuvkYRHToc",
+        "download_url": "https://drive.google.com/drive/folders/18NARgaJ-r5FwkWO5iPwNsxbuvkYRHToc",
+        "catalog_pro_drums": false,
+        "notes": "",
+        "match_basis": "User-requested CoD Zombies batch; source edition retained; two-pedal sources prioritized",
+        "encore_chart_id": 608597,
+        "catalog_charter": "tomato"
+      },
+      "files": [
+        {
+          "archive_name": "album.png",
+          "name": "album.png",
+          "sha256": "dba17f82854397c6e676add8fd3b163b804daa7573c5096c1d7d1df93ff84f32",
+          "download_url": "https://drive.google.com/uc?export=download&id=1sSrpTwaQbBRQRI5qMSHO9BrBAfBRA9Z9",
+          "source_sha256": "dba17f82854397c6e676add8fd3b163b804daa7573c5096c1d7d1df93ff84f32",
+          "bytes": 462110
+        },
+        {
+          "archive_name": "notes.chart",
+          "name": "notes.chart",
+          "sha256": "6d270883281116af7cca8ea060e02c70e10cfa1ba35a2c2328affadf31d9b3a3",
+          "download_url": "https://drive.google.com/uc?export=download&id=1gHlkh7IOZ1b_OhOjxfmHTbNravtAJSgy",
+          "source_sha256": "6d270883281116af7cca8ea060e02c70e10cfa1ba35a2c2328affadf31d9b3a3",
+          "bytes": 65166
+        },
+        {
+          "archive_name": "song.ini",
+          "name": "song.ini",
+          "sha256": "9e20bd120c5e62cbc804d8a56aeefca7aed8f645be1d24b6901f876e6bb287fc",
+          "download_url": "https://drive.google.com/uc?export=download&id=1bowZlZJ4rVwFGZaCQXPZTe0hm-7lcdaO",
+          "source_sha256": "675c0d3d886163e80ef7c4a256cfc9a527ed6e53ad96c029383b802253dbfa14",
+          "bytes": 456
+        },
+        {
+          "archive_name": "song.opus",
+          "name": "song.opus",
+          "sha256": "42460c1d771af34be0d2f8f7cd65d8b8aba02e77b5277656aa9af4bf0fdf35cc",
+          "download_url": "https://drive.google.com/uc?export=download&id=1Cp1VycFtla0Cl6tfOTmcia6lop3Gc39x",
+          "source_sha256": "42460c1d771af34be0d2f8f7cd65d8b8aba02e77b5277656aa9af4bf0fdf35cc",
+          "bytes": 2933091
+        }
+      ],
+      "prepared_bytes": 3460815,
+      "qobuz_track_ids": [],
+      "playlist_track_ids": [],
+      "selection_scope": "User-requested Kevin Sherwood / CoD Zombies single batch; existing PC copies will be reviewed after Scan Songs, not filtered during delivery.",
+      "requested_title": "Dead Again",
+      "double_kick": {
+        "confirmed": true,
+        "status": "confirmed_expert_plus",
+        "encoding": ".chart 32",
+        "optional_kick_notes": 630,
+        "reason": "Actual optional Expert+ kicks inspected; enable Modifiers > 2x Kick."
+      }
+    }
+  ]
+}

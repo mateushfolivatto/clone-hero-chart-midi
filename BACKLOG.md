@@ -580,6 +580,21 @@ See song-library/README.md for scope, evidence and the continuation prompt.
   docs/library-sonne-verification.md. Preparation is complete; Windows/game
   acceptance remains pending.
 
+- [x] **DCF-LIB-019 [P0]** Prepare the ten discovered Kevin Sherwood / CoD Zombies
+  titles in one batch, prioritizing two pedals and deferring the user's old-library
+  duplicates review until their scan log. All ten sources are prepared as Pro Drums
+  / Expert in batch 44: 55 assets, 24 complete audio decodes, 20,348 base gems.
+  Five charts contain 3,468 optional kicks; Beauty's authored 2x edition adds 27
+  ordinary kicks relative to its paired 1x. Four sources retain unverified 2x.
+  Source import checks preserve Onyx kick totals. Old recipes/helpers, Qobuz
+  coverage and audio studies are preserved. Fresh public-source recovery of all
+  ten songs under isolated stdlib Python, byte/mtime-identical offline resume,
+  three persistent Onyx attempts and both ZIP/hash checks pass. All 178 core
+  tests, 19 DSP checks, lock/static/CLI/build and archive-hygiene gates pass. See
+  song-library/COD-ZOMBIES.md and docs/library-cod-zombies-verification.md.
+  This completes preparation; native Windows/game acceptance and the user's
+  older-song duplicate review remain pending.
+
 No real songs were searched, downloaded, converted or verified in the game during
 the organization slice. DCF-LIB-001 completion does not complete the workstream.
 The subsequent metadata-export slice captured the playlist only; it did not

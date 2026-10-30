@@ -1,8 +1,13 @@
 # Biblioteca de músicas — MixDrumRock
 
+**Kevin Sherwood / CoD Zombies:** [COD-ZOMBIES.md](COD-ZOMBIES.md) reúne dez músicas
+no lote 44, todas Pro Drums / Expert; seis edições têm dois pedais confirmados.
+O download inclui o lote inteiro, com conferência das cópias antigas adiada pelo
+usuário até o envio do log de repetidas. A seleção padrão agora contém 686 charts.
+
 **Sonne — Rammstein:** [SONNE.md](SONNE.md) oferece o lote 43, Pro Drums / Expert,
 com comparação com Songs. Dois pedais foram priorizados, mas 2x não foi confirmado
-nessa edição. A seleção padrão agora contém 676 charts.
+nessa edição. Essa adição havia levado a seleção padrão a 676 charts.
 
 **Preferência permanente: dois pedais.** Nas próximas seleções, priorizar
 Expert+ / 2x Kick ou edições com bumbo duplo completo, conferindo o arquivo e

@@ -334,3 +334,21 @@ finding. This file supplements the backlog; it does not redefine task completion
     Sonne's follow-up found zero optional kicks in both imported studio sources
     (407/464 base kicks), with no explicit full-2x author claim. Keep 2x unverified
     in that case; do not present ordinary kick density as proof of two-pedal fidelity.
+    The CoD follow-up confirmed a concrete ordinary-note case: the author's 2x
+    Beauty of Annihilation has 590 MIDI-96 kicks versus 563 in the paired 1x,
+    adding exactly 27 kick attacks without removing other note-ons. Shared
+    song.ogg is identical, but the 2x has an additional authored guitar.ogg;
+    compare actual asset sets before claiming whole-package audio equality.
+
+## 2026-10-30 — CoD Zombies source identities
+
+53. **Search composer, performer and known title variants before declaring gaps.**
+    The old conservative snapshot listed Lullaby Of A Deadman as not found under
+    Kevin Sherwood. A composer-wide search located Lullaby for a Deadman with
+    featured Elena Siegman credits and a source description identifying Verrückt.
+    The real original package then validated Pro Drums and paired audio. Search
+    aliases explicitly and verify source identity; do not globally strip recording
+    qualifiers or accept every fuzzy match. Preserve the old coverage snapshot and
+    record the new curated outcome separately. Five other charts' optional kicks
+    and the paired Beauty 1x/2x comparison verify that title labels alone are weaker
+    than actual note/source evidence.

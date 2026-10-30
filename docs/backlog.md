@@ -1,5 +1,16 @@
 # Backlog navigation and Phase 0 report
 
+## 2026-10-30 — Kevin Sherwood / CoD Zombies
+
+One batch (44) contains all ten requested Pro Drums / Expert charts, with six
+confirmed two-pedal editions. The user explicitly deferred comparison with their
+pre-project copies until supplying a duplicate-scan log. Fresh isolated recovery,
+unchanged offline resume, source/ZIP/audio checks, 178 core tests and 19 DSP checks
+pass. Old recipes and Onyx corrections are preserved. See the
+[Windows guide and next prompt](../song-library/COD-ZOMBIES.md) and
+[verification](library-cod-zombies-verification.md). BACKLOG.md DCF-LIB-019 owns
+status; Windows/game acceptance and older-copy review remain pending.
+
 ## 2026-10-28 — Sonne / Rammstein
 
 Batch 43 appends one Pro Drums / Expert chart, retaining earlier recipes and

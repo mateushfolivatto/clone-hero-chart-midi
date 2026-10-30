@@ -1,5 +1,9 @@
 # Baixar a continuação da MixDrumRock
 
+**Kevin Sherwood / CoD Zombies:** [COD-ZOMBIES.md](COD-ZOMBIES.md) traz o lote 44
+com dez músicas Pro Drums / Expert, seis com dois pedais confirmados. O usuário
+pediu baixar o lote completo e conferir as cópias anteriores pelo log depois.
+
 **Sonne — Rammstein:** [SONNE.md](SONNE.md) traz o lote 43, Pro Drums / Expert,
 com comparação para instalar somente se estiver ausente. Esta edição não tem
 2x Kick confirmado; a preferência por dois pedais continua valendo.
@@ -25,7 +29,7 @@ As receitas anteriores e correções do Onyx foram preservadas.
 **Novos lotes temáticos 13–18:** [TEMATICOS.md](TEMATICOS.md) traz 45 charts
 adicionais de League of Legends, Imagine Dragons e bandas semelhantes a Linkin Park,
 sem repetir o piloto/lotes 02–12. Use o bloco dessa página para baixar somente
-os novos lotes. O comando geral abaixo agora percorre todos os lotes 02–43 e
+os novos lotes. O comando geral abaixo agora percorre todos os lotes 02–44 e
 reaproveita os já conferidos. As receitas antigas e correções do Onyx foram mantidas.
 
 Os números a seguir descrevem a preparação anterior da playlist Qobuz:
@@ -42,7 +46,7 @@ Os downloads originais somam aproximadamente **3,7 GiB**. Reserve pelo menos
 somam aproximadamente 3,1 GiB. Alguns originais incluem vídeo/arquivos extras que
 ficam fora das pastas entregues ao jogo.
 
-Para executar o comando geral com **todos os lotes 02–43**, incluindo a curadoria
+Para executar o comando geral com **todos os lotes 02–44**, incluindo a curadoria
 temática, reserve **31 GB livres**. Para somente os lotes 13–18, TEMATICOS.md
 oferece o comando seletivo e recomenda 4 GB livres.
 
