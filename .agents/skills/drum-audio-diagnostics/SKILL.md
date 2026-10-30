@@ -46,6 +46,25 @@ essa limitação. O RAR alternativo declarou links não suportados pelo leitor;
 foi preservado e não preparado. Não houve inferência ou medição de acurácia
 acústica; os estudos/perfis anteriores continuam congelados.
 
+No lote 44 de CoD Zombies, os dez pares originais foram obtidos e inspecionados:
+55 assets, 24 áudios completos e 20.348 notas Expert básicas. Cinco charts têm
+3.468 bumbos opcionais ao todo: Abracadavre 674, Coming Home 509, Archangel 1.007,
+I am the Well 648 e Dead Again 630. As importações originais de Abracadavre e
+Coming Home usam 1.532/1.231 bumbos normais; o Onyx exporta os mesmos totais
+em básicos + opcionais. Essa mudança de codificação não é perda de bumbo.
+Beauty of Annihilation é outro caso: a edição 2x do autor tem 590 MIDI 96,
+sem MIDI 95; comparada à 1x, acrescenta 27 ataques de bumbo, sem remover notas
+ou acrescentar ataques de outras classes. song.ogg é idêntico entre as duas;
+a edição 2x ainda contém guitar.ogg próprio, preservado. Não declare que todos
+os assets das duas edições são iguais. Lullaby, The One, Pareidolia e Undone
+ficam com 2x não confirmado. Fontes, limitações e recuperação estão em
+song-library/COD-ZOMBIES.md e docs/library-cod-zombies-verification.md.
+Esse trabalho executou aquisição, leitura, conversão e decodificação locais;
+não executou transcritor/modelo nem mediu acurácia acústica ou aceitação no jogo.
+Por pedido explícito do usuário, o lote completo será comparado às músicas que
+ele instalou por fora somente após o envio do log de repetidas. Preserve esse
+escopo: logs não detectam necessariamente charts diferentes da mesma composição.
+
 1. Inspecione o adaptador, o checkpoint, o pré-processamento e os argumentos reais.
    Diferencie código desta cópia de mudanças que só existem no PC do usuário.
 2. Localize áudio e MIDI privados. Se faltarem, entregue diagnóstico do código,

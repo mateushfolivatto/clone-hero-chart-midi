@@ -568,6 +568,37 @@ comparison with empty/renamed libraries pass. Native Windows/Scan Songs/playtest
 remain pending. See song-library/SONNE.md, docs/library-sonne-verification.md
 and canonical BACKLOG.md DCF-LIB-018. This completes the single-song preparation.
 
+## Kevin Sherwood / CoD Zombies batch — 2026-10-30
+
+The user requested the ten newly discovered titles in one batch, explicitly
+deferring comparison with songs installed before this project until a local
+duplicate-scan report is supplied. Batch 44 contains all ten as Pro Drums / Expert;
+the default collection now has 686 charts, plus the optional Nightmare alternate.
+The download guide deliberately recovers the entire batch without an inventory
+gate or automatic installation/deletion. Different charts of the same composition
+may require title comparison because a duplicate chart log need not flag them.
+
+Six editions have confirmed 2x authoring. Abracadavre, Coming Home, Archangel,
+I am the Well and Dead Again contain 3,468 optional kicks in total; Modifiers >
+2x Kick enables them. Beauty of Annihilation is the author's full-2x edition with
+590 ordinary kicks, 27 more than its paired 1x. Shared song.ogg is byte-identical;
+an additional authored guitar.ogg remains with the 2x source. Lullaby, The One,
+Pareidolia and Undone retain explicitly unverified 2x status. No kicks are invented.
+
+The ten real sources yielded 55 runtime assets, 24 complete audio decodes and
+20,348 base Expert gems. Three use the existing Onyx; independent source imports
+preserve total authored kicks across its basic/optional encoding. Native assets
+retain their source bytes except the existing evidence-based Pro flag behavior.
+All old recipes, helpers/Onyx fixes, coverage and frozen studies remain unchanged;
+recover_pilot.py changes only its index pin. New curated outcomes do not rewrite
+the historical Qobuz coverage snapshot. See song-library/COD-ZOMBIES.md and
+docs/library-cod-zombies-verification.md; BACKLOG.md DCF-LIB-019 owns status.
+Fresh isolated stdlib recovery downloads all ten original sources/folder assets;
+offline resume preserves every output's hash, size and mtime, including three
+persistent Onyx logs/timing pairs. All 178 core and 19 DSP tests, lock/static/
+CLI/build and distribution-hygiene gates pass on Linux/Python 3.12.
+Native Windows, Scan Songs, timing and pedal playtesting still need user results.
+
 ## Do not do yet
 
 - GUI

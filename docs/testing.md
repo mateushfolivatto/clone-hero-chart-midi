@@ -1,5 +1,16 @@
 # Quality gates
 
+The CoD Zombies batch passes **178 existing core tests and 19 optional DSP
+checks** on Linux/Python 3.12. No production behavior changed beyond the index
+checksum pin; existing recipe tests verify counts, helper identities and novelty.
+All ten songs were freshly recovered under isolated stdlib Python, followed by
+unchanged offline resume. Both prepared/fresh runtime sets and ZIPs pass asset
+hash/CRC checks, all 24 fresh audio assets decode, and source import/paired-edition
+checks substantiate the six 2x choices. See
+[library-cod-zombies-verification.md](library-cod-zombies-verification.md).
+Old recipes, Onyx/helpers, Qobuz coverage and frozen studies remain unchanged.
+Native Windows/game acceptance and the explicitly deferred duplicate review stay pending.
+
 The Sonne batch-43 addition passes the **178 existing core tests and 19 optional
 DSP checks** on Linux/Python 3.12. Generic collection regressions cover its recipe,
 index pin, counts and novelty; no parser or converter behavior was changed.

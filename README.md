@@ -23,6 +23,10 @@ Nightmare](song-library/DOIS-PEDAIS.md), com orientação para substituir a anti
 [Sonne, do Rammstein, está no lote 43](song-library/SONNE.md), em Pro Drums / Expert.
 Essa edição não tem 2x Kick confirmado; o guia explica como adicionar sem repetir.
 
+[Kevin Sherwood / CoD Zombies: dez músicas no lote 44](song-library/COD-ZOMBIES.md),
+todas Pro Drums / Expert, seis com dois pedais confirmados. Por pedido do usuário,
+o lote completo é baixado antes da conferência das cópias antigas pelo log do jogo.
+
 ## Setup
 
 Python 3.11–3.12 and [uv](https://docs.astral.sh/uv/getting-started/installation/).
